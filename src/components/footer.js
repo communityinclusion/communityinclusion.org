@@ -1,4 +1,5 @@
 import React from 'react'
+import { withPrefix } from "gatsby"
 import umbcombo from '../images/bch-umb-combo_logo.png'
 
 const Footer = () => (

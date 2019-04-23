@@ -1,4 +1,5 @@
-import { Link } from "gatsby";
+import { Link } from "gatsby"
+import { withPrefix } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import logo from '../images/ICIsquare_color_32x32.png'
@@ -16,7 +17,7 @@ const Header = ({ siteTitle }) => (
     <div className = "fl w-15-ns w-20 pa2" >
 
 
-   <Link to="index.js"
+   <Link to="/"
    className = "dtc v-mid mid-gray link "
    ></Link>
  {/*   <
