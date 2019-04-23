@@ -47,9 +47,9 @@ const Header = ({ siteTitle }) => (
         </li> */
     }
     <li className = "ph4  tl dn-l" >
-    <a href = "/about/"
+    <Link to= "/about/"
     className = "white link" >
-    About ICI </a> </li>
+    About ICI </Link> </li>
     <li className = "ph4 di-l  tl pv0-l" >
     <a href = "/areas-of-emphasis/"
     className = "white link" >

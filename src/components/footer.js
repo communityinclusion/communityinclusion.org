@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 import { withPrefix } from "gatsby"
 import umbcombo from '../images/bch-umb-combo_logo.png'
 
