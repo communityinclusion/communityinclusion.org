@@ -1,5 +1,4 @@
 import { Link } from "gatsby"
-import { withPrefix } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import logo from '../images/ICIsquare_color_32x32.png'
@@ -56,18 +55,18 @@ const Header = ({ siteTitle }) => (
     Areas of Emphasis
     </a> </li>
     <li className = "ph4 di-l  tl pv0-l" >
-    <a href = "/projects/"
+    <Link to= "/projects/"
     className = "white link" >
-    Projects </a>
+    Projects </Link>
     </li>
     <li className = "ph4 di-l  tl pv0-l" >
-    <a href = "/services/"
+    <Link to= "/services/"
     className = "white link" >
-    Services </a> </li>
+    Services </Link> </li>
      <li className = "ph4 dib-l  tl pv0-l" >
-    <a href = "/resources/"
+    <Link to= "/resources/"
     className = "white link" >
-    Resources </a> </li> </ul>
+    Resources </Link> </li> </ul>
     </nav>
 
     { /*----End Mobile Nav */ }
@@ -75,15 +74,14 @@ const Header = ({ siteTitle }) => (
     <div className = "desktop-nav mw9 center " >
     <div className = "cf ph2-ns" >
     <div className = "fl w-15-ns w-20 pa2" >
-    <a className = "dtc v-mid mid-gray link "
-    href = "/"
+    <Link to= "/" className = "dtc v-mid mid-gray link "
     title = "Home" >
   <img className = "dib mw-100 h-auto"
    			 alt = "Institute for Community Inclusion"
             src={logo}
           />
 
-    </a> </div> <div className = "fl w-65-ns w-60 pa2" >
+    </Link> </div> <div className = "fl w-65-ns w-60 pa2" >
     <h1 className = "link dim dark-blue b f2-ns db mb2  f5 "
     href = "/"
     title = "Home" >
@@ -94,18 +92,15 @@ const Header = ({ siteTitle }) => (
     <div className = "db dtc-l v-mid w-100 w-75-l" >
     <ul className = "flex-container space-between list pl0" >
     <li className = "flex-item dib" >
-    <a className = "link dim dark-gray f6 dib "
-    href = "/subscribe/"
+   <Link to= "/subscribe/" className="link dim dark-gray f6 dib "
     title = "Subscribe" >
-    Subscribe { " " } </a> </li> <li className = "flex-item dib" > { " " } <
-    a className = "link dim dark-gray f6 dib "
-    href = "/contact/"
+    Subscribe { " " } </Link> </li> <li className = "flex-item dib" > { " " }
+   <Link to="/contact/" className="link dim dark-gray f6 dib "
     title = "Contact" >
-    Contact </a> </li> <li className = "flex-item dib" > { " " }
-    <a className = "link dim dark-gray f6 dib "
-    href = "/donate/"
+    Contact </Link> </li> <li className= "flex-item dib" > { " " }
+    <Link to="/donate/"  className= "link dim dark-gray f6 dib "
     title = "Donate" >
-    Donate </a> </li> </ul> </div>
+    Donate </Link> </li> </ul> </div>
     <div className = "k--group mb2" >
     <input className = "k--input"
     type = "text"
@@ -141,30 +136,25 @@ const Header = ({ siteTitle }) => (
     <nav className = "db dt-l w-100 border-box pa3 ph5-l bg-dark-blue " >
     <ul className = "db dtc-l v-mid w-100 w-75-l tc  " >
     <li className = "dib mr2" > { " " }
-    <a className = "link dim white f6 f5-l dib mr3 mr4-l"
-    href = "/about/"
+    <Link to="/about/" className = "link dim white f6 f5-l dib mr3 mr4-l"
     title = "About" >
-    ABOUT ICI </a> </li>
-     <li className = "dib mr2" > { " " } <a className = "link dim white f6 f5-l dib mr3 mr4-l"
-    href = "/areas-of-emphasis/"
+    ABOUT ICI </Link> </li>
+     <li className = "dib mr2" > { " " }  <Link to= "/areas-of-emphasis/" className = "link dim white f6 f5-l dib mr3 mr4-l"
     title = "Areas of Emphasis" >
-    AREAS OF EMPHASIS </a>
+    AREAS OF EMPHASIS </Link>
     </li>
     <li className = "dib mr2"> { " " }
-  	  <a className = "link dim white f6 f5-l dib mr3 mr4-l"
-    		href = "/projects/"
+  	  <Link to= "/projects/" className = "link dim white f6 f5-l dib mr3 mr4-l"
 		title = "Projects" >
-    PROJECTS </a> </li> <li className = "dib mr2" > { " " } <
-    a className = "link dim white f6 f5-l dib mr3 mr4-l"
-    href = "/services/"
+    PROJECTS </Link> </li>
+    <li className = "dib mr2" > { " " } <Link to= "/services/"  className = "link dim white f6 f5-l dib mr3 mr4-l"
     title = "Services" >
-    SERVICES </a>
+    SERVICES </Link>
     </li>
     <li className = "dib mr2" > { " " }
-    <a className = "link dim white f6 f5-l dib"
-    href = "/resources/"
+  <Link to="/resources/"  className = "link dim white f6 f5-l dib"
     title = "Resources" >
-    RESOURCES </a>
+    RESOURCES </Link>
     </li>
     </ul> </nav> </div>
 {/* <div className = "vh-100 dt o-80 w-100 tc bg-dark-gray white cover"

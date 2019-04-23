@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from "gatsby"
-import { withPrefix } from "gatsby"
 import umbcombo from '../images/bch-umb-combo_logo.png'
 
 const Footer = () => (
@@ -34,15 +33,15 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
 
     <h1 class="bb fl w-100 pv0 f6 fw6 ttu tracked mb4">Links</h1>
   <ul class=" v-mid w-100 w-75-l list pl0 ">
-    <li class="mr2"> <a class="link dim white f6 f5-l dib mr3 mr4-l"  href="/about/" title="About">ABOUT ICI</a></li>
-     <li class="mr2"> <a class="link dim white f6 f5-l dib mr3 mr4-l"  href="/areas-of-emphasis" title="AREAS OF EMPHASIS">AREAS OF EMPHASIS</a></li>
-    <li class="mr2"> <a class="link dim white f6 f5-l dib mr3 mr4-l"  href="/projects" title="Projects">PROJECTS</a></li>
-       <li class="mr2">   <a class="link dim white f6 f5-l dib mr3 mr4-l"  href="/services" title="Services">SERVICES</a></li>
-            <li class="mr2"> <a class="link dim white f6 f5-l dib" href="/resources/" title="Resources">RESOURCES</a></li>
-                        <li class="mr2"> <a class="link dim white f6 f5-l dib" href="/" title="Subscribe">SUBSCRIBE</a></li>
+    <li class="mr2"> <Link to="/about/" className="link dim white f6 f5-l dib mr3 mr4-l" title="About">ABOUT ICI</Link></li>
+     <li class="mr2"><Link to="/areas-of-emphasis" className="link dim white f6 f5-l dib mr3 mr4-l" title="AREAS OF EMPHASIS">AREAS OF EMPHASIS</Link></li>
+    <li class="mr2"> <Link to="/projects" className="link dim white f6 f5-l dib mr3 mr4-l" title="Projects">PROJECTS</Link></li>
+       <li class="mr2">   <Link to="/services" className="link dim white f6 f5-l dib mr3 mr4-l" title="Services">SERVICES</Link></li>
+            <li class="mr2"><Link to="/resources/" className="link dim white f6 f5-l dib" title="Resources">RESOURCES</Link></li>
+                        <li class="mr2"> <Link to="/" className="link dim white f6 f5-l dib" title="Subscribe">SUBSCRIBE</Link></li>
 
- <li class="mr2"> <a class="link dim white f6 f5-l dib" href="/" title="contact">CONTACT</a></li>
-    <li class="mr2"> <a class="link dim white f6 f5-l dib" href="/" title="Donate">DONATE</a></li>
+ <li class="mr2"> <Link to="/" className="link dim white f6 f5-l dib" title="contact">CONTACT</Link></li>
+    <li class="mr2"> <Link to="/" className="link dim white f6 f5-l dib" title="Donate">DONATE</Link></li>
   </ul>
 
 
