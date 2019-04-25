@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@reach/menu-button": "^0.1.12",
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.3.16",
     "gatsby-background-image": "^0.3.4",
@@ -52,7 +53,3 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
-
-
-
-

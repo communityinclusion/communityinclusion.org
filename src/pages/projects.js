@@ -1,66 +1,149 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import community from '../images/community.png'
-import healthcare from '../images/healthcare.png'
-import education from '../images/education.png'
-import employment from '../images/employment.png'
+import thinkcollege from '../images/thinkcollege.png'
+import nercve from '../images/nercve.png'
+import explorevr from '../images/explorevr.png'
+import employma from '../images/employma.png'
+import thinkwork from '../images/thinkwork.png'
+import statedata from '../images/statedata.png'
+import seln from '../images/seln.gif'
+import catada from '../images/catada-logo.png'
+
 
 const Projects = () => (
   <Layout>
    <section className="center mw8">
    <SEO title="Projects" />
     <h1>Projects</h1>
-   <div class="center flex flex-column flex-row-l justify-between ph3 ph4-l pv5">
-  <div class="w-100 w-25-l ph4-l mb5 mb0-l">
-      <img className = "dib mw-100 h-auto pa1"
-   			 alt = "Employment"
-            src={employment}
-          />
-    <h3 class="f5 fw7 mt3 mb4 light-red">
-						Employment
-					</h3>
-					<p class="lh-copy">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					</p>
-  </div>
-  <div class="w-100 w-25-l ph4-l mb5 mb0-l">
-  <img className = "dib mw-100 h-auto pa1"
-   			 alt = "Education"
-            src={education}
-          />
-   <h3 class="f5 fw7 mt3 mb4 light-red">
-						Education
-					</h3>
-					<p class="lh-copy">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					</p>
-  </div>
-  <div class="w-100 w-25-l ph4-l mb5 mb0-l">
-   <img className = "dib mw-100 h-auto pa1"
-   			 alt = "Community"
-            src={community}
-          />
-   <h3 class="f5 fw7 mt3 mb4 light-red">
-						Community
-					</h3>
-					<p class="lh-copy">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					</p>
-  </div>
-  <div class="w-100 w-25-l ph4-l mb5 mb0-l">
- <img className = "dib mw-100 h-auto pa1"
-   			 alt = "Healthcare"
-            src={healthcare}
-          />
-   <h3 class="f5 fw7 mt3 mb4 light-red">
-						Healthcare
-					</h3>
-					<p class="lh-copy">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					</p>
-  </div>
-</div>
+
+
+
+
+
+
+
+   <article class="bb b--black-10 pa2 pa3-ns">
+
+      <div class="dtc w5 v-mid">
+        <img src={thinkcollege} className="db w-100" alt = "ThinkCollege" />
+      </div>
+      <div class="dtc v-top pl3">
+	          <a class="link dt w-100  pb2 mt2 dim blue" href="#0">
+        <h2 class="f6 f5-ns fw6 lh-title mv0">Think College</h2>
+           </a>
+        <span class="f6 fw4 mt2 mb0 black-60">Think College is a national organization dedicated to developing, expanding, and improving inclusive higher education options for people with intellectual disability.</span>
+
+      </div>
+
+  </article>
+
+    <article class="bb b--black-10 pa2 pa3-ns">
+
+      <div class="dtc w5 v-mid">
+        <img src={nercve} className="db w-100" alt = "NERCVE" />
+      </div>
+      <div class="dtc v-top pl3">
+	          <a class="link dt w-100  pb2 mt2 dim blue" href="#0">
+        <h2 class="f6 f5-ns fw6 lh-title mv0">NERCVE</h2>
+           </a>
+        <span class="f6 fw4 mt2 mb0 black-60">The Northeast Resource Center for Vision Education (NERCVE) is committed to improving education for people with visual disabilities.</span>
+
+      </div>
+
+  </article>
+
+    <article class="bb b--black-10 pa2 pa3-ns">
+
+      <div class="dtc w5 v-mid">
+        <img src={explorevr} className="db w-100" alt = "ExploreVR" />
+      </div>
+      <div class="dtc v-top pl3">
+	          <a class="link dt w-100  pb2 mt2 dim blue" href="/">
+        <h2 class="f6 f5-ns fw6 lh-title mv0">ExploreVR</h2>
+           </a>
+        <span class="f6 fw4 mt2 mb0 black-60">ExploreVR offers vocational rehabilitation (VR) agencies easy and convenient access to a range of VR research, related data, and tools for planning, evaluation, and decision-making.</span>
+
+      </div>
+
+  </article>
+    <article class="bb b--black-10 pa2 pa3-ns">
+
+      <div class="dtc w5 v-mid">
+        <img src={employma} className="db w-100" alt = "EmploymentFirstMA"/>
+      </div>
+      <div class="dtc v-top pl3">
+	          <a class="link dt w-100  pb2 mt2 dim blue" href="#0">
+        <h2 class="f6 f5-ns fw6 lh-title mv0">EmloymentFirstMa</h2>
+           </a>
+        <span class="f6 fw4 mt2 mb0 black-60">Promoting inclusive employment in Massachusetts.</span>
+
+      </div>
+
+  </article>
+    <article class="bb b--black-10 pa2 pa3-ns">
+
+      <div class="dtc w5 v-mid">
+        <img src = {thinkwork} className ="db w-100" alt = "Think Work"/>
+      </div>
+      <div class="dtc v-top pl3">
+	          <a class="link dt w-100  pb2 mt2 dim blue" href="#0">
+        <h2 class="f6 f5-ns fw6 lh-title mv0">ThinkWork</h2>
+           </a>
+        <span class="f6 fw4 mt2 mb0 black-60">ThinkWork is the hub for an array of programs related to employment for people with IDD at the Institute for Community Inclusion at the University of Massachusetts Boston.</span>
+
+      </div>
+
+  </article>
+    <article class="bb b--black-10 pa2 pa3-ns">
+
+      <div class="dtc w5 v-mid">
+        <img src={statedata} className="db w-100" alt = "StateData.info"/>
+      </div>
+      <div class="dtc v-top pl3">
+	          <a class="link dt w-100  pb2 mt2 dim blue" href="#0">
+        <h2 class="f6 f5-ns fw6 lh-title mv0">StateData.info</h2>
+           </a>
+        <span class="f6 fw4 mt2 mb0 black-60">StateData.info promotes Employment First and systems change efforts nationwide by supporting outcome-based management and planning.</span>
+
+      </div>
+
+  </article>
+
+
+     <article class="bb b--black-10 pa2 pa3-ns">
+
+      <div class="dtc w5 v-mid">
+        <img src={seln} className="db w-100" alt = "SELN"/>
+      </div>
+      <div class="dtc v-top pl3">
+	          <a class="link dt w-100  pb2 mt2 dim blue" href="#0">
+        <h2 class="f6 f5-ns fw6 lh-title mv0">SELN</h2>
+           </a>
+        <span class="f6 fw4 mt2 mb0 black-60">The State Employment Leadership Network (SELN) brings together state developmental disability agencies for sharing, educating and providing guidance on practices and policies around employment to its members.</span>
+
+      </div>
+
+  </article>
+
+     <article class="bb b--black-10 pa2 pa3-ns">
+
+      <div class="dtc w5 v-mid">
+        <img src={catada} className="db w-100" alt = "Catada" />
+      </div>
+      <div class="dtc v-top pl3">
+	          <a class="link dt w-100  pb2 mt2 dim blue" href="#0">
+        <h2 class="f6 f5-ns fw6 lh-title mv0">CATADA</h2>
+           </a>
+        <span class="f6 fw4 mt2 mb0 black-60">The Center for Assistive Technology Act Data Assistance (CATADA) provides technical assistance and supports to State Assistive Technology (AT) Programs.</span>
+
+      </div>
+
+  </article>
+
+
+
+
 </section>
 
   </Layout>
