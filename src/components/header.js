@@ -95,7 +95,7 @@ const Header = ({ siteTitle }) => (
    <Link to= "/subscribe/" className="link dim dark-gray f6 dib "
     title = "Subscribe" >
     Subscribe { " " } </Link> </li> <li className = "flex-item dib" > { " " }
-   <Link to="/contact/" className="link dim dark-gray f6 dib "
+   <Link to="/about/contact/" className="link dim dark-gray f6 dib "
     title = "Contact" >
     Contact </Link> </li> <li className= "flex-item dib" > { " " }
     <Link to="/donate/"  className= "link dim dark-gray f6 dib "
@@ -134,25 +134,39 @@ const Header = ({ siteTitle }) => (
     <i className = "fab fa-2x fa-youtube" / >
     </a> </li> </ul> </div> </div>
     <nav className = "db dt-l w-100 border-box pa3 ph5-l bg-dark-blue " >
-    <ul className = "db dtc-l v-mid w-100 w-75-l tc  " >
-    <li className = "dib mr2" > { " " }
-    <Link to="/about/" className = "link dim white f6 f5-l dib mr3 mr4-l"
+    <ul className = "db dtc-l v-mid w-100 w-75-l tc" >
+    <li className = "dib mr2 hide-child relative" > { " " }
+    <Link to="/about/" className = "link white f6 f5-l dib mr3 mr4-l"
     title = "About" >
-    ABOUT ICI </Link> </li>
-     <li className = "dib mr2" > { " " }  <Link to= "/areas-of-emphasis/" className = "link dim white f6 f5-l dib mr3 mr4-l"
+    ABOUT ICI </Link>
+    <ul className="menu list f6 absolute child ph1">
+        <li className="bg-dark-blue bg-animate hover-bg-white">
+          <Link to="/about/staff" className = "llink white hover-blue f6 f5-l dib pa2"
+    title = "Staff" >
+    Staff </Link>
+        </li>
+        <li className="bg-dark-blue bg-animate hover-bg-white">
+           <Link to="/about/contact" className = "link white hover-blue f6 f5-l dib pa2"
+    title = "Contact" >
+    Contact </Link>
+        </li>
+      </ul>
+    </li>
+
+     <li className = "dib mr2" > { " " }  <Link to= "/areas-of-emphasis/" className = "link white f6 f5-l dib mr3 mr4-l"
     title = "Areas of Emphasis" >
     AREAS OF EMPHASIS </Link>
     </li>
     <li className = "dib mr2"> { " " }
-  	  <Link to= "/projects/" className = "link dim white f6 f5-l dib mr3 mr4-l"
+  	  <Link to= "/projects/" className = "link white f6 f5-l dib mr3 mr4-l"
 		title = "Projects" >
     PROJECTS </Link> </li>
-    <li className = "dib mr2" > { " " } <Link to= "/services/"  className = "link dim white f6 f5-l dib mr3 mr4-l"
+    <li className = "dib mr2" > { " " } <Link to= "/services/"  className = "link white f6 f5-l dib mr3 mr4-l"
     title = "Services" >
     SERVICES </Link>
     </li>
     <li className = "dib mr2" > { " " }
-  <Link to="/resources/"  className = "link dim white f6 f5-l dib"
+  <Link to="/resources/"  className = "link white f6 f5-l dib"
     title = "Resources" >
     RESOURCES </Link>
     </li>

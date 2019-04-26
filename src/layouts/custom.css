@@ -15,6 +15,31 @@
     color: #0075ad;
 }
 
+@media screen and (max-width: 30em){
+	.show-sibling:checked + .sibling {
+		display: block;
+	 }
+
+	.sibling {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 30em){
+	.hide-child-ns .child {
+		opacity: 0;
+		transition: opacity .15s ease-in;
+	}
+
+	.hide-child-ns:hover .child {
+		opacity: 1;
+	}
+}
+
+
+
+
+
 /*! CSS Used from: https://dwyl.com/css/dwyl.css */
 .dwyl-bg-dark-gray{background-color:#45535b;}
 .dwyl-bg-gold{background-color:#c6ac5c;}
@@ -24,7 +49,7 @@
 }
 .menu{/*min-height:4rem;*/max-height:0;transition:max-height .4s,padding-bottom .4s;}
 #burger:checked~.menu{max-height:25rem;box-shadow:0 8px 16px 0 rgba(0,0,0,.25);}
-li a:hover,li a:target{color:#4bc0a9;}
+li a:hover,li a:target{color:#001b44;}
 li a:hover span{color:#000;}
 
 @media screen and (min-width:60em){
@@ -335,6 +360,8 @@ pre code {
 	padding:0;
 }
 
+
+/*
 dt {
 	font-weight:500;
 }
@@ -356,6 +383,7 @@ ol ol,ol ul,ul ol,ul ul {
 	margin:0;
 }
 
+*/
 mark {
 	background-color:#ffe96b;
 	color:inherit;
