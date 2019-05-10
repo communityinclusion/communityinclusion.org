@@ -71,8 +71,8 @@ const Header = ({ siteTitle }) => (
 
     { /*----End Mobile Nav */ }
 
-    <div className = "desktop-nav mw9 center " >
-    <div className = "cf ph2-ns" >
+    <div className = "desktop-nav" >
+    <div className = "cf mw8 center ph2-ns" >
     <div className = "fl w-15-ns w-20 pa2" >
     <Link to= "/" className = "dtc v-mid mid-gray link "
     title = "Home" >
@@ -133,10 +133,10 @@ const Header = ({ siteTitle }) => (
     rel = "noopener noreferrer" >
     <i className = "fab fa-2x fa-youtube" / >
     </a> </li> </ul> </div> </div>
-    <nav className = "db dt-l w-100 border-box pa3 ph5-l bg-dark-blue " >
+    <nav className = "db dt-l w-100 border-box ph5-l bg-dark-blue " >
     <ul className = "db dtc-l v-mid w-100 w-75-l tc" >
     <li className = "dib mr2 hide-child relative" > { " " }
-    <Link to="/about/" className = "link white f6 f5-l dib mr3 mr4-l"
+    <Link to="/about/" className = "link white f6 f5-l dib mr3 mr4-l pa2 hover-bg-light-blue"
     title = "About" >
     ABOUT ICI </Link>
     <ul className="menu list f6 absolute child ph1">

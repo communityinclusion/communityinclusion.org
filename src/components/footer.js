@@ -4,7 +4,7 @@ import umbcombo from '../images/bch-umb-combo_logo.png'
 
 const Footer = () => (
    <footer class="cf mt4 ph2-ns pa4 pa5-l moon-gray bt bg-navy">
-  <div class="fl w-30-ns w-100-m  pa2 ml4">
+  <div class="fl w-third pa2 w-100  ml4-m">
 
      <img className = "dib mw-100 h-auto"
    			 alt = "Institute for Community Inclusion"
@@ -14,9 +14,9 @@ const Footer = () => (
 <p>©2019. The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital.</p>
 
   </div>
-  <div class="fl w-30-ns w-100-m  pa2 ml4">
+  <div class="fl w-third pa2 w-100 ml4-m">
 
-    <h1 class="bb fl w-100 pv0 f6 fw6 ttu tracked mb4">Contact</h1>
+    <h1 class="bb fl w-100 pv0 f6 fw6 ttu tracked">Contact</h1>
     <article class="fl dib-ns w-auto-ns mr4-m mr5-l pr2 pr0-ns tl">
       <address>Institute for Community Inclusion<br />
 UMass Boston<br />
@@ -29,7 +29,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
 &nbsp;</address>    </article>
 
   </div>
-  <div class="fl w-30-ns w-100-m pa2 ml4">
+  <div class="fl w-third pa2 w-100 ml4-m">
 
     <h1 class="bb fl w-100 pv0 f6 fw6 ttu tracked mb4">Links</h1>
   <ul class=" v-mid w-100 w-75-l list pl0 ">

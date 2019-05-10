@@ -1,15 +1,15 @@
 import React from "react"
 import { Link } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import thinkcollege from '../images/thinkcollege.png'
-import nercve from '../images/nercve.png'
-import explorevr from '../images/explorevr.png'
-import employma from '../images/employma.png'
-import thinkwork from '../images/thinkwork.png'
-import statedata from '../images/statedata.png'
-import seln from '../images/seln.gif'
-import catada from '../images/catada-logo.png'
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
+import thinkcollege from '../../images/thinkcollege.png'
+import nercve from '../../images/nercve.png'
+import explorevr from '../../images/explorevr.png'
+import employma from '../../images/employma.png'
+import thinkwork from '../../images/thinkwork.png'
+import statedata from '../../images/statedata.png'
+import seln from '../../images/seln.gif'
+import catada from '../../images/catada-logo.png'
 
 
 const Projects = () => (

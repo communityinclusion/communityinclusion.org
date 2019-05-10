@@ -1047,3 +1047,44 @@ select.k--input-small,select.k--select-small {
 
 
 
+/* Sidenav */
+
+
+
+.ici-sidenav__item {
+    border-top: 1px solid #dcdee0;
+}
+
+
+.ici-sidenav a {
+    color: #565c65;
+    display: block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+}
+
+
+.ici-sidenav .ici-current {
+    position: relative;
+    color: #005ea2;
+    font-weight: 700;
+}
+
+.ici-sidenav a:hover {
+    background-color: #f0f0f0;
+    color: #005ea2;
+    text-decoration: none;
+}
+
+.ici-sidenav .ici-current:after {
+    background-color: #005ea2;
+    border-radius: 99rem;
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: .25rem;
+    top: .25rem;
+    width: .25rem;
+    left: .25rem;
+}
+

@@ -21,7 +21,7 @@ training, technical assistance, service, research, and information sharing, with
     </p>
   </section>
 <article class="cf">
-  <div class="fl w-100 w-70-ns bg-white pa3">
+  <div class="fl w-100-m w-70-ns bg-white pa3">
 
 <section class="mw7 center avenir">
   <h2 class="fw1 ph3 ph0-l">News</h2>
@@ -87,7 +87,7 @@ training, technical assistance, service, research, and information sharing, with
 
 
   </div>
-  <div class="fl w-100 w-30-ns tc pa3 mt3 bg-dark-blue ">
+  <div class="fl w-100-m w-30-ns tc pa3 mt3 bg-dark-blue ">
 <a class="twitter-timeline" data-height="700" href="https://twitter.com/ICInclusion?ref_src=twsrc%5Etfw">Tweets by ICInclusion</a>
  </div>
 </article>  </Layout>
