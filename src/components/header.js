@@ -72,7 +72,7 @@ const Header = ({ siteTitle }) => (
     { /*----End Mobile Nav */ }
 
     <div className = "desktop-nav" >
-    <div className = "cf mw8 center ph2-ns" >
+    <div className = "cf mw9 center ph2-ns" >
     <div className = "fl w-15-ns w-20 pa2" >
     <Link to= "/" className = "dtc v-mid mid-gray link "
     title = "Home" >
@@ -82,12 +82,12 @@ const Header = ({ siteTitle }) => (
           />
 
     </Link> </div> <div className = "fl w-65-ns w-60 pa2" >
-    <h1 className = "link dim dark-blue b f3-ns db mb2  f5 "
+    <h1 className = "link dim dark-blue b f2-ns db mb2  f5 "
     href = "/"
     title = "Home" >
     Institute
     for Community Inclusion </h1>
-    <span className = "f5-ns f6 f-subheadline dark-blue trackek " > { " " }
+    <span className = "f5-ns f6 f-subheadline dark-blue tracked-mega-ns " > { " " }
     PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES </span> </div> <div className = "fl w-20-ns w-20 pa2 " >
     <div className = "db dtc-l v-mid w-100 w-75-l" >
     <ul className = "flex-container space-between list pl0" >
