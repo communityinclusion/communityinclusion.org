@@ -1,5 +1,6 @@
 ---
 title: "NERCVE"
+description: "Nercve Project Description"
 path: "/projects/nercve"
 date: 2000-01-01
 ---

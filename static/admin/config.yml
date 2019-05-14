@@ -14,12 +14,82 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/about/index.md"
-        label: "About"
-        name: "about"
+      - file: "src/pages/projects/explorevr.md"
+        label: "ExploreVR"
+        name: "explorevr"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-template"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Meta Title", name: "meta_title", widget: "string"}
           - {label: "Meta Description", name: "meta_description", widget: "text"}
+ - file: "src/pages/projects/catada.md"
+        label: "Catada"
+        name: "catada"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-template"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Meta Description", name: "meta_description", widget: "text"}
+
+ - file: "src/pages/projects/nercve.md"
+        label: "Nercve"
+        name: "nercve"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-template"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Meta Description", name: "meta_description", widget: "text"}
+
+ - file: "src/pages/projects/employmentfirstma.md"
+        label: "Employment First MA"
+        name: "explorevr"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-template"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Meta Description", name: "meta_description", widget: "text"}
+
+ - file: "src/pages/projects/seln.md"
+        label: "SELN"
+        name: "seln"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-template"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Meta Description", name: "meta_description", widget: "text"}
+
+ - file: "src/pages/projects/thinkwork.md"
+        label: "ThinkWork"
+        name: "thinkwork"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-template"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Meta Description", name: "meta_description", widget: "text"}
+
+ - file: "src/pages/projects/thinkcollege.md"
+        label: "ThinkCollege"
+        name: "thinkcollege"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-template"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Meta Description", name: "meta_description", widget: "text"}
+
+ - file: "src/pages/projects/statedata.md"
+        label: "StateData"
+        name: "statedata"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-template"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Meta Description", name: "meta_description", widget: "text"}
+

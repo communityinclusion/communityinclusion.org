@@ -1,5 +1,6 @@
 ---
 title: "ExploreVR"
+description: "ExploreVR project description"
 path: "/projects/explorevr"
 date: 2000-01-01
 ---

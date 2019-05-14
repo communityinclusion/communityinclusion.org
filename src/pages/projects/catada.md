@@ -1,5 +1,6 @@
 ---
 title: "Catada"
+description: "CATADA project description"
 path: "/projects/catada"
 date: 2000-01-01
 ---

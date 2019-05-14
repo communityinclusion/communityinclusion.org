@@ -1,5 +1,6 @@
 ---
 title: "EmploymentFirstMA"
+description: "EmploymentFirstMa project description"
 path: "/projects/employmentfirstma"
 date: 2000-01-01
 ---

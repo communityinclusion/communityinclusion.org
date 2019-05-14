@@ -1,5 +1,6 @@
 ---
 title: "StateData"
+description: "StateData project description"
 path: "/projects/statedata"
 date: 2000-01-01
 ---

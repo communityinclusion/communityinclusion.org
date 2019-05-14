@@ -1,5 +1,6 @@
 ---
 title: "ThinkCollege"
+description: "ThinkCollege project description"
 path: "/projects/thinkcollege"
 date: 2000-01-01
 ---

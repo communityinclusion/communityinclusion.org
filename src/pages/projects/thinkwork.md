@@ -1,5 +1,6 @@
 ---
 title: "ThinkWork"
+description: "ThinkWork project description"
 path: "/projects/thinkwork"
 date: 2000-01-01
 ---

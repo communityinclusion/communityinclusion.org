@@ -1,5 +1,6 @@
 ---
 title: "SELN"
+description: "SELN project description"
 path: "/projects/seln"
 date: 2000-01-01
 ---
