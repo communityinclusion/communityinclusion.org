@@ -23,17 +23,17 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Meta Title", name: "meta_title", widget: "string"}
           - {label: "Meta Description", name: "meta_description", widget: "text"}
- - file: "src/pages/projects/catada.md"
-        label: "Catada"
-        name: "catada"
-        fields:
+	  - file: "src/pages/projects/catada.md"
+		label: "Catada"
+       	name: "catada"
+        	fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-template"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Meta Title", name: "meta_title", widget: "string"}
           - {label: "Meta Description", name: "meta_description", widget: "text"}
 
- - file: "src/pages/projects/nercve.md"
+	  - file: "src/pages/projects/nercve.md"
         label: "Nercve"
         name: "nercve"
         fields:
@@ -43,7 +43,7 @@ collections:
           - {label: "Meta Title", name: "meta_title", widget: "string"}
           - {label: "Meta Description", name: "meta_description", widget: "text"}
 
- - file: "src/pages/projects/employmentfirstma.md"
+	  - file: "src/pages/projects/employmentfirstma.md"
         label: "Employment First MA"
         name: "explorevr"
         fields:
@@ -53,7 +53,7 @@ collections:
           - {label: "Meta Title", name: "meta_title", widget: "string"}
           - {label: "Meta Description", name: "meta_description", widget: "text"}
 
- - file: "src/pages/projects/seln.md"
+	  - file: "src/pages/projects/seln.md"
         label: "SELN"
         name: "seln"
         fields:
@@ -63,7 +63,7 @@ collections:
           - {label: "Meta Title", name: "meta_title", widget: "string"}
           - {label: "Meta Description", name: "meta_description", widget: "text"}
 
- - file: "src/pages/projects/thinkwork.md"
+	  - file: "src/pages/projects/thinkwork.md"
         label: "ThinkWork"
         name: "thinkwork"
         fields:
@@ -73,7 +73,7 @@ collections:
           - {label: "Meta Title", name: "meta_title", widget: "string"}
           - {label: "Meta Description", name: "meta_description", widget: "text"}
 
- - file: "src/pages/projects/thinkcollege.md"
+      - file: "src/pages/projects/thinkcollege.md"
         label: "ThinkCollege"
         name: "thinkcollege"
         fields:
@@ -83,7 +83,7 @@ collections:
           - {label: "Meta Title", name: "meta_title", widget: "string"}
           - {label: "Meta Description", name: "meta_description", widget: "text"}
 
- - file: "src/pages/projects/statedata.md"
+	  - file: "src/pages/projects/statedata.md"
         label: "StateData"
         name: "statedata"
         fields:
