@@ -6,6 +6,14 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+	  `gatsby-transformer-excel`,
+    {	resolve: `gatsby-source-filesystem`,
+      options: {
+        raw: false,
+        path: `${__dirname}/src/data`,
+        name: `data`,
+      },
+      },
 	`gatsby-plugin-twitter`,
 	`gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,

@@ -20,6 +20,7 @@
     "gatsby-remark-copy-linked-files": "^2.0.11",
     "gatsby-remark-images": "^3.0.10",
     "gatsby-source-filesystem": "^2.0.29",
+    "gatsby-transformer-excel": "^2.1.11",
     "gatsby-transformer-remark": "^2.3.8",
     "gatsby-transformer-sharp": "^2.1.18",
     "netlify-cms": "^2.9.1",
@@ -29,7 +30,8 @@
     "react-helmet": "^5.2.0",
     "remark": "^10.0.1",
     "remark-html": "^9.0.0",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.2.0",
+    "uswds": "^2.0.2"
   },
   "devDependencies": {
     "babel-preset-gatsby": "^0.1.11",
