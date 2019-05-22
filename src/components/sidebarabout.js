@@ -7,24 +7,24 @@ const SidebarAbout = () => (
     <ul className="ici-sidenav ml0 pl0 list">
 
         <li className="ici-sidenav__item">
-        <Link to="/about-ici" className="ici-current">About</Link>
+        <Link to="/about/" className="ici-current">About</Link>
             <ul className="ici-sidenav__sublist ml0 pl0 list">
 
 
                 <li className="ici-sidenav__item">
-                    <Link to="/history">History of ICI</Link>
+                    <Link to="/about/history">History of ICI</Link>
                 </li>
                 <li className="ici-sidenav__item">
-                    <Link to="/mission">Mission and Vision</Link>
+                    <Link to="/about/mission">Mission and Vision</Link>
                 </li>
                 <li className="ici-sidenav__item">
-                    <Link to="/staff">Staff</Link>
+                    <Link to="/about/staff">Staff</Link>
                 </li>
                 <li className="ici-sidenav__item">
-                    <Link to="/directions">Directions</Link>
+                    <Link to="/about/directions">Directions</Link>
                 </li>
                 <li className="ici-sidenav__item">
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/about/contact">Contact</Link>
 
                 </li>
             </ul>

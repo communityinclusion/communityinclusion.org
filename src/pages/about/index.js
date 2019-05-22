@@ -1,7 +1,7 @@
 import React from "react"
-import Layout from "../components/layout"
-import SidebarAbout from "../components/sidebarabout"
-import SEO from "../components/seo"
+import Layout from "../../components/layout"
+import SidebarAbout from "../../components/sidebarabout"
+import SEO from "../../components/seo"
 
 const AboutPage = () => (
   <Layout>

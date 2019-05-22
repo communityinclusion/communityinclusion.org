@@ -1,16 +1,22 @@
 import React from "react"
 import { graphql } from 'gatsby'
 import Layout from "../../components/layout"
+import SidebarAbout from "../../components/sidebarabout"
 import SEO from "../../components/seo"
 
 class StaffComponent extends React.Component {
   render() {
     const data = this.props.data.allDirectoryXlsxSheet1.edges
     return (
-	     <Layout>
-  <section className="center mw8">
-    <SEO title="staff" />
-    <h1>Staff</h1>
+      <Layout>
+      <section className="mw8 center">
+       <SEO title="About the ICI" />
+       <h1>Staff Directory</h1>
+   
+   <div className="cf ph2-ns">
+       <SidebarAbout />
+   
+       <div className="fl w-75 pa2">
         <table>
           <thead>
             <tr>
@@ -32,6 +38,8 @@ class StaffComponent extends React.Component {
             ))}
           </tbody>
         </table>
+        </div>
+        </div>
       </section>
   </Layout>
     )
