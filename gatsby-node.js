@@ -1,19 +1,31 @@
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions;
+const path = require(`path`)
+const { createFilePath } = require(`gatsby-source-filesystem`)
 
-  if (_.get(node, "internal.type") === `MarkdownRemark`) {
-    // Get the parent node
-    const parent = getNode(_.get(node, "parent"));
-
-    // Create a field on this node for the "collection" of the parent
-    // NOTE: This is necessary so we can filter `allMarkdownRemark` by
-    // `collection` otherwise there is no way to filter for only markdown
-    // documents of type `post`.
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions
+  if (node.internal.type === `MarkdownRemark`) {
+    const slug = createFilePath({ node, getNode, basePath: `pages` })
     createNodeField({
       node,
-      slug,
-      name: "collection",
-      value: _.get(parent, "sourceInstanceName")
-    });
+      name: `slug`,
+      value: slug,
+    })
   }
-};
+}
+
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions
+  return graphql(`
+    {
+      allMarkdownRemark {
+        edges {
+          node {
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    }
+  `)
+}
