@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import logo from '../images/ICIsquare_color_32x32.png'
+import logo from '../images/ICI_square.png'
 
 const Header = ({ siteTitle }) => (
 	<div >
@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
     className = "absolute top-2 right-1 dn" />
     <label htmlFor = "burger"
     className = "dn-l pointer absolute top-1 right-1" >
-    <i className = "fa fa-bars white dib f2" / >
+    <i className = "fa fa-bars white dib f2" />
     </label>
     <div className = "fl w-15-ns w-20 pa2" >
 
@@ -101,13 +101,13 @@ const Header = ({ siteTitle }) => (
     <Link to="/donate/"  className= "link dim dark-gray f6 dib "
     title = "Donate" >
     Donate </Link> </li> </ul> </div>
-    <div className = "k--group mb2" >
+    {/*<div className = "k--group" >
     <input className = "k--input"
     type = "text"
-    placeholder = "Search" / >
+    placeholder = "Search" />
     <button className = "k--button"
     type = "button" >
-    SEARCH </button> </div>
+  SEARCH </button> </div>*/}
     <ul className = "social-links flex-container space-between list pl0" >
     <li className = "flex-item dib" > { " " } <a href = "https://twitter.com/ICInclusion"
     target = "_blank"

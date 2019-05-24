@@ -21,7 +21,7 @@ const AreasofEmphasis = () => (
 						Employment
 					</h3>
 					<p className="lh-copy">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Building a rewarding career in the community should be an expectation for all citizens. With support and planning, people with significant disabilities can thrive in the workplace. 
 					</p>
   </div>
   <div className="w-100 w-25-l pr4-l mb5 mb0-l">
@@ -33,7 +33,7 @@ const AreasofEmphasis = () => (
 						Education
 					</h3>
 					<p className="lh-copy">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          From pre-K through university, schools are engaging and involving students with a range of disabilities. By building skills early, young people can exit high school prepared to pursue higher education and find jobs that match their interests.
 					</p>
   </div>
   <div className="w-100 w-25-l pr4-l mb5 mb0-l">
@@ -45,8 +45,7 @@ const AreasofEmphasis = () => (
 						Community
 					</h3>
 					<p className="lh-copy">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					</p>
+          Outside of work and school, people with disabilities are involved in a wide range of activities that make up a satisfying life. Whether it’s volunteering at a music festival, getting involved with a faith community, or attending a sports event, there’s much more to life than a job.					</p>
   </div>
   <div className="w-100 w-25-l pr4-l mb5 mb0-l">
  <img className = "dib mw-100 h-auto pa1"
@@ -54,11 +53,10 @@ const AreasofEmphasis = () => (
             src={healthcare}
           />
    <h3 className="f5 fw7 mt3 mb4 light-red">
-						Healthcare
+						Health Care
 					</h3>
 					<p className="lh-copy">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					</p>
+          Accessing quality health care enables us to live productively and to receive support when facing mental, behavioral, or physical challenges. For people with disabilities, equitable health care can require additional advocacy and planning.					</p>
   </div>
 </div>
 

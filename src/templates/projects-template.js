@@ -1,11 +1,11 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import SidebarAbout from "../components/sidebarabout"
+import SidebarProject from "../components/sidebarproject"
 import PropTypes from 'prop-types'
 
 
-const AboutPage = ({ data }) => {
+const ProjectPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
   return (
     <Layout>
@@ -13,7 +13,7 @@ const AboutPage = ({ data }) => {
      <h1>{post.frontmatter.title}</h1>
  
  <div className="cf ph2-ns">
-     <SidebarAbout />
+     <SidebarProject />
  
      <div className="fl w-75 pa2">
      
@@ -33,16 +33,14 @@ AboutPage.propTypes = {
   }),
 }
 
-export default AboutPage
+export default ProjectPage
 
 export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+  query ProjectPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
         description
-        path
-        date
       }
     }
   }

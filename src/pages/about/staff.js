@@ -11,12 +11,13 @@ class StaffComponent extends React.Component {
       <Layout>
       <section className="mw8 center">
        <SEO title="About the ICI" />
-       <h1>Staff Directory</h1>
+      
    
    <div className="cf ph2-ns">
        <SidebarAbout />
    
        <div className="fl w-75 pa2">
+       <h1>Staff Directory</h1>
         <table>
           <thead>
             <tr>
