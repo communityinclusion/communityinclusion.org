@@ -14,9 +14,11 @@ const StateDataPage = () => (
    
        <div className="fl w-75 pa2">
        <h1>StateData</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at lacus sagittis, volutpat ipsum mollis, consequat tellus. Duis neque leo, faucibus id augue ac, dictum pellentesque eros. Donec ut risus euismod, bibendum elit in, laoreet quam. Sed non volutpat purus. Cras et nibh scelerisque, sagittis nisi in, lacinia est. Nulla commodo rutrum vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce dignissim accumsan nisl non imperdiet. Nullam dapibus vel sapien vel ullamcorper. In egestas imperdiet malesuada. Duis sed lacinia odio, varius tempor enim.</p>
+  <p>StateData.info offers publications and data related to employment and disability. It builds off of decades of research conducted at ICI about the work of state intellectual and developmental disabilities (IDD) agencies, vocational rehabilitation agencies, and community organizations providing employment support to people with IDD.</p>
 
-<p>Fusce ac sollicitudin nunc. Vestibulum odio libero, fermentum quis feugiat non, facilisis in ante. In sagittis nisi et venenatis pretium. Sed suscipit egestas justo id bibendum. Nulla facilisi. Nunc est risus, euismod vitae laoreet rutrum, volutpat nec turpis. Cras porttitor tristique enim, non vulputate dui cursus ut. Nulla fringilla quam sed lectus euismod laoreet. Proin a mauris laoreet, vulputate tortor eu, sagittis leo. Proin commodo erat nibh, eu ultricies lorem consequat eu. Sed hendrerit ornare mauris, nec elementum enim sagittis nec. Morbi auctor fringilla pharetra. Quisque vitae leo at neque viverra condimentum.</p>
+<p>This interactive data hub can help policymakers measure the impact of legislation changes, and allows advocates to create graphs and charts to influence decision-making in their state. State agency staff and leadership can use the data to monitor, report on, and analyze their outcomes. Employment providers can identify benchmarks and measure their progress against them, while researchers can perform rapid analyses and download spreadsheets to study data on a national or state-by-state level.</p>
+
+<p>Dive into the data at StateData.info.</p>
 </div>
 </div>
 </section>

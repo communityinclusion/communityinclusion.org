@@ -14,9 +14,11 @@ const CatadaPage = () => (
    
        <div className="fl w-75 pa2">
        <h1>Catada</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at lacus sagittis, volutpat ipsum mollis, consequat tellus. Duis neque leo, faucibus id augue ac, dictum pellentesque eros. Donec ut risus euismod, bibendum elit in, laoreet quam. Sed non volutpat purus. Cras et nibh scelerisque, sagittis nisi in, lacinia est. Nulla commodo rutrum vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce dignissim accumsan nisl non imperdiet. Nullam dapibus vel sapien vel ullamcorper. In egestas imperdiet malesuada. Duis sed lacinia odio, varius tempor enim.</p>
+  <p>The Center for Assistive Technology Act Data Assistance (CATADA) provides technical assistance and supports to state Assistive Technology (AT) programs. AT is any item, piece of equipment, or system that is used to increase, maintain, or improve functional capabilities of individuals with disabilities.</p>
 
-<p>Fusce ac sollicitudin nunc. Vestibulum odio libero, fermentum quis feugiat non, facilisis in ante. In sagittis nisi et venenatis pretium. Sed suscipit egestas justo id bibendum. Nulla facilisi. Nunc est risus, euismod vitae laoreet rutrum, volutpat nec turpis. Cras porttitor tristique enim, non vulputate dui cursus ut. Nulla fringilla quam sed lectus euismod laoreet. Proin a mauris laoreet, vulputate tortor eu, sagittis leo. Proin commodo erat nibh, eu ultricies lorem consequat eu. Sed hendrerit ornare mauris, nec elementum enim sagittis nec. Morbi auctor fringilla pharetra. Quisque vitae leo at neque viverra condimentum.</p>
+<p>State and territory AT programs improve the provision AT through comprehensive, statewide programs that are consumer-responsive. The goal of these programs is to increase access to and acquisition of AT. Programs serve people with all types of disabilities, of all ages, in all environments. Strategies used by AT programs include device reuse initiatives and financial loans to ensure that AT is available to everyone who needs it.</p>
+
+<p>Explore CATADA’s work advancing AT across the nation.</p>
 </div>
 </div>
 </section>

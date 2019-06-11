@@ -2,6 +2,8 @@ import React from "react"
 import Layout from "../../components/layout"
 import SidebarProject from "../../components/sidebarproject"
 import SEO from "../../components/seo"
+import { Link } from "gatsby"
+import thinkcollegeLong from '../../images/thinkcollege-long.png'
 
 const ThinkCollegePage = () => (
   <Layout>
@@ -14,9 +16,11 @@ const ThinkCollegePage = () => (
    
        <div className="fl w-75 pa2">
        <h1>Think College</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at lacus sagittis, volutpat ipsum mollis, consequat tellus. Duis neque leo, faucibus id augue ac, dictum pellentesque eros. Donec ut risus euismod, bibendum elit in, laoreet quam. Sed non volutpat purus. Cras et nibh scelerisque, sagittis nisi in, lacinia est. Nulla commodo rutrum vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce dignissim accumsan nisl non imperdiet. Nullam dapibus vel sapien vel ullamcorper. In egestas imperdiet malesuada. Duis sed lacinia odio, varius tempor enim.</p>
+       <img src={thinkcollegeLong} className="db" alt = "ThinkCollege" />
+  <p><Link className="link dim blue" to="https://thinkcollege.net">Think College</Link> is a national initiative dedicated to developing, expanding, and improving inclusive higher education options for people with intellectual disability. With a commitment to equity and excellence, Think College supports evidence-based and student-centered research and practice by generating and sharing knowledge, guiding institutional change, informing public policy, and engaging with students, professionals, and families.
+Students, families, and educators can use our <Link className="link dim blue" to="https://thinkcollege.net/college-search">College Search</Link> feature to locate a college or university that includes learners with intellectual disability. Our website also features resources for families, information around training and technical assistance, archived webinars, and news about the latest developments in the field of inclusive higher education.</p>
 
-<p>Fusce ac sollicitudin nunc. Vestibulum odio libero, fermentum quis feugiat non, facilisis in ante. In sagittis nisi et venenatis pretium. Sed suscipit egestas justo id bibendum. Nulla facilisi. Nunc est risus, euismod vitae laoreet rutrum, volutpat nec turpis. Cras porttitor tristique enim, non vulputate dui cursus ut. Nulla fringilla quam sed lectus euismod laoreet. Proin a mauris laoreet, vulputate tortor eu, sagittis leo. Proin commodo erat nibh, eu ultricies lorem consequat eu. Sed hendrerit ornare mauris, nec elementum enim sagittis nec. Morbi auctor fringilla pharetra. Quisque vitae leo at neque viverra condimentum.</p>
+<p>Visit <Link className="link dim blue" to="https://thinkcollege.net">ThinkCollege.net</Link>  to learn more!</p>
 </div>
 </div>
 </section>

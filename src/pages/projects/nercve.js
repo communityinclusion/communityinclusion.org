@@ -14,9 +14,11 @@ const NercvePage = () => (
    
        <div className="fl w-75 pa2">
        <h1>NERCVE</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at lacus sagittis, volutpat ipsum mollis, consequat tellus. Duis neque leo, faucibus id augue ac, dictum pellentesque eros. Donec ut risus euismod, bibendum elit in, laoreet quam. Sed non volutpat purus. Cras et nibh scelerisque, sagittis nisi in, lacinia est. Nulla commodo rutrum vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce dignissim accumsan nisl non imperdiet. Nullam dapibus vel sapien vel ullamcorper. In egestas imperdiet malesuada. Duis sed lacinia odio, varius tempor enim.</p>
+  <p>The Northeast Resource Center for Vision Education (NERCVE) is committed to improving education for people with blindness and low vision. We offer in-person and online training in three main areas: Teacher of Students with Visual Impairments, Orientation and Mobility, and Vision Rehabilitation Therapy.</p>
 
-<p>Fusce ac sollicitudin nunc. Vestibulum odio libero, fermentum quis feugiat non, facilisis in ante. In sagittis nisi et venenatis pretium. Sed suscipit egestas justo id bibendum. Nulla facilisi. Nunc est risus, euismod vitae laoreet rutrum, volutpat nec turpis. Cras porttitor tristique enim, non vulputate dui cursus ut. Nulla fringilla quam sed lectus euismod laoreet. Proin a mauris laoreet, vulputate tortor eu, sagittis leo. Proin commodo erat nibh, eu ultricies lorem consequat eu. Sed hendrerit ornare mauris, nec elementum enim sagittis nec. Morbi auctor fringilla pharetra. Quisque vitae leo at neque viverra condimentum.</p>
+<p>Graduates of our programs are trained to help people with visual disabilities access high-quality education, seek employment, and travel independently. Learners can access our courses and complete their master of education degree in vision studies from anywhere in the world. We are affiliated with the Vision Studies Program within UMass Boston’s School for Global Inclusion and Social Development.</p>
+
+<p>Learn more about how NERCVE trains vision professionals.</p>
 </div>
 </div>
 </section>

@@ -28,8 +28,8 @@ const Projects = () => (
 
 
 
-
-<article className="bt bb b--black-10 shadow-2 mb3 pa3">
+    <div className="flex-l w-100 nl2 nr2">
+    <article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
 
  <div className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
@@ -48,7 +48,7 @@ const Projects = () => (
 
 </article>
 
-<article className="bt bb b--black-10 shadow-2 mb3 pa3">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
 
 <div className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
@@ -65,7 +65,10 @@ const Projects = () => (
 
 </article>
 
-<article className="bt bb b--black-10 shadow-2 mb3 pa3">
+
+</div>
+<div className="flex-l w-100 nl2 nr2">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
 
 <div className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
@@ -81,7 +84,7 @@ const Projects = () => (
   </div>
 
 </article>
- <article className="bt bb b--black-10 shadow-2 mb3 pa3">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
 
 <div className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
@@ -98,7 +101,10 @@ const Projects = () => (
   </div>
 
 </article>
- <article className="bt bb b--black-10 shadow-2 mb3 pa3">
+
+</div>
+<div className="flex-l w-100 nl2 nr2">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
 
  <div className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
@@ -114,7 +120,7 @@ const Projects = () => (
   </div>
 
 </article>
- <article className="bt bb b--black-10 shadow-2 mb3 pa3">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
 
 <div className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
@@ -130,9 +136,10 @@ const Projects = () => (
   </div>
 
 </article>
+</div>
 
-
- <article className="bt bb b--black-10 shadow-2 mb3 pa3">
+<div className="flex-l w-100 nl2 nr2">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
 
  <div className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
@@ -149,7 +156,7 @@ const Projects = () => (
 
 </article>
 
-  <article className="bt bb b--black-10 shadow-2 mb3 pa3">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
 
  <div className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
@@ -165,7 +172,10 @@ const Projects = () => (
   </div>
 
 </article>
-<article className="bt bb b--black-10 shadow-2 mb3 pa3">
+
+</div>
+<div className="flex-l w-100 nl2 nr2">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
 
 <div className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
@@ -175,14 +185,29 @@ const Projects = () => (
   <Link className="link dt w-100  pb2 mt2 dim blue" to="projects/catada">
 <h2 className="f3 fw1 mt0 lh-title">Future Quest Island</h2>
  </Link>
-<p className="f6 f5-l lh-copy">>Future Quest Island (FQI) is an accessible game-based college and career readiness tool for all middle school youth that aligns 21st century technology skills with college and career readiness goals to promote self-awareness, self-knowledge, self-advocacy, and organization for middle school youth with disabilities. FQI is aimed at middle school general and special education teachers as well as technology professionals, counselors, administrators, and transition professionals who are interested in advancing engagement and transition plans of youth with and without disabilities in middle school in college and career activities. </p>
+<p className="f6 f5-l lh-copy">Future Quest Island (FQI) is an accessible game-based college and career readiness tool for all middle school youth that aligns 21st century technology skills with college and career readiness goals to promote self-awareness, self-knowledge, self-advocacy, and organization for middle school youth with disabilities.  </p>
 
 </div>
   </div>
 
 </article>
 
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
 
+<div className="flex flex-column flex-row-ns">
+
+<div className="w-100 w-70-ns pl3-ns">
+  <Link className="link dt w-100  pb2 mt2 dim blue" to="projects/catada">
+<h2 className="f3 fw1 mt0 lh-title"> </h2>
+ </Link>
+<p className="f6 f5-l lh-copy"> </p>
+
+</div>
+  </div>
+
+</article>
+
+</div>
 
 </section>
 

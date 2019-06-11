@@ -14,9 +14,11 @@ const SelnPage = () => (
    
        <div className="fl w-75 pa2">
        <h1>SELN</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at lacus sagittis, volutpat ipsum mollis, consequat tellus. Duis neque leo, faucibus id augue ac, dictum pellentesque eros. Donec ut risus euismod, bibendum elit in, laoreet quam. Sed non volutpat purus. Cras et nibh scelerisque, sagittis nisi in, lacinia est. Nulla commodo rutrum vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce dignissim accumsan nisl non imperdiet. Nullam dapibus vel sapien vel ullamcorper. In egestas imperdiet malesuada. Duis sed lacinia odio, varius tempor enim.</p>
+  <p>The State Employment Leadership Network (SELN) brings together state intellectual and developmental disability (IDD) agencies for sharing, educating, and providing guidance on practices and policies around employment. The SELN offers technical assistance to its member states to boost their efforts to make substantial changes in their service systems.</p>
+<p>Run by ICI and the National Association of State Directors of Developmental Disabilities Services, the SELN supports states to improve integrated employment outcomes for people with IDD. Its members put into practice core beliefs: that employment is a path to opportunity, that employment connects people, that employment means equity, and that employment means increased economic opportunity.
+</p>
 
-<p>Fusce ac sollicitudin nunc. Vestibulum odio libero, fermentum quis feugiat non, facilisis in ante. In sagittis nisi et venenatis pretium. Sed suscipit egestas justo id bibendum. Nulla facilisi. Nunc est risus, euismod vitae laoreet rutrum, volutpat nec turpis. Cras porttitor tristique enim, non vulputate dui cursus ut. Nulla fringilla quam sed lectus euismod laoreet. Proin a mauris laoreet, vulputate tortor eu, sagittis leo. Proin commodo erat nibh, eu ultricies lorem consequat eu. Sed hendrerit ornare mauris, nec elementum enim sagittis nec. Morbi auctor fringilla pharetra. Quisque vitae leo at neque viverra condimentum.</p>
+<p>Explore the SELN and its accomplishments.</p>
 </div>
 </div>
 </section>

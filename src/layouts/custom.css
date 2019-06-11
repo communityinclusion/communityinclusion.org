@@ -37,7 +37,9 @@
 }
 
 
-
+.flex-1{
+	flex: 1;
+  }
 
 
 /*! CSS Used from: https://dwyl.com/css/dwyl.css */
