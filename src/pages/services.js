@@ -22,7 +22,7 @@ const Services = () => (
 						ICI Consulting
 					</h3>
 					<p className="lh-copy">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Our experts can help your agency or organization improve your outcomes, track your progress, and reach your goals.
 					</p>
 
   </div>
@@ -36,7 +36,7 @@ const Services = () => (
 						Training and TA
 					</h3>
 					<p className="lh-copy">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Use our customized training and technical assistance services to keep your employees at the top of their game.
 					</p>
 
 

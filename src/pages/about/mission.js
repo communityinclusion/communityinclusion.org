@@ -16,7 +16,7 @@ const MissionPage = () => (
        <h1>Mission and Vision</h1>
        <h2 id="mission">Mission</h2>
 
-<p>The ICI’s mission is empowering people with disabilities to fully engage in the life of their community.</p>
+<p>The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of the community. As practitioners, researchers, and teachers, we form partnerships with individuals, families, and communities. Together we advocate for personal choice, self-determination, and social and economic justice.</p>
 
 <h2 id="vision">Vision</h2>
 

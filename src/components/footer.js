@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import umbcombo from '../images/bch-umb-combo_logo.png'
 
 const Footer = () => (
-   <footer className="cf mt4 ph2-ns pa4 pa5-l moon-gray bt bg-navy">
+   <footer className="cf mt4 ph2-ns pa4 pa5-l white bt bg-dark-blue">
   <div className="fl w-third pa2 w-100  ml4-m">
 
      <img className = "dib mw-100 h-auto"
@@ -31,17 +31,17 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   </div>
   <div className="fl w-third pa2 w-100 ml4-m">
 
-    <h1 className="bb fl w-100 pv0 f6 fw6 ttu tracked mb4">Links</h1>
+    <h1 className="bb fl w-100 pv0 f6 fw6 ttu tracked">Links</h1>
   <ul className=" v-mid w-100 w-75-l list pl0 ">
-    <li className="mr2"> <Link to="/about/" className="link dim white f6 f5-l dib mr3 mr4-l" title="About">ABOUT ICI</Link></li>
-     <li className="mr2"><Link to="/areas-of-emphasis" className="link dim white f6 f5-l dib mr3 mr4-l" title="AREAS OF EMPHASIS">AREAS OF EMPHASIS</Link></li>
-    <li className="mr2"> <Link to="/projects" className="link dim white f6 f5-l dib mr3 mr4-l" title="Projects">PROJECTS</Link></li>
-       <li className="mr2">   <Link to="/services" className="link dim white f6 f5-l dib mr3 mr4-l" title="Services">SERVICES</Link></li>
-            <li className="mr2"><Link to="/resources/" className="link dim white f6 f5-l dib" title="Resources">RESOURCES</Link></li>
-                        <li className="mr2"> <Link to="/" className="link dim white f6 f5-l dib" title="Subscribe">SUBSCRIBE</Link></li>
+    <li className="mr2"> <Link to="/about/" className="link  navy f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="About">ABOUT ICI</Link></li>
+     <li className="mr2"><Link to="/areas-of-emphasis" className="link navy  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="AREAS OF EMPHASIS">AREAS OF EMPHASIS</Link></li>
+    <li className="mr2"> <Link to="/projects" className="link navy  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Projects">PROJECTS</Link></li>
+       <li className="mr2">   <Link to="/services" className="link navy  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Services">SERVICES</Link></li>
+            <li className="mr2"><Link to="/resources/" className="link navy  f6 f5-l dib no-underline underline-hover" title="Resources">RESOURCES</Link></li>
+                        <li className="mr2"> <Link to="/" className="link navy  f6 f5-l dib no-underline underline-hover" title="Subscribe">SUBSCRIBE</Link></li>
 
- <li className="mr2"> <Link to="/" className="link dim white f6 f5-l dib" title="contact">CONTACT</Link></li>
-    <li className="mr2"> <Link to="/" className="link dim white f6 f5-l dib" title="Donate">DONATE</Link></li>
+ <li className="mr2"> <Link to="/" className="link navy  f6 f5-l dib no-underline underline-hover" title="contact">CONTACT</Link></li>
+    <li className="mr2"> <Link to="/" className="link navy  f6 f5-l dib no-underline underline-hover" title="Donate">DONATE</Link></li>
   </ul>
 
 

@@ -28,16 +28,19 @@ const SidebarProjects = () => (
 
                 </li>
                 <li className="ici-sidenav__item">
-                    <Link to="/projects/catada">Catada</Link>
+                    <Link to="/projects/catada">CATADA</Link>
 
                 </li>
                 <li className="ici-sidenav__item">
-                    <Link to="/projects/nercve">Nercve</Link>
+                    <Link to="/projects/nercve">NERCVE</Link>
 
                 </li>
                 <li className="ici-sidenav__item">
-                    <Link to="/projects/employmentfirstma">EmploymentFirstMa</Link>
+                    <Link to="/projects/employmentfirstma">EmploymentFirstMA</Link>
 
+                </li>
+                <li className="ici-sidenav__item">
+                    <Link to="/projects/fqi">Future Quest Island</Link>
                 </li>
             </ul>
         </li>

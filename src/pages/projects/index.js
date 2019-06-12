@@ -41,7 +41,7 @@ const Projects = () => (
         <Link className="link dt w-100  pb2 mt2 dim blue" to="projects/thinkcollege">
     <h2 className="f3 fw1 mt0 lh-title">Think College</h2>
        </Link>
-  <p className="f6 f5-l lh-copy">Think College is a national organization dedicated to developing, expanding, and improving inclusive higher education options for people with intellectual disability.</p>
+  <p className="f6 f5-l lh-copy">Think College is a national initiative dedicated to developing, expanding, and improving inclusive higher education options for people with intellectual disability.</p>
 
     </div>
   </div>
@@ -93,7 +93,7 @@ const Projects = () => (
 
 <div className="w-100 w-70-ns pl3-ns">
         <Link className="link dt w-100  pb2 mt2 dim blue" to="projects/employmentfirstma">
-    <h2 className="f3 fw1 mt0 lh-title">EmloymentFirstMa</h2>
+    <h2 className="f3 fw1 mt0 lh-title">EmploymentFirstMa</h2>
        </Link>
     <p className="f6 f5-l lh-copy">Promoting inclusive employment in Massachusetts.</p>
 
