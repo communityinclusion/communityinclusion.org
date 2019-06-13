@@ -23,7 +23,7 @@ training, technical assistance, service, research, and information sharing, with
 <article className="cf">
   <div className="fl w-100-m w-70-ns bg-white pa3">
 
-<section className="mw7 center avenir">
+<section className="mw7 center">
   <h2 className="fw1 ph3 ph0-l">News</h2>
   <article className="bt bb b--black-10">
     <a className="db pv4 ph3 ph0-l no-underline black dim" href="#0">

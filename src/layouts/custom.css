@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 @import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
-
+@import url("https://use.typekit.net/hss6qfr.css");
 
 
 
@@ -41,6 +41,21 @@
 	flex: 1;
   }
 
+
+.banner-text {
+  font-family: myriad-pro-condensed, sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+
+.banner-tagline {
+	font-family: myriad-pro-condensed, sans-serif;
+
+	font-weight: 400;
+	
+	font-style: normal;
+  }
 
 /*! CSS Used from: https://dwyl.com/css/dwyl.css */
 .dwyl-bg-dark-gray{background-color:#45535b;}

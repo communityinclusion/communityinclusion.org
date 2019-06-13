@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import logo from '../images/ICI_square.png'
+import logo from '../images/ici-150w.png'
 
 const Header = ({ siteTitle }) => (
 	<div >
@@ -82,12 +82,12 @@ const Header = ({ siteTitle }) => (
           />
 
     </Link> </div> <div className = "fl w-65-ns w-60 pa2" >
-    <h1 className = "link dim dark-blue b f2-ns db mb2  f5 "
+    <h1 className = "banner-text link dim dark-blue b f2-ns db mb2  f5 "
     href = "/"
     title = "Home" >
     Institute
     for Community Inclusion </h1>
-    <span className = "f5-ns f6 f-subheadline dark-blue tracked-mega-ns " > { " " }
+    <span className = "banner-tagline f5-ns f6 f-subheadline dark-blue tracked-mega-ns " > { " " }
     PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES </span> </div> <div className = "fl w-20-ns w-20 pa2 " >
     <div className = "db dtc-l v-mid w-100 w-75-l" >
     <ul className = "flex-container space-between list pl0" >
