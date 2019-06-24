@@ -10,11 +10,16 @@
 .bg-dark-blue {
     background-color: #0075ad;
 }
-
+.bg-lightest-blue {
+background-color:	#9bd4f4
+}
 .dark-blue {
     color: #0075ad;
 }
 
+
+
+footer a { font-weight: 700; color:#fff}
 @media screen and (max-width: 30em){
 	.show-sibling:checked + .sibling {
 		display: block;
@@ -53,7 +58,7 @@ font-style: normal;
 	font-family: myriad-pro-condensed, sans-serif;
 
 	font-weight: 400;
-	
+	letter-spacing:4px;
 	font-style: normal;
   }
 

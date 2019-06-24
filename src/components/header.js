@@ -72,7 +72,7 @@ const Header = ({ siteTitle }) => (
     { /*----End Mobile Nav */ }
 
     <div className = "desktop-nav" >
-    <div className = "cf mw9 center ph2-ns" >
+    <div className = "cf mw8 center ph2-ns" >
     <div className = "fl w-15-ns w-20 pa2" >
     <Link to= "/" className = "dtc v-mid mid-gray link "
     title = "Home" >
@@ -82,12 +82,12 @@ const Header = ({ siteTitle }) => (
           />
 
     </Link> </div> <div className = "fl w-65-ns w-60 pa2" >
-    <h1 className = "banner-text link dim dark-blue b f2-ns db mb2  f5 "
+    <h1 className = "banner-text link dim dark-blue b f1-ns db mb2  f5 "
     href = "/"
     title = "Home" >
     Institute
     for Community Inclusion </h1>
-    <span className = "banner-tagline f5-ns f6 f-subheadline dark-blue tracked-mega-ns " > { " " }
+    <span className = "banner-tagline f4-ns f6 f-subheadline dark-blue tracked-mega-ns " > { " " }
     PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES </span> </div> <div className = "fl w-20-ns w-20 pa2 " >
     <div className = "db dtc-l v-mid w-100 w-75-l" >
     <ul className = "flex-container space-between list pl0" >
@@ -139,7 +139,7 @@ const Header = ({ siteTitle }) => (
     <Link to="/about/" className = "link white f6 f5-l dib mr3 mr4-l pa2 hover-bg-light-blue"
     title = "About" >
     ABOUT ICI </Link>
-    <ul className="menu list f6 absolute child ph1">
+   {/* <ul className="menu list f6 absolute child ph1">
         <li className="bg-dark-blue bg-animate hover-bg-white">
           <Link to="/about/staff" className = "llink white hover-blue f6 f5-l dib pa2"
     title = "Staff" >
@@ -150,29 +150,29 @@ const Header = ({ siteTitle }) => (
     title = "Contact" >
     Contact </Link>
         </li>
-      </ul>
+</ul>*/}
     </li>
 
-     <li className = "dib mr2" > { " " }  <Link to= "/areas-of-emphasis/" className = "link white f6 f5-l dib mr3 mr4-l"
+     <li className = "dib mr2" > { " " }  <Link to= "/areas-of-emphasis/" className = "link white f6 f5-l dib mr3 mr4-l pa2 hover-bg-light-blue"
     title = "Areas of Emphasis" >
     AREAS OF EMPHASIS </Link>
     </li>
     <li className = "dib mr2"> { " " }
-  	  <Link to= "/projects/" className = "link white f6 f5-l dib mr3 mr4-l"
+  	  <Link to= "/projects/" className = "link white f6 f5-l dib mr3 mr4-l pa2 hover-bg-light-blue"
 		title = "Projects" >
     PROJECTS </Link> </li>
-    <li className = "dib mr2" > { " " } <Link to= "/services/"  className = "link white f6 f5-l dib mr3 mr4-l"
+    <li className = "dib mr2" > { " " } <Link to= "/services/"  className = "link white f6 f5-l dib mr3 mr4-l pa2 hover-bg-light-blue"
     title = "Services" >
     SERVICES </Link>
     </li>
     <li className = "dib mr2" > { " " }
-  <Link to="/resources/"  className = "link white f6 f5-l dib"
+  <Link to="/resources/"  className = "link white f6 f5-l dib pa2 hover-bg-light-blue"
     title = "Resources" >
     RESOURCES </Link>
     </li>
     </ul> </nav> </div>
 {/* <div className = "vh-100 dt o-80 w-100 tc bg-dark-gray white cover"
-    style = {{ background: "url(../images/umb-campus.png) no-repeat center"}} >
+    style = {{ background: "url(../images/boston-skyline.jpg) no-repeat center"}} >
 
  <div>
      <BgImage

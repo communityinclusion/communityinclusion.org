@@ -5,7 +5,7 @@ import cesservices from '../images/services-ces.png'
 import consultingservices from '../images/services-consulting.png'
 import acreservices from '../images/services-acre.png'
 import taservices from '../images/services-ta.png'
-import employmentservices from '../images/services-employment.png'
+import employmentservices from '../images/empservices-logo.png'
 
 const Services = () => (
   <Layout>

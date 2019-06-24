@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Hero from "../components/hero"
 import Layout from "../components/layout"
 import cat from '../images/cat.jpeg'
+import { graphql } from 'gatsby'
 
 const StyledHero = styled(Hero)`
   max-width: 100%;
@@ -87,7 +88,8 @@ training, technical assistance, service, research, and information sharing, with
 
 
   </div>
-  <div className="fl w-100-m w-30-ns tc pa3 mt3 bg-dark-blue ">
+  <div className="fl w-100-m w-25-ns tc pa3 mt4 bg-dark-blue ">
+    
 <a className="twitter-timeline" data-height="700" href="https://twitter.com/ICInclusion?ref_src=twsrc%5Etfw">Tweets by ICInclusion</a>
  </div>
 </article>  </Layout>
@@ -97,7 +99,7 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query indexQuery {
-    hero: allImageSharp(filter:{original:{src:{regex:"/umb-campus/"}}}) {
+    hero: allImageSharp(filter:{original:{src:{regex:"/boston-skyline/"}}}) {
       edges {
         node {
           id

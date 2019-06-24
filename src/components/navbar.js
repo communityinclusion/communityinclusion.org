@@ -76,7 +76,7 @@ Institute for Community Inclusion
             </ul>
           </nav>
         </div>
-        <div classnamename="vh-100 dt o-80 w-100 tc bg-dark-gray white cover" style={{background: 'url(assets/umb-campus.png) no-repeat center'}}>
+        <div classnamename="vh-100 dt o-80 w-100 tc bg-dark-gray white cover" style={{background: 'url(assets/boston-skyline.jpg) no-repeat center'}}>
           <div classnamename="dtc v-mid">
             <header classnamename="tc ph4 bg-white o-60">
               <h1 classnamenames="f3 f2-m f1-l fw2 dark-blue mv3"><em>PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES</em></h1>
