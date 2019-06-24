@@ -6,7 +6,7 @@ const Footer = () => (
    <footer className="bg-dark-blue mt2 pt3">
 
     <div className="footer-top mw9 center ph3-ns white">
-    <div class="cf ph2-ns">
+    <div className="cf ph2-ns">
   <div className="fl w-third pa2 w-100  ml4-m">
 
      <img className = "dib mw-100 h-auto"

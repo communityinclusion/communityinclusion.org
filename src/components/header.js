@@ -38,9 +38,9 @@ const Header = ({ siteTitle }) => (
     Institute
     for Community Inclusion </div> </div> <ul className = "overflow-hidden menu db-l w-100 list tc pl0 pt3 mv0 f3 fw3 f5-l" >
     {
-        /*<li class="absolute top-1 static-l ph4 mh2 fw3 di-l pt1 pb3 pv3-l">
-        <a href="/" class="white link">
-        <img src="assets/ICIsquare_color_32x32.png" alt="dwyl heart logo" class="dib mw-100 h-auto">
+        /*<li className="absolute top-1 static-l ph4 mh2 fw3 di-l pt1 pb3 pv3-l">
+        <a href="/" className="white link">
+        <img src="assets/ICIsquare_color_32x32.png" alt="dwyl heart logo" className="dib mw-100 h-auto">
         Institute for Community Inclusion
         </a>
         </li> */
