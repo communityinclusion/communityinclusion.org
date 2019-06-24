@@ -10,7 +10,7 @@ const DonatePage = () => (
    
    
    
-       <div className="fl w-100 pa2">
+       <div className="w-100 pa2">
        <h1>Donate</h1>
        <h2>To Build Our Impact, We Need Your Support</h2>
 <p>For over 50 years, ICI has empowered and collaborated with people with disabilities to ensure their full engagement in workplaces, schools, health care settings, and the community.</p>

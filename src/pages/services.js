@@ -51,7 +51,7 @@ const Services = () => (
 						ICI Employment Services
 					</h3>
 					<p className="lh-copy">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Every day, we support people with disabilities to find and sustain employment at fulfilling jobs in the community.
 					</p>
 
        </div>
@@ -64,7 +64,7 @@ const Services = () => (
 						College of Employment Services
 					</h3>
 					<p className="lh-copy">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          This dynamic online suite of courses trains employment professionals to guide people with disabilities toward satisfying careers.
 					</p>
 
   </div>
@@ -77,7 +77,7 @@ const Services = () => (
 						CES/ACRE
 					</h3>
 					<p className="lh-copy">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Professionals who complete courses from the College of Employment Services can receive additional instruction to gain ACRE certification.
 					</p>
 
   </div>

@@ -52,6 +52,11 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   </div>
   </div>
   <div className="footer-copyright center cf mt4  bt white bg-navy f6 lh-copy "><p className="ph3-ns ph5-ns ph3">©2019. The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital.</p></div>
+ {/*Begin Constant Contact Active Forms */}
+<script> var _ctct_m = "b49f2c8400ca9ddcee2ba421b594264d"; </script>
+<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
+ {/* End Constant Contact Active Forms */}
+
 </footer>
 )
 
