@@ -6,8 +6,8 @@ const Footer = () => (
    <footer className="bg-dark-blue mt2 pt3">
 
     <div className="footer-top mw9 center ph3-ns white">
-    <div className="cf ph2-ns">
-  <div className="fl w-third pa2 w-100  ml4-m">
+    <div className="cf ph2-ns flex flex-column flex-row-l justify-between">
+  <div className="fl w-33-ns pa2 w-100  ml4-m">
 
      <img className = "dib mw-100 h-auto"
    			 alt = "Institute for Community Inclusion"
@@ -18,7 +18,7 @@ const Footer = () => (
 
   </div>
   
-  <div className="fl w-third pa2 w-100 ml4-m">
+  <div className="fl w-33-ns pa2 w-100 ml4-m">
 
     <h1 className="bb fl w-100 pv0 f6 fw6 ttu tracked">Contact</h1>
     <article className="fl dib-ns w-auto-ns mr4-m mr5-l pr2 pr0-ns tl">
@@ -33,7 +33,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
 &nbsp;</address>    </article>
 
   </div>
-  <div className="fl w-third pa2 w-100 ml4-m">
+  <div className="fl w-33-ns pa2 w-100 ml4-m">
 
     <h1 className="bb fl w-100 pv0 f6 fw6 ttu tracked">Links</h1>
   <ul className=" v-mid w-100 w-75-l list pl0 ">
@@ -52,11 +52,6 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   </div>
   </div>
   <div className="footer-copyright center cf mt4  bt white bg-navy f6 lh-copy "><p className="ph3-ns ph5-ns ph3">©2019. The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital.</p></div>
- {/*Begin Constant Contact Active Forms */}
-<script> var _ctct_m = "b49f2c8400ca9ddcee2ba421b594264d"; </script>
-<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
- {/* End Constant Contact Active Forms */}
-
 </footer>
 )
 

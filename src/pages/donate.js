@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -24,6 +25,7 @@ const DonatePage = () => (
 </ul>
 <p>Donations in any amount are welcome. Thank you for supporting our mission of equity and inclusion!</p>
 
+<div className="ph3"><Link to="https://securelb.imodules.com/s/1355/boston/giving/17/form.aspx?sid=1355&gid=3&pgid=5411&cid=13247&appealcode=GiveBtn&dids=522&bledit=1" className="f6 link dim ph3 pv2 mb2 dib white bg-dark-blue" >Donate Today</Link></div>
 
  
 </div>

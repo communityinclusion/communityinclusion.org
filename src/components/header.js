@@ -18,21 +18,15 @@ const Header = ({ siteTitle }) => (
 
    <Link to="/"
    className = "dtc v-mid mid-gray link "
-   ></Link>
- {/*   <
-    a className = "dtc v-mid mid-gray link "
-    href = "#"
-    title = "Home" >
+   > 
     <img 	  className = "dib mw-100 h-auto"
    			 alt = "Institute for Community Inclusion"
-            src={logo}
-          />
-          <
-          /a>
-          */}
+            src={logo} />
+          </Link>
+         
     </div>
-     <div className = "fl w-65-ns w-60 pa2" >
-    <div className = "link dim white b f2-ns db mb2 f5-m"
+     <div className = "fl w-65-ns w-70 pa2" >
+    <div className = "banner-text link dim white b f2 f2-ns db mb2 f3-m"
     href = "index.md"
     title = "Home" >
     Institute
