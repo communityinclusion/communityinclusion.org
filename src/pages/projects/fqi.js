@@ -3,7 +3,7 @@ import Layout from "../../components/layout"
 import SidebarProject from "../../components/sidebarproject"
 import SEO from "../../components/seo"
 import { Link } from "gatsby"
-import fqiLong from '../../images/fqi.png'
+import fqiLong from '../../images/tc-fqi-long.png'
 
 const FQIPage = () => (
   <Layout>
@@ -17,11 +17,13 @@ const FQIPage = () => (
        <div className="fl w-75 pa2">
        <h1>Future Quest Island</h1>
        <img src={fqiLong} className="db" alt = "Future Quest Island" />
-  <p> <Link className="link dim blue" to="https://www.futurequestisland.org/">Future Quest Island</Link>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit velit in metus malesuada pretium quis in massa. Etiam quis quam non nisl lobortis scelerisque non porttitor libero. Sed ultrices urna at dolor viverra, nec malesuada enim ullamcorper. Maecenas convallis, neque vitae convallis lacinia, felis leo porttitor tortor, sit amet condimentum urna urna iaculis sapien. Nam viverra diam urna, non suscipit dolor ultrices nec. Praesent eleifend sit amet nisl vestibulum ullamcorper.</p>
+       
+       <p><Link className="link dim blue" to="https://thinkcollege.net/about/what-is-think-college/future-quest-island">Future Quest Island (FQI)</Link> is an accessible, game-based college and career readiness tool for middle schoolers with and without disabilities. Through an engaging online platform, FQI aligns 21st-century technology skills with educational and employment goals.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit velit in metus malesuada pretium quis in massa. Etiam quis quam non nisl lobortis scelerisque non porttitor libero. Sed ultrices urna at dolor viverra, nec malesuada enim ullamcorper. Maecenas convallis, neque vitae convallis lacinia, felis leo porttitor tortor, sit amet condimentum urna urna iaculis sapien. Nam viverra diam urna, non suscipit dolor ultrices nec. Praesent eleifend sit amet nisl vestibulum ullamcorper.</p>
+<p>FQI is aimed at middle school general and special education teachers, as well as technology professionals, counselors, administrators, and transition professionals. Its goal is to advance the engagement and transition plans of youth with and without disabilities so that they can build a robust path to lifelong success, in middle school and beyond.</p>
 
-<p><Link className="link dim blue" to="https://www.futurequestisland.org/">Future Quest Island</Link> blah blah filler text.</p>
+<p>Learn more about how <Link className="link dim blue" to="https://thinkcollege.net/about/what-is-think-college/future-quest-island">Future Quest Island engages middle schoolers.</Link></p>
+
 </div>
 </div>
 </section>

@@ -3,11 +3,11 @@ import { Link } from "gatsby"
 import umbcombo from '../images/bch-umb-combo_logo-small.png'
 
 const Footer = () => (
-   <footer className="bg-dark-blue mt2 pt3">
+   <footer className="bg-navy mt2 pt3">
 
     <div className="footer-top mw9 center ph3-ns white">
     <div className="cf ph2-ns flex flex-column flex-row-l justify-between">
-  <div className="fl w-33-ns pa2 w-100  ml4-m">
+  <div className="fl w-33-l pa2 w-100  ml4-m">
 
      <img className = "dib mw-100 h-auto"
    			 alt = "Institute for Community Inclusion"
@@ -18,7 +18,7 @@ const Footer = () => (
 
   </div>
   
-  <div className="fl w-33-ns pa2 w-100 ml4-m">
+  <div className="fl w-33-l pa2 w-100 ml4-m">
 
     <h1 className="bb fl w-100 pv0 f6 fw6 ttu tracked">Contact</h1>
     <article className="fl dib-ns w-auto-ns mr4-m mr5-l pr2 pr0-ns tl">
@@ -33,7 +33,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
 &nbsp;</address>    </article>
 
   </div>
-  <div className="fl w-33-ns pa2 w-100 ml4-m">
+  <div className="fl w-33-l pa2 w-100 ml4-m">
 
     <h1 className="bb fl w-100 pv0 f6 fw6 ttu tracked">Links</h1>
   <ul className=" v-mid w-100 w-75-l list pl0 ">

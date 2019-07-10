@@ -42,6 +42,12 @@ const SidebarProjects = () => (
                 <li className="ici-sidenav__item">
                     <Link to="/projects/fqi">Future Quest Island</Link>
                 </li>
+                <li className="ici-sidenav__item">
+                    <Link to="/projects/lend">Boston LEND</Link>
+                </li>
+                <li className="ici-sidenav__item">
+                    <Link to="/projects/bchdsp">Boston Children’s Hospital Down Syndrome Program</Link>
+                </li>
             </ul>
         </li>
              </ul>

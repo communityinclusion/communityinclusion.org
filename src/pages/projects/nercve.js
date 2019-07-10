@@ -3,7 +3,7 @@ import Layout from "../../components/layout"
 import SidebarProject from "../../components/sidebarproject"
 import SEO from "../../components/seo"
 import { Link } from "gatsby"
-import nercveLong from '../../images/nercve-long.png'
+import nercveLong from '../../images/nercve-2019-long.png'
 
 const NercvePage = () => (
   <Layout>

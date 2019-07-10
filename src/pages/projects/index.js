@@ -11,6 +11,9 @@ import statedata from '../../images/statedata.png'
 import seln from '../../images/seln.png'
 import catada from '../../images/catada.png'
 import fqi from '../../images/fqi.png'
+import bchlend from '../../images/bch-lend-logo.png'
+import bchds from '../../images/bch-ds-logo.png'
+
 
 const Projects = () => (
   <Layout>
@@ -28,8 +31,8 @@ const Projects = () => (
 
 
 
-    <div className="flex-l w-100 nl2 nr2">
-    <article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
+    <div className="flex-l w-100 nl2 nr2 center">
+    <article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90 ">
 
  <div className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
@@ -38,27 +41,27 @@ const Projects = () => (
 
  <div className="w-100 w-70-ns pl3-ns">
  
-        <Link className="link dt w-100  pb2 mt2 dim blue" to="projects/thinkcollege">
-    <h2 className="f3 fw1 mt0 lh-title">Think College</h2>
+        <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/thinkcollege">
+    <h2 className="f3 fw1 mt0 lh-title bb bw2">Think College</h2>
        </Link>
-  <p className="f6 f5-l lh-copy">Think College is a national initiative dedicated to developing, expanding, and improving inclusive higher education options for people with intellectual disability.</p>
+  <p className="f6 f5-l lh-copy">Think College develops, expands, and improves inclusive higher education options for people with intellectual and developmental disabilities.</p>
 
     </div>
   </div>
 
 </article>
 
-<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90">
 
 <div className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
     <img src={nercve} className="db" alt = "NERCVE" />
   </div>
 <div className="w-100 w-70-ns pl3-ns">
-        <Link to="/projects/nercve" className="link dt w-100  pb2 mt2 dim blue">
-    <h2 className="f3 fw1 mt0 lh-title">NERCVE</h2>
+        <Link to="/projects/nercve" className="link dt w-100  pb2 mt2 dim dark-blue">
+    <h2 className="f3 fw1 mt0 lh-title bb bw2">NERCVE</h2>
        </Link>
-    <p className="f6 f5-l lh-copy">The Northeast Resource Center for Vision Education (NERCVE) is committed to improving education for people with visual disabilities.</p>
+    <p className="f6 f5-l lh-copy">The Northeast Resource Center for Vision Education (NERCVE) trains professionals to support people with blindness and low vision in accessing education and living independently.</p>
 
     </div>
   </div>
@@ -68,23 +71,23 @@ const Projects = () => (
 
 </div>
 <div className="flex-l w-100 nl2 nr2">
-<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3 w-90">
 
 <div className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
     <img src={explorevr} className="db" alt = "ExploreVR" />
   </div>
 <div className="w-100 w-70-ns pl3-ns">
-        <Link className="link dt w-100  pb2 mt2 dim blue" to="projects/explorevr">
-    <h2 className="f3 fw1 mt0 lh-title">ExploreVR</h2>
+        <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/explorevr">
+    <h2 className="f3 fw1 mt0 lh-title bb bw2">ExploreVR</h2>
        </Link>
-    <p className="f6 f5-l lh-copy">ExploreVR offers vocational rehabilitation (VR) agencies easy and convenient access to a range of VR research, related data, and tools for planning, evaluation, and decision-making.</p>
+    <p className="f6 f5-l lh-copy">Explore VR offers vocational rehabilitation (VR) agencies easy and convenient access to a range of VR research, related data, and tools for planning, evaluation, and decision-making.</p>
 
   </div>
   </div>
 
 </article>
-<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90">
 
 <div className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
@@ -92,10 +95,10 @@ const Projects = () => (
   </div>
 
 <div className="w-100 w-70-ns pl3-ns">
-        <Link className="link dt w-100  pb2 mt2 dim blue" to="projects/employmentfirstma">
-    <h2 className="f3 fw1 mt0 lh-title">EmploymentFirstMa</h2>
+        <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/employmentfirstma">
+    <h2 className="f3 fw1 mt0 lh-title bb bw2">EmploymentFirstMa</h2>
        </Link>
-    <p className="f6 f5-l lh-copy">Promoting inclusive employment in Massachusetts.</p>
+    <p className="f6 f5-l lh-copy">Employment First MA promotes community-based paid employment for Massachusetts citizens with intellectual and developmental disabilities. </p>
 
    </div>
   </div>
@@ -104,33 +107,33 @@ const Projects = () => (
 
 </div>
 <div className="flex-l w-100 nl2 nr2">
-<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90 ">
 
  <div className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
     <img src = {thinkwork} className ="db" alt = "Think Work"/>
   </div>
   <div className="w-100 w-70-ns pl3-ns">
-                <Link className="link dt w-100  pb2 mt2 dim blue" to="projects/thinkwork">
-    <h2 className="f3 fw1 mt0 lh-title">ThinkWork</h2>
+                <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/thinkwork">
+    <h2 className="f3 fw1 mt0 lh-title bb bw2">ThinkWork!</h2>
        </Link>
-    <p className="f6 f5-l lh-copy">ThinkWork is the hub for an array of programs related to employment for people with IDD at the Institute for Community Inclusion at the University of Massachusetts Boston.</p>
+    <p className="f6 f5-l lh-copy">ThinkWork! is the hub for an array of programs related to employment for people with intellectual and developmental disabilities.</p>
 
     </div>
   </div>
 
 </article>
-<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90">
 
 <div className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
     <img src={statedata} className="db" alt = "StateData.info"/>
   </div>
  <div className="w-100 w-70-ns pl3-ns">
-        <Link className="link dt w-100  pb2 mt2 dim blue" to="projects/statedata">
-    <h2 className="f3 fw1 mt0 lh-title">StateData.info</h2>
+        <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/statedata">
+    <h2 className="f3 fw1 mt0 lh-title bb bw2">StateData.info</h2>
        </Link>
-    <p className="f6 f5-l lh-copy">StateData.info promotes Employment First and systems change efforts nationwide by supporting outcome-based management and planning.</p>
+    <p className="f6 f5-l lh-copy">StateData.info offers publications and data related to employment and disability. Users can view trends and build charts to help drive systems change.</p>
 
       </div>
   </div>
@@ -139,34 +142,34 @@ const Projects = () => (
 </div>
 
 <div className="flex-l w-100 nl2 nr2">
-<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90">
 
  <div className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
     <img src={seln} className="db" alt = "SELN"/>
   </div>
  <div className="w-100 w-70-ns pl3-ns">
-        <Link className="link dt w-100  pb2 mt2 dim blue" to="projects/seln">
-    <h2 className="f3 fw1 mt0 lh-title">SELN</h2>
+        <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/seln">
+    <h2 className="f3 fw1 mt0 lh-title bb bw2">SELN</h2>
        </Link>
-    <p className="f6 f5-l lh-copy">The State Employment Leadership Network (SELN) brings together state developmental disability agencies for sharing, educating and providing guidance on practices and policies around employment to its members.</p>
+    <p className="f6 f5-l lh-copy">The State Employment Leadership Network (SELN) brings together state developmental disability agencies for education and guidance on employment practices and policies.</p>
 
       </div>
   </div>
 
 </article>
 
-<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90 ">
 
  <div className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
     <img src={catada} className="db" alt = "Catada" />
   </div>
  <div className="w-100 w-70-ns pl3-ns">
-        <Link className="link dt w-100  pb2 mt2 dim blue" to="projects/catada">
-    <h2 className="f3 fw1 mt0 lh-title">CATADA</h2>
+        <Link className="link no-underline dt w-100  pb2 mt2 dim dark-blue" to="projects/catada">
+    <h2 className="f3 fw1 mt0 lh-title bb bw2">CATADA</h2>
        </Link>
-     <p className="f6 f5-l lh-copy">The Center for Assistive Technology Act Data Assistance (CATADA) provides technical assistance and supports to State Assistive Technology (AT) Programs.</p>
+     <p className="f6 f5-l lh-copy">The Center for Assistive Technology Act Data Assistance (CATADA) provides technical assistance and supports to state assistive technology programs.</p>
 
     </div>
   </div>
@@ -175,29 +178,67 @@ const Projects = () => (
 
 </div>
 <div className="flex-l w-100 nl2 nr2">
-<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90  ">
 
 <div className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
 <img src={fqi} className="db" alt = "Future Quest Island" />
 </div>
 <div className="w-100 w-70-ns pl3-ns">
-  <Link className="link dt w-100  pb2 mt2 dim blue" to="projects/catada">
-<h2 className="f3 fw1 mt0 lh-title">Future Quest Island</h2>
+  <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/catada">
+<h2 className="f3 fw1 mt0 lh-title bb bw2">Future Quest Island</h2>
  </Link>
-<p className="f6 f5-l lh-copy">Future Quest Island (FQI) is an accessible game-based college and career readiness tool for all middle school youth that aligns 21st century technology skills with college and career readiness goals to promote self-awareness, self-knowledge, self-advocacy, and organization for middle school youth with disabilities.  </p>
+<p className="f6 f5-l lh-copy">Future Quest Island is an accessible, game-based college and career readiness tool for middle schoolers. It promotes self-advocacy to help young people plan for future success.  </p>
 
 </div>
   </div>
 
 </article>
 
-<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-100 ">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90">
+
+<div className="flex flex-column flex-row-ns">
+<div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
+<img src={bchlend} className="db" alt = "LEND Boston" />
+</div>
+<div className="w-100 w-70-ns pl3-ns">
+  <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/lend">
+<h2 className="f3 fw1 mt0 lh-title bb bw2"> LEND Boston</h2>
+ </Link>
+<p className="f6 f5-l lh-copy"> The LEND Program at Boston Children’s Hospital is an interdisciplinary training program that supports health professionals to work with patients with intellectual and developmental disabilities. </p>
+
+</div>
+  </div>
+
+</article>
+
+</div>
+
+
+<div className="flex-l w-100 nl2 nr2">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90 ">
+
+<div className="flex flex-column flex-row-ns">
+    <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
+<img src={bchds} className="db" alt = "Boston Children’s Hospital Down Syndrome Program" />
+</div>
+<div className="w-100 w-70-ns pl3-ns">
+  <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/bchdsp">
+<h2 className="f3 fw1 mt0 lh-title bb bw2">Boston Children’s Hospital Down Syndrome Program</h2>
+ </Link>
+<p className="f6 f5-l lh-copy">The Down Syndrome Program at Boston Children’s Hospital offers specialized services for children with Down syndrome and their families. </p>
+
+</div>
+  </div>
+
+</article>
+
+<article className="flex-1 ma3 pa3  w-90 ">
 
 <div className="flex flex-column flex-row-ns">
 
 <div className="w-100 w-70-ns pl3-ns">
-  <Link className="link dt w-100  pb2 mt2 dim blue" to="projects/catada">
+  <Link className="link dt w-100  pb2 mt2 dim blue" to="#">
 <h2 className="f3 fw1 mt0 lh-title"> </h2>
  </Link>
 <p className="f6 f5-l lh-copy"> </p>
@@ -208,6 +249,8 @@ const Projects = () => (
 </article>
 
 </div>
+
+
 
 </section>
 
