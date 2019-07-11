@@ -12,7 +12,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     })
   }
 }
-
+{/* 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return graphql(`
@@ -27,5 +27,5 @@ exports.createPages = ({ graphql, actions }) => {
         }
       }
     }
-  `)
-}
+  `
+  */}

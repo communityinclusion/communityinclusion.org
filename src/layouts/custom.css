@@ -89,6 +89,16 @@ font-style: normal;
 	font-style: normal;
   }
 
+
+  .breadcrumbs-wrapper {
+	background-color:	#e1e1e1
+	}
+
+  .breadcrumbs {
+
+	}
+
+	a.crumb {color:#23527c!important}
 /*! CSS Used from: https://dwyl.com/css/dwyl.css */
 .dwyl-bg-dark-gray{background-color:#45535b;}
 .dwyl-bg-gold{background-color:#c6ac5c;}
