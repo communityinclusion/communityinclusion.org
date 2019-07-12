@@ -5,9 +5,12 @@ import community from '../images/community.png'
 import healthcare from '../images/healthcare.png'
 import education from '../images/education.png'
 import employment from '../images/employment.png'
+import Breadcrumb from "../components/breadcrumb/breadcrumb"
+
 
 const AreasofEmphasis = () => (
   <Layout>
+    <Breadcrumb crumbs={ [ 'Home', 'Areas of Emphasis' ] } />
    <section className="center mw8">
    <SEO title="Areas of Emphasis" />
     <h1>Areas of Emphasis</h1>

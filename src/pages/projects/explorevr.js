@@ -4,10 +4,11 @@ import SidebarProject from "../../components/sidebarproject"
 import SEO from "../../components/seo"
 import { Link } from "gatsby"
 import explorevrLong from '../../images/explorevr-long.png'
-
+import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
 const ExplorevrPage = () => (
   <Layout>
+         <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'ExploreVR'] } />
       <section className="mw8 center">
        <SEO title="ExploreVR" />
   

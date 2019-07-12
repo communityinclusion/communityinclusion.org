@@ -4,9 +4,12 @@ import SidebarProject from "../../components/sidebarproject"
 import SEO from "../../components/seo"
 import { Link } from "gatsby"
 import bchlendLong from '../../images/bch-lend-long.png'
+import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+
 
 const LENDBostonPage = () => (
   <Layout>
+    <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'Lend'] } />
       <section className="mw8 center">
        <SEO title="Boston LEND" />
   

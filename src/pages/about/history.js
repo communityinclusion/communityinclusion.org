@@ -2,9 +2,11 @@ import React from "react"
 import Layout from "../../components/layout"
 import SidebarAbout from "../../components/sidebarabout"
 import SEO from "../../components/seo"
+import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
 const HistoryPage = () => (
   <Layout>
+      <Breadcrumb crumbs={ [ 'Home', 'About', 'History' ] } />
       <section className="mw8 center">
        <SEO title="History of ICI" />
   

@@ -2,25 +2,15 @@ import React from "react"
 import Layout from "../../components/layout"
 import SidebarAbout from "../../components/sidebarabout"
 import SEO from "../../components/seo"
-import { SitemapCrumbs } from 'gatsby-plugin-breadcrumb'
+import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
-export const ContactPage = ({pageContext, location, crumbLabel}) => {
-
-  const {
-    breadcrumb: { crumbs },
-  } = pageContext;
-
-  return (
+const ContactPage = () => (
   <Layout>
-    <div className="breadcrumbs-wrapper">
-      <div className="breadcrumbs mw8 center">
-        <SitemapCrumbs className="crumb" crumbs={crumbs} crumbSeparator=" > " />
-        </div>
-        </div>
+      <Breadcrumb crumbs={ [ 'Home', 'About', 'Contact' ] } />
+
       <section className="mw8 center">
-   
        <SEO title="Contact Us" />
-  
+
    
    <div className="cf ph2-ns">
        <SidebarAbout />
@@ -44,5 +34,4 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a></address>
 </section>
   </Layout>
 )
-  }
 export default ContactPage

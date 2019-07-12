@@ -4,9 +4,11 @@ import SidebarProject from "../../components/sidebarproject"
 import SEO from "../../components/seo"
 import { Link } from "gatsby"
 import fqiLong from '../../images/tc-fqi-long.png'
+import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
 const FQIPage = () => (
   <Layout>
+         <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'Future Quest Island'] } />
       <section className="mw8 center">
        <SEO title="Future Quest Island" />
   

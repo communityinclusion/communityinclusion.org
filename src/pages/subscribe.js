@@ -1,10 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
+import Breadcrumb from "../components/breadcrumb/breadcrumb"
 
 const Subscribe = () => (
   <Layout>
+     <Breadcrumb crumbs={ [ 'Home', 'Subscribe' ] } />
    <section className="center mw8">
    <SEO title="Subscribe" />
     <h1>Subscribe</h1>

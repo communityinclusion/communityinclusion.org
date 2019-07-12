@@ -4,9 +4,12 @@ import SidebarProject from "../../components/sidebarproject"
 import SEO from "../../components/seo"
 import { Link } from "gatsby"
 import bchdownLong from '../../images/bch-dsp-long.png'
+import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+
 
 const BCHdspPage = () => (
   <Layout>
+          <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'Boston Children’s Hospital Down Syndrome Program'] } />
       <section className="mw8 center">
        <SEO title="Boston Children’s Hospital Down Syndrome Program" />
   

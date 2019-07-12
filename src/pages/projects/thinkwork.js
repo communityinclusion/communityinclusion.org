@@ -4,10 +4,11 @@ import SidebarProject from "../../components/sidebarproject"
 import SEO from "../../components/seo"
 import { Link } from "gatsby"
 import thinkworkLong from '../../images/thinkwork-long.png'
-
+import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
 const ThinkWorkPage = () => (
   <Layout>
+         <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'ThinkWork!'] } />
       <section className="mw8 center">
        <SEO title="Think Work" />
   

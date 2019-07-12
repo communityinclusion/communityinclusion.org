@@ -2,9 +2,12 @@ import React from "react"
 import Layout from "../../components/layout"
 import SidebarAbout from "../../components/sidebarabout"
 import SEO from "../../components/seo"
+import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+
 
 const MissionPage = () => (
   <Layout>
+        <Breadcrumb crumbs={ [ 'Home', 'About' ,'Mission'] } />
       <section className="mw8 center">
        <SEO title="Mission and Vision" />
   

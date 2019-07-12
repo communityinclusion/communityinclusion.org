@@ -3,12 +3,15 @@ import { graphql } from 'gatsby'
 import Layout from "../../components/layout"
 import SidebarAbout from "../../components/sidebarabout"
 import SEO from "../../components/seo"
+import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+
 
 class StaffComponent extends React.Component {
   render() {
     const data = this.props.data.allDirectoryXlsxSheet1.edges
     return (
       <Layout>
+          <Breadcrumb crumbs={ [ 'Home', 'About', 'Staff' ] } />
       <section className="mw8 center">
        <SEO title="About the ICI" />
       

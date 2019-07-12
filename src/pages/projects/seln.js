@@ -4,9 +4,11 @@ import SidebarProject from "../../components/sidebarproject"
 import SEO from "../../components/seo"
 import { Link } from "gatsby"
 import selnLong from '../../images/seln-long.gif'
+import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
 const SelnPage = () => (
   <Layout>
+         <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'SELN'] } />
       <section className="mw8 center">
        <SEO title="Seln" />
   

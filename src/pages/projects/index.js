@@ -13,10 +13,11 @@ import catada from '../../images/catada.png'
 import fqi from '../../images/fqi.png'
 import bchlend from '../../images/bch-lend-logo.png'
 import bchds from '../../images/bch-ds-logo.png'
-
+import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
 const Projects = () => (
   <Layout>
+         <Breadcrumb crumbs={ [ 'Home', 'Projects' ] } />
    <section className="center mw8">
    <SEO title="Projects" />
     <h1>Projects</h1>

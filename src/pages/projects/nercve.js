@@ -4,9 +4,12 @@ import SidebarProject from "../../components/sidebarproject"
 import SEO from "../../components/seo"
 import { Link } from "gatsby"
 import nercveLong from '../../images/nercve-2019-long.png'
+import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+
 
 const NercvePage = () => (
   <Layout>
+         <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'NERCVE'] } />
       <section className="mw8 center">
        <SEO title="NERCVE" />
   

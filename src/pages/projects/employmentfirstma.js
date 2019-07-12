@@ -4,10 +4,12 @@ import SidebarProject from "../../components/sidebarproject"
 import SEO from "../../components/seo"
 import { Link } from "gatsby"
 import empfirstLong from '../../images/empfirst-long.png'
-
+import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
 const employmentfirstmaPage = () => (
   <Layout>
+              <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'EmploymentFirstMA'] } />
+
       <section className="mw8 center">
        <SEO title="EmploymentFirstMa" />
   

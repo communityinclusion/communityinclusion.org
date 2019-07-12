@@ -5,9 +5,12 @@ import community from '../images/community.png'
 import healthcare from '../images/healthcare.png'
 import education from '../images/education.png'
 import employment from '../images/employment.png'
+import Breadcrumb from "../components/breadcrumb/breadcrumb"
+
 
 const Resources = () => (
   <Layout>
+    <Breadcrumb crumbs={ [ 'Home', 'Resources' ] } />
    <section className="center mw8">
   <SEO title="Resources" />
     <h1>Resources</h1>

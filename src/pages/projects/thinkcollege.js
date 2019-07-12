@@ -4,9 +4,11 @@ import SidebarProject from "../../components/sidebarproject"
 import SEO from "../../components/seo"
 import { Link } from "gatsby"
 import thinkcollegeLong from '../../images/thinkcollege-long.png'
+import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
 const ThinkCollegePage = () => (
   <Layout>
+         <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'ThinkCollege'] } />
       <section className="mw8 center">
        <SEO title="Think College" />
   

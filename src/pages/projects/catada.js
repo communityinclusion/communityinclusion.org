@@ -4,9 +4,12 @@ import SidebarProject from "../../components/sidebarproject"
 import SEO from "../../components/seo"
 import { Link } from "gatsby"
 import catadaLong from '../../images/catada-long.png'
+import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
 const CatadaPage = () => (
   <Layout>
+              <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'CATADA'] } />
+
       <section className="mw8 center">
        <SEO title="CATADA" />
   

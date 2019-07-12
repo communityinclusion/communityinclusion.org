@@ -4,9 +4,11 @@ import SidebarProject from "../../components/sidebarproject"
 import SEO from "../../components/seo"
 import { Link } from "gatsby"
 import statedataLong from '../../images/statedata-long.png'
+import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
 const StateDataPage = () => (
   <Layout>
+         <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'StateData.info'] } />
       <section className="mw8 center">
        <SEO title="StateData" />
   
