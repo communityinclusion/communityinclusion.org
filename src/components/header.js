@@ -112,8 +112,8 @@ const Header = ({ siteTitle }) => (
     target = "_blank"
     rel = "noopener noreferrer" >
     <i className = "fab fa-2x fa-instagram" / >
-    </a> </li> <li className = "flex-item dib" > { " " } <
-    a href = "https://medium.com/@communityinclusion"
+    </a> </li> <li className = "flex-item dib" > { " " } 
+    <a href = "https://medium.com/@communityinclusion"
     target = "_blank"
     rel = "noopener noreferrer" >
     <i className = "fab  fa-2x fa-medium" / >

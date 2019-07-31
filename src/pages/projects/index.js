@@ -71,7 +71,7 @@ const Projects = () => (
 
 
 </div>
-<div className="flex-l w-100 nl2 nr2">
+<div className="flex-l w-100 nl2 nr2 center">
 <article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3 w-90">
 
 <div className="flex flex-column flex-row-ns">
@@ -107,7 +107,7 @@ const Projects = () => (
 </article>
 
 </div>
-<div className="flex-l w-100 nl2 nr2">
+<div className="flex-l w-100 nl2 nr2 center">
 <article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90 ">
 
  <div className="flex flex-column flex-row-ns">
@@ -142,7 +142,7 @@ const Projects = () => (
 </article>
 </div>
 
-<div className="flex-l w-100 nl2 nr2">
+<div className="flex-l w-100 nl2 nr2 center">
 <article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90">
 
  <div className="flex flex-column flex-row-ns">
@@ -178,7 +178,7 @@ const Projects = () => (
 </article>
 
 </div>
-<div className="flex-l w-100 nl2 nr2">
+<div className="flex-l w-100 nl2 nr2 center">
 <article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90  ">
 
 <div className="flex flex-column flex-row-ns">
@@ -216,7 +216,7 @@ const Projects = () => (
 </div>
 
 
-<div className="flex-l w-100 nl2 nr2">
+<div className="flex-l w-100 nl2 nr2 center">
 <article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90 ">
 
 <div className="flex flex-column flex-row-ns">

@@ -6,7 +6,7 @@ import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
 const ContactPage = () => (
   <Layout>
-      <Breadcrumb crumbs={ [ 'Home', 'About', 'Contact' ] } />
+      <Breadcrumb crumbs={ [ '/', 'About', 'Contact' ] } />
 
       <section className="mw8 center">
        <SEO title="Contact Us" />

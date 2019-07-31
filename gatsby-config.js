@@ -59,6 +59,8 @@ plugins: [
 `gatsby-plugin-twitter`,
 `gatsby-plugin-netlify-cms`,
   `gatsby-plugin-react-helmet`,
+  `gatsby-transformer-sharp`,
+  `gatsby-plugin-sharp`,
   {
     resolve: `gatsby-source-filesystem`,
     options: {
@@ -90,8 +92,8 @@ plugins: [
       maxWidth: 1080,
     },
   },
-  `gatsby-transformer-sharp`,
-  `gatsby-plugin-sharp`,
+ 
+
   `gatsby-plugin-styled-components`,
   {
     resolve: `gatsby-plugin-manifest`,
