@@ -99,7 +99,7 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query indexQuery {
-    hero: allImageSharp(filter:{original:{src:{regex:"/umb-campus/"}}}) {
+    hero: allImageSharp(filter:{original:{src:{regex:"/umbcampus/"}}}) {
       edges {
         node {
           id
