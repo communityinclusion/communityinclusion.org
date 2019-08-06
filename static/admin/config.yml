@@ -4,7 +4,7 @@ backend:
 # This line should *not* be indented
 publish_mode: editorial_workflow
 # This line should *not* be indented
-media_folder: /static/images
+media_folder: static/images
 public_folder: /images
 slug:
   encoding: "ascii"
