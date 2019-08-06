@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/ici-dev",
+  pathPrefix: '/ici-dev',
 siteMetadata: {
   siteUrl: 'https://communityinclusion.org',
   title: `Gatsby Default Starter`,
