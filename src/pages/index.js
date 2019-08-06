@@ -1,15 +1,19 @@
 import React from "react"
-
+import styled from 'styled-components'
+import Hero from "../components/hero"
 import Layout from "../components/layout"
 import cat from '../images/cat.jpeg'
 import { graphql } from 'gatsby'
-import Image from "../components/image"
 
+const StyledHero = styled(Hero)`
+  max-width: 100%;
+`
 
 const IndexPage = ({data}) => (
   <Layout>
-    <Image />
- 
+    <StyledHero fluid={data.hero.edges[0].node.fluid}>
+
+    </StyledHero>
          <section className=" mt1 center bg-lightest-blue pa3 ph5-ns">
     <p className="f6 tl lh-copy">
      ICI recently celebrated its 50th anniversary as a University Center for Excellence in Developmental Disabilities (UCEDD), started by President Kennedy.

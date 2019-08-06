@@ -24,7 +24,7 @@ const Overlay = styled.div`
   text-align: center;
 `
 
-const BgImg = styled(Img)`
+const BgImage = styled(Img)`
   position: absolute;
   top: 0;
   left: 0;
@@ -44,7 +44,7 @@ class Hero extends React.Component {
     const { children } = this.props
     return (
       <Container>
-        <BgImg {...this.props}/>
+        <BgImage {...this.props}/>
         <Overlay>
           {children}
         </Overlay>
