@@ -1,11 +1,12 @@
 import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import community from '../images/community.png'
-import healthcare from '../images/healthcare.png'
-import education from '../images/education.png'
-import employment from '../images/employment.png'
-import Breadcrumb from "../components/breadcrumb/breadcrumb"
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
+import community from '../../images/community.png'
+import healthcare from '../../images/healthcare.png'
+import education from '../../images/education.png'
+import employment from '../../images/employment.png'
+import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+
 
 
 const AreasofEmphasis = () => (
