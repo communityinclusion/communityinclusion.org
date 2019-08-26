@@ -75,28 +75,18 @@ const Header = ({ siteTitle }) => (
             src={logo}
           />
 
-<<<<<<< Updated upstream
-    </Link> </div> <div className = "fl w-65-ns w-60 pa2" >
-    <h1 className = "banner-text link dim dark-blue b f1-ns db mb2  f5 "
-=======
     </Link> </div> 
     
     <div className = "fl w-60-ns  w-70 pa2" >
     <h1 className = "banner-text link dim dark-blue b  f3 f2-m f1-l   db mb2 mt0 center "
->>>>>>> Stashed changes
     href = "/"
     title = "Home" >
     Institute
     for Community Inclusion </h1>
-<<<<<<< Updated upstream
-    <span className = "banner-tagline f4-ns f6 f-subheadline dark-blue tracked-mega-ns " > { " " }
-    PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES </span> </div> <div className = "fl w-20-ns w-20 pa2 " >
-=======
     <span className = "banner-tagline f4-ns dn db-ns f-subheadline dark-blue tracked-mega-l " > { " " }
     PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES </span> </div> 
     
     <div className = "fl w-15-ns w-20 dn db-l pa2 " >
->>>>>>> Stashed changes
     <div className = "db dtc-l v-mid w-100 w-75-l" >
     <ul className = "flex-container space-between list pl0" >
     <li className = "flex-item dib br pr1" >
