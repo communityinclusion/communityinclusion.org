@@ -67,28 +67,42 @@ const Header = ({ siteTitle }) => (
 
     <div className = "desktop-nav" >
     <div className = "cf mw8 center ph2-ns" >
-    <div className = "fl w-15-ns w-20 pa2" >
+    <div className = "fl w-15-ns w-12  pa2" >
     <Link to= "/" className = "dtc v-mid mid-gray link "
     title = "Home" >
-  <img className = "dib mw-100 h-auto"
+  <img className = "dib mw-60 h-auto"
    			 alt = "Institute for Community Inclusion"
             src={logo}
           />
 
+<<<<<<< Updated upstream
     </Link> </div> <div className = "fl w-65-ns w-60 pa2" >
     <h1 className = "banner-text link dim dark-blue b f1-ns db mb2  f5 "
+=======
+    </Link> </div> 
+    
+    <div className = "fl w-60-ns  w-70 pa2" >
+    <h1 className = "banner-text link dim dark-blue b  f3 f2-m f1-l   db mb2 mt0 center "
+>>>>>>> Stashed changes
     href = "/"
     title = "Home" >
     Institute
     for Community Inclusion </h1>
+<<<<<<< Updated upstream
     <span className = "banner-tagline f4-ns f6 f-subheadline dark-blue tracked-mega-ns " > { " " }
     PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES </span> </div> <div className = "fl w-20-ns w-20 pa2 " >
+=======
+    <span className = "banner-tagline f4-ns dn db-ns f-subheadline dark-blue tracked-mega-l " > { " " }
+    PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES </span> </div> 
+    
+    <div className = "fl w-15-ns w-20 dn db-l pa2 " >
+>>>>>>> Stashed changes
     <div className = "db dtc-l v-mid w-100 w-75-l" >
     <ul className = "flex-container space-between list pl0" >
-    <li className = "flex-item dib" >
+    <li className = "flex-item dib br pr1" >
    <Link to= "/subscribe/" className="link dim dark-gray f6 dib "
     title = "Subscribe" >
-    Subscribe { " " } </Link> </li> <li className = "flex-item dib" > { " " }
+    Subscribe { " " } </Link> </li> <li className = "flex-item dib br pr1" > { " " }
    <Link to="/about/contact/" className="link dim dark-gray f6 dib "
     title = "Contact" >
     Contact </Link> </li> <li className= "flex-item dib" > { " " }

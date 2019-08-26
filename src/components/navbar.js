@@ -1,68 +1,110 @@
 import React from "react";
 import { Link } from "gatsby";
+import '../components/navbar.css'
+import '../layouts/custom.css'
+
 
 
      	var Navbar = React.createClass({
   render: function() {
     return (
       <div>
-        <nav className="mobile-nav w-100 tc white  bg-dark-blue z-3 shadow-5">
-          <input type="checkbox" id="burger" className="absolute top-2 right-1 dn" />
-          <label htmlFor="burger" className="dn-l pointer absolute top-1 right-1">
-            <i className="fa fa-bars white dib f2" />
-          </label>
-          <div className="fl w-15-ns w-20 pa2">
-            <a className="dtc v-mid mid-gray link " href="#" title="Home">
-              <img src="assets/ICIsquare_color_32x32.png" className="dib mw-100 h-auto" alt="Site Name" />
-            </a>
-          </div>
-          <div className="fl w-65-ns w-60 pa2">
-            <div className="link dim white b f2-ns db mb2 f5-m" href="#" title="Home">Institute for Community Inclusion</div>
-          </div>
-          <ul className="overflow-hidden menu db-l w-100 list tc pl0 pt3 mv0 f3 fw3 f5-l">
-            {/*<li className="absolute top-1 static-l ph4 mh2 fw3 di-l pt1 pb3 pv3-l">
-<a href="/" className="white link">
-<img src="assets/ICIsquare_color_32x32.png" alt="dwyl heart logo" className="dib mw-100 h-auto">
-Institute for Community Inclusion
-</a>
-</li> */}
-            <li className="ph4  tl dn-l"><a href="/" className="white link">About ICI</a></li>
-            <li className="ph4 di-l  tl pv0-l"><a href="#" className="white link">Areas of Emphasis</a></li>
-            <li className="ph4 di-l  tl pv0-l"><a href="#" className="white link">Projects</a></li>
-            <li className="ph4 di-l  tl pv0-l"><a href="#" className="white link">Services</a></li>
-            <li className="ph4 dib-l  tl pv0-l"><a href="#" className="white link">Resources</a></li>
-          </ul>
-        </nav>
-        {/*----End Mobile Nav */}
-        <div className="desktop-nav mw9 center ">
-          <div className="cf ph2-ns">
-            <div className="fl w-15-ns w-20 pa2">
-              <a className="dtc v-mid mid-gray link " href="#" title="Home">
-                <img src="assets/ICIsquare_color_32x32.png" className="dib mw-100 h-auto" alt="Site Name" />
-              </a>
+         <nav role="navigation" className="bg-blue">
+    <Link to={null} className="ic menu" tabindex="1">
+      <span className="line"></span>
+      <span className="line"></span>
+      <span className="line"></span>
+    </Link>
+    <Link to={null} className="ic close"></Link>
+    <ul className="main-nav">
+      <li className="top-level-link">
+        <Link to="/"><span>Home</span></Link>
+      </li>
+
+      <li className="top-level-link">
+        <Link to="/about" className="mega-menu"><span>About</span></Link>
+        <div className="sub-menu-block">
+          <div className="cf">
+            <div className="fl w-two-thirds-l db-l dn pa2">
+
+
+             <p>The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of the community. As practitioners, researchers, and teachers, we form partnerships with individuals, families, and communities. Together we advocate for personal choice, self-determination, and social and economic justice.</p>
             </div>
-            <div className="fl w-65-ns w-60 pa2">
-              <h1 className="link dim dark-blue b f2-ns db mb2  f5 " href="#" title="Home">Institute for Community Inclusion</h1>
-              <span className="f5-ns f6 f-subheadline dark-blue tracked-mega-ns"> PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES</span>
+
+
+            <div className="fl w-third-l w-100 pa2">
+
+              <ul className="sub-menu-lists ma0 pa0">
+                <li><Link to="/about">About the ICI</Link></li>
+                <li><Link to="/about/history">History of ICI</Link></li>
+                <li><Link to="/about/mission">Mission and Vision</Link></li>
+                <li><Link to="/about/staff">Staff</Link></li>
+                  <li><Link to="/about/directions">Directions</Link></li>
+                    <li><Link to="/about/contact">Contact</Link></li>
+              </ul>
             </div>
-            <div className="fl w-20-ns w-20 pa2 ">
-              <div className="db dtc-l v-mid w-100 w-75-l">
-                <ul className="flex-container space-between list pl0">
-                  <li className="flex-item dib"><a className="link dim dark-gray f6 dib " href="#" title="About">Subscribe </a></li>
-                  <li className="flex-item dib"> <a className="link dim dark-gray f6 dib " href="#" title="Store">Contact</a></li>
-                  <li className="flex-item dib"> <a className="link dim dark-gray f6 dib " href="#" title="Contact">Donate</a></li>
-                </ul>
-              </div>
-              <div className="k--group mb2">
-                <input className="k--input" type="text" placeholder="Search" />
-                <button className="k--button" type="button">SEARCH</button>
-              </div>
-              <ul className="social-links flex-container space-between list pl0">
-                <li className="flex-item dib">  <a href="https://twitter.com/ICInclusion" target="_blank" rel="noopener noreferrer"><i className="fab  fa-2x fa-twitter" /></a></li>
-                <li className="flex-item dib"> <a href="https://www.instagram.com/communityinclusion/" target="_blank" rel="noopener noreferrer"><i className="fab fa-2x fa-instagram" /></a></li>
-                <li className="flex-item dib"> <a href="https://medium.com/@communityinclusion" target="_blank" rel="noopener noreferrer"><i className="fab  fa-2x fa-medium" /></a></li>
-                <li className="flex-item dib"> <a href="https://www.facebook.com/communityinclusion/" target="_blank" rel="noopener noreferrer"><i className="fab  fa-2x fa-facebook-square" /></a></li>
-                <li className="flex-item dib">  <a href="https://www.youtube.com/user/communityinclusion" target="_blank" rel="noopener noreferrer"><i className="fab fa-2x fa-youtube" /></a></li>
+          </div>
+
+
+
+        </div>
+      </li>
+      <li className="top-level-link">
+
+
+           <Link to="/areas-of-emphasis" className="mega-menu"><span>Areas of Emphasis</span></Link>
+        <div className="sub-menu-block">
+          <div className="cf">
+            <div className="fl w-two-thirds-l db-l dn pa2">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed pellentesque lorem, sit amet placerat arcu. Etiam viverra quam quis leo feugiat, et pellentesque enim fermentum.   </p>
+            </div>
+
+            <div className="fl w-third-l w-100 pa2">
+
+              <ul className="sub-menu-lists ma0 pa0">
+                <li><Link to="/areas-of-emphasis/employment">Employment</Link></li>
+                <li><Link to="/areas-of-emphasis/education">Education</Link></li>
+                <li><Link to="/areas-of-emphasis/community">Community Life</Link></li>
+                <li><Link to="/areas-of-emphasis/healthcare">Healthcare</Link></li>
+              </ul>
+            </div>
+          </div>
+
+
+
+        </div>
+      </li>
+      <li className="top-level-link">
+        <Link to="/projects" className="mega-menu"><span>Projects</span></Link>
+        <div className="sub-menu-block">
+          <div className="cf">
+            <div className="fl w-60-l db-l dn pa2 br">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed pellentesque lorem, sit amet placerat arcu. Etiam viverra quam quis leo feugiat, et pellentesque enim fermentum.   </p>
+            </div>
+
+            <div className="fl w-20-l w-100">
+
+              <ul className="sub-menu-lists ml1">
+                <li><Link to="/projects/thinkcollege">ThinkCollege</Link></li>
+                <li><Link to="/projects/thinkwork">ThinkWork!</Link></li>
+                <li><Link to="/projects/explorevr">ExploreVR</Link></li>
+                 <li><Link to="/projects/seln">SELN</Link></li>
+                  <li><Link to="/projects/statedata">StateData</Link></li>
+                   <li><Link to="/projects/catada">CATADA</Link></li>
+
+              </ul>
+            </div>
+
+            <div className="fl w-20-l w-100">
+
+              <ul className="sub-menu-lists ma0 pa0">
+
+
+  <li><Link to="/projects/nercve">NERCVE</Link></li>
+   <li><Link to="/projects/employmentfirstma">EmploymentFirstMA</Link></li>
+      <li><Link to="/projects/fqi">Future Quest Island</Link></li>
+   <li><Link to="/projects/lend">BostonLEND</Link></li>
+<li><Link to="/projects/bchdsp">BCH Down Syndrome Program</Link></li>
               </ul>
             </div>
           </div>
@@ -76,11 +118,29 @@ Institute for Community Inclusion
             </ul>
           </nav>
         </div>
-        <div classnamename="vh-100 dt o-80 w-100 tc bg-dark-gray white cover" style={{background: 'url(assets/boston-skyline.jpg) no-repeat center'}}>
-          <div classnamename="dtc v-mid">
-            <header classnamename="tc ph4 bg-white o-60">
-              <h1 classnamenames="f3 f2-m f1-l fw2 dark-blue mv3"><em>PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES</em></h1>
-            </header>
+      </li>
+      <li className="top-level-link">
+         <Link to="/services" className="mega-menu"><span>Services</span></Link>
+            <div className="sub-menu-block">
+            <div className="cf">
+            <div className="fl w-two-thirds-l db-l dn pa2">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed pellentesque lorem, sit amet placerat arcu. Etiam viverra quam quis leo feugiat, et pellentesque enim fermentum.   </p>
+            </div>
+
+            <div className="fl w-third-l w-100 pa2">
+
+              <ul className="sub-menu-lists pa0 ma0">
+                <li><Link to="/services/ici-consulting">ICI Consulting</Link></li>
+                <li><Link to="/services/training-and-ta">Training and TA</Link></li>
+                <li><Link to="/services/employment-services">ICI Employment Services</Link></li>
+                 <li><Link to="/services/college-of-employment-services">College of Employment Services</Link></li>
+                  <li><Link to="/services/ces-acre">CES/ACRE</Link></li>
+
+
+              </ul>
+            </div>
+
+          </div>
           </div>
         </div>
       </div>

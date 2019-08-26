@@ -3,47 +3,59 @@
 @import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
 @import url("https://use.typekit.net/hss6qfr.css");
 
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 /* Tachyons Variables */
 
 
 
 
-.blue {
-	color: #4c8ec9;
-}
-
-.bg-blue {
-	color: #4c8ec9;
-}
-.bg-dark-blue {
-    background-color: #0077af;
-}
-
-.dark-blue {
-    color: #0075ad;
-}
-
-.navy {
-	color: #23527c;
-}
-
-.bg-navy {
-	background-color: #23527c;
-}
-
-.bg-lightest-blue {
-	background-color:	#9bd4f4
-	}
-	
-.lightest-blue {
-	color:	#9bd4f4
-}
+.blue {color: #4c8ec9;}
+.bg-blue {color: #4c8ec9;}
+.b--blue {border-color: #4c8ec9;}
 
 
+.dark-blue {color: #0077af;}
+.bg-dark-blue {background-color: #0077af;}
+.b--dark-blue {border-color: #0077af;}
+
+.navy {color: #23527c;}
+.bg-navy {background-color: #23527c;}
+.b--navy {border-color: #23527c;}
+
+.lightest-blue {color:	#9bd4f4}
+.bg-lightest-blue {background-color:#9bd4f4}
+.b--lightest-blue {border-color:#9bd4f4 }
+
+.washed-blue {color:#dce9f6}
+.bg-washed-blue {background-color: #dce9f6}
+.b--washed-blue {border-color:#dce9f6 }
 
 
+.red {color:#b22e26}
+.bg-red {background-color:#b22e26}
+.b--red {border-color:#b22e26}
+
+.green {color:#5d9732}
+.bg-green {background-color:#5d9732}
+.b--green {border-color:#5d9732}
+
+
+.purple {color:#5d2a78}
+.bg-purple {background-color:#5d2a78}
+.b--purple {border-color:#5d2a78}
+
+.orange {color:#f16725}
+.bg-orange {background-color:#f16725}
+.b--orange {border-color:#f16725}
+
+.light-yellow {color:#fff696}
+.bg-light-yellow {background-color:#fff696}
+.b--light-yellow {border-color:#fff696}
+
+.gray {color:#d6d6d6}
+.bg-gray {background-color:#d6d6d6}
+.b--gray {border-color:#d6d6d6}
 
 
 footer a { font-weight: 700; color:#fff}
@@ -189,6 +201,10 @@ body {
 
 article,aside,footer,header,nav,section {
 	display:block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
 }
 
 h1 {

@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import umbcombo from '../images/bch-umb-combo_logo-small.png'
 
 const Footer = () => (
-   <footer className="bg-navy mt2 pt3">
+   <footer className="bg-navy mt5 pt3">
 
     <div className="footer-top mw9 center ph3-ns white">
     <div className="cf ph2-ns flex flex-column flex-row-l justify-between">
@@ -51,7 +51,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   </div>
   </div>
   </div>
-  <div className="footer-copyright center cf mt4  bt white bg-navy f6 lh-copy "><p className="ph3-ns ph5-ns ph3">©2019. The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital.</p></div>
+  <div className="footer-copyright center cf mt4  bt white bg-blue f6 lh-copy "><p className="ph3-ns ph5-ns ph3 white">©2019. The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital.</p></div>
 </footer>
 )
 
