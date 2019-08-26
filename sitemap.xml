@@ -7,6 +7,10 @@
 <url> <loc>https://communityinclusion.org/ici-dev/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://communityinclusion.org/ici-dev/about/mission</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://communityinclusion.org/ici-dev/about/staff</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://communityinclusion.org/ici-dev/areas-of-emphasis/community</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://communityinclusion.org/ici-dev/areas-of-emphasis/education</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://communityinclusion.org/ici-dev/areas-of-emphasis/employment</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://communityinclusion.org/ici-dev/areas-of-emphasis/healthcare</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://communityinclusion.org/ici-dev/areas-of-emphasis</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://communityinclusion.org/ici-dev/donate</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://communityinclusion.org/ici-dev/projects/bchdsp</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -22,6 +26,12 @@
 <url> <loc>https://communityinclusion.org/ici-dev/projects/thinkcollege</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://communityinclusion.org/ici-dev/projects/thinkwork</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://communityinclusion.org/ici-dev/resources</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://communityinclusion.org/ici-dev/services/ces-acre</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://communityinclusion.org/ici-dev/services/college-of-employment-services</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://communityinclusion.org/ici-dev/services/ici-consulting</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://communityinclusion.org/ici-dev/services/ici-employment-services</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://communityinclusion.org/ici-dev/services</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://communityinclusion.org/ici-dev/services/training-and-ta</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://communityinclusion.org/ici-dev/styleguide</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://communityinclusion.org/ici-dev/subscribe</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
