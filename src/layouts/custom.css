@@ -137,13 +137,18 @@ font-style: normal;
 @media (min-width:48em){
 .w1-plus{width:1.5rem;}
 }
-.menu{/*min-height:4rem;*/max-height:0;transition:max-height .4s,padding-bottom .4s;}
+/*
+.menu{/*min-height:4rem; max-height:0;transition:max-height .4s,padding-bottom .4s;}
+
+*/
 #burger:checked~.menu{max-height:25rem;box-shadow:0 8px 16px 0 rgba(0,0,0,.25);}
 li a:hover,li a:target{color:#001b44;}
 li a:hover span{color:#000;}
 
+
+/*
 @media screen and (min-width:60em){
-.mobile-nav{display:none;}
+.header {display:none;}
 }
 
 
@@ -152,6 +157,8 @@ li a:hover span{color:#000;}
 @media screen and (max-width:60em){
 	.desktop-nav {display:none;}
 	}
+
+	*/
 .flex-container {
     display: -ms-flexbox;
     display: -webkit-flex;

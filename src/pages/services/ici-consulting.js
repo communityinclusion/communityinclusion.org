@@ -1,12 +1,12 @@
 import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import cesservices from '../images/services-ces.png'
-import consultingservices from '../images/services-consulting.png'
-import acreservices from '../images/services-acre.png'
-import taservices from '../images/services-ta.png'
-import employmentservices from '../images/empservices-logo.png'
-import Breadcrumb from "../components/breadcrumb/breadcrumb"
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
+import cesservices from '../../images/services-ces.png'
+import consultingservices from '../../images/services-consulting.png'
+import acreservices from '../../images/services-acre.png'
+import taservices from '../../images/services-ta.png'
+import employmentservices from '../../images/empservices-logo.png'
+import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
 const Services = () => (
   <Layout>

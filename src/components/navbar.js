@@ -5,9 +5,8 @@ import '../layouts/custom.css'
 
 
 
-     	var Navbar = React.createClass({
-  render: function() {
-    return (
+
+const Navbar = () => (
       <div>
          <nav role="navigation" className="bg-blue">
     <Link to={null} className="ic menu" tabindex="1">
@@ -108,15 +107,9 @@ import '../layouts/custom.css'
               </ul>
             </div>
           </div>
-          <nav className="db dt-l w-100 border-box pa3 ph5-l bg-dark-blue ">
-            <ul className="db dtc-l v-mid w-100 w-75-l tc  ">
-              <li className="dib mr2"> <a className="link dim white f6 f5-l dib mr3 mr4-l" href="#" title="About">ABOUT ICI</a></li>
-              <li className="dib mr2"> <a className="link dim white f6 f5-l dib mr3 mr4-l" href="#" title="Store">AREAS OF EMPHASIS</a></li>
-              <li className="dib mr2"> <a className="link dim white f6 f5-l dib mr3 mr4-l" href="#" title="Contact">PROJECTS</a></li>
-              <li className="dib mr2">   <a className="link dim white f6 f5-l dib mr3 mr4-l" href="#" title="Contact">SERVICES</a></li>
-              <li className="dib mr2"> <a className="link dim white f6 f5-l dib" href="#" title="Contact">RESOURCES</a></li>
-            </ul>
-          </nav>
+
+
+
         </div>
       </li>
       <li className="top-level-link">
@@ -142,11 +135,15 @@ import '../layouts/custom.css'
 
           </div>
           </div>
-        </div>
+      </li>
+        <li className="top-level-link">
+        <Link to=""><span>Resources</span></Link>
+      </li>
+    </ul>
+  </nav>
+
       </div>
-    );
-  }
-});
+    )
 
 
 export default Navbar

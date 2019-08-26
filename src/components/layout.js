@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
+import Navbar from "../components/navbar"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import '../layouts/tachyons/css/tachyons.css'
@@ -29,7 +30,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-
+<Navbar />
           <main>{children}</main>
              <Footer />
 
