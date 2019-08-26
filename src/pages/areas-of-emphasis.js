@@ -1,13 +1,4 @@
 import React from "react"
-<<<<<<< Updated upstream:src/pages/areas-of-emphasis.js
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import community from '../images/community.png'
-import healthcare from '../images/healthcare.png'
-import education from '../images/education.png'
-import employment from '../images/employment.png'
-import Breadcrumb from "../components/breadcrumb/breadcrumb"
-=======
 import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
@@ -17,7 +8,6 @@ import education from '../../images/education.png'
 import employment from '../../images/employment.png'
 import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
->>>>>>> Stashed changes:src/pages/areas-of-emphasis/index.js
 
 
 const AreasofEmphasis = () => (
