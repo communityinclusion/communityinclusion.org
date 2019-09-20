@@ -24,7 +24,7 @@ const Navbar = () => (
         <Link to="/about" className="mega-menu"><span>About</span></Link>
         <div className="sub-menu-block">
           <div className="cf">
-            <div className="fl w-two-thirds-l db-l dn pa2">
+            <div className="fl w-two-thirds-l db-l dn pa2 pr3 br">
 
 
              <p>The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of the community. As practitioners, researchers, and teachers, we form partnerships with individuals, families, and communities. Together we advocate for personal choice, self-determination, and social and economic justice.</p>
@@ -33,7 +33,7 @@ const Navbar = () => (
 
             <div className="fl w-third-l w-100 pa2">
 
-              <ul className="sub-menu-lists ma0 pa0">
+              <ul className="sub-menu-lists ml1">
                 <li><Link to="/about">About the ICI</Link></li>
                 <li><Link to="/about/history">History of ICI</Link></li>
                 <li><Link to="/about/mission">Mission and Vision</Link></li>
@@ -54,13 +54,13 @@ const Navbar = () => (
            <Link to="/areas-of-emphasis" className="mega-menu"><span>Areas of Emphasis</span></Link>
         <div className="sub-menu-block">
           <div className="cf">
-            <div className="fl w-two-thirds-l db-l dn pa2">
+            <div className="fl w-two-thirds-l db-l dn pa2 br">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed pellentesque lorem, sit amet placerat arcu. Etiam viverra quam quis leo feugiat, et pellentesque enim fermentum.   </p>
             </div>
 
             <div className="fl w-third-l w-100 pa2">
 
-              <ul className="sub-menu-lists ma0 pa0">
+              <ul className="sub-menu-lists ml1">
                 <li><Link to="/areas-of-emphasis/employment">Employment</Link></li>
                 <li><Link to="/areas-of-emphasis/education">Education</Link></li>
                 <li><Link to="/areas-of-emphasis/community">Community Life</Link></li>
@@ -116,16 +116,16 @@ const Navbar = () => (
          <Link to="/services" className="mega-menu"><span>Services</span></Link>
             <div className="sub-menu-block">
             <div className="cf">
-            <div className="fl w-two-thirds-l db-l dn pa2">
+            <div className="fl w-two-thirds-l db-l dn pa2 br">
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed pellentesque lorem, sit amet placerat arcu. Etiam viverra quam quis leo feugiat, et pellentesque enim fermentum.   </p>
             </div>
 
             <div className="fl w-third-l w-100 pa2">
 
-              <ul className="sub-menu-lists pa0 ma0">
+              <ul className="sub-menu-lists ml1">
                 <li><Link to="/services/ici-consulting">ICI Consulting</Link></li>
                 <li><Link to="/services/training-and-ta">Training and TA</Link></li>
-                <li><Link to="/services/employment-services">ICI Employment Services</Link></li>
+                <li><Link to="/services/ici-employment-services">ICI Employment Services</Link></li>
                  <li><Link to="/services/college-of-employment-services">College of Employment Services</Link></li>
                   <li><Link to="/services/ces-acre">CES/ACRE</Link></li>
 

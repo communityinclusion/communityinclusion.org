@@ -207,13 +207,13 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
   /* Main Menu for Desktop Devices  */
   ul.main-nav { display: block; position: relative; }
   .sub-menu-block { padding: 15px; 
-    background-color: #d6d6d6;
+    background-color: #f9f9f9;
 }
 
   /* Sub Menu */
   ul.main-nav > li > div.sub-menu-block {
   visibility: hidden;
-  background-color: #d6d6d6;
+  background-color: #f9f9f9;
   position: absolute;
   margin-top: 0px;
   width: 100%;
@@ -242,7 +242,7 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
   }
 
   ul.main-nav > li:hover > div.sub-menu-block{
-    background-color: #d6d6d6;
+    background-color: #f9f9f9;
     visibility: visible;
     opacity: 1;
     -webkit-transform: rotateX(0deg);
