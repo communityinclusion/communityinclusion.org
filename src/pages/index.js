@@ -1,7 +1,6 @@
 import React from "react"
+import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
-import cat from '../images/cat.jpeg'
-import { graphql } from 'gatsby'
 import Image from "../components/image"
 
 
@@ -17,9 +16,8 @@ UCEDDs work with people with disabilities, members of their families, state and 
 training, technical assistance, service, research, and information sharing, with a focus on building the capacity of communities to sustain all their citizens.
     </p>
   </section>
-<article className="cf">
-  <div className="fl w-100-m w-70-ns bg-white pa3">
-
+<div className="cf">
+  {/*<div className="fl w-100-m w-70-ns bg-white pa3">
 <section className="mw7 center">
   <h2 className="fw1 ph3 ph0-l">News</h2>
   <article className="bt bb b--black-10">
@@ -80,28 +78,56 @@ training, technical assistance, service, research, and information sharing, with
     </a>
   </article>
 </section>
-
-
-
-  </div>
+</div>
+*/}
+<div className="fl w-100-m w-70-ns bg-white pa3">
+<section className="mw7 center">
+        <h2>
+          News
+        </h2>
+      
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <div className="bb b--black-10 pt3" key={node.id}>
+            <Link
+              to={node.fields.slug} >
+              <h3 className="f3 fw1 mt0 lh-title">
+                {node.frontmatter.title}{" "}
+                
+              </h3>
+              </Link>
+              <p>{node.excerpt}</p>
+          
+          </div>
+        ))}
+      </section>
+      </div>
+ 
   <div className="fl w-100-m w-25-ns tc pa3 mt4 bg-dark-blue ">
     
 <a className="twitter-timeline" data-height="700" href="https://twitter.com/ICInclusion?ref_src=twsrc%5Etfw">Tweets by ICInclusion</a>
  </div>
-</article>  </Layout>
+</div>  
+</Layout>
 )
 
 export default IndexPage
 
-export const pageQuery = graphql`
-  query indexQuery {
-    hero: allImageSharp(filter:{original:{src:{regex:"/umbcampus/"}}}) {
+
+export const query = graphql`
+  query {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      totalCount
       edges {
         node {
           id
-          fluid(quality: 100) {
-            ...GatsbyImageSharpFluid_tracedSVG
+          frontmatter {
+            title
+            date(formatString: "DD MMMM, YYYY")
           }
+          fields {
+            slug
+          }
+          excerpt
         }
       }
     }

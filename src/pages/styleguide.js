@@ -123,7 +123,7 @@ const StyleGuide = () => (
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem.</p>
 <p>Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor.</p>
 
-<p><img alt="Placeholder Image and Some Alt Text" src="http://placehold.it/350x150" title="A title element for this placeholder image." /></p>
+<p><img alt="Placeholder and Some Alt Text" src="http://placehold.it/350x150" title="A title element for this placeholder image." /></p>
 
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem.</p>
 
@@ -149,7 +149,7 @@ const StyleGuide = () => (
 <h2>Figure-Caption</h2>
 
 <figure>
-  <img src="http://placehold.it/350x150" alt="A placeholder figure image." />
+  <img src="http://placehold.it/350x150" alt="A placeholder figure." />
   <figcaption>The figcaption element example</figcaption>
 </figure>
 
