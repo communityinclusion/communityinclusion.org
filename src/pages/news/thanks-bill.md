@@ -1,7 +1,8 @@
 ---
 title: "Thanks Bill!"
-date: 2000-01-01
 path: "/thanks-bill"
+date: 2000-01-01
+thumbnail: "../../images/cat.jpeg"
 ---
 
 Farewell to Outgoing Dean Bill Kiernan!

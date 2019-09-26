@@ -164,7 +164,7 @@ const StyleGuide = () => (
 
 <h1 id="text-elements">Text Elements</h1>
 
-<p>The <a href="#">a element</a> and <a href="http://example.com" target="_blank">a:hover</a> examples</p>
+<p>The <a href="http://example.com">a element</a> and <a href="http://example.com" target="_blank" rel="noopener noreferrer">a:hover</a> examples</p>
 <p>The <em>em element</em> example</p>
 <p>The <small>small element</small> example</p>
 <p>The <span>span element</span> example</p>

@@ -1,7 +1,8 @@
 ---
 title: "LEND Fellowship Opportunity Available for Self-Advocates"
-date: 2000-01-01
 path: "/lend-fellowship-opportunity-available-for-self-advocates"
+date: 2018-12-29
+thumbnail: "../../images/cat.jpeg"
 ---
 
 

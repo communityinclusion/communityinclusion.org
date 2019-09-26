@@ -2,10 +2,13 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
+import Img from 'gatsby-image';
 
 
+const IndexPage = ({data}) => {
+  const posts = data.allMarkdownRemark.edges;
+  return (
 
-const IndexPage = ({data}) => (
   <Layout>
     <Image />
   
@@ -82,23 +85,37 @@ training, technical assistance, service, research, and information sharing, with
 */}
 <div className="fl w-100-m w-70-ns bg-white pa3">
 <section className="mw7 center">
-        <h2>
+        <h2 className="bb bw1">
           News
         </h2>
       
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div className="bb b--black-10 pt3" key={node.id}>
-            <Link
-              to={node.fields.slug} >
-              <h3 className="f3 fw1 mt0 lh-title">
-                {node.frontmatter.title}{" "}
-                
-              </h3>
-              </Link>
-              <p>{node.excerpt}</p>
-          
-          </div>
+        
+       <div className="post-list">
+       {posts.map(post => (
+       <div key={post.node.id} className="post-list__item bb b--black-10 ">
+       <div className="post-list__thumbnail">
+         <Link to={post.node.fields.slug}>
+           <Img
+             fixed={post.node.frontmatter.thumbnail.childImageSharp.fixed}
+           />
+         </Link>
+       </div>
+       <div className="post-list__content">
+         <h2>{post.node.frontmatter.title}</h2>
+         <p>{post.node.frontmatter.date}</p>
+         <div className="post-list__excerpt">
+           <p>{post.node.excerpt}</p>
+         </div>
+         <Link className="button button--small" to={post.node.fields.slug}>
+           Read More
+         </Link>
+       </div>
+     </div>
+
         ))}
+</div>
+      
+        <div className="fr pt2"><Link to="/news">View More</Link></div>
       </section>
       </div>
  
@@ -108,28 +125,38 @@ training, technical assistance, service, research, and information sharing, with
  </div>
 </div>  
 </Layout>
-)
+  )}
+
 
 export default IndexPage
 
 
-export const query = graphql`
-  query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            date(formatString: "DD MMMM, YYYY")
+export const pageQuery = graphql`
+ query  {
+  allMarkdownRemark(
+    sort: {fields: frontmatter___date, order: DESC}
+     limit: 3
+     ) {
+    edges {
+      node {
+        id
+        excerpt(pruneLength: 250)
+        fields {
+          slug
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YY")
+          title
+          thumbnail {
+            childImageSharp {
+              fixed(width: 200, height: 200) {
+                ...GatsbyImageSharpFixed
+              } 
+            }
           }
-          fields {
-            slug
-          }
-          excerpt
         }
       }
     }
   }
-`
+ }
+ `

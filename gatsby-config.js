@@ -42,10 +42,24 @@ plugins: [
         })
     }
   },
+  `gatsby-plugin-remove-trailing-slashes`,
+  {
+    resolve: `gatsby-plugin-sitemap`,
+    options: {
+      output: `/sitemap.xml`,
+    },
+  },
   {
     resolve: `gatsby-plugin-breadcrumb`,
     options: {
-      sitemapPath: `/sitemap.xml`,
+      defaultCrumb: {
+        location: {
+          state: { crumbClicked: false },
+          pathname: "/",
+        },
+        crumbLabel: "Home",
+        crumbSeparator: " / ",
+      },
     },
   },
   `gatsby-transformer-excel`,
@@ -68,11 +82,12 @@ plugins: [
       path: `${__dirname}/src/images`,
     },
   },
-   {
+ 
+{
   resolve: `gatsby-source-filesystem`,
   options: {
     path: `${__dirname}/src/pages`,
-    name: "pages",
+    name: 'markdown-pages',
   },
 },
       {

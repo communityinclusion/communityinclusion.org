@@ -1,0 +1,20 @@
+.post-list__item {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+  }
+  @media (max-width: 500px) {
+    .post-list__item {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  .post-list__thumbnail {
+    padding: 1rem;
+  }
+  
+  .post-list__content {
+    padding: 1rem;
+    text-align: left;
+  }

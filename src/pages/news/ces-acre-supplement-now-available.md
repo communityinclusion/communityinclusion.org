@@ -1,7 +1,8 @@
 ---
 title: "CES ACRE Supplement Now Available"
-date: 2000-01-01
 path: "/ces-acre-supplement-now-available"
+date: 2000-01-01
+thumbnail: "../../images/cat.jpeg"
 ---
 
 
