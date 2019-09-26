@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-post-template-js","path":"/dummy-post","webpackCompilationHash":"","result":{"data":{"markdownRemark":{"html":"<p>Test Goes here</p>","frontmatter":{"date":"January 01, 2000","title":"Dummy Post"}}},"pageContext":{"isCreatedByStatefulCreatePages":false,"slug":"/dummy-post/"}}}
