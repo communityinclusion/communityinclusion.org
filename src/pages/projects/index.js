@@ -99,7 +99,7 @@ const Projects = () => (
         <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/employmentfirstma">
     <h2 className="f3 fw1 mt0 lh-title bb bw2">EmploymentFirstMa</h2>
        </Link>
-    <p className="f6 f5-l lh-copy">Employment First MA promotes community-based paid employment for Massachusetts citizens with intellectual and developmental disabilities. </p>
+    <p className="f6 f5-l lh-copy">EmploymentFirstMA promotes community-based paid employment for Massachusetts citizens with intellectual and developmental disabilities. </p>
 
    </div>
   </div>

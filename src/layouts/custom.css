@@ -59,6 +59,8 @@
 
 
 footer a { font-weight: 700; color:#fff}
+footer a:hover { font-weight: 700; color:#fff;opacity:.8;text-decoration: underline;}
+footer li a:hover, li a:target {color:#fff;opacity:.8}
 @media screen and (max-width: 30em){
 	.show-sibling:checked + .sibling {
 		display: block;
@@ -408,7 +410,7 @@ hr {
 }
 
 a {
-	color:#00b0eb;
+	color:#14bef0;
 	text-decoration:none;
 }
 
@@ -1219,3 +1221,4 @@ select.k--input-small,select.k--select-small {
   padding: 0.5rem;
   text-decoration: none;
 }
+
