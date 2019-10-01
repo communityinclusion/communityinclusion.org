@@ -5,7 +5,7 @@ import Img from 'gatsby-image';
 import SEO from '../components/seo';
 import Breadcrumb from "../components/breadcrumb/breadcrumb"
 
-const NewsPage = ({ data, pageContext }) => {
+const NewsPage = ({ data, pageContext,breadcrumb }) => {
   const posts = data.allMarkdownRemark.edges;
   const { currentPage, numPages } = pageContext;
   const pathPrefix = 'news';

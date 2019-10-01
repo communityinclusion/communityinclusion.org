@@ -42,24 +42,11 @@ plugins: [
         })
     }
   },
-  `gatsby-plugin-remove-trailing-slashes`,
-  {
-    resolve: `gatsby-plugin-sitemap`,
-    options: {
-      output: `/sitemap.xml`,
-    },
-  },
   {
     resolve: `gatsby-plugin-breadcrumb`,
     options: {
-      defaultCrumb: {
-        location: {
-          state: { crumbClicked: false },
-          pathname: "/",
-        },
-        crumbLabel: "Home",
-        crumbSeparator: " / ",
-      },
+      useSitemap: true,
+      sitemapHomeLabel: `Home`,
     },
   },
   `gatsby-transformer-excel`,

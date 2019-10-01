@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../../components/layout"
-import SidebarAbout from "../../components/sidebarabout"
 import SEO from "../../components/seo"
 import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
@@ -12,10 +11,9 @@ const MissionPage = () => (
        <SEO title="Mission and Vision" />
   
    
-   <div className="cf ph2-ns">
-       <SidebarAbout />
    
-       <div className="fl w-75 pa2">
+   
+       <div className="w-100 pa2">
        <h1>Mission and Vision</h1>
        <h2 id="mission">Mission</h2>
 
@@ -32,7 +30,7 @@ const MissionPage = () => (
 
 <li>Sharing research and information that is written in plain language and represents the latest findings from the field.</li>
 </ul>
-</div></div>
+</div>
 
 </section>
   </Layout>

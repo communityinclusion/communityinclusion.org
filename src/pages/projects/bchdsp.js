@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../../components/layout"
-import SidebarProject from "../../components/sidebarproject"
 import SEO from "../../components/seo"
 import bchdownLong from '../../images/bch-dsp-long.png'
 import Breadcrumb from "../../components/breadcrumb/breadcrumb"
@@ -13,10 +12,9 @@ const BCHdspPage = () => (
        <SEO title="Boston Children’s Hospital Down Syndrome Program" />
   
    
-   <div className="cf ph2-ns">
-       <SidebarProject />
+
    
-       <div className="fl w-75 pa2">
+       <div className="w-100 pa2">
        <h1>Boston Children’s Hospital Down Syndrome Program</h1>
        <img src={bchdownLong} className="db" alt = "Boston Children’s Hospital Down Syndrome Program" />
 
@@ -25,7 +23,6 @@ const BCHdspPage = () => (
 <p>Learn more about the <a className="link dim blue" href="http://www.childrenshospital.org/Centers-and-Services/Programs/A-_-E/down-syndrome-program">Down Syndrome Program.</a></p>
 
 
-</div>
 </div>
 </section>
   </Layout>

@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql } from 'gatsby'
 import Layout from "../../components/layout"
-import SidebarAbout from "../../components/sidebarabout"
 import SEO from "../../components/seo"
 import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
@@ -16,10 +15,9 @@ class StaffComponent extends React.Component {
        <SEO title="About the ICI" />
       
    
-   <div className="cf ph2-ns">
-       <SidebarAbout />
+
    
-       <div className="fl w-75 pa2">
+       <div className="w-100 pa2">
        <h1>Staff Directory</h1>
         <table className="collapse ba br2 b--black-10 pv2 ph3 mt4">
           <thead>
@@ -39,7 +37,6 @@ class StaffComponent extends React.Component {
             ))}
           </tbody>
         </table>
-        </div>
         </div>
       </section>
   </Layout>

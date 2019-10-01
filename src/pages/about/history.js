@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../../components/layout"
-import SidebarAbout from "../../components/sidebarabout"
 import SEO from "../../components/seo"
 import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
@@ -11,10 +10,9 @@ const HistoryPage = () => (
        <SEO title="History of ICI" />
   
    
-   <div className="cf ph2-ns">
-       <SidebarAbout />
+
    
-       <div className="fl w-75 pa2">
+       <div className="w-100 pa2">
        <h1>History of ICI</h1>
        <p>The origins of ICI came with the launch of the Developmental Evaluation Clinic (DEC) at <a href="http://www.childrenshospital.org/">Boston Children’s Hospital</a>. The clinic opened its doors in 1967 with a mission of serving children with intellectual and developmental disabilities and their families. Under the leadership of Dr. Allen C. Crocker, the clinic received additional federal funding and collaborated with state agencies in Massachusetts to provide broader-ranging support to children and families with disabilities.</p>
 
@@ -26,7 +24,7 @@ const HistoryPage = () => (
 
 <p>Learn more about our history <a href="http://50.communityinclusion.org/">on our timeline</a>. </p>
 
-</div></div>
+</div>
 
 </section>
   </Layout>

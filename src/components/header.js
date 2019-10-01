@@ -34,10 +34,10 @@ const Header = ({ siteTitle }) => (
     <li className = "flex-item dib br pr1" >
    <Link to= "/subscribe/" className="link dim dark-gray f6 dib "
     title = "Subscribe" >
-    Subscribe { " " } </Link> </li> <li className = "flex-item dib br pr1" > { " " }
+    Subscribe { " " } </Link> </li> <li className = "flex-item dib br pr1 pl1" > { " " }
    <Link to="/about/contact/" className="link dim dark-gray f6 dib "
     title = "Contact" >
-    Contact </Link> </li> <li className= "flex-item dib" > { " " }
+    Contact </Link> </li> <li className= "flex-item dib pl1" > { " " }
     <Link to="/donate/"  className= "link dim dark-gray f6 dib "
     title = "Donate" >
     Donate </Link> </li> </ul> </div>

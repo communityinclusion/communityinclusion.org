@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../../components/layout"
-import SidebarProject from "../../components/sidebarproject"
 import SEO from "../../components/seo"
 import fqiLong from '../../images/tc-fqi-long.png'
 import Breadcrumb from "../../components/breadcrumb/breadcrumb"
@@ -12,10 +11,8 @@ const FQIPage = () => (
        <SEO title="Future Quest Island" />
   
    
-   <div className="cf ph2-ns">
-       <SidebarProject />
    
-       <div className="fl w-75 pa2">
+       <div className="w-100 pa2">
        <h1>Future Quest Island</h1>
        <img src={fqiLong} className="db" alt = "Future Quest Island" />
        
@@ -25,7 +22,6 @@ const FQIPage = () => (
 
 <p>Learn more about how <a className="link dim blue" href="https://thinkcollege.net/about/what-is-think-college/future-quest-island">Future Quest Island engages middle schoolers.</a></p>
 
-</div>
 </div>
 </section>
   </Layout>

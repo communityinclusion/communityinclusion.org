@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../../components/layout"
-import SidebarAbout from "../../components/sidebarabout"
 import SEO from "../../components/seo"
 import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
@@ -11,10 +10,9 @@ const DirectionsPage = () => (
        <SEO title="Directions" />
   
    
-   <div className="cf ph2-ns">
-       <SidebarAbout />
+ 
    
-       <div className="fl w-75 pa2">
+       <div className="w-100 pa2">
        <h1>Directions</h1>
        <p><strong>Bayside Office Center <br />
 150 Mt. Vernon Street, 4th Floor <br />
@@ -81,7 +79,7 @@ Dorchester, MA</strong></p>
 <li>From Logan Airport to ICI: When you leave the terminal, look for signs for the Sliver Line. Take the Silver Line (for free!) to South Station. Take a southbound Red Line train (towards Ashmont or Braintree) for 3 stops. Get off at the JFK/UMass stop.</li>
 <li>To get to Logan Airport from ICI: Take the Red line north (towards Alewife) 3 stops to South Station. Transfer to the Silver Line (SL 1) to Logan Airport. You will be dropped off at your terminal.</li>
 </ul>
-</div></div>
+</div>
 
 </section>
   </Layout>

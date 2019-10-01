@@ -1,10 +1,10 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import cesservices from '../../images/services-ces.png'
 import consultingservices from '../../images/services-consulting.png'
-import acreservices from '../../images/services-acre.png'
-import taservices from '../../images/services-ta.png'
+import acreservices from '../../images/services-acre_logo.png'
 import employmentservices from '../../images/empservices-logo.png'
 import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
@@ -14,76 +14,86 @@ const Services = () => (
    <section className="center mw8">
    <SEO title="Services" />
     <h1>Services</h1>
-<div className="flex">
-  <div className="w-20-ns w-100-m pa2 mr2">
-    <img className = "dib mw-100 h-auto"
-   			 alt = "ICI Consulting"
-            src={consultingservices}
-          />
-           <h3 className="f5 fw7 mt3 mb4 light-red">
-						ICI Consulting
-					</h3>
-					<p className="lh-copy">
-          Our experts can help your agency or organization improve your outcomes, track your progress, and reach your goals.
-					</p>
+    <div className="flex-l w-100 nl2 nr2 center">
+    <article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90 ">
 
+ <div className="flex flex-column flex-row-ns">
+    <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
+    <img src={consultingservices} className="db" alt = "ICI Consulting" />
+    </div>
+
+ <div className="w-100 w-70-ns pl3-ns">
+ 
+        <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/thinkcollege">
+    <h2 className="f3 fw1 mt0 lh-title bb bw2">	ICI Consulting</h2>
+       </Link>
+  <p className="f6 f5-l lh-copy">Our experts can help your agency or organization improve your outcomes, track your progress, and reach your goals.</p>
+
+    </div>
   </div>
-  <div className="w-20-ns w-100-m  pa2 mr2">
 
-   <img className = "dib mw-100 h-auto"
-   			 alt = "Training and TA"
-            src={taservices}
-          />
-           <h3 className="f5 fw7 mt3 mb4 light-red">
-						Training and TA
-					</h3>
-					<p className="lh-copy">
-          Use our customized training and technical assistance services to keep your employees at the top of their game.
-					</p>
+</article>
 
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90">
 
+<div className="flex flex-column flex-row-ns">
+    <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
+    <img src={employmentservices} className="db" alt = "ICI Employment Services" />
   </div>
-  <div className="w-20-ns w-100-m pa2 mr2">
+<div className="w-100 w-70-ns pl3-ns">
+        <Link to="/projects/nercve" className="link dt w-100  pb2 mt2 dim dark-blue">
+    <h2 className="f3 fw1 mt0 lh-title bb bw2">ICI Employment Services</h2>
+       </Link>
+    <p className="f6 f5-l lh-copy">Every day, we support people with disabilities to find and sustain employment at fulfilling jobs in the community.
+</p>
 
-       <img className = "dib mw-100 h-auto"
-   			 alt = "ICI Employment Services"
-            src={employmentservices}
-          />
-           <h3 className="f5 fw7 mt3 mb4 light-red">
-						ICI Employment Services
-					</h3>
-					<p className="lh-copy">
-          Every day, we support people with disabilities to find and sustain employment at fulfilling jobs in the community.
-					</p>
-
-       </div>
-  <div className="w-20-ns w-100-m pa2 mr2">
-   <img className = "dib mw-100 h-auto"
-   			 alt = "College of Employment Services"
-            src={cesservices}
-          />
-           <h3 className="f5 fw7 mt3 mb4 light-red">
-						College of Employment Services
-					</h3>
-					<p className="lh-copy">
-          This dynamic online suite of courses trains employment professionals to guide people with disabilities toward satisfying careers.
-					</p>
-
+    </div>
   </div>
-  <div className="w-20-ns w-100-m pa2">
-  <img className = "dib mw-100 h-auto"
-   			 alt = "CES/ACRE"
-            src={acreservices}
-          />
-           <h3 className="f5 fw7 mt3 mb4 light-red">
-						CES/ACRE
-					</h3>
-					<p className="lh-copy">
-          Professionals who complete courses from the College of Employment Services can receive additional instruction to gain ACRE certification.
-					</p>
 
-  </div>
+</article>
+
+
 </div>
+<div className="flex-l w-100 nl2 nr2 center">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3 w-90">
+
+<div className="flex flex-column flex-row-ns">
+    <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
+    <img src={cesservices} className="db" alt = "College of Employment Services" />
+  </div>
+<div className="w-100 w-70-ns pl3-ns">
+        <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/explorevr">
+    <h2 className="f3 fw1 mt0 lh-title bb bw2">College of Employment Services</h2>
+       </Link>
+    <p className="f6 f5-l lh-copy">This dynamic online suite of courses trains employment professionals to guide people with disabilities toward satisfying careers.
+</p>
+
+  </div>
+  </div>
+
+</article>
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90">
+
+<div className="flex flex-column flex-row-ns">
+    <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
+    <img src={acreservices} className="db" alt = "CES/ACRE"/>
+  </div>
+
+<div className="w-100 w-70-ns pl3-ns">
+        <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/employmentfirstma">
+    <h2 className="f3 fw1 mt0 lh-title bb bw2">	CES/ACRE</h2>
+       </Link>
+    <p className="f6 f5-l lh-copy">Professionals who complete courses from the College of Employment Services can receive additional instruction to gain ACRE certification. </p>
+
+   </div>
+  </div>
+
+</article>
+
+</div>
+
+
+
 </section>
   </Layout>
 )

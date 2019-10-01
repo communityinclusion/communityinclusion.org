@@ -5,7 +5,7 @@ import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
 const CollegeofEmploymentServices = () => (
   <Layout>
-    <Breadcrumb crumbs={ [ 'Home', 'Services' ] } />
+    <Breadcrumb crumbs={ [ 'Home', 'Services', 'College of Employment Services' ] } />
    <section className="center mw8">
    <SEO title="College of Employment Services" />
     <h1>College of Employment Services</h1>

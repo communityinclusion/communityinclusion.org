@@ -124,7 +124,6 @@ const Navbar = () => (
 
               <ul className="sub-menu-lists ml1">
                 <li><Link to="/services/ici-consulting">ICI Consulting</Link></li>
-                <li><Link to="/services/training-and-ta">Training and TA</Link></li>
                 <li><Link to="/services/ici-employment-services">ICI Employment Services</Link></li>
                  <li><Link to="/services/college-of-employment-services">College of Employment Services</Link></li>
                   <li><Link to="/services/ces-acre">CES/ACRE</Link></li>

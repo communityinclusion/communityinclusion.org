@@ -410,7 +410,7 @@ hr {
 }
 
 a {
-	color:#14bef0;
+	color:#0077af;
 	text-decoration:none;
 }
 
@@ -1222,3 +1222,22 @@ select.k--input-small,select.k--select-small {
   text-decoration: none;
 }
 
+.breadcrumb {
+	display: block;
+	margin-top:20px;
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+    border-radius: 6px;
+  }
+
+    
+ .breadcrumb a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+.breadcrumb a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
