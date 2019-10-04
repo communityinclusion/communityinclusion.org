@@ -21,6 +21,9 @@ const Navbar = () => (
       </li>
 
       <li className="top-level-link">
+        <Link to="/news"><span>News</span></Link>
+      </li>
+      <li className="top-level-link">
         <Link to="/about" className="mega-menu"><span>About</span></Link>
         <div className="sub-menu-block">
           <div className="cf">
@@ -123,10 +126,10 @@ const Navbar = () => (
             <div className="fl w-third-l w-100 pa2">
 
               <ul className="sub-menu-lists ml1">
-                <li><Link to="/services/ici-consulting">ICI Consulting</Link></li>
-                <li><Link to="/services/ici-employment-services">ICI Employment Services</Link></li>
-                 <li><Link to="/services/college-of-employment-services">College of Employment Services</Link></li>
-                  <li><Link to="/services/ces-acre">CES/ACRE</Link></li>
+                <li><a href="https://ici-consulting.netlify.com/">ICI Consulting</a></li>
+                <li><a href="https://www.communityinclusion.org/employmentservices/">ICI Employment Services</a></li>
+                 <li><a href="https://www.directcourseonline.com/employment-services/">College of Employment Services</a></li>
+                  <li><a href="https://www.communityinclusion.org/cesacre/">CES/ACRE</a></li>
 
 
               </ul>

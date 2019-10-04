@@ -25,7 +25,7 @@ const Services = () => (
  <div className="w-100 w-70-ns pl3-ns">
  
         <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/thinkcollege">
-    <h2 className="f3 fw1 mt0 lh-title bb bw2">	ICI Consulting</h2>
+    <h2 className="f3 fw1 mt0 lh-title bb bw2"><a href="https://ici-consulting.netlify.com/">ICI Consulting</a>	</h2>
        </Link>
   <p className="f6 f5-l lh-copy">Our experts can help your agency or organization improve your outcomes, track your progress, and reach your goals.</p>
 
@@ -42,7 +42,7 @@ const Services = () => (
   </div>
 <div className="w-100 w-70-ns pl3-ns">
         <Link to="/projects/nercve" className="link dt w-100  pb2 mt2 dim dark-blue">
-    <h2 className="f3 fw1 mt0 lh-title bb bw2">ICI Employment Services</h2>
+    <h2 className="f3 fw1 mt0 lh-title bb bw2"><a href="https://www.communityinclusion.org/employmentservices/">ICI Employment Services</a></h2>
        </Link>
     <p className="f6 f5-l lh-copy">Every day, we support people with disabilities to find and sustain employment at fulfilling jobs in the community.
 </p>
@@ -63,7 +63,7 @@ const Services = () => (
   </div>
 <div className="w-100 w-70-ns pl3-ns">
         <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/explorevr">
-    <h2 className="f3 fw1 mt0 lh-title bb bw2">College of Employment Services</h2>
+    <h2 className="f3 fw1 mt0 lh-title bb bw2"><a href="https://www.directcourseonline.com/employment-services/">College of Employment Services</a></h2>
        </Link>
     <p className="f6 f5-l lh-copy">This dynamic online suite of courses trains employment professionals to guide people with disabilities toward satisfying careers.
 </p>
@@ -81,7 +81,7 @@ const Services = () => (
 
 <div className="w-100 w-70-ns pl3-ns">
         <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/employmentfirstma">
-    <h2 className="f3 fw1 mt0 lh-title bb bw2">	CES/ACRE</h2>
+    <h2 className="f3 fw1 mt0 lh-title bb bw2">	<a href="https://www.communityinclusion.org/cesacre/">CES/ACRE</a></h2>
        </Link>
     <p className="f6 f5-l lh-copy">Professionals who complete courses from the College of Employment Services can receive additional instruction to gain ACRE certification. </p>
 
