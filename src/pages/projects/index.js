@@ -42,7 +42,7 @@ const Projects = () => (
 
  <div className="w-100 w-70-ns pl3-ns">
  
-        <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/thinkcollege">
+        <Link className="link  w-100  pb2 mt2 dim dark-blue" to="projects/thinkcollege">
     <h2 className="f3 fw1 mt0 lh-title bb bw2">Think College</h2>
        </Link>
   <p className="f6 f5-l lh-copy">Think College develops, expands, and improves inclusive higher education options for people with intellectual and developmental disabilities.</p>
@@ -59,7 +59,7 @@ const Projects = () => (
     <img src={nercve} className="db" alt = "NERCVE" />
   </div>
 <div className="w-100 w-70-ns pl3-ns">
-        <Link to="/projects/nercve" className="link dt w-100  pb2 mt2 dim dark-blue">
+        <Link to="/projects/nercve" className="link w-100  pb2 mt2 dim dark-blue">
     <h2 className="f3 fw1 mt0 lh-title bb bw2">NERCVE</h2>
        </Link>
     <p className="f6 f5-l lh-copy">The Northeast Resource Center for Vision Education (NERCVE) trains professionals to support people with blindness and low vision in accessing education and living independently.</p>
@@ -79,7 +79,7 @@ const Projects = () => (
     <img src={explorevr} className="db" alt = "ExploreVR" />
   </div>
 <div className="w-100 w-70-ns pl3-ns">
-        <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/explorevr">
+        <Link className="link w-100  pb2 mt2 dim dark-blue" to="projects/explorevr">
     <h2 className="f3 fw1 mt0 lh-title bb bw2">ExploreVR</h2>
        </Link>
     <p className="f6 f5-l lh-copy">Explore VR offers vocational rehabilitation (VR) agencies easy and convenient access to a range of VR research, related data, and tools for planning, evaluation, and decision-making.</p>
@@ -96,7 +96,7 @@ const Projects = () => (
   </div>
 
 <div className="w-100 w-70-ns pl3-ns">
-        <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/employmentfirstma">
+        <Link className="link w-100  pb2 mt2 dim dark-blue" to="projects/employmentfirstma">
     <h2 className="f3 fw1 mt0 lh-title bb bw2">EmploymentFirstMA</h2>
        </Link>
     <p className="f6 f5-l lh-copy">EmploymentFirstMA promotes community-based paid employment for Massachusetts citizens with intellectual and developmental disabilities. </p>
@@ -115,7 +115,7 @@ const Projects = () => (
     <img src = {thinkwork} className ="db" alt = "Think Work"/>
   </div>
   <div className="w-100 w-70-ns pl3-ns">
-                <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/thinkwork">
+                <Link className="link w-100  pb2 mt2 dim dark-blue" to="projects/thinkwork">
     <h2 className="f3 fw1 mt0 lh-title bb bw2">ThinkWork!</h2>
        </Link>
     <p className="f6 f5-l lh-copy">ThinkWork! is the hub for an array of programs related to employment for people with intellectual and developmental disabilities.</p>
@@ -131,7 +131,7 @@ const Projects = () => (
     <img src={statedata} className="db" alt = "StateData.info"/>
   </div>
  <div className="w-100 w-70-ns pl3-ns">
-        <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/statedata">
+        <Link className="link w-100  pb2 mt2 dim dark-blue" to="projects/statedata">
     <h2 className="f3 fw1 mt0 lh-title bb bw2">StateData.info</h2>
        </Link>
     <p className="f6 f5-l lh-copy">StateData.info offers publications and data related to employment and disability. Users can view trends and build charts to help drive systems change.</p>
@@ -150,7 +150,7 @@ const Projects = () => (
     <img src={seln} className="db" alt = "SELN"/>
   </div>
  <div className="w-100 w-70-ns pl3-ns">
-        <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/seln">
+        <Link className="link w-100  pb2 mt2 dim dark-blue" to="projects/seln">
     <h2 className="f3 fw1 mt0 lh-title bb bw2">SELN</h2>
        </Link>
     <p className="f6 f5-l lh-copy">The State Employment Leadership Network (SELN) brings together state developmental disability agencies for education and guidance on employment practices and policies.</p>
@@ -167,7 +167,7 @@ const Projects = () => (
     <img src={catada} className="db" alt = "Catada" />
   </div>
  <div className="w-100 w-70-ns pl3-ns">
-        <Link className="link no-underline dt w-100  pb2 mt2 dim dark-blue" to="projects/catada">
+        <Link className="link no-underline w-100  pb2 mt2 dim dark-blue" to="projects/catada">
     <h2 className="f3 fw1 mt0 lh-title bb bw2">CATADA</h2>
        </Link>
      <p className="f6 f5-l lh-copy">The Center for Assistive Technology Act Data Assistance (CATADA) provides technical assistance and supports to state assistive technology programs.</p>
@@ -186,7 +186,7 @@ const Projects = () => (
 <img src={fqi} className="db" alt = "Future Quest Island" />
 </div>
 <div className="w-100 w-70-ns pl3-ns">
-  <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/catada">
+  <Link className="link w-100  pb2 mt2 dim dark-blue" to="projects/catada">
 <h2 className="f3 fw1 mt0 lh-title bb bw2">Future Quest Island</h2>
  </Link>
 <p className="f6 f5-l lh-copy">Future Quest Island is an accessible, game-based college and career readiness tool for middle schoolers. It promotes self-advocacy to help young people plan for future success.  </p>
@@ -203,7 +203,7 @@ const Projects = () => (
 <img src={bchlend} className="db" alt = "LEND Boston" />
 </div>
 <div className="w-100 w-70-ns pl3-ns">
-  <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/lend">
+  <Link className="link w-100  pb2 mt2 dim dark-blue" to="projects/lend">
 <h2 className="f3 fw1 mt0 lh-title bb bw2"> LEND Boston</h2>
  </Link>
 <p className="f6 f5-l lh-copy"> The LEND Program at Boston Children’s Hospital is an interdisciplinary training program that supports health professionals to work with patients with intellectual and developmental disabilities. </p>
@@ -224,7 +224,7 @@ const Projects = () => (
 <img src={bchds} className="db" alt = "Boston Children’s Hospital Down Syndrome Program" />
 </div>
 <div className="w-100 w-70-ns pl3-ns">
-  <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/bchdsp">
+  <Link className="link w-100  pb2 mt2 dim dark-blue" to="projects/bchdsp">
 <h2 className="f3 fw1 mt0 lh-title bb bw2">Boston Children’s Hospital Down Syndrome Program</h2>
  </Link>
 <p className="f6 f5-l lh-copy">The Down Syndrome Program at Boston Children’s Hospital offers specialized services for children with Down syndrome and their families. </p>
@@ -239,7 +239,7 @@ const Projects = () => (
 <div className="flex flex-column flex-row-ns">
 
 <div className="w-100 w-70-ns pl3-ns">
-  <Link className="link dt w-100  pb2 mt2 dim blue" to="#">
+  <Link className="link w-100  pb2 mt2 dim blue" to="#">
 <h2 className="f3 fw1 mt0 lh-title"> </h2>
  </Link>
 <p className="f6 f5-l lh-copy"> </p>

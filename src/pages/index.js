@@ -12,7 +12,7 @@ const IndexPage = ({data}) => {
   <Layout>
     <Image />
   
-         <section className=" mt1 center bg-gray pa3 ph5-ns">
+         <section className="center bg-gray pa1 ph5-ns">
     <p className="f6 tl lh-copy">
      ICI recently celebrated its 50th anniversary as a University Center for Excellence in Developmental Disabilities (UCEDD), started by President Kennedy.
 UCEDDs work with people with disabilities, members of their families, state and local government agencies, and community providers in projects that provide
@@ -86,7 +86,7 @@ training, technical assistance, service, research, and information sharing, with
 <div className="fl w-100-m w-70-ns bg-white pa3">
 <section className="mw7 center">
         <h2 className="bb bw1">
-          News
+          New at ICI
         </h2>
       
         
@@ -102,7 +102,6 @@ training, technical assistance, service, research, and information sharing, with
        </div>
        <div className="post-list__content">
          <h2>{post.node.frontmatter.title}</h2>
-         <p>{post.node.frontmatter.date}</p>
          <div className="post-list__excerpt">
            <p>{post.node.excerpt}</p>
          </div>
@@ -145,7 +144,6 @@ export const pageQuery = graphql`
           slug
         }
         frontmatter {
-          date(formatString: "MMMM DD, YY")
           title
           thumbnail {
             childImageSharp {

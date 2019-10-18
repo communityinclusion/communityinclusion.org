@@ -22,17 +22,17 @@ class StaffComponent extends React.Component {
         <table className="w-100 collapse ba br2 b--black-10 pv2 ph3 mt4">
           <thead>
             <tr className="striped--near-white ">
-              <th className="pv2 ph3 tl f6 fw6 ttu">Name</th>
-              <th className="pv2 ph3 tl f6 fw6 ttu">Phone</th>
-              <th className="pv2 ph3 tl f6 fw6 ttu">Email</th>
+              <th className="pv2 ph3 tl f6 fw6 ttu bb b--black-20 b">Name</th>
+              <th className="pv2 ph3 tl f6 fw6 ttu bb b--black-20 b">Phone</th>
+              <th className="pv2 ph3 tl f6 fw6 ttu bb b--black-20 b">Email</th>
             </tr>
           </thead>
           <tbody>
             {data.map((row, i) => (
               <tr className="striped--near-white" key={`${row.node.name} ${i}`}>
-                <td className="pv2 ph3">{row.node.name}</td>
-                <td className="pv2 ph3">{row.node.phone}</td>
-                <td className="pv2 ph3">{row.node.email}</td>
+                <td className="pv2 ph3 bb b--black-20">{row.node.name}</td>
+                <td className="pv2 ph3 bb b--black-20">{row.node.phone}</td>
+                <td className="pv2 ph3 bb b--black-20">{row.node.email}</td>
               </tr>
             ))}
           </tbody>
