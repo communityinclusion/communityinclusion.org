@@ -6,15 +6,23 @@ import community from '../../images/community.png'
 import healthcare from '../../images/healthcare.png'
 import education from '../../images/education.png'
 import employment from '../../images/employment.png'
-import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
-
-
-const AreasofEmphasis = () => (
+const AreasofEmphasis = ({
+  pageContext: {
+    breadcrumb: { crumbs },
+  },
+}) => (
   <Layout>
-    <Breadcrumb crumbs={ [ 'Home', 'Areas of Emphasis' ] } />
    <section className="center mw8 pa2">
    <SEO title="Areas of Emphasis" />
+   <div className="breadcrumbs">
+    <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+            
+          />
+          </div>
     <h1>Areas of Emphasis</h1>
 
     <div className=" w-100 nl2 nr2">

@@ -1,14 +1,23 @@
 import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
-import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
-
-const Employment = () => (
+const EmploymentPage = ({
+  pageContext: {
+    breadcrumb: { crumbs },
+  },
+}) => (
   <Layout>
-    <Breadcrumb crumbs={ [ 'Home', 'Areas of Emphasis' ] } />
    <section className="center mw8">
    <SEO title="Employment" />
+   <div className="breadcrumbs">
+    <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+            
+          />
+          </div>
     <h1>Employment</h1>
 <ul>
  
@@ -24,4 +33,4 @@ const Employment = () => (
   </Layout>
 )
 
-export default Employment
+export default EmploymentPage 

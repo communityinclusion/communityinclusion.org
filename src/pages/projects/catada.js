@@ -2,15 +2,25 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import catadaLong from '../../images/catada-long.png'
-import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
-const CatadaPage = () => (
+const CatadaPage = ({
+  pageContext: {
+    breadcrumb: { crumbs },
+  },
+}) => (
   <Layout>
-              <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'CATADA'] } />
+          
 
       <section className="mw8 center">
        <SEO title="CATADA" />
-  
+       <div className="breadcrumbs">
+    <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+            
+          />
+          </div>
    
 
    

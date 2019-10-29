@@ -2,14 +2,24 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import explorevrLong from '../../images/explorevr-long.png'
-import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
-const ExplorevrPage = () => (
+const ExplorevrPage = ({
+  pageContext: {
+    breadcrumb: { crumbs },
+  },
+}) => (
   <Layout>
-         <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'ExploreVR'] } />
+          
       <section className="mw8 center">
        <SEO title="ExploreVR" />
-  
+       <div className="breadcrumbs">
+    <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+            
+          />
+          </div>
    
 
    

@@ -1221,7 +1221,7 @@ select.k--input-small,select.k--select-small {
   padding: 0.5rem;
   text-decoration: none;
 }
-
+/*
 .breadcrumb {
 	display: block;
 	margin-top:20px;
@@ -1234,10 +1234,23 @@ select.k--input-small,select.k--select-small {
     
  .breadcrumb a {
     color: #0275d8;
-    text-decoration: none;
+	text-decoration: none;
+	display:inline;
   }
   
 .breadcrumb a:hover {
     color: #01447e;
     text-decoration: underline;
   }
+  */
+
+  .breadcrumbs {
+	display: block;
+	padding: 10px 16px;
+	list-style: none;
+	background-color: #eee;
+	border-radius: 6px;
+	margin-top:10px;
+  }
+  
+  .breadcrumbs .breadcrumb {display:inline;text-transform:capitalize;}

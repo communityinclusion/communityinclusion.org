@@ -2,14 +2,24 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import nercveLong from '../../images/nercve-2019-long.png'
-import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
-
-const NercvePage = () => (
+const NercvePage = ({
+  pageContext: {
+    breadcrumb: { crumbs },
+  },
+}) => (
   <Layout>
-         <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'NERCVE'] } />
-      <section className="mw8 center">
+    <section className="mw8 center">
        <SEO title="NERCVE" />
+     <div className="breadcrumbs">
+     <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+         
+          />
+</div>
+      
   
    
    
@@ -25,5 +35,4 @@ const NercvePage = () => (
 </section>
   </Layout>
 )
-
-export default NercvePage
+  export default NercvePage

@@ -2,16 +2,27 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import bchdownLong from '../../images/bch-dsp-long.png'
-import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 
-const BCHdspPage = () => (
+  const BCHdspPage = ({
+    pageContext: {
+      breadcrumb: { crumbs },
+    },
+  }) => (
   <Layout>
-          <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'Boston Children’s Hospital Down Syndrome Program'] } />
-      <section className="mw8 center">
-       <SEO title="Boston Children’s Hospital Down Syndrome Program" />
+    <section className="mw8 center">
+    <SEO title="Boston Children’s Hospital Down Syndrome Program" />
   
-   
+      
+       
+       <div className="breadcrumbs">
+    <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+            
+          />
+          </div>
 
    
        <div className="w-100 pa2">
@@ -25,7 +36,7 @@ const BCHdspPage = () => (
 
 </div>
 </section>
-  </Layout>
+</Layout>
 )
 
 export default BCHdspPage

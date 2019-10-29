@@ -1,22 +1,30 @@
 import React from "react"
+import { Link } from "gatsby"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
-import Breadcrumb from "../../components/breadcrumb/breadcrumb"
 
-const HistoryPage = () => (
+
+const HistoryPage = ({
+  pageContext: {
+    breadcrumb: { crumbs },
+  },
+}) => (
   <Layout>
-      <Breadcrumb crumbs={ [ 'Home', 'About', 'History' ] } />
-      <section className="mw8 center">
-       <SEO title="History of ICI" />
-  
-   
-
-   
+    <SEO title="History" />
+    <section className="mw8 center">
+    <div className="breadcrumbs">
+    <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+            
+          />
+          </div>
        <div className="w-100 pa2">
        <h1>History of ICI</h1>
        <p>The origins of ICI came with the launch of the Developmental Evaluation Clinic (DEC) at <a href="http://www.childrenshospital.org/">Boston Children’s Hospital</a>. The clinic opened its doors in 1967 with a mission of serving children with intellectual and developmental disabilities and their families. Under the leadership of Dr. Allen C. Crocker, the clinic received additional federal funding and collaborated with state agencies in Massachusetts to provide broader-ranging support to children and families with disabilities.</p>
 
-<p>In 1987, the DEC branched out to create the Training and Research Institute for People with Disabilities, which focused on vocational rehabilitation and employment. In 1990, this unit established offices at the <a href="https://www.umb.edu/">University of Massachusetts Boston</a>, and was renamed the Institute for Community Inclusion in 1992.</p>
+<p>In 1987, the <Link to="/about">about</Link> DEC branched out to create the Training and Research Institute for People with Disabilities, which focused on vocational rehabilitation and employment. In 1990, this unit established offices at the <a href="https://www.umb.edu/">University of Massachusetts Boston</a>, and was renamed the Institute for Community Inclusion in 1992.</p>
 
 <p>In the 1990s, ICI began to apply for and receive federal funding to run Rehabilitation Research and Training Centers: national centers focused on advancing research and practice around employment for people with disabilities. ICI also continued to collaborate with Massachusetts state agencies and initiatives, including those run by community-based organizations and self-advocates with disabilities.</p>
 
@@ -29,5 +37,4 @@ const HistoryPage = () => (
 </section>
   </Layout>
 )
-
 export default HistoryPage

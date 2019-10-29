@@ -2,15 +2,25 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import statedataLong from '../../images/statedata-long.png'
-import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
-const StateDataPage = () => (
+const StateDataPage = ({
+  pageContext: {
+    breadcrumb: { crumbs },
+  },
+}) => (
   <Layout>
-         <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'StateData.info'] } />
+        
       <section className="mw8 center">
        <SEO title="StateData" />
   
-   
+       <div className="breadcrumbs">
+    <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+            
+          />
+          </div>
  
     
    

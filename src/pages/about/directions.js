@@ -1,13 +1,25 @@
 import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
-import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
-const DirectionsPage = () => (
+const DirectionsPage = ({
+  pageContext: {
+    breadcrumb: { crumbs },
+  },
+}) => (
   <Layout>
-      <Breadcrumb crumbs={ [ 'Home', 'About', 'Directions' ] } />
-      <section className="mw8 center">
-       <SEO title="Directions" />
+         <SEO title="Directions" />
+         <section className="mw8 center">
+       <div className="breadcrumbs">
+    <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+            
+          />
+          </div>
+     
+  
   
    
  

@@ -2,14 +2,24 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import selnLong from '../../images/seln-long.gif'
-import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
-const SelnPage = () => (
+const SELNPage = ({
+  pageContext: {
+    breadcrumb: { crumbs },
+  },
+}) => (
   <Layout>
-         <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'SELN'] } />
+
       <section className="mw8 center">
        <SEO title="Seln" />
-  
+       <div className="breadcrumbs">
+    <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+            
+          />
+          </div>
    
 
    
@@ -26,4 +36,4 @@ const SelnPage = () => (
   </Layout>
 )
 
-export default SelnPage
+export default SELNPage

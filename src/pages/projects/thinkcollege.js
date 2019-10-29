@@ -2,16 +2,25 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import thinkcollegeLong from '../../images/thinkcollege-long.png'
-import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
-const ThinkCollegePage = () => (
+const ThinkCollegePage = ({
+  pageContext: {
+    breadcrumb: { crumbs },
+  },
+}) => (
   <Layout>
-         <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'ThinkCollege'] } />
       <section className="mw8 center">
        <SEO title="Think College" />
   
    
- 
+       <div className="breadcrumbs">
+    <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+            
+          />
+          </div>
    
        <div className="w-100 pa2">
        <h1>Think College</h1>

@@ -1,30 +1,26 @@
 import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
-import { SitemapCrumbs } from 'gatsby-plugin-breadcrumb'
-import Breadcrumb from "../../components/breadcrumb/breadcrumb"
-export const AboutPage = ({ pageContext, location, crumbLabel }) => {
-  console.log("pageContext: ", pageContext)
-  const {
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+
+
+const AboutPage = ({
+  pageContext: {
     breadcrumb: { crumbs },
-  } = pageContext
-
-  // Example of dynamically using location prop as a crumbLabel
-  const customCrumbLabel = location.pathname.toLowerCase().replace('-', ' ')
-
-  return (
+  },
+}) => (
   <Layout>
-    <div className="breadcrumb mw8 center">
-      <SitemapCrumbs
+    <SEO title="About the ICI" />
+    <section className="mw8 center">
+    <div className="breadcrumbs">
+    <Breadcrumb
             crumbs={crumbs}
             crumbSeparator=" / "
-            crumbStyle={{ color: "#0275d8" }}
-            crumbActiveStyle={{ color: "#01447e" }}
             crumbLabel="About"
           />
-</div>
-   <section className="mw8 center">
-    <SEO title="About the ICI" />
+          </div>
+ 
+    
 
 
 
@@ -38,7 +34,6 @@ export const AboutPage = ({ pageContext, location, crumbLabel }) => {
 </section>
   </Layout>
 )
-}
 
 
 export default AboutPage

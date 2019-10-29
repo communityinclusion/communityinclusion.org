@@ -2,16 +2,25 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import bchlendLong from '../../images/bch-lend-long.png'
-import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
-
-const LENDBostonPage = () => (
+const LENDBostonPage = ({
+  pageContext: {
+    breadcrumb: { crumbs },
+  },
+}) => (
   <Layout>
-    <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'Lend'] } />
+    
       <section className="mw8 center">
        <SEO title="Boston LEND" />
   
-   
+       <div className="breadcrumbs">
+    <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+            
+          />
+          </div>
 
    
        <div className="w-100 pa2">

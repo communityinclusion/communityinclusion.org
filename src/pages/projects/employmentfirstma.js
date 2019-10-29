@@ -2,33 +2,23 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import empfirstLong from '../../images/empfirst-long.png'
-import { SitemapCrumbs } from "gatsby-plugin-breadcrumb"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
-export const employmentfirstmaPage = ({ pageContext, location, crumbLabel }) => {
-  console.log("pageContext: ", pageContext)
-  const {
+const employmentfirstmaPage = ({
+  pageContext: {
     breadcrumb: { crumbs },
-  } = pageContext
-
-  // Example of dynamically using location prop as a crumbLabel
-  const customCrumbLabel = location.pathname.toLowerCase().replace('-', ' ')
-
-  return (
- <Layout>
-      <div className="breadcrumb mw8 center">
-      <SitemapCrumbs
+  },
+}) => (
+  <Layout>
+     <section className="mw8 center">
+       <SEO title="Employment First Massachusetts" />
+      <div className="breadcrumbs">
+    <Breadcrumb
             crumbs={crumbs}
             crumbSeparator=" / "
-            crumbStyle={{ color: "#0275d8" }}
-            crumbActiveStyle={{ color: "#01447e" }}
-            crumbLabel="EmploymentFirstMA"
+            
           />
-</div>
-
-      <section className="mw8 center">
-       <SEO title="EmploymentFirstMa" />
-  
-   
+          </div>
    
        <div className="w-100 pa2">
        <h1>Employment First Massachusetts</h1>
@@ -41,7 +31,7 @@ export const employmentfirstmaPage = ({ pageContext, location, crumbLabel }) => 
 </div>
 </section>
   </Layout>
-)}
+)
 
 
 export default employmentfirstmaPage

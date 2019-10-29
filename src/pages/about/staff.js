@@ -2,21 +2,19 @@ import React from "react"
 import { graphql } from 'gatsby'
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
-import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+
 
 
 class StaffComponent extends React.Component {
   render() {
     const data = this.props.data.allDirectoryXlsxSheet1.edges
     return (
-      <Layout>
-          <Breadcrumb crumbs={ [ 'Home', 'About', 'Staff' ] } />
-      <section className="mw8 center">
-       <SEO title="About the ICI" />
       
-   
 
-   
+      
+      <Layout>
+        <SEO title="Staff" />
+            <section className="mw8 center">
        <div className="w-100 pa2">
        <h1>Staff Directory</h1>
         <table className="w-100 collapse ba br2 b--black-10 pv2 ph3 mt4">
@@ -43,6 +41,7 @@ class StaffComponent extends React.Component {
     )
   }
 }
+
 export default StaffComponent
 
 

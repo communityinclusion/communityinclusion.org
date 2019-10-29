@@ -2,13 +2,24 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import fqiLong from '../../images/tc-fqi-long.png'
-import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
-const FQIPage = () => (
+const FQIPage = ({
+  pageContext: {
+    breadcrumb: { crumbs },
+  },
+}) => (
   <Layout>
-         <Breadcrumb crumbs={ [ 'Home', 'Projects' ,'Future Quest Island'] } />
-      <section className="mw8 center">
+     <section className="mw8 center">
        <SEO title="Future Quest Island" />
+              <div className="breadcrumbs">
+    <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+            
+          />
+          </div>
+     
   
    
    

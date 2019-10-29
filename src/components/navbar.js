@@ -116,6 +116,9 @@ const Navbar = () => (
         </div>
       </li>
       <li className="top-level-link">
+        <Link to="/publications"><span>Publications</span></Link>
+      </li>
+      <li className="top-level-link">
          <Link to="/services" className="mega-menu"><span>Services</span></Link>
             <div className="sub-menu-block">
             <div className="cf">
