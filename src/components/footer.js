@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import umbcombo from '../images/bch-umb-combo_logo-small.png'
 
 const Footer = () => (
-   <footer className="bg-dark-blue mt5 pt3">
+   <footer aria-label="Footer" className="bg-dark-blue mt5 pt3">
 
     <div className="footer-top mw9 center ph3-ns white">
     <div className="cf ph2-ns flex flex-column flex-row-l justify-between">

@@ -8,8 +8,8 @@ import '../layouts/custom.css'
 
 const Navbar = () => (
       <div>
-         <nav role="navigation" className="bg-blue">
-    <Link to={null} className="ic menu" tabindex="1">
+         <nav role="navigation" aria-label="Main" className="bg-blue">
+    <Link to={null} className="ic menu">
       <span className="line"></span>
       <span className="line"></span>
       <span className="line"></span>
@@ -24,7 +24,7 @@ const Navbar = () => (
         <Link to="/news"><span>News</span></Link>
       </li>
       <li className="top-level-link">
-        <Link to="/about" className="mega-menu"><span>About</span></Link>
+        <Link to="/about" className="mega-menu" aria-expanded="false"><span>About</span></Link>
         <div className="sub-menu-block">
           <div className="cf">
             <div className="fl w-two-thirds-l db-l dn pa2 pr3 br">
@@ -37,7 +37,7 @@ const Navbar = () => (
             <div className="fl w-third-l w-100 pa2">
 
               <ul className="sub-menu-lists ml1">
-                <li><Link to="/about">About the ICI</Link></li>
+                <li><Link to="/about" role="button" aria-haspopup="true">About the ICI</Link></li>
                 <li><Link to="/about/history">History of ICI</Link></li>
                 <li><Link to="/about/mission">Mission and Vision</Link></li>
                 <li><Link to="/about/staff">Staff</Link></li>
