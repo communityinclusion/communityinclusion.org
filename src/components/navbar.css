@@ -30,8 +30,8 @@ ul.main-nav > li > a:hover span {color:#fff;}
 
 
 
-ul.main-nav > li:focus, ul.main-nav > li:hover { background-color: #0075AD; color: #fff!important;}
-ul.main-nav > li > a:focus, ul.main-nav > li > a:hover  { color: #fff!important;background-color: #0075AD; font-weight: 600; }
+ul.main-nav > li:focus, ul.main-nav > li:hover, ul.main-nav > li:active { background-color: #20527c; color: #fff!important;}
+ul.main-nav > li > a:focus, ul.main-nav > li > a:hover ,ul.main-nav > li > a:active  { color: #fff!important;background-color: #20527c; font-weight: 600; }
 
 ul.main-nav > li ul.sub-menu-lists {
  /*margin: 0px;*/
@@ -254,6 +254,7 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
     -moz-transform: rotateX(0deg);
     -ms-transform: rotateX(0deg);
     transform: rotateX(0deg);
+    transition-delay: .15s;
   }
 
   ul.main-nav > li > div.sub-menu-block > * {

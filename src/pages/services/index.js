@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import cesservices from '../../images/services-ces.png'
@@ -22,12 +21,12 @@ const Services = () => (
     <img src={consultingservices} className="db" alt = "ICI Consulting" />
     </div>
 
- <div className="w-100 w-70-ns pl3-ns">
+ <div className="w-100 w-70-ns">
  
-        <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/thinkcollege">
-    <h2 className="f3 fw1 mt0 lh-title bb bw2"><a href="https://ici-consulting.netlify.com/">ICI Consulting</a>	</h2>
-       </Link>
-  <p className="f6 f5-l lh-copy">Our experts can help your agency or organization improve your outcomes, track your progress, and reach your goals.</p>
+ <a href="https://ici-consulting.netlify.com/" className="link dt w-100  pb2 mt2 dim dark-blue"> 
+    <h2 className="f3 fw1 mt0 lh-copy bb bw2">ICI Consulting	</h2></a>
+ 
+  <p className="f6 f5-l lh-copy mt0">Our experts can help your agency or organization improve your outcomes, track your progress, and reach your goals.</p>
 
     </div>
   </div>
@@ -40,11 +39,11 @@ const Services = () => (
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
     <img src={employmentservices} className="db" alt = "ICI Employment Services" />
   </div>
-<div className="w-100 w-70-ns pl3-ns">
-        <Link to="/projects/nercve" className="link dt w-100  pb2 mt2 dim dark-blue">
-    <h2 className="f3 fw1 mt0 lh-title bb bw2"><a href="https://www.communityinclusion.org/employmentservices/">ICI Employment Services</a></h2>
-       </Link>
-    <p className="f6 f5-l lh-copy">Every day, we support people with disabilities to find and sustain employment at fulfilling jobs in the community.
+<div className="w-100 w-70-ns">
+<a href="https://www.communityinclusion.org/employmentservices/" className="link dt w-100  pb2 mt2 dim dark-blue"> 
+    <h2 className="f3 fw1 mt0 lh-copy bb bw2">ICI Employment Services</h2></a>
+     
+    <p className="f6 f5-l mt0 lh-copy">Every day, we support people with disabilities to find and sustain employment at fulfilling jobs in the community.
 </p>
 
     </div>
@@ -61,11 +60,12 @@ const Services = () => (
     <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
     <img src={cesservices} className="db" alt = "College of Employment Services" />
   </div>
-<div className="w-100 w-70-ns pl3-ns">
-        <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/explorevr">
-    <h2 className="f3 fw1 mt0 lh-title bb bw2"><a href="https://www.directcourseonline.com/employment-services/">College of Employment Services</a></h2>
-       </Link>
-    <p className="f6 f5-l lh-copy">This dynamic online suite of courses trains employment professionals to guide people with disabilities toward satisfying careers.
+<div className="w-100 w-70-ns">
+<a href="https://www.directcourseonline.com/employment-services/" className="link dt w-100  pb2 mt2 dim dark-blue"> 
+
+    <h2 className="f3 fw1 mt0 lh-title bb bw2">College of Employment Services</h2></a>
+
+    <p className="f6 f5-l mt0 lh-copy">This dynamic online suite of courses trains employment professionals to guide people with disabilities toward satisfying careers.
 </p>
 
   </div>
@@ -79,11 +79,10 @@ const Services = () => (
     <img src={acreservices} className="db" alt = "CES/ACRE"/>
   </div>
 
-<div className="w-100 w-70-ns pl3-ns">
-        <Link className="link dt w-100  pb2 mt2 dim dark-blue" to="projects/employmentfirstma">
-    <h2 className="f3 fw1 mt0 lh-title bb bw2">	<a href="https://www.communityinclusion.org/cesacre/">CES/ACRE</a></h2>
-       </Link>
-    <p className="f6 f5-l lh-copy">Professionals who complete courses from the College of Employment Services can receive additional instruction to gain ACRE certification. </p>
+<div className="w-100 w-70-ns">
+<a href="https://www.communityinclusion.org/cesacre/" className="link dt w-100  pb2 mt2 dim dark-blue"> 
+    <h2 className="f3 fw1 mt0 lh-copy bb bw2">	CES/ACRE</h2></a>
+    <p className="f6 f5-l mt0 lh-copy">Professionals who complete courses from the College of Employment Services can receive additional instruction to gain ACRE certification. </p>
 
    </div>
   </div>

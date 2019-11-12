@@ -18,9 +18,10 @@ const NewsPage = ({ data, pageContext,breadcrumb }) => {
   const nextPage = `${pathPrefix}/${(currentPage + 1).toString()}`;
   return (
     <Layout>
-       <Breadcrumb crumbs={ [ 'Home', 'News' ] } />
-        <SEO title="News" />
-      <section className="center mw8 center ph2-ns">
+       <Breadcrumb crumbs={ [ 'Home', 'New at ICI' ] } />
+        <SEO title="New at ICI" />
+      <section className="center mw8">
+        <h1>New at ICI</h1>
       <div className="post-list">
         {posts.map(post => (
           <div key={post.node.id} className="post-list__item">
