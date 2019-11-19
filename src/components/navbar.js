@@ -86,7 +86,7 @@ const Navbar = () => (
         <Link to="/projects" activeStyle={activeLinkStyle} partiallyActive={true} className="mega-menu"><span>Projects</span></Link>
         <div className="sub-menu-block">
           <div className="cf">
-            <div className="fl w-60-l db-l dn">
+            <div className="fl w-60-l db-l dn pr1">
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed pellentesque lorem, sit amet placerat arcu. Etiam viverra quam quis leo feugiat, et pellentesque enim fermentum.   </p>
             </div>
 
