@@ -2,17 +2,27 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Breadcrumb from "../components/breadcrumb/breadcrumb"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 
-const postTemplate = ({ data }) => {
+const postTemplate = ({
+  data, pageContext: {
+    breadcrumb: { crumbs },
+  },
+}) => {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
   return (
     <Layout>
-       <Breadcrumb crumbs={ [ 'Home', 'News' ] } />
         <SEO title="News" />
       <section className="center mw8 center ph2-ns">
+      <div className="breadcrumbs">
+    <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+            
+          />
+          </div>
         <div>
           <h1>{frontmatter.title}</h1>
           <span>{frontmatter.date}</span>

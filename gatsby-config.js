@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/ici-dev',
+  pathPrefix: '/',
 siteMetadata: {
   siteUrl: "http://localhost:8000",
   title: `Gatsby Default Starter`,
@@ -39,6 +39,7 @@ plugins: [
     resolve: `gatsby-transformer-remark`,
     options: {
       plugins: [
+       `gatsby-remark-responsive-iframe`,
         {
           resolve: `gatsby-remark-images`,
           options: {
