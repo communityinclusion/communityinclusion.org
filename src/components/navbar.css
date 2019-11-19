@@ -18,7 +18,8 @@ ul.main-nav > li {
 }
 
 ul.main-nav > li > a {
-  display: block;
+  display: inline-block;
+  text-align:center;
   padding: 10px 20px;
   position: relative;
   color: #fff;
@@ -31,7 +32,20 @@ ul.main-nav > li > a:hover span {color:#fff;}
 
 
 ul.main-nav > li:focus, ul.main-nav > li:hover, ul.main-nav > li:active { background-color: #20527c; color: #fff!important;}
-ul.main-nav > li > a:focus, ul.main-nav > li > a:hover ,ul.main-nav > li > a:active  { color: #fff!important;background-color: #20527c; font-weight: 600; }
+ul.main-nav > li > a:focus, ul.main-nav > li > a:hover ,ul.main-nav > li > a:active  { color: #fff!important;background-color: #20527c; }
+
+
+
+ul.main-nav > li > a::after {
+  display: block;
+  content: attr(title);
+  font-weight: 600;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+
 
 ul.main-nav > li ul.sub-menu-lists {
  /*margin: 0px;*/

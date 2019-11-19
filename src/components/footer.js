@@ -37,15 +37,15 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
 
     <h3 className="bb fl w-100 pv0 f4 lh-copy fw6 ttu tracked">Links</h3>
   <ul className=" v-mid w-100 w-75-l list pl0 ">
-    <li className="mr2"> <Link to="/about/" className="link  white f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="About">ABOUT ICI</Link></li>
-     <li className="mr2"><Link to="/areas-of-emphasis" className="link white  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="AREAS OF EMPHASIS">AREAS OF EMPHASIS</Link></li>
-    <li className="mr2"> <Link to="/projects" className="link white  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Projects">PROJECTS</Link></li>
-       <li className="mr2">   <Link to="/services" className="link white  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Services">SERVICES</Link></li>
-            <li className="mr2"><Link to="/resources/" className="link white  f6 f5-l dib no-underline underline-hover" title="Resources">RESOURCES</Link></li>
-                        <li className="mr2"> <Link to="/" className="link white  f6 f5-l dib no-underline underline-hover" title="Subscribe">SUBSCRIBE</Link></li>
+    <li className="mr2"> <Link to="/about/" className="link  white f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="About">About ICI</Link></li>
+     <li className="mr2"><Link to="/areas-of-emphasis" className="link white  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Areas of Emphasis">Areas of Emphasis</Link></li>
+    <li className="mr2"> <Link to="/projects" className="link white  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Projects">Projects</Link></li>
+       <li className="mr2">   <Link to="/services" className="link white  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Services">Services</Link></li>
+            <li className="mr2"><Link to="/resources/" className="link white  f6 f5-l dib no-underline underline-hover" title="Resources">Resources</Link></li>
+                        <li className="mr2"> <Link to="/" className="link white  f6 f5-l dib no-underline underline-hover" title="Subscribe">Subscribe</Link></li>
 
- <li className="mr2"> <Link to="/" className="link white  f6 f5-l dib no-underline underline-hover" title="contact">CONTACT</Link></li>
-    <li className="mr2"> <Link to="/" className="link white  f6 f5-l dib no-underline underline-hover" title="Donate">DONATE</Link></li>
+ <li className="mr2"> <Link to="/" className="link white  f6 f5-l dib no-underline underline-hover" title="contact">Contact</Link></li>
+    <li className="mr2"> <Link to="/" className="link white  f6 f5-l dib no-underline underline-hover" title="Donate">Donate</Link></li>
   </ul>
 
   </div>

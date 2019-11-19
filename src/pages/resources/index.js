@@ -8,14 +8,14 @@ import education from '../../images/education.png'
 import employment from '../../images/employment.png'
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
-const AreasofEmphasis = ({
+const Resources = ({
   pageContext: {
     breadcrumb: { crumbs },
   },
 }) => (
   <Layout>
   <section className="center mw8">
-  <SEO title="Areas of Emphasis" />
+  <SEO title="Resources" />
      <div className="breadcrumbs">
       <Breadcrumb
               crumbs={crumbs}
@@ -23,7 +23,7 @@ const AreasofEmphasis = ({
             
             />
             </div>
-            <h1>Areas of Emphasis</h1>
+            <h1>Resources</h1>
     <div className="flex-l w-100 nl2 nr2 center">
     <article className="flex-1 bt bb b--black-10 shadow-4 ma3 pa3  w-90 ">
 
@@ -108,5 +108,5 @@ const AreasofEmphasis = ({
   </Layout>
 )
 
-export default AreasofEmphasis
+export default Resources
 
