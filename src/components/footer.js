@@ -51,7 +51,29 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   </div>
   </div>
   </div>
-  <div className="footer-copyright center cf mt4  bt white bg-black f6 lh-copy "><p className="ph3-ns ph5-ns ph3 white">©2019. The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital.</p></div>
+  <div className="footer-copyright cf mt4  bt white bg-black f6 lh-copy v-mid"> 
+   <div className="fl w-60-ns">
+     <p className="ph3-ns ph5-ns ph3 white">©2019 The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital.</p>
+     </div> 
+      <div className="fl w-40-ns v-mid">
+   
+   
+    <ul className = "flex-container  list pl0" >
+    <li className = "flex-item dib br pr1" >
+   <Link to= "/privacy/" className="link dim dark-gray f6 dib "
+    title = "Privacy" >
+    Privacy { " " } </Link> </li> <li className = "flex-item dib br pr1 pl1" > { " " }
+   <Link to="/accessibility/" className="link dim dark-gray f6 dib "
+    title = "Accessibility" >
+    Accessibility </Link> </li> <li className= "flex-item dib pl1" > { " " }
+    <Link to="/donate/"  className= "link dim dark-gray f6 dib "
+    title = "Donate" >
+    Donate </Link> </li> </ul> </div>
+   
+  
+  
+ 
+     </div>
 </footer>
 )
 

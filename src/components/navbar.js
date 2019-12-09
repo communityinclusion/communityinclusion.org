@@ -33,10 +33,10 @@ const Navbar = () => (
         <Link to="/about" className="mega-menu" activeStyle={activeLinkStyle}  partiallyActive={true}  aria-expanded="false"><span>About</span></Link>
         <div className="sub-menu-block">
           <div className="cf">
-            <div className="fl w-two-thirds-l db-l dn pr3">
+            <div className="fl w-two-thirds-l db-l dn pr2">
 
 
-             <p>The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of the community. As practitioners, researchers, and teachers, we form partnerships with individuals, families, and communities. Together we advocate for personal choice, self-determination, and social and economic justice.</p>
+             <p>The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society. As practitioners, researchers, and teachers, we form partnerships with individuals, families, and service agencies. Together we advocate for personal choice, self-determination, and social and economic justice.</p>
             </div>
 
 
@@ -63,8 +63,8 @@ const Navbar = () => (
            <Link to="/areas-of-emphasis" activeStyle={activeLinkStyle} partiallyActive={true} className="mega-menu"><span>Areas of Emphasis</span></Link>
         <div className="sub-menu-block">
           <div className="cf">
-            <div className="fl w-two-thirds-l db-l dn">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed pellentesque lorem, sit amet placerat arcu. Etiam viverra quam quis leo feugiat, et pellentesque enim fermentum.   </p>
+            <div className="fl w-two-thirds-l db-l dn pr2">
+      <p>Learn more about the four areas through which we support the full inclusion of people with disabilities in society. </p>
             </div>
 
             <div className="fl w-third-l w-100 pa3 bl">
@@ -86,13 +86,13 @@ const Navbar = () => (
         <Link to="/projects" activeStyle={activeLinkStyle} partiallyActive={true} className="mega-menu"><span>Projects</span></Link>
         <div className="sub-menu-block">
           <div className="cf">
-            <div className="fl w-60-l db-l dn pr1">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed pellentesque lorem, sit amet placerat arcu. Etiam viverra quam quis leo feugiat, et pellentesque enim fermentum.   </p>
+            <div className="fl w-60-l db-l dn pr2">
+<p>Our projects involve conducting state and national employment research, increasing access to higher education, supporting children with disabilities to plan for a fulfilling future, and much more.  </p>
             </div>
 
             <div className="fl w-20-l w-100 pa3 bl">
 
-              <ul className="sub-menu-lists ml1">
+              <ul className="sub-menu-lists ma0 pa0">
                 <li><Link to="/projects/thinkcollege">ThinkCollege</Link></li>
                 <li><Link to="/projects/thinkwork">ThinkWork!</Link></li>
                 <li><Link to="/projects/explorevr">ExploreVR</Link></li>
@@ -103,7 +103,7 @@ const Navbar = () => (
               </ul>
             </div>
 
-            <div className="fl w-20-l w-100">
+            <div className="fl w-20-l w-100 pa3">
 
               <ul className="sub-menu-lists ma0 pa0">
 
@@ -128,8 +128,8 @@ const Navbar = () => (
          <Link to="/services" className="mega-menu"><span>Services</span></Link>
             <div className="sub-menu-block">
             <div className="cf">
-            <div className="fl w-two-thirds-l db-l dn">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed pellentesque lorem, sit amet placerat arcu. Etiam viverra quam quis leo feugiat, et pellentesque enim fermentum.   </p>
+            <div className="fl w-two-thirds-l db-l dn pr2">
+<p>From expert consultation and technical assistance to online training for employment professionals, our services help agency leaders and disability staff to excel and thrive in their work.  </p>
             </div>
 
             <div className="fl w-third-l w-100 pa3 bl">
