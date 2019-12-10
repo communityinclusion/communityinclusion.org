@@ -2,6 +2,7 @@
 title: "LEND Fellowship Opportunity Available for Self-Advocates"
 path: "/lend-fellowship-opportunity-available-for-self-advocates"
 date: 2018-12-29
+posttype: "news"
 thumbnail: "../../images/cat.jpeg"
 ---
 

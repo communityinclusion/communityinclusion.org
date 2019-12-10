@@ -18,8 +18,6 @@ plugins: [
 `gatsby-plugin-twitter`,
 `gatsby-plugin-netlify-cms`,
   `gatsby-plugin-react-helmet`,
-  `gatsby-transformer-sharp`,
-  `gatsby-plugin-sharp`,
   {
     resolve: `gatsby-source-filesystem`,
     options: {
@@ -32,9 +30,11 @@ plugins: [
   resolve: `gatsby-source-filesystem`,
   options: {
     path: `${__dirname}/src/pages`,
-    name: 'markdown-pages',
+    name: 'pages',
   },
 },
+`gatsby-plugin-sharp`,
+`gatsby-transformer-sharp`,
       {
     resolve: `gatsby-transformer-remark`,
     options: {
@@ -42,17 +42,15 @@ plugins: [
         {
           resolve: `gatsby-remark-images`,
           options: {
-            maxWidth: 590,
+            maxWidth: 1080,
           },
         },
-`gatsby-remark-copy-linked-files`,
-   {
-    resolve: `gatsby-remark-images`,
+  {
+    resolve: 'gatsby-remark-copy-linked-files',
     options: {
-      maxWidth: 1080,
+      destinationDir: 'static',
     },
   },
- 
 
   `gatsby-plugin-styled-components`,
   {

@@ -15,7 +15,7 @@ const postTemplate = ({
   return (
     <Layout>
         <SEO title="News" />
-      <section className="center mw8 center ph2-ns">
+      <section className="ph2-ns">
       <div className="breadcrumbs">
     <Breadcrumb
             crumbs={crumbs}
