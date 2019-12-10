@@ -58,15 +58,15 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
       <div className="fl w-40-ns v-mid">
    
    
-    <ul className = "flex-container  list pl0" >
+    <ul className = "flex justify-center  list pl0" >
     <li className = "flex-item dib br pr1" >
-   <Link to= "/privacy/" className="link dim dark-gray f6 dib "
+   <Link to= "/privacy/" className="link dim white f6 dib "
     title = "Privacy" >
     Privacy { " " } </Link> </li> <li className = "flex-item dib br pr1 pl1" > { " " }
-   <Link to="/accessibility/" className="link dim dark-gray f6 dib "
+   <Link to="/accessibility/" className="link dim white f6 dib "
     title = "Accessibility" >
     Accessibility </Link> </li> <li className= "flex-item dib pl1" > { " " }
-    <Link to="/donate/"  className= "link dim dark-gray f6 dib "
+    <Link to="/donate/"  className= "link dim white f6 dib "
     title = "Donate" >
     Donate </Link> </li> </ul> </div>
    
