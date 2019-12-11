@@ -102,9 +102,15 @@ font-style: normal;
 	letter-spacing:4px;
 	font-style: normal;
   }
+  @media screen and (max-width:35em){
+  .banner-tagline {
+	font-family: myriad-pro-condensed, sans-serif;
 
-
-  
+ 
+	letter-spacing:1.4px;
+ 
+  }
+}
 /*! CSS Used from: https://dwyl.com/css/dwyl.css */
 .dwyl-bg-dark-gray{background-color:#45535b;}
 .dwyl-bg-gold{background-color:#c6ac5c;}

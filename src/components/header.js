@@ -9,23 +9,23 @@ const Header = ({ siteTitle }) => (
 
     <div className = "header" >
     <div className = "cf mw8 center ph2-ns" >
-    <div className = "fl w-15-ns w-12  pa2" >
+    <div className = "fl w-15-ns w-20  pa2" >
     <Link to= "/" className = "dtc v-mid mid-gray link "
     title = "Home" >
-  <img className = "dib mw-60 h-auto"
+  <img className = "dib mw-80 h-auto"
    			 alt = "Institute for Community Inclusion"
             src={logo}
           />
 
     </Link> </div> 
     
-    <div className = "fl w-60-ns  w-70 pa2" >
-    <h1 className = "banner-text link dim dark-blue b  f3 f2-m f1-l   db mb2 mt0 center "
+    <div className = "fl w-60-ns w-65-m w-70 pa2" >
+    <h1 className = "banner-text link dim dark-blue b  f4 f2-m f1-l   db mb2 mt0-ns mt3 center "
     href = "/"
     title = "Home" >
     Institute
     for Community Inclusion </h1>
-    <span className = "banner-tagline f4-ns dn db-ns f-subheadline dark-blue tracked-mega-l " > { " " }
+    <span className = "banner-tagline f5-m f4-ns dn db-ns f-subheadline dark-blue tracked-mega-l " > { " " }
     PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES </span> </div> 
     
     <div className = "fl w-15-ns w-20 dn db-l pa2 " >

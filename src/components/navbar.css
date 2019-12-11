@@ -34,7 +34,7 @@ ul.main-nav > li > a:hover span {color:#fff;}
 ul.main-nav > li:focus, ul.main-nav > li:hover, ul.main-nav > li:active { background-color: #20527c; color: #fff!important;}
 ul.main-nav > li > a:focus, ul.main-nav > li > a:hover ,ul.main-nav > li > a:active  { color: #fff!important;background-color: #20527c; }
 
-
+/*
 
 ul.main-nav > li > a::after {
   display: block;
@@ -45,7 +45,7 @@ ul.main-nav > li > a::after {
   visibility: hidden;
 }
 
-
+*/
 
 ul.main-nav > li ul.sub-menu-lists {
  /*margin: 0px;*/
@@ -143,8 +143,8 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
   .ic.menu:focus{ outline: none; }
   .ic.menu:focus ~ .ic.close { opacity: 1; z-index : 21;  outline: none;  }
 
-  /*
-
+ 
+/*
   .ic.menu:focus ~ .ic.close { opacity: 1.0; z-index : 21;  }
   .ic.close:focus { opacity: 0; }
   */
@@ -241,13 +241,13 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
   box-sizing: border-box;
   z-index : 3;
   font-size: 16px;
-  /*border-left: 1px solid #ccc;
+  border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;*/
+  border-bottom: 1px solid #ccc;
   opacity: 0;
 
   /*CSS animation applied for sub menu : Slide from Top */
-  
+  /*
   -webkit-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
@@ -255,16 +255,15 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
   -moz-transform: rotateX(90deg);
   -ms-transform: rotateX(90deg);
   transform: rotateX(90deg);
-  
-  -webkit-transform-origin: top;
-  -ms-transform-origin: top;
-  transform-origin: top;
-  
+  -webkit-transform-origin: top center;
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+  */
 
   }
 
   ul.main-nav > li:hover > div.sub-menu-block, ul.main-nav > li:focus-within > div.sub-menu-block{
-    background-color: #fff;
+    background-color: #f9f9f9;
     visibility: visible;
     opacity: 1;
     -webkit-transform: rotateX(0deg);
