@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
     title = "Home" >
     Institute
     for Community Inclusion </h1>
-    <span className = "banner-tagline f5-m f4-ns dn db-ns f-subheadline dark-blue tracked-mega-l " > { " " }
+    <span className = "banner-tagline f5 f4-ns dn db-ns f-subheadline dark-blue tracked-mega-l " > { " " }
     PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES </span> </div> 
     
     <div className = "fl w-15-ns w-20 dn db-l pa2 " >

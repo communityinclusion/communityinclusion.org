@@ -69,7 +69,6 @@ plugins: [
     resolve: 'gatsby-remark-copy-linked-files',
     options: {
       destinationDir: 'public',
-      ignoreFileExtensions: [],
     },
   },
 
