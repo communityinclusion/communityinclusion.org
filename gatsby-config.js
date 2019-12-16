@@ -62,13 +62,14 @@ plugins: [
         {
           resolve: `gatsby-remark-images`,
           options: {
-            maxWidth: 1080,
+            maxWidth: 590,
           },
         },
   {
     resolve: 'gatsby-remark-copy-linked-files',
     options: {
-      destinationDir: 'static',
+      destinationDir: 'public',
+      ignoreFileExtensions: [],
     },
   },
 
