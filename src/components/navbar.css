@@ -58,6 +58,7 @@ ul.main-nav > li ul.sub-menu-lists > li {
   padding: 2px 0;
 }
 
+
 ul.main-nav > li ul.sub-menu-lists > li > a {
   font-size: 14px;
 }
@@ -198,12 +199,13 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
      border-bottom: 1px solid #fff; 
   }
 
-  ul.main-nav > li > a { font-weight: 600; }
+  ul.main-nav > li > a { font-weight: 600;display: block; text-align: left; }
 
-  ul.main-nav > li ul.sub-menu-lists > li a { color: #eee; font-size: 14px; }
+  ul.main-nav > li ul.sub-menu-lists > li a { color: #eee; font-size: 14px;padding:2px;display: block; }
+  ul.main-nav > li ul.sub-menu-lists > li a:hover {background-color: #20527c;}
   .sub-menu-head { font-size: 16px;}
   ul.main-nav > li:hover { background-color: transparent;  }
-  ul.main-nav > li:hover > a {color: #fff; text-decoration: none; font-weight: 600;}
+  ul.main-nav > li:hover > a {color: #fff; text-decoration: none; font-weight: 600;background-color: #20527c; }
  .ic.menu:focus ~ ul.main-nav > li > div.sub-menu-block {
     border-left: 0px solid #ccc;
     border-right: 0px solid #ccc;

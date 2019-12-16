@@ -40,7 +40,7 @@ const Navbar = () => (
             </div>
 
 
-            <div className="fl w-third-l w-100 pa3">
+            <div className="fl w-third-l w-100 pa3-ns bl-l">
 
               <ul className="sub-menu-lists ml1">
                 <li><Link to="/about" role="button" aria-haspopup="true">About the ICI</Link></li>
@@ -67,7 +67,7 @@ const Navbar = () => (
       <p>Learn more about the four areas through which we support the full inclusion of people with disabilities in society. </p>
             </div>
 
-            <div className="fl w-third-l w-100 pa3">
+            <div className="fl w-third-l w-100 pa3-ns bl-ns">
 
               <ul className="sub-menu-lists ml1">
                 <li><Link to="/areas-of-emphasis/employment">Employment</Link></li>
@@ -90,7 +90,7 @@ const Navbar = () => (
 <p>Our projects involve conducting state and national employment research, increasing access to higher education, supporting children with disabilities to plan for a fulfilling future, and much more.  </p>
             </div>
 
-            <div className="fl w-20-l w-100 pa3">
+            <div className="fl w-20-l w-100 pa3-ns bl-ns">
 
               <ul className="sub-menu-lists ma0 pa0">
                 <li><Link to="/projects/thinkcollege">ThinkCollege</Link></li>
@@ -103,7 +103,7 @@ const Navbar = () => (
               </ul>
             </div>
 
-            <div className="fl w-20-l w-100 pa3">
+            <div className="fl w-20-l w-100 pa3-ns">
 
               <ul className="sub-menu-lists ma0 pa0">
 
@@ -132,7 +132,7 @@ const Navbar = () => (
 <p>From expert consultation and technical assistance to online training for employment professionals, our services help agency leaders and disability staff to excel and thrive in their work.  </p>
             </div>
 
-            <div className="fl w-third-l w-100 pa3">
+            <div className="fl w-third-l w-100 pa3-ns bl-ns">
 
               <ul className="sub-menu-lists ml1">
                 <li><a href="https://ici-consulting.netlify.com/">ICI Consulting</a></li>
