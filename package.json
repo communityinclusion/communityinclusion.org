@@ -83,7 +83,7 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "clean": "rm -rf node_modules",
+    "clean": "rm -rf .cache",
     "reinstall": "npm run clean && npm install",
     "rebuild": "npm run clean && npm install && npm run build"
   },
