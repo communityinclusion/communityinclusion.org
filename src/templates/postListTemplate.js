@@ -96,7 +96,11 @@ export const pageQuery = graphql`
             thumbnail {
               childImageSharp {
                 fixed(width: 200, height: 200) {
-                  ...GatsbyImageSharpFixed
+                  base64
+                  width
+                  height
+                  src
+                  srcSet
                 }
               }
             }
