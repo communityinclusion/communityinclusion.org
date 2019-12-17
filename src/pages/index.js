@@ -15,8 +15,8 @@ const IndexPage = ({data}) => {
          <section className="center bg-gray pa1 ph5-ns">
     <p className="f6 f4-ns tl lh-copy">
      ICI recently celebrated its 50th anniversary as a University Center for Excellence in Developmental Disabilities (UCEDD), started by President Kennedy.
-UCEDDs work with people with disabilities, members of their families, state and local government agencies, and community providers in projects that provide
-training, technical assistance, service, research, and information sharing, with a focus on building the capacity of communities to sustain all their citizens.
+{/*UCEDDs work with people with disabilities, members of their families, state and local government agencies, and community providers in projects that provide
+training, technical assistance, service, research, and information sharing, with a focus on building the capacity of communities to sustain all their citizens.*/}
     </p>
   </section>
 <div className="cf">
