@@ -3,7 +3,7 @@ title: "Thanks Bill!"
 path: "/thanks-bill"
 date: 2000-01-01
 posttype: "news"
-thumbnail: "../../images/cat.jpeg"
+thumbnail: "../../images/thumbsup.jpg"
 ---
 
 Farewell to Outgoing Dean Bill Kiernan!

@@ -20,69 +20,6 @@ training, technical assistance, service, research, and information sharing, with
     </p>
   </section>
 <div className="cf">
-  {/*<div className="fl w-100-m w-70-ns bg-white pa3">
-<section className="mw7 center">
-  <h2 className="fw1 ph3 ph0-l">News</h2>
-  <article className="bt bb b--black-10">
-    <a className="db pv4 ph3 ph0-l no-underline black dim" href="#0">
-      <div className="flex flex-column flex-row-ns">
-        <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-           <img className = "dib mw-100 h-auto"
-   			 alt = "cat"
-            src={cat}
-          />
-        </div>
-        <div className="w-100 w-60-ns pl3-ns">
-            <h1 className="f3 fw1 mt0 lh-title">#ICI50</h1>
-          <p className="f6 f5-l lh-copy">
-           The ICI recently celebrated 50 years of promoting inclusion through its research and training activities. To see a recap of our festivities, view an interactive historical timeline of the institute, and see videos of the ICI community speaking about Inclusion, visit our #ICI50 page.
-          </p>
-
-        </div>
-      </div>
-    </a>
-  </article>
-  <article className="bb b--black-10">
-    <a className="db pv4 ph3 ph0-l no-underline black dim" href="#0">
-      <div className="flex flex-column flex-row-ns">
-        <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-            <img className = "dib mw-100 h-auto"
-   			 alt = "cat"
-            src={cat}
-          />
-        </div>
-        <div className="w-100 w-60-ns pl3-ns">
-          <h1 className="f3 fw1 mt0 lh-title">2019-20 Gopen and Crocker Fellowships</h1>
-          <p className="f6 f5-l lh-copy">
-          The application process is now open for the 2019-20 Gopen and Crocker Fellowships. The deadline to apply is Tuesday, April 23rd.
-          </p>
-
-        </div>
-      </div>
-    </a>
-  </article>
-  <article className="bb b--black-10">
-    <a className="db pv4 ph3 ph0-l no-underline black dim" href="#0">
-      <div className="flex flex-column flex-row-ns">
-        <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-           <img className = "dib mw-100 h-auto"
-   			 alt = "cat"
-            src={cat}
-          />
-        </div>
-        <div className="w-100 w-60-ns pl3-ns">
-          <h1 className="f3 fw1 mt0 lh-title">CES ACRE Supplement Now Available</h1>
-          <p className="f6 f5-l lh-copy">
-        Offered through Direct Course, the College of Employment Services (CES) curriculum can help your staff advance their careers as employment professionals. Now they can access even more intensive career development, through the CES ACRE Supplement offered by the Institute for Community at the University of Massachusetts Boston.
-          </p>
-
-        </div>
-      </div>
-    </a>
-  </article>
-</section>
-</div>
-*/}
 <div className="fl w-100-m w-70-ns bg-white pa3">
 <section className="mw7 center">
         <h2 className="bb bw1">
@@ -149,7 +86,6 @@ export const pageQuery = graphql`
           thumbnail {
             childImageSharp {
               fixed(width: 200, height: 200) {
-                base64
                 width
                 height
                 src

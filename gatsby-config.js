@@ -66,12 +66,7 @@ plugins: [
             showCaptions: 'true',
           },
         },
-        {
-          resolve: 'gatsby-remark-copy-linked-files',
-          options: {
-          destinationDir: 'public',
-          },
-          },
+       
   `gatsby-plugin-styled-components`,
   {
     resolve: `gatsby-plugin-manifest`,
