@@ -67,24 +67,25 @@ exports.createPages = ({ actions, graphql }) => {
       });
     });
   */}
-    // Create blog post list pages
-  // const postsPerPage = 4;
- //   const numPages = Math.ceil(posts.length / postsPerPage);
+  //   Create blog post list pages
+   const postsPerPage = 4;
+    const numPages = Math.ceil(posts.length / postsPerPage);
 
- //   Array.from({ length: numPages }).forEach((_, i) => {
-  //    createPage({
-   //     path: i === 0 ? `news/` : `news/${i + 1}`,
-    //    component: postListTemplate,
-    //    context: {
-    //      limit: postsPerPage,
- //      skip: i * postsPerPage,
-   //       numPages,
-  //        currentPage: i + 1,
-  //      },
-  //    });
-  //  });
+    Array.from({ length: numPages }).forEach((_, i) => {
+      createPage({
+        path: i === 0 ? `news/` : `news/${i + 1}`,
+        component: postListTemplate,
+         context: {
+          limit: postsPerPage,
+       skip: i * postsPerPage,
+           numPages,
+           currentPage: i + 1,
+         },
+     });
+   });
   });
 };
+
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
