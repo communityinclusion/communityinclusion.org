@@ -8,6 +8,7 @@
     "@babel/core": "^7.6.4",
     "@babel/runtime": "^7.6.3",
     "@reach/menu-button": "^0.1.12",
+    "@sentry/node": "5.10.2",
     "@typescript-eslint/eslint-plugin": "^2.5.0",
     "@typescript-eslint/parser": "^2.5.0",
     "babel-plugin-styled-components": "^1.10.0",

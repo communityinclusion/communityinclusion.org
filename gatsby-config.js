@@ -27,6 +27,15 @@ plugins: [
       // dataLayerName: "YOUR_DATA_LAYER_NAME",
     },
   },
+  {
+    resolve: "gatsby-plugin-sentry",
+    options: {
+      dsn: "https://3d981740717e4fe8a72e44cce3060d6e@sentry.io/1875087",
+      // Optional settings, see https://docs.sentry.io/clients/node/config/#optional-settings
+      environment: process.env.NODE_ENV,
+      enabled: (() => ["production", "stage"].indexOf(process.env.NODE_ENV) !== -1)()
+    }
+  },
   `gatsby-transformer-excel`,
   {	resolve: `gatsby-source-filesystem`,
     options: {
