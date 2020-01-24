@@ -1,6 +1,6 @@
 ---
 title: "Cindy Thomas Takes on ICI Director Role"
-path: "/cindy-thomas-takes-on-ici-director-role"
+path: "cindy-thomas-takes-on-ici-director-role"
 date: 2019-12-13
 posttype: "news"
 thumbnail: "../../images/CindyThomas.jpg"
@@ -14,4 +14,3 @@ Cindy has decades of experience in supporting community-based employment and bui
 
 “Cindy was simply the best candidate for this position,” said Dr. Sheila Fesko, the Associate Dean and Director of the [School for Global Inclusion and Social Development at UMass Boston](https://globalinclusion.umb.edu/), where the ICI is housed. “Her strengths are many—she is a skilled consensus builder, a great listener, an able problem solver, fair, talented, detailed, and passionate about our mission.”
 The entire SGISD and ICI faculty and staff congratulate Cindy, and look forward to working with her in her new leadership role!
-

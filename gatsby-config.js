@@ -47,6 +47,14 @@ plugins: [
 `gatsby-plugin-twitter`,
 `gatsby-plugin-netlify-cms`,
   `gatsby-plugin-react-helmet`,
+
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `page`,
+      path: `${__dirname}/src/pages/`,
+    },
+  },
   {
     resolve: `gatsby-source-filesystem`,
     options: {
@@ -54,14 +62,13 @@ plugins: [
       path: `${__dirname}/src/images`,
     },
   },
- 
-{
-  resolve: `gatsby-source-filesystem`,
-  options: {
-    path: `${__dirname}/src/pages`,
-    name: `pages`,
-  },
-},
+  //{
+   // resolve: `gatsby-source-filesystem`,
+   // options: {
+   //    name: `markdown-pages`,
+  //     path: `${__dirname}/src/markdown-pages`,
+  //  },
+  // },
 `gatsby-plugin-sharp`,
 `gatsby-transformer-sharp`,
       {
@@ -95,12 +102,33 @@ plugins: [
 ],
 },
 },
-`gatsby-plugin-remove-trailing-slashes`,
+// `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-breadcrumb`,
       options: {
-        useAutoGen: true,
-        useClassNames: true,
+        // useAutoGen: required 'true' to use autogen
+        useAutoGen: `true`,
+        // autoGenHomeLabel: optional 'Home' is default
+        autoGenHomeLabel: `Home`,
+        // exlude: optional, include to overwrite these default excluded pages
+        exclude: [
+          `/dev-404-page`,
+          `/404`,
+          `/404.html`,
+          `/offline-plugin-app-shell-fallback`,
+        ],
+    //     crumbLabelUpdates: optional, update specific crumbLabels in the path
+  //  crumbLabelUpdates: [
+ //     {
+ //         pathname: '/news/',
+  //       crumbLabel: '',
+  //   }
+   //  ],
+  //      // optional: switch to className styling
+        // see `useClassNames example with `AutoGen` below
+      useClassNames: true,
+        // optional: if you are using path prefix
+      // usePathPrefix: '/news',
       },
     },
 ],

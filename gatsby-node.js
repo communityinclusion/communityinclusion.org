@@ -14,37 +14,37 @@ exports.createPages = ({ actions, graphql }) => {
   const postTemplate = path.resolve(`src/templates/postTemplate.js`);
   {/*const tagTemplate = path.resolve(`src/templates/tagsTemplate.js`);*/}
   const postListTemplate = path.resolve(`./src/templates/postListTemplate.js`);
+  const pageTemplate = path.resolve(`./src/templates/pageTemplate.js`);
 
   return graphql(`
-    {
-      allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] },
-        filter: { frontmatter: {posttype: {eq: "news"}}},
-        limit: 1000
-      ) {
-        edges {
-          node {
-            fields {
-              slug
-            }
+  {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      limit: 1000
+    ) {
+      edges {
+        node {
+          fields {
+            slug
           }
         }
       }
     }
-  `).then(result => {
+  }
+`).then(result => {
     if (result.errors) {
        Promise.reject(result.errors);
     }
 
-    const posts = result.data.allMarkdownRemark.edges;
+ const posts = result.data.allMarkdownRemark.edges;
 
-    posts.forEach(({ node }) => {
-      createPage({
-        path: node.fields.slug,
-        component: postTemplate,
-        context: { slug: node.fields.slug }, // additional data can be passed via context
-      });
-    });
+   posts.forEach(({ node }) => {
+     createPage({
+       path: node.fields.slug,
+       component: postTemplate,
+       context: { slug: node.fields.slug }, // additional data can be passed via context
+     });
+   });
    {/* // create Tags pages
     // pulled directly from https://www.gatsbyjs.org/docs/adding-tags-and-categories-to-blog-posts/#add-tags-to-your-markdown-files
     let tags = [];
@@ -91,11 +91,17 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
   fmImagesToRelative(node) // convert image paths for gatsby images
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` }); // basePath: `pages`
+    const slug = createFilePath({ node, getNode,basePath: `pages` }); // basePath: `pages`
     createNodeField({
-      node,
       name: `slug`,
+      node,
       value: slug,
     });
   }
 };
+
+// exports.onCreateWebpackConfig = ({ actions }) => {
+//  actions.setWebpackConfig({
+//    devtool: 'eval-source-map',
+//  })
+// }

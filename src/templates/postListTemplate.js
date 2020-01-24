@@ -3,11 +3,14 @@ import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 import Img from 'gatsby-image';
 import SEO from '../components/seo';
-import Breadcrumb from "../components/breadcrumb/breadcrumb"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
-const NewsPage = ({ data, pageContext,breadcrumb }) => {
+const NewsPage = ({ data, pageContext,location }) => {
   const posts = data.allMarkdownRemark.edges;
   const { currentPage, numPages } = pageContext;
+  const {
+    breadcrumb: { crumbs },
+  } = pageContext
   const pathPrefix = 'news';
   const isFirst = currentPage === 1;
   const isLast = currentPage === numPages;
@@ -18,9 +21,16 @@ const NewsPage = ({ data, pageContext,breadcrumb }) => {
   const nextPage = `${pathPrefix}/${(currentPage + 1).toString()}`;
   return (
     <Layout>
-       <Breadcrumb crumbs={ [ 'Home', 'New at ICI' ] } />
+      
         <SEO title="New at ICI" />
       <section className="center mw8">
+      <div className="breadcrumbs">
+    <Breadcrumb
+           crumbs={crumbs}
+           crumbSeparator=" / "
+            crumbLabel="News"
+          />
+          </div>
         <h1>New at ICI</h1>
       <div className="post-list">
         {posts.map(post => (

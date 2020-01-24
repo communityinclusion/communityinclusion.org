@@ -57,8 +57,8 @@ training, technical assistance, service, research, and information sharing, with
  
   <div className="fl w-100-m w-25-ns tc pa3 mt4 bg-dark-blue ">
     
-<a className="twitter-timeline" data-height="700" href="https://twitter.com/ICInclusion?ref_src=twsrc%5Etfw">Tweets by ICInclusion</a>
- </div>
+  <a className="twitter-timeline" data-height="700" data-dnt="true"  href="https://twitter.com/ICInclusion?ref_src=twsrc%5Etfw">Tweets by ICInclusion</a> <script async src="https://platform.twitter.com/widgets.js" crossOrigin="anonymous" charSet="utf-8"></script>
+   </div>
 </div>  
 </Layout>
   )}

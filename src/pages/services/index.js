@@ -5,11 +5,11 @@ import cesservices from '../../images/services-ces.png'
 import consultingservices from '../../images/services-consulting.png'
 import acreservices from '../../images/services-acre_logo.png'
 import employmentservices from '../../images/empservices-logo.png'
-import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+
 
 const Services = () => (
   <Layout>
-    <Breadcrumb crumbs={ [ 'Home', 'Services' ] } />
+
    <section className="center mw8">
    <SEO title="Services" />
     <h1>Services</h1>
