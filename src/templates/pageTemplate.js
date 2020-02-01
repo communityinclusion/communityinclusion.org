@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 
-const postTemplate = ({ pageContext, data }) => {
+const pageTemplate = ({ pageContext, data }) => {
   const {
     breadcrumb: { crumbs },
   } = pageContext
@@ -37,7 +37,7 @@ const postTemplate = ({ pageContext, data }) => {
   );
 };
 
-export default postTemplate;
+export default pageTemplate;
 
 export const pageQuery = graphql`
   query($slug: String!) {
@@ -46,6 +46,8 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        tags
+        posttype
       }
     }
   }

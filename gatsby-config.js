@@ -69,8 +69,7 @@ plugins: [
   //     path: `${__dirname}/src/markdown-pages`,
   //  },
   // },
-`gatsby-plugin-sharp`,
-`gatsby-transformer-sharp`,
+
       {
     resolve: `gatsby-transformer-remark`,
     options: {
@@ -78,11 +77,12 @@ plugins: [
         {
           resolve: `gatsby-remark-images`,
           options: {
-            maxWidth: 590,
+            maxWidth: 580,
             showCaptions: 'true',
           },
         },
-       
+        `gatsby-plugin-sharp`,
+        `gatsby-transformer-sharp`,
   `gatsby-plugin-styled-components`,
   {
     resolve: `gatsby-plugin-manifest`,
@@ -118,13 +118,13 @@ plugins: [
           `/offline-plugin-app-shell-fallback`,
         ],
     //     crumbLabelUpdates: optional, update specific crumbLabels in the path
-  //  crumbLabelUpdates: [
- //     {
- //         pathname: '/news/',
-  //       crumbLabel: '',
-  //   }
-   //  ],
-  //      // optional: switch to className styling
+   // crumbLabelUpdates: [
+  //   {
+   //      pathname: '/areas-of-emphasis/',
+   //     crumbLabel: 'Areas of Emphasis ',
+  // }
+  // ],
+       // optional: switch to className styling
         // see `useClassNames example with `AutoGen` below
       useClassNames: true,
         // optional: if you are using path prefix

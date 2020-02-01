@@ -4,6 +4,7 @@ path: "/lend-fellowship-opportunity-available-for-self-advocates"
 date: 2019-10-29
 posttype: "news"
 thumbnail: "../../images/alberto1.jpg"
+featuredImage: "../../images/alberto1.jpg"
 ---
 
 

@@ -4,6 +4,7 @@ path: "/thanks-bill"
 date: 2000-01-01
 posttype: "news"
 thumbnail: "../../images/thumbsup.jpg"
+featuredImage: "../../images/thumbsup.jpg"
 ---
 
 Farewell to Outgoing Dean Bill Kiernan!

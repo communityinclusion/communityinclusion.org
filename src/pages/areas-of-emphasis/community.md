@@ -2,7 +2,6 @@
 title: "Community Life"
 path: "/areas-of-emphasis/community"
 posttype: "page"
-thumbnail: "../../images/cat.jpeg"
 ---
 
 

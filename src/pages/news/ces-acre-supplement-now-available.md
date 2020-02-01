@@ -2,8 +2,10 @@
 title: "CES ACRE Supplement Now Available"
 path: "/ces-acre-supplement-now-available"
 date: 2000-01-01
+tags: ['ACRE']
 posttype: "news"
 thumbnail: "../../images/alberto2.png"
+featuredImage: "../../images/alberto2.png"
 ---
 
 

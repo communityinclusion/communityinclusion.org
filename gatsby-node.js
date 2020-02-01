@@ -12,7 +12,7 @@ exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
   const postTemplate = path.resolve(`src/templates/postTemplate.js`);
-  {/*const tagTemplate = path.resolve(`src/templates/tagsTemplate.js`);*/}
+  const tagTemplate = path.resolve(`src/templates/tagsTemplate.js`);
   const postListTemplate = path.resolve(`./src/templates/postListTemplate.js`);
   const pageTemplate = path.resolve(`./src/templates/pageTemplate.js`);
 
@@ -20,12 +20,16 @@ exports.createPages = ({ actions, graphql }) => {
   {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      limit: 1000
+      limit: 1000  
     ) {
       edges {
         node {
-          fields {
-            slug
+          frontmatter {
+            tags
+             posttype
+          }
+          fields  {
+           slug
           }
         }
       }
@@ -33,19 +37,82 @@ exports.createPages = ({ actions, graphql }) => {
   }
 `).then(result => {
     if (result.errors) {
-       Promise.reject(result.errors);
-    }
+    return Promise.
+    //  console.log(result.errors);
+    //  reject(result.errors);
+   // }
+   reporter.panicOnBuild(`Error while running GraphQL query.`)
+  // return
+ }
 
+
+   // const posts = result.data.allMarkdownRemark.edges;
+   // result.data.allMarkdownRemark.edges.forEach(edge => 
+  
+  
+  {/** const posts = result.data.allMarkdownRemark.edges;
+
+   posts.forEach(({ node }) => {
+
+
+      {
+    if (edge.node.frontmatter.posttype === 'news') {
+      createPage({
+        path: `/news${edge.node.fields.slug}`,
+        component: postTemplate,
+        context: {
+          slug: edge.node.fields.slug
+        }
+      });
+    } else { // blog post
+      createPage({
+        path: edge.node.fields.slug,
+        component: pageTemplate,
+        context: {
+          slug: edge.node.fields.slug
+        }
+      });
+    }
+  }
+})*/} 
+const posts = result.data.allMarkdownRemark.edges;
+result.data.allMarkdownRemark.edges.forEach(edge => {
+  if (edge.node.frontmatter.posttype === 'news') {
+      createPage({
+          path: edge.node.fields.slug,
+          component: postTemplate,
+          context: {
+              slug: edge.node.fields.slug,
+          }
+      });
+  }
+
+
+  else {
+    createPage({
+        path: edge.node.fields.slug,
+        component: pageTemplate,
+        context: {
+            slug: edge.node.fields.slug,
+        },
+    })
+}
+})
+   // )
+{/*
  const posts = result.data.allMarkdownRemark.edges;
 
    posts.forEach(({ node }) => {
      createPage({
        path: node.fields.slug,
-       component: postTemplate,
+       component: pageTemplate,
        context: { slug: node.fields.slug }, // additional data can be passed via context
      });
    });
-   {/* // create Tags pages
+*/}
+
+
+    // create Tags pages
     // pulled directly from https://www.gatsbyjs.org/docs/adding-tags-and-categories-to-blog-posts/#add-tags-to-your-markdown-files
     let tags = [];
     // Iterate through each post, putting all found tags into `tags`
@@ -66,7 +133,7 @@ exports.createPages = ({ actions, graphql }) => {
         },
       });
     });
-  */}
+  
   //   Create blog post list pages
    const postsPerPage = 4;
     const numPages = Math.ceil(posts.length / postsPerPage);
@@ -84,7 +151,8 @@ exports.createPages = ({ actions, graphql }) => {
      });
    });
   });
-};
+}
+
 
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
@@ -99,6 +167,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     });
   }
 };
+
 
 // exports.onCreateWebpackConfig = ({ actions }) => {
 //  actions.setWebpackConfig({

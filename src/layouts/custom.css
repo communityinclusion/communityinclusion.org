@@ -432,6 +432,15 @@ code,kbd,samp,tt {
 	border-radius:.25rem;
 }
 
+.post-meta {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  }
+  
+
+
+
 pre code {
 	background-color:transparent;
 	border:none;
@@ -1268,3 +1277,4 @@ select.k--input-small,select.k--select-small {
 
   .breadcrumbs .breadcrumb {display:inline;text-transform:capitalize;}
 
+.post-image {margin-left:auto;margin-right:auto}

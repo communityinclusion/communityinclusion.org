@@ -1,4 +1,5 @@
 import React from 'react';
+import { kebabCase } from 'lodash';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 import Img from 'gatsby-image';
@@ -44,6 +45,17 @@ const NewsPage = ({ data, pageContext,location }) => {
             </div>
             <div className="post-list__content">
               <h2>{post.node.frontmatter.title}</h2>
+              {post.node.frontmatter.tags ? (
+                <div className="tags-container">
+                  <ul className="taglist">
+                    {post.node.frontmatter.tags.map(tag => (
+                      <li key={tag + `tag`}>
+                        <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
               <p>{post.node.frontmatter.date}</p>
               <div className="post-list__excerpt">
                 <p>{post.node.excerpt}</p>
@@ -103,16 +115,16 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            tags
             thumbnail {
               childImageSharp {
-                fixed(width: 200, height: 200) {
-                  base64
-                  width
-                  height
-                  src
-                  srcSet
-                }
-              }
+              fixed(width: 200, height: 200) {
+                width
+                height
+                src
+                srcSet
+              } 
+             }
             }
           }
         }

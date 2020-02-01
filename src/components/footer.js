@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 import umbcombo from '../images/bch-umb-combo_logo-small.png'
 
 const Footer = () => (
-   <footer aria-label="Footer" className="bg-dark-blue mt5 pt3">
+   <footer aria-label="Footer" className="mt5 pt3 bg-dark-blue">
 
-    <div className="footer-top mw9 center ph5-ns white">
+    <div className="footer-top mw9  center ph5-ns white">
     <div className="cf ph2-ns flex flex-column flex-row-l justify-between">
   <div className="fl w-33-l w-100 pa2">
 
@@ -71,7 +71,8 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   </div>
   </div>
   </div>
-  <div className="footer-copyright cf mw9 mt4 dt flex flex-column flex-row-l justify-between w-100 bt white bg-black f6 lh-copy v-mid pv2 center "> 
+  <div className="footer-copyright cf  dt flex flex-column flex-row-l justify-between w-100 bt white bg-black f6 lh-copy v-mid pv2 center "> 
+  <div className="mw9">
    <div className="w-33-l w-100 dtc v-mid  white ph4-ns ph3">
    <img className = "dib mw-100 h-auto"
    			 alt = "Institute for Community Inclusion"
@@ -96,7 +97,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
     <Link to="/donate/"  className= "link dim white f6 dib "
     title = "Donate" >
     Donate </Link> </li> </ul>
-
+    </div>
     </div>
  
      </div>

@@ -14,6 +14,7 @@ const AreasofEmphasis = ({
   },
 }) => (
   <Layout>
+  
   <section className="center mw8">
   <SEO title="Areas of Emphasis" />
      <div className="breadcrumbs">

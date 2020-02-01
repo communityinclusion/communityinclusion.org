@@ -3,12 +3,13 @@ title: "Cindy Thomas Takes on ICI Director Role"
 path: "cindy-thomas-takes-on-ici-director-role"
 date: 2019-12-13
 posttype: "news"
+tags: ['New']
+featuredImage: "../../images/CindyThomas.jpg"
 thumbnail: "../../images/CindyThomas.jpg"
 ---
 
 
-
-<img style="float:left" width="200" height="200" src="../../images/CindyThomas.jpg">We are thrilled to announce the appointment of Cindy Thomas as the new Director of the Institute for Community Inclusion as of November 1!
+We are thrilled to announce the appointment of Cindy Thomas as the new Director of the Institute for Community Inclusion as of November 1!
 
 Cindy has decades of experience in supporting community-based employment and building the capacity of disability support systems to increase inclusion. As Interim Director for the past year, as Associate Director since 2016, and in her long-term role as Coordinator of Employment Services, Training, and Technical Assistance, she has been a true leader at the ICI.
 

@@ -12,6 +12,7 @@ import Navbar from "../components/navbar"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import './post.css'
+import './tags.css'
 import '../layouts/tachyons/css/tachyons.css'
 import '../layouts/custom.css'
 

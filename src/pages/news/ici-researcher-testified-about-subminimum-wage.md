@@ -9,9 +9,6 @@ thumbnail: "../../images/butterworth-testify.jpg"
 On November 15th, ICI senior researcher [John Butterworth](https://www.communityinclusion.org/staff.php?staff_id=2) provided testimony on data regarding subminimum wages at the [U.S. Commission on Civil Rights](https://www.usccr.gov/) public briefing on the civil rights impact of subminimum wage on people with disabilities. You can [listen to an archive online](https://docreader.readspeaker.com/docreader/?jsmode=1&cid=btieo&lang=en_us&url=https%3A%2F%2Fwww.usccr.gov%2Fpress%2F2019%2F11-05-Agenda-Subminimum-Wages.pdf&referer=https%3A%2F%2Fwww.usccr.gov%2FArchives%2F&v=Google%20Inc.) or read his testimony below.
 
 
-![Teresa Grossi from Indiana with the ICI’s John Butterworth](../../images/butterworth-testify.jpg)
-
-
 
 **Statement of John Butterworth, Ph.D.**  
 Senior Research Fellow and Director of Employment Systems Change and Evaluation Institute for Community Inclusion  
