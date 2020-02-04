@@ -61,8 +61,14 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
     target = "_blank"
     rel = "noopener noreferrer" >
     <i className = "fab  fa-3x fa-facebook-square normal" / >
-    </a> </li> <li className = "dib pr2" > { " " } <
-    a href = "https://www.youtube.com/user/communityinclusion"
+    </a> </li> <li className = "dib pr2" > { " " } 
+    <a href = "https://communityinclusion.tumblr.com/"
+    target = "_blank"
+    rel = "noopener noreferrer" >
+    <i className = "fab  fa-3x fa-tumblr-square" / >
+    </a> </li>
+    <li className = "dib pr2" > { " " } 
+    <a href = "https://www.youtube.com/user/communityinclusion"
     target = "_blank"
     rel = "noopener noreferrer" >
     <i className = "fab fa-3x fa-youtube normal" / >

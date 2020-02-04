@@ -10,3 +10,7 @@ thumbnail: "../../images/cat.jpeg"
 *   Universal Course Design
 *   Youth Development and Leadership
 *   Early Education and Care
+
+- - -
+
+**Related Project**: [ThinkCollege!](/projects/thinkcollege), [NERCVE](/projects/nercve), [Future Quest Island](/projects/fqi)

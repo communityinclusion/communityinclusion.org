@@ -3,7 +3,7 @@ title: "Cindy Thomas Takes on ICI Director Role"
 path: "cindy-thomas-takes-on-ici-director-role"
 date: 2019-12-13
 posttype: "news"
-tags: ['New']
+tags: ['New', 'Cindy']
 featuredImage: "../../images/CindyThomas.jpg"
 thumbnail: "../../images/CindyThomas.jpg"
 ---

@@ -4,8 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import Img from 'gatsby-image';
-// import { kebabCase } from 'lodash';
-// import PostTags from "../components/PostTags";
+import PostTags from "../components/PostTags";
 
 
 const postTemplate = ({ pageContext, data }) => {
@@ -31,28 +30,8 @@ const postTemplate = ({ pageContext, data }) => {
           />
           </div>
         <div>
-          <h1>{frontmatter.title}</h1>
+          <h1 className="mb1">{frontmatter.title}</h1>
           <span>{frontmatter.date}</span>
-          
-        {/*  <Img
-             fluid={post.node.frontmatter.thumbnail.childImageSharp.fluid}
-           /> 
-<Img
-              fluid={page.featuredImage.childImageSharp.fluid}
-              placeholderStyle={{ filter: "blur(20px)" }}
-              className="card-img-top"
-              title={page.title}
-              alt={page.title} />
-
-
-             
-<Img sizes={frontmatter.thumbnail.childImageSharp.sizes}  />
-     
-     
-         
-            <Img fluid={thumbnailFluid} className="post-image" />
-            <Img sizes={page.frontmatter.thumbnail.childImageSharp.sizes} />
-     */}
   </div>
   <article className="cf mt3">
   <div className="fl mr4 pb4">
@@ -61,10 +40,12 @@ const postTemplate = ({ pageContext, data }) => {
   </div>
         <div dangerouslySetInnerHTML={{ __html: html }} />
         </article>
-     {/*   <div className="post-meta">
-              <PostTags tags={page.tags} />
-            {/*  <SocialLinks postPath={slug} postNode={postNode} />
-            </div>*/} 
+        <hr />
+      <div className="post-meta">
+              <PostTags tags={frontmatter.tags} />
+           
+            </div>
+
 
       </section>
 

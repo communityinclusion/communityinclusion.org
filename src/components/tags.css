@@ -9,10 +9,13 @@
   }
   .taglist li a {
     text-decoration: none;
-    border: rgba(102, 51, 153, 0.8) solid 1px;
+    border: #0075ad solid 1px;
     padding: 4px;
     transition: all 0.4s ease;
   }
   .taglist li a:hover {
-    background-color: rgba(102, 51, 153, 0.2);
+    background-color: rgba(0, 117, 173, 0.2);
   }
+  
+  
+ 
