@@ -4,7 +4,6 @@ path: "/dummy-post-2"
 date: 2000-01-01
 posttype: "news"
 thumbnail: "../../images/alberto3.png"
-featuredImage: "../../images/alberto3.png"
 ---
 
 

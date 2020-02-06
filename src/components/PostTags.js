@@ -1,6 +1,6 @@
 import { kebabCase } from 'lodash';
 import React, { Component } from "react";
-import _ from "lodash";
+// import _ from "lodash";
 import { Link } from "gatsby";
 import "../components/tags.css";
 

@@ -5,13 +5,13 @@ import SEO from "../components/seo"
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 
-const pageTemplate = ({ pageContext, data }) => {
+const pageTemplate = ({ pageContext, data, location }) => {
   const {
     breadcrumb: { crumbs },
   } = pageContext
 
   // Example of dynamically using location prop as a crumbLabel
-  //const customCrumbLabel = location.slug.toLowerCase().replace(/-/g, ' ')
+// const customCrumbLabel = location.pathname.toLowerCase().replace(/-/g, ' ')
   const page = data.markdownRemark
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;

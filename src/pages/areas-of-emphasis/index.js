@@ -7,21 +7,27 @@ import healthcare from '../../images/healthcare.png'
 import education from '../../images/education.png'
 import employment from '../../images/employment.png'
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+import { Helmet } from "react-helmet"
+
 
 const AreasofEmphasis = ({
   pageContext: {
     breadcrumb: { crumbs },
   },
+  
 }) => (
   <Layout>
-  
+    <Helmet>
+          <meta charSet="utf-8" />
+          <title>Areas of Emphasis</title>
+        </Helmet>
   <section className="center mw8">
   <SEO title="Areas of Emphasis" />
      <div className="breadcrumbs">
       <Breadcrumb
               crumbs={crumbs}
               crumbSeparator=" / "
-            
+              crumbLabel="Areas of Emphasis"
             />
             </div>
             <h1>Areas of Emphasis</h1>
