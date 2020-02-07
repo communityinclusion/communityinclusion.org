@@ -28,6 +28,18 @@ plugins: [
     },
   },
   {
+    resolve: `gatsby-plugin-manifest`,
+    options: {
+      name: `gatsby-starter-default`,
+      short_name: `starter`,
+      start_url: `.`,
+      background_color: `#663399`,
+      theme_color: `#663399`,
+      display: `minimal-ui`,
+      icon: `src/images/ici-icon.png`, // This path is relative to the root of the site.
+    },
+  },
+  {
     resolve: "gatsby-plugin-sentry",
     options: {
       dsn: "https://3d981740717e4fe8a72e44cce3060d6e@sentry.io/1875087",
@@ -84,20 +96,12 @@ plugins: [
         },
         `gatsby-plugin-sharp`,
         `gatsby-transformer-sharp`,
-       
-  `gatsby-plugin-styled-components`,
-  {
-    resolve: `gatsby-plugin-manifest`,
-    options: {
-      name: `gatsby-starter-default`,
-      short_name: `starter`,
-      start_url: `/`,
-      background_color: `#663399`,
-      theme_color: `#663399`,
-      display: `minimal-ui`,
-      icon: `src/images/ici-icon.png`, // This path is relative to the root of the site.
+        
+      ],
     },
   },
+  `gatsby-plugin-styled-components`,
+  
   {
     resolve: 'gatsby-remark-copy-linked-files',
     options: {
@@ -107,9 +111,8 @@ plugins: [
   // this (optional) plugin enables Progressive Web App + Offline functionality
   // To learn more, visit: https://gatsby.dev/offline
   // `gatsby-plugin-offline`,
-],
-},
-},
+
+
 // `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-breadcrumb`,
