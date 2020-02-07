@@ -47,6 +47,7 @@ plugins: [
 `gatsby-plugin-twitter`,
 `gatsby-plugin-netlify-cms`,
   `gatsby-plugin-react-helmet`,
+  `gatsby-plugin-catch-links`,
 
   {
     resolve: `gatsby-source-filesystem`,
@@ -83,7 +84,7 @@ plugins: [
         },
         `gatsby-plugin-sharp`,
         `gatsby-transformer-sharp`,
-        `gatsby-plugin-catch-links`,
+       
   `gatsby-plugin-styled-components`,
   {
     resolve: `gatsby-plugin-manifest`,
