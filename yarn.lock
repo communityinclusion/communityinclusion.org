@@ -6879,6 +6879,14 @@ gatsby-plugin-breadcrumb@^6.3.0:
     identity-obj-proxy "^3.0.0"
     prop-types "^15.7.2"
 
+gatsby-plugin-catch-links@^2.1.25:
+  version "2.1.25"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-catch-links/-/gatsby-plugin-catch-links-2.1.25.tgz#163332de7708317146239250f95dff16af748914"
+  integrity sha512-6B+oTJLrqY3gJOO3G3DdyazSemcl/CFe7XLuBQmB5OfiReUsulu/w6NbgWP5KRRhXYQHtNoL2z19Z1xbRHJNOg==
+  dependencies:
+    "@babel/runtime" "^7.7.6"
+    escape-string-regexp "^1.0.5"
+
 gatsby-plugin-google-tagmanager@^2.1.20:
   version "2.1.20"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-2.1.20.tgz#3d79de1c79005a2a5fa36fc6f6e5e92a6176a585"
