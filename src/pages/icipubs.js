@@ -28,7 +28,7 @@ class ICIPubsComponent extends React.Component {
           <tbody>
             {data.map((row, i) => (
               <tr className="striped--near-white" key={`${row.node.title} ${i}`}>
-                <td className="pv2 ph3 bb b--black-20">{row.node.title}</td>
+                <td className="pv2 ph3 bb b--black-20"><a href={`${row.node.download_url}`}>{row.node.title}</a></td>
                 <td className="pv2 ph3 bb b--black-20">{row.node.authors}</td>
                  <td className="pv2 ph3 bb b--black-20">{row.node.download_url}</td>
               </tr>
