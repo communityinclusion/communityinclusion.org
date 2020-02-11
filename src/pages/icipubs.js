@@ -22,7 +22,6 @@ class ICIPubsComponent extends React.Component {
             <tr className="striped--near-white ">
               <th className="pv2 ph3 tl f6 fw6 ttu bb b--black-20 b">Tite</th>
               <th className="pv2 ph3 tl f6 fw6 ttu bb b--black-20 b">Author(s)</th>
-              <th className="pv2 ph3 tl f6 fw6 ttu bb b--black-20 b">Download</th>
             </tr>
           </thead>
           <tbody>
@@ -30,7 +29,6 @@ class ICIPubsComponent extends React.Component {
               <tr className="striped--near-white" key={`${row.node.title} ${i}`}>
                 <td className="pv2 ph3 bb b--black-20"><a href={`${row.node.download_url}`}>{row.node.title}</a></td>
                 <td className="pv2 ph3 bb b--black-20">{row.node.authors}</td>
-                 <td className="pv2 ph3 bb b--black-20">{row.node.download_url}</td>
               </tr>
             ))}
           </tbody>
