@@ -38,6 +38,8 @@
     "gatsby-remark-relative-images": "^0.2.3",
     "gatsby-remark-responsive-iframe": "^2.2.27",
     "gatsby-source-filesystem": "^2.0.29",
+    "gatsby-source-google-sheets": "^1.1.1",
+    "gatsby-source-google-spreadsheet": "^2.0.0",
     "gatsby-transformer-excel": "^2.1.11",
     "gatsby-transformer-remark": "^2.3.8",
     "gatsby-transformer-sharp": "^2.3.0",

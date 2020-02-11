@@ -147,9 +147,10 @@ const Navbar = () => (
           </div>
           </div>
       </li>
-        <li className="top-level-link">
+     {/*  <li className="top-level-link">
         <Link to="/resources" activeStyle={activeLinkStyle}><span>Resources</span></Link>
       </li>
+      */} 
     </ul>
   </nav>
       </div>

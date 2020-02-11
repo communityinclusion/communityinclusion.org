@@ -48,7 +48,13 @@ plugins: [
       enabled: (() => ["production", "stage"].indexOf(process.env.NODE_ENV) !== -1)()
     }
   },
-  `gatsby-transformer-excel`,
+  {
+    resolve: `gatsby-transformer-excel`,
+    options: {
+      raw: false,
+    },
+  },
+  
   {	resolve: `gatsby-source-filesystem`,
     options: {
       raw: false,

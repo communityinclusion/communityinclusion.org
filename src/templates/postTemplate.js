@@ -29,7 +29,7 @@ const postTemplate = ({ pageContext, data }) => {
             
           />
           </div>
-        <div>
+        <div className="post">
           <h1 className="mb1">{frontmatter.title}</h1>
           <span>{frontmatter.date}</span>
   </div>

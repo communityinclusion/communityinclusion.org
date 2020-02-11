@@ -45,7 +45,7 @@ const AboutPage = ({
 	    <Link className="link dt w-100 mt2 dim dark-blue" to="/about/history">
 	       <h2 className="f3 fw1 mt0 lh-copy bb bw2">History</h2>
 	          </Link>
-  <p className="f6 f5-l mt0 lh-copy">filler text</p>
+ {/* <p className="f6 f5-l mt0 lh-copy">filler text</p> */} 
 
     </div>
   </div>
@@ -60,8 +60,7 @@ const AboutPage = ({
         <Link to="/about/mission" className="link dt w-100 mt2 dim dark-blue">
     <h2 className="f3 fw1 mt0 lh-copy bb bw2">Mission and Vision</h2>
        </Link>
-    <p className="f6 f5-l mt0 lh-copy">Filler Text
-</p>
+{/*    <p className="f6 f5-l mt0 lh-copy">Filler Text </p> */} 
 
     </div>
   </div>
@@ -79,8 +78,8 @@ const AboutPage = ({
         <Link className="link dt w-100 mt2 dim dark-blue" to="/about/staff">
     <h2 className="f3 fw1 mt0 lh-copy bb bw2">Staff</h2>
        </Link>
-    <p className="f6 f5-l mt0 lh-copy">Filler Text
-</p>
+  {/*  <p className="f6 f5-l mt0 lh-copy">Filler Text
+</p>*/} 
 
   </div>
   </div>
@@ -95,7 +94,7 @@ const AboutPage = ({
         <Link className="link dt w-100 mt2 dim dark-blue" to="/about/directions">
     <h2 className="f3 fw1 mt0 lh-copy bb bw2">Directions</h2>
        </Link>
-    <p className="f6 f5-l mt0 lh-copy">Filler Text </p>
+   {/* <p className="f6 f5-l mt0 lh-copy">Filler Text </p> */} 
 
    </div>
   </div>
@@ -114,8 +113,7 @@ const AboutPage = ({
         <Link className="link dt w-100 mt2 dim dark-blue" to="/about/contact">
     <h2 className="f3 fw1 mt0 lh-copy bb bw2">Contact</h2>
        </Link>
-    <p className="f6 f5-l mt0 lh-copy">Filler Text
-</p>
+   {/* <p className="f6 f5-l mt0 lh-copy">Filler Text</p>*/} 
 
   </div>
   </div>
@@ -130,7 +128,7 @@ const AboutPage = ({
         <Link className="link dt w-100 mt2 dim dark-blue" to="/about/directions">
     <h2 className="f3 fw1 mt0 lh-copy bb bw2">Directions</h2>
        </Link>
-    <p className="f6 f5-l mt0 lh-copy">Filler Text </p>
+     {/* <p className="f6 f5-l mt0 lh-copy">Filler Text </p> */}
 
    </div>
   </div>

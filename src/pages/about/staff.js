@@ -17,7 +17,7 @@ class StaffComponent extends React.Component {
             <section className="mw8 center">
        <div className="w-100 pa2">
        <h1>Staff Directory</h1>
-        <table className="w-100 collapse ba br2 b--black-10 pv2 ph3 mt4">
+        <table className="w-100 f6 collapse ba br2 b--black-10 pv2 ph3 mt4">
           <thead>
             <tr className="striped--near-white ">
               <th className="pv2 ph3 tl f6 fw6 ttu bb b--black-20 b">Name</th>
