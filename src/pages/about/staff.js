@@ -30,7 +30,7 @@ class StaffComponent extends React.Component {
               <tr className="striped--near-white" key={`${row.node.name} ${i}`}>
                 <td className="pv2 ph3 bb b--black-20">{row.node.name}</td>
                 <td className="pv2 ph3 bb b--black-20">{row.node.phone}</td>
-                <td className="pv2 ph3 bb b--black-20">{row.node.email}</td>
+                <td className="pv2 ph3 bb b--black-20"><a href={`mailto:${row.node.email}`}>{row.node.email}</a></td>
               </tr>
             ))}
           </tbody>
