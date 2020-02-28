@@ -62,6 +62,7 @@ plugins: [
       name: `data`,
     },
     },
+    `gatsby-plugin-offline`,
 `gatsby-plugin-twitter`,
 `gatsby-plugin-netlify-cms`,
   `gatsby-plugin-react-helmet`,

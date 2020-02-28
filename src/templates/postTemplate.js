@@ -42,7 +42,7 @@ const postTemplate = ({ pageContext, data }) => {
         </article>
         <hr />
       <div className="post-meta">
-              <PostTags tags={frontmatter.tags} />
+          <p className="fl">Tags:</p>    <PostTags tags={frontmatter.tags} />
            
             </div>
 

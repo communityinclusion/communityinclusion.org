@@ -1,5 +1,5 @@
 import React from 'react';
-import { kebabCase } from 'lodash';
+// import { kebabCase } from 'lodash';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 import Img from 'gatsby-image';
@@ -35,7 +35,7 @@ const NewsPage = ({ data, pageContext,location }) => {
         <h1>New at ICI</h1>
       <div className="post-list">
         {posts.map(post => (
-          <div key={post.node.id} className="post-list__item">
+          <div key={post.node.id} className="post-list__item bb b--black-10">
             <div className="post-list__thumbnail">
               <Link to={post.node.fields.slug}>
                 <Img
@@ -44,7 +44,11 @@ const NewsPage = ({ data, pageContext,location }) => {
               </Link>
             </div>
             <div className="post-list__content">
-              <h2>{post.node.frontmatter.title}</h2>
+              <h2><Link className="no-underline underline-hover blue dim" to={post.node.fields.slug}>
+                {post.node.frontmatter.title}
+                </Link>
+                </h2>
+                {/* 
               {post.node.frontmatter.tags ? (
                 <div className="tags-container">
                   <ul className="taglist">
@@ -56,13 +60,16 @@ const NewsPage = ({ data, pageContext,location }) => {
                   </ul>
                 </div>
               ) : null}
+              */}
               <p>{post.node.frontmatter.date}</p>
               <div className="post-list__excerpt">
                 <p>{post.node.excerpt}</p>
               </div>
+             {/* 
               <Link className="button button--small" to={post.node.fields.slug}>
                 Read More
               </Link>
+              */}
             </div>
           </div>
         ))}

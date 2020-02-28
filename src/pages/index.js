@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import Img from 'gatsby-image'
-import { kebabCase } from 'lodash';
+// import { kebabCase } from 'lodash';
 
 const IndexPage = ({data}) => {
   const posts = data.allMarkdownRemark.edges;
@@ -19,6 +19,58 @@ const IndexPage = ({data}) => {
 training, technical assistance, service, research, and information sharing, with a focus on building the capacity of communities to sustain all their citizens.*/}
     </p>
   </section>
+
+  <section className="mw9 center ph5-ns">
+  <h2 class="bb bw1">Areas of Emphasis</h2>
+  <div className="flex-l w-100 ml2 mr2 center">
+<article className="flex-1 shadow-4 ma3  w-90 ">
+  <h1 className="f4 bg-green white mv0 pv2 ph3">Employment</h1>
+  <div className="pa3">
+    <p className="f6 f5-ns lh-copy measure mv0">
+  Building a rewarding career in the community should be an expectation for all citizens. With support and planning, people with significant disabilities can thrive in the workplace.
+    </p>
+  </div>
+</article>
+
+
+
+<article className="flex-1 shadow-4 ma3 w-90 ">
+  <h1 className="f4 bg-purple white mv0 pv2 ph3">Education</h1>
+  <div className="pa3">
+    <p className="f6 f5-ns lh-copy measure mv0">
+ From pre-K through university, schools are engaging and involving students with a range of disabilities. By building skills early, young people can exit high school prepared to pursue higher education and find jobs that match their interests.
+    </p>
+  </div>
+</article>
+</div> 
+ <div className="flex-l w-100 ml2 mr2 center">
+
+
+<article className="flex-1 shadow-4 ma3  w-90 ">
+  <h1 className="f4 bg-red white mv0 pv2 ph3">Community</h1>
+  <div className="pa3">
+    <p className="f6 f5-ns lh-copy measure mv0">
+ Outside of work and school, people with disabilities are involved in a wide range of activities that make up a satisfying life. Whether it’s volunteering at a music festival, getting involved with a faith community, or attending a sports event, there’s much more to life than a job.
+    </p>
+  </div>
+</article>
+
+
+
+<article className="flex-1 shadow-4 ma3  w-90 ">
+  <h1 className="f4 bg-orange white mv0 pv2 ph3">Healthcare</h1>
+  <div className="pa3">
+  <p className="f6 f5-l mt0 lh-copy">Accessing quality health care enables us to live productively and to receive support when facing mental, behavioral, or physical challenges. For people with disabilities, equitable health care can require additional advocacy and planning.
+    </p>
+  </div>
+</article>
+
+
+
+</div>
+</section>
+
+
 <div className="cf">
 <div className="fl w-100-m w-70-ns bg-white pa3">
 <section className="mw7 center">
@@ -38,7 +90,11 @@ training, technical assistance, service, research, and information sharing, with
          </Link>
        </div>
        <div className="post-list__content">
-         <h2>{post.node.frontmatter.title}</h2>
+         <h2> <Link className="no-underline underline-hover blue dim" to={post.node.fields.slug}>
+           {post.node.frontmatter.title}
+            </Link>
+           </h2>
+       {/* 
          {post.node.frontmatter.tags ? (
                 <div className="tags-container">
                   <ul className="taglist">
@@ -50,12 +106,10 @@ training, technical assistance, service, research, and information sharing, with
                   </ul>
                 </div>
               ) : null}
+              */}
          <div className="post-list__excerpt">
            <p>{post.node.excerpt}</p>
          </div>
-         <Link className="button button--small" to={post.node.fields.slug}>
-           Read More
-         </Link>
        </div>
      </div>
 
