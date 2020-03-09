@@ -20,11 +20,11 @@ const Header = ({ siteTitle }) => (
     </Link> </div> 
     
     <div className = "fl w-60-ns w-65-m w-70 pa2" >
-    <h1 className = "banner-text link dim dark-blue b  f4 f2-m f1-l   db mb2 mt0-ns mt3 center "
+    <div className = "banner-text link dim dark-blue b  f4 f2-m f1-l   db mb2 mt0-ns mt3 center "
     href = "/"
     title = "Home" >
     Institute
-    for Community Inclusion </h1>
+    for Community Inclusion </div>
     <span className = "banner-tagline f5 f4-ns dn db-ns f-subheadline dark-blue tracked-mega-l " > { " " }
     PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES </span> </div> 
     

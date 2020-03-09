@@ -3,6 +3,10 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import Img from 'gatsby-image'
+import community_logo from '../images/community-logo.png'
+import healthcare_logo from '../images/healthcare-logo.png'
+import employment_logo from '../images/employment-logo.png'
+import education_logo from '../images/education-logo.png'
 // import { kebabCase } from 'lodash';
 
 const IndexPage = ({data}) => {
@@ -24,7 +28,10 @@ training, technical assistance, service, research, and information sharing, with
   <h2 class="bb bw1">Areas of Emphasis</h2>
   <div className="flex-l w-100 ml2 mr2 center">
 <article className="flex-1 shadow-4 ma3  w-90 ">
-  <h1 className="f4 bg-green white mv0 pv2 ph3">Employment</h1>
+  <div className=" bg-green mv0 ph3 ">
+  <img src={employment_logo} className="dib v-mid" alt = "Employment icon" />
+  <h3 className="f3 white  dib v-mid pl2">     Employment</h3>
+  </div>
   <div className="pa3">
     <p className="f6 f5-ns lh-copy measure mv0">
   Building a rewarding career in the community should be an expectation for all citizens. With support and planning, people with significant disabilities can thrive in the workplace.
@@ -35,7 +42,10 @@ training, technical assistance, service, research, and information sharing, with
 
 
 <article className="flex-1 shadow-4 ma3 w-90 ">
-  <h1 className="f4 bg-purple white mv0 pv2 ph3">Education</h1>
+<div className="bg-purple mv0 ph3 ">
+<img src={education_logo} className="dib v-mid" alt = "Education icon" /> 
+  <h3 className="f3 white dib v-mid pl2"> Education</h3>
+  </div>
   <div className="pa3">
     <p className="f6 f5-ns lh-copy measure mv0">
  From pre-K through university, schools are engaging and involving students with a range of disabilities. By building skills early, young people can exit high school prepared to pursue higher education and find jobs that match their interests.
@@ -47,7 +57,10 @@ training, technical assistance, service, research, and information sharing, with
 
 
 <article className="flex-1 shadow-4 ma3  w-90 ">
-  <h1 className="f4 bg-red white mv0 pv2 ph3">Community</h1>
+<div className="bg-red mv0 ph3 ">
+<img src={community_logo} className="dib v-mid" alt = "Community icon" /> 
+  <h3 className="f3 white dib v-mid pl2"> Community</h3>
+ </div>
   <div className="pa3">
     <p className="f6 f5-ns lh-copy measure mv0">
  Outside of work and school, people with disabilities are involved in a wide range of activities that make up a satisfying life. Whether it’s volunteering at a music festival, getting involved with a faith community, or attending a sports event, there’s much more to life than a job.
@@ -58,7 +71,10 @@ training, technical assistance, service, research, and information sharing, with
 
 
 <article className="flex-1 shadow-4 ma3  w-90 ">
-  <h1 className="f4 bg-orange white mv0 pv2 ph3">Healthcare</h1>
+<div className="bg-orange mv0 ph3 ">
+<img src={healthcare_logo} className="dib v-mid" alt = "Healthcare icon" /> 
+  <h3 className="f3 white dib v-mid pl2"> Healthcare</h3>
+ </div>
   <div className="pa3">
   <p className="f6 f5-l mt0 lh-copy">Accessing quality health care enables us to live productively and to receive support when facing mental, behavioral, or physical challenges. For people with disabilities, equitable health care can require additional advocacy and planning.
     </p>

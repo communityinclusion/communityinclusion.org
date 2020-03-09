@@ -6,4 +6,4 @@
 
 import "./src/layouts/tachyons/css/tachyons.css"
 import "./src/layouts/custom.css"
-
+import "./src/components/cards/cards.module.css"

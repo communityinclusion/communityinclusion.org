@@ -57,7 +57,7 @@ const Navbar = () => (
 
         </div>
       </li>
-      <li className="top-level-link">
+    {/* <li className="top-level-link">
 
 
            <Link to="/areas-of-emphasis" activeStyle={activeLinkStyle} partiallyActive={true} className="mega-menu"><span>Areas of Emphasis</span></Link>
@@ -82,6 +82,7 @@ const Navbar = () => (
 
         </div>
       </li>
+      */} 
       <li className="top-level-link">
         <Link to="/projects" activeStyle={activeLinkStyle} partiallyActive={true} className="mega-menu"><span>Projects</span></Link>
         <div className="sub-menu-block">
@@ -124,9 +125,9 @@ const Navbar = () => (
       <li className="top-level-link">
         <Link to="/publications" activeStyle={activeLinkStyle} partiallyActive={true}><span>Publications</span></Link>
       </li>
-      <li className="top-level-link">
-         <Link to="/services" className="mega-menu"><span>Services</span></Link>
-            <div className="sub-menu-block">
+    <li className="top-level-link">
+         <Link to="/services" activeStyle={activeLinkStyle} partiallyActive={true}><span>Services</span></Link>
+            {/*  <div className="sub-menu-block">
             <div className="cf">
             <div className="fl w-two-thirds-l db-l dn pr2">
 <p>From expert consultation and technical assistance to online training for employment professionals, our services help agency leaders and disability staff to excel and thrive in their work.  </p>
@@ -145,7 +146,7 @@ const Navbar = () => (
             </div>
 
           </div>
-          </div>
+          </div>*/} 
       </li>
      {/*  <li className="top-level-link">
         <Link to="/resources" activeStyle={activeLinkStyle}><span>Resources</span></Link>

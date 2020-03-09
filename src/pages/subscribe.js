@@ -1,12 +1,16 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Breadcrumb from "../components/breadcrumb/breadcrumb"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import { Helmet } from 'react-helmet'
 
-
-const Subscribe = () => 
-(
+const Subscribe = ({
+  pageContext: {
+    breadcrumb: { crumbs },
+  },
+  
+}) => (
+ 
   <Layout>
     <Helmet>
     <script> var _ctct_m = "b49f2c8400ca9ddcee2ba421b594264d"; </script>
