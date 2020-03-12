@@ -7,6 +7,8 @@ The code is just code, feel free to take and use it. Content and branding is our
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+ <a href="https://www.netlify.com">
+    <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg" alt="Deploys by Netlify" />
+  </a>
 
 <!-- AUTO-GENERATED-CONTENT:END -->
