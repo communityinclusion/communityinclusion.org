@@ -1,4 +1,4 @@
-#Hi Friends, this is the repo for the ICI website (development)
+# Hi Friends, this is the repo for the ICI website (development)
 
 It currently uses a number of terrific open source tools, including Gatsby, React, Github, Tachyons, Netlify and Netlify CMS. 
 
