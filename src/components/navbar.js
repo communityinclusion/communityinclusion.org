@@ -48,6 +48,7 @@ const Navbar = () => (
                 <li><Link to="/about/mission">Mission and Vision</Link></li>
                 <li><Link to="/about/staff">Staff</Link></li>
                   <li><Link to="/about/directions">Directions</Link></li>
+                  <li><Link to="/about/glossary">Glossary</Link></li>
                     <li><Link to="/about/contact">Contact</Link></li>
               </ul>
             </div>

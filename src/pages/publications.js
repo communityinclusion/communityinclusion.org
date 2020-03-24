@@ -16,14 +16,14 @@ import TC_annnual_thumbnail from '../images/thumbnails/TC_annnual_thumbnail.png'
 import TCTP1_thumbnail from '../images/thumbnails/TCTP1_thumbnail.png'
 import SELN_unpaid_work_thumbnail from '../images/thumbnails/SELN_unpaid_work_thumbnail.png'
 import cle_toolkit_thumbnail from '../images/thumbnails/cle_toolkit_thumbnail.png'
-import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
-{/* 
+// import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+ {/*
 const PublicationsPage = ({
   pageContext: {
     breadcrumb: { crumbs },
   },
 }) 
-*/}
+ */}
 class PublicationsPage extends React.Component {
   render() {
     const data = this.props.data.allPubsXlsxSheet1.edges
@@ -34,13 +34,13 @@ class PublicationsPage extends React.Component {
       <Layout>
         <SEO title="ICI Pubs" />
             <section className="mw8 center">
-       {/*     <div className="breadcrumbs">
+         {/*   <div className="breadcrumbs">
     <Breadcrumb
             crumbs={crumbs}
             crumbSeparator=" / "
             crumbLabel="Publications"
           />
-          </div>*/} 
+    </div> */}
        <div className="w-100 pa2">
        <h1>ICI Pubs</h1>
 

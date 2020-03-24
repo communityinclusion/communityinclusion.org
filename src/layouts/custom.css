@@ -1325,3 +1325,14 @@ article.card {
 
 
    .card-wrap {}
+
+
+
+   /** GLOSSARY **/
+
+   ul.alphabet li {display:inline-block;padding-left:1rem;padding-right:.5rem}
+   .glossary dl dt {font-weight: 700;}
+
+
+   div.glossary dt {margin-bottom:.5rem;font-size: larger;}
+   div.glossary dd {margin-bottom:1.2rem;margin-left:0}

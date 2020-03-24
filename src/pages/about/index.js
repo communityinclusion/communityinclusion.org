@@ -40,12 +40,12 @@ const AboutPage = ({
  <div className="flex flex-column flex-row-ns">
 
 
- <div className="w-100 w-70-ns">
+ <div className="w-100">
  
 	    <Link className="link dt w-100 mt2 dim dark-blue" to="/about/history">
-	       <h2 className="f3 fw1 mt0 lh-copy bb bw2">History</h2>
+	       <h3 className="fw1 mt0 lh-copy bb bw2">History</h3>
 	          </Link>
- {/* <p className="f6 f5-l mt0 lh-copy">filler text</p> */} 
+  <p className="f6 f5-l mt0 lh-copy">Learn about the history of ICI and see an interactive timeline of signifigent events</p>   
 
     </div>
   </div>
@@ -56,64 +56,59 @@ const AboutPage = ({
 
 <div className="flex flex-column flex-row-ns">
   
-<div className="w-100 w-70-ns">
+<div className="w-100">
         <Link to="/about/mission" className="link dt w-100 mt2 dim dark-blue">
-    <h2 className="f3 fw1 mt0 lh-copy bb bw2">Mission and Vision</h2>
+    <h3 className="fw1 mt0 lh-copy bb bw2">Mission and Vision</h3>
        </Link>
-{/*    <p className="f6 f5-l mt0 lh-copy">Filler Text </p> */} 
+    <p className="f6 f5-l mt0 lh-copy">What we're about </p>  
 
     </div>
   </div>
 
 </article>
 
-
-</div>
-<div className="flex-l w-100 nl2 nr2 center">
 <article className="flex-1 bt bb b--black-10 shadow-4 ma3 pa3 w-90">
 
 <div className="flex flex-column flex-row-ns">
    
-<div className="w-100 w-70-ns">
+<div className="w-100">
         <Link className="link dt w-100 mt2 dim dark-blue" to="/about/staff">
-    <h2 className="f3 fw1 mt0 lh-copy bb bw2">Staff</h2>
+    <h3 className="fw1 mt0 lh-copy bb bw2">Staff</h3>
        </Link>
-  {/*  <p className="f6 f5-l mt0 lh-copy">Filler Text
-</p>*/} 
+   <p className="f6 f5-l mt0 lh-copy">Staff directory
+</p> 
 
   </div>
   </div>
 
 </article>
+</div>
+<div className="flex-l w-100 nl2 nr2 center">
+
 <article className="flex-1 bt bb b--black-10 shadow-4 ma3 pa3  w-90">
 
 <div className="flex flex-column flex-row-ns">
   
 
-<div className="w-100 w-70-ns">
+<div className="w-100">
         <Link className="link dt w-100 mt2 dim dark-blue" to="/about/directions">
-    <h2 className="f3 fw1 mt0 lh-copy bb bw2">Directions</h2>
+    <h3 className="fw1 mt0 bb bw2">Directions</h3>
        </Link>
-   {/* <p className="f6 f5-l mt0 lh-copy">Filler Text </p> */} 
+     <p className="f6 f5-l mt0 lh-copy">How to find us </p>  
 
    </div>
   </div>
 
 </article>
-
-</div>
-
-
-<div className="flex-l w-100 nl2 nr2 center">
 <article className="flex-1 bt bb b--black-10 shadow-4 ma3 pa3 w-90">
 
 <div className="flex flex-column flex-row-ns">
    
-<div className="w-100 w-70-ns">
+<div className="w-100">
         <Link className="link dt w-100 mt2 dim dark-blue" to="/about/contact">
-    <h2 className="f3 fw1 mt0 lh-copy bb bw2">Contact</h2>
+    <h3 className="fw1 mt0 lh-copy bb bw2">Contact</h3>
        </Link>
-   {/* <p className="f6 f5-l mt0 lh-copy">Filler Text</p>*/} 
+   <p className="f6 f5-l mt0 lh-copy">Have a question? Just want to say hi? </p>
 
   </div>
   </div>
@@ -124,18 +119,18 @@ const AboutPage = ({
 <div className="flex flex-column flex-row-ns">
   
 
-<div className="w-100 w-70-ns">
-        <Link className="link dt w-100 mt2 dim dark-blue" to="/about/directions">
-    <h2 className="f3 fw1 mt0 lh-copy bb bw2">Directions</h2>
+<div className="w-100">
+        <Link className="link dt w-100 mt2 dim dark-blue" to="/about/glossary">
+    <h3 className="fw1 mt0 lh-copy bb bw2">Glossary</h3>
        </Link>
-     {/* <p className="f6 f5-l mt0 lh-copy">Filler Text </p> */}
+       <p className="f6 f5-l mt0 lh-copy">Helpful guide to disability-related terms and jargon</p>  
 
    </div>
   </div>
 
 </article>
-
 </div>
+
 
 
 

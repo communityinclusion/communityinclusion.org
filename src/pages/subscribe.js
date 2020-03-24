@@ -16,11 +16,18 @@ const Subscribe = ({
     <script> var _ctct_m = "b49f2c8400ca9ddcee2ba421b594264d"; </script>
 <script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
 </Helmet>
-     <Breadcrumb crumbs={ [ 'Home', 'Subscribe' ] } />
+      
    <section className="center mw8">
+   <div className="breadcrumbs">
+    <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+            crumbLabel="Subscribe"
+          />
+          </div>
    <SEO title="Subscribe" />
     <h1>Subscribe</h1>
- <div className="pa4-l">
+ <div>
  <div class="ctct-inline-form" data-form-id="d1e81fb3-9e40-46dd-8028-2852e942a917"></div>
 </div>
  </section>

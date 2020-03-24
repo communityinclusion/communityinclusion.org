@@ -29,7 +29,7 @@ const NewsPage = ({ data, pageContext,location }) => {
     <Breadcrumb
            crumbs={crumbs}
            crumbSeparator=" / "
-            crumbLabel="News"
+            crumbLabel={currentPage}
           />
           </div>
         <h1>New at ICI</h1>

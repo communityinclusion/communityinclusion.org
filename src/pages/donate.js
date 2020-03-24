@@ -4,17 +4,24 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
-const DonatePage = ({
-  pageContext: {
-    breadcrumb: { crumbs },
-  },
-  
-}) => (
+ 
+  const DonatePage = ({
+    pageContext: {
+      breadcrumb: { crumbs },
+    },
+    
+  }) => (
   <Layout>
-    <Breadcrumb crumbs={ [ 'Home', 'Donate' ] } />
+ 
       <section className="mw8 center">
        <SEO title="Donate" />
-  
+       <div className="breadcrumbs">
+    <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+            crumbLabel="Donate"
+          />
+          </div>
    
    
    

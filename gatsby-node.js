@@ -140,11 +140,12 @@ result.data.allMarkdownRemark.edges.forEach(edge => {
 
     Array.from({ length: numPages }).forEach((_, i) => {
       createPage({
-        path: i === 0 ? `news/` : `news/${i + 1}`,
+        path: i === 0 ? `/news` : `/news/${i + 1}`,
         component: postListTemplate,
          context: {
+          length : posts.length,
           limit: postsPerPage,
-       skip: i * postsPerPage,
+          skip: i * postsPerPage,
            numPages,
            currentPage: i + 1,
          },
