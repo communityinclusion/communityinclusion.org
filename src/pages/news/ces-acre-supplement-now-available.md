@@ -4,6 +4,7 @@ path: "/ces-acre-supplement-now-available"
 date: 2000-01-01
 tags: ['ACRE']
 posttype: "news"
+description: "Offered through Direct Course, the College of Employment Services (CES) curriculum can help your staff advance their careers as employment professionals. Now they can access even more intensive career development..."
 thumbnail: "../../images/alberto2.png"
 ---
 

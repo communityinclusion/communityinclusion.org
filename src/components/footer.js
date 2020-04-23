@@ -5,9 +5,9 @@ import umbcombo from '../images/bch-umb-combo_logo-small.png'
 const Footer = () => (
    <footer aria-label="Footer" className="mt5 pt3 bg-dark-blue">
 
-    <div className="footer-top mw9  center ph5-ns white">
-    <div className="cf ph2-ns flex flex-column flex-row-l justify-between">
-  <div className="fl w-33-l w-100 pa2">
+    <div className="footer-top mw9  center ph3 white">
+    <div className="cf ph2-ns flex flex-column flex-row-l flex-row-m justify-between">
+  <div className="fl w-33-l w-33-m w-100 pa2">
 
     
   <h3 className="bb fl w-100 pv0 f4 lh-copy ttu tracked">Contact</h3>
@@ -25,7 +25,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
 
   </div>
   
-  <div className="fl w-33-l w-100 pa2">
+  <div className="fl w-33-l w-33-m w-100 pa2">
 
   <h3 className="bb fl w-100 pv0 f4 lh-copy fw6 ttu tracked">Links</h3>
   <ul className=" v-mid w-100 w-75-l list pl0 ">
@@ -39,7 +39,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
  <li className="mr2"> <Link to="/" className="link white  f6 f5-l dib no-underline underline-hover" title="contact">Contact</Link></li>
     <li className="mr2"> <Link to="/" className="link white  f6 f5-l dib no-underline underline-hover" title="Donate">Donate</Link></li>
   </ul></div>
-  <div className="fl w-33-l w-100 pa2 ">
+  <div className="fl w-33-l w-33-m w-100 pa2 ">
   <h3 className="bb fl w-100 pv0 f4 lh-copy fw6 ttu tracked">Social</h3>
 
   <ul className = "social-links  list pl0" >
@@ -77,21 +77,21 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   </div>
   </div>
   </div>
-  <div className="footer-copyright cf  dt flex flex-column flex-row-l justify-between w-100 bt white bg-black f6 lh-copy v-mid pv2 center "> 
+  <div className="footer-copyright cf  dt flex flex-column flex-row-l flex-row justify-between w-100 bt white bg-black f6 lh-copy v-mid pv2 center "> 
   <div className="mw9">
-   <div className="w-33-l w-100 dtc v-mid  white ph4-ns ph3">
+   <div className="w-33-l w-33-m w-100 dtc v-mid  white">
    <img className = "dib mw-100 h-auto"
    			 alt = "Institute for Community Inclusion"
             src={umbcombo}
           />
      </div> 
-      <div className="w-33-l w-100 dtc v-mid white ph3-ns ph3">
+      <div className="w-33-l w-33-m w-100 dtc v-mid white ph3">
    
       <p className="white">©2019 The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital.</p>
     </div>
    
   
-    <div className="w-33-l w-100 dtc v-mid white ph4-ns ph3">
+    <div className="w-33-l w-33-m w-100 dtc v-mid white ph3">
     <ul className = " justify-center  list pl0 " >
     <li className = " dib br pr2" >
    <Link to= "/about/privacy/" className="link dim white f6 dib "

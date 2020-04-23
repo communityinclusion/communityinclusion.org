@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import '../components/navbar.css'
 import '../layouts/custom.css'
-
+// import SearchForm from "../components/searchForm"
 
 
 const activeLinkStyle = {
@@ -152,7 +152,11 @@ const Navbar = () => (
      {/*  <li className="top-level-link">
         <Link to="/resources" activeStyle={activeLinkStyle}><span>Resources</span></Link>
       </li>
-      */} 
+    
+      <li className="top-level-link">
+      <SearchForm />
+       <Link to="/search" activeStyle={activeLinkStyle} partiallyActive={true}><span>Search</span></Link> 
+      </li>*/} 
     </ul>
   </nav>
       </div>

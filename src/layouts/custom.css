@@ -473,6 +473,8 @@ ol ol,ol ul,ul ol,ul ul {
 }
 
 */
+
+.k--input > ul {z-index: 10000}
 mark {
 	background-color:#ffe96b;
 	color:inherit;
@@ -1324,7 +1326,7 @@ article.card {
   }
 
 
-   .card-wrap {}
+   /** .card-wrap {} **/
 
 
 
@@ -1336,3 +1338,27 @@ article.card {
 
    div.glossary dt {margin-bottom:.5rem;font-size: larger;}
    div.glossary dd {margin-bottom:1.2rem;margin-left:0}
+
+/** Search **/
+
+   .search-results-count {
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 14px;
+  }
+  
+  .search-results-list {
+	list-style: none;
+  }
+  
+  .search-results-list__heading {
+	margin-bottom: 5px;
+  }
+  
+  .search-results-list__link {
+	box-shadow: none;
+  }
+
+  input#search-input {width: 110px;
+
+    margin-right: 5px;}

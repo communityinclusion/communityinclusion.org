@@ -7,6 +7,7 @@
   "dependencies": {
     "@babel/core": "^7.6.4",
     "@babel/runtime": "^7.6.3",
+    "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^2.3.0",
     "@reach/menu-button": "^0.1.12",
     "@sentry/node": "5.11.0",
     "@typescript-eslint/eslint-plugin": "^2.5.0",
@@ -22,6 +23,7 @@
     "gatsby-plugin-catch-links": "^2.1.25",
     "gatsby-plugin-google-tagmanager": "^2.1.20",
     "gatsby-plugin-lodash": "^3.1.8",
+    "gatsby-plugin-lunr": "^1.5.2",
     "gatsby-plugin-manifest": "^2.0.28",
     "gatsby-plugin-netlify-cms": "^4.0.0",
     "gatsby-plugin-offline": "^3.0.35",
@@ -54,6 +56,7 @@
     "react": "^16.11.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.0",
+    "react-highlight-words": "^0.16.0",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
     "redux": "^2.0.0",

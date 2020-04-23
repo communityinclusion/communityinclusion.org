@@ -82,6 +82,34 @@ plugins: [
       path: `${__dirname}/src/images`,
     },
   },
+  {
+    resolve: "gatsby-plugin-lunr",
+    options: {
+      languages: [{ name: "en" }],
+      fields: [
+        { name: "title", store: true, attributes: { boost: 20 } },
+        { name: "description", store: true, attributes: { boost: 5 } },
+        { name: "content" },
+        {name: "tage", store: true},
+        { name: "url", store: true },
+        { name: "date", store: true },
+      ],
+      resolvers: {
+        MarkdownRemark: {
+          title: node => node.frontmatter.title,
+          description: node => node.frontmatter.description,
+          content: node => node.rawMarkdownBody,
+          tags: node => node.frontmatter.tags,
+          url: node => node.fields.slug,
+          date: node => node.frontmatter.date,
+        },
+      },
+      filename: "search_index.json",
+      fetchOptions: {
+        credentials: 'same-origin'
+    },
+    },
+  },
   //{
    // resolve: `gatsby-source-filesystem`,
    // options: {
