@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
   
 
     <div className = "header" >
-    <div className = "cf mw9 center ph3 ph4-m ph4-l pt3-ns pb3-ns debug-black" >
+    <div className = "cf mw9 center ph3 ph4-m ph4-l pt3-ns pb3-ns" >
     <div className = "fl w-10" >
     <Link to= "/" className = "dtc v-mid mid-gray link "
     title = "Home" >
