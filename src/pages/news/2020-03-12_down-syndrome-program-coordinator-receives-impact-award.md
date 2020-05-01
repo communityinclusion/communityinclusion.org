@@ -1,7 +1,8 @@
 ---
 title: "Down Syndrome Program Coordinator Receives Impact Award"
-path: "down-syndrome-program-coordinator-receives-impact-award"
-date: 2020-03-12
+description: "Boston Children’s Hospital Foundation held its first annual Special Events Award Reception, “A Night of the Stars.” At the ceremony ICI’s Angela Lombardo, coordinator and  LEND Boston family faculty, received the Impact Award."
+path: "2020-03-12_down-syndrome-program-coordinator-receives-impact-award"
+date: "2020-03-12"
 posttype: "news"
 tags: ['LEND Boston', 'Boston Childrens Hospital', 'Down Syndrome', 'Lend Program', 'Angela Lombardo']
 thumbnail: "../../images/1_2WIrirjIAv4Qs31rtk-YLQ.jpeg"

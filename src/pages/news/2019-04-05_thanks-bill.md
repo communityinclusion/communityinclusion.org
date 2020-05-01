@@ -1,7 +1,9 @@
 ---
-title: "Thanks Bill!"
-path: "/thanks-bill"
-date: 2000-01-01
+title: "Thanks Bill"
+description: "Dr. William E. Kiernan recently celebrated his retirement from his role as dean of the School for Global Inclusion and Social Development, the UMass Boston graduate school where the ICI is housed."
+path: "/2019-04-05_thanks-bill"
+date: "2019-04-05"
+tags: ['Bill Kiernan']
 posttype: "news"
 thumbnail: "../../images/thumbsup.jpg"
 ---
@@ -17,6 +19,9 @@ In the director role, Bill led our institute to become a national and internatio
 Throughout Bill’s career, he has been a beacon for justice and equity for all vulnerable and excluded populations, especially those with disabilities. We will miss him, and are grateful for his many years of leadership.
 
 Watch our tribute video to Bill, below.
- 
 
- <script src="https://fast.wistia.com/embed/medias/lkf9y1ojnc.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_lkf9y1ojnc videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/lkf9y1ojnc/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+`video: https://icimedia.wistia.com/medias/lkf9y1ojnc`
+
+`video: http://fast.wistia.net/embed/iframe/lkf9y1ojnc`
+
+`youtube: d3kEOqkx5`

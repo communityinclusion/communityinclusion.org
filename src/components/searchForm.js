@@ -1,22 +1,39 @@
-import React from "react"
-import { navigate } from "gatsby"
+/* src/components/search-form.js */
+import React, { useState, useRef } from "react"
+import { navigate } from "@reach/router"
+const SearchForm = ({ initialQuery = "" }) => {
+  // Create a piece of state, and initialize it to initialQuery
+  // query will hold the current value of the state,
+  // and setQuery will let us change it
+  const [query, setQuery] = useState(initialQuery)
+  const inputEl = useRef(null)
+  // On input change use the current value of the input field (e.target.value)
+  // to update the state's query value
+  const handleChange = e => {
+    setQuery(e.target.value)
+  }
 
-const SearchForm = ({ query }) => (
-  <form role="search" method="GET">
-    <label htmlFor="search-input">
-    </label>
-    <input
-      type="search"
-      id="search-input"
-      name="keywords"
-      aria-controls="search-results-count"
-      onChange={e =>
-        navigate(`/search?keywords=${encodeURIComponent(e.target.value)}`)
-      }
-      value={query}
-    />
-    <button type="submit">Search</button>
-  </form>
-)
-
+  // When the form is submitted navigate to /search
+  // with a query q paramenter equal to the state's query value
+  const handleSubmit = e => {
+    e.preventDefault()
+    const q = inputEl.current.value
+    navigate(`/search?q=${q}`)
+  }
+  return (
+    <form role="search" onSubmit={handleSubmit}>
+      <label htmlFor="search-input" style={{ display: "block" }}>
+      </label>
+      <input
+        ref={inputEl}
+        id="search-input"
+        type="search"
+        value={query}
+        placeholder="search"
+        onChange={handleChange}
+      />
+      <button type="submit">Search</button>
+    </form>
+  )
+}
 export default SearchForm

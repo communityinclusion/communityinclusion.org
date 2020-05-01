@@ -29,7 +29,7 @@ const pageTemplate = ({ pageContext, data, location }) => {
           </div>
         <div className="page">
           <h1>{frontmatter.title}</h1>
-          <span>{frontmatter.date}</span>
+         {/*  <span>{frontmatter.date}</span> */}
         </div>
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </section>
@@ -44,7 +44,6 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
         title
         tags
         posttype

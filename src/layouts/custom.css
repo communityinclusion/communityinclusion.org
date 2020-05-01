@@ -92,6 +92,7 @@ footer li a:hover, li a:target {color:#fff;opacity:.8}
   font-family: myriad-pro-condensed, sans-serif;
 font-weight: 600;
 font-style: normal;
+text-align: center;
 }
 
 
@@ -101,6 +102,7 @@ font-style: normal;
 	font-weight: 400;
 	letter-spacing:4px;
 	font-style: normal;
+	text-align: center;
   }
   @media screen and (max-width:35em){
   .banner-tagline {

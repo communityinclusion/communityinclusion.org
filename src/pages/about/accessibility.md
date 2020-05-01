@@ -2,10 +2,8 @@
 title: "Accessibility Statement"
 path: "/about/accessibility"
 posttype: "page"
-thumbnail: "../../images/alberto1.jpg"
+thumbnail: ""
 ---
-
-
 
 We are committed to making this site accessible to all our users. We adhere to Section 508 of the Rehabilitation Act and the W3C Web Content Accessibility Guidelines.
 

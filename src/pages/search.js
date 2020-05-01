@@ -1,45 +1,63 @@
-import React, { useState, useEffect } from "react"
-import { graphql } from 'gatsby'
-import debounce from "lodash.debounce"
+import React from "react"
+import { Link, graphql } from "gatsby"
+import { Index } from "lunr"
 import Layout from "../components/layout"
-import SearchForm from "../components/searchForm"
-import SearchResults from "../components/searchResults"
 import SEO from "../components/seo"
+import SearchForm from "../components/searchForm"
 
-const Search = ({ data, location }) => {
-  const [results, setResults] = useState([])
-  const searchQuery = new URLSearchParams(location.search).get("keywords") || ""
+const SearchPage = ({ data, location }) => {
+  const siteTitle = data.site.siteMetadata.title
 
-  useEffect(() => {
-    if (searchQuery && window.__LUNR__) {
-      const debouncedSearch = debounce(async () => {
-        const lunr = await window.__LUNR__.__loaded
-        const refs = lunr.en.index.search(searchQuery)
-        const posts = refs.map(({ ref }) => lunr.en.store[ref])
+  // We can read what follows the ?q= here
+  // While you could install some external library
+  // (or should if you care about IE users),
+  // URLSearchParams provides a native way to get URL params
+  // location.search.slice(1) gets rid of the "?"
+  const params = new URLSearchParams(location.search.slice(1))
+  const q = params.get("q") || ""
 
-        setResults(posts)
-      }, 500)
-
-      debouncedSearch()
-    }
-
-    if (!searchQuery) setResults([])
-  }, [location.search])
-
+  // LunrIndex is available via page query
+  const { store } = data.LunrIndex
+  // lunr in action here
+  const index = Index.load(data.LunrIndex.index)
+  let results = []
+  try {
+    // search is a lunr method
+    results = index.search(q).map(({ ref }) => {
+      // Map search results to an array of {slug, title, excerpt} objects
+      return {
+        slug: ref,
+        ...store[ref],
+      }
+    })
+  } catch (error) {
+    console.log(error)
+  }
   return (
-    <Layout location={location} title={data.site.siteMetadata.title}>
-       <SEO title="Search" />
+    <Layout location={location} title={siteTitle}>
+      <SEO title="Search results" />
             <section className="mw8 center ph2-ns">
-            <h1>Search</h1>
-      <SearchForm query={searchQuery} />
-      <SearchResults query={searchQuery} results={results} />
+      {q ? <h1>Search results</h1> : <h1>What are you looking for?</h1>}
+      <SearchForm initialQuery={q} />
+      {results.length ? (
+        results.map(result => {
+          return (
+            <article key={result.slug}>
+              <h2>
+                <Link to={result.slug}>{result.title || result.slug}</Link>
+              </h2>
+              <p>{result.excerpt}</p>
+            </article>
+          )
+        })
+      ) : (
+        <p>Nothing found.</p>
+      )}
       </section>
     </Layout>
   )
 }
-
-export default Search
-
+export default SearchPage
 export const pageQuery = graphql`
   query {
     site {
@@ -47,5 +65,6 @@ export const pageQuery = graphql`
         title
       }
     }
+    LunrIndex
   }
 `

@@ -7,7 +7,7 @@ import Img from 'gatsby-image';
 import PostTags from "../components/PostTags";
 
 
-const postTemplate = ({ pageContext, data }) => {
+const postTemplate = ({ pageContext, data, location  }) => {
   const {
     breadcrumb: { crumbs },
   } = pageContext
@@ -18,7 +18,7 @@ const postTemplate = ({ pageContext, data }) => {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
   return (
-    <Layout>
+    <Layout location={location}>
         <SEO title="" />
       <section className="mw8 center ph2-ns">
       <div className="breadcrumbs">
@@ -60,7 +60,7 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "MMMM Do, YYYY")
         title
         tags
         posttype

@@ -17,6 +17,7 @@ import TCTP1_thumbnail from '../images/thumbnails/TCTP1_thumbnail.png'
 import SELN_unpaid_work_thumbnail from '../images/thumbnails/SELN_unpaid_work_thumbnail.png'
 import cle_toolkit_thumbnail from '../images/thumbnails/cle_toolkit_thumbnail.png'
 // import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+
 {/*
 const PublicationsPage = ({
   pageContext: {

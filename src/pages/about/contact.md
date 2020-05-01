@@ -3,6 +3,7 @@ title: "Contact"
 path: "/about/contact"
 posttype: "page"
 thumbnail: "../../images/alberto1.jpg"
+date: "2020-04-01"
 ---
 
 

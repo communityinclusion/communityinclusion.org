@@ -9,11 +9,12 @@ import employment_logo from '../images/employment-logo.png'
 import education_logo from '../images/education-logo.png'
 // import { kebabCase } from 'lodash';
 
-const IndexPage = ({data}) => {
-  const posts = data.allMarkdownRemark.edges;
+const IndexPage = ({data, location }) => {
+  const siteTitle = data.site.siteMetadata.title
+  const posts = data.allMarkdownRemark.edges
   return (
 
-  <Layout>
+  <Layout location={location} title={siteTitle}>
     <Image />
   
          <section className="center bg-gray pa1 ph5-ns">
@@ -25,7 +26,7 @@ training, technical assistance, service, research, and information sharing, with
   </section>
 
   <section className="mw9 center ph5-ns">
-  <h2 class="bb bw1">Areas of Emphasis</h2>
+  <h2 className="bb bw1">Areas of Emphasis</h2>
   <div className="flex-l w-100 ml2 mr2 center">
 <article className="flex-1 shadow-4 ma3  w-90 ">
   <div className=" bg-green mv0 ph3 ">
@@ -149,7 +150,12 @@ export default IndexPage
 
 
 export const pageQuery = graphql`
- query  {
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
   allMarkdownRemark(
     sort: {fields: [frontmatter___date], order: DESC},
     filter: { frontmatter: {posttype: {eq: "news"}}}
