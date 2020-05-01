@@ -1,5 +1,5 @@
 module.exports = {
- pathPrefix: '/ici-dev',
+pathPrefix: '/ici-dev',
 siteMetadata: {
   siteUrl: "http://localhost:8000",
   title: `Gatsby Default Starter`,
