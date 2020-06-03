@@ -2,6 +2,7 @@
 title: "Employment First Massachusetts"
 path: "/projects/employmentfirstma"
 posttype: "page"
+date: 2018-12-29
 thumbnail: '../../images/empfirst-long.png'
 ---
 

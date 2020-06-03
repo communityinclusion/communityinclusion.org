@@ -2,6 +2,7 @@
 title: "SELN"
 path: "/projects/seln"
 posttype: "page"
+date: 2018-12-29
 thumbnail: '../../images/seln-long.png'
 ---
 

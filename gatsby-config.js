@@ -71,7 +71,7 @@ plugins: [
   {
     resolve: `gatsby-source-filesystem`,
     options: {
-      name: `page`,
+      name: `pages`,
       path: `${__dirname}/src/pages/`,
     },
   },
@@ -81,7 +81,7 @@ plugins: [
       name: `images`,
       path: `${__dirname}/src/images`,
     },
-  },
+  }, 
       {
     resolve: `gatsby-transformer-remark`,
     options: {
@@ -92,6 +92,24 @@ plugins: [
             maxWidth: 580,
             showCaptions: 'true',
           },
+        },
+        {
+          resolve: `gatsby-source-airtable`,
+          options: {
+            apiKey: `keyRyG1G2Fob6I5Tj`, // may instead specify via env, see below
+           // concurrency: 5, // default, see using markdown and attachments for more information
+            tables: [
+              {
+                baseId: `appJQcdnZUpt9xJgo`,
+                tableName: `Staff`,
+                tableView: `Grid view`, // optional
+              //  queryName: `Staff`, // optionally default is false - makes all records in this table a separate node type, based on your tableView, or if not present, tableName, e.g. a table called "Fruit" would become "allAirtableFruit". Useful when pulling many airtables with similar structures or fields that have different types. See https://github.com/jbolda/gatsby-source-airtable/pull/52.
+              //   mapping: {  
+              //    Name: "text/markdown",
+              //    }, 
+              },
+            ]
+          }
         },
         {
           resolve: 'gatsby-remark-copy-linked-files',

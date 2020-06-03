@@ -2,6 +2,7 @@
 title: "Think College!"
 path: "/projects/thinkcollege"
 posttype: "page"
+date: 2018-12-29
 thumbnail: '../../images/thinkcollege-long.png'
 ---
 

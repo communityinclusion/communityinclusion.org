@@ -1,6 +1,7 @@
 ---
 title: "Accessibility Statement"
 path: "/about/accessibility"
+date: 2018-12-29
 posttype: "page"
 thumbnail: ""
 ---

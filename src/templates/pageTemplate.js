@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 
-const pageTemplate = ({ pageContext, data, location }) => {
+const pageTemplate = ({ pageContext, data}) => {
   const {
     breadcrumb: { crumbs },
   } = pageContext

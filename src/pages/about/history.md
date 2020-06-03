@@ -2,6 +2,7 @@
 title: "History"
 path: "/about/history"
 posttype: "page"
+date: 2018-12-29
 thumbnail: "../../images/alberto1.jpg"
 ---
 

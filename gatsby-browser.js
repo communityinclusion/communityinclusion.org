@@ -6,3 +6,4 @@
 
 import "./src/layouts/tachyons/css/tachyons.css"
 import "./src/layouts/custom.css"
+import 'gatsby-plugin-breadcrumb/gatsby-plugin-breadcrumb.css'

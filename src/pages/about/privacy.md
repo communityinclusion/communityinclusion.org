@@ -2,11 +2,12 @@
 title: "Privacy Policy"
 path: "/about/privacy"
 posttype: "page"
+date: 2018-12-29
 thumbnail: "../../images/cat.jpeg"
 ---
 
 
-# Institute for Community Inclusion Terms of Service and Privacy Policy
+## Institute for Community Inclusion Terms of Service and Privacy Policy
 
 **PLEASE READ THESE TERMS AND CONDITIONS OF USE ("Terms of Use" or "Terms") CAREFULLY BEFORE USING THIS SITE.**
 
@@ -16,7 +17,7 @@ We reserve the right, at our discretion, to change, modify, add, or remove porti
 
 Except as noted, the information below applies to the Site, consisting of designated Web pages or publications of the ICI, its departments, administrative offices, divisions, and other units pertaining to the Site.
 
-### Disclaimer of warranty
+## Disclaimer of warranty
 
 While we try to keep the information on the website as accurate as possible, we disclaim any warranty concerning its accuracy, timeliness and completeness, and any other warranty, express or implied, including warranties of merchantability or fitness for a particular purpose.
 
@@ -30,13 +31,13 @@ The Institute for Community Inclusion is committed to preserving and maintaining
 
 When you access the Institute for Community Inclusion Home Page (“[communityinclusion.org](https://www.communityinclusion.org/)"), and all pages within the Website, your visit is not tracked by individual name or any other identifiable personal information. However, this site does utilize Google Analytics and other software that may track and collect information from your device from the time you access our Site. The information automatically collected is subject to their privacy policies.
 
-*   [Google Analytics and Google Tag Manager](https://policies.google.com/privacy?hl=en)
-*   [YouTube](https://policies.google.com/privacy?hl=en)
-*   [Wistia](https://wistia.com/privacy)
-*   [Constant Contact](https://www.constantcontact.in/legal/privacy-statement)
-*   [AddThis](http://www.addthis.com/privacy/privacy-policy/)
-*   [Facebook](https://www.facebook.com/privacy/explanation)
-*   [Twitter](https://twitter.com/en/privacy)
+* [Google Analytics and Google Tag Manager](https://policies.google.com/privacy?hl=en)
+* [YouTube](https://policies.google.com/privacy?hl=en)
+* [Wistia](https://wistia.com/privacy)
+* [Constant Contact](https://www.constantcontact.in/legal/privacy-statement)
+* [AddThis](http://www.addthis.com/privacy/privacy-policy/)
+* [Facebook](https://www.facebook.com/privacy/explanation)
+* [Twitter](https://twitter.com/en/privacy)
 
 Some computer information and automatic and optional information is collected by third party vendors, such as Google Analytics and Facebook when you access the Site. This information is subject to the privacy policies of these services. Information collected may include:
 
@@ -56,7 +57,7 @@ You may refuse cookies by turning them off in your browser. Your browser may als
 
 Our Site includes Social Media functions, including Facebook buttons, and Widgets, developed and maintained by Institute for Community Inclusion-approved vendors and/or third-party services. These features may collect your IP address, pages you visited, and may set a cookie to enable the Feature to function properly. Social Media Features and Widgets are either hosted by a third party or hosted directly on our Sites. Your interactions with these Features are governed by the privacy policy of the company providing it.
 
-### Distribution of collected information:
+### Distribution of collected information
 
 This website will not disclose, without your consent, personal information collected about you, except for certain explicit circumstances in which disclosure is required by law.
 

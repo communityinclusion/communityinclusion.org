@@ -2,6 +2,7 @@
 title: "ExploreVR"
 path: "/projects/explorevr"
 posttype: "page"
+date: 2018-12-29
 thumbnail: '../../images/explorevr-long.png'
 ---
 

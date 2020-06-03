@@ -11,17 +11,49 @@ const sharp = require('sharp')
 sharp.cache(false);
 sharp.simd(false);
 
-exports.createPages = async ({ actions, graphql }) => {
-  const { createPage } = actions;
 
+
+exports.onCreateNode = ({ node, getNode , actions }) => {
+  const { createNodeField } = actions
+  let slug;
+  fmImagesToRelative(node) // convert image paths for gatsby images
+  if (node.internal.type === `MarkdownRemark`) {
+    const slug = createFilePath({ node, getNode,basePath: `pages` }); // basePath: `pages`
+    console.log(createFilePath({ node, getNode, basePath: `pages` }))
+    createNodeField({
+      node,
+      name: `slug`,
+      value: slug,
+    });
+  }
+if (node.internal.type === `Airtable` && node.table === `Staff`) 
+ {
+ slug = `/${node.data.Name.replace(/ /g, "-")
+  .replace(/[,&]/g, "")
+   .toLowerCase()}/`;
+
+  // Add slug as a field on the node.
+ createNodeField({ node, name: `slug`, value: slug });
+}
+}
+
+exports.createPages = async ({ actions, graphql }) => {
+
+console.log("====================================");
+console.log(`createPages entered`);
+console.log("====================================");
+const { createPage } = actions;
   const postTemplate = path.resolve(`./src/templates/postTemplate.js`);
   const tagTemplate = path.resolve(`./src/templates/tagTemplate.js`);
   const postListTemplate = path.resolve(`./src/templates/postListTemplate.js`);
   const pageTemplate = path.resolve(`./src/templates/pageTemplate.js`);
+  const staffTemplate = path.resolve(`./src/templates/staffTemplate.js`);
 
-  return graphql(`
-  {
-    allMarkdownRemark(
+  return new Promise(async resolve => {
+
+    const result = await graphql(`
+  { 
+	  allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       limit: 1000
     ) {
@@ -38,51 +70,28 @@ exports.createPages = async ({ actions, graphql }) => {
         }
       }
     }
-  }
+    allAirtable(filter: {table: {eq: "Staff"}}) {
+      edges {
+        node {
+          id
+          fields {
+            slug
+          }
+          data {
+            Name
+          }
+          recordId
+          table
+        }
+      }
+    }
+ }
 `
-).then(result => {
-  if (result.errors) {
-  return Promise.
-  //  console.log(result.errors);
-  //  reject(result.errors);
- // }
- reporter.panicOnBuild(`Error while running GraphQL query.`)
-// return
-}
+ )
 
-
- // const posts = result.data.allMarkdownRemark.edges;
- // result.data.allMarkdownRemark.edges.forEach(edge => 
-
-
-{/** const posts = result.data.allMarkdownRemark.edges;
-
- posts.forEach(({ node }) => {
-
-
-    {
-  if (edge.node.frontmatter.posttype === 'news') {
-    createPage({
-      path: `/news${edge.node.fields.slug}`,
-      component: postTemplate,
-      context: {
-        slug: edge.node.fields.slug
-      }
-    });
-  } else { // blog post
-    createPage({
-      path: edge.node.fields.slug,
-      component: pageTemplate,
-      context: {
-        slug: edge.node.fields.slug
-      }
-    });
-  }
-}
-})*/} 
-const posts = result.data.allMarkdownRemark.edges;
+ const posts = result.data.allMarkdownRemark.edges;
 result.data.allMarkdownRemark.edges.forEach(edge => {
-if (edge.node.frontmatter.posttype === 'news') {
+  if (edge.node.frontmatter.posttype === 'news') {
     createPage({
         path: edge.node.fields.slug,
         component: postTemplate,
@@ -90,11 +99,9 @@ if (edge.node.frontmatter.posttype === 'news') {
             slug: edge.node.fields.slug,
         }
     });
-}
-
-
-else {
-  createPage({
+ }
+  else {
+      createPage({
       path: edge.node.fields.slug,
       component: pageTemplate,
       context: {
@@ -102,19 +109,21 @@ else {
       },
   })
 }
-})
- // )
-{/*
-const posts = result.data.allMarkdownRemark.edges;
 
- posts.forEach(({ node }) => {
-   createPage({
-     path: node.fields.slug,
-     component: pageTemplate,
-     context: { slug: node.fields.slug }, // additional data can be passed via context
-   });
- });
-*/}
+
+result.data.allAirtable.edges.forEach(({ node}) => {
+  createPage({
+    path: node.fields.slug,
+    component: staffTemplate,
+    context: {
+      slug: node.fields.slug,
+    },
+  })
+})
+})
+
+
+ 
 
 
   // create Tags pages
@@ -156,24 +165,9 @@ const posts = result.data.allMarkdownRemark.edges;
        },
    });
  });
+ resolve()
 });
 }
-
-
-
-exports.onCreateNode = ({ node, actions, getNode }) => {
-const { createNodeField } = actions;
-fmImagesToRelative(node) // convert image paths for gatsby images
-if (node.internal.type === `MarkdownRemark`) {
-  const slug = createFilePath({ node, getNode,basePath: `pages` }); // basePath: `pages`
- // console.log(createFilePath({ node, getNode, basePath: `pages` }))
-  createNodeField({
-    name: `slug`,
-    node,
-    value: slug,
-  });
-}
-};
 
 exports.createResolvers = ({ cache, createResolvers }) => {
   createResolvers({

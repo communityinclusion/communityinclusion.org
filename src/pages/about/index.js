@@ -5,11 +5,16 @@ import SEO from "../../components/seo"
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 
-const AboutPage = ({
-  pageContext: {
+export const AboutPage = ({ pageContext, location }) => {
+  const {
     breadcrumb: { crumbs },
-  },
-}) => (
+  } = pageContext
+
+  // Example of dynamically using location prop as a crumbLabel
+  // NOTE: this code will not work for every use case, and is only an example
+  const customCrumbLabel = location.pathname.toLowerCase().replace('-', ' ')
+
+  return (
   <Layout>
     <SEO title="About the ICI" />
     <section className="mw8 center">
@@ -17,7 +22,7 @@ const AboutPage = ({
     <Breadcrumb
             crumbs={crumbs}
             crumbSeparator=" / "
-            crumbLabel="About"
+            crumbLabel={customCrumbLabel}
           />
           </div>
  
@@ -138,6 +143,7 @@ const AboutPage = ({
 </section>
   </Layout>
 )
+  }
 
 
 export default AboutPage

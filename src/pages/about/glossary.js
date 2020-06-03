@@ -110,7 +110,7 @@ const GlossaryPage = ({
 
 <dl>
 <dt><strong>Access Board (Architectural and Transportation Barriers Compliance Board)</strong><em> </em></dt>
-<dd>The Access Board is an independent federal agency devoted to accessibility for people with disabilities. The Board develops accessibility requirements for the environment, including electronics and information technology. It also provides guidance on these requirements and enforces them for federally funded facilities. www.access-board.gov</dd>
+<dd><a href="https://www.access-board.gov/">The Access Board </a>is an independent federal agency devoted to accessibility for people with disabilities. The Board develops accessibility requirements for the environment, including electronics and information technology. It also provides guidance on these requirements and enforces them for federally funded facilities. </dd>
 <dt><strong>access, accessible, accessibility</strong></dt>
 <dd>A building, technology device, work environment, school course, or program is considered &ldquo;accessible&rdquo; if it is easily usable by a person with a disability. The <em>Americans with Disabilities Act</em> defines &ldquo;access&rdquo; more specifically as removing barriers that would keep a person with a disability from entering, functioning, living, and working within a place.</dd>
 <dt><strong>accommodation </strong></dt>
@@ -125,8 +125,8 @@ const GlossaryPage = ({
 <dd>In the most general sense, an advocate is a professional, friend, or family member who helps a person with a disability to stand up for themselves. There are also education advocates, trained professionals who help families develop <em>individualized education plans (IEPs)</em> for their children, manage interactions with school personnel, and provide recourse if things go wrong. There are two types of advocates: private, independent professionals whom parents can hire to help with IEP evaluation and appeal process; and Educational Advocates (sometimes referred to as a surrogate parent), who may be assigned by the Department of Education to act on behalf of a child when the child&rsquo;s parents are unavailable or have no educational decision-making rights.</dd>
 <dt><strong>alternate/alternative formats</strong></dt>
 <dd>Formats that make printed material accessible to people with disabilities. They include computer text files (electronic text), large print, audiotape, and Braille.</dd>
-<dt><strong>American Association on Intellectual and Developmental Disabilities (AAIDD)</strong></dt>
-<dd>Professional and family organization that promotes progressive policies, research, effective practices, and universal human rights for people with intellectual disabilities. www.aaidd.org</dd>
+<dt><strong><a href="http://www.aaidd.org/">American Association on Intellectual and Developmental Disabilities (AAIDD)</a></strong></dt>
+<dd>Professional and family organization that promotes progressive policies, research, effective practices, and universal human rights for people with intellectual disabilities.</dd>
 <dt><strong>Americans with Disabilities Act of 1990 (ADA)</strong></dt>
 <dd>The federal civil rights law that prohibits discrimination against people with disabilities in employment, government services, telecommunication, transportation, and &ldquo;public accommodations&rdquo; &ndash; places such as hotels, auditoriums, stores, public transportation terminals, museums, parks, schools, and daycare centers. The ADA Amendments Act of 2008 extended the law&rsquo;s protections to a greater number of people.</dd>
 <dt><strong>appropriation</strong></dt>
@@ -188,7 +188,7 @@ const GlossaryPage = ({
 <dt><strong>Center for Medicare &amp; Medicaid Services (CMS)&nbsp;</strong></dt>
 <dd>The federal agency that oversees&nbsp;<em>Medicare</em>&nbsp;and&nbsp;<em>Medicaid</em>. Formerly named the&nbsp;<em>Health Care Financing Administration</em>.</dd>
 <dt><strong>Chapter 688</strong>&nbsp;</dt>
-<dd>Massachusetts's &ldquo;Turning 22 Law.&rdquo; This law directs&nbsp;<em>IEP teams</em>&nbsp;to send information to the state disability agency whose services they think a student with significant disabilities will need after they exit high school. The team is expected to make this referral at least 2 years before the student turns 22 years old or exits school. Since the educational services that students are entitled to under the Individuals with Disabilities Education Act ends when they leave school, it is important that IEP teams make these referrals.</dd>
+<dd>Massachusetts's &ldquo;Turning 22 Law.&rdquo; This law directs&nbsp;<em>IEP teams</em>&nbsp;to send information to the state disability agency whose services they think a student with significant disabilities will need after they exit high school. The team is expected to make this referral at least 2 years before the student turns 22 years old or exits school.  The educational services students are entitled to under the <em>Individuals with Disabilities Education Act</em> end when they leave school, so it is important that IEP teams make these referrals.</dd>
 <dt><strong>Chapter 766&nbsp;</strong></dt>
 <dd>The Massachusetts state special education law. It is similar to the federal&nbsp;<em>Individuals with Disabilities Education Act (IDEA),</em>&nbsp;but establishes guiding principles for special education specifically for the state. Chapter 766 applies to eligible students with disabilities, ages 3 through 21.</dd>
 <dt><strong>children with special health care needs (CSHCN)</strong>&nbsp;</dt>
@@ -211,20 +211,20 @@ const GlossaryPage = ({
 <dd>Communication service that makes meetings or other speech accessible to people with hearing disabilities. Trained staff type what is being said, and the transcript is simultaneously displayed on a computer monitor or projected onto a large wall screen.</dd>
 <dt><strong>communication board</strong></dt>
 <dd>A board or book that has pictures, symbols, letters, or words attached. A person communicates by pointing to or looking at the pictures or symbols.</dd>
-<dt><strong>community based organization (CBO)</strong></dt>
+<dt><strong>community-based organization</strong></dt>
 <dd><strong>&nbsp;</strong>A public or private nonprofit that is representative of a community or a significant segment of a community, and is engaged in meeting human, educational, environmental, or public safety needs in the community.</dd>
 <dt><strong>community-based service</strong></dt>
 <dd>&nbsp;Any service that gives support to people with disabilities who live in their communities, not in a nursing home or&nbsp;<em>institution.</em></dd>
 <dt><strong>community inclusion</strong></dt>
 <dd>See <em>inclusion</em>&nbsp;and&nbsp;<em>community integration.</em></dd>
 <dt><strong>community integration</strong></dt>
-<dd>&nbsp;The full participation of people with disabilities in their communities, as active members in the workplace, religious groups, schools, neighborhoods, etc. (synonymous with&nbsp;<em>inclusion)</em>. See&nbsp;<em>Community Life Engagement</em>.</dd>
+<dd>The full participation of people with disabilities in their communities, as active members in the workplace, religious groups, schools, neighborhoods, etc. (synonymous with&nbsp;<em>inclusion)</em>. See&nbsp;<em>Community Life Engagement</em>.</dd>
 <dt><strong>Community Life Engagement</strong></dt>
-<dd>&nbsp;People with intellectual and developmental disabilities accessing and participating in their communities outside of employment as part of a meaningful day. Community Life Engagement&nbsp;<em>activities</em>&nbsp;include things that anyone in the community might do, such as going to the gym, volunteering at a homeless shelter, taking an adult education class, or participating in a religious organization.&nbsp;Community Life Engagement&nbsp;<em>supports,</em>&nbsp;which&nbsp;may be referred to as Community-Based Non-Work, wraparound supports, holistic supports, or&nbsp;<em>community integration</em>&nbsp;services, support participation in such activities.&nbsp;</dd>
+<dd>People with intellectual and developmental disabilities accessing and participating in their communities outside of employment as part of a meaningful day. Community Life Engagement&nbsp;<em>activities</em>&nbsp;include things that anyone in the community might do, such as going to the gym, volunteering at a homeless shelter, taking an adult education class, or participating in a religious organization.&nbsp;Community Life Engagement&nbsp;<em>supports,</em>&nbsp;which&nbsp;may be referred to as Community-Based Non-Work, wraparound supports, holistic supports, or&nbsp;<em>community integration</em>&nbsp;services, support participation in such activities.&nbsp;</dd>
 <dt><strong>community rehabilitation provider (CRP)</strong></dt>
-<dd>&nbsp;An agency, typically private and non-profit, that provides employment services to adults with disabilities. May also be called a provider, service provider, or vendor.</dd>
+<dd>An agency, typically private and non-profit, that provides employment services to adults with disabilities. May also be called a provider, service provider, or vendor.</dd>
 <dt><strong>competitive employment</strong></dt>
-<dd>&nbsp;A job that is open to all qualified applicants, and where the person receives a competitive salary. See also&nbsp;<em>integrated employment</em>.</dd>
+<dd>A job that is open to all qualified applicants, and where the person receives a competitive salary. See also&nbsp;<em>integrated employment</em>.</dd>
 <dt><strong>connecting services</strong></dt>
 <dd>Programs or human resources that help school- and work-based educational programs as described in the School-to-Work Opportunities Act.</dd>
 <dt><strong>conservator, conservatorship</strong></dt>
@@ -306,7 +306,7 @@ const GlossaryPage = ({
 <dt><strong>equal opportunity/Equal Employment Opportunity (EEO)</strong>&nbsp;</dt>
 <dd>Legal term and federal requirement that employers not discriminate (in hiring, firing, salary, promotion, and other terms and conditions of employment) based on factors unrelated to a person's ability to do the job, including race, color, religion, sex, national origin, and disability.</dd>
 <dt><strong>Equal Employment Opportunity Commission (EEOC)</strong><em>&nbsp;</em></dt>
-<dd>Federal agency that has oversight&nbsp; to ensure that people are not discriminated against based on factors unrelated to their qualifications for a job.</dd>
+<dd>Federal agency that has oversight to ensure that people are not discriminated against based on factors unrelated to their qualifications for a job.</dd>
 <dt><strong>essential job functions</strong>&nbsp;</dt>
 <dd>The fundamental duties necessary to perform a particular job. Term used in the&nbsp;<em>Americans with Disabilities Act.</em></dd>
 <dt><strong>evaluation</strong>&nbsp;</dt>
@@ -344,7 +344,7 @@ const GlossaryPage = ({
 <dl>
 <dt><strong>gastrostomy tube (g-tube)&nbsp;</strong></dt>
 <dd>A tube that allows a person to be nourished via formula directly into the stomach, bypassing the mouth and esophagus.</dd>
-<dt><strong>General Accounting Office (GAO)</strong></dt>
+<dt><strong>Government Accountability Office (GAO)</strong></dt>
 <dd>The investigative arm of Congress, GAO analyzes the use of public funds and evaluates federal programs to help Congress make effective oversight, policy, and funding decisions.</dd>
 <dt><strong>general education curriculum&nbsp;</strong></dt>
 <dd>This refers to what students in kindergarten through high school are taught. The curriculum is usually framed around state education guidelines, such as basic academic standards for reading, math, writing, science, and social studies as well as college/career readiness standards. A high school diploma is generally awarded to students who have met the general education requirements set by the school district.</dd>
@@ -410,7 +410,7 @@ const GlossaryPage = ({
 <dt><strong>Individual Program Plan (IPP)&nbsp;</strong></dt>
 <dd>A plan that is tailored to help a person achieve the outcomes and future they want for themselves or their family member with a disability. The plan is developed through a&nbsp;<em>person-centered planning</em>&nbsp;process with a team that includes the consumer, the service coordinator, and important people in the consumer's life such as parents, extended family, friends, or people who provide support.</dd>
 <dt><strong>Individual Service Coordination (ISC)</strong></dt>
-<dd>is a service families may choose to use when they need help obtaining support for their children with disabilities to live as independently as possible in the community. ISC is a distinct social service that enables people with intellectual disabilities and their families to find, use, and coordinate available resources. Other terms used to describe ISC activities include service coordination, service integration, and client-level service coordination and case management.</dd>
+<dd>A service families may use when they need help obtaining support for their children with disabilities to live as independently as possible in the community. ISC is a distinct social service that enables people with intellectual disabilities and their families to find, use, and coordinate available resources. Other terms used to describe ISC activities include service coordination, service integration, and client-level service coordination and case management.</dd>
 <dt><strong>individual with a disability</strong></dt>
 <dd>In the&nbsp;<em>Americans with Disabilities Act,</em>&nbsp;a person who has a physical or mental impairment that substantially limits one or more of that person's major life activities, someone who has a record of such impairment, or someone who is regarded as having such an impairment. Regulations implementing Section 504 of the Rehabilitation Act define &ldquo;major life activities&rdquo; as functions such as caring for oneself, performing manual tasks, walking, seeing, hearing, speaking, breathing, learning, and working.</dd>
 <dt><strong>Individuals with Disabilities Education Act (IDEA)</strong></dt>
@@ -498,8 +498,6 @@ const GlossaryPage = ({
 <dd>A job responsibility that is not central or necessary to the job.</dd>
 <dt><strong>MassHealth</strong></dt>
 <dd>Name of the Massachusetts state&nbsp;<em>Medicaid</em>&nbsp;program.</dd>
-<dt><strong>Massachusetts Partnership for Youth in Employment (MPYE)&nbsp;</strong></dt>
-<dd>Works with agencies to help youth with disabilities reach their full potential.</dd>
 <dt><strong>Maternal &amp; Child Health Bureau (MCHB)</strong></dt>
 <dd>A federal agency under the Dept. of Health and Human Services that funds programs to improve the health of mothers and children.</dd>
 <dt><strong>Medicaid (Title XIX)</strong></dt>
@@ -539,14 +537,14 @@ const GlossaryPage = ({
 
 
 <dl>
-<dt><strong>National Council on Disability (NCD)</strong><em>&nbsp;</em></dt>
-<dd>An independent federal agency that makes recommendations to the President and Congress on disability issues. NCD has 15 members appointed by the President and confirmed by the U.S. Senate. NCD promotes policies and procedures that guarantee equal opportunity for all individuals with disabilities and empower individuals to achieve economic self-sufficiency,&nbsp;<em>independent living</em>, and&nbsp;<em>inclusion</em>&nbsp;and integration into all aspects of society. NCD is particularly focused on the implementation and enforcement of the&nbsp;<em>Americans with Disabilities Act</em>&nbsp;and other civil rights laws.&nbsp;<a href="http://www.ncd.gov">http://www.ncd.gov</a>&nbsp;<em>Org, Gov</em></dd>
+<dt><strong><a href="https://ncd.gov/">National Council on Disability (NCD)</a></strong></dt>
+<dd>An independent federal agency that makes recommendations to the President and Congress on disability issues. NCD has 15 members appointed by the President and confirmed by the U.S. Senate. NCD promotes policies and procedures that guarantee equal opportunity for all individuals with disabilities and empower individuals to achieve economic self-sufficiency,&nbsp;<em>independent living</em>, and&nbsp;<em>inclusion</em>&nbsp;and integration into all aspects of society. NCD is particularly focused on the implementation and enforcement of the&nbsp;<em>Americans with Disabilities Act</em>&nbsp;and other civil rights laws.</dd>
 <dt><strong>National Council on Independent Living (NCIL,&nbsp;</strong><em>pronounced &ldquo;nickel&rdquo;)&nbsp;</em></dt>
-<dd>A cross-disability, grassroots organization run by and for people with disabilities that advocates for the expansion of a nationwide network of&nbsp;<em>Centers for Independent Living (CILs)</em>.&nbsp;<em>Org</em></dd>
+<dd>A cross-disability, grassroots organization run by and for people with disabilities that advocates for the expansion of a nationwide network of&nbsp;<em>Centers for Independent Living (CILs)</em>.</dd>
 <dt><strong>National Institute of Mental Health (NIMH)&nbsp;</strong></dt>
-<dd>Division of the federal National Institutes of Health that funds and conducts medical research on mental disorders.&nbsp;<a href="http://www.nimh.nih.gov">http://www.nimh.nih.gov</a><em>Gov</em></dd>
+<dd>Division of the federal National Institutes of Health that funds and conducts medical research on mental disorders.&nbsp;<a href="http://www.nimh.nih.gov">http://www.nimh.nih.gov</a></dd>
 <dt><strong>National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR)</strong><em>&nbsp;</em></dt>
-<dd>NIDILRR provides leadership, funding, and support for research that improves the lives of individuals with disabilities. Major focus areas are employment, health, technology,&nbsp;<em>independent living</em>&nbsp;and&nbsp;<em>community integration</em>, policy, and statistical measures. NIDILRR is part of the&nbsp;<em>Office of Special Education and Rehabilitative Services</em>&nbsp;within the federal Department of Education.&nbsp;<em>Gov</em></dd>
+<dd>NIDILRR provides leadership, funding, and support for research that improves the lives of individuals with disabilities. Major focus areas are employment, health, technology,&nbsp;<em>independent living</em>&nbsp;and&nbsp;<em>community integration</em>, policy, and statistical measures. NIDILRR is part of the&nbsp;<em>Office of Special Education and Rehabilitative Services</em>&nbsp;within the federal Department of Education.</dd>
 <dt><strong>natural supports</strong></dt>
 <dd>Employment support services (such as mentoring, socializing, providing feedback on job performance, or learning a new skill) provided on the job by a co-worker or supervisor, instead of&nbsp;<em>job coaches</em>&nbsp;or other human services professionals.</dd>
 <dt><strong>networking</strong></dt>
@@ -570,11 +568,11 @@ const GlossaryPage = ({
 <dt><strong>occupational therapy (OT)</strong></dt>
 <dd>Treatment, exercises, and&nbsp;<em>assistive</em>&nbsp;devices that help people to develop fine motor skills (such as writing and manipulating objects) and perceptual ability, and to improve their independence with&nbsp;<em>activities of daily living.</em></dd>
 <dt><strong>Office of Disability Employment Policy (ODEP)&nbsp;</strong></dt>
-<dd>A division of the&nbsp;<em>U.S. Department of Labor</em>&nbsp;whose mission is to increase employment of persons with disabilities through policy analysis, consultation, and outreach. ODEP formerly existed as the President's Committee on Employment of People with Disabilities.<em>&nbsp;Gov</em></dd>
-<dt><strong>Office of Special Education and Rehabilitation Services (OSERS)</strong><em>&nbsp;</em></dt>
-<dd>A federal agency that supports programs that educate children with disabilities, provides for the rehabilitation of youth and adults with disabilities, and funds research to improve the lives of individuals with disabilities.&nbsp;<em>Gov</em></dd>
-<dt><strong>Office of Special Education Programs (OSEP)&nbsp;</strong></dt>
-<dd>The federal division that administers programs and projects relating to the&nbsp;<em>free appropriate public education&nbsp;</em>of all youth with disabilities from birth through age 21. The bulk of federal&nbsp;<em>special education</em>&nbsp;funds is administered by OSEP, as are the&nbsp;<em>Early Intervention</em>&nbsp;and preschool grant programs for services to children aged birth through five.&nbsp;<em>Gov</em></dd>
+<dd>A division of the&nbsp;<em>U.S. Department of Labor</em>&nbsp;whose mission is to increase employment of persons with disabilities through policy analysis, consultation, and outreach. ODEP formerly existed as the President's Committee on Employment of People with Disabilities.</dd>
+<dt><strong><a href="https://www2.ed.gov/about/offices/list/osers/index.html">Office of Special Education and Rehabilitative Services (OSERS)</a></strong></dt>
+<dd>A federal agency that supports programs that educate children with disabilities, provides for the rehabilitation of youth and adults with disabilities, and funds research to improve the lives of individuals with disabilities.</dd>
+<dt><strong><a href="https://www2.ed.gov/about/offices/list/osers/osep/index.html">Office of Special Education Programs (OSEP)</a></strong></dt>
+<dd>The federal division that administers programs and projects relating to the&nbsp;<em>free appropriate public education&nbsp;</em>of all youth with disabilities from birth through age 21. The bulk of federal&nbsp;<em>special education</em>&nbsp;funds is administered by OSEP, as are the&nbsp;<em>Early Intervention</em>&nbsp;and preschool grant programs for services to children aged birth through five.</dd>
 <dt><strong>One-Stop Career Center (also known as American Job Center)&nbsp;</strong></dt>
 <dd>A &ldquo;one-stop shop&rdquo; for employment services for all job seekers, including those with disabilities. Services are provided by a number of state and federal agency partners, including&nbsp;<em>vocational rehabilitation</em>. One-Stop Career Centers are sponsored by the US Department of Labor. A basic level of services (&ldquo;core services&rdquo;) is available to anyone.</dd>
 <dt><strong>orientation and mobility</strong></dt>
@@ -603,7 +601,7 @@ const GlossaryPage = ({
 <dt><strong>People First</strong></dt>
 <dd>The name of a number of local&nbsp;<em>self-advocacy</em>&nbsp;groups run by and for people with disabilities. Sometimes used as a name for the&nbsp;<em>self-advocacy</em>&nbsp;movement as a whole.</dd>
 <dt><strong>Perkins Act (Carl D. Perkins Vocational and Applied Technology Education Act, P.L. 101-392)&nbsp;</strong></dt>
-<dd>This federal law requires that individuals with disabilities be provided with equal access to recruitment, enrollment, and placement in vocational activities. It also requires that students with disabilities have equal access to the full range of vocational education in the least restrictive environment, and that they be provided equal access to vocational services including recruitment, enrollment, and placement.&nbsp;<em>Law</em></dd>
+<dd>This federal law requires that individuals with disabilities be provided with equal access to recruitment, enrollment, and placement in vocational activities. It also requires that students with disabilities have equal access to the full range of vocational education in the least restrictive environment, and that they be provided equal access to vocational services including recruitment, enrollment, and placement.</dd>
 <dt><strong>person with a disability&nbsp;</strong></dt>
 <dd>A variety of definitions are used, and it is important to understand which one applies when reviewing legal or medical information. Legally defined in the Rehabilitation Act of 1973 (as amended) and the Americans with Disabilities Act of 1990 as &ldquo;a person who has a physical or mental impairment that substantially limits one or more major life activities of such individual; has a record of such an impairment; or is regarded as having such an impairment.&rdquo; See also&nbsp;<em>disability, individual with a disability.</em></dd>
 <dt><strong>person-centered model</strong></dt>
@@ -625,9 +623,11 @@ const GlossaryPage = ({
 <dt><strong>promising practices</strong></dt>
 <dd>Methods and procedures that have the potential to improve the way a system currently works. See also&nbsp;<em>best practices.</em></dd>
 <dt><strong>Protection and Advocacy Systems (P&amp;A)&nbsp;</strong></dt>
-<dd>A nationwide network of congressionally mandated, legally based disability rights agencies. Part of the&nbsp;<em>Developmental Disabilities Network</em>.&nbsp;<em>Org</em></dd>
+<dd>A nationwide network of congressionally mandated, legally based disability rights agencies. Part of the&nbsp;<em>Developmental Disabilities Network</em>.</dd>
 <dt><strong>provider, provider agency&nbsp;</strong></dt>
 <dd>Organization that provides services to people with disabilities. Also known as a&nbsp;<em>vendor</em>&nbsp;or&nbsp;<em>service provider.</em>&nbsp;Most providers are nonprofit organizations that receive funding from state agencies. Providers may also be a for-profit business or a government organization.</dd>
+<dt><strong>psychiatric disability</strong></dt>
+<dd>Any of a range of mental health disorders or conditions that impacts someone&rsquo;s daily functioning. Sometimes referred to as &ldquo;mental illness.&rdquo; Examples of psychiatric disabilities include anxiety disorders, depressive disorders, bipolar disorder, schizophrenia, and eating disorders. For more information, visit&nbsp;<a href="https://naric.com/?q=en/FAQ/what-are-psychiatric-disabilities">NARIC&rsquo;s website</a>.</dd>
 <dt><strong>psychosocial rehabilitation</strong></dt>
 <dd>Medical, social, educational, and/or vocational services to improve independence for people with&nbsp;<em>psychiatric disabilities</em>.</dd>
 <dt><strong>public accommodations</strong></dt>
@@ -677,13 +677,13 @@ const GlossaryPage = ({
 <dt><strong>rehabilitation</strong></dt>
 <dd>Practices and activities that train or retrain people with disabilities to function at the highest level possible. There are several different types of rehabilitation: vocational, social, psychological, medical, and educational. Depending on context, &ldquo;rehabilitation&rdquo; may refer to recovery from illness; a program for people who have problems with substance abuse; exercises to improve physical or mental functioning; or&nbsp;<em>vocational rehabilitation</em>&nbsp;(services to help a person find or keep a job).</dd>
 <dt><strong>Rehabilitation Act of 1973, P.L. 93-112 (Section 504)&nbsp;</strong></dt>
-<dd>See also&nbsp;<em>Section 504</em>.<strong>&nbsp;</strong>Federal law that protects the civil rights of persons with disabilities in federally-supported or -run programs, including health or social programs that receive federal funding. This law prevents these programs from excluding or restricting people with health impairments, and entitles students to accommodations such as modified assignments or testing situations. Section 504 covers a larger group of students with disabilities than do special education laws.<em>&nbsp;Law</em></dd>
+<dd>See also&nbsp;<em>Section 504</em>.<strong>&nbsp;</strong>Federal law that protects the civil rights of persons with disabilities in federally-supported or -run programs, including health or social programs that receive federal funding. This law prevents these programs from excluding or restricting people with health impairments, and entitles students to accommodations such as modified assignments or testing situations. Section 504 covers a larger group of students with disabilities than do special education laws.</dd>
 <dt><strong>rehabilitation counselor</strong></dt>
-<dd>Human services professional who assists a person with a disability to find and maintain employment through such services as&nbsp;<em>vocational evaluation,&nbsp;</em>career counseling,&nbsp;<em>job development,</em>&nbsp;and help with the job search. The term generally refers to someone who has received specific training at the master's degree level, and may be certified as a CRC (Certified Rehabilitation Counselor). This term refers to employment, not medical, rehabilitation. Related professionals include&nbsp;<em>job coaches, job developers,</em>&nbsp;<em>employment specialists,</em>and&nbsp;<em>employment training specialists.</em></dd>
+<dd>Human services professional who assists a person with a disability to find and maintain employment through such services as&nbsp;<em>vocational evaluation,&nbsp;</em>career counseling,&nbsp;<em>job development,</em>&nbsp;and help with the job search. The term generally refers to someone who has received specific training at the master's degree level, and may be certified as a CRC (Certified Rehabilitation Counselor). This term refers to employment, not medical, rehabilitation. Related professionals include&nbsp;<em>job coaches, job developers,</em>&nbsp;<em>employment specialists,</em> and&nbsp;<em>employment training specialists.</em></dd>
 <dt><strong>Rehabilitation Research and Training Center (RRTC)</strong></dt>
 <dd>Center funded by the&nbsp;<em>National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR)</em>&nbsp;to conduct research and training on a particular aspect of living with a disability, such as services for people in rural areas, spinal cord injury, or employment.</dd>
 <dt><strong>Rehabilitation Services Administration</strong>&nbsp;(<strong>RSA)</strong></dt>
-<dd>Federal agency that oversees programs that help people with disabilities find employment. RSA's major program provides funds to state&nbsp;<em>vocational rehabilitation agencies</em>.&nbsp;<em>Gov</em></dd>
+<dd>Federal agency that oversees programs that help people with disabilities find employment. RSA's major program provides funds to state&nbsp;<em>vocational rehabilitation agencies</em>.</dd>
 <dt><strong>related services</strong></dt>
 <dd>Transportation, developmental, corrective, and supportive services that a student with a disability needs to fully participate in school. Schools are required to provide these services, which may include speech and language therapy, occupational therapy, physical therapy, and counseling.</dd>
 <dt><strong>representative payee</strong></dt>
@@ -718,14 +718,14 @@ const GlossaryPage = ({
 <dt><strong>self-advocacy, self-advocate</strong></dt>
 <dd>A national movement of people with disabilities speaking for themselves and making their own life choices, also known as the&nbsp;<em>People First</em>&nbsp;movement. The national organization is Self-Advocates Becoming Empowered (SABE).</dd>
 <dt><strong>self-contained classroom</strong></dt>
-<dd>A classroom where all the students have disabilities.&nbsp;<em>Ed</em></dd>
+<dd>A classroom where all the students have disabilities.</dd>
 <dt><strong>self-determination&nbsp;</strong></dt>
-<dd>The ability of individuals to control their lives, achieve self-defined goals, and participate fully in society (from the Center on Self-Determination).</dd>
+<dd>The ability of individuals to control their lives, achieve self-defined goals, and participate fully in society (from the <a href="http://www.self-determination.com/">Center for Self-Determination</a>).</dd>
 <dt><strong>sensory integration&nbsp;</strong></dt>
 <dd>A technique to assist people with sensory processing disabilities, such as some individuals on the autism spectrum. Includes techniques such as pressure-touch that help the person from overreacting to certain stimuli.</dd>
 <dt><strong>serious and persistent mental illness (SPMI)&nbsp;</strong></dt>
 <dd>A term describing serious psychiatric disorders and major life dysfunction, often with a history of hospitalization. This is the term commonly used by mental health agencies.</dd>
-<dt><strong>service delivery&nbsp;<em>(noun)</em></strong></dt>
+<dt><strong>service delivery</strong></dt>
 <dd>The process of providing support services, training, and assistance to an individual or group.</dd>
 <dt><strong>service delivery area (SDA)</strong></dt>
 <dd>The geographical region in which a particular agency or division is responsible for providing, funding, or monitoring services.</dd>
@@ -744,9 +744,9 @@ const GlossaryPage = ({
 <dt><strong>Social Security Disability Insurance (SSDI)</strong></dt>
 <dd>Federal cash benefit to eligible workers (and, in some cases, their families) when they are unable to continue working because of a disability. SSDI is provided to a person with a disability who has earned income and contributed to payroll taxes (or whose spouse or parent has).</dd>
 <dt><strong>special education&nbsp;</strong></dt>
-<dd>A term used in elementary and secondary education. Educational services that are tailored to meet the unique needs of an eligible student with a disability. Special education is provided at no cost to parents. Special education may include instruction in a typical classroom with additional support, resource rooms or separate classrooms, a student&rsquo;s home, hospitals, or&nbsp;<em>institutions</em>.&nbsp;<em>Ed</em></dd>
+<dd>A term used in elementary and secondary education. Educational services that are tailored to meet the unique needs of an eligible student with a disability. Special education is provided at no cost to parents. Special education may include instruction in a typical classroom with additional support, resource rooms or separate classrooms, a student&rsquo;s home, hospitals, or&nbsp;<em>institutions</em>.</dd>
 <dt><strong>Special Education Parent Advisory Council (PAC, SEPAC, SpedPac)</strong></dt>
-<dd>A group of parents who have children in special education in one town who organize to promote good education and&nbsp; advocate for their children&rsquo;s needs.</dd>
+<dd>A group of parents who have children in special education in one town who organize to promote good education and advocate for their children&rsquo;s needs.</dd>
 <dt><strong>special needs&nbsp;</strong></dt>
 <dd>General term for a disability or a health condition that means that a person needs support or services beyond those that are typically provided to their peers. See also&nbsp;<em>children with special health care needs</em>.</dd>
 <dt><strong>speech output software</strong></dt>
@@ -760,13 +760,13 @@ const GlossaryPage = ({
 <dt><strong>stakeholder</strong></dt>
 <dd>Member of a group that has an interest (something at stake) in a particular program, such as&nbsp;<em>consumers</em>, families, or state agency staff.</dd>
 <dt><strong>State Children's Health Insurance Program (SCHIP)&nbsp;</strong></dt>
-<dd>A state/federal health insurance program for uninsured children.&nbsp;<em>Gov</em></dd>
+<dd>A state/federal health insurance program for uninsured children.</dd>
 <dt><strong>State Workforce Investment Board (SWIB)</strong></dt>
 <dd>See&nbsp;<em>Workforce Investment Board</em></dd>
 <dt><strong>status 26</strong></dt>
 <dd>In Massachusetts, a&nbsp;<em>vocational rehabilitation</em>&nbsp;agency term for the status of someone who has successfully obtained a job and kept it for 90 days.&nbsp;<em>Mass</em></dd>
 <dt><strong>Substance Abuse and Mental Health Services Administration (SAMHSA)</strong><em>&nbsp;</em></dt>
-<dd>A division of the U.S. Department of Health and Human Services that administers programs on substance abuse and mental health issues.<em>&nbsp;Gov</em></dd>
+<dd>A division of the U.S. Department of Health and Human Services that administers programs on substance abuse and mental health issues.</dd>
 <dt><strong>Substantial Gainful Activity (SGA)</strong></dt>
 <dd>The income level that ends&nbsp;<em>SSDI</em>&nbsp;benefits, at which point a person is considered to no longer have a disability or need support. Many people with disabilities choose to limit their work hours so as to stay under SGA and not risk losing their cash benefits, although&nbsp;<em>work incentives</em>&nbsp;can help prevent this issue. A different limit applies to individuals who are blind.</dd>
 <dt><strong>substantial limitation</strong></dt>
@@ -805,13 +805,13 @@ const GlossaryPage = ({
 <dt><strong>text telephone</strong></dt>
 <dd>See&nbsp;<em>Telecommunication Device for the Deaf.</em></dd>
 <dt><strong>Ticket to Work and Work Incentives Improvement Act of 1999 (TWWIIA, TTWWIIA)</strong></dt>
-<dd>This law reduces barriers to work for people who receive benefits from the Social Security Administration. Provisions include<em>&nbsp;</em>increasing state options to provide Medicaid coverage, and increasing a beneficiary&rsquo;s option to receive employment support services.<em>&nbsp;Law</em></dd>
+<dd>This law reduces barriers to work for people who receive benefits from the Social Security Administration. Provisions include<em>&nbsp;</em>increasing state options to provide Medicaid coverage, and increasing a beneficiary&rsquo;s option to receive employment support services.</dd>
 <dt><strong>Title I</strong><em>&nbsp;</em></dt>
-<dd>Section of the&nbsp;<em>Americans with Disabilities Act</em>&nbsp;that prohibits discrimination in &ldquo;public accommodations&rdquo; &ndash; places such as hotels, auditoriums, stores, public transportation terminals, museums, parks, schools, and daycare centers.&nbsp;<em>Law</em></dd>
+<dd>Section of the&nbsp;<em>Americans with Disabilities Act</em>&nbsp;that prohibits discrimination in &ldquo;public accommodations&rdquo; &ndash; places such as hotels, auditoriums, stores, public transportation terminals, museums, parks, schools, and daycare centers.</dd>
 <dt><strong>Title III&nbsp;</strong></dt>
-<dd>Section of the&nbsp;<em>Americans with Disabilities Act</em>&nbsp;that prohibits discrimination in employment.<em>&nbsp;Law</em></dd>
+<dd>Section of the&nbsp;<em>Americans with Disabilities Act</em>&nbsp;that prohibits discrimination in employment.</dd>
 <dt><strong>Title V of the Rehabilitation Act of 1973</strong></dt>
-<dd>The section of the law that prohibits discrimination on the basis of a disability by the Federal Government, federal contractors, and organizations that receive federal financial assistance, and in federally-run programs and activities.<em>&nbsp;Law</em></dd>
+<dd>The section of the law that prohibits discrimination on the basis of a disability by the Federal Government, federal contractors, and organizations that receive federal financial assistance, and in federally-run programs and activities.</dd>
 <dt><strong>Title XVIII</strong></dt>
 <dd>Section of the Social Security Act that authorizes&nbsp;<em>Medicare,</em>&nbsp;the federal health insurance program for older Americans and some people with disabilities. See&nbsp;<em>Medicare</em>.</dd>
 <dt><strong>Title XIX&nbsp;</strong></dt>
@@ -848,7 +848,7 @@ const GlossaryPage = ({
 <dt><strong>universal design</strong></dt>
 <dd>The design of products and environments to be usable by all people, to the greatest extent possible, without the need for adaptation or specialized design. A common example is sidewalk curb cuts. These not only make it possible for wheelchair users to cross the street, but also make crossing the street easier for people pushing baby strollers, pulling suitcases, using crutches, etc.</dd>
 <dt><strong>University Centers of Excellence in Developmental Disabilities (UCEDDs)&nbsp;</strong></dt>
-<dd>A network of university-based, interdisciplinary centers that conduct research and train professionals in the developmental disabilities field. Part of the&nbsp;<em>Developmental Disabilities Network</em>; formerly known as University-Affiliated Programs (UAPs).&nbsp;<em>Org</em></dd>
+<dd>A network of university-based, interdisciplinary centers that conduct research and train professionals in the developmental disabilities field. Part of the&nbsp;<em>Developmental Disabilities Network</em>; formerly known as University-Affiliated Programs (UAPs).</dd>
 </dl>
 
 
@@ -869,7 +869,7 @@ const GlossaryPage = ({
 <dt><strong>vocational rehabilitation (noun)</strong></dt>
 <dd>Nonmedical services that help a person with a disability find and/or keep a job. The goal is to support each person to live a fulfilling life in their community, including through competitive employment.</dd>
 <dt><strong>vocational rehabilitation agency (VR)&nbsp;</strong></dt>
-<dd>Agency in each state that provides, funds, and/or monitors employment services for individuals with disabilities, with priority given to individuals with the most significant disabilities. VR agencies are funded largely by the&nbsp;<em>Rehabilitation Services Administration (RSA)</em>&nbsp;and by the state.&nbsp;<em>Gov</em></dd>
+<dd>Agency in each state that provides, funds, and/or monitors employment services for individuals with disabilities, with priority given to individuals with the most significant disabilities. VR agencies are funded largely by the&nbsp;<em>Rehabilitation Services Administration (RSA)</em>&nbsp;and by the state.</dd>
 <dt><strong>vocational rehabilitation &ndash; blind agency (VR-Blind)</strong></dt>
 <dd>Federal-state agency that provides employment services for people who are blind or have visual impairments. May be a separate agency or be incorporated into the general&nbsp;<em>vocational rehabilitation agency.</em></dd>
 <dt><strong>voice recognition</strong></dt>
@@ -900,7 +900,7 @@ const GlossaryPage = ({
 <dt><strong>Workforce Investment Board (WIB)&nbsp;</strong></dt>
 <dd>A state or local board, at least 50% employers and the remainder designated state agencies and other interested parties, that oversees&nbsp;<em>One-Stop Career Centers</em>&nbsp;and other workforce development programs. WIBs are authorized by the&nbsp;<em>Workforce Investment Act</em>.</dd>
 <dt><strong>Workforce Innovation and Opportunity Act (WIOA)&nbsp;</strong></dt>
-<dd>A federal law, passed in 2014, to help job seekers, including those with disabilities, access training, education, and employment. Replaces the Workforce Investment Act of 1998.&nbsp;<em>Law</em></dd>
+<dd>A federal law, passed in 2014, to help job seekers, including those with disabilities, access training, education, and employment. Replaces the Workforce Investment Act of 1998.</dd>
 <dt><strong>workshop</strong></dt>
 <dd>See&nbsp;<em>sheltered workshop.</em></dd>
 <dt><strong>wraparound services, support</strong></dt>

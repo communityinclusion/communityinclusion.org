@@ -39,7 +39,7 @@ class PublicationsPage extends React.Component {
     <Breadcrumb
             crumbs={crumbs}
             crumbSeparator=" / "
-            crumbLabel="Publications"
+            crumbLabel={currentPage}
           />
     </div> */}
        <div className="w-100 pa2">

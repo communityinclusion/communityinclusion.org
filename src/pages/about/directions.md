@@ -2,6 +2,7 @@
 title: "Directions"
 path: "/directions"
 posttype: "page"
+date: 2018-12-29
 thumbnail: "../../images/cat.jpeg"
 ---
 
@@ -47,10 +48,10 @@ The MBTA JFK/UMass Station is 2 blocks from the ICI office. JFK/UMass is on the 
 
 The following MBTA buses stop near 150 Mt. Vernon Street:
 
-*   #8 (stops in front of 150 Mt. Vernon Street)
-*   #16 (stops in front of 150 Mt. Vernon Street); #41 (closest stop - JFK/UMass Station)
-*   #18 (closest stop—Dorchester Avenue & Columbia Road—approximately ½ mile walk)
-*   #5 (closest stop Old Colony Avenue and McDonough Way—approximately ½ mile walk; cut through Moakley Park)
+* #8 (stops in front of 150 Mt. Vernon Street)
+* #16 (stops in front of 150 Mt. Vernon Street); #41 (closest stop - JFK/UMass Station)
+* #18 (closest stop—Dorchester Avenue & Columbia Road—approximately ½ mile walk)
+* #5 (closest stop Old Colony Avenue and McDonough Way—approximately ½ mile walk; cut through Moakley Park)
 
 ### South Station: Commuter Rail, Amtrak, Inter-City Bus
 
@@ -62,6 +63,5 @@ Several commuter rail lines from north and west of Boston go into North Station,
 
 ### Getting to and from Logan Airport from ICI via mass transit
 
-*   From Logan Airport to ICI: When you leave the terminal, look for signs for the Sliver Line. Take the Silver Line (for free!) to South Station. Take a southbound Red Line train (towards Ashmont or Braintree) for 3 stops. Get off at the JFK/UMass stop.
-*   To get to Logan Airport from ICI: Take the Red line north (towards Alewife) 3 stops to South Station. Transfer to the Silver Line (SL 1) to Logan Airport. You will be dropped off at your terminal.
-
+* From Logan Airport to ICI: When you leave the terminal, look for signs for the Sliver Line. Take the Silver Line (for free!) to South Station. Take a southbound Red Line train (towards Ashmont or Braintree) for 3 stops. Get off at the JFK/UMass stop.
+* To get to Logan Airport from ICI: Take the Red line north (towards Alewife) 3 stops to South Station. Transfer to the Silver Line (SL 1) to Logan Airport. You will be dropped off at your terminal.

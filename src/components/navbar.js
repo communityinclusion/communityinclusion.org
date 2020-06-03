@@ -58,7 +58,7 @@ const Navbar = () => (
 
         </div>
       </li>
-    {/* <li className="top-level-link">
+   <li className="top-level-link">
 
 
            <Link to="/areas-of-emphasis" activeStyle={activeLinkStyle} partiallyActive={true} className="mega-menu"><span>Areas of Emphasis</span></Link>
@@ -83,7 +83,6 @@ const Navbar = () => (
 
         </div>
       </li>
-      */} 
       <li className="top-level-link">
         <Link to="/projects" activeStyle={activeLinkStyle} partiallyActive={true} className="mega-menu"><span>Projects</span></Link>
         <div className="sub-menu-block">

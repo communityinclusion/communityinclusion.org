@@ -3,7 +3,7 @@ import React from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 import Img from 'gatsby-image';
-import SEO from '../components/seo';
+// import SEO from '../components/seo';
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 const NewsPage = ({ data, pageContext,location }) => {
@@ -23,7 +23,7 @@ const NewsPage = ({ data, pageContext,location }) => {
   return (
     <Layout>
       
-        <SEO title="New at ICI" />
+       {/* <SEO title="New at ICI" />*/} 
       <section className="center mw8">
       <div className="breadcrumbs">
     <Breadcrumb
