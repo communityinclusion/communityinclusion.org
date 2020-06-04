@@ -1,3 +1,11 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+//if (!process.env.GATSBY_AIRTABLE_APIKEY) {
+//  throw new Error("process.env.GATSBY_AIRTABLE_APIKEY is undefined.")
+// }
+
+
 module.exports = {
 pathPrefix: '/ici-dev',
 siteMetadata: {
@@ -32,7 +40,7 @@ plugins: [
     options: {
       name: `gatsby-starter-default`,
       short_name: `starter`,
-      start_url: `/ici-dev`,
+      start_url: `/`,
       background_color: `#663399`,
       theme_color: `#663399`,
       display: `minimal-ui`,
@@ -96,7 +104,7 @@ plugins: [
         {
           resolve: `gatsby-source-airtable`,
           options: {
-            apiKey: `keyRyG1G2Fob6I5Tj`, // may instead specify via env, see below
+            apiKey: process.env.GATSBY_AIRTABLE_APIKEY, // may instead specify via env, see below
            // concurrency: 5, // default, see using markdown and attachments for more information
             tables: [
               {
