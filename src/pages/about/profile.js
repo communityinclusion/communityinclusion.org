@@ -8,7 +8,7 @@ export default ({data}) => {
     return (
         <Layout>
    
-        <section className="center mw8">
+        <section className="main-content">
         <div>
             {
                 allAirtable.map((node) => (

@@ -19,8 +19,11 @@ const postTemplate = ({ pageContext, data, location  }) => {
   const { frontmatter, html } = markdownRemark;
   return (
     <Layout location={location}>
-        <SEO title="" />
-      <section className="mw8 center ph2-ns">
+         <SEO
+      title={page.frontmatter.title}
+      description={page.frontmatter.description || page.excerpt || 'nothin’'}
+    />
+      <section className="main-content posttemplate">
       <div className="breadcrumbs">
     <Breadcrumb
             crumbs={crumbs}
@@ -35,7 +38,7 @@ const postTemplate = ({ pageContext, data, location  }) => {
   </div>
   <article className="cf mt3">
   <div className="fl mr4 pb4">
-  <Img className="post-image " fixed={page.frontmatter.thumbnail.childImageSharp.fixed} />
+  <Img className="post-image mw-100" fixed={page.frontmatter.thumbnail.childImageSharp.fixed} />
 
   </div>
         <div dangerouslySetInnerHTML={{ __html: html }} />

@@ -157,7 +157,7 @@ result.data.allAirtable.edges.forEach(({ node}) => {
       path: i === 0 ? `/news` : `/news/${i + 1}`,
       component: postListTemplate,
        context: {
-        length : posts.length,
+         title: 'All Posts',
         limit: postsPerPage,
         skip: i * postsPerPage,
          numPages,

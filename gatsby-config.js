@@ -10,8 +10,8 @@ module.exports = {
 pathPrefix: '/ici-dev',
 siteMetadata: {
   siteUrl: "http://localhost:8000",
-  title: `Gatsby Default Starter`,
-  description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+  title: `The Institute for Community Inclusion at UMass Boston`,
+  description: `For over 40 years, the Institute for Community Inclusion (ICI) has worked to ensure that people with disabilities have the same opportunity to dream big, and make their dreams a fully included, integrated, and welcomed reality.`,
   author: `@gatsbyjs`,
 },
 plugins: [
@@ -56,12 +56,7 @@ plugins: [
       enabled: (() => ["production", "stage"].indexOf(process.env.NODE_ENV) !== -1)()
     }
   },
-  {
-    resolve: `gatsby-transformer-excel`,
-    options: {
-      raw: false,
-    },
-  },
+
   
   {	resolve: `gatsby-source-filesystem`,
     options: {
@@ -69,6 +64,12 @@ plugins: [
       path: `${__dirname}/src/data`,
       name: `data`,
     },
+    },
+    {
+      resolve: `gatsby-transformer-excel`,
+      options: {
+        raw: false,
+      },
     },
     `gatsby-plugin-offline`,
 `gatsby-plugin-twitter`,
@@ -83,6 +84,13 @@ plugins: [
       path: `${__dirname}/src/pages/`,
     },
   },
+  {
+    resolve: "gatsby-plugin-page-creator",
+    options: {
+      path: `${__dirname}/src/pages`,
+    },
+  },
+  `gatsby-plugin-mdx`,
   {
     resolve: `gatsby-source-filesystem`,
     options: {
@@ -100,6 +108,16 @@ plugins: [
             maxWidth: 580,
             showCaptions: 'true',
           },
+        },
+        {
+          resolve: `gatsby-remark-embed-snippet`,
+          options: { 
+            directory: `${__dirname}/src/snippets`
+        },
+        },
+        {
+          resolve: `gatsby-remark-prismjs`,
+          options: {},
         },
         {
           resolve: `gatsby-source-airtable`,
@@ -159,7 +177,7 @@ plugins: [
 
   // this (optional) plugin enables Progressive Web App + Offline functionality
   // To learn more, visit: https://gatsby.dev/offline
-  // `gatsby-plugin-offline`,
+ // `gatsby-plugin-offline`,
 
 
 // `gatsby-plugin-remove-trailing-slashes`,
@@ -178,12 +196,12 @@ plugins: [
           `/offline-plugin-app-shell-fallback`,
         ],
     //     crumbLabelUpdates: optional, update specific crumbLabels in the path
-   // crumbLabelUpdates: [
-  //   {
-   //      pathname: '/areas-of-emphasis/',
-   //     crumbLabel: 'Areas of Emphasis ',
-  // }
-  // ],
+   crumbLabelUpdates: [
+     {
+        pathname: '/areas-of-emphasis',
+       crumbLabel: 'Areas of Emphasis',
+  }
+ ],
        // optional: switch to className styling
         // see `useClassNames example with `AutoGen` below
       useClassNames: true,

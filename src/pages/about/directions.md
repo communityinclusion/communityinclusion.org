@@ -6,13 +6,13 @@ date: 2018-12-29
 thumbnail: "../../images/cat.jpeg"
 ---
 
-
+> To keep our staff and others healthy and safe, the Institute for Community Inclusion is following social distancing protocols issued by UMass Boston and state officials. Our physical office is currently closed. Our staff are working remotely and available via email. Our main phone line will also be monitored regularly: 617-287-4300. Stay well!
 
 **Bayside Office Center
 150 Mt. Vernon Street, 4th Floor
 Dorchester, MA**
 
-ICI's main office is located at the Bayside Office Center, 150 Mt. Vernon Street in Dorchester, MA. Our building is south of downtown Boston, approximately a half mile from the UMass Boston Campus. Parking is available free of charge for guest in front of the building and the building is also convenient to mass transit.
+ICI\'s main office is located at the Bayside Office Center, 150 Mt. Vernon Street in Dorchester, MA. Our building is south of downtown Boston, approximately a half mile from the UMass Boston Campus. Parking is available free of charge for guest in front of the building and the building is also convenient to mass transit.
 
 **IMPORTANT NOTE—GPS AND ONLINE DIRECTIONS:** There are several Mt. Vernon Streets in Boston. In addition, entering the exact address in GPS or online will bring you near our office, but not to the exact location. If you are using a GPS or looking up directions online, be sure that you enter the address as 240 Mt. Vernon Street, Dorchester, MA and check to make sure you have the right location (our offices are near the UMass Boston Campus, 2 blocks from the JFK/UMass MBTA stop, next door to the Doubletree Hotel in Dorchester). When you turn off of Mt Vernon Street the Doubletree Hotel will be located on your right and the Bayside Office Center will be on your left.
 
@@ -48,10 +48,10 @@ The MBTA JFK/UMass Station is 2 blocks from the ICI office. JFK/UMass is on the 
 
 The following MBTA buses stop near 150 Mt. Vernon Street:
 
-* #8 (stops in front of 150 Mt. Vernon Street)
-* #16 (stops in front of 150 Mt. Vernon Street); #41 (closest stop - JFK/UMass Station)
-* #18 (closest stop—Dorchester Avenue & Columbia Road—approximately ½ mile walk)
-* #5 (closest stop Old Colony Avenue and McDonough Way—approximately ½ mile walk; cut through Moakley Park)
+* \#  8 (stops in front of 150 Mt. Vernon Street)
+* \# 16 (stops in front of 150 Mt. Vernon Street); #41 (closest stop - JFK/UMass Station)
+* \# 18 (closest stop—Dorchester Avenue & Columbia Road—approximately ½ mile walk)
+* \# 5 (closest stop Old Colony Avenue and McDonough Way—approximately ½ mile walk; cut through Moakley Park)
 
 ### South Station: Commuter Rail, Amtrak, Inter-City Bus
 

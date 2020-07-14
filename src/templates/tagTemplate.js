@@ -16,7 +16,7 @@ const Tags = ({ pageContext, data }) => {
   } = pageContext
   return (
     <Layout>
-      <section className="center mw8">
+      <section className="main-content">
      <div className="breadcrumbs">
       <Breadcrumb
               crumbs={crumbs}

@@ -11,7 +11,7 @@ const GlossaryPage = ({
 }) => (
   <Layout>
     <SEO title="Glossary" />
-    <section className="mw8 center">
+    <section className="main-content">
     <div className="breadcrumbs">
     <Breadcrumb
             crumbs={crumbs}

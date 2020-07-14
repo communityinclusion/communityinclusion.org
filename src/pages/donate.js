@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
@@ -13,7 +12,7 @@ import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
   }) => (
   <Layout>
  
-      <section className="mw8 center">
+ <section className="main-content">
        <SEO title="Donate" />
        <div className="breadcrumbs">
     <Breadcrumb
@@ -39,7 +38,7 @@ import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 </ul>
 <p>Donations in any amount are welcome. Thank you for supporting our mission of equity and inclusion!</p>
 
-<div className="ph3"><Link to="https://securelb.imodules.com/s/1355/boston/giving/17/form.aspx?sid=1355&gid=3&pgid=5411&cid=13247&appealcode=GiveBtn&dids=522&bledit=1" className="f6 link dim ph3 pv2 mb2 dib white bg-dark-blue" >Donate Today</Link></div>
+<div className="ph3"><a href="https://securelb.imodules.com/s/1355/boston/giving/17/form.aspx?sid=1355&gid=3&pgid=5411&cid=13247&appealcode=GiveBtn&dids=522&bledit=1" className="f6 link dim ph3 pv2 mb2 dib white bg-dark-blue" >Donate Today</a></div>
 
  
 </div>

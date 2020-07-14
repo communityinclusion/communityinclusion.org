@@ -36,7 +36,7 @@ const SearchPage = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Search results" />
-            <section className="mw8 center ph2-ns">
+      <section className="main-content">
       {q ? <h1>Search results</h1> : <h1>What are you looking for?</h1>}
       <SearchForm initialQuery={q} />
       {results.length ? (

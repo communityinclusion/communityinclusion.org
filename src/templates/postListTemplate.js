@@ -24,7 +24,7 @@ const NewsPage = ({ data, pageContext,location }) => {
     <Layout>
       
        {/* <SEO title="New at ICI" />*/} 
-      <section className="center mw8">
+       <section className="main-content">
       <div className="breadcrumbs">
     <Breadcrumb
            crumbs={crumbs}

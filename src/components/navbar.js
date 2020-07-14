@@ -112,8 +112,8 @@ const Navbar = () => (
   <li><Link to="/projects/nercve">NERCVE</Link></li>
    <li><Link to="/projects/employmentfirstma">EmploymentFirstMA</Link></li>
       <li><Link to="/projects/fqi">Future Quest Island</Link></li>
-   <li><Link to="/projects/lend">BostonLEND</Link></li>
-<li><Link to="/projects/bchdsp">BCH Down Syndrome Program</Link></li>
+   <li><Link to="/projects/lend">LEND Program</Link></li>
+<li><Link to="/projects/bchdsp">Down Syndrome Program</Link></li>
               </ul>
             </div>
           </div>

@@ -5,25 +5,32 @@ import SEO from "../components/seo"
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 
-const pageTemplate = ({ pageContext, data}) => {
+const pageTemplate = ({ pageContext,location, data}) => {
   const {
     breadcrumb: { crumbs },
   } = pageContext
-
+ 
   // Example of dynamically using location prop as a crumbLabel
 // const customCrumbLabel = location.pathname.toLowerCase().replace(/-/g, ' ')
   const page = data.markdownRemark
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
-  return (
-    <Layout>
-        <SEO title="" />
-      <section className="mw8 center ph2-ns">
+// .toLowerCase()
+// .replace("/", " ")
+// .replace("-", " ")
+// .replace("-", " ")
+return (
+  <Layout location={location}>
+          <SEO
+      title={page.frontmatter.title}
+      description={page.frontmatter.description || page.excerpt || 'nothin’'}
+    />
+      <section className="main-content pagetemplate">
       <div className="breadcrumbs">
     <Breadcrumb
             crumbs={crumbs}
             crumbSeparator=" / "
-            crumbLabel={page.frontmatter.title}
+            crumbLabel={frontmatter.title}
             
           />
           </div>

@@ -10,24 +10,30 @@ import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import { Helmet } from "react-helmet"
 
 
-const AreasofEmphasis = ({
-  pageContext: {
+export const  AreasofEmphasis = ({ pageContext, location }) => {
+  const {
     breadcrumb: { crumbs },
-  },
-  
-}) => (
+  } = pageContext
+
+  // Example of dynamically using location prop as a crumbLabel
+  const customCrumbLabel = location.pathname
+    .toLowerCase()
+    .replace("/", " ")
+    .replace("-", " ")
+    .replace("-", " ")
+  return (
   <Layout>
     <Helmet>
           <meta charSet="utf-8" />
           <title>Areas of Emphasis</title>
         </Helmet>
-  <section className="center mw8">
+  <section className="main-content">
   <SEO title="Areas of Emphasis" />
      <div className="breadcrumbs">
       <Breadcrumb
               crumbs={crumbs}
               crumbSeparator=" / "
-              crumbLabel="Areas of Emphasis"
+              crumbLabel={customCrumbLabel}
             />
             </div>
             <h1>Areas of Emphasis</h1>
@@ -114,6 +120,6 @@ const AreasofEmphasis = ({
 </section>
   </Layout>
 )
-
+  }
 export default AreasofEmphasis
 

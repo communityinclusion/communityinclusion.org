@@ -1,11 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Breadcrumb from "../components/breadcrumb/breadcrumb"
 import { Link } from "gatsby"
 const StyleGuide = () => (
   <Layout>
-    <Breadcrumb crumbs={ [ 'Home' ] } />
+   
    <section className="center mw8">
    <SEO title="Style Guide" />
     <h1>Style Guide</h1>

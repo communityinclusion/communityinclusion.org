@@ -5,13 +5,35 @@ import cesservices from '../../images/services-ces.png'
 import consultingservices from '../../images/services-consulting.png'
 import acreservices from '../../images/services-acre_logo.png'
 import employmentservices from '../../images/empservices-logo.png'
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+import { Helmet } from "react-helmet"
 
+export const Services = ({ pageContext, location }) => {
+  const {
+    breadcrumb: { crumbs },
+  } = pageContext
 
-const Services = () => (
+  // Example of dynamically using location prop as a crumbLabel
+  const customCrumbLabel = location.pathname
+    .toLowerCase()
+    .replace("/", " ")
+    .replace("/", " ")
+    .replace("-", " ")
+  return (
   <Layout>
-
-   <section className="center mw8">
+    <Helmet>
+          <meta charSet="utf-8" />
+          <title>Services</title>
+        </Helmet>
+   <section className="main-content">
    <SEO title="Services" />
+   <div className="breadcrumbs">
+   <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+            crumbLabel={customCrumbLabel}
+          />
+            </div>
     <h1>Services</h1>
     <div className="flex-l w-100 nl2 nr2 center">
     <article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90 ">
@@ -96,5 +118,6 @@ const Services = () => (
 </section>
   </Layout>
 )
+  }
 
 export default Services

@@ -10,7 +10,7 @@ const ResourcesPage = ({
 }) => (
   <Layout>
    
-   <section className="center mw8">
+   <section className="main-content">
   <SEO title="Resources" />
   <div className="breadcrumbs">
     <Breadcrumb

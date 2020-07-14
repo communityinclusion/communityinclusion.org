@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 const StaffProfile = ({ data }) => {
   return (
     <Layout>
-        <section className="center mw8">
+        <section className="main-content">
       <div>
       <h1 class="f5 f4-ns fw6 black-70">{data.airtable.data.Name}</h1>
       <h2 class="f6 black-70 fw2 ttu tracked">{data.airtable.data.staff_title}</h2>

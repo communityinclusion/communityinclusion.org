@@ -176,7 +176,6 @@ li a:hover span{color:#000;}
 
 
 
-/*! CSS Used from: https://github.com/keen/keen-css */
 
 html {
 	font-family: 'Open Sans', sans-serif;
@@ -203,85 +202,10 @@ h1 {
 	border-bottom: 1px solid #000;
 }
 
-figcaption,figure,main {
-	display:block;
-}
 
-figure {
-	margin:1em 40px;
-}
+/*! CSS Used from: https://github.com/keen/keen-css */
 
-hr {
-	box-sizing:content-box;
-	overflow:visible;
-}
 
-pre {
-	font-family:monospace,monospace;
-	font-size:1em;
-}
-
-a {
-	background-color:transparent;
-	-webkit-text-decoration-skip:objects;
-}
-
-abbr[title] {
-	border-bottom:none;
-	text-decoration:underline;
-	text-decoration:underline dotted;
-}
-
-b,strong {
-	font-weight:inherit;
-	font-weight:bolder;
-}
-
-code,kbd,samp {
-	font-family:monospace,monospace;
-	font-size:1em;
-}
-
-dfn {
-	font-style:italic;
-}
-
-mark {
-	background-color:#ff0;
-	color:#000;
-}
-
-small {
-	font-size:80%;
-}
-
-sub,sup {
-	font-size:75%;
-	line-height:0;
-	position:relative;
-	vertical-align:baseline;
-}
-
-sub {
-	bottom:-.25em;
-}
-
-sup {
-	top:-.5em;
-}
-
-audio,video {
-	display:inline-block;
-}
-
-audio:not([controls]) {
-	display:none;
-	height:0;
-}
-
-img {
-	border-style:none;
-}
 
 svg:not(:root) {
 	overflow:hidden;
@@ -349,7 +273,7 @@ html {
 	line-height:1.5;
 	
 }
-/*
+ 
 h1,h2,h3,h4,h5,h6 {
 	font-weight:200;
 	line-height:1.25;
@@ -383,7 +307,7 @@ h6 {
 b,strong {
 	font-weight:500;
 }
-*/
+ 
 hr {
 	border:0;
 	height:0;
@@ -452,7 +376,7 @@ pre code {
 }
 
 
-/*
+
 dt {
 	font-weight:500;
 }
@@ -476,6 +400,7 @@ ol ol,ol ul,ul ol,ul ul {
 
 */
 
+ 
 .k--input > ul {z-index: 10000}
 mark {
 	background-color:#ffe96b;
@@ -1138,7 +1063,7 @@ select.k--input-small,select.k--select-small {
 	box-shadow:2px 2px 8px 0 rgba(0,0,0,.2);
 }
 
-
+ 
 
 /* Sidenav */
 
@@ -1364,8 +1289,55 @@ article.card {
 	box-shadow: none;
   }
 
-  input#search-input {width: 110px;
-
-	margin-right: 5px;}
+  /* input#search-input {margin-right: 5px;} */
 	
 	.formControl {width:100%!important;background-color:#ddd; margin-bottom: 20px!important;}
+
+
+	.pagetemplate blockquote {
+		background-color:#9bd4f4;
+		color:#23527c;
+		border-left: 5px #23527c solid;
+		padding:5px 10px;
+	}
+
+	.alertbox
+	{
+		background-color:#9bd4f4;
+		color:#23527c;
+		border-left: 5px #23527c solid;
+		padding:5px 10px;
+	}
+
+
+
+	.header-third ul.header-links{	flex-direction: row;}
+
+
+.header-third ul.header-links li.flex-item	{padding-left: 10px;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: .25em 0;
+    padding: 0 .5em;
+    text-align: center;
+    border-right: 1px solid #ccc;}
+/* .header-third ul.header-links li.flex-item:before {content:'|'}
+.header-third ul.header-links li.flex-item:first-child:before {content:none}
+*/
+.header-third ul.header-links li.flex-item:last-child {border: none;}
+
+
+
+section.main-content {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: .5rem;
+	max-width: 96rem;
+}
+
+
+@media screen and (min-width: 30em){
+section.main-content {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}}

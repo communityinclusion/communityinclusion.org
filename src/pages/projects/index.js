@@ -13,13 +13,29 @@ import catada from '../../images/catada.png'
 import fqi from '../../images/fqi.png'
 import bchlend from '../../images/bch-lend-logo.png'
 import bchds from '../../images/bch-ds-logo.png'
-import Breadcrumb from "../../components/breadcrumb/breadcrumb"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
-const Projects = () => (
+export const Projects = ({ pageContext, location }) => {
+  const {
+    breadcrumb: { crumbs },
+  } = pageContext
+
+  // Example of dynamically using location prop as a crumbLabel
+  const customCrumbLabel = location.pathname
+    .toLowerCase()
+    .replace("/", " ")
+    .replace("-", " ")
+  return (
   <Layout>
-         <Breadcrumb crumbs={ [ 'Home', 'Projects' ] } />
-   <section className="center mw8">
+   <section className="main-content">
    <SEO title="Projects" />
+   <div className="breadcrumbs">
+   <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+            crumbLabel={customCrumbLabel}
+          />
+            </div>
     <h1>Projects</h1>
 
 
@@ -256,6 +272,6 @@ const Projects = () => (
 </section>
 
   </Layout>
-)
+)}
 
 export default Projects

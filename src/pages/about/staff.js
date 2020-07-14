@@ -2,19 +2,34 @@ import React from "react"
 import { graphql } from 'gatsby'
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 
 
 class StaffComponent extends React.Component {
   render() {
+    const { pageContext, location} = this.props;
     const data = this.props.data.allDirectoryXlsxSheet1.edges
+    const { breadcrumb: { crumbs }, } = pageContext
+ //  const customCrumbLabel = location.pathname
+   // .toLowerCase()
+ //   .replace("/", " ")
+   // .replace("-", " ")
     return (
       
 
       
-      <Layout>
+      <Layout location={location}>
+
         <SEO title="Staff" />
-            <section className="mw8 center">
+            <section className="main-content">
+            <div className="breadcrumbs">
+    <Breadcrumb
+            crumbs={crumbs}
+            crumbSeparator=" / "
+            crumbLabel="Staff"
+          />
+          </div>
        <div className="w-100 pa2">
        <h1>Staff Directory</h1>
         <table className="w-100 f6 collapse ba br2 b--black-10 pv2 ph3 mt4">

@@ -22,18 +22,19 @@ const SearchForm = ({ initialQuery = "" }) => {
     navigateTo(`/search?q=${q}`)
   }
   return (
-    <form role="search" onSubmit={handleSubmit}>
+    <form role="search" className="inline-flex" onSubmit={handleSubmit}>
       <label htmlFor="search-input" style={{ display: "block" }}>
       </label>
       <input
         ref={inputEl}
+        className="k--input"
         id="search-input"
         type="search"
         value={query}
         placeholder="search"
         onChange={handleChange}
       />
-      <button type="submit">Search</button>
+      <button className="k--button" type="submit">Search</button>
     </form>
   )
 }
