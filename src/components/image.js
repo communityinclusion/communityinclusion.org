@@ -20,7 +20,7 @@ const Image = () => (
         HeroImage: file(relativePath: { eq: "jfk-hero-image.png" }) {
           childImageSharp {
             fluid(quality: 90,maxWidth: 1200) {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_noBase64
             }
           }
         }
