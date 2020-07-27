@@ -31,13 +31,17 @@ const IndexPage = ({data, location }) => {
   
          <section className="center bg-gray pa1 ph5-ns">
     <p className="f6 f4-ns tl lh-copy">
-     ICI recently celebrated its 50th anniversary as a University Center for Excellence in Developmental Disabilities (UCEDD), started by President Kennedy.
-{/*UCEDDs work with people with disabilities, members of their families, state and local government agencies, and community providers in projects that provide
+    The ICI is a University Center for Excellence in Developmental Disabilities, part of the national network started by President John F. Kennedy.
+    {/*UCEDDs work with people with disabilities, members of their families, state and local government agencies, and community providers in projects that provide
 training, technical assistance, service, research, and information sharing, with a focus on building the capacity of communities to sustain all their citizens.*/}
     </p>
   </section>
 
-  <section className="mw9 center ph5-ns">
+  <section className="main-content">
+  <div className="alertbox">
+     <span className="lh-title">To keep our staff and others healthy and safe, the Institute for Community Inclusion is following social distancing protocols issued by UMass Boston and state officials. Our physical office is currently closed. Our staff are working remotely and available via email. Our main phone line will also be monitored regularly: 617-287-4300. Stay well!</span>
+</div>
+
   <h2 className="bb bw1">Areas of Emphasis</h2>
   <div className="flex-l w-100 ml2 mr2 center">
 <article className="flex-1 shadow-4 ma3  w-90 ">
@@ -86,7 +90,7 @@ training, technical assistance, service, research, and information sharing, with
 <article className="flex-1 shadow-4 ma3  w-90 ">
 <div className="bg-orange mv0 ph3 ">
 <img src={healthcare_logo} className="dib v-mid" alt = "Healthcare icon" /> 
-  <h3 className="f3 white dib v-mid pl2"> Healthcare</h3>
+  <h3 className="f3 white dib v-mid pl2"> Health Care</h3>
  </div>
   <div className="pa3">
   <p className="f6 f5-l mt0 lh-copy">Accessing quality health care enables us to live productively and to receive support when facing mental, behavioral, or physical challenges. For people with disabilities, equitable health care can require additional advocacy and planning.

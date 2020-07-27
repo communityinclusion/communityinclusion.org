@@ -136,12 +136,12 @@ li a:hover span{color:#000;}
 
 
 
-
-@media screen and (max-width:60em){
-	.desktop-nav {display:none;}
+*/
+@media only screen and (min-device-width: 60em) {
+	.desktop-nav {display:none!important;}
 	}
 
-	*/
+
 .flex-container {
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -268,7 +268,7 @@ canvas {
 }
 
 
-
+/*
 html {
 	line-height:1.5;
 	
@@ -358,13 +358,8 @@ code,kbd,samp,tt {
 	padding:0 .25rem;
 	border-radius:.25rem;
 }
+*/
 
-.post-meta {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-  }
-  
 
 
 
@@ -397,9 +392,6 @@ ol,ul {
 ol ol,ol ul,ul ol,ul ul {
 	margin:0;
 }
-
-*/
-
  
 .k--input > ul {z-index: 10000}
 mark {
@@ -1210,8 +1202,7 @@ select.k--input-small,select.k--select-small {
 
   .breadcrumbs .breadcrumb {display:inline;text-transform:capitalize;}
 
-.post-image {margin-left:auto;margin-right:auto}
-
+.post-image {margin-left:auto;margin-right:auto;display:block}
 
 
 /** CARDS **/
@@ -1341,3 +1332,82 @@ section.main-content {
     padding-left: 4rem;
     padding-right: 4rem;
 }}
+
+.twitterWrap {
+    background-color: #1178AD;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.post-meta {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  }
+
+
+ .gatsby-resp-image-figcaption {font-size:small;}
+  
+/*
+  #site-navigation {
+    display: block;
+    background: #000;
+    height: 48px;
+  }
+   
+  #site-navigation #main-menu,
+  #site-navigation > input {
+    display: none;
+  }
+   
+  #site-navigation > label {
+    display: block;
+    font-size: 36px;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    width: 36px;
+    padding: 0;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+   
+  #site-navigation > input:checked + #main-menu {
+    display: block;
+    clear: both;
+    top: 36px;
+    position: relative;
+    background: #000;
+    color: #fff;
+  }
+   
+  #site-navigation ul li {
+    display: block;
+    padding: 12px 10px;
+  }
+   
+  #site-navigation a {
+    text-decoration: none;
+    color: #fff;
+  }
+   
+  @media only screen and (min-device-width: 768px) {
+    #site-navigation {
+      height: auto;
+    }
+    #site-navigation #main-menu {
+      display: block;
+    }
+    #site-navigation > label {
+      display: none
+    }
+    #site-navigation ul li {
+      display: inline-block;
+    }
+  }
+  */

@@ -20,6 +20,14 @@
     text-align: left;
   }
 
+
+  .post-list__content {
+    padding-top: 1rem; 
+     text-align: left;
+   }
+
+   
+
   .post-list__content h2 {
     margin-top:0;
   }

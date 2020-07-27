@@ -8,8 +8,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-import Navbar from "../components/navbar"
-import Header from "../components/header"
+import Navbar2 from "../components/navbar2"
+import Header2 from "../components/header2"
 import Footer from "../components/footer"
 import './post.css'
 import './tags.css'
@@ -32,8 +32,8 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-<Navbar />
+        <Header2 siteTitle={data.site.siteMetadata.title} />
+<Navbar2 />
           <main>{children}</main>
              <Footer />
 

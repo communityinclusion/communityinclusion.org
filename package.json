@@ -27,7 +27,6 @@
       "gatsby-plugin-lodash": "^3.1.8",
       "gatsby-plugin-lunr": "^1.5.2",
       "gatsby-plugin-manifest": "^2.2.23",
-      "gatsby-plugin-mdx": "^1.2.22",
       "gatsby-plugin-netlify-cms": "^4.0.0",
       "gatsby-plugin-offline": "^3.0.35",
       "gatsby-plugin-page-creator": "^2.3.16",
@@ -98,7 +97,7 @@
    "license": "MIT",
    "scripts": {
       "build": "GATSBY_ENV=production gatsby build",
-      "develop": "GATSBY_ENV=development gatsby develop",
+      "develop": "GATSBY_ENV=development gatsby develop --prefix-paths",
       "format": "prettier --write src/**/*.{js,jsx}",
       "start": "npm run develop",
       "serve": "gatsby serve",

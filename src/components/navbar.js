@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
-import '../components/navbar.css'
 import '../layouts/custom.css'
+import '../components/nav.css'
 // import SearchForm from "../components/searchForm"
 
 
@@ -15,7 +15,7 @@ const activeLinkStyle = {
 const Navbar = () => (
       <div>
          <nav role="navigation" aria-label="Main" className="bg-blue">
-         <a tabIndex="1" href="#" className="ic menu">
+         <a tabIndex="0" href="#" className="ic menu">
       <span className="line"></span>
       <span className="line"></span>
       <span className="line"></span>
@@ -74,7 +74,7 @@ const Navbar = () => (
                 <li><Link to="/areas-of-emphasis/employment">Employment</Link></li>
                 <li><Link to="/areas-of-emphasis/education">Education</Link></li>
                 <li><Link to="/areas-of-emphasis/community">Community Life</Link></li>
-                <li><Link to="/areas-of-emphasis/healthcare">Healthcare</Link></li>
+                <li><Link to="/areas-of-emphasis/healthcare">Health Care</Link></li>
               </ul>
             </div>
           </div>
@@ -114,6 +114,7 @@ const Navbar = () => (
       <li><Link to="/projects/fqi">Future Quest Island</Link></li>
    <li><Link to="/projects/lend">LEND Program</Link></li>
 <li><Link to="/projects/bchdsp">Down Syndrome Program</Link></li>
+<li><Link to="/projects/cle">Community Life Engagement</Link></li>
               </ul>
             </div>
           </div>

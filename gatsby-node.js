@@ -3,7 +3,7 @@ const _ = require('lodash')
 const { createFilePath } = require('gatsby-source-filesystem')
 const striptags = require(`striptags`)
 const lunr = require(`lunr`)
-const { GraphQLJSONObject } = require("graphql-type-json")
+const { GraphQLJSONObject } = require(`graphql-type-json`)
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
 const sharp = require('sharp')
@@ -113,10 +113,10 @@ result.data.allMarkdownRemark.edges.forEach(edge => {
 
 result.data.allAirtable.edges.forEach(({ node}) => {
   createPage({
-    path: node.fields.slug,
+    path:  edge.node.fields.slug,
     component: staffTemplate,
     context: {
-      slug: node.fields.slug,
+      slug:  edge.node.fields.slug,
     },
   })
 })
@@ -169,22 +169,6 @@ result.data.allAirtable.edges.forEach(({ node}) => {
 });
 }
 
-exports.createResolvers = ({ cache, createResolvers }) => {
-  createResolvers({
-    Query: {
-      LunrIndex: {
-        type: GraphQLJSONObject,
-        resolve: (source, args, context, info) => {
-          const postNodes = context.nodeModel.getAllNodes({
-            type: `MarkdownRemark`,
-          })
-          const type = info.schema.getType(`MarkdownRemark`)
-          return createIndex(postNodes, type, cache)
-        },
-      },
-    },
-  })
-};
 
 const createIndex = async (postNodes, type, cache) => {
   const cacheKey = `IndexLunr`
@@ -227,3 +211,20 @@ const json = { index: index.toJSON(), store }
 await cache.set(cacheKey, json)
 return json
 }
+
+exports.createResolvers = ({ cache, createResolvers }) => {
+  createResolvers({
+    Query: {
+      LunrIndex: {
+        type: GraphQLJSONObject,
+        resolve: (source, args, context, info) => {
+          const postNodes = context.nodeModel.getAllNodes({
+            type: `MarkdownRemark`,
+          })
+          const type = info.schema.getType(`MarkdownRemark`)
+          return createIndex(postNodes, type, cache)
+        },
+      },
+    },
+  })
+};

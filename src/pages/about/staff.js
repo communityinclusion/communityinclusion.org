@@ -42,7 +42,7 @@ class StaffComponent extends React.Component {
           </thead>
           <tbody>
             {data.map((row, i) => (
-              <tr className="striped--near-white" key={`${row.node.name} ${i}`}>
+              <tr className="striped--near-white" key={`${row.node.id} ${i}`}>
                 <td className="pv2 ph3 bb b--black-20">{row.node.name}</td>
                 <td className="pv2 ph3 bb b--black-20">{row.node.phone}</td>
                 <td className="pv2 ph3 bb b--black-20"><a href={`mailto:${row.node.email}`}>{row.node.email}</a></td>
@@ -65,6 +65,7 @@ export const IndexQuery = graphql`
     allDirectoryXlsxSheet1 {
       edges {
         node {
+          id
           name
           phone
           email

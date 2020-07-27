@@ -90,7 +90,6 @@ plugins: [
       path: `${__dirname}/src/pages`,
     },
   },
-  `gatsby-plugin-mdx`,
   {
     resolve: `gatsby-source-filesystem`,
     options: {
@@ -105,8 +104,10 @@ plugins: [
         {
           resolve: `gatsby-remark-images`,
           options: {
-            maxWidth: 580,
-            showCaptions: 'true',
+            maxWidth: 500,
+            showCaptions: [`title`, `alt`],
+            markdownCaptions: true,
+            wrapperStyle: 'float:right;'
           },
         },
         {
@@ -185,7 +186,7 @@ plugins: [
       resolve: `gatsby-plugin-breadcrumb`,
       options: {
         // useAutoGen: required 'true' to use autogen
-        useAutoGen: `true`,
+        useAutoGen: true,
         // autoGenHomeLabel: optional 'Home' is default
         autoGenHomeLabel: `Home`,
         // exlude: optional, include to overwrite these default excluded pages

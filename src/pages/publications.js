@@ -19,32 +19,32 @@ import cle_toolkit_thumbnail from '../images/thumbnails/cle_toolkit_thumbnail.pn
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 
-//export const PublicationsPage = ({ pageContext, location }) => {
-//  const {
-//    breadcrumb: { crumbs },
-//  } = pageContext
+// export default function = ({ pageContext, location }) => {
+// const {
+// breadcrumb: { crumbs },
+// } = pageContext
 
 class PublicationsPage extends React.Component {
   render() {
     const { pageContext, location} = this.props;
     const data = this.props.data.allPubsXlsxSheet1.edges
     const { breadcrumb: { crumbs }, } = pageContext
-    const customCrumbLabel = location.pathname
-    .toLowerCase()
-    .replace("/", " ")
-    .replace("-", " ")
+   // const customCrumbLabel = location.pathname
+  //  .toLowerCase()
+  //  .replace("/", " ")
+  //  .replace("-", " ")
     return (
       
    
       
-      <Layout>
+      <Layout location={location}>
         <SEO title="ICI Publications" />
         <section className="main-content">
             <div className="breadcrumbs">
     <Breadcrumb
             crumbs={crumbs}
             crumbSeparator=" / "
-            crumbLabel={customCrumbLabel}
+            crumbLabel="Publications"
           />
           </div>
        <div className="w-100 pa2">
@@ -54,6 +54,7 @@ class PublicationsPage extends React.Component {
        
 
        <div className="w-100 nl2 nr2 center">
+         <p>The ICI publishes briefs, whitepapers, and more extensive reports for a wide range of audiences, such as employment services providers, people with disabilities, and school/college staff providing support for students with disabilities. Selected publications are highlighted here.</p>
        <article className="card">
     <div className="flex flex-column flex-row-ns">
     <div className="card-image">
@@ -228,7 +229,7 @@ class PublicationsPage extends React.Component {
 
           <div >
             {data.map((row) => (
-              <ul className="bb list">
+              <ul key={row.node.id} className="bb list">
                 <li className="pv2 ph3"><a href={`${row.node.download_url}`}>{row.node.title}</a></li>
                 <li className="pv2 ph3">Author(s): {row.node.authors}</li>
                 </ul>
@@ -252,6 +253,7 @@ export const IndexQuery = graphql`
     allPubsXlsxSheet1{
       edges {
         node {
+          id
           title
           abstract
           authors

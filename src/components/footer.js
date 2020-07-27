@@ -79,30 +79,33 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   </div>
   <div className="footer-copyright cf  dt flex flex-row justify-between w-100 bt white bg-black f6 lh-copy v-mid pv2 center "> 
   <div className="mw9">
-   <div className="fl w-25-l w-25-m w-100 v-mid  white">
+   <div className="fl w-25-l w-100 v-mid  white">
    <img className = "dib mw-100 h-auto"
    			 alt = "Institute for Community Inclusion"
             src={umbcombo}
           />
      </div> 
-      <div className="fl w-50-l w-50-m w-100 v-mid white ph3">
+      <div className="fl w-50-l w-100 v-mid white ph3">
    
       <p className="white">©2019 The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital.</p>
     </div>
    
   
-    <div className=" fl w-25-l w-25-m w-100 v-mid white ph3">
-    <ul className = " flex justify-center list pl0 " >
+    <div className=" fl w-25-l w-100 v-mid white ph3">
+    <ul className = "list pl0 " >
     <li className = " dib br pr2" >
    <Link to= "/about/privacy/" className="link dim white f6 dib "
     title = "Privacy" >
-    Privacy { " " } </Link> </li> <li className = "dib br pr2 pl1" > { " " }
+    Privacy { " " } </Link> </li> 
+    <li className = "dib br pr2 pl1" > { " " }
    <Link to="/about/accessibility/" className="link dim white f6 dib "
     title = "Accessibility" >
-    Accessibility </Link> </li> <li className= "dib pl1" > { " " }
+    Accessibility </Link> </li> 
+    <li className= "dib pl1" > { " " }
     <Link to="/donate/"  className= "link dim white f6 dib "
     title = "Donate" >
-    Donate </Link> </li> </ul>
+    Donate </Link> </li>
+     </ul>
     </div>
     </div>
  

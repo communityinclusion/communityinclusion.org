@@ -7,12 +7,24 @@ import community_logo from '../images/community-logo.png'
 import healthcare_logo from '../images/healthcare-logo.png'
 import employment_logo from '../images/employment-logo.png'
 import education_logo from '../images/education-logo.png'
+import InputLabel from '@material-ui/core/InputLabel';
+import MenuItem from '@material-ui/core/MenuItem';
+import FormControl from '@material-ui/core/FormControl';
+import Select from '@material-ui/core/Select';
 // import { kebabCase } from 'lodash';
 
 const IndexPage = ({data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
+  const allAirtable = data.allAirtable.nodes;
+  {
+    const [staff, setStaff] = React.useState('');
+  
+    const handleChange = (event) => {
+      setStaff(event.target.value);
+    };
   return (
+
 
   <Layout location={location} title={siteTitle}>
     <Image />
@@ -91,11 +103,11 @@ training, technical assistance, service, research, and information sharing, with
 
 
 </div>
-</section>
+
 
 
 <div className="cf">
-<div className="fl w-100-m w-70-ns bg-white pa3">
+<div className="fl w-100-m w-75-ns bg-white pa3">
 <section className="mw7 center">
         <h2 className="bb bw1">
           New at ICI
@@ -143,30 +155,49 @@ training, technical assistance, service, research, and information sharing, with
       </section>
       </div>
  
-  <div className="fl w-100-m w-25-ns tc pa3 mt4 bg-dark-blue ">
+      <div className="fl w-100-m w-25-ns tc pa3 mt4 ">
+      <div className="staffDropdown">
+      <FormControl variant="filled" className="formControl mb3">
+        <InputLabel id="demo-simple-select-label tc">Staff Directory</InputLabel>
+        <Select
+          labelId="demo-simple-select-label"
+          id="demo-simple-select"
+          value={staff}
+          onChange={handleChange}
+        >
+    { 
+		allAirtable.map((node) => (
     
-  <a className="twitter-timeline" data-height="700" data-dnt="true"  href="https://twitter.com/ICInclusion?ref_src=twsrc%5Etfw">Tweets by ICInclusion</a> <script async src="https://platform.twitter.com/widgets.js" crossOrigin="anonymous" charSet="utf-8"></script>
+        
+          <MenuItem key={node.recordId} value={node.data.Name}><Link to={node.fields.slug}>{node.data.Name}</Link></MenuItem>
+       
+    
+    ))}
+</Select>
+</FormControl>
+            
+        </div>
+        <div className="twitterWrap">
+  <a className="twitter-timeline bg-color-blue" data-height="700" data-dnt="true"  href="https://twitter.com/ICInclusion?ref_src=twsrc%5Etfw">Tweets by ICInclusion</a> <script async src="https://platform.twitter.com/widgets.js" crossOrigin="anonymous" charSet="utf-8"></script>
+ </div>
    </div>
-</div>  
+   </div>
+   </section>
 </Layout>
   )}
+}
+ 
 
-
-export default IndexPage
-
+export default IndexPage 
 
 export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
+query {
+  site {
+    siteMetadata {
+      title
     }
-  allMarkdownRemark(
-    sort: {fields: [frontmatter___date], order: DESC},
-    filter: { frontmatter: {posttype: {eq: "news"}}}
-     limit: 3
-     ) {
+  }
+allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {posttype: {eq: "news"}}}, limit: 3) {
     edges {
       node {
         id
@@ -184,12 +215,23 @@ export const pageQuery = graphql`
                 height
                 src
                 srcSet
-              } 
+              }
             }
           }
         }
       }
     }
   }
- }
+  allAirtable {
+    nodes {
+      recordId
+      fields {
+        slug
+      }
+      data {
+        Name
+      }
+    }
+  }
+}
  `
