@@ -54,7 +54,7 @@
       "gatsby-transformer-sharp": "^2.3.0",
       "graphql-type-json": "^0.3.1",
       "immutable": "^4.0.0-rc.12",
-      "lodash": "^4.17.15",
+      "lodash": "^4.17.19",
       "lunr": "^2.3.8",
       "netlify-cms-app": "^2.12.11",
       "netlify-cms-lib-auth": "^2.2.4",
