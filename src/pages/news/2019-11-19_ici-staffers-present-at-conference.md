@@ -10,6 +10,9 @@ thumbnail: "../../images/tc-lazo-presentation.jpg"
 
 Maria Paiewonsky, Clare Papay, Rebecca Lazo, Meg Grigal, and Debra Hart from the [Think College](https://thinkcollege.net/) National Coordinating Center and Transition Leadership Program presented six sessions last month in Seattle, WA at the [Division on Career Development and Transition Conference](https://community.cec.sped.org/dcdt/dcdt-conferences/dcdt-2017).
 
+![Rebecca Lazo at the Division on Career Development and Transition Conference](../../images/tc-lazo-presentation.jpg)
+
+
 Sessions included:
 
 * Developing transition leadership: Training transition specialists to promote and facilitate career development education.

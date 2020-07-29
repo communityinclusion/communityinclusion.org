@@ -17,6 +17,14 @@ import TCTP1_thumbnail from '../images/thumbnails/TCTP1_thumbnail.png'
 import SELN_unpaid_work_thumbnail from '../images/thumbnails/SELN_unpaid_work_thumbnail.png'
 import cle_toolkit_thumbnail from '../images/thumbnails/cle_toolkit_thumbnail.png'
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+import {
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+} from 'react-accessible-accordion';
+import 'react-accessible-accordion/dist/fancy-example.css';
 
 
 // export default function = ({ pageContext, location }) => {
@@ -33,6 +41,8 @@ class PublicationsPage extends React.Component {
   //  .toLowerCase()
   //  .replace("/", " ")
   //  .replace("-", " ")
+ {
+
     return (
       
    
@@ -55,43 +65,16 @@ class PublicationsPage extends React.Component {
 
        <div className="w-100 nl2 nr2 center">
          <p>The ICI publishes briefs, whitepapers, and more extensive reports for a wide range of audiences, such as employment services providers, people with disabilities, and school/college staff providing support for students with disabilities. Selected publications are highlighted here.</p>
-       <article className="card">
-    <div className="flex flex-column flex-row-ns">
-    <div className="card-image">
-    <img src={arizona_thumbnail} alt = "publication thumbnail" />
-    </div>
-    <div className="card-body">
-    <h2 className="card-title"><a href="https://www.thinkwork.org/power-disability-employment-impact-arizonas-economy">The Power of Disability Employment: The Impact to Arizona’s Economy</a></h2>
-    <p className="card-text">The Arizona Developmental Disabilities Planning Council (ADDPC) contracted with the Institute for Community Inclusion (ICI) at the University of Massachusetts Boston to explore the economic impacts for Arizona of increasing the employment of individuals with disabilities and to analyze how the state can improve its efforts.</p>
-</div>
-</div>
 
-</article>
-
-
-<article className="card">
-    <div className="flex flex-column flex-row-ns">
-    <div className="card-image">
-   <img src={SD_thumbnail} alt = "publication thumbnail" />
-   </div>
-   <div className="card-body">
-    <h2 className="card-title"><a href="https://www.thinkwork.org/sites/default/files/files/bluebook2019_Final.pdf">StateData: The National Report on Employment Services and Outcomes Through 2017</a></h2>
-    <p className="card-text">Access the latest information about employment and economic self-sufficiency for people with intellectual and developmental disabilities. Both national and state-level statistics are included.</p>
-</div>
-</div>
-         </article>
-         <article className="card">
-      <div className="flex flex-column flex-row-ns">
-    <div className="card-image">
-    <img src={innovativeAT_thumbnail} alt = "publication thumbnail" />
-    </div>
-    <div className="card-body">
-   <h2 className="card-title"><a href="https://catada.info/assets/files/innovativeAT_issue1_Final%20Accessible.pdf">Innovative AT Practices, ISSUE NO. 1 • OCTOBER 2019</a></h2>
-<p className="card-text"><strong>Mobile Unit Brings Assistive Tech to Underserved Areas.</strong> The mobile unit has been described as a “warehouse on wheels” by iCAN’s program manager, Rick Anderson. Two program coordinators rotate monthly to drive the van to a predetermined area and set up shop for the day. Once there, they provide device loans, demonstrations of high-end AT devices (such as communication tools), and giveaways of limited reused AT devices. </p>
-</div>
-</div>
-         </article>
-         <article className="card">
+         <Accordion>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        Education
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                <article className="card">
     <div className="flex flex-column flex-row-ns">
     <div className="card-image">
     <img src={HowTo1_thumbnail}  alt = "publication thumbnail"/>
@@ -125,6 +108,7 @@ class PublicationsPage extends React.Component {
  </div>
  </div>
          </article>
+
          <article className="card">
          <div className="flex flex-column flex-row-ns">
          <div className="card-image">
@@ -159,6 +143,55 @@ class PublicationsPage extends React.Component {
  </div>
  </div>
          </article>
+         
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                       Health Care
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p>
+                        In ad velit in ex nostrud dolore cupidatat consectetur
+                        ea in ut nostrud velit in irure cillum tempor laboris
+                        sed adipisicing eu esse duis nulla non.
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                       Employment
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                <article className="card">
+    <div className="flex flex-column flex-row-ns">
+    <div className="card-image">
+    <img src={arizona_thumbnail} alt = "publication thumbnail" />
+    </div>
+    <div className="card-body">
+    <h2 className="card-title"><a href="https://www.thinkwork.org/power-disability-employment-impact-arizonas-economy">The Power of Disability Employment: The Impact to Arizona’s Economy</a></h2>
+    <p className="card-text">The Arizona Developmental Disabilities Planning Council (ADDPC) contracted with the Institute for Community Inclusion (ICI) at the University of Massachusetts Boston to explore the economic impacts for Arizona of increasing the employment of individuals with disabilities and to analyze how the state can improve its efforts.</p>
+</div>
+</div>
+
+</article>
+
+
+<article className="card">
+    <div className="flex flex-column flex-row-ns">
+    <div className="card-image">
+   <img src={SD_thumbnail} alt = "publication thumbnail" />
+   </div>
+   <div className="card-body">
+    <h2 className="card-title"><a href="https://www.thinkwork.org/sites/default/files/files/bluebook2019_Final.pdf">StateData: The National Report on Employment Services and Outcomes Through 2017</a></h2>
+    <p className="card-text">Access the latest information about employment and economic self-sufficiency for people with intellectual and developmental disabilities. Both national and state-level statistics are included.</p>
+</div>
+</div>
+         </article>
          <article className="card">
          <div className="flex flex-column flex-row-ns">
          <div className="card-image">
@@ -192,6 +225,43 @@ class PublicationsPage extends React.Component {
  </div>
  </div>
          </article>
+                  <article className="card">
+         <div className="flex flex-column flex-row-ns">
+         <div className="card-image">
+         <img src={evr_thumbnail} className="db" alt = "publication thumbnail"/>
+         </div>
+         <div className="card-body">
+   <h2 className="card-title"><a href="https://www.explorevr.org/toolkits">Explore VR Job Driven Toolkits</a></h2>
+<p>The Job-Driven Toolkits provide resources on promising and emerging job-driven strategies for vocational rehabilitation (VR) agencies and partners. The toolkits help embed and sustain job-driven VR practices that lead to improved employment outcomes for people with disabilities.</p>
+</div>
+ </div>
+         </article>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                       Community
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                <article className="card">
+      <div className="flex flex-column flex-row-ns">
+    <div className="card-image">
+    <img src={innovativeAT_thumbnail} alt = "publication thumbnail" />
+    </div>
+    <div className="card-body">
+   <h2 className="card-title"><a href="https://catada.info/assets/files/innovativeAT_issue1_Final%20Accessible.pdf">Innovative AT Practices, ISSUE NO. 1 • OCTOBER 2019</a></h2>
+<p className="card-text"><strong>Mobile Unit Brings Assistive Tech to Underserved Areas.</strong> The mobile unit has been described as a “warehouse on wheels” by iCAN’s program manager, Rick Anderson. Two program coordinators rotate monthly to drive the van to a predetermined area and set up shop for the day. Once there, they provide device loans, demonstrations of high-end AT devices (such as communication tools), and giveaways of limited reused AT devices. </p>
+</div>
+</div>
+         </article>
+       
+        
+    
+        
+    
+        
          <article className="card">
          <div className="flex flex-column flex-row-ns">
          <div className="card-image">
@@ -203,17 +273,13 @@ class PublicationsPage extends React.Component {
    </div>
  </div>
          </article>
-         <article className="card">
-         <div className="flex flex-column flex-row-ns">
-         <div className="card-image">
-         <img src={evr_thumbnail} className="db" alt = "publication thumbnail"/>
-         </div>
-         <div className="card-body">
-   <h2 className="card-title"><a href="https://www.explorevr.org/toolkits">Explore VR Job Driven Toolkits</a></h2>
-<p>The Job-Driven Toolkits provide resources on promising and emerging job-driven strategies for vocational rehabilitation (VR) agencies and partners. The toolkits help embed and sustain job-driven VR practices that lead to improved employment outcomes for people with disabilities.</p>
-</div>
- </div>
-         </article>
+                </AccordionItemPanel>
+            </AccordionItem>
+        </Accordion>
+
+
+      
+
   
  
 
@@ -226,7 +292,7 @@ class PublicationsPage extends React.Component {
 
 
        
-
+{/* 
           <div >
             {data.map((row) => (
               <ul key={row.node.id} className="bb list">
@@ -236,14 +302,16 @@ class PublicationsPage extends React.Component {
             ))}
 
 </div>
-        
+        */}
         </div>
+
+        <p>To view additional ICI publications, please visit <a href="https://scholarworks.umb.edu/ici/">Scholarworks</a></p>
       </section>
   </Layout>
     )
   }
 }
-
+}
 
 export default PublicationsPage
 

@@ -16589,6 +16589,11 @@ re-resizable@^4.11.0:
   resolved "https://registry.yarnpkg.com/re-resizable/-/re-resizable-4.11.0.tgz#d5df10bda445c4ec0945751a223bf195afb61890"
   integrity sha512-dye+7rERqNf/6mDT1iwps+4Gf42420xuZgygF33uX178DxffqcyeuHbBuJ382FIcB5iP6mMZOhfW7kI0uXwb/Q==
 
+react-accessible-accordion@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/react-accessible-accordion/-/react-accessible-accordion-3.3.1.tgz#3f50be58ebafaef2d56cc6456efce37fe80ec6d1"
+  integrity sha512-0uqlzNB31AT/kOz+H/gkg+U1dUN2jZZ+CbiczunyYjTW0D5lKLkMdF7G1tjP4Jru3kLkbcgMSa4Va6OqBQT+Jg==
+
 react-aria-menubutton@^6.0.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/react-aria-menubutton/-/react-aria-menubutton-6.3.0.tgz#01acc4322c5271488941270b278b17001031e687"

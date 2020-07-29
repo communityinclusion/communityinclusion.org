@@ -3,7 +3,7 @@ import { graphql} from 'gatsby';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
-import Img from 'gatsby-image';
+// import Img from 'gatsby-image';
 import PostTags from "../components/PostTags";
 
 
@@ -37,10 +37,10 @@ const postTemplate = ({ pageContext, data, location  }) => {
           <span>{frontmatter.date}</span>
   </div>
   <article className="cf mt3">
-  <div className="fl mr4 pb4">
-  <Img className="post-image mw-100" fixed={page.frontmatter.thumbnail.childImageSharp.fixed} />
+ {/* <div className="fl mr4 pb4">
+   <Img className="post-image mw-100" fixed={page.frontmatter.thumbnail.childImageSharp.fixed} /> 
 
-  </div>
+  </div> */}
         <div dangerouslySetInnerHTML={{ __html: html }} />
         </article>
         <hr />

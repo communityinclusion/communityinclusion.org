@@ -9,6 +9,7 @@ thumbnail: "../../images/1_2WIrirjIAv4Qs31rtk-YLQ.jpeg"
 ---
 
 
+![Angela Lombardo at Boston Children’s Hospital Foundation Special Events Award Reception ](../../images/1_2WIrirjIAv4Qs31rtk-YLQ.jpeg)
 
 Boston Children’s Hospital Foundation held its first annual Special Events Award Reception, “A Night of the Stars.” At the ceremony ICI’s Angela Lombardo, [Down Syndrome Program](https://www.childrenshospital.org/centers-and-services/programs/a-_-e/down-syndrome-program) coordinator and  [LEND Boston](https://www.lendboston.org/) family faculty, received the Impact Award.
 

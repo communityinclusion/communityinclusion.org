@@ -9,6 +9,7 @@ thumbnail: "../../images/thumbsup.jpg"
 ---
 
 Farewell to Outgoing Dean Bill Kiernan!
+![From L to R: David Temelini, Bill Kiernan, Sheila Fesko and Suzzanne Freeze](../../images/thumbsup.jpg)
 
 Dr. William E. Kiernan recently celebrated his retirement from his role as dean of the School for Global Inclusion and Social Development, the UMass Boston graduate school where the ICI is housed.
 
