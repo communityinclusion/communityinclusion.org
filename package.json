@@ -84,6 +84,7 @@
       "typescript": "^3.9.2",
       "typescript-eslint": "^0.0.1-alpha.0",
       "update": "^0.7.4",
+      "use-query-params": "^1.1.6",
       "uswds": "^2.0.2",
       "yarn": "^1.22.0"
    },

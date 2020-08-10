@@ -113,10 +113,10 @@ result.data.allMarkdownRemark.edges.forEach(edge => {
 
 result.data.allAirtable.edges.forEach(({ node}) => {
   createPage({
-    path:  edge.node.fields.slug,
+    path:  node.fields.slug,
     component: staffTemplate,
     context: {
-      slug:  edge.node.fields.slug,
+      slug:  node.fields.slug,
     },
   })
 })
@@ -170,6 +170,24 @@ result.data.allAirtable.edges.forEach(({ node}) => {
 }
 
 
+exports.createResolvers = ({ cache, createResolvers }) => {
+  createResolvers({
+    Query: {
+      LunrIndex: {
+        type: GraphQLJSONObject,
+        resolve: (source, args, context, info) => {
+          const postNodes = context.nodeModel.getAllNodes({
+            type: `MarkdownRemark`,
+          })
+          const type = info.schema.getType(`MarkdownRemark`)
+          return createIndex(postNodes, type, cache)
+        },
+      },
+    },
+  })
+};
+
+
 const createIndex = async (postNodes, type, cache) => {
   const cacheKey = `IndexLunr`
   const cached = await cache.get(cacheKey)
@@ -212,19 +230,3 @@ await cache.set(cacheKey, json)
 return json
 }
 
-exports.createResolvers = ({ cache, createResolvers }) => {
-  createResolvers({
-    Query: {
-      LunrIndex: {
-        type: GraphQLJSONObject,
-        resolve: (source, args, context, info) => {
-          const postNodes = context.nodeModel.getAllNodes({
-            type: `MarkdownRemark`,
-          })
-          const type = info.schema.getType(`MarkdownRemark`)
-          return createIndex(postNodes, type, cache)
-        },
-      },
-    },
-  })
-};

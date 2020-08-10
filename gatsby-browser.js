@@ -4,7 +4,7 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-import "./src/layouts/tachyons/css/tachyons.css"
-import "./src/layouts/custom.css"
+import "./src/styles/tachyons/css/tachyons.css"
+import "./src/styles/custom.css"
 import 'gatsby-plugin-breadcrumb/gatsby-plugin-breadcrumb.css'
 require("prismjs/themes/prism-solarizedlight.css")

@@ -11,6 +11,7 @@ import statedata from '../../images/statedata.png'
 import seln from '../../images/seln.png'
 import catada from '../../images/catada.png'
 import fqi from '../../images/fqi.png'
+import cle from '../../images/CLE-square-logo.png'
 import bchlend from '../../images/bch-lend-logo.png'
 import bchds from '../../images/bch-ds-logo.png'
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
@@ -250,17 +251,20 @@ export const Projects = ({ pageContext, location }) => {
 
 </article>
 
-<article className="flex-1 ma3 pa3  w-90 ">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90">
 
 <div className="flex flex-column flex-row-ns">
+    <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
+    <img src={cle} className="db" alt = "Community Life Engagement"/>
+  </div>
 
 <div className="w-100 w-70-ns pl3-ns">
-  <Link className="link w-100  pb2 mt2 dim blue" to="#">
-<h2 className="f3 fw1 mt0 lh-title"> </h2>
- </Link>
-<p className="f6 f5-l lh-copy"> </p>
+        <Link className="link w-100  pb2 mt2 dim dark-blue" to="projects/cle">
+    <h2 className="f3 fw1 mt0 lh-title bb bw2">Community Life Engagement</h2>
+       </Link>
+    <p className="f6 f5-l lh-copy">Community life engagement refers to all the ways that people with intellectual and developmental disabilities participate in their communities outside of employment.</p>
 
-</div>
+   </div>
   </div>
 
 </article>

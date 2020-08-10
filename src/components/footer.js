@@ -6,8 +6,8 @@ const Footer = () => (
    <footer aria-label="Footer" className="mt5 pt3 bg-dark-blue">
 
     <div className="footer-top mw9  center ph3 white">
-    <div className="cf ph2-ns flex flex-column flex-row-l flex-row-m justify-between">
-  <div className="fl  w-100  w-third-l w-third-m pa2">
+    <div className="cf ph2-ns flex flex-column flex-row-l flex-column-m justify-between">
+  <div className="fl  w-100  w-third-l  pa2">
 
     
   <h3 className="bb fl w-100 pv0 f4 lh-copy ttu tracked">Contact</h3>
@@ -25,7 +25,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
 
   </div>
   
-  <div className="fl w-100 w-third-l w-third-m  pa2">
+  <div className="fl w-100 w-third-l pa2">
 
   <h3 className="bb fl w-100 pv0 f4 lh-copy fw6 ttu tracked">Links</h3>
   <ul className=" v-mid w-100 w-75-l list pl0 ">
@@ -39,7 +39,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
  <li className="mr2"> <Link to="/" className="link white  f6 f5-l dib no-underline underline-hover" title="contact">Contact</Link></li>
     <li className="mr2"> <Link to="/" className="link white  f6 f5-l dib no-underline underline-hover" title="Donate">Donate</Link></li>
   </ul></div>
-  <div className="fl w-100 w-third-l w-third-m pa2 ">
+  <div className="fl w-100 w-third-l pa2 ">
   <h3 className="bb fl w-100 pv0 f4 lh-copy fw6 ttu tracked">Social</h3>
 
   <ul className = "social-links  list pl0" >

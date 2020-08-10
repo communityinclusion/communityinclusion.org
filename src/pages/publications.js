@@ -35,18 +35,9 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 class PublicationsPage extends React.Component {
   render() {
     const { pageContext, location} = this.props;
-    const data = this.props.data.allPubsXlsxSheet1.edges
+ //   const data = this.props.data.allPubsXlsxSheet1.edges
     const { breadcrumb: { crumbs }, } = pageContext
-   // const customCrumbLabel = location.pathname
-  //  .toLowerCase()
-  //  .replace("/", " ")
-  //  .replace("-", " ")
- {
-
-    return (
-      
-   
-      
+    return ( 
       <Layout location={location}>
         <SEO title="ICI Publications" />
         <section className="main-content">
@@ -310,7 +301,6 @@ class PublicationsPage extends React.Component {
   </Layout>
     )
   }
-}
 }
 
 export default PublicationsPage

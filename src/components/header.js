@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import logo from '../images/ici-150w.png'
 // import Search from './search.js'
-import SearchForm from "../components/searchForm"
+import SearchForm from "./searchForm"
 
 
 const Header = ({ siteTitle }) => (
@@ -12,8 +12,8 @@ const Header = ({ siteTitle }) => (
   
 
     <div className = "header" >
-    <div className = "cf mw9 center ph3 ph4-m ph4-l pt3-ns pb3-ns" >
-    <div className = "fl w-10" >
+    <div className = "cf flex justify-around mw9 center ph3 ph4-m ph4-l pt3-ns pb3-ns" >
+    <div className = "fl w-10 header-first" >
     <Link to= "/" className = "dtc v-mid mid-gray link "
     title = "Home" >
   <img className = "dib mw-80 h-auto"
@@ -23,22 +23,20 @@ const Header = ({ siteTitle }) => (
 
     </Link> </div> 
     
-    <div className = "fl w-80 w-70-m w-70-l pl3" >
-    <div className = "banner-text link dim dark-blue b  f5 f3-m f1-l db mb2 mt0-ns mt3 center "
-    href = "/"
-    title = "Home" >
+    <div className = "fl w-80 w-70-m w-60-l pl3 header-second" >
+    <h1 className = "bb-0 banner-text dark-blue b  f5 f3-m f1-l db mb2 mt0-ns mt3 center " >
     Institute
-    for Community Inclusion </div>
-    <span className = "banner-tagline f5 f4-ns dn db-ns f-subheadline dark-blue tracked-mega-l " > { " " }
+    for Community Inclusion </h1>
+    <span className = "banner-tagline f6 f5-m f4-l dn db-ns f-subheadline dark-blue tracked-mega-l " > { " " }
     PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES </span> </div> 
     
-    <div className = "fl w-20 dn dn-m db-l pa2 " >
+    <div className = "fl w-25 dn dn-m db-l pa2 header-third" >
     <div className = "db dtc-l v-mid w-100 w-75-l" >
-    <ul className = "flex-container space-between list pl0 ma0 mb3" >
-    <li className = "flex-item dib br pr1" >
+    <ul className = "flex-container list pl0 ma0 mb2 header-links" >
+    <li className = "flex-item dib pr1" >
    <Link to= "/subscribe/" className="link dim dark-gray f6 dib "
     title = "Subscribe" >
-    Subscribe { " " } </Link> </li> <li className = "flex-item dib br pr1 pl1" > { " " }
+    Subscribe { " " } </Link> </li> <li className = "flex-item dib  pr1 pl1" > { " " }
    <Link to="/about/contact/" className="link dim dark-gray f6 dib "
     title = "Contact" >
     Contact </Link> </li> <li className= "flex-item dib pl1" > { " " }
@@ -46,7 +44,7 @@ const Header = ({ siteTitle }) => (
     title = "Donate" >
     Donate </Link> </li> </ul> </div>
 
-    <ul className = "social-links flex-container space-between list pl0 ma0 mb3" >
+    <ul className = "social-links flex-container list pl0 ma0 mb2" >
     <li className = "flex-item dib" > { " " } <a href = "https://twitter.com/ICInclusion"
     target = "_blank"
     rel = "noopener noreferrer" >
@@ -71,7 +69,7 @@ const Header = ({ siteTitle }) => (
     rel = "noopener noreferrer" >
     <i className = "fab fa-2x fa-youtube" / >
     </a> </li> </ul>
-    <div className = "k--group" >
+    <div className = "k--group ml3" >
 
 <SearchForm />
 

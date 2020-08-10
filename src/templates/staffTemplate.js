@@ -1,12 +1,27 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql } from 'gatsby';
 import Layout from '../components/layout'
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+import SEO from '../components/seo';
 
-
-const StaffProfile = ({ data }) => {
+const StaffProfile = ({ data, pageContext,location  }) => {
+  const {
+    breadcrumb: { crumbs },
+  } = pageContext
+ // const page = data.airtable
   return (
-    <Layout>
+    <Layout location={location}>
+         <SEO
+      title={data.airtable.data.Name}
+    />
         <section className="main-content">
+        <div className="breadcrumbs">
+    <Breadcrumb
+           crumbs={crumbs}
+           crumbSeparator=" / "
+            crumbLabel={data.airtable.data.Name}
+          />
+          </div>
       <div>
       <h1 class="f5 f4-ns fw6 black-70">{data.airtable.data.Name}</h1>
       <h2 class="f6 black-70 fw2 ttu tracked">{data.airtable.data.staff_title}</h2>
