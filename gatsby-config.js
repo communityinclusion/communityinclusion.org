@@ -96,6 +96,12 @@ plugins: [
       name: `images`,
       path: `${__dirname}/src/images`,
     },
+  },   {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `files`,
+      path: `${__dirname}/src/files`,
+    },
   }, 
       {
     resolve: `gatsby-transformer-remark`,
@@ -109,12 +115,12 @@ plugins: [
             markdownCaptions: true,
           },
         },
-        {
-          resolve: `gatsby-remark-embed-snippet`,
-          options: { 
-            directory: `${__dirname}/src/snippets`
-        },
-        },
+       // {
+       //   resolve: `gatsby-remark-embed-snippet`,
+      //    options: { 
+      //      directory: `${__dirname}/src/snippets`
+    //    },
+    //    },
         {
           resolve: `gatsby-remark-prismjs`,
           options: {},

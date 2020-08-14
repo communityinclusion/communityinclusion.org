@@ -32,11 +32,12 @@ const postTemplate = ({ pageContext, data, location  }) => {
             
           />
           </div>
-        <div className="post">
+          <div className="post">
+        <div className="post-title">
           <h1 className="mb1 post-title">{frontmatter.title}</h1>
           <span>{frontmatter.date}</span>
   </div>
-  <article className="cf mt3 postbody">
+  <article className="cf mt3 post-body">
  {/* <div className="fl mr4 pb4">
    <Img className="post-image mw-100" fixed={page.frontmatter.thumbnail.childImageSharp.fixed} /> 
 
@@ -45,11 +46,11 @@ const postTemplate = ({ pageContext, data, location  }) => {
         </article>
         <hr />
       <div className="post-meta">
-          <p className="fl">Tags:</p>    <PostTags className="k--button" tags={frontmatter.tags} />
+           <PostTags className="k--button" tags={frontmatter.tags} />
            
             </div>
 
-
+            </div>
       </section>
 
     </Layout>
@@ -67,16 +68,6 @@ export const pageQuery = graphql`
         title
         tags
         posttype
-        thumbnail {
-          childImageSharp {
-              fixed(width: 300, height: 300) {
-                width
-                height
-                src
-                srcSet
-              } 
-            }
-        }
     }
    }
   }

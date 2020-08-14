@@ -32,8 +32,6 @@ const IndexPage = ({data, location }) => {
          <section className="center bg-gray pa1 ph5-ns">
     <p className="f6 f5-ns tl lh-copy">
     The ICI is a University Center for Excellence in Developmental Disabilities, part of the national network started by President John F. Kennedy.
-{/*UCEDDs work with people with disabilities, members of their families, state and local government agencies, and community providers in projects that provide
-training, technical assistance, service, research, and information sharing, with a focus on building the capacity of communities to sustain all their citizens.*/}
     </p>
   </section>
 

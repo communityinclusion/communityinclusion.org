@@ -16,7 +16,7 @@ class PostTags extends Component
         {tags &&
           tags.map(tag => (
             <li key={tag + `tag`}>
-                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                <Link className="k--badge bg-darkgray" to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
               </li>
           ))}
           </ul>

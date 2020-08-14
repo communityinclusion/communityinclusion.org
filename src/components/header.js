@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
 
     <div className = "header" >
     <div className = "cf flex justify-around mw9 center ph3 ph4-m ph4-l pt3-ns pb3-ns" >
-    <div className = "fl w-10 header-first" >
+    <div className = "fl w-15 header-first" >
     <Link to= "/" className = "dtc v-mid mid-gray link "
     title = "Home" >
   <img className = "dib mw-80 h-auto"
@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
 
     </Link> </div> 
     
-    <div className = "fl w-80 w-70-m w-60-l pl3 header-second" >
+    <div className = "fl w-80 w-70-m w-60-l pl2 header-second" >
     <h1 className = "bb-0 banner-text dark-blue b  f5 f3-m f1-l db mb2 mt0-ns mt3 center " >
     Institute
     for Community Inclusion </h1>
@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
     PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES </span> </div> 
     
     <div className = "fl w-25 dn dn-m db-l pa2 header-third" >
-    <div className = "db dtc-l v-mid w-100 w-75-l" >
+   
     <ul className = "flex-container list pl0 ma0 mb2 header-links" >
     <li className = "flex-item dib pr1" >
    <Link to= "/subscribe/" className="link dim dark-gray f6 dib "
@@ -42,7 +42,7 @@ const Header = ({ siteTitle }) => (
     Contact </Link> </li> <li className= "flex-item dib pl1" > { " " }
     <Link to="/donate/"  className= "link dim dark-gray f6 dib "
     title = "Donate" >
-    Donate </Link> </li> </ul> </div>
+    Donate </Link> </li> </ul>  
 
     <ul className = "social-links flex-container list pl0 ma0 mb2" >
     <li className = "flex-item dib" > { " " } <a href = "https://twitter.com/ICInclusion"
@@ -69,7 +69,7 @@ const Header = ({ siteTitle }) => (
     rel = "noopener noreferrer" >
     <i className = "fab fa-2x fa-youtube" / >
     </a> </li> </ul>
-    <div className = "k--group ml3" >
+    <div className = "k--group ml2" >
 
 <SearchForm />
 

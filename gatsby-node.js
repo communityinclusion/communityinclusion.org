@@ -170,6 +170,9 @@ result.data.allAirtable.edges.forEach(({ node}) => {
 }
 
 
+// Lunr search implementation
+
+
 exports.createResolvers = ({ cache, createResolvers }) => {
   createResolvers({
     Query: {

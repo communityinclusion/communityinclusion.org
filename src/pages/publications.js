@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql} from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import arizona_thumbnail from '../images/thumbnails/Arizona_thumbnail.png'
@@ -16,6 +16,26 @@ import TC_annnual_thumbnail from '../images/thumbnails/TC_annnual_thumbnail.png'
 import TCTP1_thumbnail from '../images/thumbnails/TCTP1_thumbnail.png'
 import SELN_unpaid_work_thumbnail from '../images/thumbnails/SELN_unpaid_work_thumbnail.png'
 import cle_toolkit_thumbnail from '../images/thumbnails/cle_toolkit_thumbnail.png'
+
+import depression_thumbnail from '../images/thumbnails/depression_DS_F2-1-thumb.png'
+import adhd_thumbnail from '../images/thumbnails/ADHD_F_web-1-thumb.png'
+import communications_thumbnail from '../images/thumbnails/communications-booklet_2016-update-1-thumb.png'
+import ds_brochure_thumbnail from '../images/thumbnails/DS-brochure_2014_web_F-1-thumb.png'
+import literacy_infants_thumbnail from '../images/thumbnails/literacy_infants_F-thumb.png'
+import literacy_youngchild_thumbnail from '../images/thumbnails/literacy_youngchild_F-thumb.png'
+import literacy_schoolage_thumbnail from '../images/thumbnails/literacy_schoolage_F-thumb.png'
+import literacy_teens_thumbnail from '../images/thumbnails/literacy_teens_F-thumb.png'
+
+
+import depression_pdf from '../files/depression_DS_F2.pdf'
+import adhd_pdf from '../files/ADHD_F_web.pdf'
+import communications_pdf from '../files/communications_booklet_2016_update.pdf'
+import ds_brochure_pdf from '../files/DS_brochure_2014_web_F.pdf'
+import literacy_infants_pdf from '../files/literacy_infants_F.pdf'
+import literacy_youngchild_pdf from '../files/literacy_youngchild_F.pdf'
+import literacy_schoolage_pdf from '../files/literacy_schoolage_F.pdf'
+import literacy_teens_pdf from '../files/literacy_teens_F.pdf'
+
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import {
   Accordion,
@@ -144,11 +164,102 @@ class PublicationsPage extends React.Component {
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                    <p>
-                        In ad velit in ex nostrud dolore cupidatat consectetur
-                        ea in ut nostrud velit in irure cillum tempor laboris
-                        sed adipisicing eu esse duis nulla non.
-                    </p>
+                <article className="card">
+    <div className="flex flex-column flex-row-ns">
+    <div className="card-image">
+    <img src={adhd_thumbnail}  alt = "publication thumbnail"/>
+    </div>
+    <div className="card-body">
+   <h2 className="card-title"><a href={adhd_pdf}>ADHD: Practical Tips for Parents</a></h2>
+   <p className="card-text">This short, accessible guide offers tips to parents around navigating their child’s Attention Deficit Hyperactivity Disorder.</p>
+</div>
+</div>
+ 
+         </article>
+         <article className="card">
+         <div className="flex flex-column flex-row-ns">
+         <div className="card-image">
+         <img src={communications_thumbnail}  alt = "publication thumbnail"/>
+         </div>
+         <div className="card-body">
+   <h2 className="card-title"> <a href={communications_pdf}>Early Communication Development & Down Syndrome</a>  </h2>
+   <p className="card-text">This guide informs parents about how Down syndrome can affect communication, and actions they can take to support their child.</p>
+ </div>
+ </div>
+         </article>
+         <article className="card">
+         <div className="flex flex-column flex-row-ns">
+         <div className="card-image">
+         <img src={depression_thumbnail}  alt = "publication thumbnail"/>
+         </div>
+         <div className="card-body">
+    <h2 className="card-title"><a href={depression_pdf}>Consider the Depression & Down Syndrome</a>  </h2>
+    <p className="card-text">This brochure shares tips for family members about identifying depression and supporting the mental health of their loved one with Down syndrome.</p>
+ </div>
+ </div>
+         </article>
+
+         <article className="card">
+         <div className="flex flex-column flex-row-ns">
+         <div className="card-image">
+         <img src={ds_brochure_thumbnail}  alt = "publication thumbnail"/>
+         </div>
+         <div className="card-body">
+    <h2 className="card-title"><a href={ds_brochure_pdf}>Behavior and Down Syndrome: A Practical Guide for Parents</a>  </h2>
+    <p className="card-text">This publication supports parents in understanding and responding to behavioral issues of their child with Down syndrome.</p>
+ </div>
+ </div>
+         </article>
+         <article className="card">
+         <div className="flex flex-column flex-row-ns">
+         <div className="card-image">
+         <img src={literacy_infants_thumbnail}  alt = "publication thumbnail"/>
+         </div>
+         <div className="card-body">
+   <h2 className="card-title"><a href={literacy_infants_pdf}>Building Literacy Skills from Infancy to Adulthood: Infants & Toddlers</a>  </h2>
+   <p className="card-text">This one-pager offers research-supported tips for building literacy skills with children from birth to age 2.</p>
+ </div>
+ </div>
+               </article>
+
+               <article className="card">
+               <div className="flex flex-column flex-row-ns">
+               <div className="card-image">
+               <img src={literacy_youngchild_thumbnail}  alt = "publication thumbnail"/>
+               </div>
+               <div className="card-body">
+    <h2 className="card-title"><a href={literacy_youngchild_pdf}>Building Literacy Skills from Infancy to Adulthood: Young Children</a></h2>
+    <p className="card-text">This one-pager offers research-supported tips for building literacy skills with pre-school-age children.</p>
+ </div>
+ </div>
+         </article>
+ 
+
+               <article className="card">
+               <div className="flex flex-column flex-row-ns">
+               <div className="card-image">
+               <img src={literacy_schoolage_thumbnail}  alt = "publication thumbnail"/>
+               </div>
+               <div className="card-body">
+    <h2 className="card-title"><a href={literacy_schoolage_pdf}>Building Literacy Skills from Infancy to Adulthood: School-age Children</a></h2>
+    <p className="card-text">This one-pager offers research-supported tips for building literacy skills with children from Grade 1 through the pre-teen years.</p>
+ </div>
+ </div>
+         </article>
+         
+  
+
+               <article className="card">
+               <div className="flex flex-column flex-row-ns">
+               <div className="card-image">
+               <img src={literacy_teens_thumbnail}  alt = "publication thumbnail"/>
+               </div>
+               <div className="card-body">
+    <h2 className="card-title"><a href={literacy_teens_pdf}>Building Literacy Skills from Infancy to Adulthood: Teens and Beyond</a></h2>
+    <p className="card-text">This one-pager offers research-supported tips for building literacy skills with adolescents.</p>
+ </div>
+ </div>
+         </article>
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
@@ -305,19 +416,14 @@ class PublicationsPage extends React.Component {
 
 export default PublicationsPage
 
-
 export const IndexQuery = graphql`
-  query {
-    allPubsXlsxSheet1{
-      edges {
-        node {
-          id
-          title
-          abstract
-          authors
-          download_url
-        }
+query  {
+  allFile(filter: {extension: {eq: "pdf"}}) {
+    edges {
+      node {
+        publicURL
       }
     }
   }
+}
 `
