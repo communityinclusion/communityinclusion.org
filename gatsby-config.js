@@ -1,18 +1,22 @@
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
+const config = require('./config')
+
+const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
+
+// console.log("GATSBY PATH PREFIX: ", pathPrefix)
 //if (!process.env.GATSBY_AIRTABLE_APIKEY) {
 //  throw new Error("process.env.GATSBY_AIRTABLE_APIKEY is undefined.")
 // }
 
 
 module.exports = {
-pathPrefix: '/ici-dev',
 siteMetadata: {
-  siteUrl: "http://localhost:8000",
-  title: `The Institute for Community Inclusion at UMass Boston`,
-  description: `For over 40 years, the Institute for Community Inclusion (ICI) has worked to ensure that people with disabilities have the same opportunity to dream big, and make their dreams a fully included, integrated, and welcomed reality.`,
-  author: `@gatsbyjs`,
+  siteUrl: config.siteUrl + pathPrefix,
+  title: config.siteTitle,
+  description: config.siteDescription,
+  author: config.siteAuthor,
 },
 plugins: [
   {
@@ -102,11 +106,21 @@ plugins: [
       name: `files`,
       path: `${__dirname}/src/files`,
     },
-  }, 
+  },    {
+    resolve: 'gatsby-plugin-web-font-loader',
+    options: {
+      google: {
+        families: ['Open Sans', 'Montserrat']
+      }
+    }
+  },
       {
     resolve: `gatsby-transformer-remark`,
     options: {
       plugins: [
+      //  {
+      //    resolve: `gatsby-remark-relative-images`,
+     //   },
         {
           resolve: `gatsby-remark-images`,
           options: {
@@ -115,12 +129,6 @@ plugins: [
             markdownCaptions: true,
           },
         },
-       // {
-       //   resolve: `gatsby-remark-embed-snippet`,
-      //    options: { 
-      //      directory: `${__dirname}/src/snippets`
-    //    },
-    //    },
         {
           resolve: `gatsby-remark-prismjs`,
           options: {},
@@ -163,7 +171,6 @@ plugins: [
               embedURL: (videoId) => `http://fast.wistia.net/embed/iframe/${videoId}`,
             }
           ]
-       
           //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
         }
       },
@@ -178,15 +185,21 @@ plugins: [
 },
         `gatsby-plugin-sharp`,
         `gatsby-transformer-sharp`, 
+        {
+          resolve: `gatsby-plugin-material-ui`,
+          options: {
+            stylesProvider: {
+              injectFirst: true,
+            },
+          },
+        },
   `gatsby-plugin-styled-components`,
   
 
   // this (optional) plugin enables Progressive Web App + Offline functionality
   // To learn more, visit: https://gatsby.dev/offline
- // `gatsby-plugin-offline`,
 
-
-// `gatsby-plugin-remove-trailing-slashes`,
+//`gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-breadcrumb`,
       options: {
@@ -215,5 +228,7 @@ plugins: [
       // usePathPrefix: '/news',
       },
     },
+    `gatsby-plugin-offline`,
 ],
+pathPrefix: '/ici-dev',
 }

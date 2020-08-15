@@ -21,7 +21,7 @@ const NewsPage = ({ data, pageContext,location }) => {
       : `${pathPrefix}/${(currentPage - 1).toString()}`;
   const nextPage = `${pathPrefix}/${(currentPage + 1).toString()}`;
   return (
-    <Layout>
+    <Layout location={location}>
       
        <SEO title="New at ICI" />
        <section className="main-content">
@@ -48,28 +48,10 @@ const NewsPage = ({ data, pageContext,location }) => {
                 {post.node.frontmatter.title}
                 </Link>
                 </h2>
-                {/* 
-              {post.node.frontmatter.tags ? (
-                <div className="tags-container">
-                  <ul className="taglist">
-                    {post.node.frontmatter.tags.map(tag => (
-                      <li key={tag + `tag`}>
-                        <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ) : null}
-              */}
               <p>{post.node.frontmatter.date}</p>
               <div className="post-list__excerpt">
                 <p>{post.node.excerpt}</p>
               </div>
-             {/* 
-              <Link className="button button--small" to={post.node.fields.slug}>
-                Read More
-              </Link>
-              */}
             </div>
           </div>
         ))}
@@ -105,12 +87,10 @@ export default NewsPage;
 
 // Get all markdown files, in descending order by date, and grab the id, excerpt, slug, date, and title
 export const pageQuery = graphql`
-  query($skip: Int!, $limit: Int!) {
+{
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC },
       filter: { frontmatter: {posttype: {eq: "news"}}},
-      limit: $limit
-      skip: $skip
     ) {
       edges {
         node {

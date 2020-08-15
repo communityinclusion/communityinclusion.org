@@ -6,7 +6,7 @@ import logo from '../images/ici-150w.png'
 import SearchForm from "./searchForm"
 
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
 
 	<div>
   

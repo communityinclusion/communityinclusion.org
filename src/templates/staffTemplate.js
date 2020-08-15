@@ -23,8 +23,8 @@ const StaffProfile = ({ data, pageContext,location  }) => {
           />
           </div>
       <div>
-      <h1 class="f5 f4-ns fw6 black-70">{data.airtable.data.Name}</h1>
-      <h2 class="f6 black-70 fw2 ttu tracked">{data.airtable.data.staff_title}</h2>
+      <h1 className="f5 f4-ns fw6 black-70">{data.airtable.data.Name}</h1>
+      <h2 className="f6 black-70 fw2 ttu tracked">{data.airtable.data.staff_title}</h2>
       
       <p> {data.airtable.data.staff_ed}</p>
       <p>{data.airtable.data.staff_bio}</p>

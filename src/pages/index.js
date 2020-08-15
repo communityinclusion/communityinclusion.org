@@ -28,7 +28,6 @@ const IndexPage = ({data, location }) => {
 
   <Layout location={location} title={siteTitle}>
     <Image />
-  
          <section className="center bg-gray pa1 ph5-ns">
     <p className="f6 f5-ns tl lh-copy">
     The ICI is a University Center for Excellence in Developmental Disabilities, part of the national network started by President John F. Kennedy.
@@ -127,19 +126,6 @@ const IndexPage = ({data, location }) => {
            {post.node.frontmatter.title}
             </Link>
            </h2>
-       {/* 
-         {post.node.frontmatter.tags ? (
-                <div className="tags-container">
-                  <ul className="taglist">
-                    {post.node.frontmatter.tags.map(tag => (
-                      <li key={tag + `tag`}>
-                        <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ) : null}
-              */}
          <div className="post-list__excerpt">
            <p>{post.node.excerpt}</p>
          </div>

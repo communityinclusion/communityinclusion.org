@@ -519,7 +519,7 @@
     font-weight: 200;
     letter-spacing: -.02em;
     line-height: 1.5;
-    padding: .5rem;
+    padding: .5rem 2rem;
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
     width: 100%;

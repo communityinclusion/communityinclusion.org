@@ -1,7 +1,7 @@
 /* src/components/search-form.js */
 import React, {useState, useRef } from "react"
 //import { navigate } from "@reach/router"
-import { navigateTo } from "gatsby"
+import { navigate } from "gatsby"
 const SearchForm = ({ initialQuery = "" }) => {
   // Create a piece of state, and initialize it to initialQuery
   // query will hold the current value of the state,
@@ -19,7 +19,7 @@ const SearchForm = ({ initialQuery = "" }) => {
   const handleSubmit = e => {
     e.preventDefault()
     const q = inputEl.current.value
-    navigateTo(`/search?q=${q}`)
+    navigate(`/search?q=${q}`)
   }
   return (
     <form role="search" className="inline-flex" onSubmit={handleSubmit}>

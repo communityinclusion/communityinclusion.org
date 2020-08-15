@@ -1,9 +1,9 @@
 const path = require('path')
 const _ = require('lodash')
 const { createFilePath } = require('gatsby-source-filesystem')
+const { GraphQLJSONObject } = require(`graphql-type-json`)
 const striptags = require(`striptags`)
 const lunr = require(`lunr`)
-const { GraphQLJSONObject } = require(`graphql-type-json`)
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
 const sharp = require('sharp')
@@ -37,7 +37,7 @@ if (node.internal.type === `Airtable` && node.table === `Staff`)
 }
 }
 
-exports.createPages = async ({ actions, graphql }) => {
+exports.createPages = async function ({ actions, graphql }) {
 
 console.log("====================================");
 console.log(`createPages entered`);
@@ -157,7 +157,8 @@ result.data.allAirtable.edges.forEach(({ node}) => {
       path: i === 0 ? `/news` : `/news/${i + 1}`,
       component: postListTemplate,
        context: {
-         title: 'All Posts',
+        title: 'All Posts',
+        length : posts.length,
         limit: postsPerPage,
         skip: i * postsPerPage,
          numPages,
