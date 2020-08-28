@@ -4,7 +4,7 @@ const { createFilePath } = require('gatsby-source-filesystem')
 const { GraphQLJSONObject } = require(`graphql-type-json`)
 const striptags = require(`striptags`)
 const lunr = require(`lunr`)
-const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+const { fmImagesToRelative } = require('gatsby-remark-relative-images-v2')
 
 const sharp = require('sharp')
 
