@@ -6,7 +6,7 @@ module.exports = {
   siteShortDescription: '',
   siteKeywords: 'comma, separated, list', // Replace this with your SEO keywords
   siteUrl: 'http://localhost:8000',
-  pathPrefix: '/ici-dev',
+  pathPrefix: '/',
   siteLanguage: 'en',
   get copyright() {
     return `Copyright \u00A9 ${new Date().getFullYear()} ${this.siteAuthor}`;
