@@ -116,13 +116,9 @@ const IndexPage = ({data, location }) => {
        <div key={post.node.id} className="post-list__item bb b--black-10 ">
        <div className="post-list__thumbnail">
          <Link to={post.node.fields.slug}>
-         {
-            post.node.frontmatter.thumbnail
-            && (
-            <Img fixed={post.node.frontmatter.thumbnail.childImageSharp.fixed}
-            />
-            )
-          }
+           <Img
+             fixed={post.node.frontmatter.thumbnail.childImageSharp.fixed}
+           />
          </Link>
        </div>
        <div className="post-list__content">
