@@ -118,9 +118,9 @@ plugins: [
     resolve: `gatsby-transformer-remark`,
     options: {
       plugins: [
-      //  {
-      //    resolve: `gatsby-remark-relative-images`,
-     //   },
+      {
+       resolve: `gatsby-remark-relative-images-v2`,
+      },
         {
           resolve: `gatsby-remark-images`,
           options: {

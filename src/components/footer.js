@@ -106,6 +106,10 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
     title = "Donate" >
     Donate </Link> </li>
      </ul>
+     <p>
+  <a href="https://www.netlify.com">
+    <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" />
+  </a></p>
     </div>
     </div>
  
