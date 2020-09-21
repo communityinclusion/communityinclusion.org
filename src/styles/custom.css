@@ -587,21 +587,22 @@ h1.post-title {
 	max-width: 300px;
 }
 
-.stafftable {
+
+.pagetemplate table {
 	border-collapse: collapse;
 	width: 100%;
   }
   
-  .stafftable td, #customers th {
+  .pagetemplate table td, .pagetemplate table th {
 	border: 1px solid #ddd;
 	padding: 8px;
   }
   
-  .stafftable tr:nth-child(even){background-color: #f2f2f2;}
+  .pagetemplate table tr:nth-child(even){background-color: #f2f2f2;}
   
-  .stafftable tr:hover {background-color: #ddd;}
+  .pagetemplate table tr:hover {background-color: #ddd;}
   
-  .stafftable th {
+  .pagetemplate table th {
 	padding-top: 12px;
 	padding-bottom: 12px;
 	text-align: left;

@@ -1,9 +1,9 @@
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
-const config = require('./config')
+//const config = require('./config')
 
-const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
+// const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
 
 // console.log("GATSBY PATH PREFIX: ", pathPrefix)
 //if (!process.env.GATSBY_AIRTABLE_APIKEY) {
@@ -12,11 +12,13 @@ const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
 
 
 module.exports = {
+  pathPrefix:'/',
 siteMetadata: {
-  siteUrl: config.siteUrl + pathPrefix,
-  title: config.siteTitle,
-  description: config.siteDescription,
-  author: config.siteAuthor,
+  siteUrl: 'https://icibeta.netlify.app',
+  title: 'Institute for Community Inclusion',
+  description: 'The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society.',
+  keywords: 'Community Inclusion, UMB, Disabilities',
+  author: '@ICInclusion',
 },
 plugins: [
   {
@@ -230,5 +232,4 @@ plugins: [
     },
     `gatsby-plugin-offline`,
 ],
-pathPrefix: '/ici-dev',
 }

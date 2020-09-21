@@ -24,9 +24,9 @@ const Header = () => (
     </Link> </div> 
     
     <div className = "fl w-80 w-70-m w-60-l pl2 header-second" >
-    <h1 className = "bb-0 banner-text dark-blue b  f5 f3-m f1-l db mb2 mt0-ns mt3 center " >
+    <p className = "bb-0 banner-text dark-blue b  f5 f3-m f1-l db mb2 mt0-ns mt3 center " >
     Institute
-    for Community Inclusion </h1>
+    for Community Inclusion </p>
     <span className = "banner-tagline f6 f5-m f4-l dn db-ns f-subheadline dark-blue tracked-mega-l " > { " " }
     PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES </span> </div> 
     

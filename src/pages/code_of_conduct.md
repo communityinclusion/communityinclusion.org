@@ -1,4 +1,11 @@
-# Contributor Covenant Code of Conduct
+---
+title: "Contributor Covenant Code of Conduct"
+path: "/code_of_conduct"
+date: "2019-04-05"
+thumbnail: "../images/ICI.png"
+posttype: "page"
+---
+
 
 ## Our Pledge
 
@@ -67,9 +74,9 @@ members of the project's leadership.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/), version 1.4,
+available at [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html)
 
-[homepage]: https://www.contributor-covenant.org
+homepage: [https://www.contributor-covenant.org](https://www.contributor-covenant.org)
 
-For answers to common questions about this code of conduct, see https://www.contributor-covenant.org/faq
+For answers to common questions about this code of conduct, see [https://www.contributor-covenant.org/faq](https://www.contributor-covenant.org/faq)

@@ -21,7 +21,7 @@ const postTemplate = ({ pageContext, data, location  }) => {
     <Layout location={location}>
          <SEO
       title={page.frontmatter.title}
-      description={page.frontmatter.description || page.excerpt || 'nothin’'}
+      description={page.frontmatter.description || page.excerpt}
     />
       <section className="main-content posttemplate">
       <div className="breadcrumbs">
@@ -63,6 +63,7 @@ export const pageQuery = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
+      excerpt
       frontmatter {
         date(formatString: "MMMM Do, YYYY")
         title

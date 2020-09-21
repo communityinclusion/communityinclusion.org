@@ -27,6 +27,7 @@ const IndexPage = ({data, location }) => {
 
 
   <Layout location={location} title={siteTitle}>
+ 
     <Image />
          <section className="center bg-gray pa1 ph5-ns">
     <p className="f6 f5-ns tl lh-copy">
@@ -105,7 +106,7 @@ const IndexPage = ({data, location }) => {
 
 <div className="cf">
 <div className="fl w-100-m w-75-ns bg-white pa3">
-<section className="mw7 center">
+<section className="center">
         <h2 className="bb bw1">
           New at ICI
         </h2>

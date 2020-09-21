@@ -9,8 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import seoImage from '../images/ICI.png'
 
-function SEO({ description, lang, meta, keywords, title }) {
+const SEO = ({ description, lang, keywords, meta, title }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -18,12 +19,16 @@ function SEO({ description, lang, meta, keywords, title }) {
           siteMetadata {
             title
             description
+            keywords
+            author
+            siteUrl
           }
         }
       }
     `
   )
 
+  const defaultTitle = site.siteMetadata?.title
   const metaDescription = description || site.siteMetadata.description
 
   return (
@@ -32,7 +37,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
       meta={[
         {
           name: `description`,
@@ -66,19 +71,27 @@ function SEO({ description, lang, meta, keywords, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
-      ]
-        .concat(
-          keywords.length > 0
-            ? {
-                name: `keywords`,
-                content: keywords.join(`, `),
-              }
-            : []
-        )
-        .concat(meta)}
-    />
-  )
-}
+        {
+          property: 'og:image',
+          content: `${site.siteMetadata.siteUrl}${seoImage}`,
+        },
+        {
+          name: 'twitter:image',
+          content: `${site.siteMetadata.siteUrl}${seoImage}`,
+        },
+            ].concat(
+              keywords.length > 0
+                ? {
+                    name: `keywords`,
+                    content: keywords.join(`, `),
+                  }
+                : []
+            ).concat(meta)}
+        />
+
+      )
+    }
+    
 
 SEO.defaultProps = {
   lang: `en`,

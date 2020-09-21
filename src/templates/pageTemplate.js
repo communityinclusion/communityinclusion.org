@@ -23,7 +23,7 @@ return (
   <Layout location={location}>
           <SEO
       title={page.frontmatter.title}
-      description={page.frontmatter.description || page.excerpt || 'nothin’'}
+      description={page.frontmatter.description || page.excerpt}
     />
       <section className="main-content pagetemplate">
       <div className="breadcrumbs">
@@ -49,6 +49,7 @@ export default pageTemplate;
 export const pageQuery = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
+      excerpt
       html
       frontmatter {
         title
