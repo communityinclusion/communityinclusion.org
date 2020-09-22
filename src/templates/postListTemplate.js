@@ -6,13 +6,15 @@ import Img from 'gatsby-image';
 import SEO from '../components/seo';
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
+
 const NewsPage = ({ data, pageContext,location }) => {
   const posts = data.allMarkdownRemark.edges;
-  const { currentPage, numPages } = pageContext;
-  const {
-    breadcrumb: { crumbs },
-  } = pageContext
-  const pathPrefix = 'news';
+  const { currentPage, numPages,
+    breadcrumb: { crumbs } 
+  }
+   = pageContext;
+   console.log(crumbs);
+  const pathPrefix = '/news';
   const isFirst = currentPage === 1;
   const isLast = currentPage === numPages;
   const prevPage =
@@ -20,6 +22,7 @@ const NewsPage = ({ data, pageContext,location }) => {
       ? `${pathPrefix}/`
       : `${pathPrefix}/${(currentPage - 1).toString()}`;
   const nextPage = `${pathPrefix}/${(currentPage + 1).toString()}`;
+  const customCrumbLabel = location.pathname.replace("/news/", "")
   return (
     <Layout location={location}>
       
@@ -29,7 +32,7 @@ const NewsPage = ({ data, pageContext,location }) => {
     <Breadcrumb
            crumbs={crumbs}
            crumbSeparator=" / "
-            crumbLabel={currentPage}
+           crumbLabel={customCrumbLabel}
           />
           </div>
         <h1>New at ICI</h1>
@@ -87,10 +90,12 @@ export default NewsPage;
 
 // Get all markdown files, in descending order by date, and grab the id, excerpt, slug, date, and title
 export const pageQuery = graphql`
-{
+query($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC },
       filter: { frontmatter: {posttype: {eq: "news"}}},
+      limit: $limit,
+      skip: $skip
     ) {
       edges {
         node {
