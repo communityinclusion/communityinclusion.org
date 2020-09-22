@@ -3,7 +3,7 @@ title: "Accessibility Statement"
 path: "/about/accessibility"
 date: 2018-12-29
 posttype: "page"
-thumbnail: "../../images/alberto1.jpg"
+thumbnail: '../../images/ICI.png'
 ---
 
 We are committed to making this site accessible to all our users. We adhere to Section 508 of the Rehabilitation Act and the W3C Web Content Accessibility Guidelines.

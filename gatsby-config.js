@@ -62,8 +62,12 @@ plugins: [
       enabled: (() => ["production", "stage"].indexOf(process.env.NODE_ENV) !== -1)()
     }
   },
-
-  
+  {
+    resolve: `gatsby-plugin-canonical-urls`,
+    options: {
+      siteUrl: `https://icibeta.netlify.app`,
+    },
+  },
   {	resolve: `gatsby-source-filesystem`,
     options: {
       raw: false,

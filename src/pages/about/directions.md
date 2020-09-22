@@ -3,7 +3,7 @@ title: "Directions"
 path: "/directions"
 posttype: "page"
 date: 2018-12-29
-thumbnail: "../../images/cat.jpeg"
+thumbnail: '../../images/ICI.png'
 ---
 
 > To keep our staff and others healthy and safe, the Institute for Community Inclusion is following social distancing protocols issued by UMass Boston and state officials. Our physical office is currently closed. Our staff are working remotely and available via email. Our main phone line will also be monitored regularly: 617-287-4300. Stay well!

@@ -3,7 +3,7 @@ title: "Employment"
 date: 2018-12-29
 path: "/areas-of-emphasis/employment"
 posttype: "page"
-thumbnail: "../../images/cat.jpeg"
+thumbnail: '../../images/ICI.png'
 ---
 
 * Support For Job Seekers

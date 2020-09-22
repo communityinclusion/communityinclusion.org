@@ -3,7 +3,7 @@ title: "History"
 path: "/about/history"
 posttype: "page"
 date: 2018-12-29
-thumbnail: "../../images/alberto1.jpg"
+thumbnail: '../../images/ICI.png'
 ---
 
 The origins of ICI came with the launch of the Developmental Evaluation Clinic (DEC) at [Boston Children’s Hospital](http://www.childrenshospital.org/). The clinic opened its doors in 1967 with a mission of serving children with intellectual and developmental disabilities and their families. Under the leadership of Dr. Allen C. Crocker, the clinic received additional federal funding and collaborated with state agencies in Massachusetts to provide broader-ranging support to children and families with disabilities.

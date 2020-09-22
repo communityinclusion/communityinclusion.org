@@ -3,7 +3,7 @@ title: "Mission"
 path: "/about/mission"
 posttype: "page"
 date: 2018-12-29
-thumbnail: "../../images/alberto1.jpg"
+thumbnail: '../../images/ICI.png'
 ---
 
 

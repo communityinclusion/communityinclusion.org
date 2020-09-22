@@ -3,7 +3,7 @@ title: "Privacy Policy"
 path: "/about/privacy"
 posttype: "page"
 date: 2018-12-29
-thumbnail: "../../images/cat.jpeg"
+thumbnail: '../../images/ICI.png'
 ---
 
 

@@ -3,7 +3,7 @@ title: "Education"
 date: 2018-12-29
 path: "/areas-of-emphasis/education"
 posttype: "page"
-thumbnail: "../../images/cat.jpeg"
+thumbnail: '../../images/ICI.png'
 ---
 
 The ICI’s Education and Transition Team works with professionals, students, and families in Massachusetts and nationwide on college and career development for adolescents and young adults with disabilities. Our work is driven by a strong emphasis on person-centered planning, a powerful approach that leads students to form their postsecondary goals. Self-determination and self-advocacy, foundational skills, inclusive education, and evidence-based practices in secondary education and transition services are the cornerstones of our work.

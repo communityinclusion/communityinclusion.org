@@ -2,6 +2,7 @@
 title: "Community Life"
 date: 2018-12-29
 path: "/areas-of-emphasis/community"
+thumbnail: '../../images/ICI.png'
 posttype: "page"
 ---
 
