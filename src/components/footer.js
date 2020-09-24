@@ -12,7 +12,7 @@ const Footer = () => (
     
   <h3 className="bb fl w-100 pv0 f4 lh-copy ttu tracked">Contact</h3>
     <article className="fl dib-ns w-auto-ns mr4-m mr5-l pr2 pr0-ns tl">
-      <address>Institute for Community Inclusion<br />
+      <address class="fs-normal">Institute for Community Inclusion<br />
 UMass Boston<br />
 100 Morrissey Blvd.<br />
 Boston, Massachusetts 02125<br />
@@ -87,7 +87,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
      </div> 
       <div className="fl w-50-l w-100 v-mid white ph3">
    
-      <p className="white">©2019 The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital.</p>
+      <p className="white">©2020 The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital.</p>
     </div>
    
   

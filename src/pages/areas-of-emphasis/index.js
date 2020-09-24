@@ -86,7 +86,7 @@ export const  AreasofEmphasis = ({ pageContext, location }) => {
   </div>
 <div className="w-100 w-70-ns">
         <Link className="link dt w-100 mt2 dim dark-blue" to="/areas-of-emphasis/community">
-    <h2 className="f3 fw1 mt0 lh-copy bb bw2">Community</h2>
+    <h2 className="f3 fw1 mt0 lh-copy bb bw2">Community Life</h2>
        </Link>
     <p className="f6 f5-l mt0 lh-copy">Outside of work and school, people with disabilities are involved in a wide range of activities that make up a satisfying life. Whether it’s volunteering at a music festival, getting involved with a faith community, or attending a sports event, there’s much more to life than a job.
 </p>
@@ -104,7 +104,7 @@ export const  AreasofEmphasis = ({ pageContext, location }) => {
 
 <div className="w-100 w-70-ns">
         <Link className="link dt w-100 mt2 dim dark-blue" to="/areas-of-emphasis/healthcare">
-    <h2 className="f3 fw1 mt0 lh-copy bb bw2">	Healthcare</h2>
+    <h2 className="f3 fw1 mt0 lh-copy bb bw2">	Health Care</h2>
        </Link>
     <p className="f6 f5-l mt0 lh-copy">Accessing quality health care enables us to live productively and to receive support when facing mental, behavioral, or physical challenges. For people with disabilities, equitable health care can require additional advocacy and planning. </p>
 

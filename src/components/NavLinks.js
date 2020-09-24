@@ -111,10 +111,7 @@ const activeLinkStyle = {
 
   </div>
 </li>
-<li className="top-level-link">
-  <Link to="/publications" activeStyle={activeLinkStyle} partiallyActive={true}><span>Publications</span></Link>
-</li>
- {/* 
+
  <li className="top-level-link">
    <Link to="/services" activeStyle={activeLinkStyle} partiallyActive={true}><span>Services</span></Link>
       <div className="sub-menu-block">
@@ -138,10 +135,15 @@ const activeLinkStyle = {
     </div>
     </div>
 </li>
+{/*
  <li className="top-level-link">
   <Link to="/resources" activeStyle={activeLinkStyle}><span>Resources</span></Link>
 </li>
 */} 
+<li className="top-level-link">
+  <Link to="/publications" activeStyle={activeLinkStyle} partiallyActive={true}><span>Publications</span></Link>
+</li>
+
 <li className="top-level-link desktop-nav">
  <Link to="/search" activeStyle={activeLinkStyle} partiallyActive={true}><span>Search</span></Link> 
 </li> 

@@ -148,7 +148,7 @@ const StyleGuide = () => (
 <h2>Figure-Caption</h2>
 
 <figure>
-  <img src="http://placehold.it/350x150" alt="A placeholder figure." />
+  <img src="https://placehold.it/350x150" alt="A placeholder figure." />
   <figcaption>The figcaption element example</figcaption>
 </figure>
 
@@ -163,7 +163,7 @@ const StyleGuide = () => (
 
 <h1 id="text-elements">Text Elements</h1>
 
-<p>The <a href="http://example.com">a element</a> and <a href="http://example.com" target="_blank" rel="noopener noreferrer">a:hover</a> examples</p>
+<p>The <a href="https://example.com">a element</a> and <a href="https://example.com" target="_blank" rel="noopener noreferrer">a:hover</a> examples</p>
 <p>The <em>em element</em> example</p>
 <p>The <small>small element</small> example</p>
 <p>The <span>span element</span> example</p>
