@@ -16,26 +16,32 @@ import bchlend from '../../images/bch-lend-logo.png'
 import bchds from '../../images/bch-ds-logo.png'
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
-export const Projects = ({ pageContext, location }) => {
+export const Projects = ({ pageContext, location, title }) => {
   const {
     breadcrumb: { crumbs },
   } = pageContext
 
-  // Example of dynamically using location prop as a crumbLabel
-  const customCrumbLabel = location.pathname
-    .toLowerCase()
-    .replace("/", " ")
-    .replace("-", " ")
+  const disableLinks = [
+    "/seln", 
+]
+  const customCrumbLabel = location.pathname.toLowerCase()
+  .replace("Of", "of")
+  const crumbLabelArr = customCrumbLabel.split('/');
+ 
+
+    const label = crumbLabelArr[crumbLabelArr.length - 1]
+    const labelArr = label.split('-');
   return (
   <Layout>
    <section className="main-content">
    <SEO title="Projects" />
    <div className="breadcrumbs">
    <Breadcrumb
-            crumbs={crumbs}
-            crumbSeparator=" / "
-            crumbLabel={customCrumbLabel}
-          />
+                title={title}
+                crumbs={crumbs}
+                crumbLabel={labelArr.join(' ')}  
+                disableLinks={disableLinks}          
+            />
             </div>
     <h1>Projects</h1>
 

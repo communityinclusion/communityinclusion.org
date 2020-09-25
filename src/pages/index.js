@@ -50,7 +50,7 @@ const IndexPage = ({data, location }) => {
   <h3 className="f3 white  dib v-mid pl2">     Employment</h3>
   </div>
   <div className="pa3">
-    <p className="f6 f5-ns lh-copy measure mv0">
+    <p className="f6 f5-ns lh-copy">
   Building a rewarding career in the community should be an expectation for all citizens. With support and planning, people with significant disabilities can thrive in the workplace.
     </p>
   </div>
@@ -64,7 +64,7 @@ const IndexPage = ({data, location }) => {
   <h3 className="f3 white dib v-mid pl2"> Education</h3>
   </div>
   <div className="pa3">
-    <p className="f6 f5-ns lh-copy measure mv0">
+    <p className="f6 f5-ns lh-copy">
  From pre-K through university, schools are engaging and involving students with a range of disabilities. By building skills early, young people can exit high school prepared to pursue higher education and find jobs that match their interests.
     </p>
   </div>
@@ -76,10 +76,10 @@ const IndexPage = ({data, location }) => {
 <article className="flex-1 shadow-4 ma3  w-90 ">
 <div className="bg-red mv0 ph3 ">
 <img src={community_logo} className="dib v-mid" alt = "Community icon" /> 
-  <h3 className="f3 white dib v-mid pl2"> Community</h3>
+  <h3 className="f3 white dib v-mid pl2"> Community Life</h3>
  </div>
   <div className="pa3">
-    <p className="f6 f5-ns lh-copy measure mv0">
+    <p className="f6 f5-ns lh-copy ">
  Outside of work and school, people with disabilities are involved in a wide range of activities that make up a satisfying life. Whether it’s volunteering at a music festival, getting involved with a faith community, or attending a sports event, there’s much more to life than a job.
     </p>
   </div>
@@ -211,7 +211,7 @@ allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {fr
       }
     }
   }
-  allAirtable {
+  allAirtable (sort: {fields: data___staff_lname}) {
     nodes {
       recordId
       fields {
@@ -219,6 +219,7 @@ allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {fr
       }
       data {
         Name
+        staff_lname
       }
     }
   }

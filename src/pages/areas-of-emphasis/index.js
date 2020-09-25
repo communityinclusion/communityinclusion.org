@@ -10,17 +10,28 @@ import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import { Helmet } from "react-helmet"
 
 
-export const  AreasofEmphasis = ({ pageContext, location }) => {
+export const  AreasofEmphasis = ({ pageContext, location, title }) => {
   const {
     breadcrumb: { crumbs },
   } = pageContext
+  const disableLinks = [
+    "/education", 
+]
+  const customCrumbLabel = location.pathname.toLowerCase()
+  .replace("Of", "of")
+  const crumbLabelArr = customCrumbLabel.split('/');
+ 
 
+    const label = crumbLabelArr[crumbLabelArr.length - 1]
+    const labelArr = label.split('-');
   // Example of dynamically using location prop as a crumbLabel
-  const customCrumbLabel = location.pathname
-    .toLowerCase()
-    .replace("/", " ")
-    .replace("-", " ")
-    .replace("-", " ")
+ // const customCrumbLabel = location.pathname
+ //   .toLowerCase()
+  //  .replace("/", " ")
+   // .replace("-", " ")
+  //  .replace("-", " ")
+  //  .replace("O", " ")
+
   return (
   <Layout>
     <Helmet>
@@ -30,10 +41,11 @@ export const  AreasofEmphasis = ({ pageContext, location }) => {
   <section className="main-content">
   <SEO title="Areas of Emphasis" />
      <div className="breadcrumbs">
-      <Breadcrumb
-              crumbs={crumbs}
-              crumbSeparator=" / "
-              crumbLabel={customCrumbLabel}
+     <Breadcrumb
+                title={title}
+                crumbs={crumbs}
+                crumbLabel={labelArr.join(' ')}  
+                disableLinks={disableLinks}          
             />
             </div>
             <h1>Areas of Emphasis</h1>

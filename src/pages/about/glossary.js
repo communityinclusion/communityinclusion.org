@@ -710,7 +710,7 @@ const GlossaryPage = ({
 <dt><strong>Section 504</strong></dt>
 <dd>The section of the&nbsp;<em>Rehabilitation Act</em>&nbsp;<em>of 1973</em>&nbsp;that prohibits discrimination on the basis of disability by agencies and programs (including schools) that receive funding from the Federal Government. The statute is intended to prevent intentional and unintentional discrimination against individuals with disabilities.</dd>
 <dt><strong>Section 508</strong></dt>
-<dd>Law that requires&nbsp;<em>accessibility</em>&nbsp;for all websites and information technology used by the Federal Government or contractors to the government. See <a href="www.section508.gov">www.section508.gov</a> for more information.</dd>
+<dd>Law that requires&nbsp;<em>accessibility</em>&nbsp;for all websites and information technology used by the Federal Government or contractors to the government. See <a href="https://www.section508.gov/">www.section508.gov</a> for more information.</dd>
 <dt><strong>Section 8 housing</strong></dt>
 <dd>Federal vouchers that allow low-income families, including those that have a family member with a disability, to rent an apartment.</dd>
 <dt><strong>seamless services, seamless service delivery</strong></dt>

@@ -30,9 +30,9 @@ const StaffProfile = ({ data, pageContext,location  }) => {
       <p>{data.airtable.data.staff_bio}</p>
 
       <ul>
-        <li>Email: <a href="mailto:{data.airtable.data.staff_email}">{data.airtable.data.staff_email}</a> </li>
+        <li>Email: <a href={`mailto:${data.airtable.data.staff_email}`}>{data.airtable.data.staff_email}</a> </li>
           <li>Phone: {data.airtable.data.staff_phone}</li>
-          <li>Link: <a href="{data.airtable.data.staff_link}">{data.airtable.data.staff_link}</a></li>
+          <li>Link: <a href={data.airtable.data.staff_link}>{data.airtable.data.staff_link}</a></li>
       </ul>
       </div>
       </section>
