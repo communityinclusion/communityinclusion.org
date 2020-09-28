@@ -28,7 +28,7 @@ exports.onCreateNode = ({ node, getNode , actions }) => {
   }
 if (node.internal.type === `Airtable` && node.table === `Staff`) 
  {
- slug = `/${node.data.Name.replace(/ /g, "-")
+ slug = `about/staff-directory/${node.data.Name.replace(/ /g, "-")
   .replace(/[,&]/g, "")
    .toLowerCase()}/`;
 
