@@ -89,6 +89,7 @@ const activeLinkStyle = {
             <li><Link to="/projects/statedata">StateData</Link></li>
              <li><Link to="/projects/catada">CATADA</Link></li>
              <li><Link to="/projects/nercve">NERCVE</Link></li>
+             <li><Link to="/projects/emp1stfl">EmploymentFirstFL</Link></li>
         </ul>
       </div>
 
@@ -103,6 +104,8 @@ const activeLinkStyle = {
 <li><Link to="/projects/lend">LEND Program</Link></li>
 <li><Link to="/projects/bchdsp">Down Syndrome Program</Link></li>
 <li><Link to="/projects/cle">Community Life Engagement</Link></li>
+<li><Link to="/projects/emp1stmo">EmploymentFirstMO</Link></li>
+
         </ul>
       </div>
     </div>

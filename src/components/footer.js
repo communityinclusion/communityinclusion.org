@@ -12,7 +12,7 @@ const Footer = () => (
     
   <h3 className="bb fl w-100 pv0 f4 lh-copy ttu tracked">Contact</h3>
     <article className="fl dib-ns w-auto-ns mr4-m mr5-l pr2 pr0-ns tl">
-      <address class="fs-normal">Institute for Community Inclusion<br />
+      <address className="fs-normal">Institute for Community Inclusion<br />
 UMass Boston<br />
 100 Morrissey Blvd.<br />
 Boston, Massachusetts 02125<br />

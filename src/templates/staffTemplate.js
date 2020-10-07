@@ -7,7 +7,8 @@ import SEO from '../components/seo';
 const StaffProfile = ({ data, pageContext,location  }) => {
   const {
     breadcrumb: { crumbs },
-  } = pageContext
+  } = pageContext;
+  console.log(crumbs);
  // const page = data.airtable
   return (
     <Layout location={location}>

@@ -4,7 +4,7 @@ import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import thinkcollege from '../../images/thinkcollege.png'
 import nercve from '../../images/nercve.png'
-import explorevr from '../../images/explorevr.png'
+import explorevr from '../../images/EVR-sq-300.png'
 import employma from '../../images/employmentfirstma.png'
 import thinkwork from '../../images/thinkwork.png'
 import statedata from '../../images/statedata.png'
@@ -14,6 +14,8 @@ import fqi from '../../images/fqi.png'
 import cle from '../../images/CLE-square-logo.png'
 import bchlend from '../../images/bch-lend-logo.png'
 import bchds from '../../images/bch-ds-logo.png'
+import emp1stmo from '../../images/empfirstMO-sq-300.png'
+import emp1stfl from '../../images/empfirstFL-sq-300.png'
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 export const Projects = ({ pageContext, location, title }) => {
@@ -21,9 +23,6 @@ export const Projects = ({ pageContext, location, title }) => {
     breadcrumb: { crumbs },
   } = pageContext
 
-  const disableLinks = [
-    "/seln", 
-]
   const customCrumbLabel = location.pathname.toLowerCase()
   .replace("Of", "of")
   const crumbLabelArr = customCrumbLabel.split('/');
@@ -39,8 +38,7 @@ export const Projects = ({ pageContext, location, title }) => {
    <Breadcrumb
                 title={title}
                 crumbs={crumbs}
-                crumbLabel={labelArr.join(' ')}  
-                disableLinks={disableLinks}          
+                crumbLabel={labelArr.join(' ')}    
             />
             </div>
     <h1>Projects</h1>
@@ -277,6 +275,45 @@ export const Projects = ({ pageContext, location, title }) => {
 
 </div>
 
+
+
+<div className="flex-l w-100 nl2 nr2 center">
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90 ">
+
+<div className="flex flex-column flex-row-ns">
+    <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
+<img src={emp1stfl} className="db" alt = "Boston Children’s Hospital Down Syndrome Program" />
+</div>
+<div className="w-100 w-70-ns pl3-ns">
+  <Link className="link w-100  pb2 mt2 dim dark-blue" to="/projects/emp1stfl">
+<h2 className="f3 fw1 mt0 lh-title bb bw2">EmploymentFirstFL</h2>
+ </Link>
+<p className="f6 f5-l lh-copy">Need Text </p>
+
+</div>
+  </div>
+
+</article>
+
+<article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90">
+
+<div className="flex flex-column flex-row-ns">
+    <div className="pr3-ns mb4  mb0-ns w-100 w-30-ns">
+    <img src={emp1stmo} className="db" alt = "EmploymentFirstMo"/>
+  </div>
+
+<div className="w-100 w-70-ns pl3-ns">
+        <Link className="link w-100  pb2 mt2 dim dark-blue" to="/projects/emp1stmo">
+    <h2 className="f3 fw1 mt0 lh-title bb bw2">EmploymentFirstMo</h2>
+       </Link>
+    <p className="f6 f5-l lh-copy">Need text here</p>
+
+   </div>
+  </div>
+
+</article>
+
+</div>
 
 
 </section>

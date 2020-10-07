@@ -10,7 +10,8 @@ import PostTags from "../components/PostTags";
 const postTemplate = ({ pageContext, data, location  }) => {
   const {
     breadcrumb: { crumbs },
-  } = pageContext
+  } = pageContext;
+  console.log(crumbs);
 
   // Example of dynamically using location prop as a crumbLabel
   //const customCrumbLabel = location.slug.toLowerCase().replace(/-/g, ' ')
