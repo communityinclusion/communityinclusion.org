@@ -7,4 +7,4 @@ thumbnail: '../../images/empfirstMO-sq-long.png'
 ---
 
 
-![EmploymentFirstMO](../../images/empfirstMO-sq-long.png)
+![EmploymentFirstMO](../../images/empfirstmo-long.png)

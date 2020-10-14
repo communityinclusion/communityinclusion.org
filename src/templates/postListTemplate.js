@@ -7,7 +7,7 @@ import SEO from '../components/seo';
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 
-const NewsPage = ({ data, pageContext,location, title }) => {
+const NewsPage = ({ data, pageContext,location,title }) => {
   const posts = data.allMarkdownRemark.edges;
   const { currentPage, numPages,
     breadcrumb: { crumbs } 
@@ -22,24 +22,25 @@ const NewsPage = ({ data, pageContext,location, title }) => {
       ? `${pathPrefix}/`
       : `${pathPrefix}/${(currentPage - 1).toString()}`;
   const nextPage = `${pathPrefix}/${(currentPage + 1).toString()}`;
- // const customCrumbLabel = location.pathname.replace("/news/", "")
-  const customCrumbLabel = location.pathname.toLowerCase()
-  .replace("Of", "of")
-  const crumbLabelArr = customCrumbLabel.split('/');
+// const customCrumbLabel = location.pathname.replace("/news/", "")
+ // const customCrumbLabel = location.pathname.toLowerCase()
+ // .replace("Of", "of")
+//  const crumbLabelArr = customCrumbLabel.split('/');
  
 
-    const label = crumbLabelArr[crumbLabelArr.length - 1]
-    const labelArr = label.split('-');
+  //  const label = crumbLabelArr[crumbLabelArr.length - 1]
+  //  const labelArr = label.split('-');
   return (
     <Layout location={location}>
       
        <SEO title="New at ICI" />
        <section className="main-content">
-      <div className="breadcrumbs">
-      <Breadcrumb
-                title={title}
-                crumbs={crumbs}
-                crumbLabel={labelArr.join(' ')}  
+       <div className="breadcrumbs">
+       <Breadcrumb
+               location={location}
+               crumbs={crumbs}
+               crumbSeparator=" / "
+               crumbLabel="News"   
                     
             />
           </div>

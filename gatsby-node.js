@@ -149,8 +149,8 @@ result.data.allAirtable.edges.forEach(({ node}) => {
   });
 
 //   Create blog post list pages
- const postsPerPage = 4;
-  const numPages = Math.ceil(posts.length / postsPerPage);
+const postsPerPage = 8;
+const numPages = Math.ceil(posts.length / postsPerPage);
 
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
@@ -158,7 +158,7 @@ result.data.allAirtable.edges.forEach(({ node}) => {
       component: postListTemplate,
        context: {
         title: 'All Posts',
-        length : posts.length,
+       // length : posts.length,
         limit: postsPerPage,
         skip: i * postsPerPage,
          numPages,

@@ -17,7 +17,7 @@ const Subscribe = ({
 <script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
 </Helmet>
       
-   <section className="center mw8">
+   <section className="main-content">
    <div className="breadcrumbs">
     <Breadcrumb
             crumbs={crumbs}

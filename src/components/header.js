@@ -32,7 +32,7 @@ const Header = () => (
     
     <div className = "fl w-25 dn dn-m db-l pa2 header-third" >
    
-    <ul className = "flex-container list pl0 ma0 mb2 header-links" >
+    <ul className = "flex justify-around list pl0 ma0 mb2 header-links" >
     <li className = "flex-item dib pr1" >
    <Link to= "/subscribe/" className="link dim dark-gray f6 dib "
     title = "Subscribe" >
@@ -44,7 +44,7 @@ const Header = () => (
     title = "Donate" >
     Donate </Link> </li> </ul>  
 
-    <ul className = "social-links flex-container list pl0 ma0 mb2" >
+    <ul className = "social-links flex justify-around list pl0 ma0 mb2" >
     <li className = "flex-item dib" > { " " } <a href = "https://twitter.com/ICInclusion"
     target = "_blank"
     rel = "noopener noreferrer" >
@@ -69,7 +69,7 @@ const Header = () => (
     rel = "noopener noreferrer" >
     <i className = "fab fa-2x fa-youtube" / >
     </a> </li> </ul>
-    <div className = "k--group ml2" >
+    <div className = "k--group ml3" >
 
 <SearchForm />
 

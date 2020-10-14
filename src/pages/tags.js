@@ -14,12 +14,14 @@ const TagsPage = ({ data, pageContext, }) => {
   } = pageContext
   return (
     <Layout>
-     <section className="center mw8">
+     <section className="main-content">
   <SEO title="Tags" />
      <div className="breadcrumbs">
       <Breadcrumb
-              crumbs={crumbs}
-              crumbSeparator=" / " />
+                crumbs={crumbs}
+                crumbSeparator=" / "
+                crumbLabel="Tags"  
+                 />
             </div>
       <div>
         <h1>Tags</h1>

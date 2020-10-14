@@ -66,12 +66,12 @@ const SearchPage = ({ data, location, pageContext }) => {
       {results.length ? (
          results.map((result, index) => {
           return (
-            <article key={result.slug}>
+            <article className="card" key={result.slug}>
               <h3>
                 <Link to={result.slug}>{result.title || result.slug}</Link>
               </h3>
               <p>{result.excerpt}</p>
-              {index !== 0 && <hr />}
+             {/*  {index !== 0 && <hr />} */}
             </article>
           )
         })

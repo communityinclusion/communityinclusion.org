@@ -404,8 +404,9 @@ nav.breadcrumb {
 
 .breadcrumbs .breadcrumb {
 	display: inline;
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 }
+
 
 .post-image {
 	margin-left: auto;

@@ -14,16 +14,14 @@ export const  AreasofEmphasis = ({ pageContext, location, title }) => {
   const {
     breadcrumb: { crumbs },
   } = pageContext
-  const disableLinks = [
-    "/education", 
-]
-  const customCrumbLabel = location.pathname.toLowerCase()
-  .replace("Of", "of")
-  const crumbLabelArr = customCrumbLabel.split('/');
+  
+  //const customCrumbLabel = location.pathname.toLowerCase()
+ // .replace("Of", "of")
+  // const crumbLabelArr = customCrumbLabel.split('/');
  
 
-    const label = crumbLabelArr[crumbLabelArr.length - 1]
-    const labelArr = label.split('-');
+ //   const label = crumbLabelArr[crumbLabelArr.length - 1]
+  //  const labelArr = label.split('-');
   // Example of dynamically using location prop as a crumbLabel
  // const customCrumbLabel = location.pathname
  //   .toLowerCase()
@@ -42,10 +40,10 @@ export const  AreasofEmphasis = ({ pageContext, location, title }) => {
   <SEO title="Areas of Emphasis" />
      <div className="breadcrumbs">
      <Breadcrumb
-                title={title}
-                crumbs={crumbs}
-                crumbLabel={labelArr.join(' ')}  
-                disableLinks={disableLinks}          
+           location={location}
+           crumbs={crumbs}
+           crumbSeparator=" / "
+           crumbLabel="Areas of Emphasis"           
             />
             </div>
             <h1>Areas of Emphasis</h1>

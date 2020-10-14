@@ -10,12 +10,7 @@ export const AboutPage = ({ pageContext, location }) => {
     breadcrumb: { crumbs },
   } = pageContext
 
-  // Example of dynamically using location prop as a crumbLabel
-  // NOTE: this code will not work for every use case, and is only an example
-  const customCrumbLabel = location.pathname
-    .toLowerCase()
-    .replace("/", " ")
-    .replace("-", " ")
+ 
   return (
   <Layout>
     <SEO title="About the ICI" />
@@ -24,7 +19,7 @@ export const AboutPage = ({ pageContext, location }) => {
     <Breadcrumb
             crumbs={crumbs}
             crumbSeparator=" / "
-            crumbLabel={customCrumbLabel}
+            crumbLabel='About'
           />
           </div>
  

@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import Img from 'gatsby-image'
+import SEO from '../components/seo';
 import community_logo from '../images/community-logo.png'
 import healthcare_logo from '../images/healthcare-logo.png'
 import employment_logo from '../images/employment-logo.png'
@@ -27,7 +28,7 @@ const IndexPage = ({data, location }) => {
 
 
   <Layout location={location} title={siteTitle}>
- 
+  <SEO title="Home" />
     <Image />
          <section className="center bg-gray pa1 ph5-ns">
     <p className="f6 f5-ns tl lh-copy">

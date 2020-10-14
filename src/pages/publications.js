@@ -63,6 +63,7 @@ class PublicationsPage extends React.Component {
         <section className="main-content">
             <div className="breadcrumbs">
     <Breadcrumb
+            location={location}
             crumbs={crumbs}
             crumbSeparator=" / "
             crumbLabel="Publications"

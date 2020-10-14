@@ -6,7 +6,7 @@ posttype: "page"
 date: 2018-12-29
 thumbnail: '../../images/ICI.png'
 ---
-
+Staff listing and contact details<!-- end -->
 
 | NAME       |                   | PHONE          | EMAIL                                   | PROFILE                                     |
 |------------|-------------------|----------------|-----------------------------------------|---------------------------------------------|

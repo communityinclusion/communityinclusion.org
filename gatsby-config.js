@@ -19,6 +19,7 @@ siteMetadata: {
   description: 'The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society.',
   keywords: 'Community Inclusion, UMB, Disabilities',
   author: '@ICInclusion',
+  image: 'https://icibeta.netlify.app/static/ici-150w-1c1c4ac706a0672a9800093794f86167.png'
 },
 plugins: [
   {
@@ -123,6 +124,7 @@ plugins: [
       {
     resolve: `gatsby-transformer-remark`,
     options: {
+      excerpt_separator: `<!-- end -->`,
       plugins: [
       {
        resolve: `gatsby-remark-relative-images-v2`,
@@ -225,13 +227,47 @@ plugins: [
      {
         pathname: '/areas-of-emphasis',
        crumbLabel: 'Areas of Emphasis',
-  }
+  },
+  {
+    pathname: '/',
+    crumbLabel: 'Home',
+},
+{
+  pathname: '/news',
+  crumbLabel: 'News',
+},
+{
+  pathname: '/about',
+  crumbLabel: 'About',
+},
+{
+  pathname: '/projects',
+  crumbLabel: 'Projects',
+},
+{
+  pathname: '/services',
+  crumbLabel: 'Services',
+},
+{
+  pathname: '/publications',
+  crumbLabel: 'Publications',
+},
+{
+  pathname: '/search',
+  crumbLabel: 'Search',
+},
+{
+  pathname: '/about/staff-directory',
+  crumbLabel: 'Staff Directory',
+}
  ],
        // optional: switch to className styling
         // see `useClassNames example with `AutoGen` below
       useClassNames: true,
+      trailingSlashes: true,
         // optional: if you are using path prefix
-      // usePathPrefix: '/news',
+      usePathPrefix: '/',
+     
       },
     },
     `gatsby-plugin-offline`,

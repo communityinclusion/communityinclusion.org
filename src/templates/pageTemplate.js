@@ -15,10 +15,6 @@ const pageTemplate = ({ pageContext,location, data}) => {
   const page = data.markdownRemark
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
-// .toLowerCase()
-// .replace("/", " ")
-// .replace("-", " ")
-// .replace("-", " ")
 return (
   <Layout location={location}>
           <SEO

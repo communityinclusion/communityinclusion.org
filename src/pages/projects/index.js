@@ -23,22 +23,23 @@ export const Projects = ({ pageContext, location, title }) => {
     breadcrumb: { crumbs },
   } = pageContext
 
-  const customCrumbLabel = location.pathname.toLowerCase()
-  .replace("Of", "of")
-  const crumbLabelArr = customCrumbLabel.split('/');
+ // const customCrumbLabel = location.pathname.toLowerCase()
+ // .replace("Of", "of")
+ // const crumbLabelArr = customCrumbLabel.split('/');
  
 
-    const label = crumbLabelArr[crumbLabelArr.length - 1]
-    const labelArr = label.split('-');
+  //  const label = crumbLabelArr[crumbLabelArr.length - 1]
+  //  const labelArr = label.split('-');
   return (
-  <Layout>
+    <Layout location={location}>
    <section className="main-content">
    <SEO title="Projects" />
    <div className="breadcrumbs">
    <Breadcrumb
-                title={title}
-                crumbs={crumbs}
-                crumbLabel={labelArr.join(' ')}    
+               location={location}
+               crumbs={crumbs}
+               crumbSeparator=" / "
+               crumbLabel="Projects"   
             />
             </div>
     <h1>Projects</h1>
@@ -288,7 +289,7 @@ export const Projects = ({ pageContext, location, title }) => {
   <Link className="link w-100  pb2 mt2 dim dark-blue" to="/projects/emp1stfl">
 <h2 className="f3 fw1 mt0 lh-title bb bw2">EmploymentFirstFL</h2>
  </Link>
-<p className="f6 f5-l lh-copy">Need Text </p>
+<p className="f6 f5-l lh-copy">Employment First Florida is a collaborative effort among state agencies and local organizations to increase employment outcomes for individuals with disabilities. </p>
 
 </div>
   </div>
