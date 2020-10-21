@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "gatsby"
 import umbcombo from '../images/bch-umb-combo_logo-small.png'
-
+import sanity from '../images/sanity-logo.png'
 const Footer = () => (
    <footer aria-label="Footer" className="mt5 pt3 bg-dark-blue">
 
@@ -108,8 +108,13 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
      </ul>
      <p>
   <a href="https://www.netlify.com">
-    <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" />
-  </a></p>
+    <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" /></a> 
+    <a href="https://www.sanity.io">
+    <img className = "ml-8 align-middle"
+   			 alt = "content structured in sanity"
+            src={sanity}
+          />
+          </a></p>
     </div>
     </div>
  
