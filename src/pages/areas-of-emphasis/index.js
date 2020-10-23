@@ -46,7 +46,7 @@ export const  AreasofEmphasis = ({ pageContext, location, title }) => {
            crumbLabel="Areas of Emphasis"           
             />
             </div>
-            <h1>Areas of Emphasis</h1>
+            <h1 className="page-title">Areas of Emphasis</h1>
     <div className="flex-l w-100 nl2 nr2 center">
     <article className="flex-1 bt bb b--black-10 shadow-4 ma3 pa3  w-90 ">
 

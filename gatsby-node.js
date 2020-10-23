@@ -37,15 +37,15 @@ if (node.internal.type === `Airtable` && node.table === `Staff`)
 }
 }
 
-exports.createPages = async function ({ actions, graphql }) {
+exports.createPages = async function ({ actions, graphql, reporter }) {
 
 console.log("====================================");
 console.log(`createPages entered`);
 console.log("====================================");
 const { createPage } = actions;
+  const postListTemplate = path.resolve(`./src/templates/postListTemplate.js`);
   const postTemplate = path.resolve(`./src/templates/postTemplate.js`);
   const tagTemplate = path.resolve(`./src/templates/tagTemplate.js`);
-  const postListTemplate = path.resolve(`./src/templates/postListTemplate.js`);
   const pageTemplate = path.resolve(`./src/templates/pageTemplate.js`);
   const staffTemplate = path.resolve(`./src/templates/staffTemplate.js`);
 
@@ -88,6 +88,31 @@ const { createPage } = actions;
  }
 `
  )
+ // Run news graphql queries
+const newsResult = await graphql(`
+{ 
+  allMarkdownRemark(
+    sort: { fields: [frontmatter___date], order: DESC },
+    filter: {frontmatter: {posttype: {eq: "news"}}}
+  ) {
+    edges {
+      node {
+        fields {
+          slug
+        }
+        frontmatter {
+          title
+          tags
+          posttype
+        }
+      }
+    }
+  }
+}
+`)
+if (result.errors) {
+  throw result.errors
+}
 
  const posts = result.data.allMarkdownRemark.edges;
 result.data.allMarkdownRemark.edges.forEach(edge => {
@@ -148,20 +173,22 @@ result.data.allAirtable.edges.forEach(({ node}) => {
     });
   });
 
-//   Create blog post list pages
-const postsPerPage = 8;
-const numPages = Math.ceil(posts.length / postsPerPage);
 
-  Array.from({ length: numPages }).forEach((_, i) => {
+
+
+//   Create blog post list pages
+const newsPosts = newsResult.data.allMarkdownRemark.edges;
+const newsPostsPerPage = 8;
+const numNewsPostPage = Math.ceil(newsPosts.length / newsPostsPerPage);
+
+  Array.from({ length: numNewsPostPage }).forEach((_, i) => {
     createPage({
       path: i === 0 ? `/news` : `/news/${i + 1}`,
       component: postListTemplate,
        context: {
-        title: 'All Posts',
-       // length : posts.length,
-        limit: postsPerPage,
-        skip: i * postsPerPage,
-         numPages,
+        limit: newsPostsPerPage,
+        skip: i * newsPostsPerPage,
+        numPages: numNewsPostPage,
          currentPage: i + 1,
        },
    });

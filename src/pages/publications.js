@@ -70,7 +70,7 @@ class PublicationsPage extends React.Component {
           />
           </div>
        <div className="w-100 pa2">
-       <h1>ICI Publications</h1>
+       <h1 className="page-title">ICI Publications</h1>
 
 
        

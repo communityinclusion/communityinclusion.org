@@ -1,5 +1,5 @@
 import React from 'react';
-// import { kebabCase } from 'lodash';
+//import { kebabCase } from 'lodash';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 import Img from 'gatsby-image';
@@ -9,9 +9,8 @@ import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 const NewsPage = ({ data, pageContext,location,title }) => {
   const posts = data.allMarkdownRemark.edges;
-  const { currentPage, numPages,
-    breadcrumb: { crumbs } 
-  }
+  console.log('posts', posts)
+  const { currentPage, numPages,  breadcrumb: { crumbs }}
    = pageContext;
    console.log(crumbs);
   const pathPrefix = '/news';
@@ -22,29 +21,30 @@ const NewsPage = ({ data, pageContext,location,title }) => {
       ? `${pathPrefix}/`
       : `${pathPrefix}/${(currentPage - 1).toString()}`;
   const nextPage = `${pathPrefix}/${(currentPage + 1).toString()}`;
-// const customCrumbLabel = location.pathname.replace("/news/", "")
- // const customCrumbLabel = location.pathname.toLowerCase()
- // .replace("Of", "of")
-//  const crumbLabelArr = customCrumbLabel.split('/');
+ const customCrumbLabel = location.pathname.toLowerCase()
+ .replace("/news", "News")
+ .replace("/news/", "News")
+
+
+ // const crumbLabelArr = customCrumbLabel.split('/');
  
 
-  //  const label = crumbLabelArr[crumbLabelArr.length - 1]
-  //  const labelArr = label.split('-');
+  // const label = crumbLabelArr[crumbLabelArr.length - 1]
+ // const labelArr = label.split('-');
   return (
-    <Layout location={location}>
-      
+    <Layout>
+
        <SEO title="New at ICI" />
        <section className="main-content">
        <div className="breadcrumbs">
        <Breadcrumb
-               location={location}
-               crumbs={crumbs}
-               crumbSeparator=" / "
-               crumbLabel="News"   
+             title={title}
+             crumbs={crumbs}
+             crumbLabel={customCrumbLabel}
                     
             />
           </div>
-        <h1>New at ICI</h1>
+        <h1 className="page-title">New at ICI</h1>
       <div className="post-list">
         {posts.map(post => (
           <div key={post.node.id} className="post-list__item bb b--black-10">
@@ -99,37 +99,34 @@ export default NewsPage;
 
 // Get all markdown files, in descending order by date, and grab the id, excerpt, slug, date, and title
 export const pageQuery = graphql`
-query($skip: Int!, $limit: Int!) {
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC },
-      filter: { frontmatter: {posttype: {eq: "news"}}},
-      limit: $limit,
-      skip: $skip
-    ) {
-      edges {
-        node {
-          id
-          excerpt(pruneLength: 250)
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            tags
-            thumbnail {
-              childImageSharp {
+query GetNewsPosts($limit: Int, $skip: Int) {
+  allMarkdownRemark(limit: $limit, sort: {fields: [frontmatter___date], order: DESC}, skip: $skip, filter: {frontmatter: {posttype: {eq: "news"}}}) {
+    edges {
+      node {
+        frontmatter {
+          title
+          date(formatString: "dddd, MMMM DD YYYY")
+          tags
+          posttype
+          thumbnail {
+            childImageSharp {
               fixed(width: 200, height: 200) {
-                width
-                height
                 src
                 srcSet
-              } 
-             }
+                width
+                height
+              }
             }
           }
         }
+        id
+        excerpt(pruneLength: 250)
+        fields {
+          slug
+        }
       }
     }
+     totalCount
   }
+}
 `;

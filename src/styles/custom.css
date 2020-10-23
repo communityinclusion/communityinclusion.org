@@ -1,6 +1,7 @@
 @import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
 @import url("https://use.typekit.net/hss6qfr.css");
 
+
 /* Tachyons Variables */
 
 .blue {
@@ -459,27 +460,29 @@ article.card .card-body {
 
 /** GLOSSARY page **/
 
-ul.alphabet li {
+.pagetemplate ul.alphabet li {
 	display: inline-block;
 	padding-left: 1rem;
 	padding-right: .5rem
 }
 
-.glossary dl dt {
+.glossary-alpha-wrap dl dt {
 	font-weight: 700;
 }
 
-div.glossary dt {
+.glossary-alpha-wrap dt {
 	margin-bottom: .5rem;
 	font-size: larger;
 }
 
-div.glossary dd {
+.glossary-alpha-wrap dl dd {
 	margin-bottom: 1.2rem;
 	margin-left: 0
 }
 
-
+.alphabet .list {
+    list-style-type: none;
+}
 /** Search **/
 
 .search-results-count {
@@ -611,3 +614,8 @@ h1.post-title {
 	background-color: #333;
 	color: white;
   }
+.staffphoto {  float: left;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    width: 25%;
+    height: auto;}

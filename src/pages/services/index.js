@@ -29,7 +29,7 @@ export const Services = ({ pageContext, location }) => {
             crumbLabel="Services"   
           />
             </div>
-    <h1>Services</h1>
+    <h1 className="page-title">Services</h1>
     <div className="flex-l w-100 nl2 nr2 center">
     <article className="flex-1 bt bb b--black-10 shadow-2 ma3 pa3  w-90 ">
 

@@ -14,7 +14,7 @@ import Footer from "../components/footer"
 import './post.css'
 import './tags.css'
 import "../styles/keen.css"
-import '../styles/custom.css'
+import "../styles/custom.css"
 
 
 

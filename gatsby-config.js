@@ -125,7 +125,12 @@ plugins: [
     resolve: `gatsby-transformer-remark`,
     options: {
       excerpt_separator: `<!-- end -->`,
-      plugins: [
+      plugins: [{
+        resolve: `gatsby-remark-vscode`,
+        options: {
+          theme: 'Abyss' // Or install your favorite theme from GitHub
+        }
+      },
       {
        resolve: `gatsby-remark-relative-images-v2`,
       },
@@ -151,6 +156,7 @@ plugins: [
                 baseId: `appJQcdnZUpt9xJgo`,
                 tableName: `Staff`,
                 tableView: `Grid view`, // optional
+                mapping: { staff_photo: `fileNode` },
               //  queryName: `Staff`, // optionally default is false - makes all records in this table a separate node type, based on your tableView, or if not present, tableName, e.g. a table called "Fruit" would become "allAirtableFruit". Useful when pulling many airtables with similar structures or fields that have different types. See https://github.com/jbolda/gatsby-source-airtable/pull/52.
               //   mapping: {  
               //    Name: "text/markdown",

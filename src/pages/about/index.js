@@ -12,11 +12,12 @@ export const AboutPage = ({ pageContext, location }) => {
 
  
   return (
-  <Layout>
+    <Layout location={location}>
     <SEO title="About the ICI" />
     <section className="main-content">
     <div className="breadcrumbs">
     <Breadcrumb
+            location={location}
             crumbs={crumbs}
             crumbSeparator=" / "
             crumbLabel='About'
@@ -28,7 +29,7 @@ export const AboutPage = ({ pageContext, location }) => {
 
 
     <div className="w-100 pa2">
-    <h1>About</h1>
+    <h1 className="page-title">About</h1>
     <p> In 2018, ICI <a href="http://50.communityinclusion.org/">celebrated our 50th anniversary</a> as a <a href="https://www.aucd.org/template/index.cfm">University Center for Excellence in Developmental Disabilities (UCEDD)</a>. President John F. Kennedy launched the UCEDD network in 1963, and today UCEDDs are located at public universities in every U.S. state and territory. </p>
     <p>These 67 UCEDDs collaborate with people with disabilities, members of their families, state and local government agencies, and service providers. The goal is to empower all citizens, with and without disabilities, to fully participate in community settings. This includes workplaces, health care facilities, schools, and everywhere else where people engage with one another.</p> 
     <p>As a member of the UCEDD network, ICI provides training, technical assistance, service, research, and information sharing, with a focus on ending disability-based discrimination and exclusion, and building the capacity of communities to sustain all their citizens.</p>
@@ -74,7 +75,7 @@ export const AboutPage = ({ pageContext, location }) => {
 <div className="flex flex-column flex-row-ns">
    
 <div className="w-100">
-        <Link className="link dt w-100 mt2 dim dark-blue" to="/about/staff">
+        <Link className="link dt w-100 mt2 dim dark-blue" to="/about/staff-directory">
     <h3 className="fw1 mt0 lh-copy bb bw2">Staff</h3>
        </Link>
    <p className="f6 f5-l mt0 lh-copy">View our staff directory.

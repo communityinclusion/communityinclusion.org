@@ -34,10 +34,9 @@ const postTemplate = ({ pageContext, data, location  }) => {
           />
           </div>
           <div className="post">
-        <div className="post-title">
           <h1 className="mb1 post-title">{frontmatter.title}</h1>
           <span>{frontmatter.date}</span>
-  </div>
+
   <article className="cf mt3 post-body">
  {/* <div className="fl mr4 pb4">
    <Img className="post-image mw-100" fixed={page.frontmatter.thumbnail.childImageSharp.fixed} /> 
@@ -50,7 +49,6 @@ const postTemplate = ({ pageContext, data, location  }) => {
            <PostTags className="k--button" tags={frontmatter.tags} />
            
             </div>
-
             </div>
       </section>
 

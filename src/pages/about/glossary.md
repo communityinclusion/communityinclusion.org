@@ -1,99 +1,75 @@
-import React from "react"
-import Layout from "../../components/layout"
-import SEO from "../../components/seo"
-import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
-
-
-const GlossaryPage = ({
-  pageContext: {
-    breadcrumb: { crumbs },
-  },
-}) => (
-  <Layout>
-    <SEO title="Glossary" />
-    <section className="main-content">
-    <div className="breadcrumbs">
-    <Breadcrumb
-            crumbs={crumbs}
-            crumbSeparator=" / "
-            crumbLabel="Glossary"
-          />
-          </div>
- 
-    
-
-
-
-    <div className="w-100 pa2">
-    <h1>Glossary</h1>
-
-    <ul className="alphabet list">
-    <li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-0-9" data-alpha="0-9">0-9</a></li>
-			<li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-a" data-alpha="A">A</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-b" data-alpha="B">B</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-c" data-alpha="C">C</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-d" data-alpha="D">D</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-e" data-alpha="E">E</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-f" data-alpha="F">F</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-g" data-alpha="G">G</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-h" data-alpha="H">H</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-i" data-alpha="I">I</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha inactive btn btn-blue" href="#alpha-j" data-alpha="J">J</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-k" data-alpha="K">K</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-l" data-alpha="L">L</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-m" data-alpha="M">M</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-n" data-alpha="N">N</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-o" data-alpha="O">O</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-p" data-alpha="P">P</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-q" data-alpha="Q">Q</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-r" data-alpha="R">R</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-s" data-alpha="S">S</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-t" data-alpha="T">T</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-u" data-alpha="U">U</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-v" data-alpha="V">V</a>
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-w" data-alpha="W">W</a>
-
-			</li><li className="inactive"> X 
-
-			</li><li className="inactive"> Y
-
-			</li><li className="inactive"><a className="a-glossary-alpha termAlpha inactive btn btn-blue" href="#alpha-z" data-alpha="Z">Z</a>
-
-		
-		</li></ul>
+---
+title: "Glossary"
+path: "/about/glossary"
+date: 2019-04-01
+posttype: "page"
+thumbnail: '../../images/ICI.png'
+---
 
 
 
 
+<div class="w-100 pa2">
 
-	<div className="glossary">
+
+<ul class="alphabet list">
+<li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-0-9" data-alpha="0-9">0-9</a></li>
+<li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-a" data-alpha="A">A</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-b" data-alpha="B">B</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-c" data-alpha="C">C</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-d" data-alpha="D">D</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-e" data-alpha="E">E</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-f" data-alpha="F">F</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-g" data-alpha="G">G</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-h" data-alpha="H">H</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-i" data-alpha="I">I</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha inactive btn btn-blue" href="#alpha-j" data-alpha="J">J</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-k" data-alpha="K">K</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-l" data-alpha="L">L</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-m" data-alpha="M">M</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-n" data-alpha="N">N</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-o" data-alpha="O">O</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-p" data-alpha="P">P</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-q" data-alpha="Q">Q</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-r" data-alpha="R">R</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-s" data-alpha="S">S</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-t" data-alpha="T">T</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-u" data-alpha="U">U</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-v" data-alpha="V">V</a>
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha btn btn-blue" href="#alpha-w" data-alpha="W">W</a>
+
+</li><li class="inactive"> X 
+
+</li><li class="inactive"> Y
+
+</li><li class="inactive"><a class="a-glossary-alpha termAlpha inactive btn btn-blue" href="#alpha-z" data-alpha="Z">Z</a></li></ul>
 
 
-<div className="glossary-alpha-wrap" id="alpha-0-9">
-                <h2 data-alpha="0-9">0-9</h2>
- 
+<div class="glossary">
+<div class="glossary-alpha-wrap" id="alpha-0-9">
+<h2 data-alpha="0-9">0-9</h2>
 <dl>
 <dt> 504 Plan </dt>
 <dd>A educational support plan under the Rehabilitation Act of 1973 for students who may not qualify for special education services.</dd>
@@ -104,8 +80,8 @@ const GlossaryPage = ({
  
 
 
-<div className="glossary-alpha-wrap" id="alpha-a">
-                <h2 data-alpha="A">A</h2>
+<div class="glossary-alpha-wrap" id="alpha-a">
+<h2 data-alpha="A">A</h2>
 
 
 <dl>
@@ -147,7 +123,7 @@ const GlossaryPage = ({
 
 </div>
 
-<div className="glossary-alpha-wrap" id="alpha-b">
+<div class="glossary-alpha-wrap" id="alpha-b">
                 <h2 data-alpha="B">B</h2>
 
 <dl>
@@ -173,7 +149,7 @@ const GlossaryPage = ({
 
 
 
-<div className="glossary-alpha-wrap" id="alpha-c">
+<div class="glossary-alpha-wrap" id="alpha-c">
                 <h2 data-alpha="C">C</h2>
 
 <dl>
@@ -244,7 +220,7 @@ const GlossaryPage = ({
 
 
 
-<div className="glossary-alpha-wrap" id="alpha-d">
+<div class="glossary-alpha-wrap" id="alpha-d">
                 <h2 data-alpha="D">D</h2>
 
 <dl>
@@ -289,7 +265,7 @@ const GlossaryPage = ({
 
 
 
-<div className="glossary-alpha-wrap" id="alpha-e">
+<div class="glossary-alpha-wrap" id="alpha-e">
                 <h2 data-alpha="E">E</h2>
 
 <dl>
@@ -319,7 +295,7 @@ const GlossaryPage = ({
 
 
 
-<div className="glossary-alpha-wrap" id="alpha-f">
+<div class="glossary-alpha-wrap" id="alpha-f">
                 <h2 data-alpha="F">F</h2>
 
 <dl>
@@ -339,7 +315,7 @@ const GlossaryPage = ({
 
 
 
-<div className="glossary-alpha-wrap" id="alpha-g">
+<div class="glossary-alpha-wrap" id="alpha-g">
                 <h2 data-alpha="G">G</h2>
 <dl>
 <dt><strong>gastrostomy tube (g-tube)&nbsp;</strong></dt>
@@ -361,7 +337,7 @@ const GlossaryPage = ({
 
 
 
-<div className="glossary-alpha-wrap" id="alpha-h">
+<div class="glossary-alpha-wrap" id="alpha-h">
                 <h2 data-alpha="H">H</h2>
 <dl>
 <dt><strong>handicap, handicapped&nbsp;</strong></dt>
@@ -391,7 +367,7 @@ const GlossaryPage = ({
 
 
 
-<div className="glossary-alpha-wrap" id="alpha-i">
+<div class="glossary-alpha-wrap" id="alpha-i">
                 <h2 data-alpha="I">I</h2>
 
 <dl>
@@ -435,7 +411,7 @@ const GlossaryPage = ({
 
 
 
-<div className="glossary-alpha-wrap" id="alpha-j">
+<div class="glossary-alpha-wrap" id="alpha-j">
                 <h2 data-alpha="J">J</h2>
 
 
@@ -468,7 +444,7 @@ const GlossaryPage = ({
 
 
 
-<div className="glossary-alpha-wrap" id="alpha-l">
+<div class="glossary-alpha-wrap" id="alpha-l">
                 <h2 data-alpha="L">L</h2>
 
 <dl>
@@ -487,7 +463,7 @@ const GlossaryPage = ({
 
 
 
-<div className="glossary-alpha-wrap" id="alpha-m">
+<div class="glossary-alpha-wrap" id="alpha-m">
                 <h2 data-alpha="M">M</h2>
 
 
@@ -532,7 +508,7 @@ const GlossaryPage = ({
 </div>
 
 
-<div className="glossary-alpha-wrap" id="alpha-n">
+<div class="glossary-alpha-wrap" id="alpha-n">
                 <h2 data-alpha="N">N</h2>
 
 
@@ -561,7 +537,7 @@ const GlossaryPage = ({
 
 
 
-<div className="glossary-alpha-wrap" id="alpha-o">
+<div class="glossary-alpha-wrap" id="alpha-o">
                 <h2 data-alpha="O">O</h2>
 
 <dl>
@@ -586,7 +562,7 @@ const GlossaryPage = ({
 </div>
 
 
-<div className="glossary-alpha-wrap" id="alpha-p">
+<div class="glossary-alpha-wrap" id="alpha-p">
                 <h2 data-alpha="P">P</h2>
 
 <dl>
@@ -639,7 +615,7 @@ const GlossaryPage = ({
 
 
 
-<div className="glossary-alpha-wrap" id="alpha-q">
+<div class="glossary-alpha-wrap" id="alpha-q">
                 <h2 data-alpha="Q">Q</h2>
 
 <dl>
@@ -658,7 +634,7 @@ const GlossaryPage = ({
 
 
 
-<div className="glossary-alpha-wrap" id="alpha-r">
+<div class="glossary-alpha-wrap" id="alpha-r">
                 <h2 data-alpha="R">R</h2>
 
 <dl>
@@ -699,7 +675,7 @@ const GlossaryPage = ({
 
 
 
-<div className="glossary-alpha-wrap" id="alpha-s">
+<div class="glossary-alpha-wrap" id="alpha-s">
                 <h2 data-alpha="S">S</h2>
 
 <dl>
@@ -914,8 +890,3 @@ const GlossaryPage = ({
 
 </div>
 </section>
-  </Layout>
-)
-
-
-export default GlossaryPage

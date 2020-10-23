@@ -69,7 +69,7 @@ const Header = () => (
     rel = "noopener noreferrer" >
     <i className = "fab fa-2x fa-youtube" / >
     </a> </li> </ul>
-    <div className = "k--group ml3" >
+    <div>
 
 <SearchForm />
 

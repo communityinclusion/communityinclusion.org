@@ -21,8 +21,7 @@ Throughout Bill’s career, he has been a beacon for justice and equity for all 
 
 Watch our tribute video to Bill, below.
 
-`video: https://icimedia.wistia.com/medias/lkf9y1ojnc`
-
-`video: http://fast.wistia.net/embed/iframe/lkf9y1ojnc`
-
-`youtube: d3kEOqkx5`
+<div>
+<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="https://fast.wistia.net/embed/iframe/lkf9y1ojnc?videoFoam=true" title="BK tribute short version Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
+<script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
+</div>
