@@ -22,7 +22,7 @@ const SearchForm = ({ initialQuery = "" }) => {
     navigate(`/search?q=${q}`)
   }
   return (
-    <div class="k--group ml3">
+    <div className="k--group ml3">
     <form role="search" className="inline-flex" onSubmit={handleSubmit}>
       <label htmlFor="search-input" style={{ display: "block" }}>
       </label>

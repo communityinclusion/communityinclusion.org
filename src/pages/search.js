@@ -114,16 +114,6 @@ export const pageQuery = graphql`
       title
     }
   }
-  allAirtable {
-    edges {
-      node {
-        id
-        data {
-          Name
-        }
-      }
-    }
-  }
     LunrIndex
 }
 `

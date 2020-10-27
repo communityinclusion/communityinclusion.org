@@ -22,6 +22,68 @@ siteMetadata: {
   image: 'https://icibeta.netlify.app/static/ici-150w-1c1c4ac706a0672a9800093794f86167.png'
 },
 plugins: [
+  `gatsby-transformer-sharp`, 
+  `gatsby-plugin-sharp`,
+  {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      excerpt_separator: `<!-- end -->`,
+      plugins: [{
+        resolve: `gatsby-remark-vscode`,
+        options: {
+          theme: 'Abyss' // Or install your favorite theme from GitHub
+        }
+      },
+      {
+       resolve: `gatsby-remark-relative-images-v2`,
+       options: {
+        name: "images" // Must match the source name ^
+      },
+      },
+        {
+          resolve: `gatsby-remark-images`,
+          options: {
+            maxWidth: 400,
+            showCaptions: [`title`],
+            markdownCaptions: true,
+          },
+        },
+        {
+          resolve: `gatsby-remark-prismjs`,
+          options: {},
+        },
+        {
+          resolve: 'gatsby-remark-copy-linked-files',
+          options: {
+          destinationDir: 'public',
+          },
+          },
+        {
+        resolve: `gatsby-remark-embed-video`,
+        options: {
+          width: 800,
+          ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
+          height: 400, // Optional: Overrides optional.ratio
+          related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
+          noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
+          urlOverrides: [
+            {
+              id: 'wistia',
+              embedURL: (videoId) => `http://fast.wistia.net/embed/iframe/${videoId}`,
+            }
+          ]
+          //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
+        }
+      },
+      {
+        resolve: `gatsby-remark-responsive-iframe`,
+        options: {
+          wrapperStyle: `margin-bottom: 1.0725rem`,
+        },
+      }
+    ]
+  }
+},
   {
     resolve: "gatsby-plugin-google-tagmanager",
     options: {
@@ -64,6 +126,14 @@ plugins: [
     }
   },
   {
+    resolve: 'gatsby-plugin-web-font-loader',
+    options: {
+      google: {
+        families: ['Open Sans', 'Montserrat']
+      }
+    }
+  },
+  {
     resolve: `gatsby-plugin-canonical-urls`,
     options: {
       siteUrl: `https://icibeta.netlify.app`,
@@ -76,15 +146,8 @@ plugins: [
       name: `data`,
     },
     },
-    {
-      resolve: `gatsby-transformer-excel`,
-      options: {
-        raw: false,
-      },
-    },
     `gatsby-plugin-offline`,
 `gatsby-plugin-twitter`,
-`gatsby-plugin-netlify-cms`,
   `gatsby-plugin-react-helmet`,
   `gatsby-plugin-catch-links`,
 
@@ -113,93 +176,28 @@ plugins: [
       name: `files`,
       path: `${__dirname}/src/files`,
     },
-  },    {
-    resolve: 'gatsby-plugin-web-font-loader',
+  },    
+  {
+    resolve: `gatsby-source-airtable`,
     options: {
-      google: {
-        families: ['Open Sans', 'Montserrat']
-      }
+      apiKey: process.env.GATSBY_AIRTABLE_APIKEY, // may instead specify via env, see below
+     // concurrency: 5, // default, see using markdown and attachments for more information
+      tables: [
+        {
+          baseId: `appJQcdnZUpt9xJgo`,
+          tableName: `Staff`,
+          tableView: `Grid view`, // optional
+          mapping: { staff_photo: `fileNode` },
+        //  queryName: `Staff`, // optionally default is false - makes all records in this table a separate node type, based on your tableView, or if not present, tableName, e.g. a table called "Fruit" would become "allAirtableFruit". Useful when pulling many airtables with similar structures or fields that have different types. See https://github.com/jbolda/gatsby-source-airtable/pull/52.
+        //   mapping: {  
+        //    Name: "text/markdown",
+        //    }, 
+        },
+      ]
     }
   },
-      {
-    resolve: `gatsby-transformer-remark`,
-    options: {
-      excerpt_separator: `<!-- end -->`,
-      plugins: [{
-        resolve: `gatsby-remark-vscode`,
-        options: {
-          theme: 'Abyss' // Or install your favorite theme from GitHub
-        }
-      },
-      {
-       resolve: `gatsby-remark-relative-images-v2`,
-      },
-        {
-          resolve: `gatsby-remark-images`,
-          options: {
-            maxWidth: 400,
-            showCaptions: [`title`, `alt`],
-            markdownCaptions: true,
-          },
-        },
-        {
-          resolve: `gatsby-remark-prismjs`,
-          options: {},
-        },
-        {
-          resolve: `gatsby-source-airtable`,
-          options: {
-            apiKey: process.env.GATSBY_AIRTABLE_APIKEY, // may instead specify via env, see below
-           // concurrency: 5, // default, see using markdown and attachments for more information
-            tables: [
-              {
-                baseId: `appJQcdnZUpt9xJgo`,
-                tableName: `Staff`,
-                tableView: `Grid view`, // optional
-                mapping: { staff_photo: `fileNode` },
-              //  queryName: `Staff`, // optionally default is false - makes all records in this table a separate node type, based on your tableView, or if not present, tableName, e.g. a table called "Fruit" would become "allAirtableFruit". Useful when pulling many airtables with similar structures or fields that have different types. See https://github.com/jbolda/gatsby-source-airtable/pull/52.
-              //   mapping: {  
-              //    Name: "text/markdown",
-              //    }, 
-              },
-            ]
-          }
-        },
-        {
-          resolve: 'gatsby-remark-copy-linked-files',
-          options: {
-          destinationDir: 'public',
-          },
-          },
-        {
-        resolve: `gatsby-remark-embed-video`,
-        options: {
-          width: 800,
-          ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
-          height: 400, // Optional: Overrides optional.ratio
-          related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
-          noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
-          urlOverrides: [
-            {
-              id: 'wistia',
-              embedURL: (videoId) => `http://fast.wistia.net/embed/iframe/${videoId}`,
-            }
-          ]
-          //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
-        }
-      },
-      {
-        resolve: `gatsby-remark-responsive-iframe`,
-        options: {
-          wrapperStyle: `margin-bottom: 1.0725rem`,
-        },
-      }
-    ]
-  }
-},
-        `gatsby-plugin-sharp`,
-        `gatsby-transformer-sharp`, 
-        {
+
+    {
           resolve: `gatsby-plugin-material-ui`,
           options: {
             stylesProvider: {
@@ -239,12 +237,16 @@ plugins: [
     crumbLabel: 'Home',
 },
 {
+  pathname: '/about',
+  crumbLabel: 'About',
+},
+{
   pathname: '/news',
   crumbLabel: 'News',
 },
 {
-  pathname: '/about',
-  crumbLabel: 'About',
+  pathname: 'news/',
+  crumbLabel: 'News',
 },
 {
   pathname: '/projects',
@@ -276,6 +278,5 @@ plugins: [
      
       },
     },
-    `gatsby-plugin-offline`,
 ],
 }

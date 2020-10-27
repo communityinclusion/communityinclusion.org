@@ -21,16 +21,13 @@ const NewsPage = ({ data, pageContext,location,title }) => {
       ? `${pathPrefix}/`
       : `${pathPrefix}/${(currentPage - 1).toString()}`;
   const nextPage = `${pathPrefix}/${(currentPage + 1).toString()}`;
- const customCrumbLabel = location.pathname.toLowerCase()
- .replace("/news", "News")
- .replace("/news/", "News")
+const customCrumbLabel = location.pathname.toLowerCase()
 
-
- // const crumbLabelArr = customCrumbLabel.split('/');
+const crumbLabelArr = customCrumbLabel.split('/');
  
 
-  // const label = crumbLabelArr[crumbLabelArr.length - 1]
- // const labelArr = label.split('-');
+ const label = crumbLabelArr[crumbLabelArr.length - 1]
+ const labelArr = label.split('-');
   return (
     <Layout>
 
@@ -40,7 +37,7 @@ const NewsPage = ({ data, pageContext,location,title }) => {
        <Breadcrumb
              title={title}
              crumbs={crumbs}
-             crumbLabel={customCrumbLabel}
+             crumbLabel={labelArr.join(' ')}  
                     
             />
           </div>

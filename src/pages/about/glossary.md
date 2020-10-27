@@ -883,10 +883,5 @@ thumbnail: '../../images/ICI.png'
 <dd>Comprehensive services that cover all aspects of what a person needs when finding and entering employment. Services that take over where another agency or counselor leaves off, to ensure continuity of services for an individual.</dd>
 </dl>
 </div>
-
 </div>
-
-
-
 </div>
-</section>
