@@ -22,7 +22,7 @@ const NewsPage = ({ data, pageContext,location,title }) => {
       : `${pathPrefix}/${(currentPage - 1).toString()}`;
   const nextPage = `${pathPrefix}/${(currentPage + 1).toString()}`;
 const customCrumbLabel = location.pathname.toLowerCase()
-
+.replace("news", "News")
 const crumbLabelArr = customCrumbLabel.split('/');
  
 
@@ -57,7 +57,7 @@ const crumbLabelArr = customCrumbLabel.split('/');
                 {post.node.frontmatter.title}
                 </Link>
                 </h2>
-              <p>{post.node.frontmatter.date}</p>
+              <p className="post-list__date navy">{post.node.frontmatter.date}</p>
               <div className="post-list__excerpt">
                 <p>{post.node.excerpt}</p>
               </div>
@@ -102,7 +102,7 @@ query GetNewsPosts($limit: Int, $skip: Int) {
       node {
         frontmatter {
           title
-          date(formatString: "dddd, MMMM DD YYYY")
+          date(formatString: "MMMM Do, YYYY")
           tags
           posttype
           thumbnail {

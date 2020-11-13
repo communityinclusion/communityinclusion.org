@@ -4,7 +4,7 @@
    /* padding: 1rem; */
    /*padding-bottom:1rem;*/
   }
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     .post-list__item {
       flex-direction: column;
       text-align: center;
@@ -21,13 +21,22 @@
   }
 
 
-  .post-list__content {
-    padding-top: 1rem; 
-     text-align: left;
-   }
 
-   
+   @media (max-width: 600px) {
+    .post-list__thumbnail {
+      padding: 1rem;
+      width:100%;
+    }
+    
+    .post-list__content {
+     padding: 1rem; 
+    }
+   }
 
   .post-list__content h2 {
     margin-top:0;
   }
+
+  .post-body {
+    border-bottom: 2px solid #ddd;
+}

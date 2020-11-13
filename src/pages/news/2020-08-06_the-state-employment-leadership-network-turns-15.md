@@ -5,7 +5,7 @@ path: "2020-08-06_the-state-employment-leadership-network-turns-15"
 date: "2020-08-06"
 tags: ['SELN', 'Community Inclusion', 'Employment', 'Leadership']
 posttype: "news"
-thumbnail: "../../images/ICI.png"
+thumbnail: "../../images/seln.png"
 ---
 
 

@@ -35,7 +35,7 @@ const postTemplate = ({ pageContext, data, location  }) => {
           </div>
           <div className="post">
           <h1 className="mb1 post-title">{frontmatter.title}</h1>
-          <span>{frontmatter.date}</span>
+          <span className="post-date">{frontmatter.date}</span>
 
   <article className="cf mt3 post-body">
  {/* <div className="fl mr4 pb4">
@@ -44,7 +44,6 @@ const postTemplate = ({ pageContext, data, location  }) => {
   </div> */}
         <div dangerouslySetInnerHTML={{ __html: html }} />
         </article>
-        <hr />
       <div className="post-meta">
            <PostTags className="k--button" tags={frontmatter.tags} />
            

@@ -5,8 +5,13 @@ path: "2020-06-05_statement"
 date: "2020-06-05"
 posttype: "news"
 tags: ['Community Inclusion', 'Inclusion', 'Social Justice', 'Equity', 'Human Rights']
-thumbnail: "../../images/ICI.png"
+thumbnail: "../../images/IGpostICIlogo_F.png"
 ---
+
+
+
+![We can do better, we can be better. We must do better and be better, together](../../images/IGpostICIlogo_F.png )
+
 
 The disability community is multi-dimensional and complex. People with disabilities and their experiences are diverse, therefore numerous approaches are necessary to address the multiple forms of oppression being experienced both individually and collectively. As we see pronounced signs of systemic racism across the country, we must commit to integrating the fight against inequities into everything we do as an organization during this painful time.
 

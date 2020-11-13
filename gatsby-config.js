@@ -139,13 +139,6 @@ plugins: [
       siteUrl: `https://icibeta.netlify.app`,
     },
   },
-  {	resolve: `gatsby-source-filesystem`,
-    options: {
-      raw: false,
-      path: `${__dirname}/src/data`,
-      name: `data`,
-    },
-    },
     `gatsby-plugin-offline`,
 `gatsby-plugin-twitter`,
   `gatsby-plugin-react-helmet`,

@@ -1,6 +1,3 @@
-@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
-@import url("https://use.typekit.net/hss6qfr.css");
-
 
 /* Tachyons Variables */
 
@@ -138,13 +135,17 @@
 
 a:link,
 a:visited {
-	color: #1178AD
+	color: #1178AD;
+	font-weight: 700;
 }
 
 p {line-height: 1.5;}
 .w-15 {
 	width: 15%;
 }
+
+
+/** Footer **/
 
 footer a:link {
 	color: #fff
@@ -163,6 +164,47 @@ footer a:hover {
 	opacity: .8;
 	text-decoration: underline;
 }
+
+
+
+.column-equal {
+	float: left;
+	width: 33.33%;
+  }
+
+.column-unequal {
+	float: left;
+	padding: 10px;
+  }
+  
+  .left, .right {
+	width: 25%;
+  }
+  
+  .middle {
+	width: 50%;
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+
+  @media screen and (max-width: 600px) {
+	.column-equal, .column-unequal {
+	  width: 100%;
+	
+	}
+
+	.column-unequal {
+	
+		text-align:center
+	  }
+  }
+
+
 
 @media screen and (max-width: 30em) {
 	.show-sibling:checked+.sibling {
@@ -549,11 +591,22 @@ article.card .card-body {
 	box-shadow: none;
 }
 
+
+/* Staff Dropdown */
 .formControl {
 	width: 100%!important;
-	background-color: #ddd;
 	margin-bottom: 20px!important;
 }
+
+
+li.MuiButtonBase-root a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+
 
 .pagetemplate blockquote {
 	background-color: #9bd4f4;
@@ -607,7 +660,7 @@ section.main-content.posttemplate .post {
 h1.page-title,
 h1.post-title {
 	padding: 0px 0px 16px;
-	border-bottom: 2px solid #000;
+	border-bottom: 2px solid #ddd;;
 }
 
 @media screen and (min-width: 30em) {

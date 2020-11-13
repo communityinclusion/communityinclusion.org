@@ -60,9 +60,9 @@ description: "List of ICI Projects"
 </div>
 <div class="card-body">
 <a class="link w-100  pb2 mt2 dim dark-blue" href="/projects/employmentfirstma">
-<h2 class="f3 fw1 mt0 lh-title bb bw2">EmploymentFirstMA</h2>
+<h2 class="f3 fw1 mt0 lh-title bb bw2">Employment First Massachusetts</h2>
 </a>
-<p class="f6 f5-l lh-copy">EmploymentFirstMA promotes community-based paid employment for Massachusetts citizens with intellectual and developmental disabilities. </p>
+<p class="f6 f5-l lh-copy">Employment First Massachusetts promotes community-based paid employment for Massachusetts citizens with intellectual and developmental disabilities. </p>
 </div>
 </div>
 </article>
@@ -193,7 +193,7 @@ description: "List of ICI Projects"
 </div>
 <div class="card-body">
 <a class="link w-100  pb2 mt2 dim dark-blue" href="/projects/emp1stfl">
-<h2 class="f3 fw1 mt0 lh-title bb bw2">EmploymentFirstFL</h2>
+<h2 class="f3 fw1 mt0 lh-title bb bw2">Employment First Florida</h2>
 </a>
 <p class="f6 f5-l lh-copy">Employment First Florida is a collaborative effort among state agencies and local organizations to increase employment outcomes for individuals with disabilities. </p>
 </div>
@@ -206,9 +206,9 @@ description: "List of ICI Projects"
 </div>
 <div class="card-body">
 <a class="link w-100  pb2 mt2 dim dark-blue" href="/projects/emp1stmo">
-<h2 class="f3 fw1 mt0 lh-title bb bw2">EmploymentFirstMo</h2>
+<h2 class="f3 fw1 mt0 lh-title bb bw2">Employment First Missouri</h2>
 </a>
-<p class="f6 f5-l lh-copy">Need text here</p>
+<p class="f6 f5-l lh-copy">Employment First Missouri is available to provide training and technical assistance to service providers and staff to make this Employment First vision a reality, and advance community employment for individuals with intellectual and developmental disabilities in Missouri.</p>
 </div>
 </div>
 </article>

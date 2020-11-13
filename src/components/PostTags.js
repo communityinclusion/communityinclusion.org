@@ -12,11 +12,11 @@ class PostTags extends Component
     const { tags } = this.props;
     return (
      <div className="tags-container">
-    <ul className="taglist">
+    <ul className="tags">
         {tags &&
           tags.map(tag => (
             <li key={tag + `tag`}>
-                <Link className="k--badge bg-darkgray" to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                <Link className="tag" to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
               </li>
           ))}
           </ul>

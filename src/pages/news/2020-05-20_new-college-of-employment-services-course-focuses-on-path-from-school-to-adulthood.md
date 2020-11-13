@@ -5,7 +5,7 @@ path: "2020-05-20_new-college-of-employment-services-course-focuses-on-path-from
 date: "2020-05-20"
 posttype: "news"
 tags: ['Direct Course', 'Elsevier', 'Employment Services', 'Community Inclusion', 'Transition']
-thumbnail: "../../images/ICI.png"
+thumbnail: "../../images/services-ces.png"
 ---
 
  

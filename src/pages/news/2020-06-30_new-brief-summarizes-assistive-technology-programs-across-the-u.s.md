@@ -5,8 +5,11 @@ path: "2020-06-30_new-brief-summarizes-assistive-technology-programs-across-the-
 date: "2020-06-30"
 posttype: "news"
 tags: ['Catada', 'Assistive Technology', 'Disability', 'Community Inclusion']
-thumbnail: "../../images/ICI.png"
+thumbnail: "../../images/AT-Brief.png"
 ---
+
+![At Brief](../../images/AT-Brief.png)
+
 
 
 A new  [AT Data Brief](https://catada.info/assets/files/ATAP_2020_F.pdf)  examines the usage and impact of assistive technology programs in the U.S. and its territories.

@@ -5,7 +5,7 @@ path: "/2020-02-19_papers-by-researchers-and-self-advocates-examine-informed-cho
 date: "2020-02-19"
 posttype: "news"
 tags: ['Self Advocacy', 'Community Inclusion', 'Informed Choice', 'Employment Outcomes','ICI']
-thumbnail: "../../images/ICI.png"
+thumbnail: "../../images/informed-choice-thumb.png"
 ---
 
 The [National Association of State Directors of Developmental Disabilities Services](https://www.nasddds.org/) (NASDDDS),in collaboration with ICI, published a fourth in a series of five white papers highlighting topics influencing employment outcomes and services for individuals supported by state intellectual and developmental disabilities (I/DD) agencies.

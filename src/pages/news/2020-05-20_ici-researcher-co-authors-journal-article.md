@@ -5,8 +5,12 @@ path: "2020-05-20_ici-researcher-co-authors-journal-article"
 date: "2020-05-20"
 posttype: "news"
 tags: ['Langston University', 'Ex Offender', 'Disability', 'Employment', 'Earnings']
-thumbnail: "../../images/ICI.png"
+thumbnail: "../../images/NgaiKwan.jpg"
 ---
+
+![Researcher Ngai Kwan](../../images/NgaiKwan.jpg)
+
+
 
 Ngai Kwan has recently co-authored a journal article with Glacia Ethridge, Angel Dowden and Michael Brooks from  [North Carolina Agricultural and Technical State University](https://www.ncat.edu/)  (a HBCU), and Debra Harley from  [University of Kentucky](http://www.uky.edu/UKHome/).
 

@@ -6,11 +6,11 @@ const Footer = () => (
    <footer aria-label="Footer" className="mt5 pt3 bg-dark-blue">
 
     <div className="footer-top mw9  center ph3 white">
-    <div className="cf ph2-ns flex flex-column flex-row-l flex-column-m justify-between">
-  <div className="fl  w-100  w-third-l  pa2">
+    <div className="row ph2-ns">
+  <div className="column-equal pa2 ">
 
     
-  <h3 className="bb fl w-100 pv0 f4 lh-copy ttu tracked">Contact</h3>
+  <h3 className="bb w-100 pv0 f4 lh-copy ttu tracked">Contact</h3>
     <article className="fl dib-ns w-auto-ns mr4-m mr5-l pr2 pr0-ns tl">
       <address className="fs-normal">Institute for Community Inclusion<br />
 UMass Boston<br />
@@ -25,9 +25,9 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
 
   </div>
   
-  <div className="fl w-100 w-third-l pa2">
+  <div className="column-equal pa2">
 
-  <h3 className="bb fl w-100 pv0 f4 lh-copy fw6 ttu tracked">Links</h3>
+  <h3 className="bb w-100 pv0 f4 lh-copy fw6 ttu tracked">Links</h3>
   <ul className=" v-mid w-100 w-75-l list pl0 ">
     <li className="mr2"> <Link to="/about/" className="link  white f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="About">About ICI</Link></li>
      <li className="mr2"><Link to="/areas-of-emphasis" className="link white  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Areas of Emphasis">Areas of Emphasis</Link></li>
@@ -39,8 +39,8 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
  <li className="mr2"> <Link to="/" className="link white  f6 f5-l dib no-underline underline-hover" title="contact">Contact</Link></li>
     <li className="mr2"> <Link to="/" className="link white  f6 f5-l dib no-underline underline-hover" title="Donate">Donate</Link></li>
   </ul></div>
-  <div className="fl w-100 w-third-l pa2 ">
-  <h3 className="bb fl w-100 pv0 f4 lh-copy fw6 ttu tracked">Social</h3>
+  <div className="column-equal pa2 ">
+  <h3 className="bb w-100 pv0 f4 lh-copy ttu tracked">Social</h3>
 
   <ul className = "social-links  list pl0" >
     <li className = "dib pr2" > { " " } <a href = "https://twitter.com/ICInclusion"
@@ -77,21 +77,21 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   </div>
   </div>
   </div>
-  <div className="footer-copyright cf  dt flex flex-row justify-between w-100 bt white bg-black f6 lh-copy v-mid pv2 center "> 
+  <div className="footer-copyright row w-100 bt white bg-black f6 lh-copy v-mid pv2 center "> 
   <div className="mw9">
-   <div className="fl w-25-l w-100 v-mid  white">
+   <div className="column-unequal right v-mid  white">
    <img className = "dib mw-100 h-auto"
    			 alt = "Institute for Community Inclusion"
             src={umbcombo}
           />
      </div> 
-      <div className="fl w-50-l w-100 v-mid white ph3">
+      <div className="column-unequal middle v-mid white ph3">
    
       <p className="white">©2020 The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital.</p>
     </div>
    
   
-    <div className=" fl w-25-l w-100 v-mid white ph3">
+    <div className="column-unequal left v-mid white ph3">
     <ul className = "list pl0 " >
     <li className = " dib br pr2" >
    <Link to= "/about/privacy/" className="link dim white f6 dib "
@@ -110,7 +110,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   <a href="https://www.netlify.com">
     <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" /></a> 
     <a href="https://www.sanity.io">
-    <img className = "ml-8 align-middle"
+    <img className = "ml3"
    			 alt = "content structured in sanity"
             src={sanity}
           />
