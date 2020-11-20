@@ -20,6 +20,9 @@
     text-align: left;
   }
 
+  .post-list__content h2 {
+    font-family: 'Open Sans', sans-serif;
+  }
 
 
    @media (max-width: 600px) {

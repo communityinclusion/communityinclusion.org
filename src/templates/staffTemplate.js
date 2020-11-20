@@ -16,7 +16,6 @@ const StaffProfile = ({ data, pageContext,location  }) => {
          <SEO
       title={data.airtable.data.Name}
     />
-        <section className="main-content">
         <div className="breadcrumbs">
     <Breadcrumb
            crumbs={crumbs}
@@ -64,7 +63,6 @@ const StaffProfile = ({ data, pageContext,location  }) => {
         }
           </ul>
       </div>
-      </section>
     </Layout>
   )
 }

@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import Layout from "../components/layout"
-import Image from "../components/image"
+import HomeLayout from "../components/home-layout"
 import Img from 'gatsby-image'
 import SEO from '../components/seo';
 import community_logo from '../images/community-logo.png'
@@ -27,25 +26,21 @@ const IndexPage = ({data, location }) => {
   return (
 
 
-  <Layout location={location} title={siteTitle}>
+  <HomeLayout location={location} title={siteTitle}>
   <SEO title="Home" />
-    <Image />
-         <section className="center bg-gray pa1 ph5-ns">
-    <p className="f6 f5-ns tl lh-copy">
-    The ICI is a University Center for Excellence in Developmental Disabilities, part of the national network started by President John F. Kennedy.
-    </p>
-  </section>
+     
 
 
-
-  <section className="main-content">
+ 
   <div className="alertbox">
-     <span className="lh-title">To keep our staff and others healthy and safe, the Institute for Community Inclusion is following social distancing protocols issued by UMass Boston and state officials. Our physical office is currently closed. Our staff are working remotely and available via email. Our main phone line will also be monitored regularly: 617-287-4300. Stay well!</span>
+     <span className="lh-title f6">To keep our staff and others healthy and safe, the Institute for Community Inclusion is following social distancing protocols issued by UMass Boston and state officials. Our physical office is currently closed. Our staff are working remotely and available via email. Our main phone line will also be monitored regularly: 617-287-4300. Stay well!</span>
 </div>
 
   <h2 className="bb bw1">Areas of Emphasis</h2>
-  <div className="flex-l w-100 ml2 mr2 center">
-<article className="flex-1 shadow-4 ma3  w-90 ">
+  
+  
+  <div className="flex-l center">
+<article className="flex-1 shadow-4 mr4-l mb4-ns">
   <div className=" bg-green mv0 ph3 ">
   <img src={employment_logo} className="dib v-mid" alt = "Employment icon" />
   <h3 className="f3 white  dib v-mid pl2">     Employment</h3>
@@ -59,7 +54,7 @@ const IndexPage = ({data, location }) => {
 
 
 
-<article className="flex-1 shadow-4 ma3 w-90 ">
+<article className="flex-1 shadow-4 mb4-ns">
 <div className="bg-purple mv0 ph3 ">
 <img src={education_logo} className="dib v-mid" alt = "Education icon" /> 
   <h3 className="f3 white dib v-mid pl2"> Education</h3>
@@ -71,10 +66,10 @@ const IndexPage = ({data, location }) => {
   </div>
 </article>
 </div> 
- <div className="flex-l w-100 ml2 mr2 center">
+ <div className="flex-l mb3-ns center">
 
 
-<article className="flex-1 shadow-4 ma3  w-90 ">
+<article className="flex-1 shadow-4 mb4-ns mr4-l">
 <div className="bg-red mv0 ph3 ">
 <img src={community_logo} className="dib v-mid" alt = "Community icon" /> 
   <h3 className="f3 white dib v-mid pl2"> Community Life</h3>
@@ -88,7 +83,7 @@ const IndexPage = ({data, location }) => {
 
 
 
-<article className="flex-1 shadow-4 ma3  w-90 ">
+<article className="flex-1 shadow-4 mb4-l">
 <div className="bg-orange mv0 ph3 ">
 <img src={healthcare_logo} className="dib v-mid" alt = "Healthcare icon" /> 
   <h3 className="f3 white dib v-mid pl2"> Health Care</h3>
@@ -172,8 +167,7 @@ const IndexPage = ({data, location }) => {
  </div>
    </div>
    </div>
-   </section>
-</Layout>
+</HomeLayout>
   )}
 }
  

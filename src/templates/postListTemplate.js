@@ -1,5 +1,4 @@
 import React from 'react';
-//import { kebabCase } from 'lodash';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 import Img from 'gatsby-image';
@@ -47,9 +46,13 @@ const crumbLabelArr = customCrumbLabel.split('/');
           <div key={post.node.id} className="post-list__item bb b--black-10">
             <div className="post-list__thumbnail">
               <Link to={post.node.fields.slug}>
-                <Img
-                  fixed={post.node.frontmatter.thumbnail.childImageSharp.fixed}
-                />
+              {
+            post.node.frontmatter.thumbnail
+            && (
+            <Img fixed={post.node.frontmatter.thumbnail.childImageSharp.fixed}
+            />
+            )
+          }
               </Link>
             </div>
             <div className="post-list__content">
@@ -108,10 +111,10 @@ query GetNewsPosts($limit: Int, $skip: Int) {
           thumbnail {
             childImageSharp {
               fixed(width: 200, height: 200) {
-                src
-                srcSet
                 width
                 height
+                src
+                srcSet
               }
             }
           }

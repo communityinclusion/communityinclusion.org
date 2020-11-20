@@ -21,7 +21,7 @@ return (
       title={page.frontmatter.title}
       description={page.frontmatter.description || page.excerpt}
     />
-      <section className="main-content pagetemplate">
+      <section className="pagetemplate">
       <div className="breadcrumbs">
     <Breadcrumb
             crumbs={crumbs}

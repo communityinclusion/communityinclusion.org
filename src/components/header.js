@@ -11,8 +11,8 @@ const Header = () => (
 	<div>
   
 
-    <div className = "header" >
-    <div className = "cf flex justify-around mw9 center ph3 ph4-m ph4-l pt3-ns pb3-ns" >
+    <div className = "header mw9 center" >
+    <div className = "cf flex justify-around ph3 ph4-m ph4-l pt3-ns pb3-ns" >
     <div className = "fl w-15 header-first" >
     <Link to= "/" className = "dtc v-mid mid-gray link "
     title = "Home" >
@@ -23,8 +23,8 @@ const Header = () => (
 
     </Link> </div> 
     
-    <div className = "fl w-80 w-70-m w-60-l pl2 header-second" >
-    <p className = "bb-0 banner-text dark-blue b  f5 f3-m f1-l db mb2 mt0-ns mt3 center " >
+    <div className = "fl w-80 w-60-l pl2 header-second" >
+    <p className = "bb-0 banner-text dark-blue b  f4 f2-m f1-l db mb2 mt0-ns mt3 center " >
     Institute
     for Community Inclusion </p>
     <span className = "banner-tagline f6 f5-m f4-l dn db-ns f-subheadline dark-blue tracked-mega-l " > { " " }

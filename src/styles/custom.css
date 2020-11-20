@@ -266,6 +266,13 @@ footer a:hover {
 	text-align: center;
 }
 
+@media screen and (max-width:30rem) {
+.banner-text {
+	text-align:left;
+}
+}
+
+
 .banner-tagline {
 	font-family: myriad-pro-condensed, sans-serif;
 	font-weight: 400;
@@ -390,7 +397,7 @@ a:hover {
 }
 
 
-/* Page Navigation */
+/* Pageination */
 
 .page-navigation {
 	margin: 2rem 0;
@@ -468,7 +475,6 @@ nav.breadcrumb {
 article.card {
 	margin: 1rem;
 	padding: 1rem;
-	width: 90%;
 	box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2);
 	border-color: rgba( 0, 0, 0, .1);
 	border-bottom-style: solid;
@@ -478,11 +484,32 @@ article.card {
 	display: block;
 }
 
-article.card .card-image {
+
+article.card h2 {
+font-family: "Open Sans", sans-serif;
+}
+
+
+@media screen and (min-width: 48rem){
+#grid article.card {width: 90%;
+}
+}
+
+
+@media screen and (max-width: 48rem){
+article.card {
+	margin:0;
+	margin-top:1rem;
+	width:100%;
+
+}
+}
+
+/* article.card .card-image {
 	width: 100%;
 	margin-bottom: 2rem;
-	width: 100%;
 }
+*/
 
 @media screen and (min-width: 30em) {
 article.card .card-image {
@@ -505,11 +532,32 @@ article.card .card-body {
 }
 
 
+h2.card-title   {
+    font-size: 1.5rem;
+    margin-top: 0;
+    line-height: 1.5;
+    border-bottom: 4px solid #1178AD;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+h2.card-title a {
+    font-weight: 700;
+    color: #0075AD;
+    margin-top: .5rem;
+	display: table;
+}
+ 
+
+ 
+ 
+  
+	
+
 
 #pubs article.card {
-	margin: 1rem;
+	/* margin: 1rem; */
 	padding: 1rem;
-	width: 90%;
 	box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2);
 	border-color: rgba( 0, 0, 0, .1);
 	border-bottom-style: solid;
@@ -519,9 +567,16 @@ article.card .card-body {
 	display: block;
 }
 
+@media screen and (max-width: 30em) {
+#pubs article.card {
+width: 100%; 
+}
+}
+
+
 #pubs article.card .card-image {
 	width: 100%;
-	margin-bottom: 2rem;
+	/* margin-bottom: 2rem;*/
 	width: 100%;
 }
 
@@ -620,6 +675,7 @@ li.MuiButtonBase-root a {
 	color: #23527c;
 	border-left: 5px #23527c solid;
 	padding: 5px 10px;
+	margin-top:10px;
 }
 
 .header-third ul.header-links {
@@ -644,24 +700,55 @@ li.MuiButtonBase-root a {
 	color: #1178AD;
 }
 
-section.main-content {
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: .5rem;
-	max-width: 96rem;
+
+h1.page-title,
+h1.post-title {
+	padding: 0px 0px 10px;
+	border-bottom: 2px solid #ddd;;
 }
 
-section.main-content.posttemplate .post {
+
+main.main-content {
+	margin:0 auto;
+	max-width: 1200px;
+}
+
+
+
+main.main-content .posttemplate .post {
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
 }
 
-h1.page-title,
-h1.post-title {
-	padding: 0px 0px 16px;
-	border-bottom: 2px solid #ddd;;
+
+/*
+@media screen and (max-width: 48rem) {
+	main.main-content {
+		margin:0 30px;
+	}
 }
+
+
+@media screen and (max-width: 30rem) {
+	main.main-content {
+		margin:0 30px;
+		max-width:1140px;
+	}
+}
+
+
+
+
+
+@media screen and (max-width: 30em) {
+	.pagetemplate, .posttemplate {
+		width: 90%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		margin-right: auto;
+		margin-left: auto;}
+	}
 
 @media screen and (min-width: 30em) {
 	section.main-content {
@@ -669,7 +756,7 @@ h1.post-title {
 		padding-right: 4rem;
 	}
 }
-
+*/
 .twitterWrap {
 	background-color: #1178AD;
 	padding: 10px;

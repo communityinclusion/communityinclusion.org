@@ -24,7 +24,7 @@ const postTemplate = ({ pageContext, data, location  }) => {
       title={page.frontmatter.title}
       description={page.frontmatter.description || page.excerpt}
     />
-      <section className="main-content posttemplate">
+      <section className="posttemplate">
       <div className="breadcrumbs">
     <Breadcrumb
             crumbs={crumbs}

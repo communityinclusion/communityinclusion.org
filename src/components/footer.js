@@ -33,7 +33,6 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
      <li className="mr2"><Link to="/areas-of-emphasis" className="link white  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Areas of Emphasis">Areas of Emphasis</Link></li>
     <li className="mr2"> <Link to="/projects" className="link white  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Projects">Projects</Link></li>
        <li className="mr2">   <Link to="/services" className="link white  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Services">Services</Link></li>
-            <li className="mr2"><Link to="/resources/" className="link white  f6 f5-l dib no-underline underline-hover" title="Resources">Resources</Link></li>
                         <li className="mr2"> <Link to="/" className="link white  f6 f5-l dib no-underline underline-hover" title="Subscribe">Subscribe</Link></li>
 
  <li className="mr2"> <Link to="/" className="link white  f6 f5-l dib no-underline underline-hover" title="contact">Contact</Link></li>
@@ -78,7 +77,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   </div>
   </div>
   <div className="footer-copyright row w-100 bt white bg-black f6 lh-copy v-mid pv2 center "> 
-  <div className="mw9">
+  <div className="mw9 center">
    <div className="column-unequal right v-mid  white">
    <img className = "dib mw-100 h-auto"
    			 alt = "Institute for Community Inclusion"

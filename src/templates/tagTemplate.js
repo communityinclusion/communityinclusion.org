@@ -16,7 +16,6 @@ const Tags = ({ pageContext, data }) => {
   } = pageContext
   return (
     <Layout>
-      <section className="main-content">
      <div className="breadcrumbs">
       <Breadcrumb
               crumbs={crumbs}
@@ -39,7 +38,6 @@ const Tags = ({ pageContext, data }) => {
         </ul>
         <Link to="/tags">All tags</Link>
       </div>
-      </section>
     </Layout>
   );
 };

@@ -1,9 +1,8 @@
 import React, { useState } from "react"
 import styled from "styled-components"   
 import NavLinks  from './NavLinks'
-import '../components/nav.css'
 import '../styles/custom.css'
-
+import '../components/nav.css'
 
 
 const Navigation = styled.nav`
@@ -20,7 +19,7 @@ const Navigation = styled.nav`
 
   @media (max-width: 960px) {
     position: fixed;
-    height: 8vh;
+    height: 4vh;
     top: 5px;
     left: 0;
     background-color:transparent;
@@ -56,14 +55,23 @@ const Navbox = styled.div`
   @media (max-width: 960px) {
     flex-direction: column;
     position: fixed;
-   /* width: 100%;*/
+    /* width: 100%; */
     background-color: black;
     justify-content: flex-start;
     padding-top: 10vh;
     transition: all 0.3s ease-in;
-   /* top: 8vh; */
+   /*top: 8vh;  */
     right: ${props => (props.open ? "-100%" : "0")};
   }
+
+
+  @media (max-width: 480px) {
+ 
+     width: 80%; 
+    }
+
+
+
 `
 
 const Hamburger = styled.div`
@@ -105,7 +113,7 @@ const Navbar = () => {
 
   return (
  
-           <Navigation role="navigation" aria-label="Main">
+           <Navigation role="navigation" aria-label="Main" className="cf">
            <Toggle
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}
