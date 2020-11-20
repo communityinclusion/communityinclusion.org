@@ -5,13 +5,13 @@ path: "2020-07-16_welcome-to-new-gopen-and-crocker-fellows"
 date: "2020-07-16"
 posttype: "news"
 tags: ['Gopen Fellow', 'Crocker Fellow', 'Community Inclusion', 'Ici', 'Disability']
-thumbnail: "../../images/Adriana-Mallozzi.jpeg"
+thumbnail: "../../images/Adriana-Mallozzi.png"
 ---
 
 
 We would like to introduce you to the new  [Barbara Wilenski Gopen](https://www.mass.gov/service-details/barbara-wilensky-gopen-memorial-fellowship)  and  [Allen C. Crocker Family](https://www.mass.gov/doc/allen-c-crocker-family-fellowship/download)  Fellows!
 
-![Adriana Mallozzi](../../images/Adriana-Mallozzi.jpeg)
+![Adriana Mallozzi](../../images/Adriana-Mallozzi.png)
 
 **Adriana Mallozzi**, the Gopen Fellow, born with cerebral palsy (CP) has always been an innovator, finding ways to engage in activities creatively when challenges demanded it. Her project, Quirk LAABS: Leveraging Abilities to Access Better Solution, is envisioned to be an accessible, inclusive, and collaborative workspace for current and aspiring entrepreneurs with disabilities, as well as small businesses/organizations that work on solutions for the disability community.
 
