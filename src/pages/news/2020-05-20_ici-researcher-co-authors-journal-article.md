@@ -5,10 +5,10 @@ path: "2020-05-20_ici-researcher-co-authors-journal-article"
 date: "2020-05-20"
 posttype: "news"
 tags: ['Langston University', 'Ex Offender', 'Disability', 'Employment', 'Earnings']
-thumbnail: "../../images/NgaiKwan.jpg"
+thumbnail: "../../images/NgaiKwan.png"
 ---
 
-![Researcher Ngai Kwan](../../images/NgaiKwan.jpg)
+![Researcher Ngai Kwan](../../images/NgaiKwan.png)
 
 
 

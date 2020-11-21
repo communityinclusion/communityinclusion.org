@@ -16,7 +16,7 @@
       "babel-plugin-styled-components": "^1.10.0",
       "eslint": "^7.0.0",
       "eslint-plugin-flowtype": "5.1.0",
-      "gatsby": "^2.24.80",
+      "gatsby": "2.27.0",
       "gatsby-background-image": "^1.1.1",
       "gatsby-cli": "^2.13.1",
       "gatsby-image": "2.6.0",
@@ -26,7 +26,7 @@
       "gatsby-plugin-google-tagmanager": "^2.1.20",
       "gatsby-plugin-lodash": "^3.1.8",
       "gatsby-plugin-lunr": "^1.5.2",
-      "gatsby-plugin-manifest": "2.4.21",
+      "gatsby-plugin-manifest": "2.7.0",
       "gatsby-plugin-material-ui": "^2.1.10",
       "gatsby-plugin-offline": "3.2.17",
       "gatsby-plugin-page-creator": "^2.3.16",
@@ -37,7 +37,7 @@
       "gatsby-plugin-sitemap": "^2.2.2",
       "gatsby-plugin-styled-components": "^3.0.7",
       "gatsby-plugin-twitter": "^2.3.0",
-      "gatsby-plugin-typescript": "^2.1.15",
+      "gatsby-plugin-typescript": "2.7.0",
       "gatsby-plugin-web-font-loader": "^1.0.4",
       "gatsby-remark-copy-linked-files": "^2.0.11",
       "gatsby-remark-embed-snippet": "^4.3.12",
@@ -50,7 +50,7 @@
       "gatsby-remark-vscode": "^3.1.0",
       "gatsby-source-airtable": "^2.1.1",
       "gatsby-source-filesystem": "^2.0.29",
-      "gatsby-transformer-remark": "^2.8.42",
+      "gatsby-transformer-remark": "2.11.0",
       "gatsby-transformer-sharp": "2.7.0",
       "graphql-type-json": "^0.3.1",
       "immutable": "^4.0.0-rc.12",
@@ -105,7 +105,6 @@
       "reinstall": "npm run clean && npm install",
       "rebuild": "npm run clean && npm install && npm run build"
    },
-   
    "repository": {
       "type": "git",
       "url": "https://github.com/gatsbyjs/gatsby-starter-default"
