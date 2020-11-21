@@ -117,7 +117,6 @@ query GetNewsPosts($limit: Int, $skip: Int) {
                 srcSet
               }
             }
-            publicURL
           }
         }
         id

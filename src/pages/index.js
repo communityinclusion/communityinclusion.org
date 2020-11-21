@@ -201,7 +201,6 @@ allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {fr
                 srcSet
               }
             }
-            publicURL
           }
         }
       }
