@@ -107,8 +107,8 @@ plugins: [
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      name: `Community-Inclusion`,
-      short_name: `ici`,
+      name: `gatsby-starter-default`,
+      short_name: `starter`,
       start_url: `/`,
       background_color: `#663399`,
       theme_color: `#663399`,
