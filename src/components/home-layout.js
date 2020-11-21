@@ -22,7 +22,7 @@ import "../styles/custom.css"
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
-      query SiteTitleQuery {
+      query HomeTitleQuery {
         site {
           siteMetadata {
             title
