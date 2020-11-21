@@ -104,28 +104,45 @@ plugins: [
       // dataLayerName: "YOUR_DATA_LAYER_NAME",
     },
   },
-  // {
-   // resolve: `gatsby-plugin-manifest`,
-  //  options: {
- //     name: `gatsby-starter-default`,
- //     short_name: `starter`,
- //     start_url: `/`,
- //     background_color: `#663399`,
-  //    theme_color: `#663399`,
- //     display: `minimal-ui`,
- //     icon: `src/images/icon.png`, // This path is relative to the root of the site.
- //     crossOrigin: `use-credentials`,
-  //  },
- //  },
   {
-    resolve: "gatsby-plugin-sentry",
+    resolve: `gatsby-plugin-manifest`,
     options: {
-      dsn: "https://3d981740717e4fe8a72e44cce3060d6e@sentry.io/1875087",
-      // Optional settings, see https://docs.sentry.io/clients/node/config/#optional-settings
-      environment: process.env.NODE_ENV,
-      enabled: (() => ["production", "stage"].indexOf(process.env.NODE_ENV) !== -1)()
-    }
+      name: `gatsby-starter-default`,
+      short_name: `starter`,
+      start_url: `/`,
+      background_color: `#663399`,
+      theme_color: `#663399`,
+      display: `minimal-ui`,
+      icon: `src/images/icon.png`, // This path is relative to the root of the site.
+      crossOrigin: `use-credentials`,
+    },
   },
+ {
+  resolve: "@sentry/gatsby",
+  options: {
+    dsn: "https://3d981740717e4fe8a72e44cce3060d6e@o339238.ingest.sentry.io/1875087",
+    sampleRate: 0.7,
+    // Alternatively:
+    tracesSampler: samplingContext => {
+      // Examine provided context data (along with anything in the global namespace) to decide the sample rate
+      // for this transaction.
+      // Can return 0 to drop the transaction entirely.
+
+      if ("...") {
+        return 0.5 // These are important - take a big sample
+      }
+      else if ("...") {
+        return 0.01 // These are less important or happen much more frequently - only take 1% of them
+      }
+      else if ("...") {
+        return 0 // These aren't something worth tracking - drop all transactions like this
+      }
+      else {
+        return 0.1 // Default sample rate
+      }
+    }
+  }
+}, 
   {
     resolve: 'gatsby-plugin-web-font-loader',
     options: {
