@@ -1,5 +1,5 @@
 ---
-title: "Mission"
+title: "Mission and Vision"
 path: "/about/mission"
 posttype: "page"
 date: 2018-12-29
@@ -18,13 +18,13 @@ ICI envisions a world that is socially just, where children and adults with disa
 
 ## Values
 
-To help realize this vision and mission, we value;
+To help realize this vision and mission, we value:
 
 _Being a CHAMPION_ of children and adults with disabilities through advocacy and education.
 
 _Fostering COMPETENCIES_ that promote the full potential for all.  
 
-_Engaging in COMMUNICATION_ to advance knowledge across domains - education, employment, health care, community involvement, and quality of life - with and for children and adults with disabilities.
+_Engaging in COMMUNICATION_ to advance knowledge across domains — education, employment, health care, community involvement, and quality of life — with and for children and adults with disabilities.
 
 _Building CONFIDENCE_ in children and adults with disabilities so they can realize self-driven goals.
 

@@ -40,7 +40,7 @@ const IndexPage = ({data, location }) => {
   
   
   <div className="flex-l center">
-<article className="flex-1 shadow-4 mr4-l mb4-ns">
+<article className="flex-1 shadow-4 mr4-l mb4">
   <div className=" bg-green mv0 ph3 ">
   <img src={employment_logo} className="dib v-mid" alt = "Employment icon" />
   <h3 className="f3 white  dib v-mid pl2">     Employment</h3>
@@ -54,7 +54,7 @@ const IndexPage = ({data, location }) => {
 
 
 
-<article className="flex-1 shadow-4 mb4-ns">
+<article className="flex-1 shadow-4 mb4">
 <div className="bg-purple mv0 ph3 ">
 <img src={education_logo} className="dib v-mid" alt = "Education icon" /> 
   <h3 className="f3 white dib v-mid pl2"> Education</h3>
@@ -66,10 +66,10 @@ const IndexPage = ({data, location }) => {
   </div>
 </article>
 </div> 
- <div className="flex-l mb3-ns center">
+ <div className="flex-l center">
 
 
-<article className="flex-1 shadow-4 mb4-ns mr4-l">
+<article className="flex-1 shadow-4 mb4 mr4-l">
 <div className="bg-red mv0 ph3 ">
 <img src={community_logo} className="dib v-mid" alt = "Community icon" /> 
   <h3 className="f3 white dib v-mid pl2"> Community Life</h3>
@@ -83,7 +83,7 @@ const IndexPage = ({data, location }) => {
 
 
 
-<article className="flex-1 shadow-4 mb4-l">
+<article className="flex-1 shadow-4 mb4">
 <div className="bg-orange mv0 ph3 ">
 <img src={healthcare_logo} className="dib v-mid" alt = "Healthcare icon" /> 
   <h3 className="f3 white dib v-mid pl2"> Health Care</h3>

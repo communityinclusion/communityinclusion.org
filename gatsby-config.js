@@ -6,9 +6,9 @@ require("dotenv").config({
 // const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
 
 // console.log("GATSBY PATH PREFIX: ", pathPrefix)
-//if (!process.env.GATSBY_AIRTABLE_APIKEY) {
-//  throw new Error("process.env.GATSBY_AIRTABLE_APIKEY is undefined.")
-// }
+ if (!process.env.GATSBY_AIRTABLE_APIKEY) {
+   throw new Error("process.env.GATSBY_AIRTABLE_APIKEY is undefined.")
+  }
 
 
 module.exports = {
@@ -122,25 +122,7 @@ plugins: [
   options: {
     dsn: "https://3d981740717e4fe8a72e44cce3060d6e@o339238.ingest.sentry.io/1875087",
     sampleRate: 0.7,
-    // Alternatively:
-    tracesSampler: samplingContext => {
-      // Examine provided context data (along with anything in the global namespace) to decide the sample rate
-      // for this transaction.
-      // Can return 0 to drop the transaction entirely.
-
-      if ("...") {
-        return 0.5 // These are important - take a big sample
-      }
-      else if ("...") {
-        return 0.01 // These are less important or happen much more frequently - only take 1% of them
-      }
-      else if ("...") {
-        return 0 // These aren't something worth tracking - drop all transactions like this
-      }
-      else {
-        return 0.1 // Default sample rate
-      }
-    }
+    maxBreadcrumbs: 80,
   }
 }, 
   {

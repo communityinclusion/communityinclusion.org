@@ -104,7 +104,7 @@ StateData.info</a>
 </div>
 <div class="card-body">
 <h2 class="card-title"><a  href="/projects/seln">
-SELN<</a>
+SELN</a>
 </h2>
 <p>The State Employment Leadership Network (SELN) brings together state developmental disability agencies for education and guidance on employment practices and policies.</p>
 </div>

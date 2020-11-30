@@ -25,4 +25,4 @@ Featured projects include:
 **Guidepost Fidelity Scale Development.** The goal of this project is to develop a guidepost fidelity scale that assesses service providers’ adherence to the Four Guideposts for CLE, a research-based model for day services and supports based on ICI’s previous research. Over the course of three years the project team will convert an existing self-assessment tool into a full fidelity scale and test the scale for validity and reliability.
 
 - - -
-**Related Project**: Placeholder
+**Related Projects**: [NERCVE](/projects/nercve, [CLE](/projects/cle), 

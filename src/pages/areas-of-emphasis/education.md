@@ -27,4 +27,4 @@ This project allows us to explore the extent of implementation of research-based
 
 - - -
 
-**Related Project**: [ThinkCollege!](/projects/thinkcollege), [NERCVE](/projects/nercve), [Future Quest Island](/projects/fqi)
+**Related Projects**: [ThinkCollege!](/projects/thinkcollege), [NERCVE](/projects/nercve), [Future Quest Island](/projects/fqi)

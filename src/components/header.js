@@ -23,14 +23,14 @@ const Header = () => (
 
     </Link> </div> 
     
-    <div className = "fl w-80 w-60-l pl2 header-second" >
-    <p className = "bb-0 banner-text dark-blue b  f4 f2-m f1-l db mb2 mt0-ns mt3 center " >
+    <div className = "fl pl2 header-second" >
+    <p className = "bb-0 banner-text dark-blue b db mb2 mt0-ns mt3 center " >
     Institute
     for Community Inclusion </p>
     <span className = "banner-tagline f6 f5-m f4-l dn db-ns f-subheadline dark-blue tracked-mega-l " > { " " }
     PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES </span> </div> 
     
-    <div className = "fl w-25 dn dn-m db-l pa2 header-third" >
+    <div className = "fl w-25 dn dn-m db-ns pa2 header-third" >
    
     <ul className = "flex justify-around list pl0 ma0 mb2 header-links" >
     <li className = "flex-item dib pr1" >

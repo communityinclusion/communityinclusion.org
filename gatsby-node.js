@@ -13,10 +13,11 @@ sharp.simd(false);
 
 
 
-exports.onCreateNode = ({ node, getNode , actions }) => {
+exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
   let slug;
   fmImagesToRelative(node) // convert image paths for gatsby images
+  
   if (node.internal.type === `MarkdownRemark`) {
     const slug = createFilePath({ node, getNode,basePath: `pages` }); // basePath: `pages`
     console.log(createFilePath({ node, getNode, basePath: `pages` }))
@@ -26,16 +27,16 @@ exports.onCreateNode = ({ node, getNode , actions }) => {
       value: slug,
     });
   }
-if (node.internal.type === `Airtable` && node.table === `Staff`) 
- {
+
+if (node.internal.type === `Airtable` && node.table === `Staff`) {
  slug = `about/staff-directory/${node.data.Name.replace(/ /g, "-")
-  .replace(/[,&]/g, "")
-   .toLowerCase()}/`;
+ .replace(/[,&]/g, "")
+ .toLowerCase()}/`;
 
   // Add slug as a field on the node.
  createNodeField({ node, name: `slug`, value: slug });
-}
-}
+ }
+};
 
 exports.createPages = async function ({ actions, graphql, reporter }) {
 
