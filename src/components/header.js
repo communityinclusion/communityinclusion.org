@@ -4,6 +4,14 @@ import React from "react"
 import logo from '../images/ici-150w.png'
 // import Search from './search.js'
 import SearchForm from "./searchForm"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+    faTwitter,
+    faInstagram,
+    faTumblrSquare,
+    faFacebookSquare,
+    faYoutube
+} from '@fortawesome/free-brands-svg-icons'
 
 
 const Header = () => (
@@ -48,26 +56,26 @@ const Header = () => (
     <li className = "flex-item dib" > { " " } <a href = "https://twitter.com/ICInclusion"
     target = "_blank"
     rel = "noopener noreferrer" >
-    <i className = "fab  fa-2x fa-twitter" / >
+      <FontAwesomeIcon icon={faTwitter} size="2x" />
     </a> </li> <li className = "flex-item dib" > { " " }
      <a href = "https://www.instagram.com/communityinclusion/"
     target = "_blank"
     rel = "noopener noreferrer" >
-    <i className = "fab fa-2x fa-instagram" / >
+    <FontAwesomeIcon icon={faInstagram} size="2x" />
     </a> </li> <li className = "flex-item dib pl1" > { " " } 
     <a href = "https://communityinclusion.tumblr.com/"
     target = "_blank"
     rel = "noopener noreferrer" >
-    <i className = "fab  fa-2x fa-tumblr-square" / >
+     <FontAwesomeIcon icon={faTumblrSquare} size="2x" />
     </a> </li> <li className = "flex-item dib pl1" > { " " } <a href = "https://www.facebook.com/communityinclusion/"
     target = "_blank"
     rel = "noopener noreferrer" >
-    <i className = "fab  fa-2x fa-facebook-square" / >
-    </a> </li> <li className = "flex-item dib pl1" > { " " } <
-    a href = "https://www.youtube.com/user/communityinclusion"
+     <FontAwesomeIcon icon={faFacebookSquare} size="2x" />
+    </a> </li> <li className = "flex-item dib pl1" > { " " } 
+    <a href = "https://www.youtube.com/user/communityinclusion"
     target = "_blank"
     rel = "noopener noreferrer" >
-    <i className = "fab fa-2x fa-youtube" / >
+   <FontAwesomeIcon icon={faYoutube} size="2x" />
     </a> </li> </ul>
     <div>
 

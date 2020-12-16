@@ -133,6 +133,63 @@
 	border-color: #d5d5d5
 }
 
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.25;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+	display: block;
+}
+figure {
+	padding:0;
+	margin:0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+	margin: .67em 0;
+}
+
+a {
+	color: #0075ad;
+	text-decoration: none;
+}
+
+a:focus {
+	outline: 1px dotted currentColor;
+	outline-offset: .125rem;
+}
+
+a:active {
+	outline-width: 0;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 a:link,
 a:visited {
 	color: #1178AD;
@@ -347,61 +404,6 @@ footer a:hover {
 	}
 }
 
-html {
-	font-family: 'Open Sans', sans-serif;
-	line-height: 1.25;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-}
-
-body {
-	margin: 0;
-}
-
-article,
-aside,
-footer,
-header,
-nav,
-section {
-	display: block;
-}
-figure {
-	padding:0;
-	margin:0
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: 'Montserrat', sans-serif;
-}
-
-h1 {
-	font-size: 2em;
-	margin: .67em 0;
-}
-
-a {
-	color: #0075ad;
-	text-decoration: none;
-}
-
-a:focus {
-	outline: 1px dotted currentColor;
-	outline-offset: .125rem;
-}
-
-a:active {
-	outline-width: 0;
-}
-
-a:hover {
-	text-decoration: underline;
-}
 
 
 /* Buttons */
@@ -672,6 +674,10 @@ li.MuiButtonBase-root a {
 }
 
 
+.MuiFormLabel-root {
+	color: rgba(0, 0, 0);
+	font-family: "Open Sans", sans-serif;
+}
 
 
 .pagetemplate blockquote {

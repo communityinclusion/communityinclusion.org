@@ -112,7 +112,7 @@ const IndexPage = ({data, location }) => {
        {posts.map(post => (
        <div key={post.node.id} className="post-list__item bb b--black-10 ">
        <div className="post-list__thumbnail">
-         <Link to={post.node.fields.slug}>
+         <Link to={post.node.fields.slug} title="link to article">
          {
             post.node.frontmatter.thumbnail
             && (

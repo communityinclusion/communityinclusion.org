@@ -6,9 +6,9 @@ require("dotenv").config({
 // const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
 
 // console.log("GATSBY PATH PREFIX: ", pathPrefix)
- if (!process.env.GATSBY_AIRTABLE_APIKEY) {
-   throw new Error("process.env.GATSBY_AIRTABLE_APIKEY is undefined.")
-  }
+// if (!process.env.GATSBY_AIRTABLE_APIKEY) {
+//   throw new Error("process.env.GATSBY_AIRTABLE_APIKEY is undefined.")
+//  }
 
 
 module.exports = {
@@ -34,6 +34,20 @@ plugins: [
           theme: 'Abyss' // Or install your favorite theme from GitHub
         }
       },
+      {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.icibeta.netlify.app',
+        env: {
+          development: {
+            policy: [{ userAgent: '*', disallow: ['/'] }]
+          },
+          production: {
+            policy: [{ userAgent: '*', allow: '/' }]
+          }
+        }
+      }
+    },
       {
        resolve: `gatsby-remark-relative-images-v2`,
        options: {
@@ -139,11 +153,11 @@ plugins: [
       siteUrl: `https://icibeta.netlify.app`,
     },
   },
+  'gatsby-plugin-htaccess',
     `gatsby-plugin-offline`,
 `gatsby-plugin-twitter`,
   `gatsby-plugin-react-helmet`,
   `gatsby-plugin-catch-links`,
-
   {
     resolve: `gatsby-source-filesystem`,
     options: {
@@ -189,7 +203,6 @@ plugins: [
       ]
     }
   },
-
     {
           resolve: `gatsby-plugin-material-ui`,
           options: {

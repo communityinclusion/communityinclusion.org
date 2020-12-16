@@ -2,6 +2,16 @@ import React from 'react'
 import { Link } from "gatsby"
 import umbcombo from '../images/bch-umb-combo_logo-small.png'
 import sanity from '../images/sanity-logo.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+    faTwitter,
+    faInstagram,
+    faTumblrSquare,
+    faFacebookSquare,
+    faYoutube,
+} from '@fortawesome/free-brands-svg-icons'
+
+
 const Footer = () => (
    <footer aria-label="Footer" className="mt5 pt3 bg-dark-blue">
 
@@ -43,34 +53,34 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
 
   <ul className = "social-links  list pl0" >
     <li className = "dib pr2" > { " " } <a href = "https://twitter.com/ICInclusion"
+    title = "Community Inclusion Twitter"
     target = "_blank"
     rel = "noopener noreferrer" >
-    <i className = "fab  fa-3x fa-twitter normal" / >
+         <FontAwesomeIcon icon={faTwitter} size="2x" />
     </a> </li> <li className = "dib pr2" > { " " }
      <a href = "https://www.instagram.com/communityinclusion/"
+     title = "Community Inclusion Instagram"
     target = "_blank"
     rel = "noopener noreferrer" >
-    <i className = "fab fa-3x fa-instagram normal" / >
-    </a> </li> <li className = "dib pr2" > { " " } 
-    <a href = "https://medium.com/@communityinclusion"
-    target = "_blank"
+        <FontAwesomeIcon icon={faInstagram} size="2x" />
+    </a> </li> 
+    <li className = "dib pr2" > { " " } <a href = "https://www.facebook.com/communityinclusion/"
+     title = "Community Inclusion Facebook"
+     target = "_blank"
     rel = "noopener noreferrer" >
-    <i className = "fab  fa-3x fa-medium normal" / >
-    </a> </li> <li className = "dib pr2" > { " " } <a href = "https://www.facebook.com/communityinclusion/"
-    target = "_blank"
-    rel = "noopener noreferrer" >
-    <i className = "fab  fa-3x fa-facebook-square normal" / >
+         <FontAwesomeIcon icon={faFacebookSquare} size="2x" />
     </a> </li> <li className = "dib pr2" > { " " } 
     <a href = "https://communityinclusion.tumblr.com/"
     target = "_blank"
+    title = "Community Inclusion Tumblr"
     rel = "noopener noreferrer" >
-    <i className = "fab  fa-3x fa-tumblr-square" / >
+       <FontAwesomeIcon icon={faTumblrSquare} size="2x" />
     </a> </li>
     <li className = "dib pr2" > { " " } 
     <a href = "https://www.youtube.com/user/communityinclusion"
     target = "_blank"
     rel = "noopener noreferrer" >
-    <i className = "fab fa-3x fa-youtube normal" / >
+        <FontAwesomeIcon icon={faYoutube} size="2x" />
     </a> </li> </ul>
    
   </div>

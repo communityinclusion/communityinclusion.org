@@ -116,7 +116,7 @@ const activeLinkStyle = {
 </li>
 
  <li className="top-level-link">
-   <Link to="/services" activeStyle={activeLinkStyle} partiallyActive={true}><span>Services</span></Link>
+   <Link to="/services" activeStyle={activeLinkStyle} partiallyActive={true} className="mega-menu"><span>Services</span></Link>
       <div className="sub-menu-block">
       <div className="cf">
       <div className="fl w-two-thirds-l db-l dn pr2">
