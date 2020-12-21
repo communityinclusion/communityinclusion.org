@@ -12,6 +12,7 @@ import Navbar from "./navbar"
 import Header from "./header"
 import Image from "../components/image"
 import Footer from "../components/footer"
+import Message from "../components/message"
 import './post.css'
 import './tags.css'
 import "../styles/keen.css"
@@ -32,6 +33,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+      <Message />
         <Header siteTitle={data.site.siteMetadata.title} />
 <Navbar />
 <Image />

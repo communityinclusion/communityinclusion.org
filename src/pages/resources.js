@@ -9,7 +9,6 @@ const ResourcesPage = ({
   },
 }) => (
   <Layout>
-   
    <section className="main-content">
   <SEO title="Resources" />
   <div className="breadcrumbs">

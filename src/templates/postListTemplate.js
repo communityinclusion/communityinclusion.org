@@ -29,15 +29,13 @@ const crumbLabelArr = customCrumbLabel.split('/');
  const labelArr = label.split('-');
   return (
     <Layout>
-
        <SEO title="New at ICI" />
        <section className="main-content">
        <div className="breadcrumbs">
        <Breadcrumb
              title={title}
              crumbs={crumbs}
-             crumbLabel={labelArr.join(' ')}  
-                    
+             crumbLabel={labelArr.join(' ')}      
             />
           </div>
         <h1 className="page-title">New at ICI</h1>
@@ -74,7 +72,6 @@ const crumbLabelArr = customCrumbLabel.split('/');
             ← Previous Page
           </Link>
         )}
-
         {Array.from({ length: numPages }, (_, i) => (
           <Link
             key={`pagination-number${i + 1}`}
@@ -83,7 +80,6 @@ const crumbLabelArr = customCrumbLabel.split('/');
             {i + 1}
           </Link>
         ))}
-
         {!isLast && (
           <Link to={nextPage} rel="next">
             Next Page →
@@ -100,7 +96,12 @@ export default NewsPage;
 // Get all markdown files, in descending order by date, and grab the id, excerpt, slug, date, and title
 export const pageQuery = graphql`
 query GetNewsPosts($limit: Int, $skip: Int) {
-  allMarkdownRemark(limit: $limit, sort: {fields: [frontmatter___date], order: DESC}, skip: $skip, filter: {frontmatter: {posttype: {eq: "news"}}}) {
+  allMarkdownRemark(
+    limit: $limit
+    sort: { fields: [frontmatter___date], order: DESC }
+    skip: $skip
+    filter: { frontmatter: { posttype: { eq: "news" } } }
+  ) {
     edges {
       node {
         frontmatter {
@@ -126,7 +127,7 @@ query GetNewsPosts($limit: Int, $skip: Int) {
         }
       }
     }
-     totalCount
+    totalCount
   }
 }
 `;

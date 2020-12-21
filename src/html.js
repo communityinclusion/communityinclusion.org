@@ -11,13 +11,12 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <link rel="preload"  href="https://use.typekit.net/hss6qfr.css" />
         {props.headComponents}
         <script dangerouslySetInnerHTML= {{ __html:`
 var _ctct_m = "b49f2c8400ca9ddcee2ba421b594264d"; </script>
 <script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
 `}} />
- <link rel="stylesheet"  href="https://use.typekit.net/hss6qfr.css" />
+
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}

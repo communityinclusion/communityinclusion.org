@@ -143,7 +143,10 @@ plugins: [
     resolve: 'gatsby-plugin-web-font-loader',
     options: {
       google: {
-        families: ['Open Sans', 'Montserrat']
+        families: ['Open Sans', 'Montserrat', 'Open Sans Condensed']
+      },
+      typekit: {
+        id: 'hss6qfr'
       }
     }
   },

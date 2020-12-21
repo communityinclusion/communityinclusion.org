@@ -89,4 +89,5 @@ Staff listing and contact details<!-- end -->
 | Cate       | Weir              | (603) 848-4901 | <Cathryn.Weir@umb.edu>                     | [View Profile](/about/staff-directory/cate-weir)                  |
 | Jean       | Winsor            | (716) 406-9780 | <Jean.Winsor@umb.edu>                      | [View Profile](/about/staff-directory/jean-e-winsor)              |
 | Ashley     | Wolfe             | (617) 287-4351 | <Ashley.Wolfe@umb.edu>                     | [View Profile](/about/staff-directory/ashley-wolfe)               |
+| Cedric     | Woods             |                | <Cedric.Woods@umb.edu>                     | [View Profile](/about/staff-directory/cedric-woods)               |
 | Agnes      | Zalewska          | (617) 287-4393 | <Agnes.Zalewska@umb.edu>                  | [View Profile](/about/staff-directory/agnieszka-zalewska)         |

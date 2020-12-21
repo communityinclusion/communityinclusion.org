@@ -32,7 +32,7 @@ const Header = () => (
     </Link> </div> 
     
     <div className = "fl pl2 header-second" >
-    <p className = "bb-0 banner-text dark-blue b db mb2 mt0-ns mt3 center " >
+    <p className = "banner-text dark-blue mb2 mt0-ns mt3" >
     Institute
     for Community Inclusion </p>
     <span className = "banner-tagline f6 f5-m f4-l dn db-ns f-subheadline dark-blue tracked-mega-l " > { " " }
