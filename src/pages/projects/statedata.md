@@ -3,7 +3,7 @@ title: "Statedata"
 path: "/projects/statedata"
 posttype: "page"
 date: 2018-12-29
-thumbnail: '../../images/statedata-long.png'
+thumbnail: '../../images/statedata.png'
 ---
 
 

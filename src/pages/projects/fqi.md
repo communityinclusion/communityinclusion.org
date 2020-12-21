@@ -3,7 +3,7 @@ title: "Future Quest Island"
 path: "/projects/fqi"
 posttype: "page"
 date: 2018-12-29
-thumbnail: '../../images/tc-fqi-long.png'
+thumbnail: '../../images/fqi.png'
 ---
 
 

@@ -3,7 +3,7 @@ title: "Think Work"
 path: "/projects/thinkwork"
 posttype: "page"
 date: 2018-12-29
-thumbnail: '../../images/thinkwork-long.png'
+thumbnail: '../../images/thinkwork.png'
 ---
 
 ![ThinkWork](../../images/thinkwork-long.png)

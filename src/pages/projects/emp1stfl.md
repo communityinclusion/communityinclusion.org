@@ -3,7 +3,7 @@ title: "Employment First Florida"
 path: "/projects/emp1stfl"
 date: 2018-12-29
 posttype: "page"
-thumbnail: '../../images/efflogo-long.png'
+thumbnail: '../../images/empfirstFL-sq-400.png'
 ---
 
 

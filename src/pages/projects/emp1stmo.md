@@ -3,7 +3,7 @@ title: "Employment First Missouri"
 path: "/projects/emp1stmo"
 date: 2018-12-29
 posttype: "page"
-thumbnail: '../../images/empfirstMO-sq-long.png'
+thumbnail: '../../images/empfirstMO-sq-400.png'
 ---
 
 

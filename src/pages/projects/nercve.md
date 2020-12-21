@@ -3,7 +3,7 @@ title: "NERCVE"
 path: "/projects/nercve"
 posttype: "page"
 date: 2018-12-29
-thumbnail: '../../images/nercve-2019-long.png'
+thumbnail: '../../images/nercve.png'
 ---
 
 ![Nercve](../../images/nercve-2019-long.png)

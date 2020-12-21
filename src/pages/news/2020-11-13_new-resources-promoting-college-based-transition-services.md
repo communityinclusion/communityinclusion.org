@@ -5,7 +5,7 @@ path: "/2020-11-13_new-resources-promoting-college-based-transition-services"
 date: "2020-11-13"
 posttype: "news"
 tags: ['MAICEI', 'Think College', 'Transition Based Services', 'Community Inclusion']
-thumbnail: "../../images/tc-transition-Leadership-thumb.jpg"
+thumbnail: "../../images/tc-transition-Leadership-thumb.png"
 ---
 
 In collaboration with MAICEI partners, as well as some out-of-state special education administrators doing similar work, Maria Paiewonsky and Ty Hanson have worked to create three new briefs, [three new student snapshots](https://thinkcollege.net/resource/college-based-transition-services-cbts/maicei-student-snapshots), and a [new student profile](https://thinkcollege.net/sites/default/files/files/resources/TCT_SP6_Brendon_College_Experience.pdf). These publications have been developed to promote college-based transition services.

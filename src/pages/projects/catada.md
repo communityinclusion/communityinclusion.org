@@ -3,7 +3,7 @@ title: "Center for Assistive Technology Act Data Assistance"
 path: "/projects/catada"
 date: 2018-12-29
 posttype: "page"
-thumbnail: '../../images/catada-long.png'
+thumbnail: '../../images/catada.png'
 ---
 
 

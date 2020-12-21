@@ -3,7 +3,7 @@ title: "Boston LEND"
 path: "/projects/lend"
 posttype: "page"
 date: 2018-12-29
-thumbnail: '../../images/bch-lend-long.png'
+thumbnail: '../../images/bch-lend-logo.png'
 ---
 
 

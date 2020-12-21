@@ -3,7 +3,7 @@ title: "Boston Children’s Hospital Down Syndrome Program"
 path: "/projects/bchdsp"
 date: 2018-12-29
 posttype: "page"
-thumbnail: '../../images/bch-dsp-long.png'
+thumbnail: '../../images/bch-ds-logo.png'
 ---
 
 
