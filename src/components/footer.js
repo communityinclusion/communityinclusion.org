@@ -103,27 +103,28 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
     <div className="column-unequal left v-mid white ph3">
     <ul className = "list pl0 " >
     <li className = " dib br pr2" >
-   <Link to= "/about/privacy/" className="link dim white f6 dib "
+   <Link to= "/about/privacy/" className="link dim white f6"
     title = "Privacy" >
     Privacy { " " } </Link> </li> 
-    <li className = "dib br pr2 pl1" > { " " }
-   <Link to="/about/accessibility/" className="link dim white f6 dib "
+    <li className = "dib br pr2 pl2" > { " " }
+   <Link to="/about/accessibility/" className="link dim white f6"
     title = "Accessibility" >
     Accessibility </Link> </li> 
     <li className= "dib pl1" > { " " }
-    <Link to="/donate/"  className= "link dim white f6 dib "
+    <Link to="/donate/"  className= "link dim white f6"
     title = "Donate" >
     Donate </Link> </li>
      </ul>
-     <p>
-  <a href="https://www.netlify.com">
-    <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" /></a> 
-    <a href="https://www.sanity.io">
-    <img className = "ml3"
-   			 alt = "content structured in sanity"
+     <p className = "pt3">Website development supported by:</p>
+     <ul className = "list pl0 " >
+     <li className= "dib pr1 v-mid" ><a href="https://www.netlify.com">
+    <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" /></a> </li>
+    <li className= "dib pl1 v-mid" > <a href="https://www.sanity.io">
+    <img alt = "content structured in sanity"
             src={sanity}
           />
-          </a></p>
+          </a></li>
+          </ul>
     </div>
     </div>
  

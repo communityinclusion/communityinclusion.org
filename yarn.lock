@@ -8239,9 +8239,9 @@ file-type@^12.0.0:
   integrity sha512-UssQP5ZgIOKelfsaB5CuGAL+Y+q7EmONuiwF3N5HAH0t27rvrttgi6Ra9k/+DVaY9UF6+ybxu5pOXLUdA8N7Vg==
 
 file-type@^16.0.0:
-  version "16.0.1"
-  resolved "https://registry.yarnpkg.com/file-type/-/file-type-16.0.1.tgz#d12d19c716e49d79e0a27bcf502961498b0b9928"
-  integrity sha512-rwXqMZiizJd0uXZE52KN2DtPBAV99qz9cUTHHt8pSyaQzgVYrHJGR0qt2p4N/yzHEL/tGrlB/TgawQb4Fnxxyw==
+  version "16.1.0"
+  resolved "https://registry.yarnpkg.com/file-type/-/file-type-16.1.0.tgz#1c8a4458b2103e07d2b49ae7f76384abafe86529"
+  integrity sha512-G4Klqf6tuprtG0pC4r9kni4Wv8XhAAsfHphVqsQGA+YiOlPAO40BZduDqKfv0RFsu9q9ZbFObWfwszY/NqhEZw==
   dependencies:
     readable-web-to-node-stream "^3.0.0"
     strtok3 "^6.0.3"
@@ -8932,9 +8932,9 @@ gatsby-plugin-remove-trailing-slashes@^2.1.7:
     "@babel/runtime" "^7.12.5"
 
 gatsby-plugin-robots-txt@^1.5.3:
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-robots-txt/-/gatsby-plugin-robots-txt-1.5.3.tgz#2485ce04efcc40f9eef67c55e3974be64e6b578a"
-  integrity sha512-FlA/ILf49zdMYkWXHK6zP7M28mdHRIqr4eCjUUV68Sr/fAqtC2lWggga3BHQbSz8sKE+ol6SxY1w27wCugPNOA==
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-robots-txt/-/gatsby-plugin-robots-txt-1.5.4.tgz#2c16a4bc8a54057da152d9d5b9c5abffba8c4071"
+  integrity sha512-y+lADTjF6gVQomuv5+fdCHkHIzQp1MGxWi57HtQZk2aOCS/hrcdH+CgfTfca4EHbvaGXzD+CW/zFLZ1YxPGAAw==
   dependencies:
     "@babel/runtime" "^7.11.2"
     generate-robotstxt "^8.0.3"

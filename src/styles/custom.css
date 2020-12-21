@@ -216,7 +216,6 @@ li a:target {
 }
 
 footer a:hover {
-	font-weight: 700;
 	color: #fff;
 	opacity: .8;
 	text-decoration: underline;
@@ -249,7 +248,7 @@ footer a:hover {
   }
 
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
 	.column-equal, .column-unequal {
 	  width: 100%;
 	
