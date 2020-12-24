@@ -11,7 +11,7 @@ const Message = () => (
 
   <span className="lh-title ml3">  
   <FontAwesomeIcon icon={faInfoCircle} /> 
-  &nbsp;You are viewing the beta version of our new site. You can still use our archived site at <a href="https://archive.communityinclusion.org/">archive.communityinclusion.org</a>
+  &nbsp;You are viewing the beta version of our new site. You can still use our archived site at <a href="https://archive.communityinclusion.org/index_vintage.php">archive.communityinclusion.org</a>
   </span>
 </div>
 )
