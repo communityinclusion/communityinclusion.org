@@ -43,11 +43,6 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
 <Navbar />
 <Image />
-<section className="center bg-gray pa1 ph5-ns">
-    <p className="f6 f5-ns tl lh-copy">
-    The ICI is a University Center for Excellence in Developmental Disabilities, part of the national network started by President John F. Kennedy.
-    </p>
-  </section>
   <main className="main-content ph3 ph4-ns">{children}</main>
              <Footer />
 

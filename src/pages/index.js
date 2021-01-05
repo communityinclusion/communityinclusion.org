@@ -31,10 +31,6 @@ const IndexPage = ({data, location }) => {
      
 
 
- 
-  <div className="alertbox">
-     <span className="lh-title f6">To keep our staff and others healthy and safe, the Institute for Community Inclusion is following social distancing protocols issued by UMass Boston and state officials. Our physical office is currently closed. Our staff are working remotely and available via email. Our main phone line will also be monitored regularly: 617-287-4300. Stay well!</span>
-</div>
 
   <h2 className="bb bw1">Areas of Emphasis</h2>
   
@@ -199,10 +195,7 @@ query {
           thumbnail {
             childImageSharp {
               fixed(width: 200, height: 200) {
-                width
-                height
-                src
-                srcSet
+                ...GatsbyImageSharpFixed
               }
             }
           }

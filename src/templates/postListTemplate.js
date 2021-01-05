@@ -112,10 +112,7 @@ query GetNewsPosts($limit: Int, $skip: Int) {
           thumbnail {
             childImageSharp {
               fixed(width: 200, height: 200) {
-                width
-                height
-                src
-                srcSet
+                ...GatsbyImageSharpFixed
               }
             }
           }

@@ -43,10 +43,10 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
      <li className="mr2"><Link to="/areas-of-emphasis" className="link white  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Areas of Emphasis">Areas of Emphasis</Link></li>
     <li className="mr2"> <Link to="/projects" className="link white  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Projects">Projects</Link></li>
        <li className="mr2">   <Link to="/services" className="link white  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Services">Services</Link></li>
-                        <li className="mr2"> <Link to="/" className="link white  f6 f5-l dib no-underline underline-hover" title="Subscribe">Subscribe</Link></li>
+                        <li className="mr2"> <Link to="/subscribe" className="link white  f6 f5-l dib no-underline underline-hover" title="Subscribe">Subscribe</Link></li>
 
- <li className="mr2"> <Link to="/" className="link white  f6 f5-l dib no-underline underline-hover" title="contact">Contact</Link></li>
-    <li className="mr2"> <Link to="/" className="link white  f6 f5-l dib no-underline underline-hover" title="Donate">Donate</Link></li>
+ <li className="mr2"> <Link to="/about/contact" className="link white  f6 f5-l dib no-underline underline-hover" title="contact">Contact</Link></li>
+    <li className="mr2"> <Link to="/donate" className="link white  f6 f5-l dib no-underline underline-hover" title="Donate">Donate</Link></li>
   </ul></div>
   <div className="column-equal pa2 ">
   <h3 className="bb w-100 pv0 f4 lh-copy ttu tracked">Social</h3>
@@ -96,7 +96,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
      </div> 
       <div className="column-unequal middle v-mid white ph3">
    
-      <p className="white">©2020 The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital.</p>
+      <p className="white">©2020 The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital. The ICI is a University Center for Excellence in Developmental Disabilities, part of the national network started by President John F. Kennedy.</p>
     </div>
    
   
