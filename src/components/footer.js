@@ -43,7 +43,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
      <li className="mr2"><Link to="/areas-of-emphasis" className="link white  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Areas of Emphasis">Areas of Emphasis</Link></li>
     <li className="mr2"> <Link to="/projects" className="link white  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Projects">Projects</Link></li>
        <li className="mr2">   <Link to="/services" className="link white  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Services">Services</Link></li>
-                        <li className="mr2"> <Link to="/subscribe" className="link white  f6 f5-l dib no-underline underline-hover" title="Subscribe">Subscribe</Link></li>
+       <li className="mr2"> <a href="https://lp.constantcontactpages.com/su/jlCEExQ/subscribe" className="link white  f6 f5-l dib no-underline underline-hover" target = "_blank" rel = "noopener noreferrer" title="Subscribe">Subscribe</a></li>
 
  <li className="mr2"> <Link to="/about/contact" className="link white  f6 f5-l dib no-underline underline-hover" title="contact">Contact</Link></li>
     <li className="mr2"> <Link to="/donate" className="link white  f6 f5-l dib no-underline underline-hover" title="Donate">Donate</Link></li>

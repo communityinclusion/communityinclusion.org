@@ -12,11 +12,6 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {props.headComponents}
-        <script dangerouslySetInnerHTML= {{ __html:`
-var _ctct_m = "b49f2c8400ca9ddcee2ba421b594264d"; </script>
-<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
-`}} />
-
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}

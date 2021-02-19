@@ -17,6 +17,82 @@ excerpt: "The Institute for Community Inclusion at UMass Boston supports the rig
 
 
 <div class="flex-l  center">
+
+<article class="card w-33-l">
+<div class="flex flex-column flex-row-ns">
+<div class="w-100">
+ <a class="link dt w-100 mt2 dark-blue" href="/about/history">
+<h2 class="fw1 mt0 lh-copy bb bw2">History</h2>
+</a>
+<p class="f6 f5-l mt0 lh-copy">Learn about our history and explore our interactive timeline.</p>   
+</div>
+</div>
+</article>
+
+<article class="card w-33-l">
+<div class="flex flex-column flex-row-ns">
+<div class="w-100">
+<a href="/about/mission" class="link dt w-100 mt2 dark-blue">
+<h2 class="fw1 mt0 lh-copy bb bw2">Mission and Vision</h2>
+</a>
+<p class="f6 f5-l mt0 lh-copy">From our founding to today, these core principles drive us.</p>  
+</div>
+</div>
+</article>
+
+<article class="card w-33-l">
+<div class="flex flex-column flex-row-ns">
+<div class="w-100">
+<a class="link dt w-100 mt2 dark-blue" href="/about/staff-directory">
+<h2 class="fw1 mt0 lh-copy bb bw2">Staff</h2>
+</a>
+<p class="f6 f5-l mt0 lh-copy">View our staff directory.
+</p> 
+</div>
+</div>
+</article>
+
+</div>
+
+<div class="flex-l center">
+
+<article class="card w-33-l">
+<div class="flex flex-column flex-row-ns">
+<div class="w-100">
+        <a class="link dt w-100 mt2 dark-blue" href="/about/directions">
+    <h2 class="fw1 mt0 bb bw2">Directions</h2>
+       </a>
+     <p class="f6 f5-l mt0 lh-copy">Get to our office by car or public transportation. </p>  
+   </div>
+  </div>
+</article>
+
+<article class="card w-33-l">
+<div class="flex flex-column flex-row-ns">
+<div class="w-100">
+        <a class="link dt w-100 mt2 dark-blue" href="/about/contact">
+    <h2 class="fw1 mt0 lh-copy bb bw2">Contact</h2>
+       </a>
+   <p class="f6 f5-l mt0 lh-copy">Get in touch or ask our staff a question. </p>
+  </div>
+  </div>
+</article>
+
+<article class="card w-33-l">
+<div class="flex flex-column flex-row-ns">
+<div class="w-100">
+        <a class="link dt w-100 mt2 dark-blue" href="/about/glossary">
+    <h2 class="fw1 mt0 lh-copy bb bw2">Glossary</h2>
+       </a>
+       <p class="f6 f5-l mt0 lh-copy">Your guide to common terms related to disability.</p> 
+   </div>
+  </div>
+</article>
+ 
+</div>
+
+
+<div class="flex-l  center">
 <article class="card w-33-l">
 
  <div class="flex flex-column flex-row-ns">
@@ -25,91 +101,37 @@ excerpt: "The Institute for Community Inclusion at UMass Boston supports the rig
  <div class="w-100">
  
 <a class="link dt w-100 mt2 dark-blue" href="/about/history">
-<h2 class="fw1 mt0 lh-copy bb bw2">History</h2>
+<h2 class="fw1 mt0 lh-copy bb bw2">What We Mean When We Talk About Inclusion</h2>
 </a>
-<p class="f6 f5-l mt0 lh-copy">Learn about our history and explore our interactive timeline.</p>   
+<p class="f6 f5-l mt0 lh-copy">A resource guide.</p>   
 
 </div>
 </div>
 
 </article>
 
-<article class="card w-33-l">
 
+<article class="dn  w-33-l">
 <div class="flex flex-column flex-row-ns">
-  
-<div class="w-100">
-<a href="/about/mission" class="link dt w-100 mt2 dark-blue">
-<h2 class="fw1 mt0 lh-copy bb bw2">Mission and Vision</h2>
-</a>
-<p class="f6 f5-l mt0 lh-copy">From our founding to today, these core principles drive us.</p>  
-</div>
-</div>
-
-</article>
-
-<article class="card w-33-l">
-
-<div class="flex flex-column flex-row-ns">
-   
-<div class="w-100">
-<a class="link dt w-100 mt2 dark-blue" href="/about/staff-directory">
-<h2 class="fw1 mt0 lh-copy bb bw2">Staff</h2>
-</a>
-<p class="f6 f5-l mt0 lh-copy">View our staff directory.
-</p> 
-
-  </div>
-  </div>
-
-</article>
-</div>
-<div class="flex-l center">
-
-<article class="card w-33-l">
-
-<div class="flex flex-column flex-row-ns">
-  
-
-<div class="w-100">
-        <a class="link dt w-100 mt2 dark-blue" href="/about/directions">
-    <h2 class="fw1 mt0 bb bw2">Directions</h2>
-       </a>
-     <p class="f6 f5-l mt0 lh-copy">Get to our office by car or public transportation. </p>  
-
-   </div>
-  </div>
-
-</article>
-<article class="card w-33-l">
-
-<div class="flex flex-column flex-row-ns">
-   
-<div class="w-100">
-        <a class="link dt w-100 mt2 dark-blue" href="/about/contact">
-    <h2 class="fw1 mt0 lh-copy bb bw2">Contact</h2>
-       </a>
-   <p class="f6 f5-l mt0 lh-copy">Get in touch or ask our staff a question. </p>
-
-  </div>
-  </div>
-
-</article>
-<article class="card w-33-l">
-
-<div class="flex flex-column flex-row-ns">
-  
-
 <div class="w-100">
         <a class="link dt w-100 mt2 dark-blue" href="/about/glossary">
-    <h2 class="fw1 mt0 lh-copy bb bw2">Glossary</h2>
+    <h2 class="fw1 mt0 lh-copy bb bw2"></h2>
        </a>
-       <p class="f6 f5-l mt0 lh-copy">Your guide to common terms related to disability.</p>  
-
+       <p class="f6 f5-l mt0 lh-copy"></p> 
    </div>
   </div>
-
 </article>
- 
 
 
+
+<article class="dn  w-33-l">
+<div class="flex flex-column flex-row-ns">
+<div class="w-100">
+        <a class="link dt w-100 mt2 dark-blue" href="/about/glossary">
+    <h2 class="fw1 mt0 lh-copy bb bw2"> </h2>
+       </a>
+       <p class="f6 f5-l mt0 lh-copy"> </p> 
+   </div>
+  </div>
+</article>
+</div>

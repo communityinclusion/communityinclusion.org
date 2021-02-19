@@ -97,7 +97,7 @@ const IndexPage = ({data, location }) => {
 
 
 <div className="cf">
-<div className="fl w-100-m w-75-ns bg-white pa3">
+<div className="fl w-100 w-100-m w-75-l bg-white pa3">
 <section className="center">
         <h2 className="bb bw1">
           New at ICI
@@ -136,7 +136,7 @@ const IndexPage = ({data, location }) => {
       </section>
       </div>
  
-      <div className="fl w-100-m w-25-ns tc pa3 mt4 ">
+      <div className="fl w-100 w-100-m w-25-l tc pa3 mt4 ">
       <div className="staffDropdown">
       <FormControl variant="filled" className="formControl mb3">
         <InputLabel id="demo-simple-select-label tc">Staff Directory</InputLabel>

@@ -29,7 +29,8 @@ const Header = () => (
             src={logo}
           />
 
-    </Link> </div> 
+    </Link> 
+    </div> 
     
     <div className = "fl pl2 header-second" >
     <p className = "banner-text dark-blue mb2 mt0-ns mt3" >
@@ -42,22 +43,23 @@ const Header = () => (
    
     <ul className = "flex justify-around list pl0 ma0 mb2 header-links" >
     <li className = "flex-item dib pr1" >
-   <Link to= "/subscribe/" className="link dim dark-gray f6 dib "
-    title = "Subscribe" >
-    Subscribe { " " } </Link> </li> <li className = "flex-item dib  pr1 pl1" > { " " }
+   <a href= "https://lp.constantcontactpages.com/su/jlCEExQ/subscribe" className="link dim dark-gray f6 dib "
+    title = "Subscribe"  target = "_blank" rel = "noopener noreferrer" >Subscribe { " " } </a> </li> <li className = "flex-item dib  pr1 pl1" > { " " }
    <Link to="/about/contact/" className="link dim dark-gray f6 dib "
-    title = "Contact" >
-    Contact </Link> </li> <li className= "flex-item dib pl1" > { " " }
+    title = "Contact" >Contact </Link> </li> 
+    <li className= "flex-item dib pl1" > { " " }
     <Link to="/donate/"  className= "link dim dark-gray f6 dib "
     title = "Donate" >
-    Donate </Link> </li> </ul>  
+    Donate </Link> </li>
+     </ul>  
 
     <ul className = "social-links flex justify-around list pl0 ma0 mb2" >
     <li className = "flex-item dib" > { " " } <a href = "https://twitter.com/ICInclusion"
     target = "_blank"
     rel = "noopener noreferrer" >
       <FontAwesomeIcon icon={faTwitter} size="2x" />
-    </a> </li> <li className = "flex-item dib" > { " " }
+    </a> </li> 
+    <li className = "flex-item dib" > { " " }
      <a href = "https://www.instagram.com/communityinclusion/"
     target = "_blank"
     rel = "noopener noreferrer" >
