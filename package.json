@@ -21,11 +21,12 @@
       "@typescript-eslint/parser": "^2.5.0",
       "babel-plugin-remove-graphql-queries": "2.9.2",
       "babel-plugin-styled-components": "^1.10.0",
+      "copy-text-to-clipboard": "3.0.0",
       "eslint": "^7.0.0",
       "eslint-plugin-flowtype": "5.1.0",
       "gatsby": "2.27.0",
       "gatsby-background-image": "^1.1.1",
-      "gatsby-cli": "^2.17.0",
+      "gatsby-cli": "^2.19.1",
       "gatsby-image": "2.6.0",
       "gatsby-plugin-breadcrumb": "^10.0.0",
       "gatsby-plugin-canonical-urls": "^2.3.11",
@@ -66,6 +67,7 @@
       "lodash": "^4.17.15",
       "lunr": "^2.3.8",
       "netlify-cms-app": "^2.12.11",
+      "netlify-cms-core": "2.38.0",
       "netlify-cms-lib-auth": "^2.2.4",
       "netlify-cms-ui-default": "^2.6.4",
       "npm-up": "^2.6.2",
@@ -101,7 +103,7 @@
    "keywords": [
       "gatsby"
    ],
-   "license": "MIT",
+   "license": "0BSD",
    "scripts": {
       "build": "GATSBY_ENV=production gatsby build",
       "develop": "GATSBY_ENV=development gatsby develop",
