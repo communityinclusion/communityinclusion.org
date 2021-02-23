@@ -48,8 +48,3 @@ Support can be provided to...
 *   Lee, an eight-year-old girl with special health care needs, attends her local elementary school, with help from her school nurse and a portable ventilator.
 
 No one is "too disabled" to be part of their community.
-
-Institute for Community Inclusion UMass Boston - 100 Morrissey Boulevard - Boston, Massachusetts 02125  
-Children's Hospital - 300 Longwood Avenue - Boston, Massachusetts 02115  
-617.287.4300 - 617.287.4350 (TTY) - 617.287.4352 (fax) - ici@umb.edu  
-[www.communityinclusion.org](http://www.communityinclusion.org/)

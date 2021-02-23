@@ -8,9 +8,9 @@ thumbnail: '../../images/ICI.png'
 
 > To keep our staff and others healthy and safe, the Institute for Community Inclusion is following social distancing protocols issued by UMass Boston and state officials. Our physical office is currently closed. Our staff are working remotely and available via email. Our main phone line will also be monitored regularly: 617-287-4300. Stay well!
 
-**Bayside Office Center
-150 Mt. Vernon Street, 4th Floor
-Dorchester, MA**
+**Bayside Office Center  
+150 Mt. Vernon Street, 4th Floor  
+Dorchester, MA**  
 
 ICI\'s main office is located at the Bayside Office Center, 150 Mt. Vernon Street in Dorchester, MA. Our building is south of downtown Boston, approximately a half mile from the UMass Boston Campus. Parking is available free of charge for guest in front of the building and the building is also convenient to mass transit.
 

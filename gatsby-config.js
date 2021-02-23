@@ -58,7 +58,7 @@ plugins: [
           resolve: `gatsby-remark-images`,
           options: {
             maxWidth: 400,
-            showCaptions: [`title`],
+            showCaptions: ['title'],
             markdownCaptions: true,
           },
         },

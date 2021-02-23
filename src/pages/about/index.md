@@ -93,21 +93,16 @@ excerpt: "The Institute for Community Inclusion at UMass Boston supports the rig
 
 
 <div class="flex-l  center">
+
 <article class="card w-33-l">
-
- <div class="flex flex-column flex-row-ns">
-
-
- <div class="w-100">
- 
-<a class="link dt w-100 mt2 dark-blue" href="/about/history">
+<div class="flex flex-column flex-row-ns">
+<div class="w-100">
+<a class="link dt w-100 mt2 dark-blue" href="/about/what-we-mean-when-we-talk-about-inclusion">
 <h2 class="fw1 mt0 lh-copy bb bw2">What We Mean When We Talk About Inclusion</h2>
 </a>
 <p class="f6 f5-l mt0 lh-copy">A resource guide.</p>   
-
 </div>
 </div>
-
 </article>
 
 
@@ -134,4 +129,5 @@ excerpt: "The Institute for Community Inclusion at UMass Boston supports the rig
    </div>
   </div>
 </article>
+
 </div>
