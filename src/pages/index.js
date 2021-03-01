@@ -119,7 +119,7 @@ const IndexPage = ({data, location }) => {
          </Link>
        </div>
        <div className="post-list__content">
-         <h2> <Link className="no-underline underline-hover blue dim" to={post.node.fields.slug}>
+         <h2 className="f4 f3-l lh-copy"> <Link className="no-underline underline-hover blue dim" to={post.node.fields.slug}>
            {post.node.frontmatter.title}
             </Link>
            </h2>
@@ -195,7 +195,11 @@ query {
           thumbnail {
             childImageSharp {
               fixed(width: 200, height: 200) {
-                ...GatsbyImageSharpFixed
+                base64
+                width
+                height
+                src
+                srcSet
               }
             }
           }

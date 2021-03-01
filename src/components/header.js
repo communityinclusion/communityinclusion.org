@@ -21,7 +21,7 @@ const Header = () => (
 
     <div className = "header mw9 center" >
     <div className = "cf flex justify-around ph3 ph4-m ph4-l pt3-ns pb3-ns" >
-    <div className = "fl w-15 header-first" >
+    <div className = "fl w-15 header-first mt2" >
     <Link to= "/" className = "dtc v-mid mid-gray link "
     title = "Home" >
   <img className = "dib mw-80 h-auto"
@@ -33,10 +33,10 @@ const Header = () => (
     </div> 
     
     <div className = "fl pl2 header-second" >
-    <p className = "banner-text dark-blue mb2 mt0-ns mt3" >
+    <p id="banner-text" className = "dark-blue mb2 mt0-ns mt3" >
     Institute
     for Community Inclusion </p>
-    <span className = "banner-tagline f6 f5-m f4-l dn db-ns f-subheadline dark-blue tracked-mega-l " > { " " }
+    <span id= "banner-tagline" className = "f6 f5-m f4-l dn db-ns f-subheadline dark-blue tracked-mega-l " > { " " }
     PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES </span> </div> 
     
     <div className = "fl w-25 dn dn-m db-ns pa2 header-third" >

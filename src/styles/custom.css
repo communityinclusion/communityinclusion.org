@@ -136,6 +136,7 @@
 
 html {
 	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
 	line-height: 1.5;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -164,7 +165,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -322,7 +323,7 @@ footer a:hover {
 
 }
 }
-.banner-text {
+#banner-text {
 	font-family: myriad-pro-condensed, 'Open Sans Condensed', sans-serif;
 	font-weight: 600;
 	font-style: normal;
@@ -333,25 +334,25 @@ footer a:hover {
 
 
 @media screen and (max-width: 380px){
-	.banner-text {font-size: 1rem;
+	#banner-text {font-size: 1rem;
 		text-align:left;}
 }
 
 @media screen and (min-width: 381px) and (max-width: 480px) {
-	.banner-text	{ font-size: 1.25rem;
+	#banner-text	{ font-size: 1.25rem;
 		text-align:left;
 
 }}
 
 
 @media screen and (min-width: 481px) and (max-width: 768px){
-	.banner-text	{ font-size: 1.75rem;
+	#banner-text	{ font-size: 1.75rem;
 
 }}
 
 
 @media screen and (min-width:769px) and (max-width: 1028px) {
-.banner-text {
+#banner-text {
 	font-size: 2.5rem;
 }
 }
@@ -359,11 +360,11 @@ footer a:hover {
 
 
 @media screen and (min-width: 1029px){
-	.banner-text	{ font-size: 3rem;
+	#banner-text	{ font-size: 3rem;
 
 }}
 
-.banner-tagline {
+#banner-tagline {
 	font-family: myriad-pro-condensed,'Open Sans Condensed', sans-serif;
 	font-weight: 400;
 	letter-spacing: 4px;
@@ -372,7 +373,7 @@ footer a:hover {
 }
 
 @media screen and (max-width:35em) {
-	.banner-tagline {
+	#banner-tagline {
 		font-family: myriad-pro-condensed,'Open Sans Condensed', sans-serif;
 		letter-spacing: 1.4px;
 	}
@@ -399,13 +400,14 @@ footer a:hover {
 	}
 }
 
+/*
 @media only screen and (min-device-width: 960px) {
 	.desktop-nav {
 		display: none!important;
 	}
 }
 
-
+*/
 
 /* Buttons */
 

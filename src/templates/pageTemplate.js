@@ -31,7 +31,7 @@ return (
           />
           </div>
         <div className="page">
-          <h1 className="page-title">{frontmatter.title}</h1>
+          <h1 className="f4 f3-l page-title">{frontmatter.title}</h1>
          {/*  <span>{frontmatter.date}</span> */}
         </div>
         <div dangerouslySetInnerHTML={{ __html: html }} />
