@@ -1,15 +1,6 @@
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
-//const config = require('./config')
-
-// const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
-
-// console.log("GATSBY PATH PREFIX: ", pathPrefix)
-// if (!process.env.GATSBY_AIRTABLE_APIKEY) {
-//   throw new Error("process.env.GATSBY_AIRTABLE_APIKEY is undefined.")
-//  }
-
 
 module.exports = {
   pathPrefix:'/',
@@ -134,9 +125,9 @@ plugins: [
  {
   resolve: "@sentry/gatsby",
   options: {
-    dsn: "https://3d981740717e4fe8a72e44cce3060d6e@o339238.ingest.sentry.io/1875087",
-    sampleRate: 0.7,
-    maxBreadcrumbs: 80,
+    dsn: 'https://3d981740717e4fe8a72e44cce3060d6e@o339238.ingest.sentry.io/1875087',
+    tracesSampleRate: 1,
+    autoSessionTracking: true,
   }
 }, 
   {
