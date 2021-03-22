@@ -84,6 +84,6 @@ If you are interested in applying, send an email by Thursday April 15th to David
 
 Applicants will be judged on their proposed project’s originality, the need for the project, project impact and the likelihood they will successfully complete the project within the one-year timeframe. The potential of the applicant to benefit from the fellowship experience will also be considered.
 
-_Send applications by email to:_ [david.helm@childrens.harvard.edu](david.helm@childrens.harvard.edu) with “Crocker Fellowship - (applicant’s last name)” in the subject line.
-Contact David Helm by phone at 857.218.4327 or [david.helm@childrens.harvard.edu](david.helm@childrens.harvard.edu) if you have questions.
+_Send applications by email to:_ [david.helm@childrens.harvard.edu](mailto:david.helm@childrens.harvard.edu) with “Crocker Fellowship - (applicant’s last name)” in the subject line.
+Contact David Helm by phone at 857.218.4327 or [david.helm@childrens.harvard.edu](mailto:david.helm@childrens.harvard.edu) if you have questions.
 Applications must be received by *Thursday, April 29, 2021*at 5:00 p.m.

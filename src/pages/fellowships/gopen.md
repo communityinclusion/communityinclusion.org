@@ -1,0 +1,120 @@
+---
+title: "2021-22 Barbara Wilensky Gopen Memorial Fellowship"
+path: "/fellowships/gopen"
+posttype: "page"
+date: 2020-03-15
+thumbnail: "../../images/ICI.png"
+---
+
+## Now Accepting Applications
+
+The Gopen Fellowship is a one year, part-time work and learning opportunity _for an individual with an intellectual and/or developmental disability_. It allows an individual to work independently on a self- designed project and learn about disability policy, services and advocacy. Massachusetts residents with developmental disabilities who are no longer in school or a transition program are eligible to apply. The Gopen Fellow will work at the Institute for Community Inclusion (ICI) at UMass Boston and remotely from home, with occasional meetings at the Massachusetts Developmental Disabilities Council (MDDC) in Quincy.
+
+The Gopen Fellow will:
+
+- Work up to 20 hours per week for a period of 12 months.
+
+- Work on an original disability project created by the Fellow.
+
+- Schedule and attend meetings to gather information about the chosen project.
+
+- Develop a final product: for example a brochure, presentation or website.
+
+- Attend Friday morning classes in Boston for LEND Fellows - Leadership Education in
+  Neurodevelopmental and Related Disabilities. (September-May)
+
+- Attend conferences, workshops and other events to learn about disability services, public policy,
+  advocacy, government and the Fellow’s chosen area of interest.
+
+- Share information about project activities with Massachusetts Developmental Disabilities
+  Network partners and other organizations.
+
+- Develop a project work plan and write periodic status reports.
+
+- Make one or more presentations about the project at the end of the Fellowship.
+
+The Fellowship will begin in July 2021 and end on June 30, 2022. The Gopen Fellow works 20 hours per week. Annual compensation is up to $20,000, paid bi-weekly. Although the Fellowship is designed for one person, two individuals with developmental disabilities can propose a joint project as co- applicants and share the wages and other Fellowship resources.
+
+The deadline to apply is on or before **Thursday, April 29, 2021**. Finalist interviews will take place in late May, and the selected Gopen Fellow will be announced in early June. To apply for the Fellowship, submit a written application, resume and 3 reference letters (instructions on page 2.) Applications will be judged on the proposed project’s originality, the need for the project, its likely success, the expected project impact and the applicant’s potential to benefit from the Fellowship experience.
+
+Questions? Contact Liz Fancher at the Massachusetts Developmental Disabilities Council at [Liz.Fancher@mass.gov](mailto:Liz.Fancher@mass.gov) (email) or [617.770.7676](tel:617.770.7676) x105 (voicemail.)
+
+---
+
+The Gopen Fellowship was established in 2001 to honor disability advocate Barbara Wilensky Gopen. It is sponsored by the Massachusetts Developmental Disabilities Network Programs.
+
+## Application Instructions – 2020-21 Gopen Fellowship
+
+If you are interested in applying for the Gopen Fellowship, send an email to
+[Liz.Fancher@mass.gov](mailto:Liz.Fancher@mass.gov) by Thursday April 15th and include a brief description of the project you have in mind for the Fellowship. This is not mandatory; it will allow us to send any updates directly to potential candidates.
+The written application will consist of three parts. Applicants can seek support to complete their applications. The content of the proposal should be in the applicant’s own words.
+
+<ol type="1"><li> <strong>A 2-4-page proposal (include applicant name on page 1)</strong>
+    <ol type="A">
+        <li>Describe your background, including your personal disability experience. Why do you want to be the Gopen Fellow? </li>
+	    <li>Provide a summary of the proposed disability project you want to work on. This will be an original project that you can complete in one year (20 hours per week) which will benefit people with disabilities.
+		    <ol type="1">
+                <li>Project Title: A name that describes your project </li>
+                <li>Explain your project in detail. What makes it unique? Why is it needed? Why did you choose this project? </li>
+                <li>State the specific Project Goal: The goal of this 1 year project is…. </li>
+                <li>Make a list of activities to achieve the goal and approximate timelines:<br>
+            (Example: #1: Do internet research about my project: July-August; #2: ______, etc. ) </li>
+                <li>Describe the final product you will develop. How will it be publicized or distributed? How will it benefit other people? 
+                <li>What do you expect the impact of your project to be? </li>
+            </ol>
+        </li>
+        <li>What do you see yourself doing in the future, after the Fellowship is complete?</li>
+        <li>What kind of training or support, if any, will you need during the Fellowship? </li>
+    </ol>
+    </li>
+    <li><strong>Resume</strong></li>
+    <li><strong>Three Letters of Reference</strong></li>
+</ol>
+
+**Send your application by email to:** [Liz.Fancher@mass.gov](mailto:Liz.Fancher@mass.gov). Include “Gopen Fellowship Application – (applicant’s last name)” on subject line.
+
+**Deadline to Apply: Thursday, April 29, 2021**
+
+## Past Gopen Fellowship Projects
+
+- Curriculum for Self-Advocacy Leadership Training
+
+- Audio disability information for Haitian families
+
+- Positive Behavior Supports workshops for teachers & parents
+
+- Accessible Transportation Guide to Southeast Massachusetts
+
+- Legislative advocacy workshop for self-advocates
+
+- Integrated sports and recreation opportunities
+
+- Accessible Community Technology Centers guide
+
+- Social skills awareness curriculum for elementary school children
+
+- Sibling support
+
+- Accessible cultural excursions in Boston
+
+- Reasonable accommodations in Housing and Employment
+
+- Emergency Health Care forms for people with disabilities
+
+- Healthcare for Autistic Women
+
+- Inclusive Playgrounds
+
+- Autism Mentoring Project
+
+- Entrepreneurial Cookie Business
+
+- Peer support for self-advocates and special education parent training
+  using a civil rights framework
+
+- Law Enforcement Training
+
+- Autism Adulthood website
+
+- Co-working startup for entrepreneurs who have disabilities or are
+  creating innovative solutions for the disability community
