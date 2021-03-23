@@ -1,9 +1,10 @@
 ---
 title: "Donate"
+description: ""
 path: "/donate"
-date: 2019-04-01
+date: "2019-04-01"
+thumbnail: "../images/ICI.png"
 posttype: "page"
-thumbnail: '../../images/ICI.png'
 ---
 
 ## To Build Our Impact, We Need Your Support
