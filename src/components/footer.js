@@ -96,7 +96,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
      </div> 
       <div className="column-unequal middle v-mid white ph3">
    
-      <p className="white">©2020 The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital. The ICI is a University Center for Excellence in Developmental Disabilities, part of the national network started by President John F. Kennedy.</p>
+      <p className="white">©2021 The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital. The ICI is a University Center for Excellence in Developmental Disabilities, part of the national network started by President John F. Kennedy.</p>
     </div>
    
   

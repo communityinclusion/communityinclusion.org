@@ -80,9 +80,9 @@ const activeLinkStyle = {
 <p>Our projects involve conducting state and national employment research, increasing access to higher education, supporting children with disabilities to plan for a fulfilling future, and much more.  </p>
       </div>
 
-      <div className="fl w-20-l w-100 pa3-l pa3 pb0 bl-ns">
+      <div className="fl w-20-l w-100 pa3-l pb0 bl-ns">
 
-        <ul className="sub-menu-lists ma0 pa0">
+        <ul className="sub-menu-lists ma0 ml1 pa0">
           <li><Link to="/projects/thinkcollege">ThinkCollege</Link></li>
           <li><Link to="/projects/thinkwork">ThinkWork!</Link></li>
           <li><Link to="/projects/explorevr">ExploreVR</Link></li>
@@ -94,9 +94,9 @@ const activeLinkStyle = {
         </ul>
       </div>
 
-      <div className="fl w-20-l w-100 pa3-l pa3 pt0">
+      <div className="fl w-20-l w-100 pa3-l pt0">
 
-        <ul className="sub-menu-lists ma0 pa0">
+        <ul className="sub-menu-lists ma0 ml1 pa0">
 
 
 
