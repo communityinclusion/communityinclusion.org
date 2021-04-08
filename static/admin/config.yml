@@ -21,6 +21,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Path", name: "path", widget: "string"}
+          - {label: Image, name: image, widget: "hidden",  default: "/images/ICI.png"}
           - {label: "Description", name: "description", widget: "text"}      
   - name: "about"
     label: "About"
@@ -84,18 +85,17 @@ collections:
         label: "Donate"
         name: "donate"
         fields:
-                  - {label: "Post Type", name: "posttype", widget: "hidden", default: "page"}
-                  - {label: "Title", name: "title", widget: "string"}
-                  - {label: "Body", name: "body", widget: "markdown"}
-                  - {label: "Path", name: "path", widget: "string"}
-                  - {label: "Description", name: "description", widget: "text"}
-    files:
+            - {label: "Post Type", name: "posttype", widget: "hidden", default: "page"}
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Body", name: "body", widget: "markdown"}
+            - {label: "Path", name: "path", widget: "string"}
+            - {label: "Description", name: "description", widget: "text"}
       - file: "src/pages/code_of_conduct.md"
         label: "Code of Conduct"
         name: "code_of_conduct"
         fields:
-                  - {label: "Post Type", name: "posttype", widget: "hidden", default: "page"}
-                  - {label: "Title", name: "title", widget: "string"}
-                  - {label: "Body", name: "body", widget: "markdown"}
-                  - {label: "Path", name: "path", widget: "string"}
-                  - {label: "Description", name: "description", widget: "text"}
+              - {label: "Post Type", name: "posttype", widget: "hidden", default: "page"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Body", name: "body", widget: "markdown"}
+              - {label: "Path", name: "path", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
