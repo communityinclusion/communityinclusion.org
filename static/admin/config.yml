@@ -11,6 +11,20 @@ slug:
   clean_accents: true
   sanitize_replacement: "-"
 collections:
+  - name: "news"
+    label: "News"
+    folder: "src/pages/news/"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    fields:
+          - {label: "Post Type", name: "posttype", widget: "hidden", default: "news"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: Tags, name: tags}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Image", name: "thumbnail", widget: "image", default: "/images/ICI.png"}
   - name: "projects"
     label: "Projects"
     folder: "src/pages/projects/"
@@ -57,27 +71,6 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Path", name: "path", widget: "string"}
           - {label: "Description", name: "description", widget: "text"}
-  - name: "news"
-    label: "News"
-    folder: "src/pages/news/"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
-    fields:
-          - {label: "Post Type", name: "posttype", widget: "hidden", default: "news"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Date", name: "date", widget: "datetime"}
-          - {label: "Path", name: "path", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: Tags, name: tags}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - label: "Image"
-            name: "thumbnail"
-            widget: "image"
-            default: "/images/ICI.png"
-            media_library:
-              config:
-              multiple: true
-
   - name: "pages"
     label: "Pages"
     files:
