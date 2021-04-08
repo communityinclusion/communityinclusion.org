@@ -1,0 +1,101 @@
+backend:
+  name: git-gateway
+  branch: staging # Branch to update (optional; defaults to master)
+# This line should *not* be indented
+publish_mode: editorial_workflow
+# This line should *not* be indented
+media_folder: static/images
+public_folder: images
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+collections:
+  - name: "projects"
+    label: "Projects"
+    folder: "src/pages/projects/"
+    create: true
+    slug: "{{slug}}"
+    fields:
+          - {label: "Post Type", name: "posttype", widget: "hidden", default: "page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}      
+  - name: "about"
+    label: "About"
+    folder: "src/pages/about/"
+    create: true
+    slug: "{{slug}}"
+    fields:
+          - {label: "Post Type", name: "posttype", widget: "hidden", default: "page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: Image, name: image, widget: "hidden",  default: "/images/ICI.png"}
+          - {label: "Description", name: "description", widget: "text"}
+  - name: "areas-of-emphasis"
+    label: "Areas of Emphasis"
+    folder: "src/pages/areas-of-emphasis/"
+    create: true
+    slug: "{{slug}}"
+    fields:
+          - {label: "Post Type", name: "posttype", widget: "hidden", default: "page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+  - name: "services"
+    label: "Services"
+    folder: "src/pages/services/"
+    create: true
+    slug: "{{slug}}"
+    fields:
+          - {label: "Post Type", name: "posttype", widget: "hidden", default: "page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+  - name: "news"
+    label: "News"
+    folder: "src/pages/news/"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    fields:
+          - {label: "Post Type", name: "posttype", widget: "hidden", default: "news"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: Tags, name: tags}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - label: "Image"
+            name: "thumbnail"
+            widget: "image"
+            default: "/images/ICI.png"
+            media_library:
+              config:
+              multiple: true
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/donate.md"
+        label: "Donate"
+        name: "donate"
+        fields:
+                  - {label: "Post Type", name: "posttype", widget: "hidden", default: "page"}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Body", name: "body", widget: "markdown"}
+                  - {label: "Path", name: "path", widget: "string"}
+                  - {label: "Description", name: "description", widget: "text"}
+    files:
+      - file: "src/pages/code_of_conduct.md"
+        label: "Code of Conduct"
+        name: "code_of_conduct"
+        fields:
+                  - {label: "Post Type", name: "posttype", widget: "hidden", default: "page"}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Body", name: "body", widget: "markdown"}
+                  - {label: "Path", name: "path", widget: "string"}
+                  - {label: "Description", name: "description", widget: "text"}

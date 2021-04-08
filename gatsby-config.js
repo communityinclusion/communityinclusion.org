@@ -89,6 +89,16 @@ plugins: [
     ]
   }
 },
+{
+  resolve: `gatsby-plugin-netlify-cms`,
+  options: { 
+    enableIdentityWidget: true,
+    publicPath: `admin`,
+    htmlTitle: `CMS`,
+    htmlFavicon: `src/images/icon.png`,
+    includeRobots: false,
+  },
+},
   {
     resolve: "gatsby-plugin-google-tagmanager",
     options: {
