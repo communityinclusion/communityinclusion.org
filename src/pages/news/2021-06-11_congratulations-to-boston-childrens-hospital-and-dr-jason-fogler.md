@@ -1,7 +1,7 @@
 ---
 title: "Congratulations to Boston Children’s Hospital and Dr. Jason Fogler, the new LEND program Training Director"
 description: ""
-path: "/2021-06_11_congratulations-to-boston-childrens-hospital-and-dr-jason-fogler"
+path: "/2021-06-11_congratulations-to-boston-childrens-hospital-and-dr-jason-fogler"
 date: "2021-06-11"
 posttype: "news"
 tags: [ 'Lend Boston', 'Lend Program', 'Childrens Hospital', 'Boston', 'Community Inclusion']

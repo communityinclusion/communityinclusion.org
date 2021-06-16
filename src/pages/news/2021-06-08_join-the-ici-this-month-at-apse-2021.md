@@ -1,7 +1,7 @@
 ---
 title: "Join the ICI this Month at #APSE2021"
 description: ""
-path: "/2021-06_08_join-the-ici-this-month-at-apse-2021"
+path: "/2021-06-08_join-the-ici-this-month-at-apse-2021"
 date: "2021-06-08"
 posttype: "news"
 tags: [ 'Apse2021', 'Employment First', 'Employment', 'Ici', 'Community Inclusion']
