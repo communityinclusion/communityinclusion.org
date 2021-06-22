@@ -5,12 +5,12 @@ require("dotenv").config({
 module.exports = {
   pathPrefix:'/',
 siteMetadata: {
-  siteUrl: 'https://icibeta.netlify.app',
+  siteUrl: 'https://beta.communityinclusion.org',
   title: 'Institute for Community Inclusion',
   description: 'The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society.',
   keywords: 'Community Inclusion, UMB, Disabilities',
   author: '@ICInclusion',
-  image: 'https://icibeta.netlify.app/static/ici-150w-1c1c4ac706a0672a9800093794f86167.png'
+  image: 'https://beta.communityinclusion.org/static/ici-150w-1c1c4ac706a0672a9800093794f86167.png'
 },
 plugins: [
   `gatsby-transformer-sharp`, 
@@ -28,7 +28,7 @@ plugins: [
       {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://icibeta.netlify.app',
+        host: 'https://beta.communityinclusion.org',
         env: {
           development: {
             policy: [{ userAgent: '*', disallow: ['/'] }]
@@ -144,7 +144,7 @@ plugins: [
   {
     resolve: `gatsby-plugin-canonical-urls`,
     options: {
-      siteUrl: `https://icibeta.netlify.app`,
+      siteUrl: `https://beta.communityinclusion.org`,
     },
   },
   'gatsby-plugin-htaccess',
