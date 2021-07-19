@@ -13,6 +13,7 @@ siteMetadata: {
   image: 'https://beta.communityinclusion.org/static/ici-150w-1c1c4ac706a0672a9800093794f86167.png'
 },
 plugins: [
+  `gatsby-plugin-netlify`,
   `gatsby-transformer-sharp`, 
   `gatsby-plugin-sharp`,
   {
