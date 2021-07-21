@@ -127,10 +127,10 @@ const activeLinkStyle = {
       <div className="fl w-third-l w-100 pa3-ns bl-ns">
 
         <ul className="sub-menu-lists ml1">
-          <li><a href="https://ici-consulting.netlify.com/">ICI Consulting</a></li>
-          <li><a href="https://www.communityinclusion.org/employmentservices/">ICI Employment Services</a></li>
+          <li><a href="https://consulting.communityinclusion.org/">ICI Consulting</a></li>
+          <li><a href="https://employmentservices.communityinclusion.org/">ICI Employment Services</a></li>
            <li><a href="https://www.directcourseonline.com/employment-services/">College of Employment Services</a></li>
-            <li><a href="https://www.communityinclusion.org/cesacre/">CES/ACRE</a></li>
+            <li><a href="https://cesacre.communityinclusion.org/">CES/ACRE</a></li>
 
 
         </ul>
