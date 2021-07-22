@@ -3,9 +3,10 @@ title: "Projects"
 path: "/projects"
 date: 2019-04-01
 posttype: "page"
-thumbnail: '../../images/ICI.png'
+thumbnail: "../../images/ICI.png"
 description: "List of ICI Projects"
 ---
+
 <div id="grid">
 <div class="flex-l center">
 
@@ -153,7 +154,6 @@ LEND Boston</a>
 </article>
 </div>
 
-
 <div class="flex-l center">
 <article class="card">
 <div class="flex flex-column flex-row-ns">
@@ -212,4 +212,26 @@ Employment First Missouri</a>
 </div>
 </article>
 </div>
+
+<div class="flex-l center">
+<article class="card">
+<div class="flex flex-column flex-row-ns">
+<div class="card-image">
+<img src="../../images/gator_thumbnail.png" class="db" alt = "Gator" />
+</div>
+<div class="card-body">
+<h2 class="card-title"><a href="/projects/gator">
+Guardianship Alternatives and Transfer-of-Rights</a>
+</h2>
+<p>GATOR aims to explore the relationship between special educators’ transfer-of-rights and guardianship discussions and key predictors of transition outcomes for students with intellectual and developmental disabilities (IDD). </p>
+</div>
+</div>
+</article>
+<article class="card">
+<div class="flex flex-column flex-row-ns">
+
+</div>
+</article>
+</div>
+
 </div>
