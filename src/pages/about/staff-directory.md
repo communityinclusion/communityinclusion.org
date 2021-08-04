@@ -11,6 +11,7 @@ Staff listing and contact details<!-- end -->
 | NAME       |                   | PHONE          | EMAIL                                   | PROFILE                                     |
 |------------|-------------------|----------------|-----------------------------------------|---------------------------------------------|
 | Melissa    | Alford            | (617) 287-4296 | <Melissa.Alford@umb.edu>                   | [View Profile](/about/staff-directory/melissa-alford)             |
+| Katie    | Allen           	 |  			  | <katie.allen@umb.edu>                      | [View Profile](/about/staff-directory/katie-ashwill-allen/)       |
 | Brenda     | Atkins            | (617) 287-4784 | <Brenda.Atkins@umb.edu>                    | [View Profile](/about/staff-directory/brenda-atkins)              |
 | Quinn      | Barbour           | (617) 287-4309 | <Quinn.Barbour@umb.edu>                    | [View Profile](/about/staff-directory/quinn-barbour)              |
 | Lauren     | Berman            | (617) 355-5943 | <Lauren.Berman@childrens.harvard.edu>      | [View Profile](/about/staff-directory/lauren-berman)             |
@@ -18,6 +19,7 @@ Staff listing and contact details<!-- end -->
 | Jennifer   | Bose              | (617) 287-4353 | <Jennifer.Bose@umb.edu>                    | [View Profile](/about/staff-directory/jennifer-bose)              |
 | Laura      | Bozeman           | (617) 287-4385 | <Laura.Bozeman@umb.edu>                    | [View Profile](/about/staff-directory/laura-bozeman)              |
 | Callie     | Brusegaard        |                | <Callie.Brusegaard@umb.edu>                | [View Profile](/about/staff-directory/callie-brusegaard)          |
+| Gyasi		 | Burks-Abbott		 |                | <Gyasi.BurksAbbott@umb.edu>                | [View Profile](/about/staff-directory/gyasi-burks-abbott)          |
 | John       | Butterworth       | (617) 287-4357 | <John.Butterworth@umb.edu>                 | [View Profile](/about/staff-directory/john-butterworth)           |
 | Jeff       | Coburn            | (617) 287-4358 | <Jeff.Coburn@umb.edu>                      | [View Profile](/about/staff-directory/jeff-coburn)                |
 | Allison    | Cohen Hall        | (480) 677-9677 | <Allison.Hall@umb.edu>                     | [View Profile](/about/staff-directory/allison-cohen-hall)         |
@@ -85,7 +87,6 @@ Staff listing and contact details<!-- end -->
 | Jaimie     | Timmons           |                | <Jaimie.Timmons@umb.edu>                   | [View Profile](/about/staff-directory/jaimie-ciulla-timmons)      |
 | Alvaro     | Tobar             | (617) 287-4347 | <Alvaro.Tobar@umb.edu>                     | [View Profile](/about/staff-directory/alvaro-tobar)               |
 | David      | Urban             | (617) 287-4366 | <David.Urban@umb.edu>                      | [View Profile](/about/staff-directory/david-urban)                |
-| Anya       | Weber             | (617) 314-3248 | <Anya.Weber@umb.edu>                       | [View Profile](/about/staff-directory/anya-weber)                 |
 | Cate       | Weir              | (603) 848-4901 | <Cathryn.Weir@umb.edu>                     | [View Profile](/about/staff-directory/cate-weir)                  |
 | Jean       | Winsor            | (716) 406-9780 | <Jean.Winsor@umb.edu>                      | [View Profile](/about/staff-directory/jean-e-winsor)              |
 | Ashley     | Wolfe             | (617) 287-4351 | <Ashley.Wolfe@umb.edu>                     | [View Profile](/about/staff-directory/ashley-wolfe)               |
