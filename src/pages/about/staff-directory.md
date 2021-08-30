@@ -21,6 +21,7 @@ Staff listing and contact details<!-- end -->
 | Callie     | Brusegaard        |                | <Callie.Brusegaard@umb.edu>                | [View Profile](/about/staff-directory/callie-brusegaard)          |
 | Gyasi		 | Burks-Abbott		 |                | <Gyasi.BurksAbbott@umb.edu>                | [View Profile](/about/staff-directory/gyasi-burks-abbott)          |
 | John       | Butterworth       | (617) 287-4357 | <John.Butterworth@umb.edu>                 | [View Profile](/about/staff-directory/john-butterworth)           |
+| Belkis      | Choiseul-Praslin       |  | <B.Choiseul-Praslin@umb.edu>                | [View Profile](/about/staff-directory/belkis-choiseul-praslin)           |
 | Jeff       | Coburn            | (617) 287-4358 | <Jeff.Coburn@umb.edu>                      | [View Profile](/about/staff-directory/jeff-coburn)                |
 | Allison    | Cohen Hall        | (480) 677-9677 | <Allison.Hall@umb.edu>                     | [View Profile](/about/staff-directory/allison-cohen-hall)         |
 | Lori       | Cooney            | (617) 287-4307 | <Lori.Cooney@umb.edu>                      | [View Profile](/about/staff-directory/lori-cooney)                |
@@ -55,6 +56,7 @@ Staff listing and contact details<!-- end -->
 | Jonathan   | Keleher           | (617) 287-4292 | <Jonathan.Keleher@umb.edu>                 | [View Profile](/about/staff-directory/jon-keleher)                |
 | Chayaphon  | Klinthong         |                | <Chayaphon.Klinthon@umb.edu>               | [View Profile](/about/staff-directory/chayaphon-klinthong)        |
 | Ngai       | Kwan              | (617) 287-4298 | <Ngai.Kwan@umb.edu>                        | [View Profile](/about/staff-directory/ngai-kwan)                  |
+| Tiffany      | Lam               |  |  <Tiffany.Lam@umb.edu>                        | [View Profile](/about/staff-directory/tiffany-lam)                  |
 | Cady       | Landa             | (617) 287-4759 | <Cady.Landa@umb.edu>                       | [View Profile](/about/staff-directory/cady-landa)                 |
 | Rebecca    | Lazo              | (857) 309-8324 | <Rebecca.Lazo@umb.edu>                     | [View Profile](/about/staff-directory/rebecca-lazo)               |
 | Angela     | Lombardo          | (857) 218-4329 | <Angela.Lombardo@childrens.harvard.edu>    | [View Profile](/about/staff-directory/angela-lombardo)            |
@@ -88,6 +90,7 @@ Staff listing and contact details<!-- end -->
 | Alvaro     | Tobar             | (617) 287-4347 | <Alvaro.Tobar@umb.edu>                     | [View Profile](/about/staff-directory/alvaro-tobar)               |
 | David      | Urban             | (617) 287-4366 | <David.Urban@umb.edu>                      | [View Profile](/about/staff-directory/david-urban)                |
 | Cate       | Weir              | (603) 848-4901 | <Cathryn.Weir@umb.edu>                     | [View Profile](/about/staff-directory/cate-weir)                  |
+| Gavin      | Williams            |  | <Gavin.Williams@umb.edu>                    | [View Profile](/about/staff-directory/gavin-williams)                  |
 | Jean       | Winsor            | (716) 406-9780 | <Jean.Winsor@umb.edu>                      | [View Profile](/about/staff-directory/jean-e-winsor)              |
 | Ashley     | Wolfe             | (617) 287-4351 | <Ashley.Wolfe@umb.edu>                     | [View Profile](/about/staff-directory/ashley-wolfe)               |
 | Cedric     | Woods             |                | <Cedric.Woods@umb.edu>                     | [View Profile](/about/staff-directory/cedric-woods)               |

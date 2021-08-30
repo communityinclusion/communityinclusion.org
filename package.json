@@ -72,7 +72,6 @@
       "netlify-cms-core": "2.38.10",
       "netlify-cms-lib-auth": "^2.3.0",
       "netlify-cms-ui-default": "^2.12.1",
-      "node": "^16.5.0",
       "npm-up": "^2.6.2",
       "prismjs": "^1.20.0",
       "prop-types": "^15.7.2",
@@ -96,7 +95,7 @@
       "typescript-eslint": "^0.0.1-alpha.0",
       "update": "^0.7.4",
       "use-query-params": "^1.1.6",
-      "yarn": "^1.22.10"
+      "yarn": "^1.22.11"
    },
    "devDependencies": {
       "babel-preset-gatsby": "^0.4.4",
