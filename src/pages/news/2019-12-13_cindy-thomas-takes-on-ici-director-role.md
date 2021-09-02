@@ -12,7 +12,7 @@ thumbnail: "../../images/thomas_icidirector.png"
 
 ![Cindy Thomas (MS, CRC) has been selected to serve as the director of the Institute for Community Inclusion.](../../images/thomas_icidirector.png)
 
-[Cindy Thomas](https://www.communityinclusion.org/staff.php?staff_id=40)  (MS, CRC) has been selected to serve as the director of the  [Institute for Community Inclusion](https://www.communityinclusion.org/)  (ICI). Ms. Thomas has been an integral part of the ICI for over 30 years, significantly contributing to its growth during that time. Prior to this appointment, she held the role of associate director and then of interim director, while leading the employment services and capacity building teams.
+[Cindy Thomas](/about/staff-directory/cindy-thomas)  (MS, CRC) has been selected to serve as the director of the  [Institute for Community Inclusion](https://www.communityinclusion.org/)  (ICI). Ms. Thomas has been an integral part of the ICI for over 30 years, significantly contributing to its growth during that time. Prior to this appointment, she held the role of associate director and then of interim director, while leading the employment services and capacity building teams.
 
 [Dr. Sheila Fesko](https://www.umb.edu/faculty_staff/bio/sheila_l._fesko), associate dean and director of the  [School for Global Inclusion and Social Development](https://globalinclusion.umb.edu/)  at UMass Boston, led the national search. Describing the search, Dr. Fesko said, “Cindy was simply the best candidate for this position. Her strengths are many — she is a skilled consensus builder, a great listener, an able problem solver, fair, talented, detailed, and passionate about our mission.”
 

@@ -12,7 +12,6 @@ Staff listing and contact details<!-- end -->
 |------------|-------------------|----------------|-----------------------------------------|---------------------------------------------|
 | Melissa    | Alford            | (617) 287-4296 | <Melissa.Alford@umb.edu>                   | [View Profile](/about/staff-directory/melissa-alford)             |
 | Katie    | Allen           	 |  			  | <katie.allen@umb.edu>                      | [View Profile](/about/staff-directory/katie-ashwill-allen/)       |
-| Brenda     | Atkins            | (617) 287-4784 | <Brenda.Atkins@umb.edu>                    | [View Profile](/about/staff-directory/brenda-atkins)              |
 | Quinn      | Barbour           | (617) 287-4309 | <Quinn.Barbour@umb.edu>                    | [View Profile](/about/staff-directory/quinn-barbour)              |
 | Lauren     | Berman            | (617) 355-5943 | <Lauren.Berman@childrens.harvard.edu>      | [View Profile](/about/staff-directory/lauren-berman)             |
 | Heike      | Boeltzig-Brown    |                | <Heike.Boeltzig-Brown@umb.edu>             | [View Profile](/about/staff-directory/heike-boeltzig-brown)        |
