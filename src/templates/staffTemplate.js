@@ -1,9 +1,9 @@
 import React from 'react'
 import { graphql } from 'gatsby';
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import Layout from '../components/layout'
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 const StaffProfile = ({ data, pageContext,location  }) => {
   const {
@@ -13,7 +13,7 @@ const StaffProfile = ({ data, pageContext,location  }) => {
 //  const page = data.airtable
   return (
     <Layout location={location}>
-         <SEO
+         <Seo
       title={data.airtable.data.Name}
     />
         <div className="breadcrumbs">
@@ -27,7 +27,9 @@ const StaffProfile = ({ data, pageContext,location  }) => {
         {data.airtable.data.staff_photo
         && (
           <div className="staffphoto">
-        <Img fluid={data.airtable.data.staff_photo.localFiles[0].childImageSharp.fluid} alt=""/>
+        <GatsbyImage
+          image={data.airtable.data.staff_photo.localFiles[0].childImageSharp.gatsbyImageData}
+          alt="" />
 </div>
 )
 }
@@ -57,13 +59,12 @@ const StaffProfile = ({ data, pageContext,location  }) => {
           </ul>
       </div>
     </Layout>
-  )
+  );
 }
 export default StaffProfile
 
-export const pageQuery = graphql`
- query($slug: String!) {
-  airtable (fields: { slug: { eq: $slug } }) {
+export const pageQuery = graphql`query ($slug: String!) {
+  airtable(fields: {slug: {eq: $slug}}) {
     data {
       Name
       staff_title
@@ -74,15 +75,13 @@ export const pageQuery = graphql`
       staff_phone
       staff_pubs
       staff_photo {
-          localFiles {
-            childImageSharp {
-              fluid {
-                ...GatsbyImageSharpFluid
-              }
-            }
+        localFiles {
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
           }
         }
       }
+    }
     id
     fields {
       slug

@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import { Index } from "lunr"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import SearchForm from "../components/searchForm"
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
@@ -49,7 +49,7 @@ const SearchPage = ({ data, location, pageContext }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="Search results" />
+      <Seo title="Search results" />
       <section className="main-content">
       <div className="breadcrumbs">
     <Breadcrumb

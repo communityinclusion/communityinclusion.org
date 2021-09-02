@@ -1,8 +1,8 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
-import Img from 'gatsby-image';
-import SEO from '../components/seo';
+import { GatsbyImage } from "gatsby-plugin-image";
+import Seo from '../components/seo';
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 
@@ -29,7 +29,7 @@ const crumbLabelArr = customCrumbLabel.split('/');
  const labelArr = label.split('-');
   return (
     <Layout>
-       <SEO title="New at ICI" />
+       <Seo title="New at ICI" />
        <section className="main-content">
        <div className="breadcrumbs">
        <Breadcrumb
@@ -47,8 +47,7 @@ const crumbLabelArr = customCrumbLabel.split('/');
               {
             post.node.frontmatter.thumbnail
             && (
-            <Img fixed={post.node.frontmatter.thumbnail.childImageSharp.fixed}
-            />
+            <GatsbyImage image={post.node.frontmatter.thumbnail.childImageSharp.gatsbyImageData} />
             )
           }
               </Link>
@@ -94,13 +93,12 @@ const crumbLabelArr = customCrumbLabel.split('/');
 export default NewsPage;
 
 // Get all markdown files, in descending order by date, and grab the id, excerpt, slug, date, and title
-export const pageQuery = graphql`
-query GetNewsPosts($limit: Int, $skip: Int) {
+export const pageQuery = graphql`query GetNewsPosts($limit: Int, $skip: Int) {
   allMarkdownRemark(
     limit: $limit
-    sort: { fields: [frontmatter___date], order: DESC }
+    sort: {fields: [frontmatter___date], order: DESC}
     skip: $skip
-    filter: { frontmatter: { posttype: { eq: "news" } } }
+    filter: {frontmatter: {posttype: {eq: "news"}}}
   ) {
     edges {
       node {
@@ -111,13 +109,7 @@ query GetNewsPosts($limit: Int, $skip: Int) {
           posttype
           thumbnail {
             childImageSharp {
-              fixed(width: 200, height: 200) {
-                base64
-                width
-                height
-                src
-                srcSet
-              }
+              gatsbyImageData(width: 200, height: 200, placeholder: BLURRED, layout: FIXED)
             }
           }
         }

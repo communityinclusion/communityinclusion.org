@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import { kebabCase } from 'lodash';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 
@@ -15,7 +15,7 @@ const TagsPage = ({ data, pageContext, }) => {
   return (
     <Layout>
      <section className="main-content">
-  <SEO title="Tags" />
+  <Seo title="Tags" />
      <div className="breadcrumbs">
       <Breadcrumb
                 crumbs={crumbs}

@@ -2,7 +2,7 @@
 
 import React from "react";
 import PropTypes from "prop-types";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import styled from "styled-components";
 
 const Parent = styled.div`
@@ -10,7 +10,7 @@ const Parent = styled.div`
   background-color: ${({ bc }) => bc};
 `;
 
-const FakeBgImage = styled(Img)`
+const FakeBgImage = styled(GatsbyImage)`
   position: absolute;
   top: 0;
   left: 0;

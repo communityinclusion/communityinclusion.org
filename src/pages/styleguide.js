@@ -1,12 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { Link } from "gatsby"
 const StyleGuide = () => (
   <Layout>
    
    <section className="center mw8">
-   <SEO title="Style Guide" />
+   <Seo title="Style Guide" />
     <h1>Style Guide</h1>
 
 <h2>Color Palete</h2>

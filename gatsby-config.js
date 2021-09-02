@@ -5,17 +5,20 @@ require("dotenv").config({
 module.exports = {
   pathPrefix:'/',
 siteMetadata: {
-  siteUrl: 'https://beta.communityinclusion.org',
+  siteUrl: 'https://www.communityinclusion.org',
   title: 'Institute for Community Inclusion',
   description: 'The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society.',
   keywords: 'Community Inclusion, UMB, Disabilities',
   author: '@ICInclusion',
-  image: 'https://beta.communityinclusion.org/static/ici-150w-1c1c4ac706a0672a9800093794f86167.png'
+  image: 'https://www.communityinclusion.org/static/ici-150w-1c1c4ac706a0672a9800093794f86167.png'
 },
 plugins: [
+
   `gatsby-plugin-netlify`,
-  `gatsby-transformer-sharp`, 
+  `gatsby-plugin-image`,
   `gatsby-plugin-sharp`,
+  `gatsby-transformer-sharp`, 
+ 
   {
     resolve: `gatsby-transformer-remark`,
     options: {
@@ -29,7 +32,7 @@ plugins: [
       {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://beta.communityinclusion.org',
+        host: 'https://www.communityinclusion.org',
         env: {
           development: {
             policy: [{ userAgent: '*', disallow: ['/'] }]
@@ -128,6 +131,10 @@ plugins: [
   options: {
     dsn: 'https://3d981740717e4fe8a72e44cce3060d6e@o339238.ingest.sentry.io/1875087',
     tracesSampleRate: 1,
+    browserTracingOptions: {
+      // disable creating spans for XHR requests
+      traceXHR: false,
+    }, 
     autoSessionTracking: true,
   }
 }, 
@@ -145,7 +152,7 @@ plugins: [
   {
     resolve: `gatsby-plugin-canonical-urls`,
     options: {
-      siteUrl: `https://beta.communityinclusion.org`,
+      siteUrl: `https://www.communityinclusion.org`,
     },
   },
   'gatsby-plugin-htaccess',
@@ -207,7 +214,12 @@ plugins: [
           },
         },
   `gatsby-plugin-styled-components`,
-  
+  {
+    resolve: 'gatsby-plugin-sitemap',
+    options: {
+      output: '/sitemap',
+    },
+  },
 
   // this (optional) plugin enables Progressive Web App + Offline functionality
   // To learn more, visit: https://gatsby.dev/offline

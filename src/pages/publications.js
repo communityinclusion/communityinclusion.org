@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import arizona_thumbnail from '../images/pub-thumbs/Arizona_thumbnail.png'
 import evr_thumbnail from '../images/pub-thumbs/EVR_toolkit.png'
 import FF20_thumbnail from '../images/pub-thumbs/FF20_thumbnail.png'
@@ -59,7 +59,7 @@ class PublicationsPage extends React.Component {
     const { breadcrumb: { crumbs }, } = pageContext
     return ( 
       <Layout location={location}>
-        <SEO title="ICI Publications" />
+        <Seo title="ICI Publications" />
         <section className="main-content">
             <div className="breadcrumbs">
     <Breadcrumb

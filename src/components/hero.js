@@ -1,5 +1,5 @@
 import React from 'react'
-import Img from 'gatsby-image'
+import { GatsbyImage } from "gatsby-plugin-image";
 import styled from 'styled-components'
 
 
@@ -24,7 +24,7 @@ const Overlay = styled.div`
   text-align: center;
 `
 
-const BgImage = styled(Img)`
+const BgImage = styled(GatsbyImage)`
   position: absolute;
   top: 0;
   left: 0;

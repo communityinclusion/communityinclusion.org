@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql} from 'gatsby';
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 // import Img from 'gatsby-image';
 import PostTags from "../components/PostTags";
@@ -20,7 +20,7 @@ const postTemplate = ({ pageContext, data, location  }) => {
   const { frontmatter, html } = markdownRemark;
   return (
     <Layout location={location}>
-         <SEO
+         <Seo
       title={page.frontmatter.title}
       description={page.frontmatter.description || page.excerpt}
     />

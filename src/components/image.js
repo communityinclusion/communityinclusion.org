@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -15,20 +15,16 @@ import Img from "gatsby-image"
 
 const Image = () => (
   <StaticQuery
-    query={graphql`
-      query {
-        heroImage: file(relativePath: { eq: "jfk-hero-image.png" }) {
-          childImageSharp {
-            fluid(quality: 90,maxWidth: 1200) {
-              ...GatsbyImageSharpFluid_noBase64
-            }
-          }
-        }
-      }
-    `}
+    query={graphql`{
+  heroImage: file(relativePath: {eq: "jfk-hero-image.png"}) {
+    childImageSharp {
+      gatsbyImageData(quality: 90, placeholder: BLURRED, layout: FULL_WIDTH)
+    }
+  }
+}
+`}
     render={data => 
-      <Img fluid={data.heroImage.childImageSharp.fluid} 
-    />
+      <GatsbyImage image={getImage(data.heroImage.childImageSharp.gatsbyImageData)} alt="JFK" />
     }
   />
 )

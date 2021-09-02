@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 
 const Tags = ({ pageContext, data }) => {
@@ -16,7 +16,7 @@ const Tags = ({ pageContext, data }) => {
   } = pageContext
   return (
     <Layout>
-        <SEO 
+        <Seo 
       title={'Tag: '+ tag}
     />
      <div className="breadcrumbs">
