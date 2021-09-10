@@ -24,6 +24,6 @@ To learn more about the project, please visit [Future Quest Island-Explorations 
 
 FQI is aimed at middle school general and special education teachers, as well as technology professionals, counselors, administrators, and transition professionals. Its goal is to advance the engagement and transition plans of youth with and without disabilities so that they can build a robust path to lifelong success, in middle school and beyond.
 
-Learn more about how [Future Quest Island engages middle schoolers.](https://thinkcollege.net/about/what-is-think-college/future-quest-island).
+Learn more about how [Future Quest Island engages middle schoolers](https://thinkcollege.net/about/what-is-think-college/future-quest-island).
 
 <br styl="clear:both;">
