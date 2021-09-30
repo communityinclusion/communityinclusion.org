@@ -13,14 +13,14 @@ import {
 
 
 const Footer = () => (
-   <footer aria-label="Footer" className="mt5 pt3 bg-dark-blue">
+   <footer aria-label="Footer" className="mt-5 pt3 bg-dark-blue">
 
-    <div className="footer-top mw9  center ph3 white">
-    <div className="row ph2-ns">
-  <div className="column-equal pa2 ">
+    <div className="footer-top container my-4  center px-3 text-white">
+    <div className="row px-2-ns">
+  <div className="col-4 p-2 ">
 
     
-  <h3 className="bb w-100 pv0 f4 lh-copy ttu tracked">Contact</h3>
+  <h3 className="border-bottom border-light   pv0 f4 lh-copy ttu tracked">Contact</h3>
     <article className="fl dib-ns w-auto-ns mr4-m mr5-l pr2 pr0-ns tl">
       <address className="fs-normal">Institute for Community Inclusion<br />
 UMass Boston<br />
@@ -35,10 +35,10 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
 
   </div>
   
-  <div className="column-equal pa2">
+  <div className="col-4 p-2 ">
 
-  <h3 className="bb w-100 pv0 f4 lh-copy fw6 ttu tracked">Links</h3>
-  <ul className=" v-mid w-100 w-75-l list pl0 ">
+  <h3 className="border-bottom border-light pv-0 lh-copy fw6 ttu tracked">Links</h3>
+  <ul className="align-middle w-100 w-75-l list pl0 ">
     <li className="mr2"> <Link to="/about/" className="link  white f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="About">About ICI</Link></li>
      <li className="mr2"><Link to="/areas-of-emphasis" className="link white  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Areas of Emphasis">Areas of Emphasis</Link></li>
     <li className="mr2"> <Link to="/projects" className="link white  f6 f5-l dib mr3 mr4-l no-underline underline-hover" title="Projects">Projects</Link></li>
@@ -48,35 +48,35 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
  <li className="mr2"> <Link to="/about/contact" className="link white  f6 f5-l dib no-underline underline-hover" title="contact">Contact</Link></li>
     <li className="mr2"> <Link to="/donate" className="link white  f6 f5-l dib no-underline underline-hover" title="Donate">Donate</Link></li>
   </ul></div>
-  <div className="column-equal pa2 ">
-  <h3 className="bb w-100 pv0 f4 lh-copy ttu tracked">Social</h3>
+  <div className="col-4 p-2 ">
+  <h3 className="border-bottom border-light w-100 py-0  lh-copy ttu tracked">Social</h3>
 
-  <ul className = "social-links  list pl0" >
-    <li className = "dib pr2" > { " " } <a href = "https://twitter.com/ICInclusion"
+  <ul className = "social-links text-white list-inline ps-0" >
+    <li className = "list-inline-item pe-2" > { " " } <a href = "https://twitter.com/ICInclusion"
     title = "Community Inclusion Twitter"
     target = "_blank"
     rel = "noopener noreferrer" >
          <FontAwesomeIcon icon={faTwitter} size="2x" />
-    </a> </li> <li className = "dib pr2" > { " " }
+    </a> </li> <li className = "list-inline-item pe-2" > { " " }
      <a href = "https://www.instagram.com/communityinclusion/"
      title = "Community Inclusion Instagram"
     target = "_blank"
     rel = "noopener noreferrer" >
         <FontAwesomeIcon icon={faInstagram} size="2x" />
     </a> </li> 
-    <li className = "dib pr2" > { " " } <a href = "https://www.facebook.com/communityinclusion/"
+    <li className = "list-inline-item pe-2" > { " " } <a href = "https://www.facebook.com/communityinclusion/"
      title = "Community Inclusion Facebook"
      target = "_blank"
     rel = "noopener noreferrer" >
          <FontAwesomeIcon icon={faFacebookSquare} size="2x" />
-    </a> </li> <li className = "dib pr2" > { " " } 
+    </a> </li> <li className = "list-inline-item pe-2" > { " " } 
     <a href = "https://communityinclusion.tumblr.com/"
     target = "_blank"
     title = "Community Inclusion Tumblr"
     rel = "noopener noreferrer" >
        <FontAwesomeIcon icon={faTumblrSquare} size="2x" />
     </a> </li>
-    <li className = "dib pr2" > { " " } 
+    <li className = "list-inline-item pe-2" > { " " } 
     <a href = "https://www.youtube.com/user/communityinclusion"
     target = "_blank"
     rel = "noopener noreferrer" >
@@ -86,40 +86,40 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   </div>
   </div>
   </div>
-  <div className="footer-copyright row w-100 bt white bg-black f6 lh-copy v-mid pv2 center "> 
-  <div className="mw9 center">
-   <div className="column-unequal right v-mid  white">
+  <div className="footer-copyright container-fluid text-white w-100 bt bg-dark fs-6 lh-copy align-middle py-2 center "> 
+  <div className="row">
+   <div className="col-2  align-middle ">
    <img className = "dib mw-100 h-auto"
    			 alt = "Institute for Community Inclusion"
             src={umbcombo}
           />
      </div> 
-      <div className="column-unequal middle v-mid white ph3">
+      <div className="col-7 align-middle px-3">
    
       <p className="white">©2021 The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital. The ICI is a University Center for Excellence in Developmental Disabilities, part of the national network started by President John F. Kennedy.</p>
     </div>
    
   
-    <div className="column-unequal left v-mid white ph3">
-    <ul className = "list pl0 " >
-    <li className = " dib br pr2" >
-   <Link to= "/about/privacy/" className="link dim white f6"
+    <div className="col-3 v-mid px-3">
+    <ul className = "list-inline " >
+    <li className = "list-inline-item flex-fill br pe-2 border-end border-light" >
+   <Link to= "/about/privacy/" className="link dim fs-6"
     title = "Privacy" >
     Privacy { " " } </Link> </li> 
-    <li className = "dib br pr2 pl2" > { " " }
-   <Link to="/about/accessibility/" className="link dim white f6"
+    <li className = "list-inline-item flex-fill br border-end border-light pe-2 ps-2" > { " " }
+   <Link to="/about/accessibility/" className="link dim fs-6"
     title = "Accessibility" >
     Accessibility </Link> </li> 
-    <li className= "dib pl1" > { " " }
-    <Link to="/donate/"  className= "link dim white f6"
+    <li className= "list-inline-item flex-fill ps-1" > { " " }
+    <Link to="/donate/"  className= "link dim fs-6"
     title = "Donate" >
     Donate </Link> </li>
      </ul>
-     <p className = "pt3">Website development supported by:</p>
-     <ul className = "list pl0 " >
-     <li className= "dib pr1 v-mid" ><a href="https://www.netlify.com">
+     <p className = "pt-3">Website development supported by:</p>
+     <ul className = "list-inline ps-0 " >
+     <li className= "list-inline-item dib pe-1 align-middle" ><a href="https://www.netlify.com">
     <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" /></a> </li>
-    <li className= "dib pl1 v-mid" > <a href="https://www.sanity.io">
+    <li className= "list-inline-item dib ps-1 align-middle" > <a href="https://www.sanity.io">
     <img alt = "content structured in sanity"
             src={sanity}
           />

@@ -11,6 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Navbar from "./navbar"
 import Header from "./header"
 import Footer from "../components/footer"
+import Helmet from "react-helmet"
 import './post.css'
 import './tags.css'
 import '../styles/keen.css'
@@ -31,9 +32,15 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+           <Helmet>
+           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
 <Navbar />
-          <main className="main-content ph3 ph4-ns">{children}</main>
+
+          <main className="main-content my-4 container">{children}</main>
         
              <Footer />
 
