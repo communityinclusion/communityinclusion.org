@@ -20,7 +20,7 @@ const Header = () => (
   
 
     <div className = "container-fluid header" >
-    <div className = "row px-3 ph4-m ph4-l pt3-ns pb3-ns" >
+    <div className = "row px-3 py-3" >
     <div className = "col-lg-2 col-sm-2 col-2 mt-2" >
     <Link to= "/" className = "d-table-cell align-middle mid-gray link "
     title = "Home" >
@@ -39,41 +39,41 @@ const Header = () => (
     <span id= "banner-tagline" className = "h6 h5-md h4-lg d-none d-lg-block f-subheadline dark-blue tracked-mega-l " > { " " }
     PROMOTING THE INCLUSION OF PEOPLE WITH DISABILITIES </span> </div> 
     
-    <div className = "col-lg-3  d-none d-lg-block   p-2" >
-
-    <ul className = "col list-inline ps-0 m-0 mb-2 header-links justify-content-between" >
+    <div className = "col-lg-3  d-none d-lg-block  p-2" >
+    <div className="row">
+    <ul className = "col-lg-12 list-inline ps-0 m-0 mb-2 header-links d-flex justify-content-around" >
     <li className = "flex-item list-inline-item pr1" >
-   <a href= "https://lp.constantcontactpages.com/su/jlCEExQ/subscribe" className="link dim dark-gray f6 dib "
-    title = "Subscribe"  target = "_blank" rel = "noopener noreferrer" >Subscribe { " " } </a> </li> <li className = "flex-item list-inline-item dib  pr1 pl1" > { " " }
-   <Link to="/about/contact/" className="link dim dark-gray f6 dib "
+   <a href= "https://lp.constantcontactpages.com/su/jlCEExQ/subscribe" className="link dim dark-gray f6  "
+    title = "Subscribe"  target = "_blank" rel = "noopener noreferrer" >Subscribe { " " } </a> </li> <li className = "flex-item list-inline-item   pr1 pl1" > { " " }
+   <Link to="/about/contact/" className="link dim dark-gray f6  "
     title = "Contact" >Contact </Link> </li> 
-    <li className= "flex-item list-inline-item dib ps-1" > { " " }
-    <Link to="/donate/"  className= "link dim dark-gray f6 dib "
+    <li className= "flex-item list-inline-item  ps-1" > { " " }
+    <Link to="/donate/"  className= "link dim dark-gray f6  "
     title = "Donate" >
     Donate </Link> </li>
      </ul>  
 
-    <ul className = "col social-links flex justify-around list-inline pl0 ma0 mb2" >
-    <li className = "list-inline-item flex-item dib" > { " " } <a href = "https://twitter.com/ICInclusion"
+    <ul className = "col-lg-12 social-links d-flex justify-content-around list-inline pl0 m-0 mb-2" >
+    <li className = "list-inline-item flex-item " > { " " } <a href = "https://twitter.com/ICInclusion"
     target = "_blank"
     rel = "noopener noreferrer" >
       <FontAwesomeIcon icon={faTwitter} size="2x" />
     </a> </li> 
-    <li className = "list-inline-item flex-item dib" > { " " }
+    <li className = "list-inline-item flex-item " > { " " }
      <a href = "https://www.instagram.com/communityinclusion/"
     target = "_blank"
     rel = "noopener noreferrer" >
     <FontAwesomeIcon icon={faInstagram} size="2x" />
-    </a> </li> <li className = "list-inline-item flex-item dib pl1" > { " " } 
+    </a> </li> <li className = "list-inline-item flex-item  pl1" > { " " } 
     <a href = "https://communityinclusion.tumblr.com/"
     target = "_blank"
     rel = "noopener noreferrer" >
      <FontAwesomeIcon icon={faTumblrSquare} size="2x" />
-    </a> </li> <li className = "list-inline-item flex-item dib pl1" > { " " } <a href = "https://www.facebook.com/communityinclusion/"
+    </a> </li> <li className = "list-inline-item flex-item  pl1" > { " " } <a href = "https://www.facebook.com/communityinclusion/"
     target = "_blank"
     rel = "noopener noreferrer" >
      <FontAwesomeIcon icon={faFacebookSquare} size="2x" />
-    </a> </li> <li className = "list-inline-item flex-item dib pl1" > { " " } 
+    </a> </li> <li className = "list-inline-item flex-item  pl1" > { " " } 
     <a href = "https://www.youtube.com/user/communityinclusion"
     target = "_blank"
     rel = "noopener noreferrer" >
@@ -81,8 +81,8 @@ const Header = () => (
     </a> </li> </ul>
     <div>
 
-<SearchForm className="col" />
-
+<SearchForm className="col-lg-12" />
+</div>
     </div>
          </div> 
     

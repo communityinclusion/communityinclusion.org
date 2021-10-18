@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
 
 /* Tachyons Variables */
 
@@ -223,7 +224,7 @@ footer a:hover {
 }
 
 
-
+/*
 .column-equal {
 	float: left;
 	width: 33.33%;
@@ -260,7 +261,7 @@ footer a:hover {
 		text-align:center
 	  }
   }
-
+*/
 
 
 @media screen and (max-width: 480px) {

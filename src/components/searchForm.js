@@ -22,20 +22,21 @@ const SearchForm = ({ initialQuery = "" }) => {
     navigate(`/search?q=${q}`)
   }
   return (
-    <div className="k--group ml3">
-    <form role="search" className="inline-flex" onSubmit={handleSubmit}>
-      <label htmlFor="search-input" style={{ display: "block" }}>
+    <div className="mb-3">
+    <form role="search" className="input-group" onSubmit={handleSubmit}>
+      <label htmlFor="search-input">
       </label>
       <input
         ref={inputEl}
-        className="k--input"
+        className="form-control"
         id="search-input"
         type="search"
         value={query}
         placeholder="search"
         onChange={handleChange}
+        aria-describedby="button-addon2"
       />
-      <button className="k--button" type="submit">Search</button>
+      <button type="button" class="btn btn-outline-secondary" type="submit" id="button-addon2">Search</button>
     </form>
     </div>
   )

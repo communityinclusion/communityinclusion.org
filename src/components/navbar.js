@@ -113,7 +113,7 @@ const Navbar = () => {
 
   return (
  
-           <Navigation role="navigation" aria-label="Main" className="cf">
+           <Navigation role="navigation" aria-label="Main" className="justify-content-center">
            <Toggle
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}

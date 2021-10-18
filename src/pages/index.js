@@ -30,11 +30,11 @@ const IndexPage = ({data, location }) => {
 
 
 
-    <h2 className="bb bw1 border-bottom border-dark">Areas of Emphasis</h2>
+    <h2 className="bb bw1 border-bottom border-dark border-2 pb-1">Areas of Emphasis</h2>
     
     
-    <div className="row">
-  <article className="col-6 shadow-4 mr4-l mb-4">
+    <div className="row row-flex">
+  <article className="col-lg-6 col-md-12  shadow-4 mr4-l mb-4">
   <div className="card">
     <div className="card-header bg-green my-0 px-3 ">
     <img src={employment_logo} className="d-inline-block align-middle" alt = "Employment icon" />
@@ -50,7 +50,7 @@ const IndexPage = ({data, location }) => {
 
 
 
-  <article className="col-6 flex-1 shadow-4 mb4">
+  <article className="col-lg-6 col-md-12 flex-1 shadow-4 mb-4">
   <div className="card">
   <div className="card-header bg-purple mv-0 p-2 ">
   <img src={education_logo} className="d-inline-block align-middle" alt = "Education icon" /> 
@@ -68,11 +68,11 @@ const IndexPage = ({data, location }) => {
    <div className="row">
 
 
-  <article className="col-6 shadow-4 mb4 mr4-l">
+  <article className="col-lg-6 col-md-12 shadow-4 mb-4 mr4-l">
     <div className="card">
-  <div className="card-header bg-red mv0 ph3 ">
+  <div className="card-header bg-red mv-0 px-3 ">
   <img src={community_logo} className="d-inline-block align-middle" alt = "Community icon" /> 
-    <h3 className="fs-3 text-white d-inline-block align-middle pl2"> Community Life</h3>
+    <h3 className="fs-3 text-white d-inline-block align-middle ps-2"> Community Life</h3>
    </div>
     <div className="card-body">
       <p className="fs-6 f5-ns lh-copy ">
@@ -84,7 +84,7 @@ const IndexPage = ({data, location }) => {
 
 
 
-  <article className="col-6 shadow-4 mb-4">
+  <article className="col-lg-6 col-md-12  shadow-4 mb-4">
   <div className="card">
   <div className="card-header bg-orange mv-0 px-3 ">
   <img src={healthcare_logo} className="d-inline-block align-middle" alt = "Healthcare icon" /> 
@@ -104,9 +104,9 @@ const IndexPage = ({data, location }) => {
 
 
   <div className="row my-4 ">
-  <div className="col-9 bg-white pa3">
+  <div className="col-lg-9 col-md-8 col-sm-12 bg-white p-3">
   <section className="center">
-          <h2 className="border-bottom border-dark">
+          <h2 className="border-bottom border-2 border-dark">
             New at ICI
           </h2>
         
@@ -125,10 +125,10 @@ const IndexPage = ({data, location }) => {
            </Link>
          </div>
          <div className="post-list__content">
-           <h2 className="f4 f3-l lh-copy"> <Link className="no-underline underline-hover blue dim" to={post.node.fields.slug}>
+           <h3 className="h4"> <Link className="no-underline underline-hover blue dim" to={post.node.fields.slug}>
              {post.node.frontmatter.title}
               </Link>
-             </h2>
+             </h3>
            <div className="post-list__excerpt">
              <p>{post.node.excerpt}</p>
            </div>
@@ -142,7 +142,7 @@ const IndexPage = ({data, location }) => {
         </section>
         </div>
    
-        <div className="col-3 tc pa3 mt4 ">
+        <div className="col-lg-3 col-md-4 col-sm-12 tc pa3 mt4 ">
         <div className="staffDropdown">
         <FormControl variant="filled" className="formControl mb3">
           <InputLabel id="demo-simple-select-label tc">Staff Directory</InputLabel>

@@ -13,11 +13,11 @@ import {
 
 
 const Footer = () => (
-   <footer aria-label="Footer" className="mt-5 pt3 bg-dark-blue">
+   <footer aria-label="Footer" className="mt-5 pt-3 bg-dark-blue">
 
     <div className="footer-top container my-4  center px-3 text-white">
     <div className="row px-2-ns">
-  <div className="col-4 p-2 ">
+  <div className="col-md-4 col-sm-12 p-2 ">
 
     
   <h3 className="border-bottom border-light   pv0 f4 lh-copy ttu tracked">Contact</h3>
@@ -35,7 +35,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
 
   </div>
   
-  <div className="col-4 p-2 ">
+  <div className="col-md-4 col-sm-12 p-2 ">
 
   <h3 className="border-bottom border-light pv-0 lh-copy fw6 ttu tracked">Links</h3>
   <ul className="align-middle w-100 w-75-l list pl0 ">
@@ -48,7 +48,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
  <li className="mr2"> <Link to="/about/contact" className="link white  f6 f5-l dib no-underline underline-hover" title="contact">Contact</Link></li>
     <li className="mr2"> <Link to="/donate" className="link white  f6 f5-l dib no-underline underline-hover" title="Donate">Donate</Link></li>
   </ul></div>
-  <div className="col-4 p-2 ">
+  <div className="col-md-4 col-sm-12 p-2 ">
   <h3 className="border-bottom border-light w-100 py-0  lh-copy ttu tracked">Social</h3>
 
   <ul className = "social-links text-white list-inline ps-0" >
@@ -86,8 +86,8 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   </div>
   </div>
   </div>
-  <div className="footer-copyright container-fluid text-white w-100 bt bg-dark fs-6 lh-copy align-middle py-2 center "> 
-  <div className="row">
+  <div className="footer-copyright container-fluid text-white w-100 bt bg-dark fs-6 lh-copy align-middle border-top border-white border-2 py-2 center "> 
+  <div className="row pt-3">
    <div className="col-2  align-middle ">
    <img className = "dib mw-100 h-auto"
    			 alt = "Institute for Community Inclusion"
