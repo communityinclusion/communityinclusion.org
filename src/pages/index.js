@@ -33,8 +33,8 @@ const IndexPage = ({data, location }) => {
     <h2 className="bb bw1 border-bottom border-dark border-2 pb-1">Areas of Emphasis</h2>
     
     
-    <div className="row row-flex">
-  <article className="col-lg-6 col-md-12  shadow-4 mr4-l mb-4">
+    <div className="row">
+  <article className="col-lg-6 col-md-12  d-flex align-self-stretch shadow-4 mr4-l mb-4">
   <div className="card">
     <div className="card-header bg-green my-0 px-3 ">
     <img src={employment_logo} className="d-inline-block align-middle" alt = "Employment icon" />
@@ -50,7 +50,7 @@ const IndexPage = ({data, location }) => {
 
 
 
-  <article className="col-lg-6 col-md-12 flex-1 shadow-4 mb-4">
+  <article className="col-lg-6 col-md-12  d-flex align-self-stretch shadow-4 mb-4">
   <div className="card">
   <div className="card-header bg-purple mv-0 p-2 ">
   <img src={education_logo} className="d-inline-block align-middle" alt = "Education icon" /> 
@@ -68,7 +68,7 @@ const IndexPage = ({data, location }) => {
    <div className="row">
 
 
-  <article className="col-lg-6 col-md-12 shadow-4 mb-4 mr4-l">
+  <article className="col-lg-6 col-md-12  d-flex align-self-stretch shadow-4 mb-4 mr4-l">
     <div className="card">
   <div className="card-header bg-red mv-0 px-3 ">
   <img src={community_logo} className="d-inline-block align-middle" alt = "Community icon" /> 
@@ -84,7 +84,7 @@ const IndexPage = ({data, location }) => {
 
 
 
-  <article className="col-lg-6 col-md-12  shadow-4 mb-4">
+  <article className="col-lg-6 col-md-12 d-flex align-self-stretch shadow-4 mb-4">
   <div className="card">
   <div className="card-header bg-orange mv-0 px-3 ">
   <img src={healthcare_logo} className="d-inline-block align-middle" alt = "Healthcare icon" /> 

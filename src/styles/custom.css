@@ -512,20 +512,17 @@ nav.breadcrumb {
 /** CARDS **/
 
 
-article.card {
-	margin: 2rem 1rem;
-	padding: 1rem;
-	box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2);
-	border-color: rgba( 0, 0, 0, .1);
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
-	border-top-style: solid;
-	border-top-width: 1px;
-	display: block;
+.card {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-left-color: rgba(0,0,0,.1);
+    border-right-color: rgba(0,0,0,.1);
+    border-top: 1px solid rgba(0,0,0,.1);
+    box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
+    padding: 1rem;
 }
 
 
-article.card h2 {
+.card h2 {
 font-family: "Open Sans", sans-serif;
 }
 
