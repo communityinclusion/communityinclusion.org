@@ -86,21 +86,22 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   </div>
   </div>
   </div>
+
   <div className="footer-copyright container-fluid text-white w-100 bt bg-dark fs-6 lh-copy align-middle border-top border-white border-2 py-2 center "> 
   <div className="row pt-3">
-   <div className="col-2  align-middle ">
+   <div className="col-md-2  align-middle ">
    <img className = "dib mw-100 h-auto"
    			 alt = "Institute for Community Inclusion"
             src={umbcombo}
           />
      </div> 
-      <div className="col-7 align-middle px-3">
+      <div className="col-md-7 align-middle px-3">
    
       <p className="white">©2021 The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital. The ICI is a University Center for Excellence in Developmental Disabilities, part of the national network started by President John F. Kennedy.</p>
     </div>
    
   
-    <div className="col-3 v-mid px-3">
+    <div className="col-md-3 v-mid px-3">
     <ul className = "list-inline " >
     <li className = "list-inline-item flex-fill br pe-2 border-end border-light" >
    <Link to= "/about/privacy/" className="link dim fs-6"
