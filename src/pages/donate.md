@@ -21,4 +21,4 @@ Educate health care professionals about effective communication with and accommo
 Offer technical assistance and consulting to state agencies that support people with disabilities to build fulfilling careers in their communities.
 Donations in any amount are welcome. Thank you for supporting our mission of equity and inclusion!
 
-<div class="ph3"><a href="https://securelb.imodules.com/s/1355/boston/giving/17/form.aspx?sid=1355&gid=3&pgid=5411&cid=13247&appealcode=GiveBtn&dids=522&bledit=1" class="f6 link dim ph3 pv2 mb2 dib white bg-lightest-blue" >Donate Today</a></div>
+<div class="ph3"><a href="https://securelb.imodules.com/s/1355/boston/giving/17/form.aspx?sid=1355&gid=3&pgid=5411&cid=13247&appealcode=GiveBtn&dids=522&bledit=1" class="f6 link dim ph3 pv2 mb2 d-inline-block white bg-lightest-blue" >Donate Today</a></div>

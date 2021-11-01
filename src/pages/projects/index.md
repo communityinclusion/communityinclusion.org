@@ -13,7 +13,7 @@ description: "List of ICI Projects"
 <div class="row">
 	<div class="col-md-3">
 <div class="card-image">
-<img src="../../images/thinkcollege.png" class="db" alt = "ThinkCollege" />
+<img src="../../images/thinkcollege.png" alt = "ThinkCollege" />
 </div>
 </div>
 <div class="col-md-9">
@@ -32,7 +32,7 @@ Think College</a>
 <div class="row">
 	<div class="col-md-3">
 <div class="card-image">
-<img src="../../images/nercve.png" class="db" alt = "NERCVE" />
+<img src="../../images/nercve.png" alt = "NERCVE" />
 </div>
 </div>
 <div class="col-md-9">
@@ -53,7 +53,7 @@ NERCVE</a>
 <div class="row">
 	<div class="col-md-3">
 <div class="card-image">
-<img src="../../images/EVR-sq-300.png" class="db" alt = "ExploreVR" />
+<img src="../../images/EVR-sq-300.png" alt = "ExploreVR" />
 </div>
 </div>
 <div class="col-md-9">
@@ -72,7 +72,7 @@ ExploreVR</a>
 <div class="row">
 	<div class="col-md-3">
 <div class="card-image">
-<img src="../../images/employmentfirstma.png" class="db" alt = "EmploymentFirstMA" />
+<img src="../../images/employmentfirstma.png" alt = "EmploymentFirstMA" />
 </div>
 </div>
 <div class="col-md-9">
@@ -111,7 +111,7 @@ ThinkWork!</a>
 <div class="row">
 <div class="col-md-3">
 <div class="card-image">
-<img src="../../images/statedata.png" class="db" alt = "StateData.info" />
+<img src="../../images/statedata.png" alt = "StateData.info" />
 </div>
 </div>
 <div class="col-md-9">
@@ -132,7 +132,7 @@ StateData.info</a>
 <div class="row">
 	<div class="col-md-3">
 <div class="card-image">
-<img src="../../images/seln.png" class="db" alt = "SELN"/>
+<img src="../../images/seln.png" alt = "SELN"/>
 </div>
 </div>
 <div class="col-md-9">
@@ -151,7 +151,7 @@ SELN</a>
 <div class="row">
 	<div class="col-md-3">
 <div class="card-image">
-<img src="../../images/catada.png" class="db" alt = "Catada" />
+<img src="../../images/catada.png" alt = "Catada" />
 </div>
 </div>
 <div class="col-md-9">
@@ -171,7 +171,7 @@ SELN</a>
 <div class="row">
 	<div class="col-md-3">
 <div class="card-image">
-<img src="../../images/fqi.png" class="db" alt = "Future Quest Island" />
+<img src="../../images/fqi.png" alt = "Future Quest Island" />
 </div>
 </div>
 <div class="col-md-9">
@@ -190,7 +190,7 @@ Future Quest Island</a>
 <div class="row">
 	<div class="col-md-3">
 <div class="card-image">
-<img src="../../images/bch-lend-logo.png" class="db" alt = "LEND Boston" />
+<img src="../../images/bch-lend-logo.png" alt = "LEND Boston" />
 </div>
 </div>
 <div class="col-md-9">
@@ -211,7 +211,7 @@ LEND Boston</a>
 <div class="row">
 	<div class="col-md-3">
 <div class="card-image">
-<img src="../../images/bch-ds-logo.png" class="db" alt = "Boston Children’s Hospital Down Syndrome Program" />
+<img src="../../images/bch-ds-logo.png" alt = "Boston Children’s Hospital Down Syndrome Program" />
 </div>
 </div>
 	<div class="col-md-9">
@@ -230,7 +230,7 @@ Boston Children’s Hospital Down Syndrome Program</a>
 <div class="row">
 	<div class="col-md-3">
 <div class="card-image">
-<img src="../../images/CLE-square-logo.png" class="db" alt = "Community Life Engagement"/>
+<img src="../../images/CLE-square-logo.png" alt = "Community Life Engagement"/>
 </div>
 </div>
 	<div class="col-md-9">
@@ -252,7 +252,7 @@ Community Life Engagement</a>
 <div class="row">
 	<div class="col-md-3">
 <div class="card-image">
-<img src="../../images/empfirstFL-sq-300.png" class="db" alt = "Boston Children’s Hospital Down Syndrome Program" />
+<img src="../../images/empfirstFL-sq-300.png" alt = "Boston Children’s Hospital Down Syndrome Program" />
 </div>
 </div>
 <div class="col-md-9">
@@ -271,7 +271,7 @@ Community Life Engagement</a>
 <div class="row">
 	<div class="col-md-3">
 <div class="card-image">
-<img src="../../images/empfirstMO-sq-300.png" class="db" alt = "EmploymentFirstMo" />
+<img src="../../images/empfirstMO-sq-300.png" alt = "EmploymentFirstMo" />
 </div>
 </div>
 	<div class="col-md-9">
@@ -292,7 +292,7 @@ Employment First Missouri</a>
 <div class="row">
 	<div class="col-md-3">
 <div class="card-image">
-<img src="../../images/gator_thumbnail.png" class="db" alt = "Gator" />
+<img src="../../images/gator_thumbnail.png" alt = "Gator" />
 </div>
 </div>
 <div class="col-md-9">

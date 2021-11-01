@@ -34,14 +34,14 @@ const IndexPage = ({data, location }) => {
     
     
     <div className="row">
-  <article className="col-lg-6 col-md-12  d-flex align-self-stretch shadow-4 mr4-l mb-4">
+  <article className="col-lg-6 col-md-12  d-flex align-self-stretch   mb-4">
   <div className="card">
     <div className="card-header bg-green my-0 px-3 ">
     <img src={employment_logo} className="d-inline-block align-middle" alt = "Employment icon" />
     <h3 className="fs-3 text-white  d-inline-block align-middle ps-2">     Employment</h3>
     </div>
     <div className="card-body">
-      <p className="fs-6 f5-ns lh-copy">
+      <p>
     Building a rewarding career in the community should be an expectation for all citizens. With support and planning, people with significant disabilities can thrive in the workplace.
       </p>
     </div>
@@ -50,14 +50,14 @@ const IndexPage = ({data, location }) => {
 
 
 
-  <article className="col-lg-6 col-md-12  d-flex align-self-stretch shadow-4 mb-4">
+  <article className="col-lg-6 col-md-12  d-flex align-self-stretch  mb-4">
   <div className="card">
   <div className="card-header bg-purple mv-0 p-2 ">
   <img src={education_logo} className="d-inline-block align-middle" alt = "Education icon" /> 
   <h3 className="text-white d-inline-block align-middle ps-2"> Education</h3>
     </div>
     <div className="card-body">
-      <p className="fs-6 f5-ns lh-copy">
+      <p>
    From pre-K through university, schools are engaging and involving students with a range of disabilities. By building skills early, young people can exit high school prepared to pursue higher education and find jobs that match their interests.
       </p>
     </div>
@@ -68,14 +68,14 @@ const IndexPage = ({data, location }) => {
    <div className="row">
 
 
-  <article className="col-lg-6 col-md-12  d-flex align-self-stretch shadow-4 mb-4 mr4-l">
+  <article className="col-lg-6 col-md-12  d-flex align-self-stretch  mb-4 ">
     <div className="card">
   <div className="card-header bg-red mv-0 px-3 ">
   <img src={community_logo} className="d-inline-block align-middle" alt = "Community icon" /> 
     <h3 className="fs-3 text-white d-inline-block align-middle ps-2"> Community Life</h3>
    </div>
     <div className="card-body">
-      <p className="fs-6 f5-ns lh-copy ">
+      <p>
    Outside of work and school, people with disabilities are involved in a wide range of activities that make up a satisfying life. Whether it’s volunteering at a music festival, getting involved with a faith community, or attending a sports event, there’s much more to life than a job.
       </p>
     </div>
@@ -84,14 +84,14 @@ const IndexPage = ({data, location }) => {
 
 
 
-  <article className="col-lg-6 col-md-12 d-flex align-self-stretch shadow-4 mb-4">
+  <article className="col-lg-6 col-md-12 d-flex align-self-stretch  mb-4">
   <div className="card">
   <div className="card-header bg-orange mv-0 px-3 ">
   <img src={healthcare_logo} className="d-inline-block align-middle" alt = "Healthcare icon" /> 
     <h3 className="text-white d-inline-block align-middle ps-2"> Health Care</h3>
    </div>
     <div className="card-body">
-    <p className="fs-6 f5-l mt-0 lh-copy">Accessing quality health care enables us to live productively and to receive support when facing mental, behavioral, or physical challenges. For people with disabilities, equitable health care can require additional advocacy and planning.
+    <p>Accessing quality health care enables us to live productively and to receive support when facing mental, behavioral, or physical challenges. For people with disabilities, equitable health care can require additional advocacy and planning.
       </p>
     </div>
     </div>
@@ -142,9 +142,9 @@ const IndexPage = ({data, location }) => {
         </section>
         </div>
    
-        <div className="col-lg-3 col-md-4 col-sm-12 tc pa3 mt4 ">
+        <div className="col-lg-3 col-md-4 col-sm-12 tc">
         <div className="staffDropdown">
-        <FormControl variant="filled" className="formControl mb3">
+        <FormControl variant="filled" className="formControl ">
           <InputLabel id="demo-simple-select-label tc">Staff Directory</InputLabel>
           <Select
             labelId="demo-simple-select-label"

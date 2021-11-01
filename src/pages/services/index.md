@@ -13,7 +13,7 @@ From expert consultation and technical assistance to online training for employm
 <div class="card shadow-sm p-3">
 <div class="row">
 	<div class="col-md-3">
-<img src="../../images/services-consulting.png" class="db" alt = "ICI Consulting" />
+<img src="../../images/services-consulting.png" class="d-block" alt = "ICI Consulting" />
 </div>
 <div class="col-md-9">
 <h2 class="card-title">
@@ -28,7 +28,7 @@ ICI Consulting</a></h2>
 <div class="card shadow-sm p-3">
 <div class="row">
 <div class="col-md-3">
-<img src="../../images/empservices-logo.png" class="db" alt = "ICI Employment Services" />
+<img src="../../images/empservices-logo.png" class="d-block" alt = "ICI Employment Services" />
 </div>
 <div class="col-md-9">
 <h2 class="card-title"><a href="https://employmentservices.communityinclusion.org/"> 
@@ -44,7 +44,7 @@ ICI Employment Services</a></h2>
 <div class="card shadow-sm p-3">
 <div class="row">
 <div class="col-md-3">
-<img src="../../images/services-ces.png" class="db" alt = "College of Employment Services" />
+<img src="../../images/services-ces.png" class="d-block" alt = "College of Employment Services" />
 </div>
 <div class="col-md-9">
 <h2 class="card-title"><a href="https://www.directcourseonline.com/employment-services/"> 
@@ -59,7 +59,7 @@ College of Employment Services</a></h2>
 <div class="card shadow-sm p-3">
 <div class="row">
 <div class="col-md-3">
-<img src="../../images/services-acre_logo.png" class="db" alt = "CES/ACRE"/>
+<img src="../../images/services-acre_logo.png" class="d-block" alt = "CES/ACRE"/>
 </div>
 <div class="col-md-9">
 <h2 class="card-title"><a href="https://cesacre.communityinclusion.org/"> 
