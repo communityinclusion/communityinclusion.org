@@ -41,7 +41,7 @@ const IndexPage = ({data, location }) => {
     <h3 className="fs-3 text-white  d-inline-block align-middle ps-2">     Employment</h3>
     </div>
     <div className="card-body">
-      <p>
+      <p className="lh-copy">
     Building a rewarding career in the community should be an expectation for all citizens. With support and planning, people with significant disabilities can thrive in the workplace.
       </p>
     </div>
@@ -119,7 +119,7 @@ const IndexPage = ({data, location }) => {
            {
               post.node.frontmatter.thumbnail
               && (
-              <GatsbyImage image={post.node.frontmatter.thumbnail.childImageSharp.gatsbyImageData} />
+              <GatsbyImage image={post.node.frontmatter.thumbnail.childImageSharp.gatsbyImageData} alt={post.node.frontmatter.title} />
               )
             }
            </Link>

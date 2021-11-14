@@ -7,6 +7,7 @@ thumbnail: "../../images/ICI.png"
 description: "List of ICI Projects"
 ---
 
+ 
 <div class="row">
 <div class="col-md-6 mb-4 d-flex align-self-stretch">
 <div class="card shadow-sm p-3">
@@ -46,12 +47,10 @@ NERCVE</a>
 </div>
 </div>
 </div>
-</div>
-<div class="row">
 <div class="col-md-6 mb-4 d-flex align-self-stretch">
 <div class="card shadow-sm p-3">
 <div class="row">
-	<div class="col-md-3">
+<div class="col-md-3">
 <div class="card-image">
 <img src="../../images/EVR-sq-300.png" alt = "ExploreVR" />
 </div>
@@ -85,8 +84,6 @@ Employment First Massachusetts</a></h2>
 </div>
 </div>
 </div>
-</div>
-<div class="row">
 <div class="col-md-6 mb-4 d-flex align-self-stretch">
 <div class="card shadow-sm p-3">
 <div class="row">
@@ -124,9 +121,7 @@ StateData.info</a>
 </div>
 </div>
 </div>
-</div>
-</div>
-<div class="row">
+</div> 
 <div class="col-md-6 mb-4 d-flex align-self-stretch">
 <div class="card shadow-sm p-3">
 <div class="row">
@@ -164,8 +159,6 @@ SELN</a>
 </div>
 </div>
 </div>
-</div>
-<div class="row">
 <div class="col-md-6 mb-4 d-flex align-self-stretch">
 <div class="card shadow-sm p-3">
 <div class="row">
@@ -204,8 +197,6 @@ LEND Boston</a>
 </div>
 </div>
 </div>
-</div>
-<div class="row">
 <div class="col-md-6 mb-4 d-flex align-self-stretch">
 <div class="card shadow-sm p-3">
 <div class="row">
@@ -245,8 +236,6 @@ Community Life Engagement</a>
 </div>
 </div>
 </div>
-</div>
-<div class="row">
 <div class="col-md-6 mb-4 d-flex align-self-stretch">
 <div class="card shadow-sm p-3">
 <div class="row">
@@ -285,8 +274,6 @@ Employment First Missouri</a>
 </div>
 </div>
 </div>
-</div>
-<div class="row">
 <div class="col-md-6 mb-4 d-flex align-self-stretch">
 <div class="card shadow-sm p-3">
 <div class="row">

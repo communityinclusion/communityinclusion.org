@@ -12,7 +12,7 @@ Community life engagement refers to all the ways that people with intellectual a
 
 This one-page, accessible flyer provides a plain language overview of the definition of Community Life Engagement, and the four most important things to consider:
 
-[![plain language thumbnail](../../CLE_flyer_2017_plain language_thumb.jpg)](https://www.thinkwork.org/sites/default/files/files/CLE_flyer_2017_plain%20language_0.pdf)
+[![plain language thumbnail](../../CLE_flyer_2017_plain_language_thumb.jpg)](https://www.thinkwork.org/sites/default/files/files/CLE_flyer_2017_plain%20language_0.pdf)
 
 ## Community Life Engagement Toolkit is here
 

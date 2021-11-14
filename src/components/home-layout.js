@@ -22,7 +22,6 @@ import Message from "../components/message"
 import Helmet from "react-helmet"
 import './post.css'
 import './tags.css'
-import "../styles/keen.css"
 import "../styles/custom.css"
 
 
@@ -42,13 +41,13 @@ const Layout = ({ children }) => (
       <>
       <Message />
       <Helmet>
-           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+          
 
 </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
 <Navbar />
 <Image />
-  <main className="main-content container my-4">{children}</main>
+  <main className="main-content container-lg my-4">{children}</main>
              <Footer />
 
       </>

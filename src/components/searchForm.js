@@ -36,7 +36,7 @@ const SearchForm = ({ initialQuery = "" }) => {
         onChange={handleChange}
         aria-describedby="button-addon2"
       />
-      <button type="button" class="btn btn-outline-secondary" type="submit" id="button-addon2">Search</button>
+      <button className="btn btn-outline-secondary" type="submit" id="button-addon2">Search</button>
     </form>
     </div>
   )

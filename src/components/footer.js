@@ -13,9 +13,9 @@ import {
 
 
 const Footer = () => (
-   <footer aria-label="Footer" className="mt-5 pt-3 bg-dark-blue">
-
-    <div className="footer-top container px-3 text-white">
+   <footer aria-label="Footer">
+<div className="mt-5 pt-3 bg-dark-blue">
+    <div className="footer-top container-xxl	 px-3 text-white">
     <div className="row px-2-ns">
   <div className="col-md-4 col-sm-12 p-2 ">
 
@@ -86,8 +86,9 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   </div>
   </div>
   </div>
-
-  <div className="footer-copyright container-fluid text-white w-100 bt bg-dark lh-lg align-middle border-top border-white border-2 py-2"> 
+  </div>
+  <div className="footer-copyright  bg-dark border-top border-white border-2"> 
+  <div className="container-xxl	text-white w-100 bt lh-lg align-middle  py-2">
   <div className="row pt-3">
    <div className="col-md-2  align-middle ">
    <img className = "d-inline-block mw-100 h-auto"
@@ -128,7 +129,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
           </ul>
     </div>
     </div>
- 
+    </div>
      </div>
 </footer>
 )

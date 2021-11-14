@@ -38,8 +38,6 @@ ICI Employment Services</a></h2>
 </div>
 </div>
 </div>
-</div>
-<div class="row">
 <div class="col-md-6  mb-4 d-flex align-self-stretch">
 <div class="card shadow-sm p-3">
 <div class="row">

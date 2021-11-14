@@ -26,4 +26,4 @@ FQI is aimed at middle school general and special education teachers, as well as
 
 Learn more about how [Future Quest Island engages middle schoolers](https://thinkcollege.net/about/what-is-think-college/future-quest-island).
 
-<br styl="clear:both;">
+<br style="clear:both;">

@@ -17,81 +17,76 @@ excerpt: "The Institute for Community Inclusion at UMass Boston supports the rig
 
 
 <div class="row mb-4">
-<div class="col-md-4 col-sm-12">
-<div class="card">
+<div class="col-md-4 col-sm-12 mb-4 d-flex align-self-stretch">
+<div class="card w-100">
 <div class="card-body">
  
-<h2 class="card-title"><a class="link dt w-100 mt2 dark-blue" href="/about/history">History</a></h2>
+<h2 class="card-title"><a class="link dt w-100 mt-2 dark-blue" href="/about/history">History</a></h2>
 
 <p class="card-text">Learn about our history and explore our interactive timeline.</p>   
 </div>
 </div>
 </div>
 
-<div class="col-md-4 col-sm-12">
-<div class="card">
+<div class="col-md-4 col-sm-12 mb-4 d-flex align-self-stretch">
+<div class="card w-100">
 <div class="card-body">
 
-<h2 class="card-title"><a href="/about/mission" class="link dt w-100 mt2 dark-blue">Mission and Vision</a></h2>
+<h2 class="card-title"><a href="/about/mission" class="link dt w-100 mt-2 dark-blue">Mission and Vision</a></h2>
 
 <p class="card-text">From our founding to today, these core principles drive us.</p>  
 </div>
 </div>
 </div>
 
-<div class="col-md-4 col-sm-12">
-<div class="card">
+<div class="col-md-4 col-sm-12 mb-4 d-flex align-self-stretch">
+<div class="card w-100">
 <div class="card-body">
 
 <h2 class="card-title"><a class="dark-blue" href="/about/staff-directory">Staff</a></h2>
 
-<p class="card-text">View our staff directory.
-</p> 
-</div>
+<p class="card-text">View our staff directory.</p> 
 </div>
 </div>
 </div>
 
-<div class="row mb-4">
 
-<div class="col-md-4 col-sm-12">
-<div class="card">
+<div class="col-md-4 col-sm-12 mb-4 d-flex align-self-stretch">
+<div class="card w-100">
 <div class="card-body">
-    <h2 class="card-title"><a class="link dt w-100 mt2 dark-blue" href="/about/directions">Directions</a></h2>
+    <h2 class="card-title"><a class="link dt w-100 mt-2 dark-blue" href="/about/directions">Directions</a></h2>
      <p class="card-text">Get to our office by car or public transportation. </p>  
    </div>
 </div>
 </div>
 
-<div class="col-md-4 col-sm-12">
-<div class="card">
+<div class="col-md-4 col-sm-12 mb-4 d-flex align-self-stretch">
+<div class="card w-100">
 <div class="card-body">
     <h2 class="card-title"> 
-    <a class="link dt w-100 mt2 dark-blue" href="/about/contact">Contact</a></h2>
+    <a class="link dt w-100 mt-2 dark-blue" href="/about/contact">Contact</a></h2>
    <p class="card-text">Get in touch or ask our staff a question. </p>
   </div>
 </div>
 </div>
 
 
-<div class="col-md-4 col-sm-12">
-<div class="card">
+<div class="col-md-4 col-sm-12 mb-4 d-flex align-self-stretch">
+<div class="card w-100">
 <div class="card-body">
         
-   <h2 class="card-title"><a class="link dt w-100 mt2 dark-blue" href="/about/glossary">Glossary</a></h2>
+   <h2 class="card-title"><a class="link dt w-100 mt-2 dark-blue" href="/about/glossary">Glossary</a></h2>
        <p class="card-text">Your guide to common terms related to disability.</p> 
 </div>
 </div>
 </div>
-</div>
 
-<div class="row mb-4">
 
-<div class="col-md-4 col-sm-12">
-<div class="card">
+<div class="col-md-4 col-sm-12 mb-4 d-flex align-self-stretch">
+<div class="card w-100">
 <div class="card-body">
 
-<h2 class="card-title"><a class="link dt w-100 mt2 dark-blue" href="/about/what-we-mean-when-we-talk-about-inclusion">What We Mean When We Talk About Inclusion</a></h2>
+<h2 class="card-title"><a class="link dt w-100 mt-2 dark-blue" href="/about/what-we-mean-when-we-talk-about-inclusion">What We Mean When We Talk About Inclusion</a></h2>
 
 <p class="card-text">A resource guide.</p>   
 </div>

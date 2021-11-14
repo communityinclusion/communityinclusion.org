@@ -19,7 +19,7 @@ const Header = () => (
 	<div>
   
 
-    <div className = "container-fluid header" >
+    <div className = "container-xxl header" >
     <div className = "row px-3 py-3" >
     <div className = "col-lg-2 col-sm-2 col-2 mt-2" >
     <Link to= "/" className = "d-table-cell align-middle mid-gray link "
