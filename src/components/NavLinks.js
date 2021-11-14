@@ -9,7 +9,7 @@ const activeLinkStyle = {
   const NavLinks = () => {
     return (
       <>
-<ul className="main-nav">
+<ul className="main-nav container">
 <li className="top-level-link">
   <Link to="/" activeStyle={activeLinkStyle} ><span>Home</span></Link>
 </li>
@@ -20,17 +20,17 @@ const activeLinkStyle = {
 <li className="top-level-link">
   <Link to="/about" className="mega-menu" activeStyle={activeLinkStyle}  partiallyActive={true}  aria-expanded="false"><span>About</span></Link>
   <div className="sub-menu-block">
-    <div className="cf">
-      <div className="fl w-two-thirds-l db-l dn pr2">
+    <div className="row">
+      <div className="col-lg-9">
 
 
        <p>The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society. As practitioners, researchers, and teachers, we form partnerships with individuals, families, and service agencies. Together we advocate for personal choice, self-determination, and social and economic justice.</p>
       </div>
 
 
-      <div className="fl w-third-l w-100 pa3-ns bl-l">
+      <div className="col-lg-3 border-start-lg">
 
-        <ul className="sub-menu-lists ml1">
+        <ul className="sub-menu-lists ms-1">
           <li><Link to="/about" role="button" aria-haspopup="true">About the ICI</Link></li>
           <li><Link to="/about/history">History of ICI</Link></li>
           <li><Link to="/about/mission">Mission and Vision</Link></li>
@@ -52,14 +52,14 @@ const activeLinkStyle = {
 
      <Link to="/areas-of-emphasis" activeStyle={activeLinkStyle} partiallyActive={true} className="mega-menu"><span>Areas of Emphasis</span></Link>
   <div className="sub-menu-block">
-    <div className="cf">
-      <div className="fl w-two-thirds-l db-l dn pr2">
+    <div className="row">
+      <div className="col-lg-9">
 <p>Learn more about the four areas through which we support the full inclusion of people with disabilities in society. </p>
       </div>
 
-      <div className="fl w-third-l w-100 pa3-ns bl-ns">
+      <div className="col-lg-3 border-start-lg">
 
-        <ul className="sub-menu-lists ml1">
+        <ul className="sub-menu-lists ms-1">
           <li><Link to="/areas-of-emphasis/employment">Employment</Link></li>
           <li><Link to="/areas-of-emphasis/education">Education</Link></li>
           <li><Link to="/areas-of-emphasis/community">Community Life</Link></li>
@@ -75,14 +75,14 @@ const activeLinkStyle = {
 <li className="top-level-link">
   <Link to="/projects" activeStyle={activeLinkStyle} partiallyActive={true} className="mega-menu"><span>Projects</span></Link>
   <div className="sub-menu-block">
-    <div className="cf">
-      <div className="fl w-60-l db-l dn pr2">
+  <div className="row">
+      <div className="col-lg-6">
 <p>Our projects involve conducting state and national employment research, increasing access to higher education, supporting children with disabilities to plan for a fulfilling future, and much more.  </p>
       </div>
 
-      <div className="fl w-20-l w-100 pa3-l pb0 bl-ns">
+      <div className="col-lg-3 border-start-lg">
 
-        <ul className="sub-menu-lists ma0 ml1 pa0">
+        <ul className="sub-menu-lists m-0 ms-1 p-0">
           <li><Link to="/projects/thinkcollege">ThinkCollege</Link></li>
           <li><Link to="/projects/thinkwork">ThinkWork!</Link></li>
           <li><Link to="/projects/explorevr">ExploreVR</Link></li>
@@ -95,9 +95,9 @@ const activeLinkStyle = {
         </ul>
       </div>
 
-      <div className="fl w-20-l w-100 pa3-l pt0">
+      <div className="col-lg-3 border-start-lg">
 
-        <ul className="sub-menu-lists ma0 ml1 pa0">
+        <ul className="sub-menu-lists m-0 ms-1 p-0">
 
 
 
@@ -120,14 +120,14 @@ const activeLinkStyle = {
  <li className="top-level-link">
    <Link to="/services" activeStyle={activeLinkStyle} partiallyActive={true} className="mega-menu"><span>Services</span></Link>
       <div className="sub-menu-block">
-      <div className="cf">
-      <div className="fl w-two-thirds-l db-l dn pr2">
+      <div className="row">
+      <div className="col-lg-9">
 <p>From expert consultation and technical assistance to online training for employment professionals, our services help agency leaders and disability staff to excel and thrive in their work.  </p>
       </div>
 
-      <div className="fl w-third-l w-100 pa3-ns bl-ns">
+      <div className="col-lg-3 border-start-lg">
 
-        <ul className="sub-menu-lists ml1">
+        <ul className="sub-menu-lists ms-1">
           <li><a href="https://consulting.communityinclusion.org/">ICI Consulting</a></li>
           <li><a href="https://employmentservices.communityinclusion.org/">ICI Employment Services</a></li>
            <li><a href="https://www.directcourseonline.com/employment-services/">College of Employment Services</a></li>
@@ -149,7 +149,7 @@ const activeLinkStyle = {
   <Link to="/publications" activeStyle={activeLinkStyle} partiallyActive={true}><span>Publications</span></Link>
 </li>
 
-<li className="top-level-link desktop-nav">
+<li className="top-level-link d-lg-none">
  <Link to="/search" activeStyle={activeLinkStyle} partiallyActive={true}><span>Search</span></Link> 
 </li> 
 </ul>

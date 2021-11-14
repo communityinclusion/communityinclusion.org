@@ -30,61 +30,70 @@ const IndexPage = ({data, location }) => {
 
 
 
-    <h2 className="bb bw1">Areas of Emphasis</h2>
+    <h2 className="bb bw1 border-bottom border-dark border-2 pb-1">Areas of Emphasis</h2>
     
     
-    <div className="flex-l center">
-  <article className="flex-1 shadow-4 mr4-l mb4">
-    <div className=" bg-green mv0 ph3 ">
-    <img src={employment_logo} className="dib v-mid" alt = "Employment icon" />
-    <h3 className="f3 white  dib v-mid pl2">     Employment</h3>
+    <div className="row">
+  <article className="col-lg-6 col-md-12  d-flex align-self-stretch   mb-4">
+  <div className="card">
+    <div className="card-header bg-green my-0 px-3 ">
+    <img src={employment_logo} className="d-inline-block align-middle" alt = "Employment icon" />
+    <h3 className="fs-3 text-white  d-inline-block align-middle ps-2">     Employment</h3>
     </div>
-    <div className="pa3">
-      <p className="f6 f5-ns lh-copy">
+    <div className="card-body">
+      <p className="lh-copy">
     Building a rewarding career in the community should be an expectation for all citizens. With support and planning, people with significant disabilities can thrive in the workplace.
       </p>
     </div>
+    </div>
   </article>
 
 
 
-  <article className="flex-1 shadow-4 mb4">
-  <div className="bg-purple mv0 ph3 ">
-  <img src={education_logo} className="dib v-mid" alt = "Education icon" /> 
-    <h3 className="f3 white dib v-mid pl2"> Education</h3>
+  <article className="col-lg-6 col-md-12  d-flex align-self-stretch  mb-4">
+  <div className="card">
+  <div className="card-header bg-purple mv-0 p-2 ">
+  <img src={education_logo} className="d-inline-block align-middle" alt = "Education icon" /> 
+  <h3 className="text-white d-inline-block align-middle ps-2"> Education</h3>
     </div>
-    <div className="pa3">
-      <p className="f6 f5-ns lh-copy">
+    <div className="card-body">
+      <p>
    From pre-K through university, schools are engaging and involving students with a range of disabilities. By building skills early, young people can exit high school prepared to pursue higher education and find jobs that match their interests.
       </p>
     </div>
+    </div>
   </article>
   </div> 
-   <div className="flex-l center">
+  
+   <div className="row">
 
 
-  <article className="flex-1 shadow-4 mb4 mr4-l">
-  <div className="bg-red mv0 ph3 ">
-  <img src={community_logo} className="dib v-mid" alt = "Community icon" /> 
-    <h3 className="f3 white dib v-mid pl2"> Community Life</h3>
+  <article className="col-lg-6 col-md-12  d-flex align-self-stretch  mb-4 ">
+    <div className="card">
+  <div className="card-header bg-red mv-0 px-3 ">
+  <img src={community_logo} className="d-inline-block align-middle" alt = "Community icon" /> 
+    <h3 className="fs-3 text-white d-inline-block align-middle ps-2"> Community Life</h3>
    </div>
-    <div className="pa3">
-      <p className="f6 f5-ns lh-copy ">
+    <div className="card-body">
+      <p>
    Outside of work and school, people with disabilities are involved in a wide range of activities that make up a satisfying life. Whether it’s volunteering at a music festival, getting involved with a faith community, or attending a sports event, there’s much more to life than a job.
       </p>
+    </div>
     </div>
   </article>
 
 
 
-  <article className="flex-1 shadow-4 mb4">
-  <div className="bg-orange mv0 ph3 ">
-  <img src={healthcare_logo} className="dib v-mid" alt = "Healthcare icon" /> 
-    <h3 className="f3 white dib v-mid pl2"> Health Care</h3>
+  <article className="col-lg-6 col-md-12 d-flex align-self-stretch  mb-4">
+  <div className="card">
+  <div className="card-header bg-orange mv-0 px-3 ">
+  <img src={healthcare_logo} className="d-inline-block align-middle" alt = "Healthcare icon" /> 
+    <h3 className="text-white d-inline-block align-middle ps-2"> Health Care</h3>
    </div>
-    <div className="pa3">
-    <p className="f6 f5-l mt0 lh-copy">Accessing quality health care enables us to live productively and to receive support when facing mental, behavioral, or physical challenges. For people with disabilities, equitable health care can require additional advocacy and planning.
+    <div className="card-body">
+    <p>Accessing quality health care enables us to live productively and to receive support when facing mental, behavioral, or physical challenges. For people with disabilities, equitable health care can require additional advocacy and planning.
       </p>
+    </div>
     </div>
   </article>
 
@@ -94,32 +103,32 @@ const IndexPage = ({data, location }) => {
 
 
 
-  <div className="cf">
-  <div className="fl w-100 w-100-m w-75-l bg-white pa3">
+  <div className="row my-4 ">
+  <div className="col-lg-9 col-md-8 col-sm-12 bg-white p-3">
   <section className="center">
-          <h2 className="bb bw1">
+          <h2 className="border-bottom border-2 border-dark">
             New at ICI
           </h2>
         
           
          <div className="post-list">
          {posts.map(post => (
-         <div key={post.node.id} className="post-list__item bb b--black-10 ">
+         <div key={post.node.id} className="post-list__item border-bottom border-dark ">
          <div className="post-list__thumbnail">
            <Link to={post.node.fields.slug} title="link to article">
            {
               post.node.frontmatter.thumbnail
               && (
-              <GatsbyImage image={post.node.frontmatter.thumbnail.childImageSharp.gatsbyImageData} />
+              <GatsbyImage image={post.node.frontmatter.thumbnail.childImageSharp.gatsbyImageData} alt={post.node.frontmatter.title} />
               )
             }
            </Link>
          </div>
          <div className="post-list__content">
-           <h2 className="f4 f3-l lh-copy"> <Link className="no-underline underline-hover blue dim" to={post.node.fields.slug}>
+           <h3 className="h4"> <Link className="no-underline underline-hover blue dim" to={post.node.fields.slug}>
              {post.node.frontmatter.title}
               </Link>
-             </h2>
+             </h3>
            <div className="post-list__excerpt">
              <p>{post.node.excerpt}</p>
            </div>
@@ -133,9 +142,9 @@ const IndexPage = ({data, location }) => {
         </section>
         </div>
    
-        <div className="fl w-100 w-100-m w-25-l tc pa3 mt4 ">
+        <div className="col-lg-3 col-md-4 col-sm-12 tc">
         <div className="staffDropdown">
-        <FormControl variant="filled" className="formControl mb3">
+        <FormControl variant="filled" className="formControl ">
           <InputLabel id="demo-simple-select-label tc">Staff Directory</InputLabel>
           <Select
             labelId="demo-simple-select-label"

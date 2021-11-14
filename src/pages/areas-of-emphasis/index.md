@@ -6,29 +6,29 @@ posttype: "page"
 thumbnail: '../../images/ICI.png'
 ---
 
-<div id="grid">
-<div class="flex-l center">
-
-<article class="card">
-<div class="flex flex-column flex-row-ns">
-<div class="card-image">
+<div class="row">
+<div class="col-md-6 mb-4 d-flex align-self-stretch">
+<div class="card shadow-sm p-3">
+<div class="row">
+	<div class="col-md-3">
 <img src="../../images/employment.png" class="db" alt="employment" />
-</div>
-<div class="card-body">
-<h2 class="card-title"><a href="/areas-of-emphasis/employment">
+	</div>
+	<div class="col-md-9">
+	<h2 class="card-title"><a href="/areas-of-emphasis/employment">
 Employment
 </a></h2>
-<p>Building a rewarding career in the community should be an expectation for all citizens. With support and planning, people with significant disabilities can thrive in the workplace.</p>
+<p class="card-text">Building a rewarding career in the community should be an expectation for all citizens. With support and planning, people with significant disabilities can thrive in the workplace.</p>
+	</div>
 </div>
 </div>
-</article>
-
-<article class="card">
-<div class="flex flex-column flex-row-ns">
-<div class="card-image">
+</div>
+<div class="col-md-6 mb-4 d-flex align-self-stretch">
+<div class="card shadow-sm p-3">
+<div class="row">
+<div class="col-md-3">
 <img src="../../images/education.png" class="db" alt="Education" />
 </div>
-<div class="card-body">
+<div class="col-md-9">
 <h2 class="card-title"><a href="/areas-of-emphasis/education">
 Education
 </a></h2>
@@ -36,21 +36,15 @@ Education
 </p>
 </div>
 </div>
-</article>
-
-
 </div>
-
-
-<div class="flex-l center">
-
-
-<article class="card">
-<div class="flex flex-column flex-row-ns">
-<div class="card-image">
+</div> 
+<div class="col-md-6  mb-4 d-flex align-self-stretch">
+<div class="card shadow-sm p-3">
+<div class="row">
+<div class="col-md-3">
 <img src="../../images/community.png"  class="db" alt="Community Life" />
 </div>
-<div class="card-body">
+<div class="col-md-9">
 <h2 class="card-title"><a href="/areas-of-emphasis/community">
 Community Life
 </a></h2>
@@ -58,23 +52,22 @@ Community Life
 </p>
 </div>
 </div>
-</article>
-
-
-<article class="card">
-<div class="flex flex-column flex-row-ns">
-<div class="card-image">
+</div>
+</div>
+<div class="col-md-6 mb-4 d-flex align-self-stretch">
+<div class="card shadow-sm p-3">
+<div class="row">
+<div class="col-md-3">
 <img src="../../images/healthcare.png" class="db" alt="Health Care" />
 </div>
-<div class="card-body">
+<div class="col-md-9">
 <h2 class="card-title"><a href="/areas-of-emphasis/healthcare">
 	Health Care
 </a></h2>
 <p>Accessing quality health care enables us to live productively and to receive support when facing mental, behavioral, or physical challenges. For people with disabilities, equitable health care can require additional advocacy and planning. </p>
 </div>
 </div>
-</article>
-
+</div>
 </div>
 </div>
 
