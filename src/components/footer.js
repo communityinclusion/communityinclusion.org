@@ -88,7 +88,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   </div>
   </div>
   <div className="footer-copyright  bg-dark border-top border-white border-2"> 
-  <div className="container-xxl	text-white w-100 bt lh-lg align-middle  py-2">
+  <div className="container-xxl	text-white w-100 bt align-middle  py-2">
   <div className="row pt-3">
    <div className="col-md-2  align-middle ">
    <img className = "d-inline-block mw-100 h-auto"

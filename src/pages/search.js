@@ -34,7 +34,7 @@ const SearchPage = ({ data, location, pageContext }) => {
   } catch (error) {
     console.log(error)
   }
-  const { currentPage, numPages,  breadcrumb: { crumbs }}
+  const { currentPage, breadcrumb: { crumbs }}
    = pageContext;
    console.log(crumbs);
  //  const pathPrefix = 'search';
