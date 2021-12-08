@@ -19,9 +19,9 @@ import Header from "./header"
 import Image from "../components/image"
 import Footer from "../components/footer"
 import Message from "../components/message"
+import Helmet from "react-helmet"
 import './post.css'
 import './tags.css'
-import "../styles/keen.css"
 import "../styles/custom.css"
 
 
@@ -40,10 +40,14 @@ const Layout = ({ children }) => (
     render={data => (
       <>
       <Message />
+      <Helmet>
+          
+
+</Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
 <Navbar />
 <Image />
-  <main className="main-content ph3 ph4-ns">{children}</main>
+  <main className="main-content container-lg my-4">{children}</main>
              <Footer />
 
       </>

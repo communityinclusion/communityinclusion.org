@@ -1,0 +1,11 @@
+//Here you can customize bootstrap
+
+$blue:    #1178AD !default;
+$purple:  #522E75 !default;
+$red:     #99312A !default;
+$orange:  #D4652D !default;
+$yellow:  #FFF698 !default;
+$green:   #5D9632 !default;
+$cyan:    #9bd4f4!default;
+@import "custom.css";
+@import "~bootstrap/scss/bootstrap";

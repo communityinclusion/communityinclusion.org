@@ -11,10 +11,10 @@ import { StaticQuery, graphql } from "gatsby"
 import Navbar from "./navbar"
 import Header from "./header"
 import Footer from "../components/footer"
+import Helmet from "react-helmet"
 import './post.css'
 import './tags.css'
-import '../styles/keen.css'
-import '../styles/custom.css'
+
 
 
 
@@ -31,9 +31,13 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+           <Helmet>
+
+</Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
 <Navbar />
-          <main className="main-content ph3 ph4-ns">{children}</main>
+
+<main className="main-content container-lg my-4">{children}</main>
         
              <Footer />
 

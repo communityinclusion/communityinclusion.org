@@ -6,6 +6,7 @@ posttype: "page"
 thumbnail: '../../images/ICI.png'
 ---
 
+<img src="../../healthcare.png" class="float-start d-inline" />
 The ICI’s Health Care focus stems from the original mission of the University Centers for Excellence in Developmental Disabilities, or UCEDDs, the national network we are part of. UCEDDs grew from groundbreaking legislation signed in 1963 by President Kennedy that supported the creation of university-based facilities to conduct interdisciplinary training, research, and dissemination. UCEDDs were also tasked with providing technical assistance to enhance the lives of children with intellectual and developmental disabilities (IDD) and their families. That was the beginning of the ICI’s work at Boston Children’s Hospital.
 
 Our current work continues what has become our major health care emphasis: training health care professionals, families, and self-advocates in the field of neurodevelopmental disabilities. In addition to training, our faculty provide technical assistance to community programs, offer continuing education opportunities, conduct applied research, and disseminate information. We also provide direct services via model clinical programs.

@@ -34,10 +34,9 @@ const SearchPage = ({ data, location, pageContext }) => {
   } catch (error) {
     console.log(error)
   }
-  const { currentPage } = pageContext;
-  const {
-    breadcrumb: { crumbs },
-  } = pageContext
+  const { currentPage, breadcrumb: { crumbs }}
+   = pageContext;
+   console.log(crumbs);
  //  const pathPrefix = 'search';
   // const isFirst = currentPage === 1;
  //  const isLast = currentPage === numPages;
@@ -66,7 +65,7 @@ const SearchPage = ({ data, location, pageContext }) => {
       {results.length ? (
          results.map((result, index) => {
           return (
-            <article className="card" key={result.slug}>
+            <article className="card mb-3" key={result.slug}>
               <h3>
                 <Link to={result.slug}>{result.title || result.slug}</Link>
               </h3>

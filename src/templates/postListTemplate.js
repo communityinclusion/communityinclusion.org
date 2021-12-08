@@ -38,16 +38,16 @@ const crumbLabelArr = customCrumbLabel.split('/');
              crumbLabel={labelArr.join(' ')}      
             />
           </div>
-        <h1 className="page-title f4 f3-l">New at ICI</h1>
+        <h1 className="page-title">New at ICI</h1>
       <div className="post-list">
         {posts.map(post => (
-          <div key={post.node.id} className="post-list__item bb b--black-10">
+          <div key={post.node.id} className="post-list__item border-bottom border-1 border-dark">
             <div className="post-list__thumbnail">
               <Link to={post.node.fields.slug}>
               {
             post.node.frontmatter.thumbnail
             && (
-            <GatsbyImage image={post.node.frontmatter.thumbnail.childImageSharp.gatsbyImageData} />
+            <GatsbyImage image={post.node.frontmatter.thumbnail.childImageSharp.gatsbyImageData} alt={post.node.frontmatter.title}  />
             )
           }
               </Link>
