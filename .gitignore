@@ -70,5 +70,6 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 .vscode/settings.json
-env.development
-env.production
+.env.development
+.env.production
+.gitignore
