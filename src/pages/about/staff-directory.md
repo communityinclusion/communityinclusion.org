@@ -54,6 +54,7 @@ Staff listing and contact details<!-- end -->
 | Jessica    | Keenoy            | (573) 303-8770 | <Jessica.Keenoy@umb.edu>                   | [View Profile](/about/staff-directory/jessica-keenoy)             |
 | Jonathan   | Keleher           | (617) 287-4292 | <Jonathan.Keleher@umb.edu>                 | [View Profile](/about/staff-directory/jon-keleher)                |
 | Chayaphon  | Klinthong         |                | <Chayaphon.Klinthon@umb.edu>               | [View Profile](/about/staff-directory/chayaphon-klinthong)        |
+| Saori   | Kusumoto         |                | <saori.kusumoto@umb.edu>               | [View Profile](/about/staff-directory/saori-kusumoto)        |
 | Ngai       | Kwan              | (617) 287-4298 | <Ngai.Kwan@umb.edu>                        | [View Profile](/about/staff-directory/ngai-kwan)                  |
 | Tiffany      | Lam               |  |  <Tiffany.Lam@umb.edu>                        | [View Profile](/about/staff-directory/tiffany-lam)                  |
 | Cady       | Landa             | (617) 287-4759 | <Cady.Landa@umb.edu>                       | [View Profile](/about/staff-directory/cady-landa)                 |
