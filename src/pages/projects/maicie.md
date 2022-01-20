@@ -3,7 +3,8 @@ title: "Massachusetts Inclusive Concurrent Enrollment Initiative (MAICEI)"
 path: "/projects/maicei"
 posttype: "page"
 date: 2021-11-14
-thumbnail:
+thumbnail: "../../images/ICI.png"
+file: MAICEI_EnrollmentTimeline.pdf
 ---
 
 
@@ -113,7 +114,7 @@ Fall 2022: February 25, 2022</p>
     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordion-faq">
       <div class="accordion-body"><p>
         <p>Are you a student or family member interested in UMass Boston MAICEI? Contact your school district's transition coordinator to begin the conversation about college-based transition services. </p>
-        <p><a href="../files/MAICEI_EnrollmentTimeline.pdf">This timeline</a> is for teachers, families, and students preparing to enroll in UMass Boston MAICEI. It includes tasks for all members of the transition team to consider, from recruitment through new student orientation. </p>
+        <p><a href="/MAICEI_EnrollmentTimeline.pdf">This timeline</a> is for teachers, families, and students preparing to enroll in UMass Boston MAICEI. It includes tasks for all members of the transition team to consider, from recruitment through new student orientation. </p>
          </p></div>
     </div>
   </div>
