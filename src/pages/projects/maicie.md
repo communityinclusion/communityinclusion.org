@@ -7,21 +7,35 @@ thumbnail: "../../images/ICI.png"
 file: MAICEI_EnrollmentTimeline.pdf
 ---
 
-
-<div class="p-2 mb-2 bg-light rounded-3 row">
+<div class="row">
+<div class="p-2 mb-2 bg-light rounded-3 col-md-9 row">
   <div class="col-md-2">
-    <img src="/images/maicie/MAICEI-Logo.jpg" alt="UMASS BOSTON">
+    <img src="/images/maicie/MAICEI-Logo.jpg"  alt="MAICEI LOGO">
+    <img src="/images/maicie/UMB_blue.png"  alt="UMASS BOSTON">
   </div>
-  <div class="col-md-8 container-fluid py-2">
+  <div class="col-md-10 container-fluid py-2">
     <p class=" fs-4">
   The Massachusetts Inclusive Concurrent Enrollment Initiative (MAICEI) program at the University of Massachusetts Boston offers inclusive higher education opportunities to partnering school districts that support high school students with intellectual disabilities and autism, ages 18–21. Students can increase their academic, social, and career outcomes by sharing the same experiences as their college peers and enrolling in undergraduate courses as non-degree-seeking students.</p>
 <p class="fs-4">The state-funded [Massachusetts Inclusive Concurrent Enrollment Initiative] (MAICEI) supports partnerships between local school districts and two- and four-year public colleges and universities in Massachusetts.
 </p>
       </div>
-      <div class="col-md-2">
-<img src="/images/maicie/UMB_blue.png" alt="UMASS BOSTON">
-</div>     
     </div>
+    <div class="col-md-3 container">
+      <div class="card card-body">
+        <nav><strong class="d-block h6 my-2 pb-2 border-bottom grey">On This Page</strong>
+            <ul style="list-style-type: none;">
+        <li><a href="#apply">Apply</a></li>
+        <li><a href="#mentors">For Mentors</a></li>
+        <li><a href="#faqs">FAQs</a></li>
+        <li><a href="#news">MAICIE in the News</a></li>
+        <li><a href="#leadership">Leadership Team</a></li>
+        <li><a href="#tc">ThinkCollege Resources</a></li>
+            </ul>
+            </nav>
+      </div>
+    </div>  
+    </div>
+    <section id="apply">
     <div class="row align-items-md-stretch">
       <div class="col-md-6">
         <div class="h-100 p-5 text-white bg-purple rounded-3">
@@ -67,6 +81,7 @@ Fall 2022: February 25, 2022</p>
         </div>
       </div>
     </div>
+  </section>
     <hr>
     <section id="mentors">
       <h2>For Peer Mentors</h2>
@@ -121,27 +136,37 @@ Fall 2022: February 25, 2022</p>
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingSix">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-        Who is eligible for MAICEI?
+        What is Concurrent Enrollment?
       </button>
     </h2>
     <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordion-faq">
       <div class="accordion-body">
-<p>MAICEI programs are for students with intellectual disabilities who:</p>
-<ul>
-  <li>are 18 to 21 years of age, <strong>have</strong> <strong>not</strong> passed the Massachusetts Comprehensive Assessment System (MCAS) exam, and are eligible for special education services documented through an Individualized Education Program (IEP); or</li>
-  <li>are 20 to 21 years of age, <strong>have</strong> passed MCAS, but are still eligible for special education services through an IEP because of significant functional disabilities and/or transition needs.</li>
-</ul></div>
+<p>“Concurrent enrollment” means that participating students are still eligible for special education services, even though they have finished four years of high school. Students who are enrolled in UMass Boston MAICEI are receiving special education transition services at the same time through their school district.</p>
+</div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingFive">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-        How can my student join the MAICEI program?
+        How does MAICEI benefit students?
       </button>
     </h2>
     <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordion-faq">
-      <div class="accordion-body"><p>Are you a student or family member interested in the UMass Boston MAICEI program? Contact your school district&rsquo;s transition coordinator to begin the conversation about college-based transition services. </p>
-<p>This <a href="https://thinkcollege.net/resource/college-based-transition-services-cbts/timeline-for-enrollment-college-based-transition">timeline</a> is for teachers, families, and students preparing to enroll in the MAICEI program at UMass Boston. It includes tasks for all members of the transition team to consider, from recruitment through new student orientation.</p></div>
+      <div class="accordion-body"><p>Evidence shows that students benefit academically and transition to young adulthood more independently when they can engage in the array of academic, social, and career development activities that are typical for all college students on campus, rather than remain in high school for transition services. </p>
+        <p>
+          Students participating in UMass Boston MAICEI are fully included in the campus community. They can focus on career planning and employment, self-advocacy, and other self-determination skills that support their post-secondary interests and activities.
+        </p>
+        <p>
+          Students participate in:
+          <ul>
+            <li>Inclusive college courses that support their personal, academic, and career goals</li>
+            <li>Social activities on campus, including student organizations and other extracurricular activities</li>
+            <li>Person-centered planning</li>
+            <li>On-campus internships/ paid work opportunities</li>
+            <li>Independent travel and travel training</li>
+          </ul>
+        </p>
+        </div>
     </div>
   </div>
   <div class="accordion-item">
@@ -151,30 +176,30 @@ Fall 2022: February 25, 2022</p>
       </button>
     </h2>
     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordion-faq">
-      <div class="accordion-body"><p>MAICEI programs offer important learning experiences for students with intellectual disabilities. MAICEI programs have also made college and university communities more inclusive. They have strengthened person-centered policies and practices for everyone involved in the transition experience, including students, family members, school personnel, and adult service providers.  </p></div>
+      <div class="accordion-body"><p>MAICEI programs offer important learning experiences for students with intellectual disabilities and autism. MAICEI programs have also made college and university communities more inclusive. They have strengthened person-centered policies and practices for everyone involved in the transition experience, including students, family members, school personnel, and adult service providers. 
+      </p></div>
     </div>
   </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingFour">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-        How can my school district join MAICEI?
-      </button>
-    </h2>
-    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordion-faq">
-      <div class="accordion-body"><p>Is your school district interested in joining the UMass Boston MAICEI partnership? Please contact the program coordinator, Ashley Luce  ,to set up a meeting or join a virtual information session ! </p>
-<p>First, schools must sign a memorandum of agreement with UMass Boston. Then, districts can refer students who meet the eligibility criteria. District transition staff support students and their families with completing the UMass Boston MAICEI application. </p>
-<p>Boston Collegiate, Malden, Somerville, and Winthrop school districts are currently partnering with UMass Boston for the MAICEI program. </p>
-</div>
-    </div>
-  </div>
-  
-  
+    
 </div>
 </section>
 <hr>
-<h2>Partnership Leadership Team&nbsp;</h2>
+<section id="news">
+  <h2>UMass Boston MAICEI In the News!</h2>
+  <div class="card" style="max-width: 450px;"><div class="card-body" >
+    <h4>Article in <em>The MassMedia</em></h4>
+    <a href="http://www.umassmedia.com/news/introducing-the-umass-boston-maicei-program/article_51933ba6-4ef7-11ec-ae60-6b31e9c47305.html">Introducing the UMass Boston MAICEI program</a>
+  </div>
+</div>
+</section>
+<hr>
+<section id="leadership">
+<h2>Partnership Leadership Team</h2>
 <p>The Partnership Leadership Team is composed of representatives from partnering school districts, key personnel from the college administration and teaching faculty, college alumni, representatives from the Department of Developmental Services, parent representatives, and the MAICEI program director and coordinator. The Partnership Leadership Team meets six times a year and plays a key role in the implementation and oversight of the initiative.</p>
-<h2> Additional MAICEI Resources:</h2>
+</section>
+<hr>
+<section id="tc">
+<h2>ThinkCollege Resources</h2>
 <h3>For Students&nbsp;</h3>
 <ul>
   <li><a href="https://thinkcollege.net/sites/default/files/files/resources/HTTC_04_Getting_Accomodations_to_Succeed.pdf">Getting Accommodations to Succeed at College</a></li>
@@ -205,25 +230,9 @@ Fall 2022: February 25, 2022</p>
   <li><a href="https://thinkcollege.net/sites/default/files/files/resources/TCTP%20student%20schedule%202018_landscape_F2.pdf">What Does a Dual Enrollment Schedule Look Like?</a></li>
   <li><a href="https://thinkcollege.net/resource/college-based-transition-services-cbts/maicei-student-snapshots">MAICEI Student Snapshots</a></li>
 </ul>
-<p>&nbsp;</p>
+
 <p>For more information about CBTS, check out the <a href="https://thinkcollege.net/resources/innovation-exchange/dual-enrollment">Think College Resource Library</a></p>
-<h3>For Peer Mentors </h3>
-<p><strong>Are you interested in becoming a peer mentor?</strong><strong> </strong><br>
-Students enrolled in the MAICEI program at UMass Boston are paired with peer mentors. Peer mentors are current, full-time undergraduate students at UMass Boston. Peer mentors support students to navigate college life by promoting friendship development, exploring the campus together, and encouraging involvement in UMass Boston clubs and activities. </p>
-<p>UMass Boston peer mentors: </p>
-<ul>
-  <li>serve as role models who work 1:1 with students enrolled in the MAICEI program </li>
-  <li>support the development of social networks and friendships </li>
-  <li>model appropriate social skills </li>
-  <li>attend campus activities with students </li>
-  <li>encourage students to develop independent living skills </li>
-</ul>
-<h3>Contact Information:</h3>
-<p>For questions, contact Ashley Luce, MAICEI Program Coordinator:</p>
-<ul>
-  <li>By email: <a href="mailto:Ashley.luce@umb.edu">Ashley.Luce@umb.edu</a></li>
-  <li>By phone: (617) 297- 6797</li>
-</ul>
+</section>
 <p>Institute for Community Inclusion<br>
   University of Massachusetts Boston<br>
   100 Morrissey Blvd.<br>
