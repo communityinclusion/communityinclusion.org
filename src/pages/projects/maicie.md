@@ -16,7 +16,7 @@ file: MAICEI_EnrollmentTimeline.pdf
   <div class="col-md-10 container-fluid py-2">
     <p class=" fs-4">
   The Massachusetts Inclusive Concurrent Enrollment Initiative (MAICEI) program at the University of Massachusetts Boston offers inclusive higher education opportunities to partnering school districts that support high school students with intellectual disabilities and autism, ages 18–21. Students can increase their academic, social, and career outcomes by sharing the same experiences as their college peers and enrolling in undergraduate courses as non-degree-seeking students.</p>
-<p class="fs-4">The state-funded [Massachusetts Inclusive Concurrent Enrollment Initiative] (MAICEI) supports partnerships between local school districts and two- and four-year public colleges and universities in Massachusetts.
+<p class="fs-4">The state-funded [<a href="https://www.mass.edu/strategic/maicei.asp">Massachusetts Inclusive Concurrent Enrollment Initiative</a>] (MAICEI) supports partnerships between local school districts and two- and four-year public colleges and universities in Massachusetts.
 </p>
       </div>
     </div>
@@ -27,7 +27,7 @@ file: MAICEI_EnrollmentTimeline.pdf
         <li><a href="#apply">Apply</a></li>
         <li><a href="#mentors">For Mentors</a></li>
         <li><a href="#faqs">FAQs</a></li>
-        <li><a href="#news">MAICIE in the News</a></li>
+        <li><a href="#news">MAICEI in the News</a></li>
         <li><a href="#leadership">Leadership Team</a></li>
         <li><a href="#tc">ThinkCollege Resources</a></li>
             </ul>
@@ -50,7 +50,7 @@ file: MAICEI_EnrollmentTimeline.pdf
           <h4>Application Process: </h4>
 <p>Students may apply for fall or spring enrollment. The application requires student and district transition staff signatures.</p>
 <p><strong>Application Deadline:</strong><br />
-Fall 2022: February 25, 2022</p>
+  Fall 2022-Spring 2023</p>
 <p><strong>Send applications by email to: </strong><a href="mailto:Ashley.luce@umb.edu">Ashley.luce@umb.edu</a></p>
           <button class="btn btn-outline-secondary" type="button">Download Application</button>
         </div>
@@ -64,7 +64,7 @@ Fall 2022: February 25, 2022</p>
           <p>We encourage all interested students, families, and school districts to attend a virtual information session, to learn more about UMass Boston MAICEI. </p>
           <p>
             <strong>Sign up for a virtual session:</strong>
-            January 10, 2022
+            March 7, 2022
           </p>
           <a class="btn btn-outline-secondary" type="button" href="https://docs.google.com/forms/d/1uWOmtVdE7DP2o_egCzLphGRne6r7ttXpcysyDAP3ANo/edit?ts=61425a04">Sign Up</a>
         </div>
@@ -200,6 +200,7 @@ Fall 2022: February 25, 2022</p>
 <hr>
 <section id="tc">
 <h2>ThinkCollege Resources</h2>
+<img src="../../images/thinkcollege-long.png" alt="Thinkcollege logo">
 <h3>For Students&nbsp;</h3>
 <ul>
   <li><a href="https://thinkcollege.net/sites/default/files/files/resources/HTTC_04_Getting_Accomodations_to_Succeed.pdf">Getting Accommodations to Succeed at College</a></li>
