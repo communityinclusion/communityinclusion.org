@@ -13,11 +13,13 @@ Staff listing and contact details<!-- end -->
 | Melissa    | Alford            | (617) 287-4296 | <Melissa.Alford@umb.edu>                   | [View Profile](/about/staff-directory/melissa-alford)             |
 | Katie    | Ashwill           	 |  			  | <katie.allen@umb.edu>                      | [View Profile](/about/staff-directory/katie-ashwill)       |
 | Quinn      | Barbour           | (617) 287-4309 | <Quinn.Barbour@umb.edu>                    | [View Profile](/about/staff-directory/quinn-barbour)              |
+| Shelby       | Bates       |  |               | [View Profile](/about/staff-directory/shelby-bates)           |
 | Lauren     | Berman            | (617) 355-5943 | <Lauren.Berman@childrens.harvard.edu>      | [View Profile](/about/staff-directory/lauren-berman)             |
 | Heike      | Boeltzig-Brown    |                | <Heike.Boeltzig-Brown@umb.edu>             | [View Profile](/about/staff-directory/heike-boeltzig-brown)        |
 | Jennifer   | Bose              | (617) 287-4353 | <Jennifer.Bose@umb.edu>                    | [View Profile](/about/staff-directory/jennifer-bose)              |
 | Laura      | Bozeman           | (617) 287-4385 | <Laura.Bozeman@umb.edu>                    | [View Profile](/about/staff-directory/laura-bozeman)              |
 | Callie     | Brusegaard        |                | <Callie.Brusegaard@umb.edu>                | [View Profile](/about/staff-directory/callie-brusegaard)          |
+| Caitlyn       | Bukaty       |  | <Caitlyn.Bukaty@umb.edu>                 | [View Profile](/about/staff-directory/caitlyn-bukaty)           |
 | Gyasi		 | Burks-Abbott		 |                | <Gyasi.BurksAbbott@umb.edu>                | [View Profile](/about/staff-directory/gyasi-burks-abbott)          |
 | John       | Butterworth       | (617) 287-4357 | <John.Butterworth@umb.edu>                 | [View Profile](/about/staff-directory/john-butterworth)           |
 | Belkis      | Choiseul-Praslin       |  | <B.Choiseul-Praslin@umb.edu>                | [View Profile](/about/staff-directory/belkis-choiseul-praslin)           |
@@ -46,11 +48,13 @@ Staff listing and contact details<!-- end -->
 | David      | Helm              | (617) 287-4302 | <David.Helm@umb.edu>                      | [View Profile](/about/staff-directory/david-helm)                 |
 | David      | Hoff              | (617) 287-4308 | <David.Hoff@umb.edu>                       | [View Profile](/about/staff-directory/david-hoff)                 |
 | Nicholas   | Holz              | (417) 437-4155 | <Nicholas.Holz@umb.edu>                    | [View Profile](/about/staff-directory/nicholas-holz)              |
+| Amy      | Huppi        |  |                 | [View Profile](/about/staff-directory/amy-huppi)           |
 | Nancy      | Hurley            | (617) 287-4310 | <Nancy.Hurley@umb.edu>                     | [View Profile](/about/staff-directory/nancy-hurley)               |
 | Mark       | Hutchinson        |                | <Mark.Hutchinson@umb.edu>                  | [View Profile](/about/staff-directory/mark-hutchinson)            |
 | Sam        | Johnson           | (857) 385-8760 | <Samantha.Johnson@umb.edu>                | [View Profile](/about/staff-directory/sam-johnson)                |
 | Sheila     | Johnson           |                | <Sheila.Johnson@umb.edu>                   | [View Profile](/about/staff-directory/sheila-johnson)             |
 | Yourlanda  | Johnson           |                | <Yourlanda.Johnson@childrens.harvard.edu>  | [View Profile](/about/staff-directory/yourlanda-johnson)          |
+| Staci       | Jones       | (617) 287-4357 | <Staci.Jones@umb.edu>                 | [View Profile](/about/staff-directory/staci-jones)           |
 | Jessica    | Keenoy            | (573) 303-8770 | <Jessica.Keenoy@umb.edu>                   | [View Profile](/about/staff-directory/jessica-keenoy)             |
 | Jonathan   | Keleher           | (617) 287-4292 | <Jonathan.Keleher@umb.edu>                 | [View Profile](/about/staff-directory/jon-keleher)                |
 | Chayaphon  | Klinthong         |                | <Chayaphon.Klinthon@umb.edu>               | [View Profile](/about/staff-directory/chayaphon-klinthong)        |
