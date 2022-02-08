@@ -9,12 +9,12 @@
 /teams https://teams.communityinclusion.org
 /employmentservices https://employmentservices.communityinclusion.org
 
-/article.php /news
+
 
 # Publications
 /pdf/TO31_F.pdf https://archive.communityinclusion.org/pdf/TO31_F.pdf
 /article.php?article_id=129 https://archive.communityinclusion.org/article.php?article_id=129
-
+/article.php?article_id=213 /about/what-we-mean-when-we-talk-about-inclusion
 
 
 # Staff
