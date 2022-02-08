@@ -49,8 +49,8 @@ file: MAICEI_EnrollmentTimeline.pdf
         <div class="h-100 p-5 bg-light border rounded-3">
           <h4>Application Process: </h4>
 <p>Students may apply for fall or spring enrollment. The application requires student and district transition staff signatures.</p>
-<p><strong>Application Deadline:</strong><br />
-  Fall 2022-Spring 2023</p>
+<p><strong>Application Deadline (for Fall 2022-Spring 2023):</strong><br />
+  February 25, 2022</p>
 <p><strong>Send applications by email to: </strong><a href="mailto:Ashley.luce@umb.edu">Ashley.luce@umb.edu</a></p>
           <button class="btn btn-outline-secondary" type="button">Download Application</button>
         </div>
