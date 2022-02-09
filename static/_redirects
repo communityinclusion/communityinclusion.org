@@ -24,6 +24,7 @@ https://communityinclusion.org/article.php?article_id=251 https://archive.commun
 
 # General Redirects
 /pdf/* /:splat
-/doc/* /:splat
+/word/* /:splat
 /staff.php /about/staff-directory 
 /article.php /news
+/project.php /projects
