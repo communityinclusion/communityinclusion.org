@@ -21,7 +21,7 @@ https://communityinclusion.org/article.php?article_id=251 https://archive.commun
 /pdf/networkingmanual_F.pdf https://archive.communityinclusion.org/pdf/networkingmanual_F.pdf
 /pdf/TO31_F.pdf https://archive.communityinclusion.org/pdf/TO31_F.pdf
 /pdf/TO31_F.pdf https://archive.communityinclusion.org/pdf/TO31_F.pdf
-/pdf/* /static/:splat
+/pdf/* /:splat
 
 # General Redirects
 /staff.php /about/staff-directory 
