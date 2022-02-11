@@ -5,7 +5,6 @@ posttype: "page"
 date: 2021-11-14
 thumbnail: "../../images/ICI.png"
 file: MAICEI_EnrollmentTimeline.pdf
-
 ---
 
 <div class="row">
@@ -53,7 +52,7 @@ file: MAICEI_EnrollmentTimeline.pdf
 <p><strong>Application Deadline (for Fall 2022-Spring 2023):</strong><br />
   February 25, 2022</p>
 <p><strong>Send applications by email to: </strong><a href="mailto:Ashley.luce@umb.edu">Ashley.luce@umb.edu</a></p>
-          <a href="/files/UMBMAICEI-NewStudentApplication.pdf" class="btn btn-outline-secondary" type="button">Download Application</a>
+          <a href="/UMBMAICEI-NewStudentApplication.pdf" class="btn btn-outline-secondary" type="button">Download Application</a>
         </div>
       </div>
     </div>
