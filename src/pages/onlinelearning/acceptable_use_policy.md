@@ -8,8 +8,7 @@ description: "Online Learning Acceptable Use Policy
 Institute for Community Inclusion at UMass Boston"
 ---
 
-Online Learning Acceptable Use Policy
-Institute for Community Inclusion at UMass Boston
+**Institute for Community Inclusion at UMass Boston**
     
 Refunds are issued up to 7 days from the day of purchase.  
 
@@ -35,7 +34,7 @@ You may not use the services to publish content or engage in activity that is il
 
 - Your services may be suspended or terminated with or without notice upon any violation of this policy. Any violations may result in the immediate suspension or termination of your account.
 
-##Reporting violations
+## Reporting violations
 
 - To report a violation of this policy, please contact us.
 - We reserve the right to change this policy at any given time, of which you will be promptly updated. If you want to make sure that you are up to date with the latest changes, we advise you to frequently visit this page.
