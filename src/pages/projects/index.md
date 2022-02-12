@@ -293,4 +293,23 @@ Guardianship Alternatives and Transfer-of-Rights</a>
 </div>
 </div>
 </div>
+<div class="col-md-6 mb-4 d-flex align-self-stretch">
+	<div class="card shadow-sm p-3">
+	<div class="row">
+		<div class="col-md-3">
+	<div class="card-image">
+	<img src="/images/maicie/MAICEI-Logo.jpg" alt = "MAICEI" />
+	</div>
+	</div>
+	<div class="col-md-9">
+	<div class="card-body">
+	<h2 class="card-title"><a href="/projects/maicei">
+		Massachusetts Inclusive Concurrent Enrollment Initiative</a>
+	</h2>
+	<p>The Massachusetts Inclusive Concurrent Enrollment Initiative (MAICEI) program at the University of Massachusetts Boston offers inclusive higher education opportunities to partnering school districts that support high school students with intellectual disabilities and autism, ages 18-21. </p>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
 </div>
