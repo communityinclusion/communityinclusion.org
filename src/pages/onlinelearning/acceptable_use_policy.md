@@ -1,6 +1,6 @@
 ---
 title: "Online Learning Acceptable Use Policy"
-path: "/onlinelearning/acceptable-use-policy"
+path: "/onlinelearning/acceptable_use_policy"
 date: 2022-02-01
 posttype: "page"
 thumbnail: "../../images/ICI.png"
@@ -36,7 +36,7 @@ You may not use the services to publish content or engage in activity that is il
 
 ## Reporting violations
 
-- To report a violation of this policy, please contact us.
+- To report a violation of this policy, please <a href="mailto:icimedia@umb.edu">contact us</a>.
 - We reserve the right to change this policy at any given time, of which you will be promptly updated. If you want to make sure that you are up to date with the latest changes, we advise you to frequently visit this page.
     
 
