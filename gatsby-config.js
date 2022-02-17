@@ -13,6 +13,20 @@ siteMetadata: {
   image: 'https://www.communityinclusion.org/static/ici-150w-1c1c4ac706a0672a9800093794f86167.png'
 },
 plugins: [
+  {
+  resolve: 'gatsby-plugin-robots-txt',
+  options: {
+    host: 'https://www.communityinclusion.org',
+    env: {
+      development: {
+        policy: [{ userAgent: '*', disallow: ['/'] }]
+      },
+      production: {
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    }
+  }
+},
 
   `gatsby-plugin-netlify`,
   `gatsby-plugin-image`,
@@ -23,26 +37,13 @@ plugins: [
     resolve: `gatsby-transformer-remark`,
     options: {
       excerpt_separator: `<!-- end -->`,
-      plugins: [{
+      plugins: [
+          {
         resolve: `gatsby-remark-vscode`,
         options: {
           theme: 'Abyss' // Or install your favorite theme from GitHub
         }
       },
-      {
-      resolve: 'gatsby-plugin-robots-txt',
-      options: {
-        host: 'https://www.communityinclusion.org',
-        env: {
-          development: {
-            policy: [{ userAgent: '*', disallow: ['/'] }]
-          },
-          production: {
-            policy: [{ userAgent: '*', allow: '/' }]
-          }
-        }
-      }
-    },
       {
        resolve: `gatsby-remark-relative-images-v2`,
        options: {
@@ -65,6 +66,7 @@ plugins: [
           resolve: 'gatsby-remark-copy-linked-files',
           options: {
           destinationDir: 'public',
+          ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`],
           },
           },
         {

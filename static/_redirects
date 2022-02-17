@@ -9,13 +9,22 @@
 /teams https://teams.communityinclusion.org
 /employmentservices https://employmentservices.communityinclusion.org
 
-/article.php /news
+
 
 # Publications
+
+https://communityinclusion.org/article.php?article_id=129 https://archive.communityinclusion.org/article.php?article_id=129
+https://communityinclusion.org/article.php?article_id=213 /about/what-we-mean-when-we-talk-about-inclusion
+https://communityinclusion.org/article.php?article_id=129 https://archive.communityinclusion.org/article.php?article_id=129
+https://communityinclusion.org/article.php?article_id=251 https://archive.communityinclusion.org/pdf/networkingmanual_F.pdf
+
+/pdf/networkingmanual_F.pdf https://archive.communityinclusion.org/pdf/networkingmanual_F.pdf
 /pdf/TO31_F.pdf https://archive.communityinclusion.org/pdf/TO31_F.pdf
-/article.php?article_id=129 https://archive.communityinclusion.org/article.php?article_id=129
+/pdf/TO31_F.pdf https://archive.communityinclusion.org/pdf/TO31_F.pdf
 
-
-
-# Staff
+# General Redirects
+/pdf/* /:splat
+/word/* /:splat
 /staff.php /about/staff-directory 
+/article.php /news
+/project.php /projects

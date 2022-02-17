@@ -11,13 +11,15 @@ Staff listing and contact details<!-- end -->
 | NAME       |                   | PHONE          | EMAIL                                   | PROFILE                                     |
 |------------|-------------------|----------------|-----------------------------------------|---------------------------------------------|
 | Melissa    | Alford            | (617) 287-4296 | <Melissa.Alford@umb.edu>                   | [View Profile](/about/staff-directory/melissa-alford)             |
-| Katie    | Allen           	 |  			  | <katie.allen@umb.edu>                      | [View Profile](/about/staff-directory/katie-ashwill-allen/)       |
+| Katie    | Ashwill           	 |  			  | <katie.allen@umb.edu>                      | [View Profile](/about/staff-directory/katie-ashwill)       |
 | Quinn      | Barbour           | (617) 287-4309 | <Quinn.Barbour@umb.edu>                    | [View Profile](/about/staff-directory/quinn-barbour)              |
+| Shelby       | Bates       |  |               | [View Profile](/about/staff-directory/shelby-bates)           |
 | Lauren     | Berman            | (617) 355-5943 | <Lauren.Berman@childrens.harvard.edu>      | [View Profile](/about/staff-directory/lauren-berman)             |
 | Heike      | Boeltzig-Brown    |                | <Heike.Boeltzig-Brown@umb.edu>             | [View Profile](/about/staff-directory/heike-boeltzig-brown)        |
 | Jennifer   | Bose              | (617) 287-4353 | <Jennifer.Bose@umb.edu>                    | [View Profile](/about/staff-directory/jennifer-bose)              |
 | Laura      | Bozeman           | (617) 287-4385 | <Laura.Bozeman@umb.edu>                    | [View Profile](/about/staff-directory/laura-bozeman)              |
 | Callie     | Brusegaard        |                | <Callie.Brusegaard@umb.edu>                | [View Profile](/about/staff-directory/callie-brusegaard)          |
+| Caitlyn       | Bukaty       |  | <Caitlyn.Bukaty@umb.edu>                 | [View Profile](/about/staff-directory/caitlyn-bukaty)           |
 | Gyasi		 | Burks-Abbott		 |                | <Gyasi.BurksAbbott@umb.edu>                | [View Profile](/about/staff-directory/gyasi-burks-abbott)          |
 | John       | Butterworth       | (617) 287-4357 | <John.Butterworth@umb.edu>                 | [View Profile](/about/staff-directory/john-butterworth)           |
 | Belkis      | Choiseul-Praslin       |  | <B.Choiseul-Praslin@umb.edu>                | [View Profile](/about/staff-directory/belkis-choiseul-praslin)           |
@@ -46,14 +48,17 @@ Staff listing and contact details<!-- end -->
 | David      | Helm              | (617) 287-4302 | <David.Helm@umb.edu>                      | [View Profile](/about/staff-directory/david-helm)                 |
 | David      | Hoff              | (617) 287-4308 | <David.Hoff@umb.edu>                       | [View Profile](/about/staff-directory/david-hoff)                 |
 | Nicholas   | Holz              | (417) 437-4155 | <Nicholas.Holz@umb.edu>                    | [View Profile](/about/staff-directory/nicholas-holz)              |
+| Amy      | Huppi        |  |                 | [View Profile](/about/staff-directory/amy-huppi)           |
 | Nancy      | Hurley            | (617) 287-4310 | <Nancy.Hurley@umb.edu>                     | [View Profile](/about/staff-directory/nancy-hurley)               |
 | Mark       | Hutchinson        |                | <Mark.Hutchinson@umb.edu>                  | [View Profile](/about/staff-directory/mark-hutchinson)            |
 | Sam        | Johnson           | (857) 385-8760 | <Samantha.Johnson@umb.edu>                | [View Profile](/about/staff-directory/sam-johnson)                |
 | Sheila     | Johnson           |                | <Sheila.Johnson@umb.edu>                   | [View Profile](/about/staff-directory/sheila-johnson)             |
 | Yourlanda  | Johnson           |                | <Yourlanda.Johnson@childrens.harvard.edu>  | [View Profile](/about/staff-directory/yourlanda-johnson)          |
+| Staci       | Jones       | (617) 287-4357 | <Staci.Jones@umb.edu>                 | [View Profile](/about/staff-directory/staci-jones)           |
 | Jessica    | Keenoy            | (573) 303-8770 | <Jessica.Keenoy@umb.edu>                   | [View Profile](/about/staff-directory/jessica-keenoy)             |
 | Jonathan   | Keleher           | (617) 287-4292 | <Jonathan.Keleher@umb.edu>                 | [View Profile](/about/staff-directory/jon-keleher)                |
 | Chayaphon  | Klinthong         |                | <Chayaphon.Klinthon@umb.edu>               | [View Profile](/about/staff-directory/chayaphon-klinthong)        |
+| Saori   | Kusumoto         |                | <saori.kusumoto@umb.edu>               | [View Profile](/about/staff-directory/saori-kusumoto)        |
 | Ngai       | Kwan              | (617) 287-4298 | <Ngai.Kwan@umb.edu>                        | [View Profile](/about/staff-directory/ngai-kwan)                  |
 | Tiffany      | Lam               |  |  <Tiffany.Lam@umb.edu>                        | [View Profile](/about/staff-directory/tiffany-lam)                  |
 | Cady       | Landa             | (617) 287-4759 | <Cady.Landa@umb.edu>                       | [View Profile](/about/staff-directory/cady-landa)                 |
@@ -75,6 +80,7 @@ Staff listing and contact details<!-- end -->
 | Stephanie  | Porter            | (857) 218-4333 | <Stephanie.Porter@childrens.harvard.edu>   | [View Profile](/about/staff-directory/stephanie-porter)           |
 | Julie      | Reposa            |                | <Julie.Reposa@umb.edu>                     | [View Profile](/about/staff-directory/julie-reposa)               |
 | Berenise   | Reyes-Albino      | (617) 287-4314 | <Berenise.Albino@umb.edu>                  | [View Profile](/about/staff-directory/berenise-reyes-albino)      |
+| Danielle    | Roberts-Dahm           |  | <danielle.dahm@umb.edu>                   | [View Profile](/about/staff-directory/danielle-roberts-dahm )             |
 | John       | Shepard           | (480) 819-6299 | <John.Shepherd@umb.edu>                    | [View Profile](/about/staff-directory/john-shepard)               |
 | Kaitlyn    | Siner-Cappas      | (617) 287-3070 | <Kaitlyn.Siner@umb.edu>                    | [View Profile](/about/staff-directory/kaitlyn-siner-cappas)       |
 | Jennifer   | Sullivan Sulewski |                | <Jennifer.Sulewski@umb.edu>                | [View Profile](/about/staff-directory/jennifer-sullivan-sulewski) |

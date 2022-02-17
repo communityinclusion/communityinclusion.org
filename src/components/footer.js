@@ -88,7 +88,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   </div>
   </div>
   <div className="footer-copyright  bg-dark border-top border-white border-2"> 
-  <div className="container-xxl	text-white w-100 bt lh-lg align-middle  py-2">
+  <div className="container-xxl	text-white w-100 bt align-middle  py-2">
   <div className="row pt-3">
    <div className="col-md-2  align-middle ">
    <img className = "d-inline-block mw-100 h-auto"
@@ -98,7 +98,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
      </div> 
       <div className="col-md-7 align-middle px-3">
    
-      <p className="white">©2021 The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital. The ICI is a University Center for Excellence in Developmental Disabilities, part of the national network started by President John F. Kennedy.</p>
+      <p className="white">©2022 The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital. The ICI is a University Center for Excellence in Developmental Disabilities, part of the national network started by President John F. Kennedy.</p>
     </div>
    
   

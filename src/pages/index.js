@@ -44,6 +44,7 @@ const IndexPage = ({data, location }) => {
       <p className="lh-copy">
     Building a rewarding career in the community should be an expectation for all citizens. With support and planning, people with significant disabilities can thrive in the workplace.
       </p>
+      <p><Link className="float-end" to="/areas-of-emphasis/employment"> Learn More About Employment &gt;&gt;</Link></p>
     </div>
     </div>
   </article>
@@ -60,6 +61,7 @@ const IndexPage = ({data, location }) => {
       <p>
    From pre-K through university, schools are engaging and involving students with a range of disabilities. By building skills early, young people can exit high school prepared to pursue higher education and find jobs that match their interests.
       </p>
+      <p><Link className="float-end" to="/areas-of-emphasis/education"> Learn More About Education &gt;&gt;</Link></p>
     </div>
     </div>
   </article>
@@ -78,6 +80,7 @@ const IndexPage = ({data, location }) => {
       <p>
    Outside of work and school, people with disabilities are involved in a wide range of activities that make up a satisfying life. Whether it’s volunteering at a music festival, getting involved with a faith community, or attending a sports event, there’s much more to life than a job.
       </p>
+      <p><Link className="float-end" to="/areas-of-emphasis/community"> Learn More About Community Life &gt;&gt;</Link></p>
     </div>
     </div>
   </article>
@@ -93,6 +96,7 @@ const IndexPage = ({data, location }) => {
     <div className="card-body">
     <p>Accessing quality health care enables us to live productively and to receive support when facing mental, behavioral, or physical challenges. For people with disabilities, equitable health care can require additional advocacy and planning.
       </p>
+      <p><Link className="float-end" to="/areas-of-emphasis/healthcare"> Learn More About Health Care &gt;&gt;</Link></p>
     </div>
     </div>
   </article>
