@@ -3,7 +3,6 @@ title: "Open Job Positions at ICI"
 description: ""
 path: "/2021-12-10_open-job-positions-at-ici.md"
 date: "2021-12-30"
-posttype: "news"
 tags: ["Hiring", "Boston Jobs", "Community Inclusion", "Disability"]
 thumbnail: "../../images/jobs-icon.png"
 ---
