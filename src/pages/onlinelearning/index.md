@@ -27,7 +27,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
     </div>
   </div>
   <div class="card">
-    <img src="ces_acre.png" class="card-img-top" style="max-width: 600px;" alt="CES + ACRE">
+    <img src="CES-acresupp2.png" class="card-img-top" style="max-width: 400px;" alt="CES + ACRE">
     <div class="card-body">
       <p class="card-text"><strong>College of Employment Services + ACRE</strong> is for employment service providers who support people with disabilities to find fulfilling work and want to earn ACRE Certification. Your staff will complete 11 CES courses, participate in 8 hours of supplemental online learning activities, and watch three 30-minute –1-hour webinars supplementing their CES coursework. </p>
       <a  data-bs-toggle="collapse" href="#ces_acre" role="button" aria-expanded="false" aria-controls="ces_acre">
@@ -37,49 +37,30 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
     <div class="collapse" id="ces_acre">
         <p>Learners who successfully complete CES + ACRE will earn a nationally recognized ACRE Certificate.
         </p>
-        <p><a href="/onlinelearning/ces_acre_faq" type="button" class="btn btn-primary">Read our FAQ's</a> | <a href="#" type="button" class="btn btn-primary">ENROLL</a></p>
+        <p><a href="/onlinelearning/ces_acre_faq" type="button" class="btn btn-primary">Read our FAQ's</a> | <a href="https://elearning.communityinclusion.org/browse/ces-acre/courses/ces-acre" type="button" class="btn btn-primary">ENROLL</a></p>
     </div>
     </div>
   </div>
-
   <div class="card">
     <img src="its_employment.png" class="card-img-top" style="max-width: 600px;" alt="its employment">
     <div class="card-body">
-      <p class="card-text"><strong>ITS Employment</strong> need text</p>
-      <a  data-bs-toggle="collapse" href="#its" role="button" aria-expanded="false" aria-controls="its">
-        learn more about ITS Employment
+      <p class="card-text"><strong>ITS Employment</strong> This free training is for VR professionals to improve employment outcomes for job seekers with intellectual disabilities. Learners can complete self-paced, 2-hour course modules for Certified Rehabilitation Counselor (CRC) credit. We offer a new training topic each month with a corresponding facilitator guide to support group learning and discussions.</p>
+      <a  href="#its" role="button">
+        Sign up for ITS Employment
       </a>
-    </p>
-    <div class="collapse" id="its">
-        Need content
-    </div>
     </div>
   </div>
-
   <div class="card">
     <img src="ntct.png" class="card-img-top" style="max-width: 600px;" alt="National Training for Transformational Rehabilitation Leadership">
     <div class="card-body">
-      <p class="card-text"><strong>National Training for Transformational Rehabilitation Leadership</strong> need content</p>
-      <a  data-bs-toggle="collapse" href="#ntct" role="button" aria-expanded="false" aria-controls="ntct">
-        learn more about the NTCT
-      </a>
-    </p>
-    <div class="collapse" id="ntct">
-        <p>need content</p>
-    </div>
+      <p class="card-text"><strong>National Training for Transformational Rehabilitation Leadership</strong> This leadership enhancement training program is for current and aspiring vocational rehabilitation (VR) leaders. The training covers six domains of VR leadership across three semesters that each cullminate in a faciliated peer-to-peer learning collaborative. After the final semester, participants complete an applied experiential learning capstone project to practice their transformational leadership skills.</p>
+      <p>Participants can complete all lessons asynchronously, with guidance and mentorship from experienced instructors and though community discussions with other aspiring leaders. After successfully completing the training program and capstone project, leaders can earn a nationally recognized Certified Rehabilitation Leader (CRL) credential from the CRCC.</p>
     </div>
   </div>
-
   <div class="card">
     <img src="transition_leadership.png" class="card-img-top" style="max-width: 600px;" alt="Transition Leadership">
     <div class="card-body">
-      <p class="card-text"><strong>Transition Leadership</strong> need content </p>
-      <a  data-bs-toggle="collapse" href="#tl" role="button" aria-expanded="false" aria-controls="tl">
-        learn more about Transition Leadership
-      </a>
-    </p>
-    <div class="collapse" id="tl">
-        <p>Need Content</p>
-    </div>
+      <p class="card-text"><strong>Transition Leadership</strong> The Transition Leadership Program prepares current and prospective educators and professionals to help students with disabilities focus on employment, college preparation, and independent living skills during the critical transition from high school to adult life. Over the course of 18 months, our highly qualified instructors lead 5 evidence-based courses, and learners engage in a hands-on practicum experience. Graduates of our program are eligible to apply for a national certification from the Council for Exceptional Children’s Division on Career Development and Transition.</p>
+       <p>UMass Boston’s accredited transition specialist training is the #1 transition specialist training program in the Eastern US!</p>
     </div>
   </div>
