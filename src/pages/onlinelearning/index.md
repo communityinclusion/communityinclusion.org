@@ -8,25 +8,27 @@ thumbnail: "../../images/ICI.png"
 Welcome to ICI Online Learning! Our online trainings include a variety of interactive and customizable self-guided courses for employment service providers, vocational rehabilitation leadership, transition specialists, school administrators, and other disability services professionals across the US. Our courses use engaging video case studies to illustrate best practices in providing disability services, supports, and leadership.
 
 ICI Online Learning has everything you need to feel confident, knowledgeable, and ready to work in the disability field. Click each box below to explore our course offerings.
-
+<div id="cesarcre" class="card">
+<h2>CES + ACRE</h2>
 <div class="card">
     <img src="ces.png" class="card-img-top" style="max-width: 600px;" alt="College of Employment Resources">
     <div class="card-body">
-      <p class="card-text"><strong>College of Employment Services</strong> is for employment service providers who support people with disabilities to find fulfilling work. Choose from 11 ACRE-approved, self-guided courses for professionals who support people with disabilities to find fulfilling work. You can purchase courses individually or in customizable bundle options to meet your needs.  </p>
+      <p class="card-text"><strong>College of Employment Services</strong> is for employment service providers who support people with disabilities to find fulfilling work. Choose from 16 self-guided courses for professionals who support people with disabilities to find fulfilling work. You can purchase courses individually or in customizable bundle options to meet your needs.  </p>
       <a  data-bs-toggle="collapse" href="#ces" role="button" aria-expanded="false" aria-controls="ces">
         learn more about CES
       </a>
     </p>
     <div class="collapse" id="ces">
         <p>CES is for individuals who work in organizations with 9 or fewer employees. For groups of 10 or more, explore the College of Employment Services for Group Sales offered by Direct Course.</p>
-        <p>If you are interested in completing the ACRE supplement along with your College of Employment Services courses, see the CES + ACRE box below.</p>
         <center>
         <p><a href="/onlinelearning/ces_faq" type="button" class="btn btn-primary">Read our FAQ's</a> | <a href="#" type="button" class="btn btn-primary">ENROLL</a></p>
         </center>
     </div>
     </div>
   </div>
-  <div class="card">
+  <div class="row">
+    <div class="col-md-1"><h1 class="display-1"><center>+</center></h1></div>
+  <div id="acre" class=" col-md-11 card">
     <img src="CES-acresupp2.png" class="card-img-top" style="max-width: 400px;" alt="CES + ACRE">
     <div class="card-body">
       <p class="card-text"><strong>College of Employment Services + ACRE</strong> is for employment service providers who support people with disabilities to find fulfilling work and want to earn ACRE Certification. Your staff will complete 11 CES courses, participate in 8 hours of supplemental online learning activities, and watch three 30-minute –1-hour webinars supplementing their CES coursework. </p>
@@ -41,6 +43,8 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
     </div>
     </div>
   </div>
+</div>
+</div>
   <div class="card">
     <img src="its_employment.png" class="card-img-top" style="max-width: 600px;" alt="its employment">
     <div class="card-body">
