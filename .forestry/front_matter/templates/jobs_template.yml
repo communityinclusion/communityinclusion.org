@@ -1,6 +1,6 @@
 ---
 label: jobs_template
-hide_body: false
+hide_body: true
 fields:
 - name: title
   type: text
@@ -16,15 +16,6 @@ fields:
     schema:
       format: markdown
   label: description
-- name: main_body
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Main Body
 - name: link_umb
   type: text
   config:
