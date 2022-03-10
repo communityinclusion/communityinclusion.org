@@ -1,0 +1,25 @@
+---
+label: ici_jobs
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: text
+  name: path
+  label: path
+- type: text
+  name: posttype
+  label: posttype
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: tags
+  label: tags
+- type: file
+  name: thumbnail
+  label: thumbnail
