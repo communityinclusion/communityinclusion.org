@@ -39,3 +39,5 @@ fields:
   label: thumbnail
   description: "../../images/jobs-icon.png"
   hidden: true
+pages:
+- src/pages/jobs/employment-and-apprenticeship-specialist-i.md
