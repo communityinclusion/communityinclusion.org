@@ -18,8 +18,8 @@ fields:
   default: jobs
   hidden: true
 - type: datetime
-  name: date
-  label: date
+  name: close_date
+  label: Close date
   default: ''
 - type: list
   name: tags
