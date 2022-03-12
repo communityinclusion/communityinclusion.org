@@ -20,7 +20,7 @@ fields:
 - type: text
   name: posttype
   label: posttype
-  default: jobs
+  default: "[jobs, news]"
   hidden: true
 - type: datetime
   name: close_date
