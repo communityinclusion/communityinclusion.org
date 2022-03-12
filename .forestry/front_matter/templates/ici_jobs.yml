@@ -8,19 +8,16 @@ fields:
   label: title
 - type: text
   name: description
-  label: description
+  label: Short description for news feed
 - name: umb_post_url
   type: text
   config:
     required: false
   label: UMB Post URL
 - type: text
-  name: path
-  label: path
-- type: text
   name: posttype
   label: posttype
-  default: jobs
+  default: "[jobs, news]"
   hidden: true
 - type: datetime
   name: close_date
