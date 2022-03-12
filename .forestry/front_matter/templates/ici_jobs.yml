@@ -8,7 +8,7 @@ fields:
   label: title
 - type: text
   name: description
-  label: description
+  label: Short description for news feed
 - name: umb_post_url
   type: text
   config:
