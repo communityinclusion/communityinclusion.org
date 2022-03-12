@@ -15,9 +15,6 @@ fields:
     required: false
   label: UMB Post URL
 - type: text
-  name: path
-  label: path
-- type: text
   name: posttype
   label: posttype
   default: "[jobs, news]"
@@ -39,5 +36,3 @@ fields:
   label: thumbnail
   description: "../../images/jobs-icon.png"
   hidden: true
-pages:
-- src/pages/jobs/employment-and-apprenticeship-specialist-i.md
