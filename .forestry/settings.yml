@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: src/pages/jobs/:date:/
+  path: src/pages/jobs
   label: jobs
   create: documents
   match: "**/*"
