@@ -17,7 +17,7 @@ fields:
 - type: text
   name: posttype
   label: posttype
-  default: "[jobs, news]"
+  default: jobs
   hidden: true
 - type: datetime
   name: close_date
@@ -28,13 +28,11 @@ fields:
   label: tags
   config:
     use_select: false
-  description: '["Hiring", "Boston Jobs", "Community Inclusion", "Disability", "Job
-    Listing"]'
+  description: '"Hiring", "Boston Jobs", "Community Inclusion", "Disability", "Job
+    Listing"'
   hidden: true
 - type: file
   name: thumbnail
   label: thumbnail
-  description: "../../images/jobs-icon.png"
+  description: '"../../images/jobs-icon.png"'
   hidden: true
-pages:
-- src/pages/jobs/employment-and-apprenticeship-specialist-i.md
