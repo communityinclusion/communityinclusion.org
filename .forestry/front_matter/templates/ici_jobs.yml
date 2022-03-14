@@ -34,5 +34,5 @@ fields:
 - type: file
   name: thumbnail
   label: thumbnail
-  description: '"../../images/jobs-icon.png"'
+  description: 'jobs-icon.png'
   hidden: true
