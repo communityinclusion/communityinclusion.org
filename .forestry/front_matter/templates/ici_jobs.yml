@@ -23,18 +23,3 @@ fields:
   name: close_date
   label: Close date
   default: ''
-- type: list
-  name: tags
-  label: tags
-  config:
-    use_select: false
-  description: '"Hiring", "Boston Jobs", "Community Inclusion", "Disability", "Job
-    Listing"'
-  hidden: true
-- type: file
-  name: thumbnail
-  label: thumbnail
-  description: jobs-icon.png
-  hidden: true
-pages:
-- src/pages/jobs/employment-and-apprenticeship-specialist-i.md
