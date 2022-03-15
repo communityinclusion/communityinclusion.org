@@ -43,7 +43,7 @@ const jobsTemplate = ({ pageContext, data, location  }) => {
    <Img className="post-image mw-100" fixed={page.frontmatter.thumbnail.childImageSharp.fixed} /> 
   </div> */}
         <div dangerouslySetInnerHTML={{ __html: html }} />
-        <p>closing date: <span className="post-date">{frontmatter.close_date}</span></p>
+        <p><b>Closing Date:</b> <span className="post-date">{frontmatter.close_date}</span></p>
         
         <p><a class="btn btn-primary" role="button" href={frontmatter.umb_post_url}>Learn more and apply</a></p>
         </article>

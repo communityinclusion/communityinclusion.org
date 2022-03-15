@@ -233,7 +233,7 @@ const numNewsPostPage = Math.ceil(newsPosts.length / newsPostsPerPage);
  });
 //   Create jobs post list page
  const jobsPosts = jobsResult.data.allMarkdownRemark.edges;
- const jobsPostsPerPage = 1;
+ const jobsPostsPerPage = 8;
  const numJobsPostPage = Math.ceil(jobsPosts.length / jobsPostsPerPage);
  
    Array.from({ length: numJobsPostPage }).forEach((_, i) => {

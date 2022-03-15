@@ -1,7 +1,6 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
-import { GatsbyImage } from "gatsby-plugin-image";
 import Seo from '../components/seo';
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
@@ -42,16 +41,6 @@ const crumbLabelArr = customCrumbLabel.split('/');
       <div className="post-list">
         {posts.map(post => (
           <div key={post.node.id} className="post-list__item border-bottom border-1 border-dark">
-            <div className="post-list__thumbnail">
-              <Link to={post.node.fields.slug}>
-              {
-            post.node.frontmatter.thumbnail
-            && (
-            <GatsbyImage image={post.node.frontmatter.thumbnail.childImageSharp.gatsbyImageData} alt={post.node.frontmatter.title}  />
-            )
-          }
-              </Link>
-            </div>
             <div className="post-list__content">
               <h2><Link className="no-underline underline-hover blue dim" to={post.node.fields.slug}>
                 {post.node.frontmatter.title}
@@ -107,11 +96,6 @@ export const pageQuery = graphql`query GetJobsPosts($limit: Int, $skip: Int) {
           date(formatString: "MMMM Do, YYYY")
           tags
           posttype
-          thumbnail {
-            childImageSharp {
-              gatsbyImageData(width: 200, height: 200, placeholder: BLURRED, layout: FIXED)
-            }
-          }
         }
         id
         excerpt(pruneLength: 250)

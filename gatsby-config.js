@@ -270,6 +270,10 @@ plugins: [
   crumbLabel: 'News',
 },
 {
+  pathname: '/jobs',
+  crumbLabel: 'Jobs',
+},
+{
   pathname: '/projects',
   crumbLabel: 'Projects',
 },
