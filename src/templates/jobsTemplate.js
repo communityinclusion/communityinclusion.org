@@ -36,14 +36,18 @@ const jobsTemplate = ({ pageContext, data, location  }) => {
           </div>
           <div className="post">
           <h1 className="f4 f3-l mb1 post-title">{frontmatter.title}</h1>
-          <span className="post-date">{frontmatter.date}</span>
+        
 
   <article className="cf mt3 post-body">
  {/* <div className="fl mr4 pb4">
    <Img className="post-image mw-100" fixed={page.frontmatter.thumbnail.childImageSharp.fixed} /> 
   </div> */}
         <div dangerouslySetInnerHTML={{ __html: html }} />
+        <p>closing date: <span className="post-date">{frontmatter.close_date}</span></p>
+        
+        <p><a class="btn btn-primary" role="button" href={frontmatter.umb_post_url}>Learn more and apply</a></p>
         </article>
+        
       <div className="post-meta">
            <PostTags className="k--button" tags={frontmatter.tags} />
            
@@ -67,6 +71,8 @@ export const pageQuery = graphql`
         title
         tags
         posttype
+        umb_post_url
+        close_date(formatString: "MMMM Do, YYYY")
     }
    }
   }
