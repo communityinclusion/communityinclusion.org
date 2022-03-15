@@ -46,6 +46,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
        <li> <a href="https://lp.constantcontactpages.com/su/jlCEExQ/subscribe" className="link white d-inline-block" target = "_blank" rel = "noopener noreferrer" title="Subscribe">Subscribe</a></li>
 
  <li> <Link to="/about/contact" className="link white d-inline-block" title="contact">Contact</Link></li>
+ <li> <Link to="/jobs" className="link white d-inline-block" title="Jobs at ICI">Jobs at ICI</Link></li>
     <li> <Link to="/donate" className="link white d-inline-block" title="Donate">Donate</Link></li>
   </ul></div>
   <div className="col-md-4 col-sm-12 p-2 ">

@@ -1,16 +1,15 @@
 {
    "name": "gatsby-starter-default",
    "description": "A simple starter to get up and developing quickly with Gatsby",
-   "version": "1.22.0",
+   "version": "1.22.17",
    "author": "Kyle Mathews <mathews.kyle@gmail.com>",
    "dependencies": {
       "@babel/core": "^7.9.6",
       "@babel/runtime": "^7.9.6",
-      "@fortawesome/fontawesome-svg-core": "^1.2.32",
+      "@fortawesome/fontawesome-svg-core": "1.2.36",
       "@fortawesome/free-brands-svg-icons": "^5.15.1",
       "@fortawesome/free-solid-svg-icons": "^5.15.1",
       "@fortawesome/react-fontawesome": "^0.1.13",
-      "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^2.3.0",
       "@material-ui/core": "^4.10.0",
       "@popperjs/core": "^2.10.2",
       "@reach/menu-button": "^0.16.1",
