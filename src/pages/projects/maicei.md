@@ -186,11 +186,29 @@ file: MAICEI_EnrollmentTimeline.pdf
 <hr>
 <section id="news">
   <h2>UMass Boston MAICEI In the News!</h2>
-  <div class="card" style="max-width: 450px;"><div class="card-body" >
-    <h4>Article in <em>The MassMedia</em></h4>
-    <a href="http://www.umassmedia.com/news/introducing-the-umass-boston-maicei-program/article_51933ba6-4ef7-11ec-ae60-6b31e9c47305.html">Introducing the UMass Boston MAICEI program</a>
+  <div class="row">
+    <div class="col-md">
+  <div class="card" style="max-width: 450px; min-height: 200px;">
+    <div class="card-header text-uppercase">
+      Helpful Introduction
+    </div>
+    <div class="card-body">
+      <span class="lead">
+    <a href="https://communityinclusion.medium.com/learn-about-the-massachusetts-inclusive-concurrent-enrollment-initiative-program-at-umass-boston-9bfd1e0c93b8">Learn about the Massachusetts Inclusive Concurrent Enrollment Initiative Program at UMass Boston!</a></span>
   </div>
 </div>
+    </div>
+    <div class="col-md">
+<div class="card" style="max-width: 450px; min-height: 200px;">
+  <div class="card-header text-uppercase">
+    Article in <em>The MassMedia</em>
+  </div>
+  <div class="card-body" >
+  <span class="lead"><a href="http://www.umassmedia.com/news/introducing-the-umass-boston-maicei-program/article_51933ba6-4ef7-11ec-ae60-6b31e9c47305.html">Introducing the UMass Boston MAICEI program</a></span>
+</div>
+</div>
+</div>
+  </div>
 </section>
 <hr>
 <section id="leadership">
