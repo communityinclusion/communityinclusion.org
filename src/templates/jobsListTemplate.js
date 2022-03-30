@@ -85,7 +85,7 @@ export default JobsPage;
 export const pageQuery = graphql`query GetJobsPosts($limit: Int, $skip: Int) {
   allMarkdownRemark(
     limit: $limit
-    sort: {fields: [frontmatter___date], order: DESC}
+    sort: {fields: [frontmatter___date], order: ASC}
     skip: $skip
     filter: {frontmatter: {posttype: {eq: "jobs"}}}
   ) {
