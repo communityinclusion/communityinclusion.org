@@ -19,6 +19,16 @@ fields:
   label: posttype
   default: jobs
   hidden: true
+- name: date
+  type: datetime
+  label: Opening Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
 - type: datetime
   name: close_date
   label: Close date
