@@ -46,9 +46,9 @@ const crumbLabelArr = customCrumbLabel.split('/');
                 {post.node.frontmatter.title}
                 </Link>
                 </h2>
-              <p className="post-list__date navy">{post.node.frontmatter.date}</p>
               <div className="post-list__excerpt">
                 <p>{post.node.frontmatter.description}</p>
+                <p className="post-list__date navy">Closes: {post.node.frontmatter.close_date}</p>
               </div>
             </div>
           </div>
@@ -94,6 +94,7 @@ export const pageQuery = graphql`query GetJobsPosts($limit: Int, $skip: Int) {
         frontmatter {
           title
           date(formatString: "MMMM Do, YYYY")
+          close_date(formatString: "MMMM Do, YYYY")
           tags
           posttype
           description
