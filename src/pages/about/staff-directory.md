@@ -71,6 +71,7 @@ Staff listing and contact details<!-- end -->
 | Caitlin    | McGovern          | (617) 287-7640 | <Caitlin.McGovern@umb.edu>                 | [View Profile](/about/staff-directory/caitlin-mcgovern)           |
 | Neil       | McNeil            | (617) 287-4294 | <Neil.McNeil@umb.edu>                     | [View Profile](/about/staff-directory/neil-mcneil)                |
 | Alberto    | Migliore          | (617) 287-4306 | <Alberto.Migliore@umb.edu>                 | [View Profile](/about/staff-directory/alberto-migliore)           |
+| Brit    | Miles          |  | <Britni.Miles@umb.edu>                 | [View Profile](/about/staff-directory/brit-miles)           |
 | Susanna    | Miller-Raines     |  | <Susanna.Millerraines@umb.edu>                             | [View Profile](/about/staff-directory/susanna-miller-raines)           |
 | DeBrittany | Mitchell          | N/A            | <DeBrittany.Mitchell@umb.edu>              | [View Profile](/about/staff-directory/debrittany-mitchell)        |
 | Linda      | Mock              | (971) 506-4632 | <Linda.Mock@umb.edu>                       | [View Profile](/about/staff-directory/linda-mock)                 |
@@ -79,6 +80,7 @@ Staff listing and contact details<!-- end -->
 | Clare      | Papay             | (857) 271-9145 | <Clare.Papay@umb.edu>                     | [View Profile](/about/staff-directory/clare-papay)                |
 | Sarah      | Paterson          |                | <Sarah.Paterson@umb.edu>                   | [View Profile](/about/staff-directory/sarah-paterson)             |
 | Stephanie  | Porter            | (857) 218-4333 | <Stephanie.Porter@childrens.harvard.edu>   | [View Profile](/about/staff-directory/stephanie-porter)           |
+| Christa  | Preston           |  | <Christa.Preston@umb.edu>   | [View Profile](/about/staff-directory/christa-preston)           |
 | Julie      | Reposa            |                | <Julie.Reposa@umb.edu>                     | [View Profile](/about/staff-directory/julie-reposa)               |
 | Berenise   | Reyes-Albino      | (617) 287-4314 | <Berenise.Albino@umb.edu>                  | [View Profile](/about/staff-directory/berenise-reyes-albino)      |
 | Danielle    | Roberts-Dahm           |  | <Danielle.Dahm@umb.edu>                   | [View Profile](/about/staff-directory/danielle-roberts-dahm )             |
