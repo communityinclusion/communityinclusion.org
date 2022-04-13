@@ -1,5 +1,5 @@
 ---
-title: "Online Learning"
+title: "Online Learning @ ICI"
 path: "/onlinelearning"
 date: 2022-02-01
 posttype: "page"
