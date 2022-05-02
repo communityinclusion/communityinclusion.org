@@ -35,6 +35,8 @@ import literacy_infants_pdf from '../files/literacy_infants_F.pdf'
 import literacy_youngchild_pdf from '../files/literacy_youngchild_F.pdf'
 import literacy_schoolage_pdf from '../files/literacy_schoolage_F.pdf'
 import literacy_teens_pdf from '../files/literacy_teens_F.pdf'
+import TO31_F_R_pdf from '../files/tools_for_inclusion/TO31_F_R.pdf'
+import TO31_F_R_thumb from '../images/pub-thumbs/TO31_F_R_thumb.png'
 
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import {
@@ -299,6 +301,25 @@ class PublicationsPage extends React.Component {
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
+                <div className="card m-3">
+                <div className="row">
+    <div className="col-md-2">
+    <div className="card-image">
+    <img src={TO31_F_R_thumb}  className="img-fluid" alt = "Tools for Inclusion 31: Informed Choices" />
+    </div>
+    </div>
+    <div className="col-md-10 card-body">
+    <h2 className="card-title"><a href={TO31_F_R_pdf}>Employment and Employment Supports: A Guide to Ensuring Informed Choice for Individuals with Disabilities</a></h2>
+    <h3>Tools for Inclusion No.31</h3>
+    <p className="card-text">What is “informed choice”? And how we do ensure that a choice is truly “informed” and fully reflective of the individual’s preferences?
+</p>
+<p className="card-title">This publication answers these questions. In it, we provide a guide
+to decision-making regarding employment and related services and supports, through a process where individuals understand their options, and make choices and decisions
+that are fully reflective of their own interests and preferences.</p>
+</div>
+</div>
+
+</div>
                 <div className="card m-3">
                 <div className="row">
     <div className="col-md-2">

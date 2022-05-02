@@ -46,6 +46,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
        <li> <a href="https://lp.constantcontactpages.com/su/jlCEExQ/subscribe" className="link white d-inline-block" target = "_blank" rel = "noopener noreferrer" title="Subscribe">Subscribe</a></li>
 
  <li> <Link to="/about/contact" className="link white d-inline-block" title="contact">Contact</Link></li>
+ <li> <Link to="/jobs" className="link white d-inline-block" title="Jobs at ICI">Jobs at ICI</Link></li>
     <li> <Link to="/donate" className="link white d-inline-block" title="Donate">Donate</Link></li>
   </ul></div>
   <div className="col-md-4 col-sm-12 p-2 ">
@@ -117,16 +118,6 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
     title = "Donate" >
     Donate </Link> </li>
      </ul>
-     <p className = "pt-3">Website development supported by:</p>
-     <ul className = "list-inline ps-0 " >
-     <li className= "list-inline-item d-inline-block pe-1 align-middle" ><a href="https://www.netlify.com">
-    <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" /></a> </li>
-    <li className= "list-inline-item d-inline-block ps-1 align-middle" > <a href="https://www.sanity.io">
-    <img alt = "content structured in sanity"
-            src={sanity}
-          />
-          </a></li>
-          </ul>
     </div>
     </div>
     </div>
