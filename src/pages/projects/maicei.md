@@ -188,6 +188,18 @@ file: MAICEI_EnrollmentTimeline.pdf
   <h2>UMass Boston MAICEI In the News!</h2>
   <div class="row">
     <div class="col-md">
+      <div class="card" style="max-width: 450px; min-height: 200px;">
+        <div class="card-header text-uppercase">
+          Student Spotlight
+        </div>
+        <div class="card-body" >
+        <span class="lead"><a href="https://thinkcollege.net/sites/default/files/files/resources/SS15_Nykenge_Blue.pdf">
+          National Coordinating Center Interviews: <strong><em>Nykenge Blue</em></strong>, University of Massachusetts Boston
+           </a></span>
+      </div>
+      </div>
+      </div>
+    <div class="col-md">
   <div class="card" style="max-width: 450px; min-height: 200px;">
     <div class="card-header text-uppercase">
       Helpful Introduction
@@ -208,6 +220,7 @@ file: MAICEI_EnrollmentTimeline.pdf
 </div>
 </div>
 </div>
+
   </div>
 </section>
 <hr>
