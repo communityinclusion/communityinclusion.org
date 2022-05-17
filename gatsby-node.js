@@ -318,20 +318,32 @@ await cache.set(cacheKey, json)
 return json
 }
 
+// gatsby-node.js
 /**
  * Returns the current date in YYYY-MM-DD format
  */
  function getCurrentDate() {
-  const d = new Date()
-  let month = (d.getMonth() + 1).toString()
+  const d = new Date();
+  let month = (d.getMonth() + 1).toString();
   if (month.length < 2) {
-    month = `0${month}`
+    month = `0${month}`;
   }
-  let day = d.getDate().toString()
+  let day = d.getDate().toString();
   if (day.length < 2) {
-    day = `0${day}`
+    day = `0${day}`;
   }
-  return `${d.getFullYear()}-${month}-${day}`
+  return `${d.getFullYear()}-${month}-${day}`;
 }
 
-
+// gatsby-node.js
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions;
+  createPage({
+    path: `${node.frontmatter.slug}/`,
+    component: path.resolve("./src/templates/jobsListTemplate.js"),
+    context: {
+      slug: node.frontmatter.slug,
+      currentDate: getCurrentDate()
+    }
+  });
+};
