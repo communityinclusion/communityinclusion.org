@@ -84,6 +84,7 @@ Staff listing and contact details<!-- end -->
 | Julie      | Reposa            |                | <Julie.Reposa@umb.edu>                     | [View Profile](/about/staff-directory/julie-reposa)               |
 | Berenise   | Reyes-Albino      | (617) 287-4314 | <Berenise.Albino@umb.edu>                  | [View Profile](/about/staff-directory/berenise-reyes-albino)      |
 | Danielle    | Roberts-Dahm           |  | <Danielle.Dahm@umb.edu>                   | [View Profile](/about/staff-directory/danielle-roberts-dahm )             |
+| Arin    | Rook           |  | <arin.rook@umb.edu>        | [View Profile](/about/staff-directory/arin-rook )             |
 | John       | Shepard           | (480) 819-6299 | <John.Shepherd@umb.edu>                    | [View Profile](/about/staff-directory/john-shepard)               |
 | Kaitlyn    | Siner-Cappas      | (617) 287-3070 | <Kaitlyn.Siner@umb.edu>                    | [View Profile](/about/staff-directory/kaitlyn-siner-cappas)       |
 | Jennifer   | Sullivan Sulewski |                | <Jennifer.Sulewski@umb.edu>                | [View Profile](/about/staff-directory/jennifer-sullivan-sulewski) |
