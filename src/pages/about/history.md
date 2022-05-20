@@ -14,4 +14,4 @@ In the 1990s, ICI began to apply for and receive federal funding to run Rehabili
 
 In 2012, ICI officially became part of the [School for Global Inclusion and Social Development (SGISD)](https://globalinclusion.umb.edu/) at UMass Boston. This has enabled ICI to connect our disability-focused work to a broader network of research and community engagement activities, including those of the [Institute for New England Native American Studies](https://www.umb.edu/inenas) and the [Asian American Studies Program](https://www.umb.edu/asamst), both also housed within SGISD.
 
-Learn more about our history [on our timeline](http://50.communityinclusion.org/).
+Learn more about our history [on our timeline](https://50.communityinclusion.org/#tl).
