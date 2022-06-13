@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
 import umbcombo from '../images/bch-umb-combo_logo-small.png'
-import sanity from '../images/sanity-logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faTwitter,
