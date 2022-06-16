@@ -91,7 +91,12 @@ export const pageQuery = graphql`query GetJobsPosts($limit: Int, $skip: Int) {
     limit: $limit
     sort: {fields: [frontmatter___date], order: ASC}
     skip: $skip
-    filter: {frontmatter: {posttype: {eq: "jobs"}}}
+    filter: {
+        frontmatter: {
+          posttype: {eq: "jobs"}
+          close_date: { lte: currentBuildDate   }
+        }
+      }
   ) {
     edges {
       node {
