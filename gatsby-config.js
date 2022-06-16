@@ -32,7 +32,7 @@ plugins: [
   `gatsby-plugin-image`,
   `gatsby-plugin-sharp`,
   `gatsby-transformer-sharp`, 
- 
+  `gatsby-plugin-build-date`, 
   {
     resolve: `gatsby-transformer-remark`,
     options: {

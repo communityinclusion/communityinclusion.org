@@ -38,6 +38,7 @@ const crumbLabelArr = customCrumbLabel.split('/');
             />
           </div>
         <h1 className="page-title">Job Openings at ICI</h1>
+       <p> {data.currentBuildDate.currentDate}</p>
       <div className="post-list">
         {posts.map(post => (
           <div key={post.node.id} className="post-list__item border-bottom border-1 border-dark">
@@ -83,6 +84,9 @@ export default JobsPage;
 
 // Get all markdown files, in descending order by date, and grab the id, excerpt, slug, date, and title
 export const pageQuery = graphql`query GetJobsPosts($limit: Int, $skip: Int) {
+  currentBuildDate {
+    currentDate 
+  }
   allMarkdownRemark(
     limit: $limit
     sort: {fields: [frontmatter___date], order: ASC}
