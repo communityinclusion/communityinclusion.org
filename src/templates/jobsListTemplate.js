@@ -88,14 +88,14 @@ export const pageQuery = graphql`query GetJobsPosts($limit: Int, $skip: Int) {
     currentDate 
   }
   allMarkdownRemark(
-    
+
     limit: $limit
     sort: {fields: [frontmatter___date], order: ASC}
     skip: $skip
     filter: {
         frontmatter: {
           posttype: {eq: "jobs"}
-          close_date: { lte: $currentDate   }
+          close_date: {    }
         }
       }
   ) {
