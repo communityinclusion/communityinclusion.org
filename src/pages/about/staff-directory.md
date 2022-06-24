@@ -32,6 +32,7 @@ Staff listing and contact details<!-- end -->
 | Mary       | Di Biase          | (617) 571-6198 | <Mary.DiBiase@umb.edu>                     | [View Profile](/about/staff-directory/mary-di-biase)              |
 | Daria      | Domin             | (617) 287-4277 | <Daria.Domin@umb.edu>                      | [View Profile](/about/staff-directory/daria-domin)                |
 | Jill       | Eastman           | (617) 287-4325 | <Jill.Eastman@umb.edu>                     | [View Profile](/about/staff-directory/jill-eastman)               |
+| Jeff       | Edelstein           |  | <jeffrey.edelstein@umb.edu>                     | [View Profile](/about/staff-directory/jeff-edelstein)               |
 | Lara       | Enein-Donovan     |                | <Lara.Eneindonovan@umb.edu>                | [View Profile](/about/staff-directory/lara-enein-donovan)         |
 | Sheila     | Fesko             | (617) 287-4365 | <Sheila.Fesko@umb.edu>                     | [View Profile](/about/staff-directory/sheila-fesko)               |
 | Karen      | Flippo            | (617) 287-4344 | <Karen.Flippo@umb.edu>                     | [View Profile](/about/staff-directory/karen-flippo)               |
