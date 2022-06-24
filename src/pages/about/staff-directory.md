@@ -100,6 +100,7 @@ Staff listing and contact details<!-- end -->
 | Jaimie     | Timmons           |                | <Jaimie.Timmons@umb.edu>                   | [View Profile](/about/staff-directory/jaimie-ciulla-timmons)      |
 | Alvaro     | Tobar             | (617) 287-4347 | <Alvaro.Tobar@umb.edu>                     | [View Profile](/about/staff-directory/alvaro-tobar)               |
 | David      | Urban             | (617) 287-4366 | <David.Urban@umb.edu>                      | [View Profile](/about/staff-directory/david-urban)                |
+| Kelly      | Wanzer             |              | <kelly.wanzer@umb.edu>                      | [View Profile](/about/staff-directory/kelly-wanzer)                |
 | Cate       | Weir              | (603) 848-4901 | <Cathryn.Weir@umb.edu>                     | [View Profile](/about/staff-directory/cate-weir)                  |
 | Gavin      | Williams            |  | <Gavin.Williams@umb.edu>                    | [View Profile](/about/staff-directory/gavin-williams)                  |
 | Jean       | Winsor            | (716) 406-9780 | <Jean.Winsor@umb.edu>                      | [View Profile](/about/staff-directory/jean-e-winsor)              |
