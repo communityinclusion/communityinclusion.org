@@ -7,13 +7,11 @@ tags: ['Black History Month', 'UMass Boston', 'Ross Center for Disability Servic
 posttype: "news"
 thumbnail: "../../images/Lillian-Semper-Ross.jpg"
 ---
-
-
 We are kicking of the month by exploring Black History in Boston. Take some time this month to learn about [The William Monroe Trotter Institute for the Study of Black Culture](https://www.umb.edu/trotter) at UMass Boston, established in 1984 to address the concerns of Black communities in Boston and Massachusetts through research, technical assistance, and public service.
 
 **UMass Boston Profile: Lillian Semper Ross, founder of the UMass Ross Center for Disability Services**
 
-![Lillian Semper Ross, a Black woman who is blind is studying with other students on chairs at UMass Boston’s Park Square campus. Her seeing eye dog is sitting on the ground next to her.](/../../Lillian-Semper-Ross.jpg)
+![Lillian Semper Ross, a Black woman who is blind is studying with other students on chairs at UMass Boston’s Park Square campus. Her seeing eye dog is sitting on the ground next to her.](/../../images/Lillian-Semper-Ross.jpg)
 
 <p class="text-center small">Lillian Semper Ross, a Black woman who is blind is studying with other students on chairs at UMass Boston’s Park Square campus. Her seeing eye dog is sitting on the ground next to her.</p>
 

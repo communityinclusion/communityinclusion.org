@@ -129,7 +129,7 @@ const IndexPage = ({data, location }) => {
            </Link>
          </div>
          <div className="post-list__content">
-           <h3 className="h4"> <Link className="no-underline underline-hover blue dim" to={post.node.fields.slug}>
+           <h3 className="h4"> <Link className="blue dim" to={post.node.fields.slug}>
              {post.node.frontmatter.title}
               </Link>
              </h3>
