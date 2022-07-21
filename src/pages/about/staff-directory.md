@@ -81,11 +81,14 @@ Staff listing and contact details<!-- end -->
 | Clare      | Papay             | (857) 271-9145 | <Clare.Papay@umb.edu>                     | [View Profile](/about/staff-directory/clare-papay)                |
 | Sarah      | Paterson          |                | <Sarah.Paterson@umb.edu>                   | [View Profile](/about/staff-directory/sarah-paterson)             |
 | Stephanie  | Porter            | (857) 218-4333 | <Stephanie.Porter@childrens.harvard.edu>   | [View Profile](/about/staff-directory/stephanie-porter)           |
+| Sara  | Pound            |  | <Sara.Pound@umb.edu>   | [View Profile](/about/staff-directory/sara-pound)           |
 | Christa  | Preston           |  | <Christa.Preston@umb.edu>   | [View Profile](/about/staff-directory/christa-preston)           |
+| Leslie  | Quarles           |  | <Leslie.Quarles@umb.edu>   | [View Profile](/about/staff-directory/leslie-quarles )           |
 | Julie      | Reposa            |                | <Julie.Reposa@umb.edu>                     | [View Profile](/about/staff-directory/julie-reposa)               |
 | Berenise   | Reyes-Albino      | (617) 287-4314 | <Berenise.Albino@umb.edu>                  | [View Profile](/about/staff-directory/berenise-reyes-albino)      |
 | Danielle    | Roberts-Dahm           |  | <Danielle.Dahm@umb.edu>                   | [View Profile](/about/staff-directory/danielle-roberts-dahm )             |
 | Arin    | Rook           |  | <arin.rook@umb.edu>        | [View Profile](/about/staff-directory/arin-rook )             |
+| Kara    | Sexton          |  | <kara.sexton@umb.edu>        | [View Profile](/about/staff-directory/kara-sexton )             |
 | John       | Shepard           | (480) 819-6299 | <John.Shepherd@umb.edu>                    | [View Profile](/about/staff-directory/john-shepard)               |
 | Kaitlyn    | Siner-Cappas      | (617) 287-3070 | <Kaitlyn.Siner@umb.edu>                    | [View Profile](/about/staff-directory/kaitlyn-siner-cappas)       |
 | Jennifer   | Sullivan Sulewski |                | <Jennifer.Sulewski@umb.edu>                | [View Profile](/about/staff-directory/jennifer-sullivan-sulewski) |
