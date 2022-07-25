@@ -34,6 +34,7 @@ fields:
   label: Close date
   default: ''
 pages:
+- src/pages/jobs/apprenticeship-development-and-system-alignment-coordinator.md
 - src/pages/jobs/employment-and-apprenticeship-specialist-i.md
 - src/pages/jobs/program-assistant.md
 - src/pages/jobs/research-data-coordinator.md
