@@ -1,16 +1,19 @@
 ---
-title: "CES ACRE FAQ"
+title: "College of Employment Services:
+What is the ACRE Supplement?
+"
 path: "/onlinelearning/ces_acre_faq"
 date: 2022-02-01
 posttype: "page"
 thumbnail: "../../images/ICI.png"
 ---
-<h2>What is the College of Employment Services ACRE Supplement?</h2>
-<p>We offer a bundle of CES courses that include 11 courses plus an activity and field work component. This bundle is called the ACRE Supplement. </p>
+<p>College of Employment Services (CES) courses have all the information learners need to feel confident, knowledgeable, and ready to work in employment services for people with disabilities. </p>
 
 <h2>What is ACRE? </h2>
-ACRE is a national membership organization that reviews and approves competency-based training curricula. ACRE has certified our courses. ACRE stands for Association of Community Rehabilitation Educators. ACRE's mission is to advocate through education to improve the quality of employment services and employment outcomes for people with disabilities.
+<p>ACRE is the <em>Association of Community Rehabilitation Educators</em>, a national membership organization that reviews and approves competency-based training curricula. ACRE certifies our College of Employment Services (CES) courses. ACRE's mission is to advocate through education to improve the quality of employment services and employment outcomes for people with disabilities.</p>
 
+<h2>What is the ACRE Supplement?</h2>
+<p>The CES ACRE Supplement is a self-guided training that includes 11 CES courses plus activities and field work. Learners who complete the ACRE Supplement training will receive a Certificate of Achievement and be listed on the ACRE Certificate Registry. </p>
 
 <h2>How can my staff earn an ACRE Certificate?</h2>
 <p>Your staff must complete the 2-part ACRE Supplement training to earn the nationally recognized ACRE certificate:</p>
