@@ -40,7 +40,7 @@ thumbnail: "../../images/ICI.png"
   <li>Networking</li>
   <li>Job Creation</li>
   </ol>
-  <p>See course descriptions and enroll. (link to catalog)</p>
+  <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">See course descriptions and enroll</a>. (link to catalog)</p>
   <hr>
   <h4 id="bpb">Benefits Planning Bundle</h4> 
   <p>(3-course bundle): $125</p>
@@ -49,7 +49,7 @@ thumbnail: "../../images/ICI.png"
   <li>Funding</li>
   <li>Ticket to Work</li>
   </ol>
-  <p>See course descriptions and enroll. (link to catalog)</p>  
+  <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">See course descriptions and enroll</a>. (link to catalog)</p>  
   <hr>
   <h4 id="jcb">Job Coaching Bundle</h4> 
   <p>(4-course bundle): $175</p>
@@ -59,7 +59,7 @@ thumbnail: "../../images/ICI.png"
   <li>Using Work Incentives Toward Self-Sufficiency</li>
   <li>Remote employment support</li>
   </ol>
-  <p>See course descriptions and enroll. (link to catalog)</p>
+  <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">See course descriptions and enroll</a>. (link to catalog)</p>
   <hr>
   <h4 id="wspb">Working with Specific Populations Bundle</h4>
   <p>(4-course bundle): $125</p>
@@ -69,7 +69,7 @@ thumbnail: "../../images/ICI.png"
   <li>Employment for People with Disabilities and Criminal Histories</li>
   <li>Employment Services for Individuals on the Autism Spectrum</li>
   </ol>
-  <p>See course descriptions and enroll. (link to catalog)</p>
+  <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">See course descriptions and enroll</a>. (link to catalog)</p>
   <hr>
   <h4 id="ceb">Customized Employment Bundle</h4>
   <p>(6-course bundle): Coming Soon!</p>
@@ -90,7 +90,7 @@ thumbnail: "../../images/ICI.png"
   <li>1Networking</li>
   <li>1Job Creation</li>
   </ol>
-  <p>See course descriptions and enroll. (link to catalog)</p>
+  <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">See course descriptions and enroll</a>. (link to catalog)</p>
   <hr>
   <h4 id="CCB">CES Course Bundle:</h4> 
   <p>(16-course bundle): $$$</p>
