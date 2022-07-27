@@ -8,8 +8,6 @@ posttype: "news"
 thumbnail: "../../images/Professional-Fellows-logo-sq.png"
 ---
 
- 
- 
 With funding from the US Department of State, the Institute for Community Inclusion (CI) at UMass Boston is partnering with [Humanity & Inclusion](https://www.hi-us.org/) to announce a new professional program for the next generation of African disability leaders committed to inclusive civic engagement!
 
 Our [Professional Fellows Program on Inclusive Civic Engagement](https://pfpinclusion.org/) will support approximately 19 disability rights professionals (Fellows) from four African countries to participate in a 5-week Fellowship Program in the US. Fellows from Kenya, Tanzania, Uganda, and Ethiopia will engage in an individual Fellowship placement with a university-based research and education center for disabilities or similar host site organization in the US.

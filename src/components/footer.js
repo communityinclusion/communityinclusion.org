@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
 import umbcombo from '../images/bch-umb-combo_logo-small.png'
-import sanity from '../images/sanity-logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faTwitter,
@@ -118,16 +117,6 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
     title = "Donate" >
     Donate </Link> </li>
      </ul>
-     <p className = "pt-3">Website development supported by:</p>
-     <ul className = "list-inline ps-0 " >
-     <li className= "list-inline-item d-inline-block pe-1 align-middle" ><a href="https://www.netlify.com">
-    <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" /></a> </li>
-    <li className= "list-inline-item d-inline-block ps-1 align-middle" > <a href="https://www.sanity.io">
-    <img alt = "content structured in sanity"
-            src={sanity}
-          />
-          </a></li>
-          </ul>
     </div>
     </div>
     </div>

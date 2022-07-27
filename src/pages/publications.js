@@ -35,6 +35,8 @@ import literacy_infants_pdf from '../files/literacy_infants_F.pdf'
 import literacy_youngchild_pdf from '../files/literacy_youngchild_F.pdf'
 import literacy_schoolage_pdf from '../files/literacy_schoolage_F.pdf'
 import literacy_teens_pdf from '../files/literacy_teens_F.pdf'
+import TO31_F_R_pdf from '../files/tools_for_inclusion/TO31_F_R.pdf'
+import TO31_F_R_thumb from '../images/pub-thumbs/TO31_F_R_thumb.png'
 
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import {
@@ -303,6 +305,25 @@ class PublicationsPage extends React.Component {
                 <div className="row">
     <div className="col-md-2">
     <div className="card-image">
+    <img src={TO31_F_R_thumb}  className="img-fluid" alt = "Tools for Inclusion 31: Informed Choices" />
+    </div>
+    </div>
+    <div className="col-md-10 card-body">
+    <h2 className="card-title"><a href={TO31_F_R_pdf}>Employment and Employment Supports: A Guide to Ensuring Informed Choice for Individuals with Disabilities</a></h2>
+    <h3>Tools for Inclusion No.31</h3>
+    <p className="card-text">What is “informed choice”? And how we do ensure that a choice is truly “informed” and fully reflective of the individual’s preferences?
+</p>
+<p className="card-title">This publication answers these questions. In it, we provide a guide
+to decision-making regarding employment and related services and supports, through a process where individuals understand their options, and make choices and decisions
+that are fully reflective of their own interests and preferences.</p>
+</div>
+</div>
+
+</div>
+                <div className="card m-3">
+                <div className="row">
+    <div className="col-md-2">
+    <div className="card-image">
     <img src={arizona_thumbnail}  className="img-fluid" alt = "publication thumbnail" />
     </div>
     </div>
@@ -336,7 +357,7 @@ class PublicationsPage extends React.Component {
          </div>
          </div>
          <div className="col-md-10 card-body">
-   <h2 className="card-title"><a href="http://static.smallworldlabs.com/umass/content/seln/Public%20Docs/seln_wioa-sect-511_f_2-2017_comp.pdf">New Restrictions on Subminimum Wage Under WIOA: Requirements and Opportunities for State IDD Agencies</a></h2>
+   <h2 className="card-title"><a href="https://www.selnhub.org/content/SELN-guidance-jan-2019.pdf/seln/Public%20Docs/seln_wioa-sect-511_f_2-2017_comp.pdf">New Restrictions on Subminimum Wage Under WIOA: Requirements and Opportunities for State IDD Agencies</a></h2>
    <p className="card-text">This brief provides details on Section 511 implementation, and then discusses potential roles for state IDD agencies.</p>
  </div>
  </div>
@@ -349,7 +370,7 @@ class PublicationsPage extends React.Component {
          </div>
          </div>
          <div className="col-md-10 card-body">
-    <h2 className="card-title"><a href="http://static.smallworldlabs.com/umass/content/Public%20Docs/SELN%20Unpaid%20Work%20-%202019.pdf">Unpaid Work Experiences, Volunteering, and Internships: What’s Allowed.</a></h2>
+    <h2 className="card-title"><a href="https://www.selnhub.org/content/Public%20Docs/SELN%20Unpaid%20Work%20-%202019.pdf">Unpaid Work Experiences, Volunteering, and Internships: What’s Allowed.</a></h2>
     <p className="card-text">As SELN member states refine how employment services are defined, implemented, and reimbursed, questions arise about how to view certain work experiences, and how to strategically use volunteer opportunities and unpaid work options.</p>
  </div>
  </div>
@@ -362,8 +383,8 @@ class PublicationsPage extends React.Component {
          </div>
          </div>
          <div className="col-md-10 card-body">
-    <h2 className="card-title"><a href="http://static.smallworldlabs.com/umass/content/SELN-guidance-jan-2019.pdf">The SELN Guidance for Conversations: Identifying and designing pathways towards rewarding employment</a></h2>
-    <p className="card-text">This publication describes a series of pathways that we feel reflect most people’s current circumstances and understanding. Each pathway is defined and questions for exploration and discovery are provided.</p>
+    <h2 className="card-title"><a href="https://www.selnhub.org/content/SELN-guidance-jan-2019.pdf">The SELN Guidance for Conversations: Identifying and designing pathways towards rewarding employment</a></h2>
+    <p className="card-text">This publication describes a series of pathways that we feel reflect most people's current circumstances and understanding. Each pathway is defined and questions for exploration and discovery are provided.</p>
  </div>
  </div>
          </div>

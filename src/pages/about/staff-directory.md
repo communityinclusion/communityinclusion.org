@@ -32,6 +32,7 @@ Staff listing and contact details<!-- end -->
 | Mary       | Di Biase          | (617) 571-6198 | <Mary.DiBiase@umb.edu>                     | [View Profile](/about/staff-directory/mary-di-biase)              |
 | Daria      | Domin             | (617) 287-4277 | <Daria.Domin@umb.edu>                      | [View Profile](/about/staff-directory/daria-domin)                |
 | Jill       | Eastman           | (617) 287-4325 | <Jill.Eastman@umb.edu>                     | [View Profile](/about/staff-directory/jill-eastman)               |
+| Jeff       | Edelstein           |  | <jeffrey.edelstein@umb.edu>                     | [View Profile](/about/staff-directory/jeff-edelstein)               |
 | Lara       | Enein-Donovan     |                | <Lara.Eneindonovan@umb.edu>                | [View Profile](/about/staff-directory/lara-enein-donovan)         |
 | Sheila     | Fesko             | (617) 287-4365 | <Sheila.Fesko@umb.edu>                     | [View Profile](/about/staff-directory/sheila-fesko)               |
 | Karen      | Flippo            | (617) 287-4344 | <Karen.Flippo@umb.edu>                     | [View Profile](/about/staff-directory/karen-flippo)               |
@@ -71,6 +72,7 @@ Staff listing and contact details<!-- end -->
 | Caitlin    | McGovern          | (617) 287-7640 | <Caitlin.McGovern@umb.edu>                 | [View Profile](/about/staff-directory/caitlin-mcgovern)           |
 | Neil       | McNeil            | (617) 287-4294 | <Neil.McNeil@umb.edu>                     | [View Profile](/about/staff-directory/neil-mcneil)                |
 | Alberto    | Migliore          | (617) 287-4306 | <Alberto.Migliore@umb.edu>                 | [View Profile](/about/staff-directory/alberto-migliore)           |
+| Brit    | Miles          |  | <Britni.Miles@umb.edu>                 | [View Profile](/about/staff-directory/brit-miles)           |
 | Susanna    | Miller-Raines     |  | <Susanna.Millerraines@umb.edu>                             | [View Profile](/about/staff-directory/susanna-miller-raines)           |
 | DeBrittany | Mitchell          | N/A            | <DeBrittany.Mitchell@umb.edu>              | [View Profile](/about/staff-directory/debrittany-mitchell)        |
 | Linda      | Mock              | (971) 506-4632 | <Linda.Mock@umb.edu>                       | [View Profile](/about/staff-directory/linda-mock)                 |
@@ -79,9 +81,14 @@ Staff listing and contact details<!-- end -->
 | Clare      | Papay             | (857) 271-9145 | <Clare.Papay@umb.edu>                     | [View Profile](/about/staff-directory/clare-papay)                |
 | Sarah      | Paterson          |                | <Sarah.Paterson@umb.edu>                   | [View Profile](/about/staff-directory/sarah-paterson)             |
 | Stephanie  | Porter            | (857) 218-4333 | <Stephanie.Porter@childrens.harvard.edu>   | [View Profile](/about/staff-directory/stephanie-porter)           |
+| Sara  | Pound            |  | <Sara.Pound@umb.edu>   | [View Profile](/about/staff-directory/sara-pound)           |
+| Christa  | Preston           |  | <Christa.Preston@umb.edu>   | [View Profile](/about/staff-directory/christa-preston)           |
+| Leslie  | Quarles           |  | <Leslie.Quarles@umb.edu>   | [View Profile](/about/staff-directory/leslie-quarles )           |
 | Julie      | Reposa            |                | <Julie.Reposa@umb.edu>                     | [View Profile](/about/staff-directory/julie-reposa)               |
 | Berenise   | Reyes-Albino      | (617) 287-4314 | <Berenise.Albino@umb.edu>                  | [View Profile](/about/staff-directory/berenise-reyes-albino)      |
 | Danielle    | Roberts-Dahm           |  | <Danielle.Dahm@umb.edu>                   | [View Profile](/about/staff-directory/danielle-roberts-dahm )             |
+| Arin    | Rook           |  | <arin.rook@umb.edu>        | [View Profile](/about/staff-directory/arin-rook )             |
+| Kara    | Sexton          |  | <kara.sexton@umb.edu>        | [View Profile](/about/staff-directory/kara-sexton )             |
 | John       | Shepard           | (480) 819-6299 | <John.Shepherd@umb.edu>                    | [View Profile](/about/staff-directory/john-shepard)               |
 | Kaitlyn    | Siner-Cappas      | (617) 287-3070 | <Kaitlyn.Siner@umb.edu>                    | [View Profile](/about/staff-directory/kaitlyn-siner-cappas)       |
 | Jennifer   | Sullivan Sulewski |                | <Jennifer.Sulewski@umb.edu>                | [View Profile](/about/staff-directory/jennifer-sullivan-sulewski) |
@@ -96,6 +103,7 @@ Staff listing and contact details<!-- end -->
 | Jaimie     | Timmons           |                | <Jaimie.Timmons@umb.edu>                   | [View Profile](/about/staff-directory/jaimie-ciulla-timmons)      |
 | Alvaro     | Tobar             | (617) 287-4347 | <Alvaro.Tobar@umb.edu>                     | [View Profile](/about/staff-directory/alvaro-tobar)               |
 | David      | Urban             | (617) 287-4366 | <David.Urban@umb.edu>                      | [View Profile](/about/staff-directory/david-urban)                |
+| Kelly      | Wanzer             |              | <kelly.wanzer@umb.edu>                      | [View Profile](/about/staff-directory/kelly-wanzer)                |
 | Cate       | Weir              | (603) 848-4901 | <Cathryn.Weir@umb.edu>                     | [View Profile](/about/staff-directory/cate-weir)                  |
 | Gavin      | Williams            |  | <Gavin.Williams@umb.edu>                    | [View Profile](/about/staff-directory/gavin-williams)                  |
 | Jean       | Winsor            | (716) 406-9780 | <Jean.Winsor@umb.edu>                      | [View Profile](/about/staff-directory/jean-e-winsor)              |

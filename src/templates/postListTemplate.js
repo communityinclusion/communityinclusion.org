@@ -53,7 +53,7 @@ const crumbLabelArr = customCrumbLabel.split('/');
               </Link>
             </div>
             <div className="post-list__content">
-              <h2><Link className="no-underline underline-hover blue dim" to={post.node.fields.slug}>
+              <h2><Link className="blue dim" to={post.node.fields.slug}>
                 {post.node.frontmatter.title}
                 </Link>
                 </h2>

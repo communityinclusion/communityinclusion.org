@@ -6,6 +6,8 @@ The code is just code, feel free to take and use it. Content and branding is our
 
 
 ## 💫 Deploy
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1bd67445-6f6a-4397-a5c3-59da915f6739/deploy-status)](https://app.netlify.com/sites/icibeta/deploys)
+
 
  <a href="https://www.netlify.com">
     <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg" alt="Deploys by Netlify" />

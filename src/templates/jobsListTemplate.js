@@ -26,6 +26,29 @@ const crumbLabelArr = customCrumbLabel.split('/');
 
  const label = crumbLabelArr[crumbLabelArr.length - 1]
  const labelArr = label.split('-');
+
+ 
+ if (posts.length === 0) {
+  return (
+    <Layout>
+    <Seo title="Job Openings at ICI" />
+    <section className="main-content">
+    <div className="breadcrumbs">
+    <Breadcrumb
+          title={title}
+          crumbs={crumbs}
+          crumbLabel={labelArr.join(' ')}      
+         />
+       </div>
+     <h1 className="page-title">Job Openings at ICI</h1>
+      <p>
+      ICI currently has no job opportunities available. Please check this page in the future, or <Link className="blue dim" to="https://lp.constantcontactpages.com/su/jlCEExQ/subscribe">subscribe to our newsletter</Link> where we also publicize job openings.
+      </p>
+      </section>
+    </Layout>
+  )
+}
+
   return (
     <Layout>
        <Seo title="Job Openings at ICI" />
@@ -42,13 +65,13 @@ const crumbLabelArr = customCrumbLabel.split('/');
         {posts.map(post => (
           <div key={post.node.id} className="post-list__item border-bottom border-1 border-dark">
             <div className="post-list__content">
-              <h2><Link className="no-underline underline-hover blue dim" to={post.node.fields.slug}>
+              <h2><Link className="blue dim" to={post.node.fields.slug}>
                 {post.node.frontmatter.title}
                 </Link>
                 </h2>
-              <p className="post-list__date navy">{post.node.frontmatter.date}</p>
               <div className="post-list__excerpt">
                 <p>{post.node.frontmatter.description}</p>
+                <p className="post-list__date navy">Closes: {post.node.frontmatter.close_date}</p>
               </div>
             </div>
           </div>
@@ -81,19 +104,28 @@ const crumbLabelArr = customCrumbLabel.split('/');
 
 export default JobsPage;
 
+
+
+
 // Get all markdown files, in descending order by date, and grab the id, excerpt, slug, date, and title
-export const pageQuery = graphql`query GetJobsPosts($limit: Int, $skip: Int) {
-  allMarkdownRemark(
+export const pageQuery = graphql`query ($currentDate: Date!,$limit: Int, $skip: Int) {
+  allMarkdownRemark(   
     limit: $limit
-    sort: {fields: [frontmatter___date], order: DESC}
+    sort: {fields: [frontmatter___date], order: ASC}
     skip: $skip
-    filter: {frontmatter: {posttype: {eq: "jobs"}}}
+    filter: {
+        frontmatter: {
+          posttype: {eq: "jobs"}
+          close_date: { gte: $currentDate   }
+        }
+      }
   ) {
     edges {
       node {
         frontmatter {
           title
           date(formatString: "MMMM Do, YYYY")
+          close_date(formatString: "MMMM Do, YYYY")
           tags
           posttype
           description
@@ -106,6 +138,5 @@ export const pageQuery = graphql`query GetJobsPosts($limit: Int, $skip: Int) {
       }
     }
     totalCount
-  }
-}
-`;
+  }}
+  `;

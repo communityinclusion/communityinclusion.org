@@ -168,12 +168,12 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-
+/*
 a {
   text-decoration: none;
 }
 
-/*
+
 a:focus {
 	outline: 1px dotted currentColor;
 	outline-offset: .125rem;
@@ -499,7 +499,15 @@ h2.card-title a {
   color: #0075ad;
   margin-top: 0.5rem;
   display: table;
+  text-decoration: none;
 }
+
+
+h2.card-title a:hover {
+  color: #0e608a;
+}
+
+
 
 #pubs article.card {
   /* margin: 1rem; */
