@@ -49,31 +49,6 @@ const activeLinkStyle = {
   </div>
 </li>
 <li className="top-level-link">
-
-
-     <Link to="/areas-of-emphasis" activeStyle={activeLinkStyle} partiallyActive={true} className="mega-menu"><span>Areas of Emphasis</span></Link>
-  <div className="sub-menu-block">
-    <div className="row">
-      <div className="col-lg-9">
-<p>Learn more about the four areas through which we support the full inclusion of people with disabilities in society. </p>
-      </div>
-
-      <div className="col-lg-3 border-start-lg">
-
-        <ul className="sub-menu-lists ms-1">
-          <li><Link to="/areas-of-emphasis/employment">Employment</Link></li>
-          <li><Link to="/areas-of-emphasis/education">Education</Link></li>
-          <li><Link to="/areas-of-emphasis/community">Community Life</Link></li>
-          <li><Link to="/areas-of-emphasis/healthcare">Health Care</Link></li>
-        </ul>
-      </div>
-    </div>
-
-
-
-  </div>
-</li>
-<li className="top-level-link">
   <Link to="/projects" activeStyle={activeLinkStyle} partiallyActive={true} className="mega-menu"><span>Projects</span></Link>
   <div className="sub-menu-block">
   <div className="row">
@@ -151,7 +126,9 @@ const activeLinkStyle = {
 <li className="top-level-link">
   <Link to="/publications" activeStyle={activeLinkStyle} partiallyActive={true}><span>Publications</span></Link>
 </li>
-
+<li className="top-level-link">
+<Link to="/onlinelearning" activeStyle={activeLinkStyle} partiallyActive={true}><span>Online Learning</span></Link>
+</li>
 <li className="top-level-link d-lg-none">
  <Link to="/search" activeStyle={activeLinkStyle} partiallyActive={true}><span>Search</span></Link> 
 </li> 

@@ -17,10 +17,15 @@ thumbnail: "../../images/ICI.png"
 
 <h2>How can my staff earn an ACRE Certificate?</h2>
 <p>Your staff must complete the 2-part ACRE Supplement training to earn the nationally recognized ACRE certificate:</p>
-<ul>
+<ol>
   <li><strong>Part 1:</strong> Complete 11 CES courses. Pass the final quiz on each of the 11 courses with a score of 80% or higher.</li>
-  <li><strong>Part 2:</strong> Participate in 8 hours of supplemental online learning activities, which involves fieldwork in your community (this fits in with the work your employment staff are already doing), and watch three 30-minute to 1-hour webinars supplementing their CES coursework</li>
-</ul>
+  <li><strong>Part 2:</strong> : Complete the ACRE activities and field work. Participate in 8 hours of supplemental online learning activities: 
+    <ul>
+    <li>attending three 30-minute–1-hour webinars </li>
+    <li>providing employment services in your community (field work)</li>
+    <ul>
+  </li>
+</ol>
 
 <p>After completing this 2-part training series (11 courses + fieldwork), learners can earn the nationally recognized ACRE Certificate. Learners' names will be added to the ACRE Certificate Registry.</p>
 

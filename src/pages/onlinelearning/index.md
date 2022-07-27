@@ -30,7 +30,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
             <p>6-course bundle): $250 </p>
             <p>includes six courses with lessons on career planning, job-search techniques, networking strategies, the dual-customer approach, and understanding how to meet employers' unmet needs.</p>
             <p><a href="#" class="btn btn-primary">Enroll</a><br>
-              <a href="#">learn more</a></p>
+              <a href="ces_faq#jdb">learn more</a></p>
           </div>
         </div></div>
         <div class="col-md"><div class="card"">
@@ -39,7 +39,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
             <p>(3-course bundle): $125 </p>
             <p>Includes three courses with lessons on understanding and maximizing work incentives, strategies for blending funding, and an overview of the Ticket to Work program. </p>
             <p><a href="#" class="btn btn-primary">Enroll</a><br>
-              <a href="#">learn more</a></p>
+              <a href="ces_faq#bpb">learn more</a></p>
           </div>
         </div></div>
       </div>
@@ -51,7 +51,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
             <p>4-course bundle): $175</p>
             <p>includes four courses with lessons on employment services, work incentives, and supporting job seekers in person and remotely.</p>
             <p><a href="#" class="btn btn-primary">Enroll</a><br>
-              <a href="#">learn more</a></p>
+              <a href="ces_faq#jcb">learn more</a></p>
           </div>
         </div></div>
         <div class="col-md"><div class="card">
@@ -60,7 +60,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
             <p>(4-course bundle): $125 </p>
             <p>Includes four courses with lessons on working with youth in transition planning, approaches to effective job development for people with mental health disabilities, strategies for facilitating successful job outcomes for people with disabilities and criminal histories, and important factors to consider when providing employment services to job seekers on the autism spectrum.</p>
             <p><a href="#" class="btn btn-primary">Enroll</a><br>
-              <a href="#">learn more</a></p>
+              <a href="ces_faq#wspb">learn more</a></p>
           </div>
         </div></div>
       </div>
@@ -72,7 +72,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
             <p>all of em </p>
             <p></p>
             <p><a href="#" class="btn btn-primary">Enroll</a><br>
-              <a href="#">learn more</a></p>
+              <a href="ces_faq#ccb">learn more</a></p>
           </div>
         </div></div>
         <div class="col-md"><div class="card">
@@ -83,7 +83,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
               This bundle includes 11 ACRE-approved courses plus required activities and field work. 
               </p>
             <p><a href="#" class="btn btn-primary">Enroll</a><br>
-              <a href="#">learn more</a></p>
+              <a href="ces_acre_faq">learn more</a></p>
           </div>
         </div></div>
       </div>

@@ -74,7 +74,8 @@ thumbnail: "../../images/ICI.png"
   <h4 id="ceb">Customized Employment Bundle</h4>
   <p>(6-course bundle): Coming Soon!</p>
   <p>
-  ACRE Supplement Bundle: 11-course bundle + Field Work: $325 + $225 for field work</p>
+  <h5 id="ces_faq#acre">ACRE Supplement Bundle</h5> 
+  <p>11-course bundle + Field Work: $325 + $225 for field work</p>
   <p>CES's ACRE Supplement bundle includes 11 ACRE-approved courses plus required activities and field work. The Association of Community Rehabilitation Educators (ACRE) is a national organization that develops competencies for employment providers. ACRE reviews and certifies training programs that cover these competencies. Learn more about ACRE  (ICI ACRE FAQ Page)</p>
   <ol>
   <li>Foundations of Employment Services</li>
