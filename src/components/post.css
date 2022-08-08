@@ -52,3 +52,15 @@
   .post-body {
     border-bottom: 2px solid #ddd;
 }
+
+.post-list__content a{
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;}
+
+
+.post-list__content a:hover {
+text-decoration: underline;
+text-decoration-thickness: 1px;
+text-underline-offset: 3px;
+}

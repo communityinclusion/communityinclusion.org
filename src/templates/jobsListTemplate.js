@@ -8,24 +8,14 @@ import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 const JobsPage = ({ data, pageContext,location,title }) => {
   const posts = data.allMarkdownRemark.edges;
   console.log('posts', posts)
-  const { currentPage, numPages,  breadcrumb: { crumbs }}
+  const { breadcrumb: { crumbs }}
    = pageContext;
    console.log(crumbs);
-  const pathPrefix = '/jobs';
-  const isFirst = currentPage === 1;
-  const isLast = currentPage === numPages;
-  const prevPage =
-    currentPage - 1 === 1
-      ? `${pathPrefix}/`
-      : `${pathPrefix}/${(currentPage - 1).toString()}`;
-  const nextPage = `${pathPrefix}/${(currentPage + 1).toString()}`;
 const customCrumbLabel = location.pathname.toLowerCase()
 .replace("jobs", "Jobs")
 const crumbLabelArr = customCrumbLabel.split('/');
- 
-
- const label = crumbLabelArr[crumbLabelArr.length - 1]
- const labelArr = label.split('-');
+const label = crumbLabelArr[crumbLabelArr.length - 1]
+const labelArr = label.split('-');
 
  
  if (posts.length === 0) {
@@ -76,26 +66,6 @@ const crumbLabelArr = customCrumbLabel.split('/');
             </div>
           </div>
         ))}
-      </div>
-      <div className="page-navigation">
-        {!isFirst && (
-          <Link to={prevPage} rel="prev">
-            ← Previous Page
-          </Link>
-        )}
-        {Array.from({ length: numPages }, (_, i) => (
-          <Link
-            key={`pagination-number${i + 1}`}
-            to={`${pathPrefix}/${i === 0 ? '' : i + 1}`}
-          >
-            {i + 1}
-          </Link>
-        ))}
-        {!isLast && (
-          <Link to={nextPage} rel="next">
-            Next Page →
-          </Link>
-        )}
       </div>
       </section>
     </Layout>

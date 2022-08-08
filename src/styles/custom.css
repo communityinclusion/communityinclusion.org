@@ -168,9 +168,9 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-/*
+
 a {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 
@@ -182,7 +182,7 @@ a:focus {
 a:active {
 	outline-width: 0;
 }
-*/
+
 
 a:hover {
   text-decoration: underline;
@@ -750,5 +750,8 @@ main.main-content .posttemplate .post {
                     font-family: fontAwesome;
                     font-size:1.5em;
                     content: "\f07d";
-                  
+              
                                     }
+
+
+                                 
