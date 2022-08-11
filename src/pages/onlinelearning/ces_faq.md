@@ -5,6 +5,70 @@ date: 2022-02-01
 posttype: "page"
 thumbnail: "../../images/ICI.png"
 ---
+<div class="row">
+  <div class="col-md"><div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Job Development Bundle</h5>
+      <p>6-course bundle): $250 </p>
+      <p>includes six courses with lessons on career planning, job-search techniques, networking strategies, the dual-customer approach, and understanding how to meet employers' unmet needs.</p>
+      <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a><br>
+        <a href="ces_faq#jdb">learn more</a></p>
+    </div>
+  </div></div>
+  <div class="col-md"><div class="card"">
+    <div class="card-body">
+      <h5 class="card-title">Benefits Planning Bundle </h5>
+      <p>(3-course bundle): $125 </p>
+      <p>Includes three courses with lessons on understanding and maximizing work incentives, strategies for blending funding, and an overview of the Ticket to Work program. </p>
+      <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a><br>
+        <a href="ces_faq#bpb">learn more</a></p>
+    </div>
+  </div></div>
+</div>
+<p></p>
+<div class="row">
+  <div class="col-md"><div class="card" >
+    <div class="card-body">
+      <h5 class="card-title">Job Coaching Bundle </h5>
+      <p>4-course bundle): $175</p>
+      <p>includes four courses with lessons on employment services, work incentives, and supporting job seekers in person and remotely.</p>
+      <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a><br>
+        <a href="ces_faq#jcb">learn more</a></p>
+    </div>
+  </div></div>
+  <div class="col-md"><div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Working with Specific Populations Bundle</h5>
+      <p>(4-course bundle): $125 </p>
+      <p>Includes four courses with lessons on working with youth in transition planning, approaches to effective job development for people with mental health disabilities, strategies for facilitating successful job outcomes for people with disabilities and criminal histories, and important factors to consider when providing employment services to job seekers on the autism spectrum.</p>
+      <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a><br>
+        <a href="ces_faq#wspb">learn more</a></p>
+    </div>
+  </div></div>
+</div>
+<p></p>
+<div class="row">
+  <div class="col-md"><div class="card" >
+    <div class="card-body">
+      <h5 class="card-title">All-course Bundle: 16-course bundle of all CES courses </h5>
+      <p>all of em </p>
+      <p></p>
+      <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a><br>
+        <a href="ces_faq#ccb">learn more</a></p>
+    </div>
+  </div></div>
+  <div class="col-md"><div class="card">
+    <div class="card-body">
+      <h5 class="card-title">ACRE Supplement Bundle: 11-course bundle + Field Work</h5>
+      <p>: $325 + $225 for field work.  </p>
+      <p>The Association of Community Rehabilitation Educators (ACRE) is a national organization that develops competencies for employment providers. ACRE reviews and certifies training programs that cover these competencies.  
+        This bundle includes 11 ACRE-approved courses plus required activities and field work. 
+        </p>
+      <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a><br>
+        <a href="ces_acre_faq">learn more</a></p>
+    </div>
+  </div></div>
+</div>
 <h2>Is College of Employment Services right for my organization?</h2>
 <div class="float-end" style="max-width:400px; margin-left:3em;">
   <blockquote class="blockquote">
