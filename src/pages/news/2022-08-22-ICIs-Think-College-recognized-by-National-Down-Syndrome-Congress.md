@@ -25,3 +25,5 @@ The Big Game Ball celebrates the individuals and organizations that have made si
 ICI's Think College has a long history of developing, expanding, and improving inclusive postsecondary education programs for students with intellectual disability. Think College supports evidence-based and student-centered research and practice by generating and sharing knowledge, guiding institutional change, informing public policy, and engaging with students, professionals and families.
 
 [Learn more about Think College at the ICI](https://thinkcollege.net/).
+
+*The Institute for Community Inclusion (ICI) promotes the inclusion of people with disabilities in their communities through training, consultation, clinical and employment services, and research. ICI is a University Center for Excellence in Developmental Disabilities based at the University of Massachusetts Boston and Boston Children's Hospital.*
