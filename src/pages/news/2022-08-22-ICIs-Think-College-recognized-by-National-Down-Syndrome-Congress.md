@@ -7,6 +7,14 @@ tags: ['Think College','Institute for Community Inclusion']
 posttype: "news"
 thumbnail: "../../images/thinkcollege.png"
 ---
+Contact: Quinn Barbour/Institute for Community Inclusion  
+Phone: 617-287-4309 (office) / 857-271-6617 (mobile)  
+Email: Quinn.Barbour@umb.edu  
+Website: www.communityinclusion.org  
+
+PRESS RELEASE 
+For immediate release: August 22, 2022
+
 
 Boston, Ma. — The Institute for Community Inclusion (ICI) at the University of Massachusetts Boston and Think College are honored to be recognized by the [National Down Syndrome Congress](https://www.ndsccenter.org/) for our work in developing, expanding, and improving inclusive higher education options for people with intellectual disability (ID). Collectively, we share a passion for and focus on increasing inclusive college opportunities for students with ID, expanding inclusive postsecondary options, providing postsecondary program accreditation standards, and advocating for inclusive educators.
 
