@@ -3,7 +3,7 @@ title: "ICI’s Jean Winsor’s Receives a New Grant to Explore Barriers to Inte
 description: ""
 path: "/2022-10-05_icis-jean-winsors-receives-grant-to-explore-barriers-to-integrated-employment"
 date: "2022-10-05"
-tags: ['new grant,'Institute for Comunity Inclusion']
+tags: ['new grant','Institute for Comunity Inclusion']
 posttype: "news"
 thumbnail: "../../images/ICI.png"
 ---
