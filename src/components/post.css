@@ -70,3 +70,10 @@ text-underline-offset: 3px;
   margin: 0 auto;
   background-color: #eee;
 }
+
+.posttemplate blockquote {
+  margin-left: 40px;
+  font-style: italic;
+  padding-left: 10px;
+  border-left: solid 2px #333;
+}

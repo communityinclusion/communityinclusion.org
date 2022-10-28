@@ -94,6 +94,7 @@ Staff listing and contact details<!-- end -->
 | Kara       | Sexton            |                | <kara.sexton@umb.edu>                          | [View Profile](/about/staff-directory/kara-sexton )             |
 | John       | Shepard           | (480) 819-6299 | <John.Shepherd@umb.edu>                    | [View Profile](/about/staff-directory/john-shepard)               |
 | Kaitlyn    | Siner-Cappas      | (617) 287-3070 | <Kaitlyn.Siner@umb.edu>                    | [View Profile](/about/staff-directory/kaitlyn-siner-cappas)       |
+| Chelsea    | Stinnett          |                | <chelsea.stinnett@umb.edu>                 | [View Profile](/about/staff-directory/chelsea-stinnett)           |
 | Jennifer   | Sullivan Sulewski |                | <Jennifer.Sulewski@umb.edu>                | [View Profile](/about/staff-directory/jennifer-sullivan-sulewski) |
 | Amy        | Szarkowski        | (617) 894-3864 | <Amy.Szarkowski@childrens.harvard.edu>     | [View Profile](/about/staff-directory/amy-szarkowski)             |
 | Ludwik     | Szymanski         |                | <Ludwik.Szymanski@childrens.harvard.edu>   | [View Profile](/about/staff-directory/ludwik-s-szymanski)         |
