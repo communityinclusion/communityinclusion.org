@@ -66,6 +66,7 @@ Staff listing and contact details<!-- end -->
 | Tiffany    | Lam               |                |  <Tiffany.Lam@umb.edu>                        | [View Profile](/about/staff-directory/tiffany-lam)                         |
 | Cady       | Landa             | (617) 287-4759 | <Cady.Landa@umb.edu>                       | [View Profile](/about/staff-directory/cady-landa)                 |
 | Rebecca    | Lazo              | (857) 309-8324 | <Rebecca.Lazo@umb.edu>                     | [View Profile](/about/staff-directory/rebecca-lazo)               |
+| Mindy     | Lingo            |  | <Mindy.Lingo@umb.edu>                     | [View Profile](/about/staff-directory/mindy-lingo)               |
 | Angela     | Lombardo          | (857) 218-4329 | <Angela.Lombardo@childrens.harvard.edu>    | [View Profile](/about/staff-directory/angela-lombardo)            |
 | Ashley     | Luce              | (617) 297-6797 | <Ashley.Luce@umb.edu>                      | [View Profile](/about/staff-directory/ashley-luce)                |
 | Oliver     | Lyons             | (617) 287-4376 | <Oliver.Lyons@umb.edu>                     | [View Profile](/about/staff-directory/oliver-lyons)               |
