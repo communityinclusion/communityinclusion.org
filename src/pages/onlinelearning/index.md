@@ -17,33 +17,25 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
 <p>
   We offer 16 self-guided courses. You can purchase all 16 courses at once or choose from 6 multi-course bundles. CES is based on Association of People Supporting Employment (APSE) Universal Employment Competencies and includes courses endorsed by the Association of Community Rehabilitation Educators (ACRE).
 </p>       
-        <p>Do you want to purchase CES course bundles for your staff? You can purchase course bundles for up to 9 staff at once. Learn more about our course bundles to see if CES is right for you and your staff! </p>
-      <a  data-bs-toggle="collapse" class="btn btn-primary" href="#ces"  aria-expanded="false" aria-controls="ces">
-        <b>learn more about CES and enroll</b>
-      </a>
-      |
-      <a   class="btn btn-primary" href="ces_faq/" >
-        <b>learn more about CES and enroll test 2</b>
-      </a>
-    </p>
-    <div class="collapse" id="ces">
+<h3 class="h5">Do you want to purchase CES course bundles for your staff? </h3>
+<p>You can purchase course bundles for up to 9 staff at once.</p>
+<p><strong><a data-bs-toggle="collapse" href="#collapseCES" role="button" aria-expanded="false" aria-controls="collapseCES">Learn more about our course bundles to see if CES is right for you and your staff! </a></strong></p>
+<div class="collapse" id="collapseCES">
       <div class="row">
         <div class="col-md"><div class="card">
           <div class="card-body">
             <h5 class="card-title">Job Development Bundle</h5>
             <p>6-course bundle): $250 </p>
-            <p>includes six courses with lessons on career planning, job-search techniques, networking strategies, the dual-customer approach, and understanding how to meet employers' unmet needs.</p>
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a><br>
-              <a href="ces_faq#jdb">learn more</a></p>
+            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a>
+              <a href="ces_faq#jdb" class="btn btn-primary">learn more</a></p>
           </div>
         </div></div>
         <div class="col-md"><div class="card"">
           <div class="card-body">
             <h5 class="card-title">Benefits Planning Bundle </h5>
             <p>(3-course bundle): $125 </p>
-            <p>Includes three courses with lessons on understanding and maximizing work incentives, strategies for blending funding, and an overview of the Ticket to Work program. </p>
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a><br>
-              <a href="ces_faq#bpb">learn more</a></p>
+            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a>
+             <a href="ces_faq#bpb" class="btn btn-primary">learn more</a></p>
           </div>
         </div></div>
       </div>
@@ -53,8 +45,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
           <div class="card-body">
             <h5 class="card-title">Job Coaching Bundle </h5>
             <p>4-course bundle): $175</p>
-            <p>includes four courses with lessons on employment services, work incentives, and supporting job seekers in person and remotely.</p>
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a><br>
+            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a>
               <a href="ces_faq#jcb">learn more</a></p>
           </div>
         </div></div>
@@ -62,8 +53,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
           <div class="card-body">
             <h5 class="card-title">Working with Specific Populations Bundle</h5>
             <p>(4-course bundle): $125 </p>
-            <p>Includes four courses with lessons on working with youth in transition planning, approaches to effective job development for people with mental health disabilities, strategies for facilitating successful job outcomes for people with disabilities and criminal histories, and important factors to consider when providing employment services to job seekers on the autism spectrum.</p>
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a><br>
+            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a>
               <a href="ces_faq#wspb">learn more</a></p>
           </div>
         </div></div>
@@ -72,30 +62,42 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
       <div class="row">
         <div class="col-md"><div class="card" >
           <div class="card-body">
-            <h5 class="card-title">All-course Bundle: 16-course bundle of all CES courses </h5>
-            <p>all of em </p>
-            <p></p>
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a><br>
-              <a href="ces_faq#ccb">learn more</a></p>
+            <h5 class="card-title">Customized Employment  </h5>
+            <p>6-course bundle: Coming Soon! </p>
           </div>
         </div></div>
         <div class="col-md"><div class="card">
           <div class="card-body">
             <h5 class="card-title">ACRE Supplement Bundle: 11-course bundle + Field Work</h5>
             <p>: $325 + $225 for field work.  </p>
-            <p>The Association of Community Rehabilitation Educators (ACRE) is a national organization that develops competencies for employment providers. ACRE reviews and certifies training programs that cover these competencies.  
-              This bundle includes 11 ACRE-approved courses plus required activities and field work. 
-              </p>
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a><br>
-              <a href="ces_acre_faq">learn more</a></p>
+            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a> 
+              <a href="ces_acre_faq" class="btn btn-primary">learn more</a></p>
           </div>
         </div></div>
       </div>
+      <p></p>
+      <div class="row">
+        <div class="col-md"><div class="card" >
+          <div class="card-body">
+            <h5 class="card-title">All-course Bundle: 16-course bundle of all CES courses </h5>
+            <p>Purchase all 16 courses CES in one bundle.</p>
+            <p></p>
+            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a><br>
+              <a href="ces_faq#ccb">learn more</a></p>
+          </div>
+        </div></div>
     </div>
-    <p>If you are an employer who wants to register 10 or more employees for CES courses, explore the College of Employment Services for Group Sales offered by Direct Course. (link to direct course)</p>
-<p>Do you want to register for individual CES courses? Learn more! (link to catalog to purchase through Berenise) </p>
+    <p></p>
+    <hr>
+    <h3 class="h5">Are you an employer who wants to register 10 or more employees for CES courses? </h3>
+    <p>For larger organization or for groups with more learners you can purchase the entire curriculum through Direct Course at Elsevier Publishing.</p>
+    <p> <a href="#" class="btn btn-primary">Explore your options</a></p>
+  <hr>
+<h3 class="h5">Do you want to register for individual CES courses?</h3>
+<p> <a href="#" class="btn btn-primary">Learn more!</a> (link to catalog to purchase through Berenise) </p>
     </div>
   </div>
+</div>
   <div class="card">
     <img src="its_employment.png" class="card-img-top" style="max-width: 600px;" alt="its employment">
     <div class="card-body">
