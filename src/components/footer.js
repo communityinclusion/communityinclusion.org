@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
-import umbcombo from '../images/bch-umb-combo_logo-small.png'
+import umbcombo from '../images/ICI_UMB_bch-combo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faTwitter,
@@ -89,16 +89,15 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   </div>
   <div className="footer-copyright  bg-dark border-top border-white border-2"> 
   <div className="container-xxl	text-white w-100 bt align-middle  py-2">
-  <div className="row pt-3">
-   <div className="col-md-2  align-middle ">
-   <img className = "d-inline-block mw-100 h-auto"
+  <div className="row pt-3 gy-4">
+   <div className="col-md-4  align-middle ">
+   <img className = "img-fluid d-inline-block"
    			 alt = "Institute for Community Inclusion"
             src={umbcombo}
           />
      </div> 
-      <div className="col-md-7 align-middle px-3">
-   
-      <p className="white">©2022 The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital. The ICI is a University Center for Excellence in Developmental Disabilities, part of the national network started by President John F. Kennedy.</p>
+      <div className="col-md-5 align-middle px-3">
+      <p className="white small"> ©2022 The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital. The ICI is a University Center for Excellence in Developmental Disabilities, part of the national network started by President John F. Kennedy.</p>
     </div>
    
   

@@ -35,7 +35,7 @@ const postTemplate = ({ pageContext, data, location  }) => {
           </div>
           <div className="post">
           <h1 className="f4 f3-l mb1 post-title">{frontmatter.title}</h1>
-          <span className="post-date">{frontmatter.date}</span>
+          <div className="post-date pb-3">{frontmatter.date}</div>
 
   <article className="cf mt3 post-body">
  {/* <div className="fl mr4 pb4">
