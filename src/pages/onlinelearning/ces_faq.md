@@ -32,7 +32,7 @@ thumbnail: "../../images/ICI.png"
   </div>
   <div class="col-lg-4">
   <h2>Course Bundles</h2>
-  <p> (click each for more details)</p>
+  <p> (click each for more details and to enroll)</p>
   <ul class="list-group">
     <li class="list-group-item"><details>
       <summary id="jdb"><span class="green">Job Development Bundle</span> (6-course bundle): $250  </summary>
@@ -45,7 +45,7 @@ thumbnail: "../../images/ICI.png"
       <li>Networking</li>
       <li>Job Creation</li>
       </ol>
-      <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">See course descriptions and enroll</a>. </p>
+      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">Learn More and Enroll</a></p>
       </details></li>
     <li class="list-group-item"><details id="bpb">
       <summary><span class="green">Benefits Planning Bundle</span> (3-course bundle): $125</summary>
@@ -55,7 +55,7 @@ thumbnail: "../../images/ICI.png"
       <li>Funding</li>
       <li>Ticket to Work</li>
       </ol>
-      <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">See course descriptions and enroll</a>. </p>  
+      <p><a href="http://elearning.communityinclusion.org/browse/ces/courses/ces-benefits-planning-bundle" class="btn btn-primary">Learn More and Enroll</a> </p>  
       </details>
       <hr>
       <details id="jcb">
@@ -67,7 +67,7 @@ thumbnail: "../../images/ICI.png"
       <li>Using Work Incentives Toward Self-Sufficiency</li>
       <li>Remote employment support</li>
       </ol>
-      <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">See course descriptions and enroll</a>.</p>
+      <p><a href="http://elearning.communityinclusion.org/browse/ces/courses/ces-job-coaching" class="btn btn-primary">Learn More and Enroll</a></p>
       </details></li>
     <li class="list-group-item"><details id="wspb">
       <summary><span class="green">Working with Specific Populations Bundle</span> (4-course bundle): $125</summary>
@@ -78,7 +78,7 @@ thumbnail: "../../images/ICI.png"
       <li>Employment for People with Disabilities and Criminal Histories</li>
       <li>Employment Services for Individuals on the Autism Spectrum</li>
       </ol>
-      <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">See course descriptions and enroll</a>.</p>
+      <p><a class="btn btn-primary" href="http://elearning.communityinclusion.org/browse/ces/courses/ces-working-with-specific-populations">Learn More and Enroll</a></p>
       </details></li>
     <li class="list-group-item"><details  id="ceb">
       <summary><span class="green"> Customized Employment Bundle</span> (6-course bundle): Coming Soon!</summary>
@@ -99,12 +99,13 @@ thumbnail: "../../images/ICI.png"
       <li>Networking</li>
       <li>Job Creation</li>
       </ol>
-      <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">See course descriptions and enroll</a>. </p>
+      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">Learn More and Enroll</a> </p>
     </details></li>
     <li class="list-group-item"> <details id="CCB">
       <summary><span class="green"> All-in-One CES Courses</span>(16-course bundle): $$$</summary> 
       <p>Purchase all 16 courses CES in one bundle. </p>
       <p>See full course descriptions and enroll.</p>
+      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">Learn More and Enroll</a> </p>
       </details</li>
   </ul>
  

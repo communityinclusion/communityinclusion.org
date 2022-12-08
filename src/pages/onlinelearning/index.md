@@ -19,23 +19,26 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
 </p>       
 <h3 class="h5">Do you want to purchase CES course bundles for your staff? </h3>
 <p>You can purchase course bundles for up to 9 staff at once.</p>
-<p><strong><a data-bs-toggle="collapse" href="#collapseCES" role="button" aria-expanded="false" aria-controls="collapseCES">Learn more about our course bundles to see if CES is right for you and your staff! </a></strong></p>
+<p><strong>
+  <p>.</p>
+  <p>OR</p>
+  <a data-bs-toggle="collapse" class="btn btn-primary" href="#collapseCES" role="button" aria-expanded="false" aria-controls="collapseCES">Enroll in a Course Bundle</a></strong> or <a href="ces_faq"><strong>Learn More about CES and our Course Bundles</strong></a></p>
 <div class="collapse" id="collapseCES">
       <div class="row">
         <div class="col-md"><div class="card">
           <div class="card-body">
             <h5 class="card-title">Job Development Bundle</h5>
             <p>6-course bundle): $250 </p>
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a>
-              <a href="ces_faq#jdb" class="btn btn-primary">learn more</a></p>
+            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Learn More and Enroll</a>
+              </p>
           </div>
         </div></div>
         <div class="col-md"><div class="card"">
           <div class="card-body">
             <h5 class="card-title">Benefits Planning Bundle </h5>
             <p>(3-course bundle): $125 </p>
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a>
-             <a href="ces_faq#bpb" class="btn btn-primary">learn more</a></p>
+            <p><a href="http://elearning.communityinclusion.org/browse/ces/courses/ces-benefits-planning-bundle" class="btn btn-primary">Learn More and Enroll</a>
+             </p>
           </div>
         </div></div>
       </div>
@@ -45,16 +48,16 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
           <div class="card-body">
             <h5 class="card-title">Job Coaching Bundle </h5>
             <p>4-course bundle): $175</p>
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a>
-              <a href="ces_faq#jcb">learn more</a></p>
+            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-job-coaching" class="btn btn-primary">Learn More and Enroll</a>
+           </p>
           </div>
         </div></div>
         <div class="col-md"><div class="card">
           <div class="card-body">
             <h5 class="card-title">Working with Specific Populations Bundle</h5>
             <p>(4-course bundle): $125 </p>
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a>
-              <a href="ces_faq#wspb">learn more</a></p>
+            <p><a href="http://elearning.communityinclusion.org/browse/ces/courses/ces-working-with-specific-populations" class="btn btn-primary">Learn More and Enroll</a>
+            </p>
           </div>
         </div></div>
       </div>
@@ -70,8 +73,8 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
           <div class="card-body">
             <h5 class="card-title">ACRE Supplement Bundle: 11-course bundle + Field Work</h5>
             <p>: $325 + $225 for field work.  </p>
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a> 
-              <a href="ces_acre_faq" class="btn btn-primary">learn more</a></p>
+            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Learn More and Enroll</a> 
+           </p>
           </div>
         </div></div>
       </div>
@@ -82,8 +85,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
             <h5 class="card-title">All-course Bundle: 16-course bundle of all CES courses </h5>
             <p>Purchase all 16 courses CES in one bundle.</p>
             <p></p>
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Enroll</a><br>
-              <a href="ces_faq#ccb">learn more</a></p>
+            <p><a href="http://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Learn More and Enroll</a></p>
           </div>
         </div></div>
     </div>
