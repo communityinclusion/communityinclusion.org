@@ -19,9 +19,8 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
 </p>       
 <h3 class="h5">Do you want to purchase CES course bundles for your staff? </h3>
 <p>You can purchase course bundles for up to 9 staff at once.</p>
-<p><strong>
-  <p>.</p>
-  <p>OR</p>
+<p>
+  
   <a data-bs-toggle="collapse" class="btn btn-primary" href="#collapseCES" role="button" aria-expanded="false" aria-controls="collapseCES">Enroll in a Course Bundle</a></strong> or <a href="ces_faq"><strong>Learn More about CES and our Course Bundles</strong></a></p>
 <div class="collapse" id="collapseCES">
       <div class="row">
