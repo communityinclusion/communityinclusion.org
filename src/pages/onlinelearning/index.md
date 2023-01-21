@@ -72,7 +72,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
           <div class="card-body">
             <h5 class="card-title">ACRE Supplement Bundle: 11-course bundle + Field Work</h5>
             <p>: $325 + $225 for field work.  </p>
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Learn More and Enroll</a> 
+            <p><a href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre" class="btn btn-primary">Learn More and Enroll</a> 
            </p>
           </div>
         </div></div>
