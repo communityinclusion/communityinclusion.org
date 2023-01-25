@@ -34,6 +34,8 @@ const activeLinkStyle = {
           <li><Link to="/about" role="button" aria-haspopup="true">About the ICI</Link></li>
           <li><Link to="/about/history">History of ICI</Link></li>
           <li><Link to="/about/mission">Mission and Vision</Link></li>
+
+          <li><Link to="/about/areas-of-emphasis">Areas of Emphasis</Link></li>
           <li><Link to="/about/what-we-mean-when-we-talk-about-inclusion">What We Mean When We Talk About Inclusion</Link></li>
           <li><Link to="/about/staff-directory">Staff Directory</Link></li>
             <li><Link to="/about/directions">Directions</Link></li>
@@ -43,34 +45,6 @@ const activeLinkStyle = {
         </ul>
       </div>
     </div>
-
-
-
-  </div>
-</li>
-<li className="top-level-link">
-
-
-     <Link to="/areas-of-emphasis" activeStyle={activeLinkStyle} partiallyActive={true} className="mega-menu"><span>Areas of Emphasis</span></Link>
-  <div className="sub-menu-block">
-    <div className="row">
-      <div className="col-lg-9">
-<p>Learn more about the four areas through which we support the full inclusion of people with disabilities in society. </p>
-      </div>
-
-      <div className="col-lg-3 border-start-lg">
-
-        <ul className="sub-menu-lists ms-1">
-          <li><Link to="/areas-of-emphasis/employment">Employment</Link></li>
-          <li><Link to="/areas-of-emphasis/education">Education</Link></li>
-          <li><Link to="/areas-of-emphasis/community">Community Life</Link></li>
-          <li><Link to="/areas-of-emphasis/healthcare">Health Care</Link></li>
-        </ul>
-      </div>
-    </div>
-
-
-
   </div>
 </li>
 <li className="top-level-link">

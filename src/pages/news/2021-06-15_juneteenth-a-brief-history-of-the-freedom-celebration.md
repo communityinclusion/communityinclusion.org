@@ -38,7 +38,7 @@ Even then, slavery did not end peacefully. Many Black people in America were not
 
 Many African American people in the US have been celebrating Juneteenth since its first anniversary in 1866. In Texas, the first celebration was named Jubilee Day.
 
-Traditionally, Juneteenth is a time for celebration, education, and sharing resources. In many of the early years during Reconstruction, freed people taught each other about voting and other rights. In 1867, Black leaders in Texas pooled funds to purchase land for Juneteenth celebrations, the first of which is known today as  [Emancipation Park](https://www.houstontx.gov/parks/parksites/emancipationpark.html)  in Houston.
+Traditionally, Juneteenth is a time for celebration, education, and sharing resources. In many of the early years during Reconstruction, freed people taught each other about voting and other rights. In 1867, Black leaders in Texas pooled funds to purchase land for Juneteenth celebrations, the first of which is known today as  [Emancipation Park](https://en.wikipedia.org/wiki/Emancipation_Park_(Houston))  in Houston.
 
 Over time, as Black people from Texas moved to other parts of the US, Juneteenth celebrations proliferated. People celebrate Juneteenth today with barbecue, soul food, picnics, street fairs, parades, stories, family gatherings, and more. Many people consider Juneteenth the real independence day.
 
@@ -67,8 +67,6 @@ Juneteenth is still not an official US holiday, but many groups led by Black wom
 · [Juneteenth and Women’s History ](https://womenatthecenter.nyhistory.org/juneteenth-and-womens-history/)
 
 · [The Root: This Is Why Juneteenth Is Important for America](https://www.youtube.com/watch?v=iu6ntwHws5g)
-
-· [Juneteenth in Fort Worth, TX](https://www.juneteenthftw.com/history-of-juneteenth)
 
 · [Juneteenth History](https://juneteenth.com/)
 

@@ -38,4 +38,4 @@ At 3:45pm ET,  **Alberto Migliore** and outside electronic documentation softwar
 
 At 3:45pm ET,  **Jaimie Timmons**  and  **John Butterworth**  are presenting “COVID-19 and Employment Supports: What Have We Learned” with their colleague Danielle Mahoehney from the  Institute on Community Integration, University of Minnesota. They will explore what we have learned from employment consultants who provided supports in this unprecedented time, and what implications their innovations have for employment support in the future.
 
-[Register today for #APSE2021 conference](https://apse.org/events-learning/annual-conference/).
+**Registration is now closed.**

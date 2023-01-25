@@ -152,7 +152,7 @@ plugins: [
         id: 'hss6qfr'
       },
       google: {
-        families: ['Open Sans', 'Open Sans Condensed']
+        families: ['Open Sans:300,400,700', 'Open Sans Condensed:300,700']
       }
     }
   },
@@ -249,7 +249,7 @@ plugins: [
     //     crumbLabelUpdates: optional, update specific crumbLabels in the path
    crumbLabelUpdates: [
      {
-        pathname: '/areas-of-emphasis',
+        pathname: '/about/areas-of-emphasis',
        crumbLabel: 'Areas of Emphasis',
   },
   {

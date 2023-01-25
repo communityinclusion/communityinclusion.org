@@ -26,8 +26,6 @@ In the third phase, students reflect again on their career pathways, job hunting
 
 Overall, Collable’s project aims to reduce turnover among newly employed youth with disabilities by ensuring that they have the skills, knowledge, and confidence to manage challenging times when they begin working at new companies.
 
-Register for our Dec. 9 (US) / Dec. 10 (Japan) webinar at: [https://tinyurl.com/4ebkmn5z](https://href.li/?https://tinyurl.com/4ebkmn5z)
-
 **少額助成金プログラム 受給者のご紹介  
 Collable**
 =================================
