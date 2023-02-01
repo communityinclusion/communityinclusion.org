@@ -28,7 +28,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
           <div class="card-body">
             <h5 class="card-title">Job Development Bundle</h5>
             <p>6-course bundle): $250 </p>
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Learn More and Enroll</a>
+            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-job-development-bundle" class="btn btn-primary">Learn More and Enroll</a>
               </p>
           </div>
         </div></div>
@@ -72,7 +72,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
           <div class="card-body">
             <h5 class="card-title">ACRE Supplement Bundle: 11-course bundle + Field Work</h5>
             <p>: $325 + $225 for field work.  </p>
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre" class="btn btn-primary">Learn More and Enroll</a> 
+            <p><a href="https://elearning.communityinclusion.org/browse/ces-acre/courses/ces-acre" class="btn btn-primary">Learn More and Enroll</a> 
            </p>
           </div>
         </div></div>
@@ -116,9 +116,10 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
     </div>
   </div>
   <div class="card">
-    <img src="transition_leadership.png" class="card-img-top" style="max-width: 600px;" alt="Transition Leadership">
+    <img src="transition_leadership.png" class="card-img-top" style="max-width: 600px;" alt="Transition  Program at UMass Boston">
     <div class="card-body">
-      <p class="card-text"><strong>Transition Leadership</strong> The Transition Leadership Program prepares current and prospective educators and professionals to help students with disabilities focus on employment, college preparation, and independent living skills during the critical transition from high school to adult life. Over the course of 18 months, our highly qualified instructors lead 5 evidence-based courses, and learners engage in a hands-on practicum experience. Graduates of our program are eligible to apply for a national certification from the Council for Exceptional Children’s Division on Career Development and Transition.</p>
-       <p>UMass Boston’s accredited transition specialist training is the #1 transition specialist training program in the Eastern US!</p>
+      <p class="card-text"><strong>The Transition Leadership Program</strong> prepares current and prospective educators and professionals to help students with disabilities focus on employment, college preparation, and independent living skills during the critical transition from high school to adult life. Over the course of 18 months, our highly qualified instructors lead 5 evidence-based courses, and learners engage in a hands-on practicum experience. Graduates of our program are eligible to apply for a national certification from the Council for Exceptional Children's Division on Career Development and Transition.</p>
+       <p>UMass Boston's accredited transition specialist training is the #1 transition specialist training program in the Eastern US!</p>
+       <p><a href="https://online.umb.edu/programs/transition_leadership_certificate">Learn more about the Transition Leadership Program at UMass Boston</a></p>
     </div>
   </div>

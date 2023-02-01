@@ -50,7 +50,7 @@ thumbnail: "../../images/ICI.png"
       <li>Networking</li>
       <li>Job Creation</li>
       </ol>
-      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">Learn More and Enroll</a></p>
+      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-job-development-bundle">Learn More and Enroll</a></p>
       </details></li>
     <li class="list-group-item"><details id="bpb">
       <summary><span class="green">Benefits Planning Bundle</span><br> (3-course bundle): $125</summary>
@@ -105,7 +105,7 @@ thumbnail: "../../images/ICI.png"
       <li>Networking</li>
       <li>Job Creation</li>
       </ol>
-      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">Learn More and Enroll</a> </p>
+      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces-acre/courses/ces-acre">Learn More and Enroll</a> </p>
     </details></li>
     <li class="list-group-item"> <details id="CCB">
       <summary><span class="green"> All-in-One CES Courses</span><br>(16-course bundle): $$$</summary> 
