@@ -30,8 +30,7 @@ Staff listing and contact details<!-- end -->
 | Lori       | Cooney            | (617) 287-4307 | <Lori.Cooney@umb.edu>                      | [View Profile](/about/staff-directory/lori-cooney)                |
 | Andrea     | Cooper            | (617) 287-4324 | <Andrea.Cooper@umb.edu>                    | [View Profile](/about/staff-directory/andrea-cooper)              |
 | Julisa     | Cully             | (617) 287-4386 | <Julisa.Cully@umb.edu>                     | [View Profile](/about/staff-directory/julisa-cully)               |
-| Odgerel    | Dashzeveg         |                | <Odgerel.Dashzeveg@umb.edu>                | [View Profile](/about/staff-directory/odgerel-dashzeveg)               |
-
+| Odgerel    | Dashzeveg   |  | <Odgerel.Dashzeveg@umb.edu>       | [View Profile](/about/staff-directory/odgerel-dashzeveg)               |
 | Vito       | DeSantis          |                | <Vito.DeSantis@umb.edu>                    | [View Profile](/about/staff-directory/vito-desantis)              |
 | Mary       | Di Biase          | (617) 571-6198 | <Mary.DiBiase@umb.edu>                     | [View Profile](/about/staff-directory/mary-di-biase)              |
 | Daria      | Domin             | (617) 287-4277 | <Daria.Domin@umb.edu>                      | [View Profile](/about/staff-directory/daria-domin)                |
