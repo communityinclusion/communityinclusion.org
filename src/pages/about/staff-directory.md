@@ -73,7 +73,6 @@ Staff listing and contact details<!-- end -->
 | Oliver     | Lyons             | (617) 287-4376 | <Oliver.Lyons@umb.edu>                     | [View Profile](/about/staff-directory/oliver-lyons)               |
 | Joe        | Marrone           | (503) 331-0687 | <Joseph.Marrone@gmail.com>                 | [View Profile](/about/staff-directory/joe-marrone)                |
 | Iris        | Martinez           | (617) 287-7265 | <Iris.Martinez@umb.edu>                 | [View Profile](/about/staff-directory/iris-martinez)                |
-
 | Robert     | McCulley          | (617) 287-7623 | <Robert.McCulley@umb.edu>                  | [View Profile](/about/staff-directory/bob-mcculley)               |
 | Pam        | McFarland         | (781) 241-7798 | <Pamela.McFarland@umb.edu>                 | [View Profile](/about/staff-directory/pam-mcfarland)              |
 | Caitlin    | McGovern          | (617) 287-7640 | <Caitlin.McGovern@umb.edu>                 | [View Profile](/about/staff-directory/caitlin-mcgovern)           |
