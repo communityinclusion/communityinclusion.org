@@ -14,9 +14,9 @@ thumbnail: "../../images/ICI.png"
       <p>- CES Learner</p>
     </blockquote>
     <h3 class="h5">What courses does CES offer?</h3>
-    <p>We offer 16 courses with over 50 lessons related to employment services. Explore our course bundle options!</p>   
+    <p>We offer 17 courses with over 50 lessons related to employment services. Explore our course bundle options!</p>   
 <h3 class="h5">How can I purchase CES courses?</h3>
-<p>You can choose from 6 course bundles, or you can purchase all 16 courses for your staff. Courses are available immediately after purchase.</p>
+<p>You can choose from 6 course bundles, or you can purchase all 17 courses for your staff. Courses are available immediately after purchase.</p>
 <ul>
 <li>You can register up to 9 staff at once for CES course bundles. (link to catalog)
 <li>Do you want to register you or your staff for individual courses? Learn more. (link to catalog where they can contact Berenise).
@@ -40,7 +40,7 @@ thumbnail: "../../images/ICI.png"
   <p> (click each for more details and to enroll)</p>
   <ul class="list-group">
     <li class="list-group-item"><details>
-      <summary id="jdb"><span class="green">Job Development Bundle</span><br> (6-course bundle): $250  </summary>
+      <summary id="jdb"><span class="green">Job Development Bundle</span><br> (5-course bundle): $250  </summary>
       <p>Learn about career planning, job-search techniques, networking strategies, the dual-customer approach, and understanding how to meet employers' unmet needs in these 6 courses:</p>
       <ol>
       <li>Principles of Career Development</li>
@@ -108,8 +108,8 @@ thumbnail: "../../images/ICI.png"
       <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces-acre/courses/ces-acre">Learn More and Enroll</a> </p>
     </details></li>
     <li class="list-group-item"> <details id="CCB">
-      <summary><span class="green"> All-in-One CES Courses</span><br>(16-course bundle): $$$</summary> 
-      <p>Purchase all 16 courses CES in one bundle. </p>
+      <summary><span class="green"> All-in-One CES Courses</span><br>(17-course bundle): $$$</summary> 
+      <p>Purchase all 17 courses CES in one bundle. </p>
       <p>See full course descriptions and enroll.</p>
       <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">Learn More and Enroll</a> </p>
       </details</li>

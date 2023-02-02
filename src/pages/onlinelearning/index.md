@@ -15,7 +15,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
     <div class="card-body">
       <p ><strong>College of Employment Services</strong> (CES) is for employment service providers who support people with disabilities to find fulfilling work.</p>
 <p>
-  We offer 16 self-guided courses. You can purchase all 16 courses at once or choose from 6 multi-course bundles. CES is based on Association of People Supporting Employment (APSE) Universal Employment Competencies and includes courses endorsed by the Association of Community Rehabilitation Educators (ACRE).
+  We offer 17 self-guided courses. You can purchase all 17 courses at once or choose from 6 multi-course bundles. CES is based on Association of People Supporting Employment (APSE) Universal Employment Competencies and includes courses endorsed by the Association of Community Rehabilitation Educators (ACRE).
 </p>       
 <h3 class="h5">Do you want to purchase CES course bundles for your staff? </h3>
 <p>You can purchase course bundles for up to 9 staff at once.</p>
@@ -27,7 +27,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
         <div class="col-md"><div class="card">
           <div class="card-body">
             <h5 class="card-title">Job Development Bundle</h5>
-            <p>6-course bundle): $250 </p>
+            <p>5-course bundle): $250 </p>
             <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-job-development-bundle" class="btn btn-primary">Learn More and Enroll</a>
               </p>
           </div>
@@ -70,8 +70,8 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
         </div></div>
         <div class="col-md"><div class="card">
           <div class="card-body">
-            <h5 class="card-title">ACRE Supplement Bundle: 11-course bundle + Field Work</h5>
-            <p>: $325 + $225 for field work.  </p>
+            <h5 class="card-title">ACRE Supplement Bundle 11-course bundle + Field Work</h5>
+            <p> $325 + $225 for field work.  </p>
             <p><a href="https://elearning.communityinclusion.org/browse/ces-acre/courses/ces-acre" class="btn btn-primary">Learn More and Enroll</a> 
            </p>
           </div>
@@ -81,8 +81,8 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
       <div class="row">
         <div class="col-md"><div class="card" >
           <div class="card-body">
-            <h5 class="card-title">All-course Bundle: 16-course bundle of all CES courses </h5>
-            <p>Purchase all 16 courses CES in one bundle.</p>
+            <h5 class="card-title">All-course Bundle: 17-course bundle of all CES courses </h5>
+            <p>Purchase all 17 courses CES in one bundle.</p>
             <p></p>
             <p><a href="http://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Learn More and Enroll</a></p>
           </div>
@@ -108,15 +108,16 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
       </a>
     </div>
   </div>
-  <div class="card">
-    <img src="ntct.png" class="card-img-top" style="max-width: 600px;" alt="National Training for Transformational Rehabilitation Leadership">
+  <div class="card"><a href="https://www.uwstout.edu/SVRI/NTCTRL">
+    <img src="ntct.png" class="card-img-top" style="max-width: 600px;" alt="National Training for Transformational Rehabilitation Leadership"></a>
     <div class="card-body">
       <p class="card-text"><strong>National Training for Transformational Rehabilitation Leadership</strong> This leadership enhancement training program is for current and aspiring vocational rehabilitation (VR) leaders. The training covers six domains of VR leadership across three semesters that each cullminate in a faciliated peer-to-peer learning collaborative. After the final semester, participants complete an applied experiential learning capstone project to practice their transformational leadership skills.</p>
       <p>Participants can complete all lessons asynchronously, with guidance and mentorship from experienced instructors and though community discussions with other aspiring leaders. After successfully completing the training program and capstone project, leaders can earn a nationally recognized Certified Rehabilitation Leader (CRL) credential from the CRCC.</p>
+      <p><a href="https://www.uwstout.edu/SVRI/NTCTRL">Learn more about the National Training for Transformational Rehabilitation Leadership</a></p>
     </div>
   </div>
-  <div class="card">
-    <img src="transition_leadership.png" class="card-img-top" style="max-width: 600px;" alt="Transition  Program at UMass Boston">
+  <div class="card"><a href="https://online.umb.edu/programs/transition_leadership_certificate">
+    <img src="transition_leadership.png" class="card-img-top" style="max-width: 600px;" alt="Transition  Program at UMass Boston"></a>
     <div class="card-body">
       <p class="card-text"><strong>The Transition Leadership Program</strong> prepares current and prospective educators and professionals to help students with disabilities focus on employment, college preparation, and independent living skills during the critical transition from high school to adult life. Over the course of 18 months, our highly qualified instructors lead 5 evidence-based courses, and learners engage in a hands-on practicum experience. Graduates of our program are eligible to apply for a national certification from the Council for Exceptional Children's Division on Career Development and Transition.</p>
        <p>UMass Boston's accredited transition specialist training is the #1 transition specialist training program in the Eastern US!</p>
