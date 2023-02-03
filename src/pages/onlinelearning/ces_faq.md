@@ -7,20 +7,20 @@ thumbnail: "../../images/ICI.png"
 ---
 <div class="row">
   <div class="col-lg-8">
-    <h3 class="h5">Is College of Employment Services right for my organization?</h3>
+    <h2 class="h5 card-title">Is College of Employment Services right for my organization?</h2>
     <p class="">The College of Employment Services (CES) courses have all the information learners need to feel confident, knowledgeable, and ready to work in employment services for people with disabilities. Our curriculum helps employment professionals learn employer engagement, job development and creation, and job retention skills leading to successful integrated and competitive employment outcomes. </p>
     <blockquote>
       <p class="h5"><i>“I was able to utilize both past and present experiences to work on the lessons. The instructions and lessons were very clear and straight forward. I was able to go about the lessons at my own pace.” </i></p>
       <p>- CES Learner</p>
     </blockquote>
-    <h3 class="h5">What courses does CES offer?</h3>
+    <h2 class="h5 card-title">What courses does CES offer?</h2>
     <p>We offer 17 courses with over 50 lessons related to employment services. Explore our course bundle options!</p>   
-<h3 class="h5">How can I purchase CES courses?</h3>
+<h2 class="h5 card-title">How can I purchase CES courses?</h2>
 <p>You can choose from 6 course bundles, or you can purchase all 17 courses for your staff. Courses are available immediately after purchase.</p>
 <ul>
-<li>You can register up to 9 staff at once for CES course bundles. (link to catalog)
-<li>Do you want to register you or your staff for individual courses? Learn more. (link to catalog where they can contact Berenise).
-<li>Explore your options to register 10 or more staff for CES courses by Direct Course (link to Direct Course).
+<li>You can register up to 9 staff at once for CES course bundles.
+<li>Do you want to register you or your staff for individual courses? When registering, select the "Bulk Purchase" option next the enroll button.
+<li>Explore your options to register 10 or more staff for CES courses by <a href="https://directcourseonline.com/employment-services/">Direct Course</a>.
 </ul>
 <div class="card border-success">
   <div class="card-body">
@@ -36,7 +36,7 @@ thumbnail: "../../images/ICI.png"
 </div>
   </div>
   <div class="col-lg-4">
-  <h2>Course Bundles</h2>
+  <h2 class="card-title">Course Bundles</h2>
   <p> (click each for more details and to enroll)</p>
   <ul class="list-group">
     <li class="list-group-item"><details>
@@ -117,7 +117,7 @@ thumbnail: "../../images/ICI.png"
   </div></div>
   <div class="row">
     <div class="col-lg-8">
-  <h3 class="h5">How long do learners have to complete the courses? </h3>
+  <h2 class="h5 card-title">How long do learners have to complete the courses? </h2>
 <p>All courses are available for up to 6 months after purchase. Learners can complete each lesson at the time and place of their choosing.</p>
     </div>
   </div>
