@@ -7,6 +7,11 @@ date: 2022-02-01
 posttype: "page"
 thumbnail: "../../images/ICI.png"
 ---
+
+  <img src="ici_acre.jpeg" alt="ACRE Logo">
+<p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre">Enroll in CES ACRE</a> </p>
+
+
 <p>College of Employment Services (CES) courses have all the information learners need to feel confident, knowledgeable, and ready to work in employment services for people with disabilities. </p>
 
 <h2 class="h3">What is ACRE? </h2>
