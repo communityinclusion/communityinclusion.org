@@ -22,7 +22,7 @@ thumbnail: "../../images/ICI.png"
 <li>Do you want to register you or your staff for individual courses? When registering, select the "Bulk Purchase" option next the enroll button.
 <li>Explore your options to register 10 or more staff for CES courses by <a href="https://directcourseonline.com/employment-services/">Direct Course</a>.
 </ul>
-<div class="card border-success">
+<div class="card border-success mb-3">
   <div class="card-body">
     <h5>CES course offerings are:</h5>
 <ul>
