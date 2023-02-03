@@ -82,7 +82,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
         <div class="col-md"><div class="card" >
           <div class="card-body">
             <h5 class="card-title">All-course Bundle: 17-course bundle of all CES courses </h5>
-            <p>Purchase all 17 courses CES in one bundle.</p>
+            <p>Purchase all 17 courses CES in one bundle: $345</p>
             <p></p>
             <p><a href="http://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Learn More and Enroll</a></p>
           </div>

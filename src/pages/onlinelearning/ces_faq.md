@@ -108,7 +108,7 @@ thumbnail: "../../images/ICI.png"
       <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces-acre/courses/ces-acre">Learn More and Enroll</a> </p>
     </details></li>
     <li class="list-group-item"> <details id="CCB">
-      <summary><span class="green"> All-in-One CES Courses</span><br>(17-course bundle): $$$</summary> 
+      <summary><span class="green"> All-in-One CES Courses</span><br>(17-course bundle): $345</summary> 
       <p>Purchase all 17 courses CES in one bundle. </p>
       <p>See full course descriptions and enroll.</p>
       <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">Learn More and Enroll</a> </p>
