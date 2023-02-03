@@ -129,7 +129,7 @@ const activeLinkStyle = {
   <Link to="/publications" activeStyle={activeLinkStyle} partiallyActive={true}><span>Publications</span></Link>
 </li>
 <li className="top-level-link">
-<Link to="/onlinelearning" activeStyle={activeLinkStyle} partiallyActive={true}><span>Online Learning</span></Link>
+<Link to="/onlinelearning/" activeStyle={activeLinkStyle} partiallyActive={true}><span>Online Learning</span></Link>
 </li>
 <li className="top-level-link d-lg-none">
  <Link to="/search" activeStyle={activeLinkStyle} partiallyActive={true}><span>Search</span></Link> 
