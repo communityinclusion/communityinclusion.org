@@ -9,11 +9,11 @@ thumbnail: "../../images/ICI.png"
 ---
 <div class="row ">
   <div class="col-sm-4 text-center"><p>
-    <a  href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre">
+    <a  href=" https://elearning.communityinclusion.org/browse/ces-acre">
     <img src="ici_acre.jpeg" alt="ACRE Logo"></a></p>
 </div>
   <div class="col-sm-8  align-self-center"><p class="lead blue"><strong>College of Employment Services (CES) courses have all the information learners need to feel confident, knowledgeable, and ready to work in employment services for people with disabilities.</strong> </p>
-  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre">Enroll in CES ACRE</a> </p>
+  <p><a class="btn btn-primary" href=" https://elearning.communityinclusion.org/browse/ces-acre">Enroll in CES ACRE</a> </p>
     </div>
 </div>
 <hr>
@@ -36,7 +36,7 @@ thumbnail: "../../images/ICI.png"
       </li>
     </ol>
     <p>After successfully completing this 2-part training series, learners will earn the nationally recognized ACRE Certificate, and their names will be added to the ACRE Certificate Registry.</p>
-    <p class="text-center"><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre">Enroll in CES ACRE</a> </p>
+   
 </div>
   <div class="col-sm-5">
     <div class="card border-success mb-3">
@@ -56,7 +56,7 @@ thumbnail: "../../images/ICI.png"
 
 
 <h2 class="h3 card-title">How can I get started? </h2>
-<p>If you manage staff, you can register up to 9 staff at once for the <a href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre">CES ACRE Supplement</a>. </p>
+<p>If you manage staff, you can register up to 9 staff at once for the <a href=" https://elearning.communityinclusion.org/browse/ces-acre">CES ACRE Supplement</a>. </p>
 
 <p>If you want to register 10 or more employees for the ACRE Supplement, explore the College of Employment Services for Group Sales offered by <a href="https://directcourseonline.com/employment-services/">Direct Course</a>. </p>
 
@@ -96,12 +96,10 @@ thumbnail: "../../images/ICI.png"
 <p>If you have any questions about the ACRE Supplement, email Lara Enein at <a href="mailto:lara.enein@umb.edu">lara.enein@umb.edu.</a></p>
 <hr>
 <div class="row ">
-  <div class="col-sm-4 text-center align-self-center">
-    <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre">Enroll in CES ACRE</a> </p>
-</div>
-  <div class="col-sm-8 ">
+  <div class="text-center align-self-center">
+    <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces-acre">Enroll in CES ACRE</a> </p>
     <p>
-      <a  href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre">
+      <a  href="https://elearning.communityinclusion.org/browse/ces-acre">
       <img src="ici_acre.jpeg" alt="ACRE Logo"></a></p>
     </div>
 </div>
