@@ -28,7 +28,7 @@ thumbnail: "../../images/ICI.png"
     <p>Your staff must complete the 2-part ACRE Supplement training to earn the nationally recognized ACRE certificate:</p>
     <ol>
       <li><strong>Part 1:</strong> Complete 11 CES courses. Pass the final quiz on each of the 11 courses with a score of 80% or higher.</li>
-      <li><strong>Part 2:</strong> : Complete the ACRE activities and field work. Participate in 8 hours of supplemental online learning activities: 
+      <li><strong>Part 2:</strong> Complete the ACRE activities and field work. Participate in 8 hours of supplemental online learning activities: 
         <ul>
         <li>attending three 30-minute-1-hour webinars </li>
         <li>providing employment services in your community (field work)</li>
