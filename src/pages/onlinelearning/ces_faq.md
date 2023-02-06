@@ -87,7 +87,7 @@ thumbnail: "../../images/ICI.png"
       </details></li>
     <li class="list-group-item"><details  id="ceb">
       <summary><span class="green"> Customized Employment Bundle</span><br>
-        (2-course bundle): $125 Coming Soon!</summary>
+        (2-course bundle): $125 Coming Soon! </summary>
       </details></li>
     <li class="list-group-item"><details id="acre">
       <summary><span class="green"> ACRE Supplement Bundle</span><br>11-course bundle + Field Work: $550</summary>
