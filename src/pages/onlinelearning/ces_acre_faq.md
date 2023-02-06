@@ -68,7 +68,7 @@ thumbnail: "../../images/ICI.png"
 
 
 <h2 class="h3 card-title">What courses are included in the ACRE Supplement bundle?</h2>
-<p>11-course ACRE Supplement bundle ($325) + Field Work ($220) </p>
+<p>11-course ACRE Supplement bundle + Field Work: $550 </p>
 <ol>
 <li>Foundations of Employment Services</li>
 <li>Principles of Career Development</li>
