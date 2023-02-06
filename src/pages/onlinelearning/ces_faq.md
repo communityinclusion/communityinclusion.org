@@ -38,7 +38,7 @@ thumbnail: "../../images/ICI.png"
   <div class="col-lg-4">
   <h2 class="card-title">Course Bundles</h2>
   <p> (click each for more details and to enroll)</p>
-  <ul class="list-group">
+  <ul class="list-group pb-2">
     <li class="list-group-item"><details>
       <summary id="jdb"><span class="green">Job Development Bundle</span><br> (5-course bundle): $250  </summary>
       <p>Learn about career planning, job-search techniques, networking strategies, the dual-customer approach, and understanding how to meet employers' unmet needs in these 6 courses:</p>
@@ -114,6 +114,7 @@ thumbnail: "../../images/ICI.png"
       <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">Learn More and Enroll</a> </p>
       </details</li>
   </ul>
+  <p class="text-center"><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces">Explore All CES Bundles</a> </p>
   </div></div>
   <div class="row">
     <div class="col-lg-8">
