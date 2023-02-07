@@ -493,6 +493,7 @@ h2.card-title {
   line-height: 1.5;
   border-bottom: 4px solid #1178ad;
   font-family: "Open Sans", sans-serif;
+  margin-bottom: 10px;
 }
 
 h2.card-title a {
@@ -753,6 +754,8 @@ main.main-content .posttemplate .post {
                     content: "\f07d";
               
                                     }
-summary {font-weight: 800;font-size:;}
+summary {font-weight: 800;}
 
-                                 
+details a.btn.btn-primary {
+  margin-top: 10px;
+}
