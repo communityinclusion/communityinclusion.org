@@ -18,8 +18,8 @@ thumbnail: "../../images/ICI.png"
 <h2 class="h5 card-title">How can I purchase CES courses?</h2>
 <p>You can choose from 6 course bundles, or you can purchase all 17 courses for your staff. Courses are available immediately after purchase.</p>
 <ul>
-<li><strong>You can register up to 9 staff at once for CES course bundles.</strong>
-<li>Do you want to register you or your staff for individual courses? When registering, select the "Bulk Purchase" option next the enroll button.
+<li><strong>You can register up to 9 staff at once for CES Individual Learner course bundles. When registering, select the <em>Bulk Purchase</em> option next the enroll button. </strong>
+<li>Do you want to register you or your staff for individual courses? 
 <li><strong>Explore your options to register 10 or more staff for CES courses by <a href="https://directcourseonline.com/employment-services/">Direct Course</a>.</strong>
 </ul>
 <div class="card border-success mb-3">
@@ -30,10 +30,12 @@ thumbnail: "../../images/ICI.png"
 <li>Designed to meet the needs of busy professionals: online platform is available 24/7</li>
 <li>Designed by Institute for Community Inclusion training personnel and based on best practices in the field</li>
 <li>Engaging learners through video case studies and a problem-based approach</li>
-<li>Edited by national subject matter</li>
+<li>Edited by national subject matter experts</li>
 </ul>
   </div>
 </div>
+<h2 class="h5 card-title">How long do learners have to complete the courses? </h2>
+<p>All courses are available for up to 12 months after purchase. Learners complete lessons at their own pace.</p>
   </div>
   <div class="col-lg-4">
   <h2 class="card-title">Course Bundles</h2>
@@ -116,9 +118,4 @@ thumbnail: "../../images/ICI.png"
   </ul>
   <p class="text-center"><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces">Explore All CES Bundles</a> </p>
   </div></div>
-  <div class="row">
-    <div class="col-lg-8">
-  <h2 class="h5 card-title">How long do learners have to complete the courses? </h2>
-<p>All courses are available for up to 6 months after purchase. Learners can complete each lesson at the time and place of their choosing.</p>
-    </div>
-  </div>
+ 
