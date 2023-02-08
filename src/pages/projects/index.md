@@ -325,7 +325,7 @@ Employment First Missouri</a>
 			</div>
 			<div class="col-md-9">
 			<div class="card-body">
-			<h2 class="card-title"><a href="https://youth-voice.org">
+			<h2 class="card-title"><a href="/projects/youthvoice">
 			The Center on Youth Voice, Youth Choice</a>
 			</h2>
 			<p>The Center on Youth Voice, Youth Choice is for youth with disabilities. You have the right to make your own decisions about your life!  At the Center on Youth Voice, Youth Choice, we work with you, your families, and your supporters. We do research, advocacy, and teaching about alternatives to guardianship.</p>

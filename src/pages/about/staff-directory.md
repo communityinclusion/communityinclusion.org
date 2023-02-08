@@ -30,11 +30,12 @@ Staff listing and contact details<!-- end -->
 | Lori       | Cooney            | (617) 287-4307 | <Lori.Cooney@umb.edu>                      | [View Profile](/about/staff-directory/lori-cooney)                |
 | Andrea     | Cooper            | (617) 287-4324 | <Andrea.Cooper@umb.edu>                    | [View Profile](/about/staff-directory/andrea-cooper)              |
 | Julisa     | Cully             | (617) 287-4386 | <Julisa.Cully@umb.edu>                     | [View Profile](/about/staff-directory/julisa-cully)               |
+| Odgerel    | Dashzeveg   |  | <Odgerel.Dashzeveg@umb.edu>       | [View Profile](/about/staff-directory/odgerel-dashzeveg)               |
 | Vito       | DeSantis          |                | <Vito.DeSantis@umb.edu>                    | [View Profile](/about/staff-directory/vito-desantis)              |
 | Mary       | Di Biase          | (617) 571-6198 | <Mary.DiBiase@umb.edu>                     | [View Profile](/about/staff-directory/mary-di-biase)              |
 | Daria      | Domin             | (617) 287-4277 | <Daria.Domin@umb.edu>                      | [View Profile](/about/staff-directory/daria-domin)                |
 | Jill       | Eastman           | (617) 287-4325 | <Jill.Eastman@umb.edu>                     | [View Profile](/about/staff-directory/jill-eastman)               |
-| Jeff       | Edelstein         |                | <jeffrey.edelstein@umb.edu>                             | [View Profile](/about/staff-directory/jeff-edelstein)               |
+| Jeff       | Edelstein         |                | <Jeffrey.Edelstein@umb.edu>                             | [View Profile](/about/staff-directory/jeff-edelstein)               |
 | Lara       | Enein-Donovan     |                | <Lara.Eneindonovan@umb.edu>                | [View Profile](/about/staff-directory/lara-enein-donovan)         |
 | Sheila     | Fesko             | (617) 287-4365 | <Sheila.Fesko@umb.edu>                     | [View Profile](/about/staff-directory/sheila-fesko)               |
 | Karen      | Flippo            | (617) 287-4344 | <Karen.Flippo@umb.edu>                     | [View Profile](/about/staff-directory/karen-flippo)               |
@@ -71,8 +72,7 @@ Staff listing and contact details<!-- end -->
 | Ashley     | Luce              | (617) 297-6797 | <Ashley.Luce@umb.edu>                      | [View Profile](/about/staff-directory/ashley-luce)                |
 | Oliver     | Lyons             | (617) 287-4376 | <Oliver.Lyons@umb.edu>                     | [View Profile](/about/staff-directory/oliver-lyons)               |
 | Joe        | Marrone           | (503) 331-0687 | <Joseph.Marrone@gmail.com>                 | [View Profile](/about/staff-directory/joe-marrone)                |
-| Iris        | Martinez           | (617) 287-7265 | <iris.martinez@umb.edu>                 | [View Profile](/about/staff-directory/iris-martinez)                |
-
+| Iris        | Martinez           | (617) 287-7265 | <Iris.Martinez@umb.edu>                 | [View Profile](/about/staff-directory/iris-martinez)                |
 | Robert     | McCulley          | (617) 287-7623 | <Robert.McCulley@umb.edu>                  | [View Profile](/about/staff-directory/bob-mcculley)               |
 | Pam        | McFarland         | (781) 241-7798 | <Pamela.McFarland@umb.edu>                 | [View Profile](/about/staff-directory/pam-mcfarland)              |
 | Caitlin    | McGovern          | (617) 287-7640 | <Caitlin.McGovern@umb.edu>                 | [View Profile](/about/staff-directory/caitlin-mcgovern)           |

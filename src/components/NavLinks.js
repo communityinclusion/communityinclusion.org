@@ -86,7 +86,7 @@ const activeLinkStyle = {
 <li><Link to="/projects/cle">Community Life Engagement</Link></li>
 <li><Link to="/projects/emp1stmo">Employment First Missouri</Link></li>
 <li><Link to="/projects/maicei">MAICEI</Link></li>
-
+<li><Link to="/projects/youthvoice">CYVYC</Link></li>
 
         </ul>
       </div>

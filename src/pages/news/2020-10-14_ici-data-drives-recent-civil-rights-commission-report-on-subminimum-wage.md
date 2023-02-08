@@ -16,6 +16,6 @@ With this new report, the USCCR is calling for the end of Section 14(C), acknow
 
 [This NPR story](https://www.npr.org/2020/09/17/912840482/u-s-agency-urges-end-to-below-minimum-wage-for-workers-with-disabilities) breaks down the history of 14(C) and the controversy around it in the disability community.
 
-The new report draws heavily from ICI research, including the [StateData Blue Book](https://www.statedata.info/),an annual report about employment outcomes for people with IDD. The ICI’s John Butterworth, along with former [Gopen Fellows](https://www.mass.gov/how-to/apply-for-the-gopen-fellowship) [John Anton](https://www.facebook.com/watch/?v=2705766479488137) and [Finn Gardiner](https://heller.brandeis.edu/lurie/about/gardiner.html), [testified before Congress](https://www.facebook.com/communityinclusion/posts/10164632817585352) on this issue last November.
+The new report draws heavily from ICI research, including the [StateData Blue Book](https://www.statedata.info/),an annual report about employment outcomes for people with IDD. The ICI’s John Butterworth, along with former [Gopen Fellows](https://www.mass.gov/how-to/apply-for-the-gopen-fellowship) [John Anton](https://www.facebook.com/watch/?v=2705766479488137) and [Finn Gardiner](https://www.hsri.org/leadership/finn-gardiner), [testified before Congress](https://www.facebook.com/communityinclusion/posts/10164632817585352) on this issue last November.
 
 We are glad to see progress on the federal level around this important issue!
