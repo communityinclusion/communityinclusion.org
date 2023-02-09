@@ -28,6 +28,7 @@ https://communityinclusion.org/article.php?article_id=251 https://archive.commun
 /pdf/TO31_F.pdf https://archive.communityinclusion.org/pdf/TO31_F.pdf
 
 # General Redirects
+/ces/   /onlinelearning/ces_faq/
 /pdf/* /:splat
 /word/* /:splat
 /staff.php /about/staff-directory 
