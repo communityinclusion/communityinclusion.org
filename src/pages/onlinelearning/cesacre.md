@@ -1,8 +1,7 @@
 ---
 title: "College of Employment Services:
-What is the ACRE Supplement?
-"
-path: "/onlinelearning/ces_acre_faq"
+What is the ACRE Supplement?"
+path: "/onlinelearning/cesacre"
 date: 2022-02-01
 posttype: "page"
 thumbnail: "../../images/ICI.png"
@@ -86,7 +85,7 @@ thumbnail: "../../images/ICI.png"
 </ol>
 
 <h2 class="h3 card-title">Can my staff take CES courses without the ACRE Supplement?</h2>
-<p>Yes. You can purchase different CES course bundles. <a href="/onlinelearning/ces_faq/">Learn more about our CES courses</a>.</p>
+<p>Yes. You can purchase different CES course bundles. <a href="/onlinelearning/ces/">Learn more about our CES courses</a>.</p>
 
 <ul>
   <li>Staff cannot take Part 2 of the ACRE Supplement by itself without having completed Part 1</li>

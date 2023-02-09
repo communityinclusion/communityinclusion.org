@@ -17,7 +17,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
 <p>
   We offer 17 self-guided courses. You can purchase all 17 courses at once or choose from 6 multi-course bundles. CES is based on Association of People Supporting Employment (APSE) Universal Employment Competencies and includes courses endorsed by the Association of Community Rehabilitation Educators (ACRE).
 </p>       
-<p><a href="ces_faq"><strong>Learn More about CES and our Course Bundles</strong></a>.</p>
+<p><a href="ces/"><strong>Learn More about CES and our Course Bundles</strong></a>.</p>
 <p><strong>You can purchase course bundles for up to 9 staff at once.</strong></p>
 <p>
   <a data-bs-toggle="collapse" class="btn btn-primary" href="#collapseCES" role="button" aria-expanded="false" aria-controls="collapseCES">Choose Your Course Bundle</a></strong> </p>
