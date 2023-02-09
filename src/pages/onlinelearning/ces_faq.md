@@ -35,6 +35,7 @@ thumbnail: "../../images/ICI.png"
 </div>
 <h2 class="h5 card-title">How long do learners have to complete the courses? </h2>
 <p>All courses are available for up to 12 months after purchase. Learners complete lessons at their own pace.</p>
+<img src="ces.png" class="card-img-top" style="max-width: 600px;" alt="College of Employment Services">
   </div>
   <div class="col-lg-4">
   <h2 class="card-title">Course Bundles</h2>

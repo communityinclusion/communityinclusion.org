@@ -11,7 +11,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
 <div class="d-grid gap-3">
 
 <div class="card">
-    <img src="ces.png" class="card-img-top" style="max-width: 600px;" alt="College of Employment Resources">
+    <img src="ces.png" class="card-img-top" style="max-width: 600px;" alt="College of Employment Services">
     <div class="card-body">
       <p ><strong>College of Employment Services</strong> (CES) is for employment service providers who support people with disabilities to find fulfilling work.</p>
 <p>
