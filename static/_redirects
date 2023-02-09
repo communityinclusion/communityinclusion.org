@@ -30,6 +30,7 @@ https://communityinclusion.org/article.php?article_id=251 https://archive.commun
 # General Redirects
 /ces/   /onlinelearning/ces/
 /cesil/ /onlinelearning/ces/
+/cesacre/   /onlinelearning/cesacre/
 /pdf/* /:splat
 /word/* /:splat
 /staff.php /about/staff-directory 
