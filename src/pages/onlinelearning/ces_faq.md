@@ -14,12 +14,11 @@ thumbnail: "../../images/ICI.png"
       <p>- CES Learner</p>
     </blockquote>
     <h2 class="h5 card-title">What courses does CES offer?</h2>
-    <p>We offer 17 courses with over 50 lessons related to employment services. Explore our course bundle options!</p>   
+    <p>We offer 17 courses with over 60 lessons related to employment services. Explore our course bundle options!</p>   
 <h2 class="h5 card-title">How can I purchase CES courses?</h2>
 <p>You can choose from 6 course bundles, or you can purchase all 17 courses for your staff. Courses are available immediately after purchase.</p>
 <ul>
 <li><strong>You can register up to 9 staff at once for CES Individual Learner course bundles. When registering, select the <em>Bulk Purchase</em> option next the enroll button. </strong>
-<li>Do you want to register you or your staff for individual courses? 
 <li><strong>Explore your options to register 10 or more staff for CES courses by <a href="https://directcourseonline.com/employment-services/">Direct Course</a>.</strong>
 </ul>
 <div class="card border-success mb-3">
@@ -42,7 +41,7 @@ thumbnail: "../../images/ICI.png"
   <p> (click each for more details and to enroll)</p>
   <ul class="list-group pb-2">
     <li class="list-group-item"><details>
-      <summary id="jdb"><span class="green">Job Development Bundle</span><br> (5-course bundle): $250  </summary>
+      <summary id="jdb"><span class="green">Job Development Bundle</span><br> (6-course bundle): $250  </summary>
       <p>Learn about career planning, job-search techniques, networking strategies, the dual-customer approach, and understanding how to meet employers' unmet needs in these 6 courses:</p>
       <ol>
       <li>Principles of Career Development</li>
@@ -77,7 +76,7 @@ thumbnail: "../../images/ICI.png"
       <p><a href="http://elearning.communityinclusion.org/browse/ces/courses/ces-job-coaching" class="btn btn-primary">Learn More and Enroll</a></p>
       </details></li>
     <li class="list-group-item"><details id="wspb">
-      <summary><span class="green">Working with Specific Populations Bundle</span> <br>(4-course bundle): $125</summary>
+      <summary><span class="green">Working with Specific Populations Bundle</span> <br>(4-course bundle): $175</summary>
       <p>Learn about working with youth in transition planning, approaches to effective job development for people with mental health disabilities, strategies for facilitating successful job outcomes for people with disabilities and criminal histories, and what to consider when providing employment services to Autistic job seekers in these 4 courses:</p>
       <ol>
       <li>Transition: Preparing for a Seamless Move from School to Adult Life</li>

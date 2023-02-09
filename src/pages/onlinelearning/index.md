@@ -26,7 +26,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
         <div class="col-md"><div class="card">
           <div class="card-body">
             <h5 class="card-title">Job Development Bundle</h5>
-            <p>5-course bundle: $250 </p>
+            <p>6-course bundle: $250 </p>
             <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-job-development-bundle" class="btn btn-primary">Learn More and Enroll</a>
               </p>
           </div>
@@ -53,7 +53,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
         <div class="col-md"><div class="card">
           <div class="card-body">
             <h5 class="card-title">Working with Specific Populations Bundle</h5>
-            <p>4-course bundle: $125 </p>
+            <p>4-course bundle: $175 </p>
             <p><a href="http://elearning.communityinclusion.org/browse/ces/courses/ces-working-with-specific-populations" class="btn btn-primary">Learn More and Enroll</a>
             </p>
           </div>
