@@ -285,20 +285,23 @@ footer a:hover {
   #banner-text {
     font-size: 2rem;
     text-align: left;
+    line-height: 2.2rem;
   }
 }
 
-@media screen  (min-width: 381px) and (max-width: 480px) {
+@media screen and (min-width: 381px) and (max-width: 480px) {
   #banner-text {
     font-size: 2.2rem;
     text-align: left;
+    line-height: 2.4rem;
   }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   #banner-text {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     text-align: left;
+    line-height: 2.8rem;
   }
 }
 
@@ -306,6 +309,7 @@ footer a:hover {
   #banner-text {
     font-size: 3rem;
     text-align: left;
+    line-height: 3.2rem;
   }
 }
 
@@ -313,6 +317,7 @@ footer a:hover {
   #banner-text {
     font-size: 3.5rem;
     text-align: left;
+    line-height: 3.7rem;
   }
 }
 #banner-tagline {
