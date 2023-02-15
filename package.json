@@ -90,7 +90,7 @@
       "remark": "^14.0.1",
       "remark-html": "^14.0.0",
       "sass": "^1.43.4",
-      "sharp": "^0.28.3",
+      "sharp": "^0.30.5",
       "slate-react": "^0.65.3",
       "striptags": "^3.1.1",
       "styled-components": "^5.1.0",
