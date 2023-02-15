@@ -21,7 +21,7 @@ const Header = () => (
 
     <div className = "container-xxl header" >
     <div className = "row px-3 py-3" >
-    <div className = "col-lg-2 col-sm-2 col-2 mt-2" >
+    <div className = "col-lg-2 col-sm-3 col-3 mt-2" >
     <Link to= "/" className = "d-table-cell align-middle mid-gray link "
     title = "Home" >
   <img className = "img-fluid"
@@ -32,7 +32,7 @@ const Header = () => (
     </Link> 
     </div> 
     
-    <div className = "col-lg-7 col-sm-10 col-10  ps-2 my-auto" >
+    <div className = "col-lg-7 col-sm-9 col-9  ps-2 my-auto" >
     <p id="banner-text" className = "dark-blue mb-2"  >
     Institute
     for Community Inclusion </p>

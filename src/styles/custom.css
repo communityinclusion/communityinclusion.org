@@ -283,36 +283,38 @@ footer a:hover {
 
 @media screen and (max-width: 380px) {
   #banner-text {
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: left;
   }
 }
 
-@media screen and (min-width: 381px) and (max-width: 480px) {
+@media screen  (min-width: 381px) and (max-width: 480px) {
   #banner-text {
-    font-size: 1rem;
+    font-size: 2.2rem;
     text-align: left;
   }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   #banner-text {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    text-align: left;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1028px) {
   #banner-text {
-    font-size: 2rem;
+    font-size: 3rem;
+    text-align: left;
   }
 }
 
 @media screen and (min-width: 1029px) {
   #banner-text {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    text-align: left;
   }
 }
-
 #banner-tagline {
   font-family: myriad-pro-condensed, "Open Sans Condensed", sans-serif;
   font-weight: 400;
