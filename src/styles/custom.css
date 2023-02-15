@@ -283,9 +283,9 @@ footer a:hover {
 
 @media screen and (max-width: 380px) {
   #banner-text {
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: left;
-    line-height: 2.2rem;
+    line-height: 1.8rem;
   }
 }
 
