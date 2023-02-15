@@ -677,6 +677,7 @@ main.main-content .posttemplate .post {
   background-color: #1178ad;
   padding: 10px;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .post-meta {
