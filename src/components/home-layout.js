@@ -18,7 +18,6 @@ import Navbar from "./navbar"
 import Header from "./header"
 import Image from "../components/image"
 import Footer from "../components/footer"
-import Message from "../components/message"
 import Helmet from "react-helmet"
 import './post.css'
 import './tags.css'
@@ -39,7 +38,6 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-      <Message />
       <Helmet>
           
 

@@ -283,36 +283,43 @@ footer a:hover {
 
 @media screen and (max-width: 380px) {
   #banner-text {
-    font-size: 1rem;
+    font-size: 1.6rem;
     text-align: left;
+    line-height: 1.8rem;
   }
 }
 
 @media screen and (min-width: 381px) and (max-width: 480px) {
   #banner-text {
-    font-size: 1rem;
+    font-size: 2.1rem;
     text-align: left;
+    line-height: 2.3rem;
   }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   #banner-text {
-    font-size: 1.5rem;
+    font-size: 2.6rem;
+    text-align: left;
+    line-height: 2.8rem;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1028px) {
   #banner-text {
-    font-size: 2rem;
+    font-size: 3rem;
+    text-align: left;
+    line-height: 3.2rem;
   }
 }
 
 @media screen and (min-width: 1029px) {
   #banner-text {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    text-align: left;
+    line-height: 3.7rem;
   }
 }
-
 #banner-tagline {
   font-family: myriad-pro-condensed, "Open Sans Condensed", sans-serif;
   font-weight: 400;
@@ -670,6 +677,7 @@ main.main-content .posttemplate .post {
   background-color: #1178ad;
   padding: 10px;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .post-meta {
