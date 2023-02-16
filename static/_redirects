@@ -39,4 +39,4 @@ https://communityinclusion.org/article.php?article_id=251 https://archive.commun
 /areas-of-emphasis/* /about/areas-of-emphasis/:splat
 
 #Redirect subdomains
-https://cesacre.communityinclusion.org https://communityinclusion.org/onlinelearning/cesacre/
+http://cesacre.communityinclusion.org https://communityinclusion.org/onlinelearning/cesacre/
