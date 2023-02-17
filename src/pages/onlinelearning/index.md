@@ -7,7 +7,7 @@ thumbnail: "../../images/ICI.png"
 ---
 Welcome to ICI Online Learning! Our online trainings include a variety of interactive and customizable self-guided courses for employment service providers, vocational rehabilitation leadership, transition specialists, school administrators, and other disability services professionals across the US. Our courses use engaging video case studies to illustrate best practices in providing disability services, supports, and leadership.
 
-ICI Online Learning has everything you need to feel confident, knowledgeable, and ready to work in the disability field. Click each box below to explore our course offerings. test.
+ICI Online Learning has everything you need to feel confident, knowledgeable, and ready to work in the disability field. Click each box below to explore our course offerings.
 <div class="d-grid gap-3">
 
 <div class="card">
