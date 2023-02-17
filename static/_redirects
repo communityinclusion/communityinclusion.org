@@ -40,4 +40,4 @@ https://communityinclusion.org/article.php?article_id=251 https://archive.commun
 
 #Redirect subdomains
 http://www.consulting.communityinclusion.org/PE https://www.explorevr.org/progressive-employment
-https://cesacre.communityinclusion.org/* https://communityinclusion.org/onlinelearning/cesacre/:splat 301!
+*cesacre.communityinclusion.org/* https://communityinclusion.org/onlinelearning/cesacre/:splat 301!
