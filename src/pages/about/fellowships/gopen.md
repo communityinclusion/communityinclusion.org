@@ -5,7 +5,7 @@ path: "/fellowships/gopen"
 posttype: "page"
 ---
 
-<h2><strong><em>Now Accepting Applications&nbsp;</em></strong></h2>
+<h2 class="text-center"><strong>Now Accepting Applications</strong></h2>
 <h3 class="section-heading-bb">What is the Barbara Wilensky Gopen Memorial Fellowship?&nbsp;</h3>
 <p>The Massachusetts Developmental Disabilities Network created the Barbara Wilensky Gopen Memorial Fellowship in 2001. The fellowship honors Barbara Wilensky Gopen. Barbara Wilensky Gopen was a disability advocate.&nbsp;</p>
 <p>The Gopen Fellowship is for individuals with developmental disabilities. If you are accepted into the fellowship, you will be called a Gopen Fellow.&nbsp;</p>
