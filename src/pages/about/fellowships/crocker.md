@@ -79,11 +79,11 @@ thumbnail: '../../images/ICI.png'
 <p>3. Include three letters of reference from people who have worked with you&nbsp;</p>
 <p>4. Email your proposal, resume, and three letters of reference to Berenise Reyes-Albino at <a href="mailto:Berenise.albino@umb.edu">Berenise.albino@umb.edu</a><strong>. </strong>Your email subject line should be: &ldquo;Crocker Fellowship - (your last name)&rdquo; <strong>by April 21 at 5pm.&nbsp;</strong></p>
 <h3 class="section-heading-bb ">Important Dates&nbsp;</h3>
-<p>Application deadline:&nbsp; <strong>April 21, 2023 5:00pm&nbsp;</strong></p>
-<p>Begin interviewing finalists:&nbsp; <strong>May 2023 </strong></p>
-<p>Winner announced:&nbsp; <strong>June, 2023 </strong></p>
-<p>Fellowship begins: <strong>July, 2023</strong></p>
-<p>Fellowship ends: <strong>June 30,&nbsp;2024&nbsp;</strong></p>
+<p><i class="fa fa-calendar" aria-hidden="true"></i> Application deadline:&nbsp; <strong>April 21, 2023 5:00pm&nbsp;</strong></p>
+<p><i class="fa fa-calendar" aria-hidden="true"></i> Begin interviewing finalists:&nbsp; <strong>May 2023 </strong></p>
+<p><i class="fa fa-calendar" aria-hidden="true"></i> Winner announced:&nbsp; <strong>June, 2023 </strong></p>
+<p><i class="fa fa-calendar" aria-hidden="true"></i> Fellowship begins: <strong>July, 2023</strong></p>
+<p><i class="fa fa-calendar" aria-hidden="true"></i> Fellowship ends: <strong>June 30,&nbsp;2024&nbsp;</strong></p>
 <h3 class="section-heading-bb ">How do you decide who will get to be the 2023-2024 Allen C. Crocker Family Fellow?&nbsp;</h3>
 <p>We will review all fellowship applications. We will decide who is the fellow based on:&nbsp;</p>
 <ul>

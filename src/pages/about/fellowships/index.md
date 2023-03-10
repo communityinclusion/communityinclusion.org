@@ -15,7 +15,7 @@ thumbnail: '../../images/ICI.png'
 <img src="../../images/ICI.png" class="db" alt="employment" />
 	</div>
 	<div class="col-md-9">
-	<h2 class="card-title"><a href="/about/fellowships/gopen.md">
+	<h2 class="card-title"><a href="/about/fellowships/gopen">
 Gopen Fellowship
 </a></h2>
 <p class="card-text">

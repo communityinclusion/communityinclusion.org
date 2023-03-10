@@ -684,6 +684,12 @@ main.main-content .posttemplate .post {
   margin-left: auto;
 }
 
+
+.main-content a {
+  font-weight:500;
+}
+
+
 .twitterWrap {
   background-color: #1178ad;
   padding: 10px;

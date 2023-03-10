@@ -87,7 +87,7 @@ excerpt: "The Institute for Community Inclusion at UMass Boston supports the rig
 <div class="card-body">
         
    <h2 class="card-title"><a class="link dt w-100 mt-2 dark-blue" href="/about/fellowships">Fellowships</a></h2>
-       <p class="card-text"> </p> 
+       <p class="card-text">See all available fellowships and apply today! </p> 
 </div>
 </div>
 </div>
