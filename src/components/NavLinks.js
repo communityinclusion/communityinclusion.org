@@ -34,12 +34,12 @@ const activeLinkStyle = {
           <li><Link to="/about" role="button" aria-haspopup="true">About the ICI</Link></li>
           <li><Link to="/about/history">History of ICI</Link></li>
           <li><Link to="/about/mission">Mission and Vision</Link></li>
-
           <li><Link to="/about/areas-of-emphasis">Areas of Emphasis</Link></li>
           <li><Link to="/about/what-we-mean-when-we-talk-about-inclusion">What We Mean When We Talk About Inclusion</Link></li>
           <li><Link to="/about/staff-directory">Staff Directory</Link></li>
             <li><Link to="/about/directions">Directions</Link></li>
             <li><Link to="/about/glossary">Glossary</Link></li>
+            <li><Link to="/about/fellowships">Fellowships</Link></li>
             <li><Link to="/jobs">Jobs at ICI</Link></li>
               <li><Link to="/about/contact">Contact</Link></li>
         </ul>
