@@ -8,7 +8,7 @@ thumbnail: "../../images/ICI.png"
 ---
 
 
-Our Barbara Wilensky Gopen Memorial Fellowship and Allen C. Crocker Family Fellowship are part-time fellowship programs. Fellows work independently for 20 hours per week on projects of their choice and attend trainings and events to learn about disability advocacy, services, and policy. 
+Our Barbara Wilensky Gopen Memorial Fellowship and Allen C. Crocker Family Fellowship are part-time fellowship programs. Fellows work independently for up to 20 hours per week on projects of their choice and attend trainings and events to learn about disability advocacy, services, and policy. 
 
 Both fellowships begin in July 2023 and end on June 30, 2024. Fellows can work remotely, but they must be Massachusetts residents.  
 
