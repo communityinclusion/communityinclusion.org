@@ -60,7 +60,7 @@ College of Employment Services</a></h2>
 <img src="../../images/services-acre_logo.png" class="d-block" alt = "CES/ACRE"/>
 </div>
 <div class="col-md-9">
-<h2 class="card-title"><a href="https://cesacre.communityinclusion.org/"> 
+<h2 class="card-title"><a href="/onlinelearning/cesacre/"> 
 	CES/ACRE</a></h2>
 <p>Professionals who complete courses from the College of Employment Services can receive additional instruction to gain ACRE certification. </p>
 </div>

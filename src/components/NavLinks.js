@@ -111,7 +111,7 @@ const activeLinkStyle = {
           <li><a href="https://consulting.communityinclusion.org/">ICI Consulting</a></li>
           <li><a href="https://employmentservices.communityinclusion.org/">ICI Employment Services</a></li>
            <li><a href="https://www.directcourseonline.com/employment-services/">College of Employment Services</a></li>
-            <li><a href="https://cesacre.communityinclusion.org/">CES/ACRE</a></li>
+            <li><a href="/onlinelearning/cesacre/">CES/ACRE</a></li>
 
 
         </ul>
