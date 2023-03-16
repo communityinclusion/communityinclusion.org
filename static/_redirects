@@ -39,6 +39,6 @@ https://communityinclusion.org/article.php?article_id=251 https://archive.commun
 /areas-of-emphasis/* /about/areas-of-emphasis/:splat
 
 #Redirect subdomains
-https://cesacre.communityinclusion.org/*    https://communityinclusion.org/onlinelearning/cesacre/:splat 301!
+https://cesacre.communityinclusion.org/*    https://communityinclusion.org/cesacre/:splat 301!
 http://www.consulting.communityinclusion.org/PE https://www.explorevr.org/progressive-employment
 http://dev.communityinclusion.org/*   https://dev--icibeta.netlify.app/:splat 301!
