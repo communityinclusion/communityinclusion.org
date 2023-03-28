@@ -316,7 +316,7 @@ footer a:hover {
 @media screen and (min-width: 1029px) {
   #banner-text {
     font-size: 3.5rem;
-    text-align: left;
+   /* text-align: left;*/
     line-height: 3.7rem;
   }
 }
