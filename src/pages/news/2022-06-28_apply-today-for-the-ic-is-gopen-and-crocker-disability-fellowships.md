@@ -4,7 +4,7 @@ description: ""
 path: "/2022-06-28_apply-today-for-the-ic-is-gopen-and-crocker-disability-fellowships.md"
 tags: ['gopen fellow','gopen fellowship','Crocker Fellowship','crocker fellow','Institute for Community Inclusion']
 posttype: "news"
-thumbnail: "../../images/ICI.png"
+thumbnail: "../../images/ici-fellowships.png"
 ---
 
 

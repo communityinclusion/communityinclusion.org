@@ -44,6 +44,7 @@ Staff listing and contact details<!-- end -->
 | Suzzanne   | Freeze            | (617) 287-4395 | <Suzzanne.Freeze@umb.edu>                  | [View Profile](/about/staff-directory/suzzanne-freeze)            |
 | Cecilia    | Gandolfo          | (617) 287-4342 | <Cecilia.Gandolfo@umb.edu>                 | [View Profile](/about/staff-directory/cecilia-gandolfo)           |
 | Juan       | Gaspar            | (617) 287-4326 | <Juan.Gaspar@umb.edu>                      | [View Profile](/about/staff-directory/juan-gaspar)                |
+| J      | Gibbs           | (617) 297-4786 | <j.gibbs@umb.edu>                      | [View Profile](/about/staff-directory/j-gibbs)                |
 | Beverley    | Gilligan         |                | <Beverley.Gilligan@childrens.harvard.edu>   | [View Profile](/about/staff-directory//beverley-gilligan)           |
 | Meg        | Grigal            |                | <Meg.Grigal@umb.edu>                       | [View Profile](/about/staff-directory/meg-grigal)                 |
 | Kelly      | Haines            | (617) 287-5907 | <Kelly.Haines@umb.edu>                     | [View Profile](/about/staff-directory/kelly-haines)               |
@@ -96,6 +97,7 @@ Staff listing and contact details<!-- end -->
 | Arin       | Rook              |                | <arin.rook@umb.edu>                       | [View Profile](/about/staff-directory/arin-rook )             |
 | Kara       | Sexton            |                | <kara.sexton@umb.edu>                          | [View Profile](/about/staff-directory/kara-sexton )             |
 | John       | Shepard           | (480) 819-6299 | <John.Shepherd@umb.edu>                    | [View Profile](/about/staff-directory/john-shepard)               |
+| Carl-Olivier   | Sidney            |  | <CarlOlivier.Sidn001@umb.edu>                    | [View Profile](/about/staff-directory/carl-olivier-sidney)               |
 | Kaitlyn    | Siner-Cappas      | (617) 287-3070 | <Kaitlyn.Siner@umb.edu>                    | [View Profile](/about/staff-directory/kaitlyn-siner-cappas)       |
 | Chelsea    | Stinnett          |                | <chelsea.stinnett@umb.edu>                 | [View Profile](/about/staff-directory/chelsea-stinnett)           |
 | Jennifer   | Sullivan Sulewski |                | <Jennifer.Sulewski@umb.edu>                | [View Profile](/about/staff-directory/jennifer-sullivan-sulewski) |
