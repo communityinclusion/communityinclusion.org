@@ -43,7 +43,7 @@ A collaborative effort with the  [Access to Integrated Employment project](http:
 
 ## Project Team
 
-[Jennifer Sullivan Sulewski](mailto:jennifer.sulewski@umb.edu), Principal Investigator
+[Jennifer Sullivan Sulewski], Principal Investigator
 
 [Jaimie Timmons](mailto:jaimie.timmons@umb.edu), Senior Research Associate
 
@@ -51,6 +51,4 @@ A collaborative effort with the  [Access to Integrated Employment project](http:
 
 [Oliver Lyons](mailto:oliver.lyons@umb.edu), Research Study Coordinator
 
-[Miwa Tanabe](mailto:miwa.tanabe@umb.edu), Program Coordinator
-
-[Hannah Curren](mailto:hcurren11@gmail.com), Graduate Assistant
+[Staci Jones](mailto:mailto:Staci.Jones@umb.edu), Senior Technical Assistance and Policy Associate
