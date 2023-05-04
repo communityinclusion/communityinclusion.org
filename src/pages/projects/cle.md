@@ -51,4 +51,5 @@ A collaborative effort with the  [Access to Integrated Employment project](http:
 
 [Oliver Lyons](mailto:oliver.lyons@umb.edu), Research Study Coordinator
 
+For more information on ICI's work on community life engagement contact:  
 [Staci Jones](mailto:mailto:Staci.Jones@umb.edu), Senior Technical Assistance and Policy Associate
