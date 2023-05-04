@@ -43,7 +43,7 @@ A collaborative effort with the  [Access to Integrated Employment project](http:
 
 ## Project Team
 
-[Jennifer Sullivan Sulewski], Principal Investigator
+Jennifer Sullivan Sulewski, Principal Investigator
 
 [Jaimie Timmons](mailto:jaimie.timmons@umb.edu), Senior Research Associate
 
