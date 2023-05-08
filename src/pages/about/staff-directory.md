@@ -83,6 +83,7 @@ Staff listing and contact details<!-- end -->
 | Susanna    | Miller-Raines     |                | <Susanna.Millerraines@umb.edu>              | [View Profile](/about/staff-directory/susanna-miller-raines)           |
 | DeBrittany | Mitchell          | N/A            | <DeBrittany.Mitchell@umb.edu>              | [View Profile](/about/staff-directory/debrittany-mitchell)        |
 | Linda      | Mock              | (971) 506-4632 | <Linda.Mock@umb.edu>                       | [View Profile](/about/staff-directory/linda-mock)                 |
+| Jamie    | Morrison             |  | <jamie.morrison@umb.edu>                       | [View Profile](/about/staff-directory/jamie-morrison)                 |
 | Kerim      | Munir             | (617) 355-7166 | <Kerim.Munir@childrens.harvard.edu>        | [View Profile](/about/staff-directory/kerim-munir)                |
 | Maria      | Paiewonsky        | (617) 287-7697 | <Maria.Paiewonsky@umb.edu>                 | [View Profile](/about/staff-directory/maria-paiewonsky)           |
 | Clare      | Papay             | (857) 271-9145 | <Clare.Papay@umb.edu>                     | [View Profile](/about/staff-directory/clare-papay)                |
@@ -95,6 +96,7 @@ Staff listing and contact details<!-- end -->
 | Berenise   | Reyes-Albino      | (617) 287-4314 | <Berenise.Albino@umb.edu>                  | [View Profile](/about/staff-directory/berenise-reyes-albino)      |
 | Danielle   | Roberts-Dahm      |                | <Danielle.Dahm@umb.edu>                   | [View Profile](/about/staff-directory/danielle-roberts-dahm )             |
 | Arin       | Rook              |                | <arin.rook@umb.edu>                       | [View Profile](/about/staff-directory/arin-rook )             |
+| Paige      | Rose              |  (851) 385-9831 | <paige.rose@umb.edu>                       | [View Profile](/about/staff-directory/paige-rose  )             |
 | Kara       | Sexton            |                | <kara.sexton@umb.edu>                          | [View Profile](/about/staff-directory/kara-sexton )             |
 | John       | Shepard           | (480) 819-6299 | <John.Shepherd@umb.edu>                    | [View Profile](/about/staff-directory/john-shepard)               |
 | Carl-Olivier   | Sidney            |  | <CarlOlivier.Sidn001@umb.edu>                    | [View Profile](/about/staff-directory/carl-olivier-sidney)               |
