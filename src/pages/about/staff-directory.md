@@ -45,10 +45,9 @@ Staff listing and contact details<!-- end -->
 | Cecilia    | Gandolfo          | (617) 287-4342 | <Cecilia.Gandolfo@umb.edu>                 | [View Profile](/about/staff-directory/cecilia-gandolfo)           |
 | Juan       | Gaspar            | (617) 287-4326 | <Juan.Gaspar@umb.edu>                      | [View Profile](/about/staff-directory/juan-gaspar)                |
 | J      | Gibbs           | (617) 297-4786 | <j.gibbs@umb.edu>                      | [View Profile](/about/staff-directory/j-gibbs)                |
-| Beverley    | Gilligan         |                | <Beverley.Gilligan@childrens.harvard.edu>   | [View Profile](/about/staff-directory//beverley-gilligan)           |
+| Beverley    | Gilligan         |                | <Beverley.Gilligan@childrens.harvard.edu>   | [View Profile](/about/staff-directory/beverley-gilligan)           |
 | Meg        | Grigal            |                | <Meg.Grigal@umb.edu>                       | [View Profile](/about/staff-directory/meg-grigal)                 |
 | Kelly      | Haines            | (617) 287-5907 | <Kelly.Haines@umb.edu>                     | [View Profile](/about/staff-directory/kelly-haines)               |
-| Ty         | Hanson            |                | <Ty.Hanson@umb.edu>                        | [View Profile](/about/staff-directory/ty-hanson)                  |
 | Debra      | Hart              | (617) 590-8082 | <Debra.Hart@umb.edu>                       | [View Profile](/about/staff-directory/debra-hart)                 |
 | David      | Helm              | (617) 287-4302 | <David.Helm@umb.edu>                      | [View Profile](/about/staff-directory/david-helm)                 |
 | David      | Hoff              | (617) 287-4308 | <David.Hoff@umb.edu>                       | [View Profile](/about/staff-directory/david-hoff)                 |
@@ -56,7 +55,6 @@ Staff listing and contact details<!-- end -->
 | Amy        | Huppi             |                | <Amy.Huppi@umb.edu>                         | [View Profile](/about/staff-directory/amy-huppi)           |
 | Nancy      | Hurley            | (617) 287-4310 | <Nancy.Hurley@umb.edu>                     | [View Profile](/about/staff-directory/nancy-hurley)               |
 | Mark       | Hutchinson        |                | <Mark.Hutchinson@umb.edu>                  | [View Profile](/about/staff-directory/mark-hutchinson)            |
-| Sam        | Johnson           | (857) 385-8760 | <Samantha.Johnson@umb.edu>                | [View Profile](/about/staff-directory/sam-johnson)                |
 | Sheila     | Johnson           |                | <Sheila.Johnson@umb.edu>                   | [View Profile](/about/staff-directory/sheila-johnson)             |
 | Yourlanda  | Johnson           |                | <Yourlanda.Johnson@childrens.harvard.edu>  | [View Profile](/about/staff-directory/yourlanda-johnson)          |
 | Staci      | Jones             | (617) 287-4357 | <Staci.Jones@umb.edu>                 | [View Profile](/about/staff-directory/staci-jones)                          |
@@ -72,7 +70,6 @@ Staff listing and contact details<!-- end -->
 | Angela     | Lombardo          | (857) 218-4329 | <Angela.Lombardo@childrens.harvard.edu>    | [View Profile](/about/staff-directory/angela-lombardo)            |
 | Ashley     | Luce              | (617) 297-6797 | <Ashley.Luce@umb.edu>                      | [View Profile](/about/staff-directory/ashley-luce)                |
 | Oliver     | Lyons             | (617) 287-4376 | <Oliver.Lyons@umb.edu>                     | [View Profile](/about/staff-directory/oliver-lyons)               |
-| Joe        | Marrone           | (503) 331-0687 | <Joseph.Marrone@gmail.com>                 | [View Profile](/about/staff-directory/joe-marrone)                |
 | Iris        | Martinez           | (617) 287-7265 | <Iris.Martinez@umb.edu>                 | [View Profile](/about/staff-directory/iris-martinez)                |
 | Robert     | McCulley          | (617) 287-7623 | <Robert.McCulley@umb.edu>                  | [View Profile](/about/staff-directory/bob-mcculley)               |
 | Pam        | McFarland         | (781) 241-7798 | <Pamela.McFarland@umb.edu>                 | [View Profile](/about/staff-directory/pam-mcfarland)              |
@@ -95,7 +92,6 @@ Staff listing and contact details<!-- end -->
 | Julie      | Reposa            |                | <Julie.Reposa@umb.edu>                     | [View Profile](/about/staff-directory/julie-reposa)               |
 | Berenise   | Reyes-Albino      | (617) 287-4314 | <Berenise.Albino@umb.edu>                  | [View Profile](/about/staff-directory/berenise-reyes-albino)      |
 | Danielle   | Roberts-Dahm      |                | <Danielle.Dahm@umb.edu>                   | [View Profile](/about/staff-directory/danielle-roberts-dahm )             |
-| Arin       | Rook              |                | <arin.rook@umb.edu>                       | [View Profile](/about/staff-directory/arin-rook )             |
 | Paige      | Rose              |  (851) 385-9831 | <paige.rose@umb.edu>                       | [View Profile](/about/staff-directory/paige-rose  )             |
 | Kara       | Sexton            |                | <kara.sexton@umb.edu>                          | [View Profile](/about/staff-directory/kara-sexton )             |
 | John       | Shepard           | (480) 819-6299 | <John.Shepherd@umb.edu>                    | [View Profile](/about/staff-directory/john-shepard)               |
@@ -105,19 +101,16 @@ Staff listing and contact details<!-- end -->
 | Jennifer   | Sullivan Sulewski |                | <Jennifer.Sulewski@umb.edu>                | [View Profile](/about/staff-directory/jennifer-sullivan-sulewski) |
 | Amy        | Szarkowski        | (617) 894-3864 | <Amy.Szarkowski@childrens.harvard.edu>     | [View Profile](/about/staff-directory/amy-szarkowski)             |
 | Ludwik     | Szymanski         |                | <Ludwik.Szymanski@childrens.harvard.edu>   | [View Profile](/about/staff-directory/ludwik-s-szymanski)         |
-| Miwa       | Tanabe            | (617) 287-4293 | <Miwa.Tanabe@umb.edu>                      | [View Profile](/about/staff-directory/miwa-tanabe)                |
 | Allison    | Taylor            | (617) 287-3530 | <Allison.Taylor@umb.edu>                   | [View Profile](/about/staff-directory/allison-taylor)             |
 | David      | Temelini          | (617) 287-4321 | <David.Temelini@umb.edu>                   | [View Profile](/about/staff-directory/david-temelini)             |
 | Russ       | Thelin            | (617) 297-6412 | <Russell.Thelin@umb.edu>                   | [View Profile](/about/staff-directory/russ-thelin)                |
 | Cindy      | Thomas            | (617) 287-4312 | <Cindy.Thomas@umb.edu>                     | [View Profile](/about/staff-directory/cindy-thomas)               |
-| Valerie    | Thompson          |                | <Valerie.Thompson@umb.edu>                 | [View Profile](/about/staff-directory/valerie-thompson)          |
 | Jaimie     | Timmons           |                | <Jaimie.Timmons@umb.edu>                   | [View Profile](/about/staff-directory/jaimie-ciulla-timmons)      |
 | Alvaro     | Tobar             | (617) 287-4347 | <Alvaro.Tobar@umb.edu>                     | [View Profile](/about/staff-directory/alvaro-tobar)               |
 | David      | Urban             | (617) 287-4366 | <David.Urban@umb.edu>                      | [View Profile](/about/staff-directory/david-urban)                |
 | Kelly      | Wanzer            |                | <kelly.wanzer@umb.edu>                      | [View Profile](/about/staff-directory/kelly-wanzer)                |
 | Cate       | Weir              | (603) 848-4901 | <Cathryn.Weir@umb.edu>                     | [View Profile](/about/staff-directory/cate-weir)                  |
-| Gavin      | Williams          |                | <Gavin.Williams@umb.edu>                    | [View Profile](/about/staff-directory/gavin-williams)                  |
+| Beth       | Wike              |                | <elizabeth.wike@umb.edu>                    | [View Profile](/about/staff-directory/beth-wike)                  |
 | Jean       | Winsor            | (716) 406-9780 | <Jean.Winsor@umb.edu>                      | [View Profile](/about/staff-directory/jean-e-winsor)              |
-| Ashley     | Wolfe             | (617) 287-4351 | <Ashley.Wolfe@umb.edu>                     | [View Profile](/about/staff-directory/ashley-wolfe)               |
 | Cedric     | Woods             |                | <Cedric.Woods@umb.edu>                     | [View Profile](/about/staff-directory/cedric-woods)               |
 | Agnes      | Zalewska          | (617) 287-4393 | <Agnes.Zalewska@umb.edu>                  | [View Profile](/about/staff-directory/agnieszka-zalewska)         |
