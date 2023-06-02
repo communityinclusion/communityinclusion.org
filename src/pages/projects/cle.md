@@ -10,9 +10,9 @@ thumbnail: '../../images/CLE-square-logo.png'
 
 Community life engagement refers to all the ways that people with intellectual and developmental disabilities access and participate in their communities outside of employment. Activities can include volunteer work; postsecondary, adult, or continuing education; accessing community facilities such as the library, gym, or recreation center; any activities that people with and without disabilities do in their spare time. CLE activities may support  career exploration  , wrap around work time, or serve as a retirement option. ICI is conducting research on CLE to develop guidance for states and service providers on how to improve CLE supports while maintaining a focus on Employment First.
 
-This one-page, accessible flyer provides a plain language overview of the definition of Community Life Engagement, and the four most important things to consider:
+This [one-page, accessible flyer](https://www.thinkwork.org//sites/default/files/files/CLE_flyer_2023_PL.pdf) provides a plain language overview of the definition of Community Life Engagement, and the four most important things to consider:
 
-[![plain language thumbnail](../../CLE_flyer_2017_plain_language_thumb.jpg)](https://www.thinkwork.org/sites/default/files/files/CLE_flyer_2017_plain%20language_0.pdf)
+[![plain language thumbnail](../../CLE_flyer_2023_PL-thumb.png)](https://www.thinkwork.org//sites/default/files/files/CLE_flyer_2023_PL.pdf)
 
 ## Community Life Engagement Toolkit is here
 
