@@ -129,7 +129,6 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
     <img src="seln_elearning.png" class="card-img-top" style="max-width: 600px;" alt="SELN: Supporting a Vision for Employment"></a>
     <div class="card-body">
       <p class="card-text"><strong>SELN: Supporting a Vision for Employment</strong> This online course is crafted for case managers and those in similar roles responsible for advising, assisting, and advocating for individuals with intellectual and developmental disabilities (IDD) seeking employment. This is a self-paced course including 4 modules with scenarios, case studies and stories that put the learner "in the room" immersing them in what is happening and strengthening learning. Estimated time to complete the course is 5-6 hours, including quizzes and post-survey.</p>
-       <p>UMass Boston's accredited transition specialist training is the #1 transition specialist training program in the Eastern US!</p>
        <p><a href="https://www.selnhub.org/elearningintro">Learn more about SELN: Supporting a Vision for Employment</a></p>
        <p><a href="https://elearning.communityinclusion.org/browse/seln/courses/seln-supporting-a-vision-for-employment-101">Enroll in SELN: Supporting a Vision for Employment</a></p>
     </div>
