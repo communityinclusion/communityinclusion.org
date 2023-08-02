@@ -45,7 +45,7 @@ const jobsTemplate = ({ pageContext, data, location  }) => {
         <div dangerouslySetInnerHTML={{ __html: html }} />
         <p><b>Closing Date:</b> <span className="post-date">{frontmatter.close_date}</span></p>
         
-        <p><a class="btn btn-primary" role="button" href={frontmatter.umb_post_url}>Learn more and apply</a></p>
+      {/*   <p><a class="btn btn-primary" role="button" href={frontmatter.umb_post_url}>Learn more and apply</a></p> */}
         </article>
         
       <div className="post-meta">
