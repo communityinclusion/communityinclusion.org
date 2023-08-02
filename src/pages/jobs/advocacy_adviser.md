@@ -35,4 +35,6 @@ support. However, you can receive supports from a job coach if you have one.
 - UMass Boston requires background checks for all employees. The background checks will be conducted upon hire.
 - We will provide disability related accommodations in the application process. Let us know if you will need an accommodation to apply for this position.
 
-To apply for the position, please send a cover letter and resume by August 18, 2023 to: iris.martinez@umb.edu
+<div class="alert alert-primary">
+<strong>To apply for the position, please send a cover letter and resume by August 18, 2023 to: <a href="mailto:iris.martinez@umb.edu"><strong>iris.martinez@umb.edu</strong></a></strong>
+</div>
