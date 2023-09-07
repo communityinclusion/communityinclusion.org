@@ -16,7 +16,7 @@ import { config } from '@fortawesome/fontawesome-svg-core';
 config.autoAddCss = false; /* eslint-disable import/first */
 import Navbar from "./navbar"
 import Header from "./header"
-import Image from "../components/image"
+import Hero from "../components/hero"
 import Footer from "../components/footer"
 import Helmet from "react-helmet"
 import './post.css'
@@ -44,7 +44,7 @@ const Layout = ({ children }) => (
 </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
 <Navbar />
-<Image />
+<Hero />
   <main className="main-content container-lg my-4">{children}</main>
              <Footer />
 

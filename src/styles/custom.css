@@ -767,3 +767,48 @@ summary {font-weight: 800;}
 details a.btn.btn-primary {
   margin-top: 10px;
 }
+
+.heroImage img { -webkit-filter:  opacity(30%)  blur(3px); /* Safari 6.0 - 9.0 */
+  filter: opacity(30%) blur(3px);
+  
+}
+.heroText p
+  {
+    font-family: myriad-pro-condensed;
+		color: #333; 
+    font-weight:bold;
+     font-size:2em;
+		width:60%;
+		animation-name: fade-in;
+		animation-duration: 2s;
+		animation-timing-function: ease-in;
+		animation-delay: 0s;
+		animation-iteration-count: 1;
+		animation-direction: normal;
+		animation-fill-mode: both;
+			
+		/* shorthand
+		animation: fade-in 2s ease-in 0s 1 normal both;*/
+	}
+
+  @media screen and (max-width: 576px) {
+
+    .heroText p
+    {
+      font-family: myriad-pro-condensed;
+      color: #333; 
+      font-weight:bold;
+       font-size:1.5em;
+      width:90%;
+    }
+  }
+
+	@keyframes fade-in {
+			
+		0% {
+			opacity:0;
+		}
+		100% {
+			opacity:1;
+		}
+	}
