@@ -7,7 +7,8 @@ thumbnail: '../../images/explorevr-long.png'
 ---
 
 
-![ExploreVR](../../images/explorevr-long.png)
+[![ExploreVR](../../images/explorevr-long.png)](https://www.explorevr.org/)
+
 
 [ExploreVR](https://www.explorevr.org/) gives vocational rehabilitation (VR) agencies easy and convenient access to a range of VR research, related data, and tools for planning, evaluation, and decision-making. Users can watch videos highlighting success stories of VR clients who have found fulfilling work in their communities. A range of toolkits provide resources on topics such as business engagement and labor market information.
 

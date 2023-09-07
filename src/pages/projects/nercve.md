@@ -6,7 +6,7 @@ date: 2018-12-29
 thumbnail: '../../images/nercve.png'
 ---
 
-![Nercve](../../images/nercve-2019-long.png)
+[![Go to Nercve.org](../../images/nercve-2019-long.png)](https://www.nercve.org/)
 
 The [Northeast Resource Center for Vision Education](https://www.nercve.org/) (NERCVE) is committed to improving education for people with blindness and low vision. We offer in-person and online training in three main areas: Teacher of Students with Visual Impairments, Orientation and Mobility, and Vision Rehabilitation Therapy.
 

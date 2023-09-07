@@ -9,8 +9,10 @@ thumbnail: "../../images/ICI.png"
 <div class="row">
 <div class="p-2 mb-2 bg-light rounded-3 col-md-9 row">
   <div class="col-md-2">
+  <a href="/projects/maicei">
     <img src="/images/maicie/MAICEI-Logo.jpg"  alt="MAICEI LOGO">
     <img src="/images/maicie/UMB_blue.png"  alt="UMASS BOSTON">
+    </a>
   </div>
   <div class="col-md-10 container-fluid py-2">
     <p class=" fs-4">

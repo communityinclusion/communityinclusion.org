@@ -7,7 +7,7 @@ thumbnail: '../../images/bch-ds-logo.png'
 ---
 
 
-![Boston Children’s Hospital Down Syndrome Program](../../images/bch-dsp-long.png)
+[![Go to Boston Children’s Hospital Down Syndrome Program website](../../images/bch-dsp-long.png)](https://www.childrenshospital.org/programs/down-syndrome-program)
 
 The [Down Syndrome Program at Boston Children’s Hospital](https://www.childrenshospital.org/programs/down-syndrome-program) offers specialized services for children with Down syndrome and their families. The original home of the Institute for Community Inclusion, the program supports children and young adults with Down syndrome from birth through age 22. Services include family support, referrals to affiliated clinics, and prenatal consultations.
 

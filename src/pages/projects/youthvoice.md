@@ -6,7 +6,7 @@ date: 2023-01-29
 thumbnail: '../../images/project_logos/CIVIC_square_web.png'
 ---
 
-![CYVYC](../../images/ici_cyvyc-logo.png)
+[![Go to CYVYC website](../../images/ici_cyvyc-logo.png)](https://youth-voice.org/)
 
 The [Center on Youth Voice, Youth Choice (CYVYC)](https://youth-voice.org/) is a national resource center on alternatives to guardianship. CYVYC supports research, training, and systems change initiatives, and emphasizes engagement with diverse and underserved communities. A strong partnership of youth with intellectual/developmental disabilities (IDD), family members, practitioners, and researchers contributes to expertise and effectiveness of the Center. It is guided by an Advisory Committee comprised of at least 75% youth and young adults with IDD.
 

@@ -7,8 +7,7 @@ thumbnail: '../../images/catada.png'
 ---
 
 
-
-![Catada](../../images/catada-long.png)
+[![Go to Catada.info](../../images/catada-long.png)](https://catada.info/)
 
 The [Center for Assistive Technology Act Data Assistance](https://catada.info/) (CATADA) provides technical assistance and supports to state Assistive Technology (AT) programs. AT is any item, piece of equipment, or system that is used to increase, maintain, or improve functional capabilities of individuals with disabilities.
 
