@@ -109,8 +109,10 @@ Staff listing and contact details<!-- end -->
 | Alvaro     | Tobar             | (617) 287-4347 | <Alvaro.Tobar@umb.edu>                     | [View Profile](/about/staff-directory/alvaro-tobar)               |
 | David      | Urban             | (617) 287-4366 | <David.Urban@umb.edu>                      | [View Profile](/about/staff-directory/david-urban)                |
 | Kelly      | Wanzer            |                | <kelly.wanzer@umb.edu>                      | [View Profile](/about/staff-directory/kelly-wanzer)                |
+| Ryan      | Wedeking           |                | <ryan.wedeking@umb.edu>                      | [View Profile](/about/staff-directory/ryan-wedeking)                |
 | Cate       | Weir              | (603) 848-4901 | <Cathryn.Weir@umb.edu>                     | [View Profile](/about/staff-directory/cate-weir)                  |
 | Beth       | Wike              |                | <elizabeth.wike@umb.edu>                    | [View Profile](/about/staff-directory/beth-wike)                  |
 | Jean       | Winsor            | (716) 406-9780 | <Jean.Winsor@umb.edu>                      | [View Profile](/about/staff-directory/jean-e-winsor)              |
 | Cedric     | Woods             |                | <Cedric.Woods@umb.edu>                     | [View Profile](/about/staff-directory/cedric-woods)               |
+| Will       | Woolery             |                | <William.Woolery@umb.edu>                 | [View Profile](/about/staff-directory/will-woolery )     
 | Agnes      | Zalewska          | (617) 287-4393 | <Agnes.Zalewska@umb.edu>                  | [View Profile](/about/staff-directory/agnieszka-zalewska)         |
