@@ -114,5 +114,5 @@ Staff listing and contact details<!-- end -->
 | Beth       | Wike              |                | <elizabeth.wike@umb.edu>                    | [View Profile](/about/staff-directory/beth-wike)                  |
 | Jean       | Winsor            | (716) 406-9780 | <Jean.Winsor@umb.edu>                      | [View Profile](/about/staff-directory/jean-e-winsor)              |
 | Cedric     | Woods             |                | <Cedric.Woods@umb.edu>                     | [View Profile](/about/staff-directory/cedric-woods)               |
-| Will       | Woolery             |                | <William.Woolery@umb.edu>                 | [View Profile](/about/staff-directory/will-woolery )     
+| Will       | Woolery             |                | <William.Woolery@umb.edu>                 | [View Profile](/about/staff-directory/will-woolery)     
 | Agnes      | Zalewska          | (617) 287-4393 | <Agnes.Zalewska@umb.edu>                  | [View Profile](/about/staff-directory/agnieszka-zalewska)         |
