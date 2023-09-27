@@ -9,14 +9,26 @@ excerpt: "The Institute for Community Inclusion at UMass Boston supports the rig
 
 
 
-<p> In 2018, ICI <a href="http://50.communityinclusion.org/">celebrated our 50th anniversary</a> as a <a href="https://www.aucd.org/template/index.cfm">University Center for Excellence in Developmental Disabilities (UCEDD)</a>. President John F. Kennedy launched the UCEDD network in 1963, and today UCEDDs are located at public universities in every U.S. state and territory. </p>
-<p>These 67 UCEDDs collaborate with people with disabilities, members of their families, state and local government agencies, and service providers. The goal is to empower all citizens, with and without disabilities, to fully participate in community settings. This includes workplaces, health care facilities, schools, and everywhere else where people engage with one another.</p> 
-<p>As a member of the UCEDD network, ICI provides training, technical assistance, service, research, and information sharing, with a focus on ending disability-based discrimination and exclusion, and building the capacity of communities to sustain all their citizens.</p>
+<p> The Institute for Community Inclusion (ICI) is a <a href="https://www.aucd.org/template/index.cfm">University Center for Excellence in Developmental Disabilities (UCEDD)</a> housed within the School for Global Inclusion and Social Development (SGISD) at the University of Massachusetts Boston. As one of 67 UCEDDs, we collaborate with people with disabilities, members of their families, state and local government agencies, and service providers. Our goal is to advance the full inclusion of people with disabilities in all aspects of life. </p>
 
-</div>
+<p>Our work encompasses research, program evaluation, training, consultation, education, policy analysis, information sharing, and service delivery across four main areas of emphasis:
+</p>
+<ul>
+<li><b><a href="/about/areas-of-emphasis/employment">Employment</a></b>  </li>
+<li><b><a href="/about/areas-of-emphasis/education">Education</a></b>  </li>
+<li><b><a href="/about/areas-of-emphasis/community">Community Life</a></b> </li>
+<li><b><a href="/about/areas-of-emphasis/healthcare">Health Care </a></b></li>
+</ul>
+
+<p>We have three national hubs, focused on inclusive employment and education:</p>
+<ul>
+<li><a href="https://www.explorevr.org/">ExploreVR</a> is for vocational rehabilitation agencies and researchers. It features ICI projects related to vocational rehabilitation research, data, and tools for planning, evaluation, and decision-making.  </li>
+<li><a href="https://www.thinkwork.org/">ThinkWork</a> is for people with intellectual and/or developmental disabilities (IDD), their families, employment practitioners, and policymakers. It features ICI projects related to employment for people with IDD.</li>
+<li><a href="https://thinkcollege.net/">ThinkCollege</a> is for students with intellectual disability, their families, educators, policymakers, and institutes of higher education. It features ICI projects related to inclusive higher education for students with intellectual disability.  </li>
+</ul>
 
 
-<div class="row mb-4">
+<div class="row pt-4 mb-4">
 <div class="col-md-4 col-sm-12 mb-4 d-flex align-self-stretch">
 <div class="card w-100">
 <div class="card-body">
