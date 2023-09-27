@@ -7,8 +7,7 @@ thumbnail: '../../images/statedata.png'
 ---
 
 
-
-![StateData](../../images/statedata-long.png)
+[![Go to StateData.info](../../images/statedata-long.png)](https://www.statedata.info)
 
 [StateData.info](https://www.statedata.info/) offers publications and data related to employment and disability. It builds off of decades of research conducted at ICI about the work of state intellectual and developmental disabilities (IDD) agencies, vocational rehabilitation agencies, and community organizations providing employment support to people with IDD.
 

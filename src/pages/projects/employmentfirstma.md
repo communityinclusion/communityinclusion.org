@@ -7,7 +7,7 @@ thumbnail: '../../images/employmentfirstma.png'
 ---
 
 
-![EmploymentFirstMA](../../images/empfirst-long.png)
+[![Go to EmploymentFirstma.org](../../images/empfirst-long.png)](https://employmentfirstma.org/)
 
 [EmploymentFirstMA](https://employmentfirstma.org/) supports the implementation of Employment First strategies and policies in Massachusetts. Employment First is a framework for systems change used across the nation. This framework promotes the idea that all people, with and without disabilities, are able to fully participate in competitive, integrated employment and community life.
 

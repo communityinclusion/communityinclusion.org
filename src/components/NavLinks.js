@@ -25,6 +25,8 @@ const activeLinkStyle = {
 
 
        <p>The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society. As practitioners, researchers, and teachers, we form partnerships with individuals, families, and service agencies. Together we advocate for personal choice, self-determination, and social and economic justice.</p>
+       <p>We are dedicated to advancing the full inclusion of people with disabilities in all aspects of life. Our work encompasses research, program evaluation, training, consultation, education, policy analysis, and service delivery across four main areas of emphasis: Employment, Education, Community Life, and Health Care.</p>
+       <p>We have three national hubs: <a href="https://www.explorevr.org/">ExploreVR</a> and <a href="https://www.thinkwork.org/">ThinkWork</a>, which focus on inclusive employment, and <a href="https://thinkcollege.net/">ThinkCollege</a>, which focuses on inclusive higher education.</p>
       </div>
 
 
@@ -34,12 +36,12 @@ const activeLinkStyle = {
           <li><Link to="/about" role="button" aria-haspopup="true">About the ICI</Link></li>
           <li><Link to="/about/history">History of ICI</Link></li>
           <li><Link to="/about/mission">Mission and Vision</Link></li>
-
           <li><Link to="/about/areas-of-emphasis">Areas of Emphasis</Link></li>
           <li><Link to="/about/what-we-mean-when-we-talk-about-inclusion">What We Mean When We Talk About Inclusion</Link></li>
           <li><Link to="/about/staff-directory">Staff Directory</Link></li>
             <li><Link to="/about/directions">Directions</Link></li>
             <li><Link to="/about/glossary">Glossary</Link></li>
+            <li><Link to="/about/fellowships">Fellowships</Link></li>
             <li><Link to="/jobs">Jobs at ICI</Link></li>
               <li><Link to="/about/contact">Contact</Link></li>
         </ul>
@@ -111,7 +113,7 @@ const activeLinkStyle = {
           <li><a href="https://consulting.communityinclusion.org/">ICI Consulting</a></li>
           <li><a href="https://employmentservices.communityinclusion.org/">ICI Employment Services</a></li>
            <li><a href="https://www.directcourseonline.com/employment-services/">College of Employment Services</a></li>
-            <li><a href="https://cesacre.communityinclusion.org/">CES/ACRE</a></li>
+            <li><a href="/onlinelearning/cesacre/">CES/ACRE</a></li>
 
 
         </ul>

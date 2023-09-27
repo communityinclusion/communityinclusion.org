@@ -16,7 +16,7 @@ import TC_annnual_thumbnail from '../images/pub-thumbs/TC_annnual_thumbnail.png'
 import TCTP1_thumbnail from '../images/pub-thumbs/TCTP1_thumbnail.png'
 import SELN_unpaid_work_thumbnail from '../images/pub-thumbs/SELN_unpaid_work_thumbnail.png'
 import cle_toolkit_thumbnail from '../images/pub-thumbs/cle_toolkit_thumbnail.png'
-
+import covid19_thumbnail from '../images/pub-thumbs/covid19-lightbulb.png'
 import depression_thumbnail from '../images/pub-thumbs/depression_DS_F2-1-thumb.png'
 import adhd_thumbnail from '../images/pub-thumbs/ADHD_F_web-1-thumb.png'
 import communications_thumbnail from '../images/pub-thumbs/communications-booklet_2016-update-1-thumb.png'
@@ -401,6 +401,21 @@ that are fully reflective of their own interests and preferences.</p>
 </div>
  </div>
          </div>
+
+         <div className="card m-3">
+                <div className="row">
+    <div className="col-md-2">
+    <div className="card-image">
+    <img src={covid19_thumbnail}  className="img-fluid" alt = "publication thumbnail" />
+    </div>
+    </div>
+    <div className="col-md-10 card-body">
+    <h2 className="card-title"><a href="https://covid19.communityinclusion.org/">COVID-19 Publications and Resources</a></h2>
+    <p className="card-text">Due to the COVID-19 pandemic, public agencies, day and employment service providers, people with disabilities and family members have had to quickly adjust to changes in how services and supports are provided. The publications and resources provided here have been developed to help guide professionals, individuals, and families through this challenging time as we develop new approaches to providing day and employment services, vocational rehabilitation, and supporting community life engagement.</p>
+</div>
+</div>
+
+</div>
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>

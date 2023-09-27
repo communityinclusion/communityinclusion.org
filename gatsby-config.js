@@ -52,7 +52,7 @@ plugins: [
         {
           resolve: `gatsby-remark-images`,
           options: {
-            maxWidth: 400,
+            maxWidth: 600,
             showCaptions: ['title'],
             markdownCaptions: true,
           },
@@ -152,7 +152,7 @@ plugins: [
         id: 'hss6qfr'
       },
       google: {
-        families: ['Open Sans:300,400,700', 'Open Sans Condensed:300,700']
+        families: ['Open Sans:300,400,500,700', 'Open Sans Condensed:300,700']
       }
     }
   },
@@ -291,6 +291,10 @@ plugins: [
 {
   pathname: '/about/staff-directory',
   crumbLabel: 'Staff Directory',
+},
+{
+  pathname: '/about/fellowships',
+  crumbLabel: 'Fellowships',
 }
  ],
        // optional: switch to className styling

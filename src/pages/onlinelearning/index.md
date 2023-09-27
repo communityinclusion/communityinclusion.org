@@ -7,7 +7,7 @@ thumbnail: "../../images/ICI.png"
 ---
 Welcome to ICI Online Learning! Our online trainings include a variety of interactive and customizable self-guided courses for employment service providers, vocational rehabilitation leadership, transition specialists, school administrators, and other disability services professionals across the US. Our courses use engaging video case studies to illustrate best practices in providing disability services, supports, and leadership.
 
-ICI Online Learning has everything you need to feel confident, knowledgeable, and ready to work in the disability field. Click each box below to explore our course offerings. test.
+ICI Online Learning has everything you need to feel confident, knowledgeable, and ready to work in the disability field. Click each box below to explore our course offerings.
 <div class="d-grid gap-3">
 
 <div class="card">
@@ -121,5 +121,15 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
       <p class="card-text"><strong>The Transition Leadership Program</strong> prepares current and prospective educators and professionals to help students with disabilities focus on employment, college preparation, and independent living skills during the critical transition from high school to adult life. Over the course of 18 months, our highly qualified instructors lead 5 evidence-based courses, and learners engage in a hands-on practicum experience. Graduates of our program are eligible to apply for a national certification from the Council for Exceptional Children's Division on Career Development and Transition.</p>
        <p>UMass Boston's accredited transition specialist training is the #1 transition specialist training program in the Eastern US!</p>
        <p><a href="https://online.umb.edu/programs/transition_leadership_certificate">Learn more about the Transition Leadership Program at UMass Boston</a></p>
+    </div>
+  </div>
+
+  
+  <div class="card"><a href="https://elearning.communityinclusion.org/browse/seln/courses/seln-supporting-a-vision-for-employment-101">
+    <img src="seln_elearning.png" class="card-img-top" style="max-width: 600px;" alt="SELN: Supporting a Vision for Employment"></a>
+    <div class="card-body">
+      <p class="card-text"><strong>SELN: Supporting a Vision for Employment</strong> This online course is crafted for case managers and those in similar roles responsible for advising, assisting, and advocating for individuals with intellectual and developmental disabilities (IDD) seeking employment. This is a self-paced course including 4 modules with scenarios, case studies and stories that put the learner "in the room" immersing them in what is happening and strengthening learning. Estimated time to complete the course is 5-6 hours, including quizzes and post-survey.</p>
+       <p><a href="https://www.selnhub.org/elearningintro">Learn more about SELN: Supporting a Vision for Employment</a></p>
+       <p><a href="https://elearning.communityinclusion.org/browse/seln/courses/seln-supporting-a-vision-for-employment-101">Enroll in SELN: Supporting a Vision for Employment</a></p>
     </div>
   </div>

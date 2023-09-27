@@ -6,6 +6,7 @@ date: 2018-12-29
 thumbnail: '../../images/fqi.png'
 ---
 
+
 [![Go to FQIE.ME](../../images/FQI2021-800w.png)](https://fqie.me/login)
 
 **[Future Quest Island-Explorations (FQI-E)](https://thinkcollege.net/projects/fqie)** is an online accessible college & career readiness curriculum that uses gaming strategies to motivate and support improved self-concept, social and emotional competence, and early college and career awareness for upper elementary students with and without disability in grades 3-5 using the evidenced-based “Possible Selves” framework.
