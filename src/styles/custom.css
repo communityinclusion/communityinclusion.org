@@ -795,7 +795,7 @@ details a.btn.btn-primary {
 		color: #333; 
     font-weight:bold;
      font-size:2em;
-		width:60%;
+		width:70%;
 		animation-name: fade-in;
 		animation-duration: 2s;
 		animation-timing-function: ease-in;
@@ -808,14 +808,35 @@ details a.btn.btn-primary {
 		animation: fade-in 2s ease-in 0s 1 normal both;*/
 	}
 
-  @media screen and (max-width: 576px) {
+
+  @media (min-width: 768px) and (max-width: 991.98px)
+  {
+      
+    .heroText p{       
+      font-size:1.5em;
+      width:70%;
+    }
+  }
+
+
+  @media (max-width: 767px) and (min-width:577px){
+  
+      .heroText p {      
+        font-size:1.3em;
+         width:90%;
+       }
+     }
+
+
+
+  @media screen and (max-width: 575.98px) {
 
     .heroText p
     {
       font-family: myriad-pro-condensed;
       color: #333; 
       font-weight:bold;
-       font-size:1.5em;
+       font-size:1em;
       width:90%;
     }
   }
