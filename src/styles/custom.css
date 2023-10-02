@@ -792,10 +792,10 @@ details a.btn.btn-primary {
 .heroText p
   {
     font-family: myriad-pro-condensed;
-		color: #333; 
+		color: #565656; 
     font-weight:bold;
      font-size:2em;
-		width:70%;
+		width:90%;
 		animation-name: fade-in;
 		animation-duration: 2s;
 		animation-timing-function: ease-in;
@@ -814,7 +814,7 @@ details a.btn.btn-primary {
       
     .heroText p{       
       font-size:1.5em;
-      width:70%;
+      width:90%;
     }
   }
 
