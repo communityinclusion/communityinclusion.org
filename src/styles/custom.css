@@ -791,7 +791,7 @@ details a.btn.btn-primary {
 }
 .heroText p
   {
-    font-family: myriad-pro-condensed;
+    font-family: myriad-pro-condensed, "Open Sans Condensed", sans-serif;
 		color: #565656; 
     font-weight:bold;
      font-size:2em;
@@ -833,9 +833,6 @@ details a.btn.btn-primary {
 
     .heroText p
     {
-      font-family: myriad-pro-condensed;
-      color: #333; 
-      font-weight:bold;
        font-size:1em;
       width:90%;
     }
