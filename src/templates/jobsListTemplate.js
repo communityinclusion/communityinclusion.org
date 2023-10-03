@@ -31,9 +31,7 @@ const labelArr = label.split('-');
          />
        </div>
      <h1 className="page-title">Job Openings at ICI</h1>
-      <p>
-      ICI currently has no job opportunities available. Please check this page in the future, or <Link className="blue dim" to="https://lp.constantcontactpages.com/su/jlCEExQ/subscribe">subscribe to our newsletter</Link> where we also publicize job openings.
-      </p>
+      <p className="lead">ICI's job opportunities are listed on <Link className="blue dim" to="https://employmentopportunities.umb.edu/boston/en-us/search/?job-mail-subscribe-privacy=agree&search-keyword=ici">our parent organization's (University of Massachusetts Boston) Careers Page</Link>. Or, <Link className="blue dim" to="https://lp.constantcontactpages.com/su/jlCEExQ/subscribe">subscribe to our newsletter</Link> where we also publicize job openings.</p>
       </section>
     </Layout>
   )

@@ -44,7 +44,9 @@ const Layout = ({ children }) => (
 </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
 <Navbar />
+<div className="container-lg">
 <Hero />
+</div>
   <main className="main-content container-lg my-4">{children}</main>
              <Footer />
 
