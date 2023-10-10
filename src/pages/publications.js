@@ -35,7 +35,6 @@ import literacy_infants_pdf from '../files/literacy_infants_F.pdf'
 import literacy_youngchild_pdf from '../files/literacy_youngchild_F.pdf'
 import literacy_schoolage_pdf from '../files/literacy_schoolage_F.pdf'
 import literacy_teens_pdf from '../files/literacy_teens_F.pdf'
-import TO31_F_R_pdf from '../files/tools_for_inclusion/TO31_F_R.pdf'
 import TO31_F_R_thumb from '../images/pub-thumbs/TO31_F_R_thumb.png'
 
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
@@ -309,7 +308,7 @@ class PublicationsPage extends React.Component {
     </div>
     </div>
     <div className="col-md-10 card-body">
-    <h2 className="card-title"><a href={TO31_F_R_pdf}>Employment and Employment Supports: A Guide to Ensuring Informed Choice for Individuals with Disabilities</a></h2>
+    <h2 className="card-title"><a href="/pdf/TO31_F_R.pdf">Employment and Employment Supports: A Guide to Ensuring Informed Choice for Individuals with Disabilities</a></h2>
     <h3>Tools for Inclusion No.31</h3>
     <p className="card-text">What is “informed choice”? And how we do ensure that a choice is truly “informed” and fully reflective of the individual’s preferences?
 </p>

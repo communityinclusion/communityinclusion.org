@@ -30,7 +30,7 @@ At the ICI, we believe:
 
 **Informed choice** is an important part of employment. Informed choice is the process of making decisions based on accurate information, knowledge, and experiences. The privilege of choice involves the privileges of making mistakes and learning from our experiences. Too often people with disabilities are not afforded the privilege of choice. This is particularly true for people with disabilities from historically marginalized communities.
 
-You can learn more about informed choice and employment from our Tools for Inclusion, Issue 31, [Employment and Employment Supports: A Guide to Ensuring Informed Choice for Individuals with Disabilities](https://archive.communityinclusion.org/pdf/TO31_F.pdf) by David Hoff and Nicholas Holz.
+You can learn more about informed choice and employment from our Tools for Inclusion, Issue 31, [Employment and Employment Supports: A Guide to Ensuring Informed Choice for Individuals with Disabilities](/pdf/TO31_F_R.pdf) by David Hoff and Nicholas Holz.
 
 **How can we address racial and gender inequities in employment for people with disabilities on a systems-level?**
 
