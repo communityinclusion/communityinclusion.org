@@ -1,5 +1,5 @@
 .blue {
-  color: #1178ad;
+  color: #1178ad; 
 }
 
 .bg-blue {
@@ -140,6 +140,7 @@ html {
 
 body {
   margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 article,
@@ -170,10 +171,10 @@ h1 {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
-/*
+
 a:focus {
 	outline: 1px dotted currentColor;
 	outline-offset: .125rem;
@@ -182,7 +183,7 @@ a:focus {
 a:active {
 	outline-width: 0;
 }
-*/
+
 
 a:hover {
   text-decoration: underline;
@@ -282,36 +283,43 @@ footer a:hover {
 
 @media screen and (max-width: 380px) {
   #banner-text {
-    font-size: 1rem;
+    font-size: 1.6rem;
     text-align: left;
+    line-height: 1.8rem;
   }
 }
 
 @media screen and (min-width: 381px) and (max-width: 480px) {
   #banner-text {
-    font-size: 1rem;
+    font-size: 2.1rem;
     text-align: left;
+    line-height: 2.3rem;
   }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   #banner-text {
-    font-size: 1.5rem;
+    font-size: 2.6rem;
+    text-align: left;
+    line-height: 2.8rem;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1028px) {
   #banner-text {
-    font-size: 2rem;
+    font-size: 3rem;
+    text-align: left;
+    line-height: 3.2rem;
   }
 }
 
 @media screen and (min-width: 1029px) {
   #banner-text {
-    font-size: 3rem;
+    font-size: 3.5rem;
+   /* text-align: left;*/
+    line-height: 3.7rem;
   }
 }
-
 #banner-tagline {
   font-family: myriad-pro-condensed, "Open Sans Condensed", sans-serif;
   font-weight: 400;
@@ -486,12 +494,24 @@ article.card .card-body {
   }
 }
 
+
+.section-heading-bb {
+  margin-top: 24px;
+  line-height: 1.5;
+  font-weight:500;
+  border-bottom: 1px solid #1178ad;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 10px;
+}
+
+
 h2.card-title {
   font-size: 1.5rem;
   margin-top: 0;
   line-height: 1.5;
   border-bottom: 4px solid #1178ad;
   font-family: "Open Sans", sans-serif;
+  margin-bottom: 10px;
 }
 
 h2.card-title a {
@@ -499,7 +519,15 @@ h2.card-title a {
   color: #0075ad;
   margin-top: 0.5rem;
   display: table;
+  text-decoration: none;
 }
+
+
+h2.card-title a:hover {
+  color: #0e608a;
+}
+
+
 
 #pubs article.card {
   /* margin: 1rem; */
@@ -608,10 +636,10 @@ li.MuiButtonBase-root a {
 }
 
 .pagetemplate blockquote {
-  background-color: #9bd4f4;
+  background-color: #E0F7FA;
   color: #23527c;
   border-left: 5px #23527c solid;
-  padding: 5px 10px;
+  padding: 10px;
 }
 
 .alertbox {
@@ -646,8 +674,8 @@ header ul.social-links a {
 
 h1.page-title,
 h1.post-title {
-  padding: 0px 0px 10px;
-  border-bottom: 2px solid #ddd;
+  padding: 30px 0px 10px;
+  border-bottom: 2px solid #5d9632;
 }
 
 main.main-content .posttemplate .post {
@@ -656,10 +684,17 @@ main.main-content .posttemplate .post {
   margin-left: auto;
 }
 
+
+.main-content a {
+  font-weight:500;
+}
+
+
 .twitterWrap {
   background-color: #1178ad;
   padding: 10px;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .post-meta {
@@ -728,3 +763,87 @@ main.main-content .posttemplate .post {
 .collapsing-section {
   margin: 0;
 }
+
+
+#pubTable .table thead th {
+  border-bottom: 2px solid #dee2e6;
+}
+
+#pubTable button {width:100%;
+                  height:100%}
+
+ #pubTable button:after {
+                    padding-left:10px;
+                    font-family: fontAwesome;
+                    font-size:1.5em;
+                    content: "\f07d";
+              
+                                    }
+summary {font-weight: 800;}
+
+details a.btn.btn-primary {
+  margin-top: 10px;
+}
+
+.heroImage img { -webkit-filter:  opacity(30%)  blur(3px); /* Safari 6.0 - 9.0 */
+  filter: opacity(30%) blur(3px);
+  
+}
+.heroText p
+  {
+    font-family: myriad-pro-condensed, "Open Sans Condensed", sans-serif;
+		color: #565656; 
+    font-weight:bold;
+     font-size:2em;
+		width:90%;
+		animation-name: fade-in;
+		animation-duration: 2s;
+		animation-timing-function: ease-in;
+		animation-delay: 0s;
+		animation-iteration-count: 1;
+		animation-direction: normal;
+		animation-fill-mode: both;
+			
+		/* shorthand
+		animation: fade-in 2s ease-in 0s 1 normal both;*/
+	}
+
+
+  @media (min-width: 768px) and (max-width: 991.98px)
+  {
+      
+    .heroText p{       
+      font-size:1.5em;
+      width:90%;
+    }
+  }
+
+
+  @media (max-width: 767px) and (min-width:577px){
+  
+      .heroText p {      
+        font-size:1.3em;
+         width:90%;
+       }
+     }
+
+
+
+  @media screen and (max-width: 575.98px) {
+
+    .heroText p
+    {
+       font-size:1em;
+      width:90%;
+    }
+  }
+
+	@keyframes fade-in {
+			
+		0% {
+			opacity:0;
+		}
+		100% {
+			opacity:1;
+		}
+	}

@@ -4,18 +4,19 @@ path: "/projects/maicei"
 posttype: "page"
 date: 2021-11-14
 thumbnail: "../../images/ICI.png"
-file: MAICEI_EnrollmentTimeline.pdf
 ---
 
 <div class="row">
 <div class="p-2 mb-2 bg-light rounded-3 col-md-9 row">
   <div class="col-md-2">
+  <a href="/projects/maicei">
     <img src="/images/maicie/MAICEI-Logo.jpg"  alt="MAICEI LOGO">
     <img src="/images/maicie/UMB_blue.png"  alt="UMASS BOSTON">
+    </a>
   </div>
   <div class="col-md-10 container-fluid py-2">
     <p class=" fs-4">
-  The Massachusetts Inclusive Concurrent Enrollment Initiative (MAICEI) program at the University of Massachusetts Boston offers inclusive higher education opportunities to partnering school districts that support high school students with intellectual disabilities and autism, ages 18–21. Students can increase their academic, social, and career outcomes by sharing the same experiences as their college peers and enrolling in undergraduate courses as non-degree-seeking students.</p>
+  The Massachusetts Inclusive Concurrent Enrollment Initiative (MAICEI) program at the University of Massachusetts Boston offers inclusive higher education opportunities to partnering school districts that support high school students with intellectual disabilities and autism, ages 18-22. Students can increase their academic, social, and career outcomes by sharing the same experiences as their college peers and enrolling in undergraduate courses as non-degree-seeking students.</p>
 <p class="fs-4">The state-funded [<a href="https://www.mass.edu/strategic/maicei.asp">Massachusetts Inclusive Concurrent Enrollment Initiative</a>] (MAICEI) supports partnerships between local school districts and two- and four-year public colleges and universities in Massachusetts.
 </p>
       </div>
@@ -29,7 +30,6 @@ file: MAICEI_EnrollmentTimeline.pdf
         <li><a href="#faqs">FAQs</a></li>
         <li><a href="#news">MAICEI in the News</a></li>
         <li><a href="#leadership">Leadership Team</a></li>
-        <li><a href="#tc">ThinkCollege Resources</a></li>
             </ul>
             </nav>
       </div>
@@ -49,10 +49,13 @@ file: MAICEI_EnrollmentTimeline.pdf
         <div class="h-100 p-5 bg-light border rounded-3">
           <h4>Application Process: </h4>
 <p>Students may apply for fall or spring enrollment. The application requires student and district transition staff signatures.</p>
-<p><strong>Application Deadline (for Fall 2022-Spring 2023):</strong><br />
-  February 25, 2022</p>
+<p><strong>Application Deadlines:</strong>
+  <ul>
+  <li>Due <b>February 20th</b> for fall start</li>
+  <li>Due <b>October 20th</b> for spring start</li>
+  </ul>
 <p><strong>Send applications by email to: </strong><a href="mailto:Ashley.luce@umb.edu">Ashley.luce@umb.edu</a></p>
-          <a href="/UMBMAICEI-NewStudentApplication.pdf" class="btn btn-outline-secondary" type="button">Download Application</a>
+          <a href="/files/maicei/UMassBostonMAICEINewStudentApplication.pdf" class="btn btn-outline-secondary" type="button">Download Application</a>
         </div>
       </div>
     </div>
@@ -64,7 +67,6 @@ file: MAICEI_EnrollmentTimeline.pdf
           <p>We encourage all interested students, families, and school districts to attend a virtual information session, to learn more about UMass Boston MAICEI. </p>
           <p>
             <strong>Sign up for a virtual session:</strong>
-            March 7, 2022
           </p>
           <a class="btn btn-outline-secondary" type="button" href="https://docs.google.com/forms/d/1uWOmtVdE7DP2o_egCzLphGRne6r7ttXpcysyDAP3ANo/edit?ts=61425a04">Sign Up</a>
         </div>
@@ -75,7 +77,7 @@ file: MAICEI_EnrollmentTimeline.pdf
 <p>For questions, contact:</p>
 <p>Ashley Luce<br /> 
   MAICEI Program Coordinator <br />
-  Email: <a href="mailto:Ashley.luce@umb.edu">Ashley.luce@umb.edu</a> <br />
+  Email: <a href="mailto:Ashley.luce@umb.edu" class="text-white">Ashley.luce@umb.edu</a> <br />
   Phone: (617) 297-6797
   </p>
         </div>
@@ -114,7 +116,7 @@ file: MAICEI_EnrollmentTimeline.pdf
     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion-faq">
       <div class="accordion-body"><p>MAICEI programs are for students with intellectual disabilities and autism who:
         <ul>
-          <li>are 18 to 21 years of age, have not passed the Massachusetts Comprehensive Assessment System (MCAS) exam, and are eligible for special education services documented through an Individualized Education Program (IEP); or</li>
+          <li>are 18 to 22 years of age, have not passed the Massachusetts Comprehensive Assessment System (MCAS) exam, and are eligible for special education services documented through an Individualized Education Program (IEP); or</li>
           <li>are 20 to 21 years of age, have passed MCAS, but are still eligible for special education services through an IEP because of significant functional disabilities and/or transition needs.</li>
         </ul>
         </p></div>
@@ -129,7 +131,7 @@ file: MAICEI_EnrollmentTimeline.pdf
     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordion-faq">
       <div class="accordion-body"><p>
         <p>Are you a student or family member interested in UMass Boston MAICEI? Contact your school district's transition coordinator to begin the conversation about college-based transition services. </p>
-        <p><a href="/MAICEI_EnrollmentTimeline.pdf">This timeline</a> is for teachers, families, and students preparing to enroll in UMass Boston MAICEI. It includes tasks for all members of the transition team to consider, from recruitment through new student orientation. </p>
+        <p><a href="/files/maicei/UMassBostonMAICEI-EnrollmentTimeline.pdf">This timeline</a> is for teachers, families, and students preparing to enroll in UMass Boston MAICEI. It includes tasks for all members of the transition team to consider, from recruitment through new student orientation. </p>
          </p></div>
     </div>
   </div>
@@ -186,11 +188,42 @@ file: MAICEI_EnrollmentTimeline.pdf
 <hr>
 <section id="news">
   <h2>UMass Boston MAICEI In the News!</h2>
-  <div class="card" style="max-width: 450px;"><div class="card-body" >
-    <h4>Article in <em>The MassMedia</em></h4>
-    <a href="http://www.umassmedia.com/news/introducing-the-umass-boston-maicei-program/article_51933ba6-4ef7-11ec-ae60-6b31e9c47305.html">Introducing the UMass Boston MAICEI program</a>
+  <div class="row">
+    <div class="col-md">
+      <div class="card" style="max-width: 450px; min-height: 200px;">
+        <div class="card-header text-uppercase">
+          Student Spotlight
+        </div>
+        <div class="card-body" >
+        <span class="lead"><a href="https://thinkcollege.net/sites/default/files/files/resources/SS15_Nykenge_Blue.pdf">
+          National Coordinating Center Interviews: <strong><em>Nykenge Blue</em></strong>, University of Massachusetts Boston
+           </a></span>
+      </div>
+      </div>
+      </div>
+    <div class="col-md">
+  <div class="card" style="max-width: 450px; min-height: 200px;">
+    <div class="card-header text-uppercase">
+      Helpful Introduction
+    </div>
+    <div class="card-body">
+      <span class="lead">
+    <a href="https://communityinclusion.medium.com/learn-about-the-massachusetts-inclusive-concurrent-enrollment-initiative-program-at-umass-boston-9bfd1e0c93b8">Learn about the Massachusetts Inclusive Concurrent Enrollment Initiative Program at UMass Boston!</a></span>
   </div>
 </div>
+    </div>
+    <div class="col-md">
+<div class="card" style="max-width: 450px; min-height: 200px;">
+  <div class="card-header text-uppercase">
+    Article in <em>The MassMedia</em>
+  </div>
+  <div class="card-body" >
+  <span class="lead"><a href="http://www.umassmedia.com/news/introducing-the-umass-boston-maicei-program/article_51933ba6-4ef7-11ec-ae60-6b31e9c47305.html">Introducing the UMass Boston MAICEI program</a></span>
+</div>
+</div>
+</div>
+
+  </div>
 </section>
 <hr>
 <section id="leadership">
@@ -198,42 +231,9 @@ file: MAICEI_EnrollmentTimeline.pdf
 <p>The Partnership Leadership Team is composed of representatives from partnering school districts, key personnel from the college administration and teaching faculty, college alumni, representatives from the Department of Developmental Services, parent representatives, and the MAICEI program director and coordinator. The Partnership Leadership Team meets six times a year and plays a key role in the implementation and oversight of the initiative.</p>
 </section>
 <hr>
-<section id="tc">
-<h2>ThinkCollege Resources</h2>
-<img src="../../images/thinkcollege-long.png" alt="Thinkcollege logo">
-<h3>For Students&nbsp;</h3>
-<ul>
-  <li><a href="https://thinkcollege.net/sites/default/files/files/resources/HTTC_04_Getting_Accomodations_to_Succeed.pdf">Getting Accommodations to Succeed at College</a></li>
-  <li><a href="https://thinkcollege.net/sites/default/files/files/resources/HTTC_03_Understanding_Difference_HS_and_College.pdf">Understanding the Differences Between High School and College</a></li>
-  <li><a href="https://thinkcollege.net/sites/default/files/files/resources/TCTP%20student%20schedule%202018_landscape_F2.pdf">What Does a Dual Enrollment Schedule Look Like?</a></li>
-  <li>Student Story 1: <a href="https://thinkcollege.net/sites/default/files/files/resources/TCS_19_Dream_Big_for_College.pdf">Dream Big for College</a></li>
-  <li>Student Story 2: <a href="https://thinkcollege.net/sites/default/files/files/resources/TC14ScottWetherby_F_0.pdf">Becoming an Anime Artist: My Experience at College</a></li>
-</ul>
-<p><strong>&nbsp;</strong></p>
-<h3> For Educational Coaches &amp; Peer Mentors</h3>
-<ul>
-  <li><a href="https://thinkcollege.net/sites/default/files/files/resources/HTTC_8_Clarifying_Roles%26Responsibilities_CBTS.pdf">Clarifying the Roles and Responsibilities of CBTS</a></li>
-  <li><a href="https://thinkcollege.net/sites/default/files/files/resources/HTTC_04_Getting_Accomodations_to_Succeed.pdf">Getting Accommodations to Succeed at College</a></li>
-  <li><a href="https://thinkcollege.net/sites/default/files/files/resources/HTTC_03_Understanding_Difference_HS_and_College.pdf">Understanding the Differences Between High School and College</a></li>
-  <li><a href="https://thinkcollege.net/sites/default/files/files/resources/Insight4_web_F.pdf">Students and Educational Coaches: Developing a Support Plan for College</a></li>
-  <li><a href="https://thinkcollege.net/sites/default/files/files/resources/TCTP%20student%20schedule%202018_landscape_F2.pdf">What Does a Dual Enrollment Schedule Look Like?</a></li>
-  <li>Student Profile 1: <a href="https://thinkcollege.net/sites/default/files/files/resources/TCStories_4_F2.pdf">An Aspiring Artist Connects Coursework to Career </a></li>
-  <li>Student Profile 4: <a href="https://thinkcollege.net/sites/default/files/files/resources/TCStories_4_F2.pdf">Growing Self-Determination While Fading Supports</a></li>
-  <li>Student Profile 5: <a href="https://thinkcollege.net/sites/default/files/files/resources/TCTP_stories_peter_5_D2%20-%20final.pdf">An Animal Lover Prepares for a Career in Animal Health</a></li>
-  <li>Student Support for College Success: <a href="https://thinkcollege.net/think-college-news/student-support-for-college-success-grab-and-go-practices-series">Grab and Go Practices Series</a></li>
-</ul>
-<h3>For Transition Staff</h3>
-<ul>
-  <li><a href="https://thinkcollege.net/sites/default/files/files/resources/HTTC_8_Clarifying_Roles%26Responsibilities_CBTS.pdf">Clarifying the Roles and Responsibilities of CBTS</a></li>
-  <li><a href="https://thinkcollege.net/sites/default/files/files/resources/HTTC_04_Getting_Accomodations_to_Succeed.pdf">Getting Accommodations to Succeed at College</a></li>
-  <li><a href="https://thinkcollege.net/sites/default/files/files/resources/HTTC_03_Understanding_Difference_HS_and_College.pdf">Understanding the Differences Between High School and College</a></li>
-  <li><a href="https://thinkcollege.net/sites/default/files/files/resources/Insight4_web_F.pdf">Students and Educational Coaches: Developing a Support Plan for College</a></li>
-  <li><a href="https://thinkcollege.net/sites/default/files/files/resources/TCTP%20student%20schedule%202018_landscape_F2.pdf">What Does a Dual Enrollment Schedule Look Like?</a></li>
-  <li><a href="https://thinkcollege.net/resource/college-based-transition-services-cbts/maicei-student-snapshots">MAICEI Student Snapshots</a></li>
-</ul>
 
-<p>For more information about CBTS, check out the <a href="https://thinkcollege.net/resources/innovation-exchange/dual-enrollment">Think College Resource Library</a></p>
-</section>
+<p>For more information about College-Based Transition Services, check out the <a href="https://thinkcollege.net/resources/innovation-exchange/dual-enrollment">Think College Resource Library</a></p>
+
 <p>Institute for Community Inclusion<br>
   University of Massachusetts Boston<br>
   100 Morrissey Blvd.<br>

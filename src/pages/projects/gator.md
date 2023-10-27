@@ -6,7 +6,9 @@ date: 2021-07-21
 thumbnail: "../../images/gator_thumbnail.png"
 ---
 
-![GATOR](../../images/gator_long.png)
+
+[![Go to gator.communityinclusion.org](../../images/gator_long.png)](https://gator.communityinclusion.org)
+
 
 [Guardianship Alternatives and Transfer-of-Rights (GATOR)](https://gator.communityinclusion.org) is a 4-year project funded in 2019 by the Institute on Education Science at the US Department of Education. GATOR aims to explore the relationship between special educators’ transfer-of-rights and guardianship discussions and key predictors of transition outcomes for students with intellectual and developmental disabilities (IDD). Emerging research identifies that during transfer-of-rights discussions, special educators routinely provide guardianship-related information to students with IDD and their parents. Because guardianship transfers decision making authority from student to parent, providing information on guardianship may undermine core aims of special education programs and affect the transition outcomes of students with IDD.
 

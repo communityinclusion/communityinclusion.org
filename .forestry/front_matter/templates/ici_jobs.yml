@@ -1,0 +1,48 @@
+---
+label: ici_jobs
+hide_body: false
+display_field: title
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: Short description for news feed
+- name: umb_post_url
+  type: text
+  config:
+    required: false
+  label: UMB Post URL
+- type: text
+  name: posttype
+  label: posttype
+  default: jobs
+  hidden: true
+- name: date
+  type: datetime
+  label: Opening Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- type: datetime
+  name: close_date
+  label: Close date
+  default: ''
+pages:
+- src/pages/jobs/apprenticeship-development-and-system-alignment-coordinator.md
+- src/pages/jobs/employment-and-apprenticeship-specialist-i.md
+- src/pages/jobs/program-assistant.md
+- src/pages/jobs/program-manager-nercve.md
+- src/pages/jobs/research-associate-iii.md
+- src/pages/jobs/research-data-coordinator.md
+- src/pages/jobs/senior-technical-assistance-policy-associate.md
+- src/pages/jobs/technical-assistance-coordinator-i-or-ii.md
+- src/pages/jobs/training-associate-ii-1.md
+- src/pages/jobs/training-associate-ii-2.md
+- src/pages/jobs/training-associate-ii.md
+- src/pages/jobs/transition-manager.md

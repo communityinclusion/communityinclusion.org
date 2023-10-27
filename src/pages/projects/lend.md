@@ -6,8 +6,7 @@ date: 2018-12-29
 thumbnail: '../../images/bch-lend-logo.png'
 ---
 
-
-![Boston LEND](../../images/bch-lend-long.png)
+[![Go to lendboston.org](../../images/bch-lend-long.png)](http://lendboston.org/)
 
 The [LEND Program at Boston Children’s Hospital](http://lendboston.org/) is an interdisciplinary training program that supports health professionals to work with patients with intellectual and developmental disabilities. Our LEND Fellows receive funding to participate in a series of seminars and courses throughout each academic year.
 

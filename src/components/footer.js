@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
-import umbcombo from '../images/bch-umb-combo_logo-small.png'
-import sanity from '../images/sanity-logo.png'
+import umbcombo from '../images/ICI_UMB_bch-combo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faTwitter,
@@ -46,6 +45,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
        <li> <a href="https://lp.constantcontactpages.com/su/jlCEExQ/subscribe" className="link white d-inline-block" target = "_blank" rel = "noopener noreferrer" title="Subscribe">Subscribe</a></li>
 
  <li> <Link to="/about/contact" className="link white d-inline-block" title="contact">Contact</Link></li>
+ <li> <Link to="/jobs" className="link white d-inline-block" title="Jobs at ICI">Jobs at ICI</Link></li>
     <li> <Link to="/donate" className="link white d-inline-block" title="Donate">Donate</Link></li>
   </ul></div>
   <div className="col-md-4 col-sm-12 p-2 ">
@@ -89,16 +89,15 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   </div>
   <div className="footer-copyright  bg-dark border-top border-white border-2"> 
   <div className="container-xxl	text-white w-100 bt align-middle  py-2">
-  <div className="row pt-3">
-   <div className="col-md-2  align-middle ">
-   <img className = "d-inline-block mw-100 h-auto"
+  <div className="row pt-3 gy-4">
+   <div className="col-md-4  align-middle ">
+   <img className = "img-fluid d-inline-block"
    			 alt = "Institute for Community Inclusion"
             src={umbcombo}
           />
      </div> 
-      <div className="col-md-7 align-middle px-3">
-   
-      <p className="white">©2022 The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital. The ICI is a University Center for Excellence in Developmental Disabilities, part of the national network started by President John F. Kennedy.</p>
+      <div className="col-md-5 align-middle px-3">
+      <p className="white small"> ©2023 The Institute for Community Inclusion was founded in 1967, and is a program at the University of Massachusetts Boston and Boston Children’s Hospital. The ICI is a University Center for Excellence in Developmental Disabilities, part of the national network started by President John F. Kennedy.</p>
     </div>
    
   
@@ -117,16 +116,6 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
     title = "Donate" >
     Donate </Link> </li>
      </ul>
-     <p className = "pt-3">Website development supported by:</p>
-     <ul className = "list-inline ps-0 " >
-     <li className= "list-inline-item d-inline-block pe-1 align-middle" ><a href="https://www.netlify.com">
-    <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" /></a> </li>
-    <li className= "list-inline-item d-inline-block ps-1 align-middle" > <a href="https://www.sanity.io">
-    <img alt = "content structured in sanity"
-            src={sanity}
-          />
-          </a></li>
-          </ul>
     </div>
     </div>
     </div>

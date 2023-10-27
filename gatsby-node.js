@@ -46,9 +46,29 @@ console.log("====================================");
 const { createPage } = actions;
   const postListTemplate = path.resolve(`./src/templates/postListTemplate.js`);
   const postTemplate = path.resolve(`./src/templates/postTemplate.js`);
+  const jobsListTemplate = path.resolve(`./src/templates/jobsListTemplate.js`);
+  const jobsTemplate = path.resolve(`./src/templates/jobsTemplate.js`);
   const tagTemplate = path.resolve(`./src/templates/tagTemplate.js`);
   const pageTemplate = path.resolve(`./src/templates/pageTemplate.js`);
   const staffTemplate = path.resolve(`./src/templates/staffTemplate.js`);
+
+  /**
+ * Returns the current date in YYYY-MM-DD format
+ */
+function getCurrentDate() {
+  const d = new Date()
+  let month = (d.getMonth() + 1).toString()
+  if (month.length < 2) {
+    month = `0${month}`
+  }
+  let day = d.getDate().toString()
+  if (day.length < 2) {
+    day = `0${day}`
+  }
+  return `${d.getFullYear()}-${month}-${day}`
+}
+
+
 
   return new Promise(async resolve => {
 
@@ -111,6 +131,29 @@ const newsResult = await graphql(`
   }
 }
 `)
+
+const jobsResult = await graphql(`
+{ 
+  allMarkdownRemark(
+    sort: { fields: [frontmatter___date], order: DESC },
+    filter: {frontmatter: {posttype: {eq: "jobs"}}}
+  ) {
+    edges {
+      node {
+        fields {
+          slug
+        }
+        frontmatter {
+          title
+          tags
+          posttype
+          close_date
+        }
+      }
+    }
+  }
+}
+`)
 if (result.errors) {
   throw result.errors
 }
@@ -126,6 +169,18 @@ result.data.allMarkdownRemark.edges.forEach(edge => {
         }
     });
  }
+
+ 
+ if (edge.node.frontmatter.posttype === 'jobs') {
+  createPage({
+      path: edge.node.fields.slug,
+      component: jobsTemplate,
+      context: {
+          slug: edge.node.fields.slug,
+      }
+  });
+}
+
   else {
       createPage({
       path: edge.node.fields.slug,
@@ -146,10 +201,10 @@ result.data.allAirtable.edges.forEach(({ node}) => {
     },
   })
 })
+
 })
 
 
- 
 
 
   // create Tags pages
@@ -194,6 +249,26 @@ const numNewsPostPage = Math.ceil(newsPosts.length / newsPostsPerPage);
        },
    });
  });
+//   Create jobs post list page
+ const jobsPosts = jobsResult.data.allMarkdownRemark.edges;
+ const jobsPostsPerPage = 8;
+ const numJobsPostPage = Math.ceil(jobsPosts.length / jobsPostsPerPage);
+ 
+   Array.from({ length: numJobsPostPage }).forEach((_, i) => {
+     createPage({
+       path: i === 0 ? `/jobs` : `/jobs/${i + 1}`,
+       component: jobsListTemplate,
+        context: {
+         limit: jobsPostsPerPage,
+         skip: i *  jobsPostsPerPage,
+         numPages: numJobsPostPage,
+          currentPage: i + 1,
+          currentDate: getCurrentDate()
+        },
+    });
+  });
+ 
+
  resolve()
 });
 }

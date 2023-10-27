@@ -52,3 +52,28 @@
   .post-body {
     border-bottom: 2px solid #ddd;
 }
+
+.post-list__content a{
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;}
+
+
+.post-list__content a:hover {
+text-decoration: underline;
+text-decoration-thickness: 1px;
+text-underline-offset: 3px;
+}
+
+.posttemplate figcaption.gatsby-resp-image-figcaption {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #eee;
+}
+
+.posttemplate blockquote {
+  margin-left: 40px;
+  font-style: italic;
+  padding-left: 10px;
+  border-left: solid 2px #333;
+}

@@ -6,7 +6,8 @@ date: 2018-12-29
 thumbnail: '../../images/thinkwork.png'
 ---
 
-![ThinkWork](../../images/thinkwork-long.png)
+
+[![go to ThinkWork website](../../images/thinkwork-long.png)](https://www.thinkwork.org/)
 
 [ThinkWork!](https://www.thinkwork.org/) is the hub for an array of projects related to employment for people with intellectual and developmental disabilities (IDD). Examples include the [Rehabilitation Research & Training Center on Advancing Employment for Individuals with IDD](https://www.thinkwork.org/rrtc). This project conducts and shares research on topics such as the best ways to share information about employment with people with IDD and their families, and ways to increase the effectiveness of employment consultants.
 

@@ -32,7 +32,6 @@ plugins: [
   `gatsby-plugin-image`,
   `gatsby-plugin-sharp`,
   `gatsby-transformer-sharp`, 
- 
   {
     resolve: `gatsby-transformer-remark`,
     options: {
@@ -53,7 +52,7 @@ plugins: [
         {
           resolve: `gatsby-remark-images`,
           options: {
-            maxWidth: 400,
+            maxWidth: 600,
             showCaptions: ['title'],
             markdownCaptions: true,
           },
@@ -153,7 +152,7 @@ plugins: [
         id: 'hss6qfr'
       },
       google: {
-        families: ['Open Sans', 'Open Sans Condensed']
+        families: ['Open Sans:300,400,500,700', 'Open Sans Condensed:300,700']
       }
     }
   },
@@ -250,7 +249,7 @@ plugins: [
     //     crumbLabelUpdates: optional, update specific crumbLabels in the path
    crumbLabelUpdates: [
      {
-        pathname: '/areas-of-emphasis',
+        pathname: '/about/areas-of-emphasis',
        crumbLabel: 'Areas of Emphasis',
   },
   {
@@ -268,6 +267,10 @@ plugins: [
 {
   pathname: 'news/',
   crumbLabel: 'News',
+},
+{
+  pathname: '/jobs',
+  crumbLabel: 'Jobs',
 },
 {
   pathname: '/projects',
@@ -288,6 +291,10 @@ plugins: [
 {
   pathname: '/about/staff-directory',
   crumbLabel: 'Staff Directory',
+},
+{
+  pathname: '/about/fellowships',
+  crumbLabel: 'Fellowships',
 }
  ],
        // optional: switch to className styling

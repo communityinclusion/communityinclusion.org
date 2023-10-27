@@ -7,7 +7,6 @@ thumbnail: "../../images/ICI.png"
 description: "List of ICI Projects"
 ---
 
- 
 <div class="row">
 <div class="col-md-6 mb-4 d-flex align-self-stretch">
 <div class="card shadow-sm p-3">
@@ -274,29 +273,31 @@ Employment First Missouri</a>
 </div>
 </div>
 </div>
-<div class="col-md-6 mb-4 d-flex align-self-stretch">
-<div class="card shadow-sm p-3">
+</div>
 <div class="row">
-	<div class="col-md-3">
-<div class="card-image">
-<img src="../../images/gator_thumbnail.png" alt = "Gator" />
-</div>
-</div>
-<div class="col-md-9">
-<div class="card-body">
-<h2 class="card-title"><a href="/projects/gator">
-Guardianship Alternatives and Transfer-of-Rights</a>
-</h2>
-<p>GATOR aims to explore the relationship between special educators’ transfer-of-rights and guardianship discussions and key predictors of transition outcomes for students with intellectual and developmental disabilities (IDD). </p>
-</div>
-</div>
-</div>
-</div>
-</div>
 <div class="col-md-6 mb-4 d-flex align-self-stretch">
 	<div class="card shadow-sm p-3">
 	<div class="row">
 		<div class="col-md-3">
+	<div class="card-image">
+	<img src="../../images/gator_thumbnail.png" alt = "Gator" />
+	</div>
+	</div>
+	<div class="col-md-9">
+	<div class="card-body">
+	<h2 class="card-title"><a href="/projects/gator">
+	Guardianship Alternatives and Transfer-of-Rights</a>
+	</h2>
+	<p>GATOR aims to explore the relationship between special educators’ transfer-of-rights and guardianship discussions and key predictors of transition outcomes for students with intellectual and developmental disabilities (IDD). </p>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="col-md-6 mb-4 d-flex align-self-stretch">
+	<div class="card shadow-sm p-3">
+	<div class="row">
+	<div class="col-md-3">
 	<div class="card-image">
 	<img src="/images/maicie/MAICEI-Logo.jpg" alt = "MAICEI" />
 	</div>
@@ -304,7 +305,7 @@ Guardianship Alternatives and Transfer-of-Rights</a>
 	<div class="col-md-9">
 	<div class="card-body">
 	<h2 class="card-title"><a href="/projects/maicei">
-		Massachusetts Inclusive Concurrent Enrollment Initiative</a>
+	Massachusetts Inclusive Concurrent Enrollment Initiative</a>
 	</h2>
 	<p>The Massachusetts Inclusive Concurrent Enrollment Initiative (MAICEI) program at the University of Massachusetts Boston offers inclusive higher education opportunities to partnering school districts that support high school students with intellectual disabilities and autism, ages 18-21. </p>
 	</div>
@@ -312,4 +313,29 @@ Guardianship Alternatives and Transfer-of-Rights</a>
 	</div>
 	</div>
 	</div>
-</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 mb-4 d-flex align-self-stretch">
+			<div class="card shadow-sm p-3">
+			<div class="row">
+				<div class="col-md-3">
+			<div class="card-image">
+			<img src="../../images/project_logos/CIVIC_square_web.png" alt = "Youth Voice Youth Choice site" />
+			</div>
+			</div>
+			<div class="col-md-9">
+			<div class="card-body">
+			<h2 class="card-title"><a href="/projects/youthvoice">
+			The Center on Youth Voice, Youth Choice</a>
+			</h2>
+			<p>The Center on Youth Voice, Youth Choice is for youth with disabilities. You have the right to make your own decisions about your life!  At the Center on Youth Voice, Youth Choice, we work with you, your families, and your supporters. We do research, advocacy, and teaching about alternatives to guardianship.</p>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			
+		
+		
+

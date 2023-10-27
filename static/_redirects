@@ -1,6 +1,5 @@
 /fellowships/crocker /news/2021-03-22_crocker.html
 /fellowships/gopen /news/2021-03-22_gopen.html
-/cesacre https://cesacre.communityinclusion.org
 /champps https://champs.communityinclusion.org
 /intranet https://intranet.communityinclusion.org/
 /ici https://intranet.communityinclusion.org/
@@ -8,6 +7,11 @@
 /inspiringindependence https://inspiringindependence.communityinclusion.org/
 /teams https://teams.communityinclusion.org
 /employmentservices https://employmentservices.communityinclusion.org
+/schooldays https://archive.communityinclusion.org/schooldays/index.php?p=1
+/crocker-2022 /pdf/crocker_flyer_2022_D1[1].pdf
+/gopen-2022 /pdf/gopen_flyer_2022_D2[1].pdf
+/doc.php?doc_id=8&type=cebwfdg&id=35 /about/directions
+/files/cle-toolkit/guideposts_assessment_22.pdf /files/cle-toolkit/guideposts_assessment.pdf
 
 
 
@@ -17,14 +21,21 @@ https://communityinclusion.org/article.php?article_id=129 https://archive.commun
 https://communityinclusion.org/article.php?article_id=213 /about/what-we-mean-when-we-talk-about-inclusion
 https://communityinclusion.org/article.php?article_id=129 https://archive.communityinclusion.org/article.php?article_id=129
 https://communityinclusion.org/article.php?article_id=251 https://archive.communityinclusion.org/pdf/networkingmanual_F.pdf
-
-/pdf/networkingmanual_F.pdf https://archive.communityinclusion.org/pdf/networkingmanual_F.pdf
-/pdf/TO31_F.pdf https://archive.communityinclusion.org/pdf/TO31_F.pdf
-/pdf/TO31_F.pdf https://archive.communityinclusion.org/pdf/TO31_F.pdf
+/pdf/TO31_F.pdf /pdf/TO31_F_R.pdf
 
 # General Redirects
+/ces/   /onlinelearning/ces/
+/cesil/ /onlinelearning/ces/
+/cesacre/   /onlinelearning/cesacre/
 /pdf/* /:splat
 /word/* /:splat
 /staff.php /about/staff-directory 
 /article.php /news
 /project.php /projects
+/onestop/* https://archive.communityinclusion.org/onestop/:splat
+/areas-of-emphasis/* /about/areas-of-emphasis/:splat
+
+#Redirect subdomains
+https://cesacre.communityinclusion.org/*    https://communityinclusion.org/cesacre/:splat 301!
+http://www.consulting.communityinclusion.org/PE https://www.explorevr.org/progressive-employment
+http://dev.communityinclusion.org/*   https://dev--icibeta.netlify.app/:splat 301!

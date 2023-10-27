@@ -25,6 +25,8 @@ const activeLinkStyle = {
 
 
        <p>The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society. As practitioners, researchers, and teachers, we form partnerships with individuals, families, and service agencies. Together we advocate for personal choice, self-determination, and social and economic justice.</p>
+       <p>We are dedicated to advancing the full inclusion of people with disabilities in all aspects of life. Our work encompasses research, program evaluation, training, consultation, education, policy analysis, and service delivery across four main areas of emphasis: Employment, Education, Community Life, and Health Care.</p>
+       <p>We have three national hubs: <a href="https://www.explorevr.org/">ExploreVR</a> and <a href="https://www.thinkwork.org/">ThinkWork</a>, which focus on inclusive employment, and <a href="https://thinkcollege.net/">ThinkCollege</a>, which focuses on inclusive higher education.</p>
       </div>
 
 
@@ -34,36 +36,14 @@ const activeLinkStyle = {
           <li><Link to="/about" role="button" aria-haspopup="true">About the ICI</Link></li>
           <li><Link to="/about/history">History of ICI</Link></li>
           <li><Link to="/about/mission">Mission and Vision</Link></li>
+          <li><Link to="/about/areas-of-emphasis">Areas of Emphasis</Link></li>
           <li><Link to="/about/what-we-mean-when-we-talk-about-inclusion">What We Mean When We Talk About Inclusion</Link></li>
           <li><Link to="/about/staff-directory">Staff Directory</Link></li>
             <li><Link to="/about/directions">Directions</Link></li>
             <li><Link to="/about/glossary">Glossary</Link></li>
+            <li><Link to="/about/fellowships">Fellowships</Link></li>
+            <li><Link to="/jobs">Jobs at ICI</Link></li>
               <li><Link to="/about/contact">Contact</Link></li>
-        </ul>
-      </div>
-    </div>
-
-
-
-  </div>
-</li>
-<li className="top-level-link">
-
-
-     <Link to="/areas-of-emphasis" activeStyle={activeLinkStyle} partiallyActive={true} className="mega-menu"><span>Areas of Emphasis</span></Link>
-  <div className="sub-menu-block">
-    <div className="row">
-      <div className="col-lg-9">
-<p>Learn more about the four areas through which we support the full inclusion of people with disabilities in society. </p>
-      </div>
-
-      <div className="col-lg-3 border-start-lg">
-
-        <ul className="sub-menu-lists ms-1">
-          <li><Link to="/areas-of-emphasis/employment">Employment</Link></li>
-          <li><Link to="/areas-of-emphasis/education">Education</Link></li>
-          <li><Link to="/areas-of-emphasis/community">Community Life</Link></li>
-          <li><Link to="/areas-of-emphasis/healthcare">Health Care</Link></li>
         </ul>
       </div>
     </div>
@@ -108,7 +88,7 @@ const activeLinkStyle = {
 <li><Link to="/projects/cle">Community Life Engagement</Link></li>
 <li><Link to="/projects/emp1stmo">Employment First Missouri</Link></li>
 <li><Link to="/projects/maicei">MAICEI</Link></li>
-
+<li><Link to="/projects/youthvoice">CYVYC</Link></li>
 
         </ul>
       </div>
@@ -133,7 +113,7 @@ const activeLinkStyle = {
           <li><a href="https://consulting.communityinclusion.org/">ICI Consulting</a></li>
           <li><a href="https://employmentservices.communityinclusion.org/">ICI Employment Services</a></li>
            <li><a href="https://www.directcourseonline.com/employment-services/">College of Employment Services</a></li>
-            <li><a href="https://cesacre.communityinclusion.org/">CES/ACRE</a></li>
+            <li><a href="/onlinelearning/cesacre/">CES/ACRE</a></li>
 
 
         </ul>
@@ -150,7 +130,9 @@ const activeLinkStyle = {
 <li className="top-level-link">
   <Link to="/publications" activeStyle={activeLinkStyle} partiallyActive={true}><span>Publications</span></Link>
 </li>
-
+<li className="top-level-link">
+<Link to="/onlinelearning/" activeStyle={activeLinkStyle} partiallyActive={true}><span>Online Learning</span></Link>
+</li>
 <li className="top-level-link d-lg-none">
  <Link to="/search" activeStyle={activeLinkStyle} partiallyActive={true}><span>Search</span></Link> 
 </li> 

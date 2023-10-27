@@ -1,56 +1,43 @@
-import React from 'react'
-import { GatsbyImage } from "gatsby-plugin-image";
-import styled from 'styled-components'
+import * as React from "react"
+// import { StaticImage } from "gatsby-plugin-image"
 
 
-const Container = styled.div`
-  display: flex;
-  position: relative;
-  align-items: center;
-`
 
-const Overlay = styled.div`
-  width:80%;
-  text-align: center;
-  margin: 0px auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top:0;
-  bottom:0;
-  display:flex;
-  justify-content:center;
-  align-items: center;
-  text-align: center;
-`
-
-const BgImage = styled(GatsbyImage)`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: -1;
-
-  // Adjust image positioning (if image covers area with defined height) and add font-family for polyfill
-  & > img {
-    object-fit: ${props => props.fit || 'cover'} !important;
-    object-position: ${props => props.position || '50% 50%'} !important;
-    font-family: 'object-fit: ${props => props.fit || 'cover'} !important; object-position: ${props => props.position || '50% 50%'} !important;'
-  }
-`
-
-class Hero extends React.Component {
-  render() {
-    const { children } = this.props
-    return (
-      <Container>
-        <BgImage {...this.props}/>
-        <Overlay>
-          {children}
-        </Overlay>
-      </Container>
-    )
-  }
+export function Hero() {
+  return (
+    <div style={{ display: "grid" }}>
+      {/* You can use a GatsbyImage component if the image is dynamic */}
+      {/* <StaticImage
+        className="heroImage"
+        style={{
+          gridArea: "1/1",
+          maxHeight: 600,
+          // You can set a maximum height for the image, if you wish.
+          // maxHeight: 600,
+        }}
+        layout="fullWidth"
+        // You can optionally force an aspect ratio for the generated image
+        aspectRatio={3 / 1}
+        // This is a presentational image, so the alt should be an empty string
+        alt=""
+        src={"umbcampus.png"}
+        formats={["auto", "webp", "avif"]}
+      /> */}
+      <div className="heroText"
+        style={{
+          // By using the same grid area for both, they are stacked on top of each other
+          gridArea: "1/1",
+          position: "relative",
+          // This centers the other elements inside the hero component
+          placeItems: "center",
+          display: "grid"
+        }}
+      >
+        {/* Any content here will be centered in the component */}
+        <p class="mx-4 mt-4">The Institute for Community Inclusion (ICI) at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society. As practitioners, researchers, and teachers, we form partnerships with individuals, families, community organizations, and service agencies. Together, we advocate for personal choice, self-determination, and social and economic justice. </p>
+      </div>
+    </div>
+  )
 }
 
-export default Hero
+export default Hero;
