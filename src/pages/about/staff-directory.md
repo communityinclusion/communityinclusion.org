@@ -33,6 +33,7 @@ Staff listing and contact details<!-- end -->
 | Julisa     | Cully             | (617) 287-4386 | <Julisa.Cully@umb.edu>                     | [View Profile](/about/staff-directory/julisa-cully)               |
 |Krista	| Dann		| | <Krista.Dann@umb.edu>    | [View Profile](/about/staff-directory/krista-dann)                   |
 | Odgerel    | Dashzeveg   | (857) 385-9821 | <Odgerel.Dashzeveg@umb.edu>       | [View Profile](/about/staff-directory/odgerel-dashzeveg)               |
+| Erin        | Dennis          |                | <erin.dennis@umb.edu>                    | [View Profile](/about/staff-directory/erin-dennis)              |
 | Vito       | DeSantis          |                | <Vito.DeSantis@umb.edu>                    | [View Profile](/about/staff-directory/vito-desantis)              |
 | Mary       | Di Biase          | (617) 571-6198 | <Mary.DiBiase@umb.edu>                     | [View Profile](/about/staff-directory/mary-di-biase)              |
 | Daria      | Domin             | (617) 287-4277 | <Daria.Domin@umb.edu>                      | [View Profile](/about/staff-directory/daria-domin)                |
@@ -120,6 +121,7 @@ Staff listing and contact details<!-- end -->
 | Alvaro     | Tobar             | (617) 287-4347 | <Alvaro.Tobar@umb.edu>                     | [View Profile](/about/staff-directory/alvaro-tobar)               |
 | David      | Urban             | | <David.Urban@umb.edu>                      | [View Profile](/about/staff-directory/david-urban)                |
 | Kelly      | Wanzer            |                | <kelly.wanzer@umb.edu>                      | [View Profile](/about/staff-directory/kelly-wanzer)                |
+| Madeline       | Webster           |                | <Madeline.Webster@umb.edu>                      | [View Profile](/about/staff-directory/madeline-webster)                |
 | Ryan      | Wedeking           |                | <ryan.wedeking@umb.edu>                      | [View Profile](/about/staff-directory/ryan-wedeking)                |
 | Cate       | Weir              | (603) 848-4901 | <Cathryn.Weir@umb.edu>                     | [View Profile](/about/staff-directory/cate-weir)                  |
 |Megan |  Wiggins  | |    <megan.wiggins@umb.edu>   | [View Profile](/about/staff-directory/megan-wiggins)                  |
