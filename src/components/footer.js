@@ -30,12 +30,8 @@ Fax: (617) 287-4352<br />
 TTY: (617) 287-4350<br />
 Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
 &nbsp;</address>    </div>
-
-
-  </div>
-  
-  <div className="col-md-4 col-sm-12 p-2 ">
-
+</div>
+<div className="col-md-4 col-sm-12 p-2 ">
   <h3 className="fs-4 border-bottom border-light pv-0 lh-lg text-uppercase">Links</h3>
   <ul className="align-middle w-100 w-75-l list pl0 list-unstyled">
     <li> <Link to="/about/" className="link  whited-inline-block" title="About">About ICI</Link></li>
@@ -43,7 +39,6 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
     <li> <Link to="/projects" className="link white d-inline-block" title="Projects">Projects</Link></li>
        <li>   <Link to="/services" className="link white d-inline-block" title="Services">Services</Link></li>
        <li> <a href="https://lp.constantcontactpages.com/su/jlCEExQ/subscribe" className="link white d-inline-block" target = "_blank" rel = "noopener noreferrer" title="Subscribe">Subscribe</a></li>
-
  <li> <Link to="/about/contact" className="link white d-inline-block" title="contact">Contact</Link></li>
  <li> <Link to="/jobs" className="link white d-inline-block" title="Jobs at ICI">Jobs at ICI</Link></li>
     <li> <Link to="/donate" className="link white d-inline-block" title="Donate">Donate</Link></li>
