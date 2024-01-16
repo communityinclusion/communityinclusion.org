@@ -53,21 +53,27 @@ The University of Massachusetts Boston is deeply rooted in the city's history ye
 <div class="bg-light p-2">
 <b>Contacts:</b>
 
-Dr. Heike Boeltzig-Brown, Program Director, Institute for Community Inclusion (ICI)
+<p>Dr. Heike Boeltzig-Brown, Program Director, Institute for Community Inclusion (ICI)</p>
 
-*   <b>Phone</b>: 781-525-2420 (mobile)
-*   <b>Email</b>: [Heike.Boeltzig@umb.edu](mailto:Heike.Boeltzig@umb.edu)
+<ul>
+<li><b>Phone</b>: 781-525-2420 (mobile)</li>
+<li> <b>Email</b>: <a class="text-break" href="mailto:Heike.Boeltzig@umb.edu">Heike.Boeltzig@umb.edu</a></li>
+   </ul> 
+<hr>
+<p>Quinn Barbour, Senior Marketing and Communications Specialist Manager, Institute for Community Inclusion</p>
+
+<ul>
+<li> <b>Phone</b>: 857-271-6617 (mobile)</li>
+<li> <b>Email</b>:  <a class="text-break" href="mailto:Quinn.Barbour@umb.edu">Quinn.Barbour@umb.edu</a></li>
+<li> <b>Website</b>: <a class="text-break" href="http://www.communityinclusion.org/">www.communityinclusion.org</a></li>
+</ul>
     
 <hr>
-Quinn Barbour, Senior Marketing and Communications Specialist Manager, Institute for Community Inclusion
 
-*   <b>Phone</b>: 857-271-6617 (mobile)
-*   <b>Email</b>: [Quinn.Barbour@umb.edu](mailto:Quinn.Barbour@umb.edu)
-*   <b>Website</b>: [www.communityinclusion.org](http://www.communityinclusion.org/)
-    
-<hr>
-
-US Department of State: [eca-press@state.gov](mailto:eca-press@state.gov)
+<p>US Department of State</p>
+<ul>
+<li> <b>Email</b>:  <a class="text-break" href="mailto:eca-press@state.gov">eca-press@state.gov</a></li>
+</ul>
 
 </div>
 </div>
