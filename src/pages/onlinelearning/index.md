@@ -14,7 +14,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
     <img src="CES_i_acre_long.png" class="card-img-top" style="max-width: 850px;" alt="CES ACRE"></a>
     <div class="card-body">
       <p class="card-text"><p class=""><strong>College of Employment Services (CES)</strong> courses have all the information learners need to feel confident, knowledgeable, and ready to work in employment services for people with disabilities. </p>
-      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acreplus">Enroll in CES + ACRE Course</a> </p>
+      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acreplus">Enroll in CES + ACRE Supplement</a> </p>
       <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre">Enroll in CES ACRE - Fieldwork ONLY</a></p>
       <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces-acre/courses/ces-acre-pa">Enroll in CES ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
       </p>
@@ -36,7 +36,7 @@ ICI Online Learning has everything you need to feel confident, knowledgeable, an
       <div class="row">
         <div class="col-md"><div class="card">
           <div class="card-body">
-            <h5 class="card-title">ACRE Course Bundle</h5>
+            <h5 class="card-title">ACRE Supplement Bundle</h5>
             <p> 11-course bundle + Field Work: $550
             <p><a href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acreplus" class="btn btn-primary">Learn More and Enroll</a> 
            </p>

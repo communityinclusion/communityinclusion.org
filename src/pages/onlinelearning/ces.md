@@ -42,8 +42,8 @@ thumbnail: "../../images/ICI.png"
   <p> (click each for more details and to enroll)</p>
   <ul class="list-group pb-4">
     <li class="list-group-item border border-success"><details id="acre">
-      <summary><span class="green"> ACRE Course Bundle</span> <img src="thumbnail_acre_icon.png" alt="small ACRE logo" style="max-width: 15px;"><br>11-course bundle + Field Work: $550</summary>
-      <p>CES's ACRE Course bundle includes 11 ACRE-approved courses plus required activities and field work. The Association of Community Rehabilitation Educators (ACRE) is a national organization that develops competencies for employment providers. ACRE reviews and certifies training programs that cover these competencies. <a href="/onlinelearning/cesacre/">Learn more about ACRE</a></p>
+      <summary><span class="green"> ACRE Supplement Bundle</span> <img src="thumbnail_acre_icon.png" alt="small ACRE logo" style="max-width: 15px;"><br>11-course bundle + Field Work: $550</summary>
+      <p>CES's ACRE Supplement bundle includes 11 ACRE-approved courses plus required activities and field work. The Association of Community Rehabilitation Educators (ACRE) is a national organization that develops competencies for employment providers. ACRE reviews and certifies training programs that cover these competencies. <a href="/onlinelearning/cesacre/">Learn more about ACRE</a></p>
       <ol>
       <li>Foundations of Employment Services</li>
       <li>Principles of Career Development</li>
