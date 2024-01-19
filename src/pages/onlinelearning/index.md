@@ -5,18 +5,18 @@ date: 2022-02-01
 posttype: "page"
 thumbnail: "../../images/ICI.png"
 ---
-Welcome to ICI Online Learning! Our online trainings include a variety of interactive and customizable self-guided courses for employment service providers, vocational rehabilitation leadership, transition specialists, school administrators, and other disability services professionals across the US. Our courses use engaging video case studies to illustrate best practices in providing disability services, supports, and leadership.
+<p>Welcome to ICI Online Learning! Our online trainings include a variety of interactive and customizable self-guided courses for employment service providers, vocational rehabilitation leadership, transition specialists, school administrators, and other disability services professionals across the US. Our courses use engaging video case studies to illustrate best practices in providing disability services, supports, and leadership.</p>
 
-ICI Online Learning has everything you need to feel confident, knowledgeable, and ready to work in the disability field. Click each box below to explore our course offerings.
+<p>ICI Online Learning has everything you need to feel confident, knowledgeable, and ready to work in the disability field. Click each box below to explore our course offerings.</p>
 <div class="d-grid gap-3">
   <div class="card">
     <a href="/onlinelearning/cesacre/">
     <img src="CES_i_acre_long.png" class="card-img-top" style="max-width: 850px;" alt="CES ACRE"></a>
     <div class="card-body">
-      <p class="card-text"><p class=""><strong>College of Employment Services (CES)</strong> courses have all the information learners need to feel confident, knowledgeable, and ready to work in employment services for people with disabilities. </p>
-      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acreplus">Enroll in CES + ACRE Supplement</a> </p>
-      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre">Enroll in CES ACRE - Fieldwork ONLY</a></p>
-      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces-acre/courses/ces-acre-pa">Enroll in CES ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
+      <p class="card-text"><p class=""><strong>College of Employment Services (CES)</strong>. The CES ACRE Course is a self-guided training that includes 11 CES courses plus activities and fieldwork. Learners who complete the CES ACRE training and fieldwork will receive the ACRE certificate and be listed on the <a href="https://www.acreducators.org/certificate-registry.html">Certificate Registry on the ACRE website.</a></p>
+      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acreplus">Enroll in CES + ACRE Course</a> </p>
+      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre">Enroll in ACRE - Fieldwork ONLY</a></p>
+      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces-acre/courses/ces-acre-pa">Enroll in ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
       </p>
       <p><a href="/onlinelearning/cesacre/">Learn more about the CES ACRE</a></p>
     </div>

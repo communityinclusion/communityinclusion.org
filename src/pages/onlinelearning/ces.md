@@ -14,7 +14,12 @@ thumbnail: "../../images/ICI.png"
       <p>- CES Learner</p>
     </blockquote>
     <h2 class="h5 card-title">What courses does CES offer?</h2>
-    <p>We offer 17 courses with over 60 lessons related to employment services. Explore our course bundle options!</p>   
+    <p>We offer 17 courses with over 60 lessons related to employment services. Explore our course bundle options!</p> 
+
+<h2  class="h5 card-title">Does CES offer ACRE credentialing?</h2>
+<p>We offer <em>Association of Community Rehabilitation Educators (ACRE)</em> certified courses as well as the required accompanying fieldwork. The CES ACRE Course is a self-guided training that includes 11 CES courses plus fieldwork. Learners who complete the <a href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acreplus">CES +ACRE Course</a>  training will receive the ACRE certificate and be listed on the <a href="https://www.acreducators.org/certificate-registry.html">Certificate Registry on the ACRE website</a>.</p>
+
+
 <h2 class="h5 card-title">How can I purchase CES courses?</h2>
 <p>You can choose from 6 course bundles, or you can purchase all 17 courses for your staff. Courses are available immediately after purchase.</p>
 <ul>
@@ -42,8 +47,8 @@ thumbnail: "../../images/ICI.png"
   <p> (click each for more details and to enroll)</p>
   <ul class="list-group pb-4">
     <li class="list-group-item border border-success"><details id="acre">
-      <summary><span class="green"> ACRE Supplement Bundle</span> <img src="thumbnail_acre_icon.png" alt="small ACRE logo" style="max-width: 15px;"><br>11-course bundle + Field Work: $550</summary>
-      <p>CES's ACRE Supplement bundle includes 11 ACRE-approved courses plus required activities and field work. The Association of Community Rehabilitation Educators (ACRE) is a national organization that develops competencies for employment providers. ACRE reviews and certifies training programs that cover these competencies. <a href="/onlinelearning/cesacre/">Learn more about ACRE</a></p>
+      <summary><span class="green"> CES + ACRE Course</span> <img src="thumbnail_acre_icon.png" alt="small ACRE logo" style="max-width: 15px;"><br>11-Courses + Field Work: $550</summary>
+      <p>CES's ACRE Course includes 11 ACRE-approved courses plus required activities and field work. The Association of Community Rehabilitation Educators (ACRE) is a national organization that develops competencies for employment providers. ACRE reviews and certifies training programs that cover these competencies. <a href="/onlinelearning/cesacre/">Learn more about ACRE</a></p>
       <ol>
       <li>Foundations of Employment Services</li>
       <li>Principles of Career Development</li>
