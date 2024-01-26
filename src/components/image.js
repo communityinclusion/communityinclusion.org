@@ -1,5 +1,5 @@
 import React from "react"
-import { StaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 /*
@@ -14,7 +14,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
  */
 
 const Image = () => (
-  <StaticQuery
+  <useStaticQuery
     query={graphql`{
   heroImage: file(relativePath: {eq: "jfk-hero-image.png"}) {
     childImageSharp {

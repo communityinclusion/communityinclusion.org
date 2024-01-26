@@ -3,7 +3,7 @@ title: "Inclusion Illuminated: Professional Fellows Program on Inclusive Civic E
 description: ""
 path: "/2022-05-09_inclusion-illuminated-professional-fellows-program-on-inclusive-civic-engagement-for-emerging-leaders-in-africa.md"
 date: "2022-05-09"
-tags: [ 'US Department of State', 'professional fellows program', 'Institute for Community Inclusion', 'citizen diplomacy']
+tags: [ 'US Department of State', 'Professional Fellows Program', 'Institute for Community Inclusion', 'citizen diplomacy', 'Inclusion Illuminated']
 posttype: "news"
 thumbnail: "../../images/Professional-Fellows-logo-sq.png"
 ---

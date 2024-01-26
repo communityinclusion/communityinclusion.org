@@ -3,7 +3,6 @@ require("dotenv").config({
 })
 
 module.exports = {
-  pathPrefix:'/',
 siteMetadata: {
   siteUrl: 'https://www.communityinclusion.org',
   title: 'Institute for Community Inclusion',
@@ -11,7 +10,13 @@ siteMetadata: {
   keywords: 'Community Inclusion, UMB, Disabilities',
   author: '@ICInclusion',
   image: 'https://www.communityinclusion.org/static/ici-150w-1c1c4ac706a0672a9800093794f86167.png'
+  
 },
+  trailingSlash: `always`,
+  pathPrefix:'/',
+ flags: {
+    PARALLEL_SOURCING: false,
+  },
 plugins: [
   {
   resolve: 'gatsby-plugin-robots-txt',
@@ -26,7 +31,11 @@ plugins: [
       }
     }
   }
-},
+}, 
+{
+  resolve: "@sentry/gatsby"
+}, 
+
 
   `gatsby-plugin-netlify`,
   `gatsby-plugin-image`,
@@ -57,10 +66,10 @@ plugins: [
             markdownCaptions: true,
           },
         },
-        {
-          resolve: `gatsby-remark-prismjs`,
-          options: {},
-        },
+     //   {
+      //    resolve: `gatsby-remark-prismjs`,
+        //  options: {},
+     //   },
         {
           resolve: 'gatsby-remark-copy-linked-files',
           options: {
@@ -85,12 +94,12 @@ plugins: [
           //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
         }
       },
-      {
-        resolve: `gatsby-remark-responsive-iframe`,
-        options: {
-          wrapperStyle: `margin-bottom: 1.0725rem`,
-        },
-      }
+     // {
+    //    resolve: `gatsby-remark-responsive-iframe`,
+    //    options: {
+    //      wrapperStyle: `margin-bottom: 1.0725rem`,
+    //    },
+     // }
     ]
   }
 },
@@ -133,18 +142,6 @@ plugins: [
       crossOrigin: `use-credentials`,
     },
   },
- {
-  resolve: "@sentry/gatsby",
-  options: {
-    dsn: 'https://3d981740717e4fe8a72e44cce3060d6e@o339238.ingest.sentry.io/1875087',
-    tracesSampleRate: 1,
-    browserTracingOptions: {
-      // disable creating spans for XHR requests
-      traceXHR: false,
-    }, 
-    autoSessionTracking: true,
-  }
-}, 
   {
     resolve: 'gatsby-plugin-web-font-loader',
     options: {
@@ -212,26 +209,14 @@ plugins: [
       ]
     }
   },
-    {
-          resolve: `gatsby-plugin-material-ui`,
-          options: {
-            stylesProvider: {
-              injectFirst: true,
-            },
-          },
-        },
   `gatsby-plugin-styled-components`,
+  'babel-plugin-styled-components',
   {
     resolve: 'gatsby-plugin-sitemap',
     options: {
       output: '/sitemap',
     },
   },
-
-  // this (optional) plugin enables Progressive Web App + Offline functionality
-  // To learn more, visit: https://gatsby.dev/offline
-
-//`gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-breadcrumb`,
       options: {
@@ -300,11 +285,30 @@ plugins: [
        // optional: switch to className styling
         // see `useClassNames example with `AutoGen` below
       useClassNames: true,
-      trailingSlashes: true,
-        // optional: if you are using path prefix
-      usePathPrefix: '/',
-     
       },
     },
-],
+    {
+      resolve: "gatsby-plugin-lunr",
+      options: {
+        languages: [{ name: "en" }],
+        fields: [
+          { name: "title", store: true, attributes: { boost: 20 } },
+          { name: "description", store: true, attributes: { boost: 5 } },
+          { name: "content" },
+          { name: "url", store: true },
+          { name: "date", store: true },
+        ],
+        resolvers: {
+          MarkdownRemark: {
+            title: node => node.frontmatter.title,
+            description: node => node.frontmatter.description,
+            content: node => node.rawMarkdownBody,
+            url: node => node.fields.slug,
+            date: node => node.frontmatter.date,
+          },
+        },
+        filename: "search_index.json",
+      },
+    }, 
+]
 }

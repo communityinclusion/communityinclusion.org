@@ -4,7 +4,7 @@ description: ""
 path: "/2021-06-08_join-the-ici-this-month-at-apse-2021"
 date: "2021-06-08"
 posttype: "news"
-tags: [ 'Apse2021', 'Employment First', 'Employment', 'Ici', 'Community Inclusion']
+tags: [ 'Apse2021', 'Employment First', 'Employment', 'ICI', 'Community Inclusion']
 thumbnail: "../../images/illuminate-conference.png"
 ---
 

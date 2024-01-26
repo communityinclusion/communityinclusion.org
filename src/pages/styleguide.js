@@ -131,9 +131,9 @@ const StyleGuide = () => (
 <p>This is a standard paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
 
 
-<div class="pa4">
-  <blockquote class="athelas ml0 mt0 pl4 black-90 bl bw2 b--blue">
-    <p class="f5 f4-m f3-l lh-copy measure mt0">
+<div className="pa4">
+  <blockquote className="athelas ml0 mt0 pl4 black-90 bl bw2 b--blue">
+    <p className="f5 f4-m f3-l lh-copy measure mt0">
       Discipline in typography is a prime virtue. Individuality
       must be secured by means that are rational. Distinction
       needs to be won by simplicity and restraint. It is equally
@@ -141,7 +141,7 @@ const StyleGuide = () => (
       certain spirit and vitality, or they degenerate into
       dullness and mediocrity.
     </p>
-    <cite class="f6 ttu tracked fs-normal">―Stanley Morison</cite>
+    <cite className="f6 ttu tracked fs-normal">―Stanley Morison</cite>
   </blockquote>
 </div>
 
@@ -225,47 +225,47 @@ const StyleGuide = () => (
 <h1 id="tables">Tables</h1>
 
 
-<div class="pa4">
-  <div class="overflow-auto">
-    <table class="f6 w-100 mw8 center" cellspacing="0">
+<div className="pa4">
+  <div className="overflow-auto">
+    <table className="f6 w-100 mw8 center" cellspacing="0">
       <thead>
         <tr>
-          <th class="fw6 bb b--black-20 tl pb3 pr3 bg-white">Table-header 1</th>
-          <th class="fw6 bb b--black-20 tl pb3 pr3 bg-white">Table-header 2</th>
-          <th class="fw6 bb b--black-20 tl pb3 pr3 bg-white">Table-header 3</th>
-          <th class="fw6 bb b--black-20 tl pb3 pr3 bg-white">Table-header 4</th>
+          <th className="fw6 bb b--black-20 tl pb3 pr3 bg-white">Table-header 1</th>
+          <th className="fw6 bb b--black-20 tl pb3 pr3 bg-white">Table-header 2</th>
+          <th className="fw6 bb b--black-20 tl pb3 pr3 bg-white">Table-header 3</th>
+          <th className="fw6 bb b--black-20 tl pb3 pr3 bg-white">Table-header 4</th>
         </tr>
       </thead>
-      <tbody class="lh-copy">
+      <tbody className="lh-copy">
         <tr>
-          <td class="pv3 pr3 bb b--black-20">Hassan Johnson</td>
-          <td class="pv3 pr3 bb b--black-20">@hassan</td>
-          <td class="pv3 pr3 bb b--black-20">hassan@companywithalongdomain.co</td>
-          <td class="pv3 pr3 bb b--black-20">14419232532474</td>
+          <td className="pv3 pr3 bb b--black-20">Hassan Johnson</td>
+          <td className="pv3 pr3 bb b--black-20">@hassan</td>
+          <td className="pv3 pr3 bb b--black-20">hassan@companywithalongdomain.co</td>
+          <td className="pv3 pr3 bb b--black-20">14419232532474</td>
         </tr>
         <tr>
-          <td class="pv3 pr3 bb b--black-20">Cell 1</td>
-          <td class="pv3 pr3 bb b--black-20">Cell 2</td>
-          <td class="pv3 pr3 bb b--black-20">Cell 3</td>
-          <td class="pv3 pr3 bb b--black-20">Cell 4</td>
+          <td className="pv3 pr3 bb b--black-20">Cell 1</td>
+          <td className="pv3 pr3 bb b--black-20">Cell 2</td>
+          <td className="pv3 pr3 bb b--black-20">Cell 3</td>
+          <td className="pv3 pr3 bb b--black-20">Cell 4</td>
         </tr>
         <tr>
-        <td class="pv3 pr3 bb b--black-20">Cell 1</td>
-          <td class="pv3 pr3 bb b--black-20">Cell 2</td>
-          <td class="pv3 pr3 bb b--black-20">Cell 3</td>
-          <td class="pv3 pr3 bb b--black-20">Cell 4</td>
+        <td className="pv3 pr3 bb b--black-20">Cell 1</td>
+          <td className="pv3 pr3 bb b--black-20">Cell 2</td>
+          <td className="pv3 pr3 bb b--black-20">Cell 3</td>
+          <td className="pv3 pr3 bb b--black-20">Cell 4</td>
         </tr>
         <tr>
-        <td class="pv3 pr3 bb b--black-20">Cell 1</td>
-          <td class="pv3 pr3 bb b--black-20">Cell 2</td>
-          <td class="pv3 pr3 bb b--black-20">Cell 3</td>
-          <td class="pv3 pr3 bb b--black-20">Cell 4</td>
+        <td className="pv3 pr3 bb b--black-20">Cell 1</td>
+          <td className="pv3 pr3 bb b--black-20">Cell 2</td>
+          <td className="pv3 pr3 bb b--black-20">Cell 3</td>
+          <td className="pv3 pr3 bb b--black-20">Cell 4</td>
         </tr>
         <tr>
-        <td class="pv3 pr3 bb b--black-20">Cell 1</td>
-          <td class="pv3 pr3 bb b--black-20">Cell 2</td>
-          <td class="pv3 pr3 bb b--black-20">Cell 3</td>
-          <td class="pv3 pr3 bb b--black-20">Cell 4</td>
+        <td className="pv3 pr3 bb b--black-20">Cell 1</td>
+          <td className="pv3 pr3 bb b--black-20">Cell 2</td>
+          <td className="pv3 pr3 bb b--black-20">Cell 3</td>
+          <td className="pv3 pr3 bb b--black-20">Cell 4</td>
         </tr>
       </tbody>
     </table>
@@ -306,12 +306,12 @@ const StyleGuide = () => (
 
 
 
-    <div class="ph3">
-  <h1 class="f6 fw6 ttu tracked">Basic button</h1>
-  <a class="f6 link dim br2 ph3 pv2 mb2 mr1 dib white bg-blue" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ph3 pv2 mb2 mr1 dib white bg-navy" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ph3 pv2 mb2 mr1 dib white bg-dark-blue" href="#0">Button Text</a>
-  <a class="f6 link dim br2 ph3 pv2 mb2 mr1 dib white bg-mid-gray" href="#0">Button Text</a>
+    <div className="ph3">
+  <h1 className="f6 fw6 ttu tracked">Basic button</h1>
+  <a className="f6 link dim br2 ph3 pv2 mb2 mr1 dib white bg-blue" href="#0">Button Text</a>
+  <a className="f6 link dim br2 ph3 pv2 mb2 mr1 dib white bg-navy" href="#0">Button Text</a>
+  <a className="f6 link dim br2 ph3 pv2 mb2 mr1 dib white bg-dark-blue" href="#0">Button Text</a>
+  <a className="f6 link dim br2 ph3 pv2 mb2 mr1 dib white bg-mid-gray" href="#0">Button Text</a>
 </div>
 
 

@@ -1,41 +1,41 @@
-import React from "react"
-import { graphql } from 'gatsby'
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import arizona_thumbnail from '../images/pub-thumbs/Arizona_thumbnail.png'
-import evr_thumbnail from '../images/pub-thumbs/EVR_toolkit.png'
-import FF20_thumbnail from '../images/pub-thumbs/FF20_thumbnail.png'
-import HowTo1_thumbnail from '../images/pub-thumbs/HowTo1_thumbnail.png'
-import HowTo6_thumbnail from '../images/pub-thumbs/HowTo6_thumbnail.png'
-import innovativeAT_thumbnail from '../images/pub-thumbs/innovativeAT.png'
-import Insight41_thumbnail from '../images/pub-thumbs/Insight41_thumbnail.png'
-import SELN_guidance_thumbnail from '../images/pub-thumbs/SELN_guidance_thumbnail.png'
-import SD_thumbnail from '../images/pub-thumbs/SD_thumbnail.png'
-import SELN_submin_thumbnail from '../images/pub-thumbs/SELN_submin_thumbnail.png'
-import TC_annnual_thumbnail from '../images/pub-thumbs/TC_annnual_thumbnail.png'
-import TCTP1_thumbnail from '../images/pub-thumbs/TCTP1_thumbnail.png'
-import SELN_unpaid_work_thumbnail from '../images/pub-thumbs/SELN_unpaid_work_thumbnail.png'
-import cle_toolkit_thumbnail from '../images/pub-thumbs/cle_toolkit_thumbnail.png'
-import covid19_thumbnail from '../images/pub-thumbs/covid19-lightbulb.png'
-import depression_thumbnail from '../images/pub-thumbs/depression_DS_F2-1-thumb.png'
-import adhd_thumbnail from '../images/pub-thumbs/ADHD_F_web-1-thumb.png'
-import communications_thumbnail from '../images/pub-thumbs/communications-booklet_2016-update-1-thumb.png'
-import ds_brochure_thumbnail from '../images/pub-thumbs/DS-brochure_2014_web_F-1-thumb.png'
-import literacy_infants_thumbnail from '../images/pub-thumbs/literacy_infants_F-thumb.png'
-import literacy_youngchild_thumbnail from '../images/pub-thumbs/literacy_youngchild_F-thumb.png'
-import literacy_schoolage_thumbnail from '../images/pub-thumbs/literacy_schoolage_F-thumb.png'
-import literacy_teens_thumbnail from '../images/pub-thumbs/literacy_teens_F-thumb.png'
+import * as React from "react"
+// import { graphql } from 'gatsby'
+import Layout from "../../components/layout"
+import Seo from "../../components/seo"
+import arizona_thumbnail from '../../images/pub-thumbs/Arizona_thumbnail.png'
+import evr_thumbnail from '../../images/pub-thumbs/EVR_toolkit.png'
+import FF20_thumbnail from '../../images/pub-thumbs/FF20_thumbnail.png'
+import HowTo1_thumbnail from '../../images/pub-thumbs/HowTo1_thumbnail.png'
+import HowTo6_thumbnail from '../../images/pub-thumbs/HowTo6_thumbnail.png'
+import innovativeAT_thumbnail from '../../images/pub-thumbs/innovativeAT.png'
+import Insight41_thumbnail from '../../images/pub-thumbs/Insight41_thumbnail.png'
+import SELN_guidance_thumbnail from '../../images/pub-thumbs/SELN_guidance_thumbnail.png'
+import SD_thumbnail from '../../images/pub-thumbs/SD_thumbnail.png'
+import SELN_submin_thumbnail from '../../images/pub-thumbs/SELN_submin_thumbnail.png'
+import TC_annnual_thumbnail from '../../images/pub-thumbs/TC_annnual_thumbnail.png'
+import TCTP1_thumbnail from '../../images/pub-thumbs/TCTP1_thumbnail.png'
+import SELN_unpaid_work_thumbnail from '../../images/pub-thumbs/SELN_unpaid_work_thumbnail.png'
+import cle_toolkit_thumbnail from '../../images/pub-thumbs/cle_toolkit_thumbnail.png'
+import covid19_thumbnail from '../../images/pub-thumbs/covid19-lightbulb.png'
+import depression_thumbnail from '../../images/pub-thumbs/depression_DS_F2-1-thumb.png'
+import adhd_thumbnail from '../../images/pub-thumbs/ADHD_F_web-1-thumb.png'
+import communications_thumbnail from '../../images/pub-thumbs/communications-booklet_2016-update-1-thumb.png'
+import ds_brochure_thumbnail from '../../images/pub-thumbs/DS-brochure_2014_web_F-1-thumb.png'
+import literacy_infants_thumbnail from '../../images/pub-thumbs/literacy_infants_F-thumb.png'
+import literacy_youngchild_thumbnail from '../../images/pub-thumbs/literacy_youngchild_F-thumb.png'
+import literacy_schoolage_thumbnail from '../../images/pub-thumbs/literacy_schoolage_F-thumb.png'
+import literacy_teens_thumbnail from '../../images/pub-thumbs/literacy_teens_F-thumb.png'
 
 
-import depression_pdf from '../files/depression_DS_F2.pdf'
-import adhd_pdf from '../files/ADHD_F_web.pdf'
-import communications_pdf from '../files/communications_booklet_2016_update.pdf'
-import ds_brochure_pdf from '../files/DS_brochure_2014_web_F.pdf'
-import literacy_infants_pdf from '../files/literacy_infants_F.pdf'
-import literacy_youngchild_pdf from '../files/literacy_youngchild_F.pdf'
-import literacy_schoolage_pdf from '../files/literacy_schoolage_F.pdf'
-import literacy_teens_pdf from '../files/literacy_teens_F.pdf'
-import TO31_F_R_thumb from '../images/pub-thumbs/TO31_F_R_thumb.png'
+import depression_pdf from '../../files/depression_DS_F2.pdf'
+import adhd_pdf from '../../files/ADHD_F_web.pdf'
+import communications_pdf from '../../files/communications_booklet_2016_update.pdf'
+import ds_brochure_pdf from '../../files/DS_brochure_2014_web_F.pdf'
+import literacy_infants_pdf from '../../files/literacy_infants_F.pdf'
+import literacy_youngchild_pdf from '../../files/literacy_youngchild_F.pdf'
+import literacy_schoolage_pdf from '../../files/literacy_schoolage_F.pdf'
+import literacy_teens_pdf from '../../files/literacy_teens_F.pdf'
+import TO31_F_R_thumb from '../../images/pub-thumbs/TO31_F_R_thumb.png'
 
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import {
@@ -56,7 +56,6 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 class PublicationsPage extends React.Component {
   render() {
     const { pageContext, location} = this.props;
- //   const data = this.props.data.allPubsXlsxSheet1.edges
     const { breadcrumb: { crumbs }, } = pageContext
     return ( 
       <Layout location={location}>
@@ -459,13 +458,6 @@ that are fully reflective of their own interests and preferences.</p>
                 </AccordionItemPanel>
             </AccordionItem>
         </Accordion>
-
-
-      
-
-  
- 
-
 </div>
 
 
@@ -497,14 +489,15 @@ that are fully reflective of their own interests and preferences.</p>
 
 export default PublicationsPage
 
-export const IndexQuery = graphql`
-query  {
-  allFile(filter: {extension: {eq: "pdf"}}) {
-    edges {
-      node {
-        publicURL
-      }
-    }
-  }
-}
-`
+
+// export const IndexQuery = graphql`
+// query  {
+ //  allFile(filter: {extension: {eq: "pdf"}}) {
+  //  edges {
+//      node {
+//        publicURL
+//      }
+//    }
+//  }
+//}
+//`

@@ -3,7 +3,7 @@ title: "ICI’s Center on Youth Voice, Youth Choice Recognized in Center for Ame
 description: ""
 path: "/2022-10-05_icis-center-on-youth-voice-youth-choice-recognized-in-center-for-american-progress-report"
 date: "2022-10-05"
-tags: ['Center for Youth Voice Youth Choice','cyvyc','Institute for Comunity Inclusion','alternatives to guardianship','a2g']
+tags: ['Center for Youth Voice Youth Choice (CYVYC)','Institute for Community Inclusion','alternatives to guardianship','A2G']
 posttype: "news"
 thumbnail: "../../images/project_logos/CIVIC_square_web.png"
 ---

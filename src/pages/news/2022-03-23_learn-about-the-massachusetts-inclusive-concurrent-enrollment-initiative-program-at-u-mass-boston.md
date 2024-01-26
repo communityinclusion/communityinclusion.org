@@ -3,7 +3,7 @@ title: "Learn about the Massachusetts Inclusive Concurrent Enrollment Initiative
 description: ""
 path: "/2022-03-23_learn-about-the-massachusetts-inclusive-concurrent-enrollment-initiative-program-at-u-mass-boston.md"
 date: "2022-03-23"
-tags: ['Massachusetts Inclusive Concurrent Enrollment Initiative Program', 'UMass Boston', 'University of Massachusetts Boston', 'Institute for Comunity Inclusion', 'ICI']
+tags: ['Massachusetts Inclusive Concurrent Enrollment Initiative Program', 'UMass Boston', 'University of Massachusetts Boston', 'Institute for Community Inclusion', 'ICI']
 posttype: "news"
 thumbnail: "../../images/MAICEI-students1.jpg"
 ---

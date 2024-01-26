@@ -96,7 +96,7 @@ export default NewsPage;
 export const pageQuery = graphql`query GetNewsPosts($limit: Int, $skip: Int) {
   allMarkdownRemark(
     limit: $limit
-    sort: {fields: [frontmatter___date], order: DESC}
+    sort: {frontmatter: {date: DESC}}
     skip: $skip
     filter: {frontmatter: {posttype: {eq: "news"}}}
   ) {

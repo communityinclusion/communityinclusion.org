@@ -4,7 +4,7 @@ description: ""
 path: "/2021-09-30_us-government-accountability-office-highlights-ici-research.md"
 date: "2021-09-30"
 posttype: "news"
-tags: [ 'Employment', 'Think Work', 'Community Inclusion', 'Subminimum Wage']
+tags: [ 'Employment', 'ThinkWork', 'Community Inclusion', 'Subminimum Wage']
 thumbnail: "../../images/employment.png"
 ---
 Competitive integrated employment (CIE) is employment that pays employees at or above minimum wage and is performed in integrated settings, among people with and without disabilities. It is still legal in many states for employers to pay people with disabilities below minimum wages for work in segregated settings. What impacts this transition from segregated, subminimum wage jobs to CIE?

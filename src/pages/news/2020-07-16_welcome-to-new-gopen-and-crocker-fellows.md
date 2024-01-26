@@ -4,7 +4,7 @@ description: ""
 path: "2020-07-16_welcome-to-new-gopen-and-crocker-fellows"
 date: "2020-07-16"
 posttype: "news"
-tags: ['Gopen Fellow', 'Crocker Fellow', 'Community Inclusion', 'Ici', 'Disability']
+tags: ['Gopen Fellow', 'Crocker Fellow', 'Community Inclusion', 'ICI', 'Disability']
 thumbnail: "../../images/Adriana-Mallozzi.png"
 ---
 

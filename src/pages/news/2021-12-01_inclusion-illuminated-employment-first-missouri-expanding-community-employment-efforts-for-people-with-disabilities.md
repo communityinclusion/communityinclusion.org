@@ -4,7 +4,7 @@ Employment First Missouri- Expanding community employment efforts for people wit
 description: ""
 path: "2021-12-01_inclusion-illuminated-employment-first-missouri-expanding-community-employment-efforts-for-people-with-disabilities.md"
 date: "2021-12-01"
-tags: ['Employment First', 'Missouri', 'Employment', 'Community Inclusion']
+tags: ['Employment First', 'Missouri', 'Employment', 'Community Inclusion', 'Inclusion Illuminated']
 posttype: "news"
 thumbnail: "../../images/ICI.png"
 ---

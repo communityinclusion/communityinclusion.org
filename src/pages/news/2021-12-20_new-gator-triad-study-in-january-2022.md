@@ -3,7 +3,7 @@ title: "New GATOR Triad Study in January 2022"
 description: ""
 path: "2021-12-20_new-gator-triad-study-in-january-2022.md"
 date: "2021-12-20"
-tags: ['Gator', 'A2g', 'Community Inclusion', 'Study', 'Community Inclusion', 'Transfer Of Rights']
+tags: ['Gator', 'A2G', 'Community Inclusion', 'Study', 'Community Inclusion', 'Transfer Of Rights']
 posttype: "news"
 thumbnail: "../../images/gator.png"
 ---

@@ -1,27 +1,25 @@
 import React from "react";
-import { graphql} from 'gatsby';
+import { graphql } from "gatsby";
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
-// import Img from 'gatsby-image';
-import PostTags from "../components/PostTags";
 
 
-const postTemplate = ({ pageContext, data, location  }) => {
+const postTemplate = ({ pageContext,location, data}) => {
   const {
     breadcrumb: { crumbs },
-  } = pageContext;
-  console.log(crumbs);
-
+  } = pageContext
+ 
   // Example of dynamically using location prop as a crumbLabel
-  //const customCrumbLabel = location.slug.toLowerCase().replace(/-/g, ' ')
+// const customCrumbLabel = location.pathname.toLowerCase().replace(/-/g, ' ')
   const page = data.markdownRemark
+  const siteTitle = data.site.siteMetadata.title
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
-  return (
-    <Layout location={location}>
-         <Seo
-      title={page.frontmatter.title}
+return (
+  <Layout location={location} title={siteTitle}>
+          <Seo
+      Title={page.frontmatter.title}
       description={page.frontmatter.description || page.excerpt}
     />
       <section className="posttemplate">
@@ -29,28 +27,16 @@ const postTemplate = ({ pageContext, data, location  }) => {
     <Breadcrumb
             crumbs={crumbs}
             crumbSeparator=" / "
-            crumbLabel={page.frontmatter.title}
+            crumbLabel={frontmatter.title}
             
           />
           </div>
-          <div className="post">
-          <h1 className="f4 f3-l mb1 post-title">{frontmatter.title}</h1>
-          <div className="post-date pb-3">{frontmatter.date}</div>
-
-  <article className="cf mt3 post-body">
- {/* <div className="fl mr4 pb4">
-   <Img className="post-image mw-100" fixed={page.frontmatter.thumbnail.childImageSharp.fixed} /> 
-
-  </div> */}
+        <div className="post">
+          <h1 className="page-title">{frontmatter.title}</h1>
+         {/*  <span>{frontmatter.date}</span> */}
+        </div>
         <div dangerouslySetInnerHTML={{ __html: html }} />
-        </article>
-      <div className="post-meta">
-           <PostTags className="k--button" tags={frontmatter.tags} />
-           
-            </div>
-            </div>
       </section>
-
     </Layout>
   );
 };
@@ -58,16 +44,23 @@ const postTemplate = ({ pageContext, data, location  }) => {
 export default postTemplate;
 
 export const pageQuery = graphql`
-  query($slug: String!) {
+  query PageBySlug($slug: String!)  {
+    site {
+      siteMetadata {
+        title
+      }
+    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
+      id
       excerpt
+      html
       frontmatter {
-        date(formatString: "MMMM Do, YYYY")
         title
         tags
         posttype
+        date(formatString: "MMMM DD, YYYY")
+        description
+      }
     }
-   }
   }
 `;

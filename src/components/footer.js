@@ -39,7 +39,7 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
   <h3 className="fs-4 border-bottom border-light pv-0 lh-lg text-uppercase">Links</h3>
   <ul className="align-middle w-100 w-75-l list pl0 list-unstyled">
     <li> <Link to="/about/" className="link  whited-inline-block" title="About">About ICI</Link></li>
-     <li><Link to="/areas-of-emphasis" className="link white d-inline-block" title="Areas of Emphasis">Areas of Emphasis</Link></li>
+     <li><Link to="/about/areas-of-emphasis" className="link white d-inline-block" title="Areas of Emphasis">Areas of Emphasis</Link></li>
     <li> <Link to="/projects" className="link white d-inline-block" title="Projects">Projects</Link></li>
        <li>   <Link to="/services" className="link white d-inline-block" title="Services">Services</Link></li>
        <li> <a href="https://lp.constantcontactpages.com/su/jlCEExQ/subscribe" className="link white d-inline-block" target = "_blank" rel = "noopener noreferrer" title="Subscribe">Subscribe</a></li>
@@ -55,31 +55,36 @@ Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
     <li className = "list-inline-item pe-2" > { " " } <a href = "https://twitter.com/ICInclusion"
     title = "Community Inclusion Twitter"
     target = "_blank"
-    rel = "noopener noreferrer" >
+    rel = "noopener noreferrer" 
+    aria-label="Twitter">
          <FontAwesomeIcon icon={faTwitter} size="2x" />
     </a> </li> <li className = "list-inline-item pe-2" > { " " }
      <a href = "https://www.instagram.com/communityinclusion/"
      title = "Community Inclusion Instagram"
     target = "_blank"
-    rel = "noopener noreferrer" >
+    rel = "noopener noreferrer" 
+    aria-label="Instagram">
         <FontAwesomeIcon icon={faInstagram} size="2x" />
     </a> </li> 
     <li className = "list-inline-item pe-2" > { " " } <a href = "https://www.facebook.com/communityinclusion/"
      title = "Community Inclusion Facebook"
      target = "_blank"
-    rel = "noopener noreferrer" >
+    rel = "noopener noreferrer"
+    aria-label="Facebook" >
          <FontAwesomeIcon icon={faFacebookSquare} size="2x" />
     </a> </li> <li className = "list-inline-item pe-2" > { " " } 
     <a href = "https://communityinclusion.tumblr.com/"
     target = "_blank"
     title = "Community Inclusion Tumblr"
-    rel = "noopener noreferrer" >
+    rel = "noopener noreferrer"
+    aria-label="Tumblr" >
        <FontAwesomeIcon icon={faTumblrSquare} size="2x" />
     </a> </li>
     <li className = "list-inline-item pe-2" > { " " } 
     <a href = "https://www.youtube.com/user/communityinclusion"
     target = "_blank"
-    rel = "noopener noreferrer" >
+    rel = "noopener noreferrer" 
+    aria-label="YouTube">
         <FontAwesomeIcon icon={faYoutube} size="2x" />
     </a> </li> </ul>
    

@@ -4,6 +4,10 @@
 
 /* Navigation Styles */
 
+nav.navbar.navbar-expand-md.navbar-dark.bg-primary {
+    padding: 0 5vh;
+}
+
 .navbar .navbar-menu .navbar-item:hover {
     border-bottom: 2px solid #fff;
     padding-bottom: 6px;

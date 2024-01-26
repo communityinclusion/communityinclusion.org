@@ -56,27 +56,32 @@ const Header = () => (
     <ul className = "col-lg-12 social-links d-flex justify-content-around list-inline pl0 m-0 mb-2" >
     <li className = "list-inline-item flex-item " > { " " } <a href = "https://twitter.com/ICInclusion"
     target = "_blank"
-    rel = "noopener noreferrer" >
+    rel = "noopener noreferrer" 
+    aria-label="Twitter">
       <FontAwesomeIcon icon={faTwitter} size="2x" />
     </a> </li> 
     <li className = "list-inline-item flex-item " > { " " }
      <a href = "https://www.instagram.com/communityinclusion/"
     target = "_blank"
-    rel = "noopener noreferrer" >
+    rel = "noopener noreferrer" 
+    aria-label="Instagram">
     <FontAwesomeIcon icon={faInstagram} size="2x" />
     </a> </li> <li className = "list-inline-item flex-item  pl1" > { " " } 
     <a href = "https://communityinclusion.tumblr.com/"
     target = "_blank"
-    rel = "noopener noreferrer" >
+    rel = "noopener noreferrer"
+    aria-label="Tumblr" >
      <FontAwesomeIcon icon={faTumblrSquare} size="2x" />
     </a> </li> <li className = "list-inline-item flex-item  pl1" > { " " } <a href = "https://www.facebook.com/communityinclusion/"
     target = "_blank"
-    rel = "noopener noreferrer" >
+    rel = "noopener noreferrer"
+    aria-label="Facebook" >
      <FontAwesomeIcon icon={faFacebookSquare} size="2x" />
     </a> </li> <li className = "list-inline-item flex-item  pl1" > { " " } 
     <a href = "https://www.youtube.com/user/communityinclusion"
     target = "_blank"
-    rel = "noopener noreferrer" >
+    rel = "noopener noreferrer" 
+    aria-label="YouTube">
    <FontAwesomeIcon icon={faYoutube} size="2x" />
     </a> </li> </ul>
     <div>

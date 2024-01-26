@@ -3,7 +3,7 @@ title: "SELN Co-Hosts Webinar with National Center on Advancing Person-Centered 
 description: ""
 path: "/2022-10-05_seln-co-hosts-webinar-with-national-center"
 date: "2022-10-05"
-tags: ['state employment leadership network','SELN','Institute for Comunity Inclusion']
+tags: ['state employment leadership network','SELN','Institute for Community Inclusion']
 posttype: "news"
 thumbnail: "../../images/seln.png"
 ---

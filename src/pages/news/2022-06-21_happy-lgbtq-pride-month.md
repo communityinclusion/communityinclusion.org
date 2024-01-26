@@ -3,7 +3,7 @@ title: "Happy LGBTQ+ Pride Month!"
 description: ""
 path: "/2022-06-21_happy-lgbtq-pride-month.md"
 date: "2022-06-21"
-tags: [ 'LGBTQIA','Pride','Pride Month','Institute for Community Inclusion']
+tags: [ 'LGBTQIA','Pride Month','Institute for Community Inclusion']
 posttype: "news"
 thumbnail: "../../images/LGBTQ+_rainbow_flag_Quasar-variant.png"
 ---

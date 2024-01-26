@@ -3,7 +3,7 @@ title: "Think College’s Cate Weir receives distinguished inclusive education a
 description: ""
 path: "2021-11-22_think-colleges-cate-weir-receives-distinguished-inclusive-education-award.md"
 date: "2021-11-22"
-tags: ['Think College', 'Inclusive Postsecondary', 'Education', 'Ici', 'Community Inclusion']
+tags: ['Think College', 'Inclusive Postsecondary', 'Education', 'ICI', 'Community Inclusion']
 posttype: "news"
 thumbnail: "../../images/cate-weir-leadership-award.jpg"
 ---

@@ -3,7 +3,7 @@ title: "Inclusion Illuminated: Apprenticeships for Youth in Underserved Rural Co
 description: ""
 path: "/2022-05-31_inclusion-illuminated-apprenticeships-for-youth-in-underserved-rural-communities.md"
 date: "2022-05-31"
-tags: ['Rural Youth Apprenticeship Development Project', 'Employment', 'Institute for Community Inclusion', Inclusion Illuminated']
+tags: ['Rural Youth Apprenticeship Development Project', 'Employment', 'Institute for Community Inclusion', 'Inclusion Illuminated']
 posttype: "news"
 thumbnail: "../../images/ICI.png"
 ---

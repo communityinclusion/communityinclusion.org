@@ -76,17 +76,12 @@ export default JobsPage;
 
 
 // Get all markdown files, in descending order by date, and grab the id, excerpt, slug, date, and title
-export const pageQuery = graphql`query ($currentDate: Date!,$limit: Int, $skip: Int) {
-  allMarkdownRemark(   
+export const pageQuery = graphql`query ($currentDate: Date!, $limit: Int, $skip: Int) {
+  allMarkdownRemark(
     limit: $limit
-    sort: {fields: [frontmatter___date], order: ASC}
+    sort: {frontmatter: {date: ASC}}
     skip: $skip
-    filter: {
-        frontmatter: {
-          posttype: {eq: "jobs"}
-          close_date: { gte: $currentDate   }
-        }
-      }
+    filter: {frontmatter: {posttype: {eq: "jobs"}, close_date: {gte: $currentDate}}}
   ) {
     edges {
       node {
@@ -106,5 +101,6 @@ export const pageQuery = graphql`query ($currentDate: Date!,$limit: Int, $skip: 
       }
     }
     totalCount
-  }}
+  }
+}
   `;

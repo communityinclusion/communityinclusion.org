@@ -3,7 +3,7 @@ title: "New Briefs, Video, & Resources about Guardianship Alternatives and Trans
 description: ""
 path: "2021-12-21_new-resources-about-guardianship-alternatives-and-transfer-of-rights.md"
 date: "2021-12-21"
-tags: ['A2g', 'Ici', 'Testimony', 'Gator', 'Community Inclusion']
+tags: ['A2G', 'ICI', 'Testimony', 'Gator', 'Community Inclusion']
 posttype: "news"
 thumbnail: "../../images/gator.png"
 ---

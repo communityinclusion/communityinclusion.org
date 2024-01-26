@@ -3,7 +3,7 @@ title: "Center on Youth Voice, Youth Choice Welcomes Five New State Teams in Its
 description: ""
 path: "/2022-07-19_center-on-youth-voice-youth-choice-welcomes-five-new-state-teams.md"
 date: "2022-07-19"
-tags: ['youth choice youth voice', 'alternatives to guardianship', 'A2G', 'Institute for Comunity Inclusion', 'Center for Youth Voice Youth Choice' ]
+tags: ['youth choice youth voice', 'alternatives to guardianship', 'A2G', 'Institute for Community Inclusion', 'Center for Youth Voice Youth Choice' ]
 posttype: "news"
 thumbnail: "../../images/project_logos/CIVIC_square_web.png"
 ---

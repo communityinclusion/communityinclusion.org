@@ -3,7 +3,7 @@ title: "Reflections on My Disability Inclusion Journey and Visit to the USA"
 description: ""
 path: "/2023-07-17_reflections-on-my-disability-inclusion-journey-and-visit-to-the-usa"
 date: "2023-07-17"
-tags: ['Professional Fellows','Profellows','Citizen Diplomacy','Exchanges At State']
+tags: ['Professional Fellows','PFP','Citizen Diplomacy','Exchanges At State']
 posttype: "news"
 thumbnail: "../../images/Sande-Erick-boston-public-library.jpg"
 ---

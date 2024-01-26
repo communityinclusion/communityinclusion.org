@@ -13,12 +13,13 @@ const pageTemplate = ({ pageContext,location, data}) => {
   // Example of dynamically using location prop as a crumbLabel
 // const customCrumbLabel = location.pathname.toLowerCase().replace(/-/g, ' ')
   const page = data.markdownRemark
+  const siteTitle = data.site.siteMetadata.title
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
 return (
-  <Layout location={location}>
+  <Layout location={location} title={siteTitle}>
           <Seo
-      title={page.frontmatter.title}
+      Title={page.frontmatter.title}
       description={page.frontmatter.description || page.excerpt}
     />
       <section className="pagetemplate">
@@ -43,14 +44,22 @@ return (
 export default pageTemplate;
 
 export const pageQuery = graphql`
-  query($slug: String!) {
+  query PageBySlug($slug: String!)  {
+    site {
+      siteMetadata {
+        title
+      }
+    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
+      id
       excerpt
       html
       frontmatter {
         title
         tags
         posttype
+        date(formatString: "MMMM DD, YYYY")
+        description
       }
     }
   }

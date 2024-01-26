@@ -3,7 +3,7 @@ title: "Inclusive Transportation Planning: ICI staff attend Community Transporta
 description: ""
 path: "2021-12-21_ici-staff-attend-community-transportation-association-of-america-conference.md"
 date: "2021-12-21"
-tags: ['Accessible Transportation', 'Ctaa', 'Transportation', 'Ici', 'Community Inclusion']
+tags: ['Accessible Transportation', 'Ctaa', 'Transportation', 'ICI', 'Community Inclusion']
 posttype: "news"
 thumbnail: "../../images/DeBrittany-david-CTAA.jpg"
 ---

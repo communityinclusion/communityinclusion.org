@@ -3,7 +3,7 @@ title: "Florida Employment First: Spring is in the Air!"
 description: ""
 path: "/2022-04-29_florida-employment-first-spring-is-in-the-air.md"
 date: "2022-04-29"
-tags: ['Florida Employment First', 'Employment Empowerment', 'APSE', 'Institute for Comunity Inclusion', 'ICI']
+tags: ['Florida Employment First', 'Employment Empowerment', 'APSE', 'Institute for Community Inclusion', 'ICI']
 posttype: "news"
 thumbnail: "../../images/empfirstFL-sq-400.png"
 ---

@@ -4,7 +4,7 @@ description: ""
 path: "/2021-09-28_become-a-nationally-certified-rehabilitation-leader.md"
 date: "2021-09-28"
 posttype: "news"
-tags: [ 'Rehabilitation', 'Rehabilitation Leader', 'Crcc', 'Community Inclusion','Ici']
+tags: [ 'Rehabilitation', 'Rehabilitation Leader', 'Crcc', 'Community Inclusion','ICI']
 thumbnail: "../../images/ICI.png"
 ---
 
