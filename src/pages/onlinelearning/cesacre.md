@@ -56,7 +56,7 @@ thumbnail: "../../images/ICI.png"
 </div>
 
 
-<h2 class="h3 card-title">How can I get started? </h2>
+<h2 class="h3 card-title">How can I get started?</h2>
 <p>If you manage staff, you can register up to 9 staff at once for the <a href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acreplus">CES ACRE Supplement</a>. </p>
 
 <p>If you want to register 10 or more employees for the ACRE Supplement, explore the College of Employment Services for Group Sales offered by <a href="https://directcourseonline.com/employment-services/">Direct Course</a>. </p>
