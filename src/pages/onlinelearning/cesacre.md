@@ -18,7 +18,7 @@ thumbnail: "../../images/ICI.png"
     </div>
 </div>
 <hr>
-<h2 class="h3 card-title">What is ACRE? </h2>
+<h2 class="h3 card-title">What is ACRE?</h2>
     <p>ACRE is the <em>Association of Community Rehabilitation Educators</em>, a national membership organization that reviews and approves competency-based training curricula. ACRE certifies our College of Employment Services (CES) courses. ACRE's mission is to advocate through education to improve the quality of employment services and employment outcomes for people with disabilities.</p>
 <h2 class="h3 card-title">What is the ACRE Supplement?</h2>
 <p>The CES ACRE Supplement is a self-guided training that includes 11 CES courses plus activities and field work. Learners who complete the ACRE Supplement training will receive a Certificate of Achievement and be listed on the ACRE Certificate Registry. </p>
