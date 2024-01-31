@@ -26,7 +26,7 @@ UMass Boston<br />
 100 Morrissey Blvd.<br />
 Boston, Massachusetts 02125<br />
 Voice: (617) 287-4300<br />
-Fax: (617) 287-4352<br />
+Fax: (617) 287-4352 <br />
 TTY: (617) 287-4350<br />
 Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a><br />
 &nbsp;</address>    </div>
