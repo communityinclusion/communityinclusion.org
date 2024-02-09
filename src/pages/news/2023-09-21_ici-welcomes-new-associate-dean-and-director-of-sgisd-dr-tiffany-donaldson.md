@@ -5,11 +5,11 @@ path: "2023-09-21_ici-welcomes-new-associate-dean-and-director-of-sgisd-dr-tiffa
 date: "2023-09-21"
 tags: ['Community Inclusion','Global Inclusion','SGISD','ICI','Umass Boston']
 posttype: "news"
-thumbnail: "../../images/1_wqxanfvz7y-a_rgduitagw-73w.jpg"
+thumbnail: "../../images/Tiffany-Donaldson.png"
 ---
 
 
-![A portrait of a Black woman in her 50s with shoulder-length, curly, dark brown hair smiling at the camera.](/imgaes/1_wqxanfvz7y-a_rgduitagw-73w.jpg)
+![A portrait of a Black woman in her 50s with shoulder-length, curly, dark brown hair smiling at the camera.](/imgaes/Tiffany-Donaldson.png)
 
 As an institute within the School for Global Inclusion and Social Development (SGISD), we are deeply honored and excited to announce that Dr. S. Tiffany Donaldson will begin her new role in the College of Education and Human Development as Associate Dean for Research, Innovation, and Community Partnerships and Director of the School for SGISD this fall! Dr. Donaldson joins us from UMass Boston, where she served as Professor of Psychology in the Psychology Department and Honors College for the past 26 years.
 
