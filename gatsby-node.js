@@ -157,7 +157,7 @@ result.data.allMarkdownRemark.edges.forEach(edge => {
     });
  }
 
- if (edge.node.frontmatter.posttype === 'jobs') {
+ else if (edge.node.frontmatter.posttype === 'jobs') {
   createPage({
       path: edge.node.fields.slug,
       component: jobsTemplate,

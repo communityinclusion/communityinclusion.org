@@ -5,7 +5,7 @@ path: "2023-09-21_ici-welcomes-new-associate-dean-and-director-of-sgisd-dr-tiffa
 date: "2023-09-21"
 tags: ['Community Inclusion','Global Inclusion','SGISD','ICI','Umass Boston']
 posttype: "news"
-thumbnail: "../../images/ICI.png"
+thumbnail: "../../images/1_wqxanfvz7y-a_rgduitagw-73w.jpg"
 ---
 
 

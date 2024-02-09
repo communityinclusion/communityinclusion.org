@@ -17,8 +17,8 @@ const SearchResults = ({ query, results }) => (
     )}
     {!!results.length && (
       <div className="search-results-list">
-        {results.map(({ title, url, date, description }) => (
-          <article className="card mb-3" key={title}>
+        {results.map(({ title, url, date, excerpt }) => (
+          <article className="mb-3" key={title}>
             <h3 className="search-results-list__heading">
               <Link to={url} className="search-results-list__link">
                 <Highlighter
@@ -28,13 +28,13 @@ const SearchResults = ({ query, results }) => (
                 />
               </Link>
             </h3>
-            <small>{new Date(date).toLocaleString("en-GB")}</small>
-            {description && (
+
+            { excerpt && (
               <p>
                 <Highlighter
                   searchWords={[query]}
                   autoEscape={true}
-                  textToHighlight={description}
+                  textToHighlight={excerpt}
                 />
               </p>
             )}

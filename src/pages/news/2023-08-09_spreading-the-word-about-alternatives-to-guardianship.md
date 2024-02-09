@@ -8,14 +8,6 @@ posttype: "news"
 thumbnail: "../../images/ICI.png"
 ---
 
-
-
-# Spreading the Word about Alternatives to Guardianship | by Community Inclusion | Medium
-
-> ## Excerpt
-> Kamisha Heriveaux is an advisory board member on ICI’s Center on Youth Voice, Youth Choice project, and a researcher on ICI’s Guardianship Alternatives and Transfer-of-Rights project. This blog was…
-
----
 Kamisha Heriveaux is an advisory board member on ICI’s Center on Youth Voice, Youth Choice project, and a researcher on ICI’s Guardianship Alternatives and Transfer-of-Rights project. This blog was originally posted on Harvard Law School Project on Disability.
 
 I don’t have a guardian. That means I have a lot of responsibility but I feel I can take that on, little by little. At certain points in my life, I’ve had conversations about guardianship and alternatives., and I’m still having those conversations! When I was younger, my mother and I would talk about it in IEP meetings. Guardianship wasn’t presented to me suddenly in a kind of “sign this piece of paper and there you go” moment. But we wouldn’t go into depth about how everything actually plays out either. It came up little by little, with questions like, “Do you know what you want to do for your future?” and “Do you know where you want to live?”

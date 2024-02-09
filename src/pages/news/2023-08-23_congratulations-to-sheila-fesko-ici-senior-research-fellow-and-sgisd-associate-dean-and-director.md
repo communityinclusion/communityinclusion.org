@@ -5,7 +5,7 @@ path: "2023-08-23_congratulations-to-sheila-fesko-ici-senior-research-fellow-and
 date: "2023-08-23"
 tags: ['Sheila Fesko','Retirement','Community Inclusion']
 posttype: "news"
-thumbnail: "../../images/ICI.png"
+thumbnail: "../../images/Sheila-Fesko-speaking.jpg"
 ---
 
 

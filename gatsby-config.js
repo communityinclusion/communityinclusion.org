@@ -12,8 +12,6 @@ siteMetadata: {
   image: 'https://www.communityinclusion.org/static/ici-150w-1c1c4ac706a0672a9800093794f86167.png'
   
 },
-  trailingSlash: `always`,
-  pathPrefix:'/',
  flags: {
     PARALLEL_SOURCING: false,
   },
@@ -188,6 +186,13 @@ plugins: [
     options: {
       name: `files`,
       path: `${__dirname}/src/files`,
+    },
+  },    
+   {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `posts`,
+      path: `${__dirname}/src/pages/news`,
     },
   },    
   {

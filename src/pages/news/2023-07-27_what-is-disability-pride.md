@@ -11,9 +11,9 @@ thumbnail: "../../images/ICI.png"
 
 _ICI Researcher Jen Bose reflects on her experiences in this guest blog post._
 
-![A white woman smiles at the camera from inside her office](/images/1_d-1wzljdv0vcungez-pfsg-320w.jpg)
+![A white woman smiles at the camera from inside her office](/images/1_d-1wzljdv0vcungez-pfsg-320w.jpg 'Jen Bose smiling in her office.')
 
-Jen Bose smiling in her office.
+
 
 Over the past few days, I spent some time learning about disability pride. I know that living with some type of disability is a common experience, and I know that each person makes up their own mind about what having a disability means.
 

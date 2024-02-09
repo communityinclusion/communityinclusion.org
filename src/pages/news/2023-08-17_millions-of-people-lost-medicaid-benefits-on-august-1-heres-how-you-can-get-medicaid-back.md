@@ -20,25 +20,25 @@ If you know or work with people who are eligible for Medicaid and CHIP, you can 
 
 **Here is what you need to know:**
 
-· First, you must update your contact information with your state Medicaid agency. [Here is where you can find your state Medicaid agency.](https://www.medicaid.gov/about-us/contact-us/index.html)
+* First, you must update your contact information with your state Medicaid agency. [Here is where you can find your state Medicaid agency.](https://www.medicaid.gov/about-us/contact-us/index.html)
 
-· After you update your contact information, you will receive a Medicaid renewal form in the mail. Please respond to the form! You will lose coverage if you don’t respond to the form, even if you are eligible. Your children might be eligible for CHIP even if you are not eligible for Medicaid.
+* After you update your contact information, you will receive a Medicaid renewal form in the mail. Please respond to the form! You will lose coverage if you don’t respond to the form, even if you are eligible. Your children might be eligible for CHIP even if you are not eligible for Medicaid.
 
-· If you are not eligible for Medicaid anymore, you can still get health care coverage through the [Affordable Care Act (ACA) Marketplace](https://www.healthcare.gov/) or through your employer.
+*  If you are not eligible for Medicaid anymore, you can still get health care coverage through the [Affordable Care Act (ACA) Marketplace](https://www.healthcare.gov/) or through your employer.
 
 If you lost Medicaid coverage but you still need it, there are programs that can help you get it back.
 
 **Here are some resources that can help you get your Medicaid and CHIP coverage back:**
 
-· [State protection and advocacy systems](https://acl.gov/programs/find-your-pa-agency) can help you get Medicaid coverage back if you are eligible.
+* [State protection and advocacy systems](https://acl.gov/programs/find-your-pa-agency) can help you get Medicaid coverage back if you are eligible.
 
-· [Disability Information and Access Line](https://dial.acl.gov/) (DIAL) can help you if you have a disability and you need to get your Medicaid coverage back.
+* [Disability Information and Access Line](https://dial.acl.gov/) (DIAL) can help you if you have a disability and you need to get your Medicaid coverage back.
 
-· The [Eldercare Locator](https://eldercare.acl.gov/Public/Index.aspx) can help you if you are an older adult who has lost Medicaid coverage.
+* The [Eldercare Locator](https://eldercare.acl.gov/Public/Index.aspx) can help you if you are an older adult who has lost Medicaid coverage.
 
-· Your [State Health Insurance Assistance Program (SHIP)](https://www.shiphelp.org/) can provide one-on-one assistance, counseling, and education if you or your family members are older adults or people with disabilities who need Medicaid back and also receive Medi_care_.
+* Your [State Health Insurance Assistance Program (SHIP)](https://www.shiphelp.org/) can provide one-on-one assistance, counseling, and education if you or your family members are older adults or people with disabilities who need Medicaid back and also receive Medi_care_.
 
-· The [Benefit Enrollment Centers](https://www.ncoa.org/article/meet-our-benefits-enrollment-centers) can help you if you are no longer eligible for Medicaid, but still need other health insurance and benefits
+* The [Benefit Enrollment Centers](https://www.ncoa.org/article/meet-our-benefits-enrollment-centers) can help you if you are no longer eligible for Medicaid, but still need other health insurance and benefits
 
 **I’m not sure if I receive Medicaid or CHIP. How can I find out?**
 

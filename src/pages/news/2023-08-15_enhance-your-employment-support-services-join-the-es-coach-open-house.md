@@ -5,7 +5,7 @@ path: "2023-08-15_enhance-your-employment-support-services-join-the-es-coach-ope
 date: "2023-08-15"
 tags: ['ES Coach','Job Seekers','Employment Services','Community Inclusion','Employment']
 posttype: "news"
-thumbnail: "../../images/ICI.png"
+thumbnail: "../../images/es-coach.png"
 ---
 
 Are you an employment support professional or a manager of an employment program? Are you seeking effective ways to enhance your supported and customized employment services, leading to improved employment outcomes for job seekers? **Join ES-Coach!**
