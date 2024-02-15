@@ -67,6 +67,8 @@ posttype: "page"
 <h3 class="section-heading-bb">How can I apply for the Gopen Fellowship?&nbsp;</h3>
 <p>Follow these instructions to apply for the Gopen Fellowship:&nbsp;</p>
 <ol>
+<li>Your proposal can be written or you can submit a video. Your proposal must include:
+<ul>
 <li>your name</li>
 <li>your project title: a name that describes your project</li>
 <li>your background and disability experience</li>
