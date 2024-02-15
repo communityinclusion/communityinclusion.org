@@ -1,7 +1,7 @@
 ---
 title: "The 2023-2024 Barbara Wilensky Gopen Memorial Fellowship"
 date: 2023-03-09
-path: "/fellowships/gopen"
+path: "/about/fellowships/gopen"
 posttype: "page"
 ---
 

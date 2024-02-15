@@ -1,7 +1,7 @@
 ---
 title: "The 2023-2024 Allen C. Crocker Family Fellowship"
 date: 2018-12-29
-path: "/fellowships/crocker"
+path: "/about/fellowships/crocker"
 posttype: "page"
 thumbnail: '../../images/ICI.png'
 ---
