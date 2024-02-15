@@ -55,7 +55,6 @@ Staff listing and contact details<!-- end -->
 | Beverley    | Gilligan         |                | <Beverley.Gilligan@childrens.harvard.edu>   | [View Profile](/about/staff-directory/beverley-gilligan)           |
 | Meg        | Grigal            |    (410) 419-4345            | <Meg.Grigal@umb.edu>                       | [View Profile](/about/staff-directory/meg-grigal)                 |
 | Kelly      | Haines            | (617) 287-5907 | <Kelly.Haines@umb.edu>                     | [View Profile](/about/staff-directory/kelly-haines)               |
-| Debra      | Hart              | (617) 590-8082 | <Debra.Hart@umb.edu>                       | [View Profile](/about/staff-directory/debra-hart)                 |
 | David      | Hoff              | (617) 287-4308 | <David.Hoff@umb.edu>                       | [View Profile](/about/staff-directory/david-hoff)                 |
 |Patrick   |Hoff   | | <patrick.hoff@umb.edu>    | [View Profile](/about/staff-directory/patrick-hoff)                  |
 | Nicholas   | Holz              | (417) 437-4155 | <Nicholas.Holz@umb.edu>                    | [View Profile](/about/staff-directory/nicholas-holz)              |
@@ -103,6 +102,7 @@ Staff listing and contact details<!-- end -->
 | Berenise   | Reyes-Albino      | (617) 287-4314 | <Berenise.Albino@umb.edu>                  | [View Profile](/about/staff-directory/berenise-reyes-albino)      |
 | Danielle   | Roberts-Dahm      |                | <Danielle.Dahm@umb.edu>                   | [View Profile](/about/staff-directory/danielle-roberts-dahm )             |
 | Paige      | Rose              |  (851) 385-9831 | <paige.rose@umb.edu>                       | [View Profile](/about/staff-directory/paige-rose  )             |
+|Shahrzad	|Sajadi  | |    <shahrzad.sajadi001@umb.edu>    | [View Profile](/about/staff-directory/shahrzad-sajadi)                  |
 |Kate	|Sambuco  | |    <kathryn.sambuco@umb.edu>    | [View Profile](/about/staff-directory/kate-sambuco)                  |
 | Kara       | Sexton            |                | <kara.sexton@umb.edu>                          | [View Profile](/about/staff-directory/kara-sexton )             |
 | John       | Shepard           | (480) 819-6299 | <John.Shepherd@umb.edu>                    | [View Profile](/about/staff-directory/john-shepard)               |

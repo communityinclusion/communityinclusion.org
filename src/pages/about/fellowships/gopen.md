@@ -109,5 +109,5 @@ posttype: "page"
 <li>how excited and committed you are to your project</li>
 </ul>
 <h3 class="section-heading-bb">Do you have any other questions about the Gopen Fellowship?&nbsp;</h3>
-<p>Contact Berenise Reyes Albino by email at <a href="mailto:Berenise.Albino@umb.edu">Berenise.Albino@umb.edu</a><strong>&nbsp;</strong>if you have any questions.&nbsp;</p>
+<p>Contact Berenise Reyes Albino by email at <a href="mailto:Berenise.Albino@umb.edu">Berenise.Albino@umb.edu</a> if you have any questions.&nbsp;</p>
 <p>&nbsp;</p>
