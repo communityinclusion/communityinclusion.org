@@ -1,5 +1,5 @@
 ---
-title: "The 2024-2025 Barbara Wilensky Gopen Memorial Fellowship"
+title: "The 2024–2025 Barbara Wilensky Gopen Memorial Fellowship"
 date: 2024-02-15
 path: "/about/fellowships/gopen"
 posttype: "page"
@@ -97,8 +97,8 @@ posttype: "page"
 <p>Fellowship begins: <strong>July, 2024 </strong></p>
 <p>Fellowship ends:&nbsp; <strong>June 30, 2025&nbsp;</strong></p>
 <p>&nbsp;</p>
-<h3 class="section-heading-bb">How do you decide who will get to be the 2024-2025 Gopen Fellow?&nbsp;</h3>
-<p>We will review all fellowship applications. We will decide who is the fellow based on:&nbsp;</p>
+<h3 class="section-heading-bb">How do you decide who will get to be the 2024&ndash;2025 Gopen Fellow?&nbsp;</h3>
+<p>We will review all Fellowship applications. We will decide who is the Fellow based on:&nbsp;</p>
 <ul>
 <li>how original the project idea is</li>
 <li>how much of a need there is for the project</li>
