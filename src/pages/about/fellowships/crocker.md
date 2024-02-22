@@ -115,7 +115,7 @@ Your proposal must include:</p>
 <div class="bg-washed-blue p-3">
 <h4>Who is Dr. Allen C. Crocker?&nbsp;</h4>
 <p>Dr. Allen C. Crocker was a doctor who worked with children with disabilities. He worked as a doctor for 60 years at Boston Children&rsquo;s Hospital. He was the person who started the Institute for Community Inclusion (ICI), which was originally called the Developmental Evaluation Clinic at Boston Children&rsquo;s Hospital.&nbsp;</p>
-<p>Dr. Crocker was not only a world- renowned physician but also an advocate for children with special health care needs and their families. His leadership was influential in Boston, throughout Massachusetts, and across the country as he helped to pioneer the field of developmental-behavioral pediatrics. His dedication to exceptional children and their families was legendary.&nbsp;</p>
+<p>Dr. Crocker was not only a world- renowned physician but also an advocate for children with complex care needs and their families. His leadership was influential in Boston, throughout Massachusetts, and across the country as he helped to pioneer the field of developmental-behavioral pediatrics. His dedication to children and their families was legendary.&nbsp;</p>
 </div>
 </div>
 </div>
