@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import Highlighter from "react-highlight-words"
 
 
 const SearchResults = ({ query, results }) => (
@@ -18,26 +17,18 @@ const SearchResults = ({ query, results }) => (
     {!!results.length && (
       <div className="search-results-list">
         {results.map(({ title, url, date, excerpt }) => (
-          <article className="mb-3" key={title}>
+          <article className="card mb-3" key={title}>
             <h3 className="search-results-list__heading">
               <Link to={url} className="search-results-list__link">
-                <Highlighter
-                  searchWords={[query]}
-                  autoEscape={true}
-                  textToHighlight={title}
-                />
+                {title}
               </Link>
             </h3>
-
-            { excerpt && (
+<p>{ date }</p>
+           
               <p>
-                <Highlighter
-                  searchWords={[query]}
-                  autoEscape={true}
-                  textToHighlight={excerpt}
-                />
+                { excerpt }
               </p>
-            )}
+           
           </article>
         ))}
 </div>

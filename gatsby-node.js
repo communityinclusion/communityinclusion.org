@@ -67,6 +67,7 @@ function getCurrentDate() {
   allMarkdownRemark(sort: {frontmatter: {date: DESC}}, limit: 1000) {
     edges {
       node {
+        excerpt(pruneLength: 200)
         fields {
           slug
         }
@@ -105,6 +106,7 @@ const newsResult = await graphql(`
   ) {
     edges {
       node {
+         excerpt(pruneLength: 200)
         fields {
           slug
         }

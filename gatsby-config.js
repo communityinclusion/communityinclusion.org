@@ -42,7 +42,6 @@ plugins: [
   {
     resolve: `gatsby-transformer-remark`,
     options: {
-      excerpt_separator: `<!-- end -->`,
       plugins: [
           {
         resolve: `gatsby-remark-vscode`,
@@ -298,7 +297,7 @@ plugins: [
         languages: [{ name: "en" }],
         fields: [
           { name: "title", store: true, attributes: { boost: 20 } },
-          { name: "description", store: true, attributes: { boost: 5 } },
+          { name: "excerpt", store: true, attributes: { boost: 5 } },
           { name: "content" },
           { name: "url", store: true },
           { name: "date", store: true },
@@ -306,7 +305,7 @@ plugins: [
         resolvers: {
           MarkdownRemark: {
             title: node => node.frontmatter.title,
-            description: node => node.frontmatter.description,
+            excerpt: node => node.frontmatter.excerpt,
             content: node => node.rawMarkdownBody,
             url: node => node.fields.slug,
             date: node => node.frontmatter.date,
