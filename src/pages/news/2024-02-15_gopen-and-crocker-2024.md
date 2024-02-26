@@ -1,5 +1,5 @@
 ---
-title: "Apply today for the ICI’s Gopen and Crocker Disability Fellowships!"
+title: "Apply today for the Gopen and Crocker Disability Fellowships!"
 description: ""
 path: "/2024-02-15_gopen-and-crocker-2024.md"
 date: "2024-02-15"
