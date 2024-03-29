@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react"
 import { graphql } from "gatsby";
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -12,16 +12,11 @@ const pageTemplate = ({ pageContext,location, data}) => {
  
   // Example of dynamically using location prop as a crumbLabel
 // const customCrumbLabel = location.pathname.toLowerCase().replace(/-/g, ' ')
-  const page = data.markdownRemark
-  const siteTitle = data.site.siteMetadata.title
+
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
 return (
-  <Layout location={location} title={siteTitle}>
-          <Seo
-      Title={page.frontmatter.title}
-      description={page.frontmatter.description || page.excerpt}
-    />
+  <Layout location={location}>
       <section className="pagetemplate">
       <div className="breadcrumbs">
     <Breadcrumb
@@ -41,7 +36,17 @@ return (
   );
 };
 
+
+
 export default pageTemplate;
+
+
+export const Head = ({ data }) => (
+     <Seo title={data.markdownRemark.frontmatter.title} description={data.markdownRemark.frontmatter.description || data.markdownRemark.frontmatter.excerpt}>
+    {/* Additonal values here */}
+  
+  </Seo>
+)
 
 export const pageQuery = graphql`
   query PageBySlug($slug: String!)  {

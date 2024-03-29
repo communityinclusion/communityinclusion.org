@@ -1,11 +1,11 @@
 ---
 title: "ICI Announces New Director"
+description: "Cindy Thomas (MS, CRC) has been selected to serve as the director of the Institute for Community Inclusion (ICI). Ms. Thomas has been an integral part of the ICI for over 30 years, significantly contributing to its growth during that time."
 path: "2019-12-10_ici-announces-new-director"
 date: "2019-12-10"
 posttype: "news"
 tags: ['Cindy Thomas', 'Disability New Director',
 'ICI', 'Community Inclusion', 'New Leadership']
-description: "Cindy Thomas (MS, CRC) has been selected to serve as the director of the Institute for Community Inclusion (ICI). Ms. Thomas has been an integral part of the ICI for over 30 years, significantly contributing to its growth during that time."
 thumbnail: "../../images/thomas_icidirector.png"
 ---
 

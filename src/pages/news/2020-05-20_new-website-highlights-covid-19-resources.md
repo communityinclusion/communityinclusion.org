@@ -1,7 +1,7 @@
 ---
 title: "New Website Highlights COVID-19 Resources"
 description: ""
-path: "2020-05-20_new-website-highlights-covid-19-resources"
+path: "/2020-05-20_new-website-highlights-covid-19-resources"
 date: "2020-05-20"
 posttype: "news"
 tags: ['Covid 19', 'Coronavirus', 'Employment Services', 'Community Inclusion', 'New Publication']

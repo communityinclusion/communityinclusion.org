@@ -1,7 +1,7 @@
 ---
 title: "Transition Leadership Program Accepting New Students"
 description: "SGISD’s transition leadership program bridges the gap between special education and adult disability services. "
-path: "/2020-02-04_transition-leadership-program-accepting-new-students"
+path: "2020-02-04_transition-leadership-program-accepting-new-students"
 date: "2020-02-04"
 posttype: "news"
 tags: ['Events']

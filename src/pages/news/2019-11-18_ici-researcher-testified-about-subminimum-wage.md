@@ -1,7 +1,7 @@
 ---
 title: "ICI Researcher Testified about Subminimum Wage"
 description: "On November 15th, ICI senior researcher  John Butterworth provided testimony on data regarding subminimum wages at the U.S. Commission on Civil Rights public briefing on the civil rights impact of subminimum wage on people with disabilities."
-path: "/2019-11-18_ici-researcher-testified-about-subminimum-wage"
+path: "2019-11-18_ici-researcher-testified-about-subminimum-wage"
 date: "2019-11-18"
 tags: ['Minimum Wage', 'Subminimum Wage', 'Testimony', 'Civil Rights', 'Community Inclusion']
 posttype: "news"

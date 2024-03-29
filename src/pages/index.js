@@ -25,7 +25,6 @@ const IndexPage = ({data, location }) => {
     };
   return (
     <HomeLayout location={location} title={siteTitle}>
-    <Seo title="Home" />
        
 
 

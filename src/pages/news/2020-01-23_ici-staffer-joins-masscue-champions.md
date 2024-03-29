@@ -1,7 +1,7 @@
 ---
 title: "ICI Staffer Joins MassCUE Champions"
 description: "Lori Cooney, program coordinator and universal instructional design specialist at ICI and 2012 MassCUE Pathfinder recipient, has been invited to join the inaugural cohort of MassCUE Champions."
-path: "/ici-staffer-joins-masscue-champions"
+path: "2020-01-23_ici-staffer-joins-masscue-champions"
 date: "2020-01-23"
 posttype: "news"
 tags: ['Future Quest Island', 'Lori Cooney', 'MassCUE', 'Career Readiness' ,'Community Inclusion']

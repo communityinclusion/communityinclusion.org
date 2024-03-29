@@ -1,7 +1,6 @@
-import React from 'react';
+import * as React from "react";
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
-import Seo from '../components/seo';
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 
@@ -21,7 +20,6 @@ const labelArr = label.split('-');
  if (posts.length === 0) {
   return (
     <Layout>
-    <Seo title="Job Openings at ICI" />
     <section className="main-content">
     <div className="breadcrumbs">
     <Breadcrumb
@@ -39,7 +37,6 @@ const labelArr = label.split('-');
 
   return (
     <Layout>
-       <Seo title="Job Openings at ICI" />
        <section className="main-content">
        <div className="breadcrumbs">
        <Breadcrumb

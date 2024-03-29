@@ -1,8 +1,7 @@
-import React from 'react';
+import * as React from "react";
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 import { GatsbyImage } from "gatsby-plugin-image";
-import Seo from '../components/seo';
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 
@@ -29,7 +28,6 @@ const crumbLabelArr = customCrumbLabel.split('/');
  const labelArr = label.split('-');
   return (
     <Layout>
-       <Seo title="New at ICI" />
        <section className="main-content">
        <div className="breadcrumbs">
        <Breadcrumb
@@ -92,6 +90,7 @@ const crumbLabelArr = customCrumbLabel.split('/');
 
 export default NewsPage;
 
+ 
 // Get all markdown files, in descending order by date, and grab the id, excerpt, slug, date, and title
 export const pageQuery = graphql`query GetNewsPosts($limit: Int, $skip: Int) {
   allMarkdownRemark(

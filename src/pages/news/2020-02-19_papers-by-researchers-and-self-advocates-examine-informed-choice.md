@@ -1,7 +1,7 @@
 ---
 title: "Papers by Researchers and Self-Advocates Examine Informed Choice"
 description: "The National Association of State Directors of Developmental Disabilities Services (NASDDDS),in collaboration with ICI, published a fourth in a series of five white papers highlighting topics influencing employment outcomes and services for individuals supported by state intellectual and developmental disabilities (I/DD) agencies."
-path: "/2020-02-19_papers-by-researchers-and-self-advocates-examine-informed-choice"
+path: "2020-02-19_papers-by-researchers-and-self-advocates-examine-informed-choice"
 date: "2020-02-19"
 posttype: "news"
 tags: ['Self Advocacy', 'Community Inclusion', 'Informed Choice', 'Employment Outcomes','ICI']

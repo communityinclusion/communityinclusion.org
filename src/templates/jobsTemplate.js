@@ -1,8 +1,7 @@
 
-import React from "react";
+import * as React from "react";
 import { graphql} from 'gatsby';
 import Layout from "../components/layout"
-import Seo from "../components/seo"
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 // import Img from 'gatsby-image';
 import PostTags from "../components/PostTags";
@@ -21,10 +20,7 @@ const jobsTemplate = ({ pageContext, data, location  }) => {
   const { frontmatter, html } = markdownRemark;
   return (
     <Layout location={location}>
-         <Seo
-      title={page.frontmatter.title}
-      description={page.frontmatter.description || page.excerpt}
-    />
+     
       <section className="jobstemplate">
       <div className="breadcrumbs">
     <Breadcrumb
@@ -60,6 +56,7 @@ const jobsTemplate = ({ pageContext, data, location  }) => {
 };
 
 export default jobsTemplate;
+ 
 
 export const pageQuery = graphql`
   query($slug: String!) {

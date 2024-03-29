@@ -1,7 +1,7 @@
 ---
 title: "Two Briefs Examine Community Life Engagement"
 description: "What can state developmental disabilities agencies do to increase community life engagement of the people they serve? This was the topic of discussion for the Community Life Engagement Working Group of the State Employment Leadership  Network (SELN)."
-path: "/2020-02-19_two-briefs-examine-community-life-engagement"
+path: "2020-02-19_two-briefs-examine-community-life-engagement"
 date: "2020-02-19"
 posttype: "news"
 tags: ['SELN', 'Community Life Engagement', 'Community Inclusion', 'Employment', 'New Publication']

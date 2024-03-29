@@ -1,7 +1,7 @@
 ---
 title: "ICI Researchers Publish Guideposts for Community Life Engagement Supports"
 description: "ICI staffers Dr. Jennifer Sulewski, Jaimie Ciulla Timmons, Oliver Lyons, and Allison Cohen Hall recently published an article titled Guideposts for High-Quality Community Life Engagement Supports: Results of Expert Interviews."
-path: "/2020-02-19_ici-researchers-publish-guideposts-for-community-life-engagement-supports"
+path: "2020-02-19_ici-researchers-publish-guideposts-for-community-life-engagement-supports"
 date: "2020-02-19"
 tags: ['Community Life Engagement', 'Community Inclusion', 'ThinkWork', 'Employment', 'Disability']
 posttype: "news"

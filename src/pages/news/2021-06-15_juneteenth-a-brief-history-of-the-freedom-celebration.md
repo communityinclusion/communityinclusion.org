@@ -9,12 +9,10 @@ thumbnail: "../../images/juneteenth-thumb.png"
 ---
 
 
-
-
+**What is Juneteenth?**
 
 ![Horizontal stripes of red, black, and green with Juneteenth underlined and showing on the black stripe.](../../images/juneteenth.png)
 
-**What is Juneteenth?**
 
 Juneteenth commemorates the day that enslaved people in Texas learned that slavery was outlawed. On June 19, 1865, the Union Army general, Gordon Granger, announced  [General Order №3](https://en.wikipedia.org/wiki/General_Order_No._3)  in Galveston, Texas which proclaimed freedom from slavery.
 

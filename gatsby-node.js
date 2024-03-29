@@ -222,7 +222,7 @@ result.data.allAirtable.edges.forEach(({ node}) => {
 
 //   Create blog post list pages
 const newsPosts = newsResult.data.allMarkdownRemark.edges;
-const newsPostsPerPage = 8;
+const newsPostsPerPage = 20;
 const numNewsPostPage = Math.ceil(newsPosts.length / newsPostsPerPage);
 
   Array.from({ length: numNewsPostPage }).forEach((_, i) => {
@@ -239,7 +239,7 @@ const numNewsPostPage = Math.ceil(newsPosts.length / newsPostsPerPage);
  });
 //   Create jobs post list page
  const jobsPosts = jobsResult.data.allMarkdownRemark.edges;
- const jobsPostsPerPage = 8;
+ const jobsPostsPerPage = 20;
  const numJobsPostPage = Math.ceil(jobsPosts.length / jobsPostsPerPage);
  
    Array.from({ length: numJobsPostPage }).forEach((_, i) => {

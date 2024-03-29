@@ -1,7 +1,7 @@
 ---
 title: "ICI Staffers Present at Conference"
 description: "Maria Paiewonsky, Clare Papay, Rebecca Lazo, Meg Grigal, and Debra Hart from the Think College National Coordinating Center and Transition Leadership Program presented six sessions last month in Seattle, WA at the Division on Career Development and Transition Conference."
-path: "/2019-11-19_ici-staffers-present-at-conference"
+path: "2019-11-19_ici-staffers-present-at-conference"
 date: "2019-11-19"
 tags: ['Education', 'Think College', 'Transition', 'ICI', 'Community Inclusion']
 posttype: "news"

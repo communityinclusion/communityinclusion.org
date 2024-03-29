@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
   `)
     return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+    <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
 <Navbar />
 <main className="main-content container-lg my-4">{children}</main>
         

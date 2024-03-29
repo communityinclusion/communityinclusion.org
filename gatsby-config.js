@@ -2,15 +2,24 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
+const mergePath = (basePath = '/', path = '')=>{
+  let result = "/" + basePath + "/" + path
+  result = result.replace(/\/+/g, '/')
+  return result
+}
+
 module.exports = {
 siteMetadata: {
   siteUrl: 'https://www.communityinclusion.org',
   title: 'Institute for Community Inclusion',
   description: 'The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society.',
   keywords: 'Community Inclusion, UMB, Disabilities',
-  author: '@ICInclusion',
-  image: 'https://www.communityinclusion.org/static/ici-150w-1c1c4ac706a0672a9800093794f86167.png'
-  
+  twitterUsername: '@ICInclusion',
+  author: 'Institute for Community Inclusion',
+  image: '/static/ici-150w-1c1c4ac706a0672a9800093794f86167.png',
+   social: {
+      twitter: `ICInclusion`,
+    },
 },
  flags: {
     PARALLEL_SOURCING: false,
@@ -292,27 +301,76 @@ plugins: [
       },
     },
     {
-      resolve: "gatsby-plugin-lunr",
-      options: {
-        languages: [{ name: "en" }],
-        fields: [
-          { name: "title", store: true, attributes: { boost: 20 } },
-          { name: "excerpt", store: true, attributes: { boost: 5 } },
-          { name: "content" },
-          { name: "url", store: true },
-          { name: "date", store: true },
-        ],
-        resolvers: {
-          MarkdownRemark: {
-            title: node => node.frontmatter.title,
-            excerpt: node => node.frontmatter.excerpt,
-            content: node => node.rawMarkdownBody,
-            url: node => node.fields.slug,
-            date: node => node.frontmatter.date,
-          },
-        },
-        filename: "search_index.json",
-      },
-    }, 
+   resolve: `gatsby-plugin-algolia`,
+     options: {
+      appId: process.env.GATSBY_ALGOLIA_APP_ID,
+       apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        queries: require("./src/utils/algolia-queries.js"),
+     },
+   },
+ //   {
+ //     resolve: 'gatsby-plugin-local-search',
+  //    options: {
+        // A unique name for the search index. This should be descriptive of
+        // what the index contains. This is required.
+  //      name: 'pages',
+
+        // Set the search engine to create the index. This is required.
+        // The following engines are supported: flexsearch, lunr
+   //     engine: 'flexsearch',
+
+        // Provide options to the engine. This is optional and only recommended
+        // for advanced users.
+        //
+        // Note: Only the flexsearch engine supports options.
+   //     engineOptions: 'speed',
+
+        // GraphQL query used to fetch all data for the search index. This is
+        // required.
+   //    query: `
+ //   query {
+ // allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
+ //   nodes {
+ //     excerpt
+ //     fields {
+ //       slug
+ //     }
+ //     frontmatter {
+  //      date(formatString: "MMMM DD, YYYY")
+   //     title
+ //     }
+ //   }
+//  }
+// }
+// `,
+
+        // Field used as the reference value for each document.
+        // Default: 'id'.
+  //      ref: 'slug',
+
+        // List of keys to index. The values of the keys are taken from the
+        // normalizer function below.
+        // Default: all fields
+   //     index: ['title','excerpt', 'body'],
+
+        // List of keys to store and make available in your UI. The values of
+        // the keys are taken from the normalizer function below.
+        // Default: all fields
+  //      store: ['title', 'excerpt', 'date', 'slug'],
+
+        // Function used to map the result from the GraphQL query. This should
+        // return an array of items to index in the form of flat objects
+        // containing properties to index. The objects must contain the `ref`
+        // field above (default: 'id'). This is required.
+ ////       normalizer: ({ data }) =>
+  //        data.allMarkdownRemark.nodes.map((node) => ({
+  //          title: node.frontmatter.title,
+  //           excerpt: node.excerpt,
+  //           date: node.frontmatter.date,
+     //           slug: node.fields.slug,
+   //            body: node.rawMarkdownBody,
+   //          })),
+ //     },
+//    },
 ]
 }

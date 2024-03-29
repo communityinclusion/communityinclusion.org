@@ -2,8 +2,6 @@ import { Link} from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import logo from '../images/ici-150w.png'
-// import Search from './search.js'
-import SearchForm from "./searchForm"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faTwitter,
@@ -12,7 +10,11 @@ import {
     faFacebookSquare,
     faYoutube
 } from '@fortawesome/free-brands-svg-icons'
-
+import Search from "../components/search"
+const searchIndices = [{ name: `Pages`, title: `Pages` }]
+// import Search from './search.js'
+// import SearchForm from "./searchForm"
+// <SearchForm className="col-lg-12" /> //
 
 const Header = () => (
 
@@ -85,8 +87,7 @@ const Header = () => (
    <FontAwesomeIcon icon={faYoutube} size="2x" />
     </a> </li> </ul>
     <div>
-
-<SearchForm className="col-lg-12" />
+ <Search indices={searchIndices} />
 </div>
     </div>
          </div> 

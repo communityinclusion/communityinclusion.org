@@ -1,7 +1,7 @@
 ---
 title: "New College of Employment Services Course Focuses on Path from School to Adulthood"
 description: ""
-path: "2020-05-20_new-college-of-employment-services-course-focuses-on-path-from-school-to-adulthood"
+path: "/2020-05-20_new-college-of-employment-services-course-focuses-on-path-from-school-to-adulthood"
 date: "2020-05-20"
 posttype: "news"
 tags: ['Direct Course', 'Elsevier', 'Employment Services', 'Community Inclusion', 'Transition']

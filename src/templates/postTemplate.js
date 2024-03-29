@@ -1,8 +1,8 @@
-import React from "react";
+import * as React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout"
-import Seo from "../components/seo"
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+import Seo from "../components/seo"
 import PostTags from "../components/PostTags";
 
 const postTemplate = ({ pageContext,data, location }) => {
@@ -16,12 +16,9 @@ const postTemplate = ({ pageContext,data, location }) => {
   // const siteTitle = data.site.siteMetadata.title
 const { markdownRemark } = data;
 const { frontmatter, html } = markdownRemark;
+
 return (
   <Layout location={location}>
-          <Seo
-      Title={page.frontmatter.title}
-      description={page.frontmatter.description || page.excerpt}
-    />
       <section className="posttemplate">
       <div className="breadcrumbs">
     <Breadcrumb
@@ -51,7 +48,16 @@ return (
   );
 };
 
+
+
 export default postTemplate;
+
+export const Head = ({ data }) => (
+     <Seo title={data.markdownRemark.frontmatter.title} description={data.markdownRemark.frontmatter.description || data.markdownRemark.frontmatter.excerpt}>
+    {/* Additonal values here */}
+    <meta id="oty" property="og:type" content="article" />
+  </Seo>
+)
 
 export const pageQuery = graphql`
    query($slug: String!) {

@@ -1,7 +1,8 @@
 import * as React from "react"
 import { Link } from 'gatsby';
 import Layout from "../../components/layout"
-import Seo from "../../components/seo"
+import Seo from '../../components/seo';
+
 
 function NotFoundPage () {
   return (
@@ -15,6 +16,9 @@ function NotFoundPage () {
 )
   }
 
-export const Head = () => <Seo title="404 - Page Not Found" />
 
 export default NotFoundPage
+
+ export const Head = () => (
+  <Seo title="Page not Found" />
+)

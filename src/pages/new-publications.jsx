@@ -53,13 +53,12 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 // breadcrumb: { crumbs },
 // } = pageContext
 
-class PublicationsPage extends React.Component {
+class NewPublicationsPage extends React.Component {
   render() {
     const { pageContext, location} = this.props;
     const { breadcrumb: { crumbs }, } = pageContext
     return ( 
       <Layout location={location}>
-        <Seo title="ICI Publications" />
         <section className="main-content">
             <div className="breadcrumbs">
     <Breadcrumb
@@ -487,7 +486,9 @@ that are fully reflective of their own interests and preferences.</p>
   }
 }
 
-export default PublicationsPage
+export default NewPublicationsPage
+
+export const Head = () => <Seo title="New Publications Page" />
 
 
 // export const IndexQuery = graphql`

@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../../components/layout"
-import Seo from "../../components/seo"
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 const ResourcesPage = ({
@@ -10,7 +9,6 @@ const ResourcesPage = ({
 }) => (
   <Layout>
    <section className="main-content">
-  <Seo title="Resources" />
   <div className="breadcrumbs">
     <Breadcrumb
             crumbs={crumbs}
