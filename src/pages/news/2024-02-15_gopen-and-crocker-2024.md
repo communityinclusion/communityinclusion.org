@@ -22,4 +22,9 @@ The **Allen C. Crocker Family Fellowship** is for Massachusetts residents who ar
 Gopen and Crocker Fellowships are sponsored by Massachusetts Developmental Disabilities Network partners: The Institute for Community Inclusion at UMass Boston, Massachusetts Developmental Disabilities Council, E.K. Shriver Center at UMass Chan Medical School, and the Disability Law Center.
 
 
-Check out the [archive from our March 13th webinar](https://icimedia.wistia.com/medias/cw84wuit3q) to learn more about the Gopen and Crocker Fellowships.
+<p>Check out the archive from our March 13th webinar to learn more about the Gopen and Crocker Fellowships:</p>
+
+<div>
+<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="https://fast.wistia.net/embed/iframe/cw84wuit3q?videoFoam=true" title="Gopen and Crocker Fellowships Webinar" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
+<script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
+</div>
