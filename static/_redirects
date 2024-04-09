@@ -13,7 +13,8 @@
 /doc.php?doc_id=8&type=cebwfdg&id=35 /about/directions
 /files/cle-toolkit/guideposts_assessment_22.pdf /files/cle-toolkit/guideposts_assessment.pdf
 
-
+/cle/*  https://cletoolkit.communityinclusion.org/:splat
+/projects/cle/*  https://cletoolkit.communityinclusion.org/:splat
 
 # Publications
 

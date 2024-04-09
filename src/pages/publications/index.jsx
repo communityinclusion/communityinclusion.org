@@ -1,6 +1,6 @@
 import * as React from "react"
 // import { graphql } from 'gatsby'
-import seo from '../../components/seo';
+import Seo from '../../components/seo';
 import Layout from "../../components/layout"
 import arizona_thumbnail from '../../images/pub-thumbs/Arizona_thumbnail.png'
 import evr_thumbnail from '../../images/pub-thumbs/EVR_toolkit.png'
@@ -489,7 +489,7 @@ that are fully reflective of their own interests and preferences.</p>
 export default PublicationsPage
 
  export const Head = () => (
-  <seo title="Publications" />
+  <Seo title="Publications" />
 )
 
 

@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <title>Points on a map</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js" integrity="sha512-pax4MlgXjHEPfCwcJLQhigY7+N8rt6bVvWLFyUMuxShv170X53TRzGPmPkZmGBhk+jikR8WBM4yl7A9WMHHqvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=PT+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <style>
+  /* 
+.mapboxgl-popup-tip  {display:none}
+      .project-info {
+  position: absolute;
+  font-family: sans-serif;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 5px;
+max-width:400px;
+  border: 2px solid black;
+  font-size: 14px;
+  color: #222;
+  background-color: #fff;
+  border-radius: 3px;
+
+} */
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    color: #404040;
+  font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+
+ h1 {border-bottom: #333 solid 1px}
+
+  a {
+    color: #404040;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #101010;
+  }
+
+ 
+  .map {
+    position: absolute;
+    width:100%; 
+    top: 0;
+    bottom: 0;
+  }
+
+
+  .heading {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+  }
+
+    </style>
+  </head>
+  <body>
+
+	  <div class="container-fluid">
+
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvas" data-bs-backdrop="false" aria-labelledby="offcanvasLabel">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+ 
+ 
+    <h1 class="mb-2">ICI Global Projects</h1>
+ 
+  <div id='projects' class='projects'></div>
+
+  </div>
+</div>
+
+
+
+<div id="map" class="map"></div>
+
+
+</div>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoiaWNpLXVtYXNzIiwiYSI6IjU0OTZjZTY1M2I4NWM1ZTMxYTNjNzZmZDYxNjUwODlhIn0.-5DkuMz0Ots5OwiC-sJYVQ';
+// Create a new map.
+const map = new mapboxgl.Map({
+    container: 'map',
+    // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+    style: 'mapbox://styles/ici-umass/cioc5s9ps000atbmf58itrjol',
+    center: [15.661557, 15.893748],
+    zoom: 2
+});
+
+
+    // Add zoom and rotation controls to the map.
+    map.addControl(new mapboxgl.NavigationControl());
+
+
+map.on('click', (event) => {
+    const features = map.queryRenderedFeatures(event.point, {
+        layers: ['countries']
+    });
+    if (!features.length) {
+        return;
+    }
+    const feature = features[0];
+
+    const popup = new mapboxgl.Popup()
+        .setLngLat(event.lngLat)
+        .setHTML(
+            `<h4>${feature.properties.name}</h4>`
+        )
+        .addTo(map);
+
+
+// Change the cursor to a pointer when the mouse is over the places layer.
+map.on('mouseenter', 'countries', () => {
+    map.getCanvas().style.cursor = 'pointer';
+});
+
+// Change it back to a pointer when it leaves.
+map.on('mouseleave', 'countries', () => {
+map.getCanvas().style.cursor = '';
+});
+});
+
+
+// Event listener for click on map features
+
+ 
+
+  document.addEventListener('DOMContentLoaded', function () {
+const offcanvas = new bootstrap.Offcanvas(document.getElementById('offcanvas'));
+
+map.on('click', (event) => {
+    const features = map.queryRenderedFeatures(event.point, {
+        layers: ['countries'],
+    });
+    if (features.length > 0) {
+        var clickedFeature = features[0];
+        updateOffcanvas(clickedFeature);
+        // Open the offcanvas panel when a feature is clicked
+        offcanvas.show();
+    }
+});
+
+// Function to update the sidebar content based on the clicked feature
+
+function updateOffcanvas(feature) {
+  var sidebar = document.getElementById('projects');
+  sidebar.innerHTML = '<h2>' + feature.properties.name + '</h2>' +
+
+'<p>' + '<b>'  + 'Project Name: ' + '</b>' + feature.properties.projectName + '</p>' + '<p>' + '<b>' + 'Project Goals: '  + '</b>' + feature.properties.projectGoals + '</p>' +
+
+'<p>' +  '<b>'   + 'Project Activity:'  + '</b>' + feature.properties.projectActivity + '</p>' +
+
+'<p>' +  '<b>'   + 'Partners: '  + '</b>' + feature.properties.partners + '</p>' +
+
+'<p>' +  '<b>'  + 'Funders: '  + '</b>' + feature.properties.funders + '</p>' +
+
+'<p>' +  '<b>' +  'Website: '  + '</b>' + feature.properties.projectLink + '</p>' +
+
+'<p>' +  '<b>'  + 'Project Years: '   + '</b>' + feature.properties.projectYears + '</p>';
+}
+ });
+</script>
+  </body>
+</html>
