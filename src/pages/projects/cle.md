@@ -1,6 +1,5 @@
 ---
 title: "Community Life Engagement"
-path: "/projects/cle"
 date: 2018-12-29
 posttype: "page"
 thumbnail: '../../images/CLE-square-logo.png'
