@@ -35,6 +35,7 @@ https://communityinclusion.org/article.php?article_id=251 https://archive.commun
 /onestop/* https://archive.communityinclusion.org/onestop/:splat
 /areas-of-emphasis/* /about/areas-of-emphasis/:splat
 /cle/*  https://cletoolkit.communityinclusion.org/:splat
+/projects/cle/*  https://cletoolkit.communityinclusion.org/:splat
 
 #Redirect subdomains
 https://cesacre.communityinclusion.org/*    https://communityinclusion.org/cesacre/:splat 301!
