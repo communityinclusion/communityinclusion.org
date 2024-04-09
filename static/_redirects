@@ -12,8 +12,7 @@
 /gopen-2024 /pdf/gopen_flyer_2024_R.pdf
 /doc.php?doc_id=8&type=cebwfdg&id=35 /about/directions
 /files/cle-toolkit/guideposts_assessment_22.pdf /files/cle-toolkit/guideposts_assessment.pdf
-/projects/cle/ https://cletoolkit.communityinclusion.org/
-/cle/*  https://cletoolkit.communityinclusion.org/
+
 
 
 
@@ -36,8 +35,8 @@ https://communityinclusion.org/article.php?article_id=251 https://archive.commun
 /project.php /projects
 /onestop/* https://archive.communityinclusion.org/onestop/:splat
 /areas-of-emphasis/* /about/areas-of-emphasis/:splat
-/cle/*  https://cletoolkit.communityinclusion.org/:splat
 /projects/cle/*  https://cletoolkit.communityinclusion.org/:splat
+/cle/*  https://cletoolkit.communityinclusion.org/:splat
 
 #Redirect subdomains
 https://cesacre.communityinclusion.org/*    https://communityinclusion.org/cesacre/:splat 301!
