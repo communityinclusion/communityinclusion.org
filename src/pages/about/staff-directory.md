@@ -31,7 +31,7 @@ Staff listing and contact details<!-- end -->
 | Andrea     | Cooper            | | <Andrea.Cooper@umb.edu>                    | [View Profile](/about/staff-directory/andrea-cooper)              |
 | Julisa     | Cully             | (617) 287-4386 | <Julisa.Cully@umb.edu>                     | [View Profile](/about/staff-directory/julisa-cully)               |
 | Krista	| Dann		| | <Krista.Dann@umb.edu>    | [View Profile](/about/staff-directory/krista-dann)                   |
-| Odgerel    | Dashzeveg   | (857) 385-9821 | <Odgerel.Dashzeveg@umb.edu>       | [View Profile](/about/staff-directory/odgerel-dashzeveg)               |
+| Odgerel    | Dashzeveg   | | <Odgerel.Dashzeveg@umb.edu>       | [View Profile](/about/staff-directory/odgerel-dashzeveg)               |
 | Erin        | Dennis          |                | <erin.dennis@umb.edu>                    | [View Profile](/about/staff-directory/erin-dennis)              |
 | Mary       | Di Biase          | (617) 571-6198 | <Mary.DiBiase@umb.edu>                     | [View Profile](/about/staff-directory/mary-di-biase)              |
 | Daria      | Domin             | (617) 287-4277 | <Daria.Domin@umb.edu>                      | [View Profile](/about/staff-directory/daria-domin)                |
@@ -43,9 +43,10 @@ Staff listing and contact details<!-- end -->
 | Susan      | Foley             | | <Susan.Foley@umb.edu>                      | [View Profile](/about/staff-directory/susan-foley)                |
 | Paul       | Foos              | (617) 287-4359 | <Paul.Foos@umb.edu>                        | [View Profile](/about/staff-directory/paul-foos)                  |
 | Laurie|  Ford  | |   <laurie.ford@umb.edu>    | [View Profile](/about/staff-directory/laurie-ford )                  |
+| Olivia | Fraioli| | <Olivia.Fraioli@umb.edu> | [View Profile](/about/staff-directory/olivia-fraioli ) |
 | Suzzanne   | Freeze            | (617) 287-4395 | <Suzzanne.Freeze@umb.edu>                  | [View Profile](/about/staff-directory/suzzanne-freeze)            |
 | Alexandra   |Futty   | | <alexandra.futty@umb.edu>    | [View Profile](/about/staff-directory/alexandra-futty )                  |
-| Cecilia    | Gandolfo          | (617) 287-4342 | <Cecilia.Gandolfo@umb.edu>                 | [View Profile](/about/staff-directory/cecilia-gandolfo)           |
+| Cecilia    | Gandolfo          |  | <Cecilia.Gandolfo@umb.edu>                 | [View Profile](/about/staff-directory/cecilia-gandolfo)           |
 | Juan       | Gaspar            | (617) 287-4326  | <Juan.Gaspar@umb.edu>                      | [View Profile](/about/staff-directory/juan-gaspar)                |
 | Amy   |Gessert		| | <amy.gessert@umb.edu>    | [View Profile](/about/staff-directory/amy-gessert)                  |
 | J      | Gibbs           | (617) 297-4786 | <j.gibbs@umb.edu>                      | [View Profile](/about/staff-directory/j-gibbs)                |
@@ -85,7 +86,7 @@ Staff listing and contact details<!-- end -->
 | Jamie    | Morrison             |  | <jamie.morrison@umb.edu>                       | [View Profile](/about/staff-directory/jamie-morrison)                 |
 | Kerim      | Munir             | (617) 355-7166 | <Kerim.Munir@childrens.harvard.edu>        | [View Profile](/about/staff-directory/kerim-munir)                |
 | Maria      | Paiewonsky        | (617) 287-7697 | <Maria.Paiewonsky@umb.edu>                 | [View Profile](/about/staff-directory/maria-paiewonsky)           |
-| Clare      | Papay             | (857) 271-9145 | <Clare.Papay@umb.edu>                     | [View Profile](/about/staff-directory/clare-papay)                |
+| Clare      | Papay             |  | <Clare.Papay@umb.edu>                     | [View Profile](/about/staff-directory/clare-papay)                |
 | Sarah      | Paterson          |                | <Sarah.Paterson@umb.edu>                   | [View Profile](/about/staff-directory/sarah-paterson)             |
 | Stephanie  | Porter            | (857) 218-4333 | <Stephanie.Porter@childrens.harvard.edu>   | [View Profile](/about/staff-directory/stephanie-porter)           |
 | Sara       | Pound             |                | <Sara.Pound@umb.edu>                        | [View Profile](/about/staff-directory/sara-pound)           |
@@ -94,7 +95,7 @@ Staff listing and contact details<!-- end -->
 | Julie      | Reposa            |                | <Julie.Reposa@umb.edu>                     | [View Profile](/about/staff-directory/julie-reposa)               |
 | Berenise   | Reyes-Albino      | (617) 287-4314 | <Berenise.Albino@umb.edu>                  | [View Profile](/about/staff-directory/berenise-reyes-albino)      |
 | Danielle   | Roberts-Dahm      |                | <Danielle.Dahm@umb.edu>                   | [View Profile](/about/staff-directory/danielle-roberts-dahm )             |
-| Paige      | Rose              |  (851) 385-9831 | <paige.rose@umb.edu>                       | [View Profile](/about/staff-directory/paige-rose  )             |
+| Paige      | Rose              |   | <paige.rose@umb.edu>                       | [View Profile](/about/staff-directory/paige-rose  )             |
 | Shahrzad	|Sajadi  | |    <shahrzad.sajadi001@umb.edu>    | [View Profile](/about/staff-directory/shahrzad-sajadi)                  |
 | Kate	|Sambuco  | |    <kathryn.sambuco@umb.edu>    | [View Profile](/about/staff-directory/kate-sambuco)                  |
 | Kara       | Sexton            |                | <kara.sexton@umb.edu>                          | [View Profile](/about/staff-directory/kara-sexton )             |
