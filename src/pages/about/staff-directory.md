@@ -88,7 +88,6 @@ Staff listing and contact details<!-- end -->
 | Maria      | Paiewonsky        | (617) 287-7697 | <Maria.Paiewonsky@umb.edu>                 | [View Profile](/about/staff-directory/maria-paiewonsky)           |
 | Clare      | Papay             |  | <Clare.Papay@umb.edu>                     | [View Profile](/about/staff-directory/clare-papay)                |
 | Sarah      | Paterson          |                | <Sarah.Paterson@umb.edu>                   | [View Profile](/about/staff-directory/sarah-paterson)             |
-| Stephanie  | Porter            | (857) 218-4333 | <Stephanie.Porter@childrens.harvard.edu>   | [View Profile](/about/staff-directory/stephanie-porter)           |
 | Sara       | Pound             |                | <Sara.Pound@umb.edu>                        | [View Profile](/about/staff-directory/sara-pound)           |
 | Christa    | Preston           |                | <Christa.Preston@umb.edu>                    | [View Profile](/about/staff-directory/christa-preston)           |
 | Leslie     | Quarles           |                | <Leslie.Quarles@umb.edu>                       | [View Profile](/about/staff-directory/leslie-quarles )           |
