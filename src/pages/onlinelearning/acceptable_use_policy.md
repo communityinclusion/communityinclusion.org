@@ -66,7 +66,7 @@ Yes, but only when you engage in courses or programs that offer ACRE certificati
 ### Do you sell my information?
 No.
  
-Do you access any financial information related to me as part of a transaction if I purchase a course?
+### Do you access any financial information related to me as part of a transaction if I purchase a course?  
 No. That is between you and the financial institution that handles the commercial transaction.
 
 
