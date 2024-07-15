@@ -94,7 +94,7 @@ Staff listing and contact details<!-- end -->
 | Julie      | Reposa            |                | <Julie.Reposa@umb.edu>                     | [View Profile](/about/staff-directory/julie-reposa)               |
 | Berenise   | Reyes-Albino      | (617) 287-4314 | <Berenise.Albino@umb.edu>                  | [View Profile](/about/staff-directory/berenise-reyes-albino)      |
 | Danielle   | Roberts-Dahm      |                | <Danielle.Dahm@umb.edu>                   | [View Profile](/about/staff-directory/danielle-roberts-dahm )             |
-| Paige      | Rose              |   | <paige.rose@umb.edu>                       | [View Profile](/about/staff-directory/paige-rose  )             |
+| Paige      | Rose-Merrifield              |   | <paige.rose@umb.edu>                       | [View Profile](/about/staff-directory/paige-rose-merrifield  )             |
 | Shahrzad	|Sajadi  | |    <shahrzad.sajadi001@umb.edu>    | [View Profile](/about/staff-directory/shahrzad-sajadi)                  |
 | Kate	|Sambuco  | |    <kathryn.sambuco@umb.edu>    | [View Profile](/about/staff-directory/kate-sambuco)                  |
 | Kara       | Sexton            |                | <kara.sexton@umb.edu>                          | [View Profile](/about/staff-directory/kara-sexton )             |
