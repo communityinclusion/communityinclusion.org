@@ -108,6 +108,16 @@ thumbnail: "../../images/ICI.png"
     </div>
   </div>
 </div>
+<div class="card">
+  <a href="https://elearning.communityinclusion.org/browse/cle/courses/explore-community-life-engagement">
+  <img src="EXPLORE_CLE_th.png" class="card-img-top" style="max-width: 600px;" alt="Introduction to Community Life Engagement"></a>
+  <div class="card-body">
+    <p class="card-text"> The Institute for Community Inclusion's <strong>Introduction to Community Life Engagement</strong> course can help you build your skills and feel more confident in your role as a direct support professional working in the community. These self-paced online learning lessons will help you learn how to engage in effective person-centered planning, support community life engagement outcomes, map available resources, and build natural supports in the community for people with disabilities. </p>
+    <a  href="https://elearning.communityinclusion.org/browse/cle/courses/explore-community-life-engagement">
+      Sign up for Introduction to Community Life Engagement</a>
+    </a>
+  </div>
+</div>
   <div class="card">
     <a href="https://urls.communityinclusion.org/its-employment">
     <img src="its_employment.png" class="card-img-top" style="max-width: 600px;" alt="its employment"></a>
