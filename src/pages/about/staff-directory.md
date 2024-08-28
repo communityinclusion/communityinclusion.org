@@ -10,6 +10,7 @@ Staff listing and contact details<!-- end -->
 
 | NAME       |                   | PHONE          | EMAIL                                   | PROFILE                                     |
 |------------|-------------------|----------------|-----------------------------------------|---------------------------------------------|
+| Rachel    | Adams-Duffy            | (201) 463-1348 | <Rachel.AdamsDuffy@umb.edu>                   | [View Profile](/about/staff-directory/rachel-adams-duffy)             |
 | Melissa    | Alford            | (617) 287-4296 | <Melissa.Alford@umb.edu>                   | [View Profile](/about/staff-directory/melissa-alford)             |
 | Katie      | Ashwill           |  			  | <Katie.Ashwill@umb.edu>                      | [View Profile](/about/staff-directory/katie-ashwill)       |
 | Quinn      | Barbour           | (617) 287-4309 | <Quinn.Barbour@umb.edu>                    | [View Profile](/about/staff-directory/quinn-barbour)              |
