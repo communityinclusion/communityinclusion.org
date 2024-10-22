@@ -17,7 +17,7 @@ thumbnail: "../../images/ICI.png"
     <p>We offer 17 courses with over 60 lessons related to employment services. Explore our course bundle options!</p> 
 
 <h2  class="h5 card-title">Does CES offer ACRE credentialing?</h2>
-<p>We offer <em>Association of Community Rehabilitation Educators (ACRE)</em> certified courses as well as the required accompanying fieldwork. The CES ACRE Course is a self-guided training that includes 11 CES courses plus fieldwork. Learners who complete the <a href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acreplus">CES +ACRE Course</a>  training will receive the ACRE certificate and be listed on the <a href="https://www.acreducators.org/certificate-registry.html">Certificate Registry on the ACRE website</a>.</p>
+<p>We offer <em>Association of Community Rehabilitation Educators (ACRE)</em> certified courses as well as the required accompanying fieldwork. The CES ACRE Course is a self-guided training that includes 11 CES courses plus fieldwork. Learners who complete the <a href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre-bundle">CES +ACRE Course</a>  training will receive the ACRE certificate and be listed on the <a href="https://www.acreducators.org/certificate-registry.html">Certificate Registry on the ACRE website</a>.</p>
 
 
 <h2 class="h5 card-title">How can I purchase CES courses?</h2>
@@ -62,7 +62,7 @@ thumbnail: "../../images/ICI.png"
       <li>Networking</li>
       <li>Job Creation</li>
       </ol>
-      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acreplus">Enroll</a> </p>
+      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre-bundle">Enroll</a> </p>
     </details></li>
   </ul>
 

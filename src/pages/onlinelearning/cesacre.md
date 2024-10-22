@@ -11,9 +11,9 @@ thumbnail: "../../images/ICI.png"
     <img src="ici_acre.jpg" alt="ACRE Logo"></a></p>
 </div>
   <div class="col-sm-8  align-self-center"><p class="lead blue"><strong>College of Employment Services (CES) courses have all the information learners need to feel confident, knowledgeable, and ready to work in employment services for people with disabilities.</strong> </p>
-  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acreplus">Enroll in CES + ACRE Course</a> </p>
-  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre">Enroll in ACRE - Fieldwork ONLY</a></p>
-  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces-acre/courses/ces-acre-pa">Enroll in ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
+  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre-bundle">Enroll in CES + ACRE Course</a> </p>
+  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre-2024---fieldwork-only-course">Enroll in ACRE - Fieldwork ONLY</a></p>
+  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre-2024-fieldwork-only-course-for-pennsylvania-learners">Enroll in ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
   </p>
     </div>
 </div>
@@ -98,9 +98,9 @@ thumbnail: "../../images/ICI.png"
 <hr>
 <div class="row ">
   <div class="text-center align-self-center">
-    <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acreplus">Enroll in CES + ACRE Course</a> </p>
-  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre">Enroll in CES ACRE - Fieldwork ONLY</a></p>
-  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces-acre/courses/ces-acre-pa">Enroll in CES ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
+    <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre-bundle">Enroll in CES + ACRE Course</a> </p>
+  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre-2024---fieldwork-only-course">Enroll in CES ACRE - Fieldwork ONLY</a></p>
+  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre-2024-fieldwork-only-course-for-pennsylvania-learners">Enroll in CES ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
   </p>
     <p>
       <img src="ici_acre.jpg" alt="ACRE Logo"></a></p>
