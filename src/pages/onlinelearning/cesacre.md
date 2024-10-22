@@ -29,12 +29,12 @@ thumbnail: "../../images/ICI.png"
     <p>Your staff must complete the 2-part ACRE Course training to earn the nationally recognized ACRE certificate:</p>
     <ol>
       <li><strong>Part 1:</strong> Complete 11 CES courses. Pass the final quiz on each of the 11 courses with a score of 80% or higher.</li>
-      <li><strong>Part 2:</strong> Complete the ACRE activities and field work. Participate in 8 hours of supplemental online learning activities: 
-        <ul>
-        <li>attending three 30-minute-1-hour webinars </li>
-        <li>providing employment services in your community (field work)</li>
-        <ul>
-      </li>
+      <li><strong>Part 2:</strong> Complete the ACRE Fieldwork Course, which contains 12–15 hours of supplemental activities accessed via an online learning platform led by ICI staff. These activities include: 
+      <ul>
+      <li>completing community-based fieldwork assignments that align with work employment professionals are already doing</li>
+      <li>contributing to discussion forums</li>
+      <li>analyzing and responding to realistic client scenario</li
+      </ul>
     </ol>
     <p>After successfully completing this 2-part training series, learners will earn the nationally recognized ACRE Certificate, and their names will be added to the ACRE Certificate Registry.</p>
    
