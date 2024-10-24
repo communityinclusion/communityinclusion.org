@@ -11,9 +11,9 @@ thumbnail: "../../images/ICI.png"
     <img src="ici_acre.jpg" alt="ACRE Logo"></a></p>
 </div>
   <div class="col-sm-8  align-self-center"><p class="lead blue"><strong>College of Employment Services (CES) courses have all the information learners need to feel confident, knowledgeable, and ready to work in employment services for people with disabilities.</strong> </p>
-  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acreplus">Enroll in CES + ACRE Course</a> </p>
-  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre">Enroll in ACRE - Fieldwork ONLY</a></p>
-  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces-acre/courses/ces-acre-pa">Enroll in ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
+  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre-bundle">Enroll in CES + ACRE Course</a> </p>
+  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre-2024---fieldwork-only-course">Enroll in ACRE - Fieldwork ONLY</a></p>
+  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre-2024-fieldwork-only-course-for-pennsylvania-learners">Enroll in ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
   </p>
     </div>
 </div>
@@ -29,12 +29,12 @@ thumbnail: "../../images/ICI.png"
     <p>Your staff must complete the 2-part ACRE Course training to earn the nationally recognized ACRE certificate:</p>
     <ol>
       <li><strong>Part 1:</strong> Complete 11 CES courses. Pass the final quiz on each of the 11 courses with a score of 80% or higher.</li>
-      <li><strong>Part 2:</strong> Complete the ACRE activities and field work. Participate in 8 hours of supplemental online learning activities: 
-        <ul>
-        <li>attending three 30-minute-1-hour webinars </li>
-        <li>providing employment services in your community (field work)</li>
-        <ul>
-      </li>
+      <li><strong>Part 2:</strong> Complete the ACRE Fieldwork Course, which contains 12–15 hours of supplemental activities accessed via an online learning platform led by ICI staff. These activities include: 
+      <ul>
+      <li>completing community-based fieldwork assignments that align with work employment professionals are already doing</li>
+      <li>contributing to discussion forums</li>
+      <li>analyzing and responding to realistic client scenario</li
+      </ul>
     </ol>
     <p>After successfully completing this 2-part training series, learners will earn the nationally recognized ACRE Certificate, and their names will be added to the ACRE Certificate Registry.</p>
    
@@ -98,9 +98,9 @@ thumbnail: "../../images/ICI.png"
 <hr>
 <div class="row ">
   <div class="text-center align-self-center">
-    <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acreplus">Enroll in CES + ACRE Course</a> </p>
-  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre">Enroll in CES ACRE - Fieldwork ONLY</a></p>
-  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces-acre/courses/ces-acre-pa">Enroll in CES ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
+    <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre-bundle">Enroll in CES + ACRE Course</a> </p>
+  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre-2024---fieldwork-only-course">Enroll in CES ACRE - Fieldwork ONLY</a></p>
+  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre-2024-fieldwork-only-course-for-pennsylvania-learners">Enroll in CES ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
   </p>
     <p>
       <img src="ici_acre.jpg" alt="ACRE Logo"></a></p>

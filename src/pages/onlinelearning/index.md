@@ -14,9 +14,9 @@ thumbnail: "../../images/ICI.png"
     <img src="CES_i_acre_long.png" class="card-img-top" style="max-width: 850px;" alt="CES ACRE"></a>
     <div class="card-body">
       <p class="card-text"><p class=""><strong>College of Employment Services (CES)</strong>. The CES ACRE Course is a self-guided training that includes 11 CES courses plus activities and fieldwork. Learners who complete the CES ACRE training and fieldwork will receive the ACRE certificate and be listed on the <a href="https://www.acreducators.org/certificate-registry.html">Certificate Registry on the ACRE website.</a></p>
-      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acreplus">Enroll in CES + ACRE Course</a> </p>
-      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre">Enroll in ACRE - Fieldwork ONLY</a></p>
-      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces-acre/courses/ces-acre-pa">Enroll in ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
+      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre-bundle">Enroll in CES + ACRE Course</a> </p>
+      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre-2024---fieldwork-only-course">Enroll in ACRE - Fieldwork ONLY</a></p>
+      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre-2024-fieldwork-only-course-for-pennsylvania-learners">Enroll in ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
       </p>
       <p><a href="/onlinelearning/cesacre/">Learn more about the CES ACRE</a></p>
     </div>
@@ -106,6 +106,16 @@ thumbnail: "../../images/ICI.png"
     <p> <a href="https://directcourseonline.com/employment-services/" >Explore your options at DirectCourse</a></p>
   <hr>
     </div>
+  </div>
+</div>
+<div class="card">
+  <a href="https://elearning.communityinclusion.org/browse/cle/courses/explore-community-life-engagement">
+  <img src="EXPLORE_CLE_th.png" class="card-img-top" style="max-width: 600px;" alt="Introduction to Community Life Engagement"></a>
+  <div class="card-body">
+    <p class="card-text"> The Institute for Community Inclusion's <strong>Introduction to Community Life Engagement</strong> course can help you build your skills and feel more confident in your role as a direct support professional working in the community. These self-paced online learning lessons will help you learn how to engage in effective person-centered planning, support community life engagement outcomes, map available resources, and build natural supports in the community for people with disabilities. </p>
+    <a  href="https://elearning.communityinclusion.org/browse/cle/courses/explore-community-life-engagement">
+      Sign up for Introduction to Community Life Engagement</a>
+    </a>
   </div>
 </div>
   <div class="card">
