@@ -4,7 +4,7 @@ description: ""
 path: "/2020-12-22_new-data-note-examines-pre-employment-transition-services"
 date: "2020-12-22"
 posttype: "news"
-tags: [ 'Datanote', 'Thinkwork', 'Employment', 'Community Inclusion']
+tags: [ 'Datanote', 'ThinkWork', 'Employment', 'Community Inclusion']
 thumbnail: "../../images/datanote-67.png"
 ---
 ![DataNote 67](../../images/datanote-67.png)

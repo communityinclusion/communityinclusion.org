@@ -4,7 +4,7 @@ description: ""
 path: "/2021-10-22_think-college-awarded-grant-to-increase-access-visibility-of-inclusive-post-secondary-education-programs.md"
 date: "2021-10-22"
 posttype: "news"
-tags: [ 'Think College', 'Community Inclusion', 'Ici', 'Education', 'Inclusive']
+tags: [ 'Think College', 'Community Inclusion', 'ICI', 'Education', 'Inclusive']
 thumbnail: "../../images/thinkcollege.png"
 ---
 

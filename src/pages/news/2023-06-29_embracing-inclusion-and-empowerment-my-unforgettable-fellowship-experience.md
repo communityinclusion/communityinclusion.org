@@ -3,7 +3,7 @@ title: "Embracing Inclusion and Empowerment: My Unforgettable Fellowship Experie
 description: ""
 path: "/2023-06-29_embracing-inclusion-and-empowerment-my-unforgettable-fellowship-experience"
 date: "2023-06-29"
-tags: ['PFP Fellow','Professional Fellows','Community Inclusion','Exchanges At State']
+tags: ['Professional Fellows','PFP','Community Inclusion','Exchanges At State']
 posttype: "news"
 thumbnail: "../../images/Bakar-Hamad-selfie.jpg"
 ---

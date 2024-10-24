@@ -3,7 +3,7 @@ title: "Meet our Advisory Board Members for the Professional Fellows Program on 
 description: ""
 path: "/2022-06-01_meet-our-advisory-board-members-for-the-professional-fellows-program-on-inclusive-civic-engagement.md"
 date: "2022-06-01"
-tags: ['Professional Development','PFP','Institute for Comunity Inclusion']
+tags: ['Professional Development','PFP','Institute for Community Inclusion']
 posttype: "news"
 thumbnail: "../../images/Professional-Fellows-logo-sq.png"
 ---

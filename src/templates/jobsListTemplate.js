@@ -1,7 +1,6 @@
-import React from 'react';
+import * as React from "react";
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
-import Seo from '../components/seo';
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 
@@ -21,7 +20,6 @@ const labelArr = label.split('-');
  if (posts.length === 0) {
   return (
     <Layout>
-    <Seo title="Job Openings at ICI" />
     <section className="main-content">
     <div className="breadcrumbs">
     <Breadcrumb
@@ -39,7 +37,6 @@ const labelArr = label.split('-');
 
   return (
     <Layout>
-       <Seo title="Job Openings at ICI" />
        <section className="main-content">
        <div className="breadcrumbs">
        <Breadcrumb
@@ -76,17 +73,12 @@ export default JobsPage;
 
 
 // Get all markdown files, in descending order by date, and grab the id, excerpt, slug, date, and title
-export const pageQuery = graphql`query ($currentDate: Date!,$limit: Int, $skip: Int) {
-  allMarkdownRemark(   
+export const pageQuery = graphql`query ($currentDate: Date!, $limit: Int, $skip: Int) {
+  allMarkdownRemark(
     limit: $limit
-    sort: {fields: [frontmatter___date], order: ASC}
+    sort: {frontmatter: {date: ASC}}
     skip: $skip
-    filter: {
-        frontmatter: {
-          posttype: {eq: "jobs"}
-          close_date: { gte: $currentDate   }
-        }
-      }
+    filter: {frontmatter: {posttype: {eq: "jobs"}, close_date: {gte: $currentDate}}}
   ) {
     edges {
       node {
@@ -106,5 +98,6 @@ export const pageQuery = graphql`query ($currentDate: Date!,$limit: Int, $skip: 
       }
     }
     totalCount
-  }}
+  }
+}
   `;

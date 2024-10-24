@@ -1,4 +1,4 @@
-import React from "react"
+import * as React from "react"
 import { Link, graphql } from "gatsby"
 import HomeLayout from "../components/home-layout"
 import { GatsbyImage } from "gatsby-plugin-image";
@@ -7,10 +7,10 @@ import community_logo from '../images/community-logo.png'
 import healthcare_logo from '../images/healthcare-logo.png'
 import employment_logo from '../images/employment-logo.png'
 import education_logo from '../images/education-logo.png'
-import InputLabel from '@material-ui/core/InputLabel';
-import MenuItem from '@material-ui/core/MenuItem';
-import FormControl from '@material-ui/core/FormControl';
-import Select from '@material-ui/core/Select';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
 // import { kebabCase } from 'lodash';
 
 const IndexPage = ({data, location }) => {
@@ -25,7 +25,6 @@ const IndexPage = ({data, location }) => {
     };
   return (
     <HomeLayout location={location} title={siteTitle}>
-    <Seo title="Home" />
        
 
 
@@ -177,7 +176,7 @@ const IndexPage = ({data, location }) => {
   );}
 }
  
-
+export const Head = () => <Seo title="Home" />
 export default IndexPage 
 
 export const pageQuery = graphql`{
@@ -187,7 +186,7 @@ export const pageQuery = graphql`{
     }
   }
   allMarkdownRemark(
-    sort: {fields: [frontmatter___date], order: DESC}
+    sort: {frontmatter: {date: DESC}}
     filter: {frontmatter: {posttype: {eq: "news"}}}
     limit: 3
   ) {
@@ -210,7 +209,7 @@ export const pageQuery = graphql`{
       }
     }
   }
-  allAirtable(sort: {fields: data___staff_lname}) {
+  allAirtable(sort: {data: {staff_lname: ASC}}) {
     nodes {
       recordId
       fields {

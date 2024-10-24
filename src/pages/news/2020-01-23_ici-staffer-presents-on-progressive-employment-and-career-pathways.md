@@ -1,7 +1,7 @@
 ---
 title: "ICI Staffer Presents on Progressive Employment and Career Pathways"
 description: "ICI staff member Kelly Haines and Nebraska Vocational Rehabilitation’s Janet Drudik presented at the Vocational Evaluation and Career Assessment Professionals Association 2019 National Issues Forum held in Richmond, VA"
-path: "/2020-01-23_ici-staffer-presents-on-progressive-employment-and-career-pathways"
+path: "2020-01-23_ici-staffer-presents-on-progressive-employment-and-career-pathways"
 date: "2020-01-23"
 posttype: "news"
 tags: ['Progressive Employment', 'ICI', 'Community Inclusion','Vocational Rehabilitation', 'Employment']

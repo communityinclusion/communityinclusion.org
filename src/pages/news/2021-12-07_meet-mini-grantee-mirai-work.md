@@ -3,7 +3,7 @@ title: "MiMeet Mini-Grantee: Mirai Work"
 description: ""
 path: "2021-12-07_meet-mini-grantee-mirai-work.md"
 date: "2021-12-07"
-tags: ['Japan', 'Employment', 'Mirai Work', 'Ici', 'Community Inclusion']
+tags: ['Japan', 'Employment', 'Mirai Work', 'ICI', 'Community Inclusion']
 posttype: "news"
 thumbnail: "../../images/ICI.png"
 ---

@@ -4,6 +4,10 @@
 
 /* Navigation Styles */
 
+nav.navbar.navbar-expand-md.navbar-dark.bg-primary {
+    padding: 0 5vh;
+}
+
 .navbar .navbar-menu .navbar-item:hover {
     border-bottom: 2px solid #fff;
     padding-bottom: 6px;
@@ -226,7 +230,7 @@ ul.main-nav > li > a { border-right: .5px solid #fff; text-decoration:none}
   @media only screen and (max-width:991.98px) {
     .sub-menu-head { color:#fff; }
     .ic.menu { display: block; }
-    li.top-level-link.m-only {display:none!important;}
+   /* li.top-level-link.m-only {display:none!important;}
     header.dark .ic.menu .line { background-color: #fff; }
     header.light .ic.menu .line { background-color: #000; }
     .ic.menu .line {

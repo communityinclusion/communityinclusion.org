@@ -1,7 +1,7 @@
 ---
 title: "New Data Note Examines Gap Between Desire for Work and Community Jobs"
 description: "A new Data Note looks at  the discrepancy between how many people with intellectual and/or developmental disabilities (IDD) want jobs, versus how many are working  in their communities."
-path: "/2020-01-28_new-data-note-examines-gap-between-desire-for-work-and-community-jobs"
+path: "2020-01-28_new-data-note-examines-gap-between-desire-for-work-and-community-jobs"
 date: "2020-01-28"
 posttype: "news"
 tags: ['Data Note', 'Intellectual Disabilities', 'Developmental Disability',

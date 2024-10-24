@@ -4,7 +4,7 @@ description: ""
 path: "/2021-10-19_october-is-disability-employment-month.md"
 date: "2021-10-19"
 posttype: "news"
-tags: [ 'Employment', 'Disability Employment', 'Ndeam', 'Ici','Community Inclusion']
+tags: [ 'Employment', 'Disability Employment', 'NDEM', 'ICI','Community Inclusion']
 thumbnail: "../../images/employment.png"
 ---
 

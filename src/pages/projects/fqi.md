@@ -22,7 +22,7 @@ To learn more about the project, please visit [Future Quest Island-Explorations 
 **If you are a student trying to login to Future Quest Island - Explorations, please visit [www.fqie.me](https://fqie.me/login).**
 
 ---
-<img src="../../images/FQI_Logo.gif" alt="Future Quest Island" style="float:left;">
+<img src="../../images/FQI_Logo.png" alt="Future Quest Island" style="float:left;">
 
 **[Future Quest Island (FQI)](https://thinkcollege.net/about/what-is-think-college/future-quest-island),** is an accessible, game-based college and career readiness tool for middle schoolers with and without disabilities. Through an engaging online platform, FQI aligns 21st-century technology skills with educational and employment goals.
 

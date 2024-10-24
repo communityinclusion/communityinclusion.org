@@ -3,7 +3,7 @@ title: "ICI’s Dr. Heike Boeltzig-Brown accepted to the US-Japan Council as a C
 description: ""
 path: "/2022-06-15_icis-dr-heike-boeltzig-brown-accepted-to-the-us-japan-council-as-a-council-leader.md"
 date: "2022-06-15"
-tags: ['Professional Development','PFP','Institute for Comunity Inclusion']
+tags: ['Professional Development','PFP','Institute for Community Inclusion']
 posttype: "news"
 thumbnail: "../../images/Heike-Boeltzig-Brown.png"
 ---

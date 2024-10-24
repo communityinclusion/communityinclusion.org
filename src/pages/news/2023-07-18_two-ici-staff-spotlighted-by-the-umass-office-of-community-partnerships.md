@@ -3,7 +3,7 @@ title: "Two ICI staff Spotlighted by the UMass Office of Community Partnerships"
 description: ""
 path: "/2023-07-18_two-ici-staff-spotlighted-by-the-umass-office-of-community-partnerships"
 date: "2023-07-18"
-tags: ['Umass Boston','Community Partnerships','Community Inclusion','A2g','Inclusive Education']
+tags: ['Umass Boston','Community Partnerships','Community Inclusion','A2G','Inclusive Education']
 posttype: "news"
 thumbnail: "../../images/ICI.png"
 ---

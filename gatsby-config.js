@@ -2,16 +2,28 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
+const mergePath = (basePath = '/', path = '')=>{
+  let result = "/" + basePath + "/" + path
+  result = result.replace(/\/+/g, '/')
+  return result
+}
+
 module.exports = {
-  pathPrefix:'/',
 siteMetadata: {
   siteUrl: 'https://www.communityinclusion.org',
   title: 'Institute for Community Inclusion',
   description: 'The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society.',
   keywords: 'Community Inclusion, UMB, Disabilities',
-  author: '@ICInclusion',
-  image: 'https://www.communityinclusion.org/static/ici-150w-1c1c4ac706a0672a9800093794f86167.png'
+  twitterUsername: '@ICInclusion',
+  author: 'Institute for Community Inclusion',
+  image: '/static/ici-150w-1c1c4ac706a0672a9800093794f86167.png',
+   social: {
+      twitter: `ICInclusion`,
+    },
 },
+ flags: {
+    PARALLEL_SOURCING: false,
+  },
 plugins: [
   {
   resolve: 'gatsby-plugin-robots-txt',
@@ -26,7 +38,11 @@ plugins: [
       }
     }
   }
-},
+}, 
+{
+  resolve: "@sentry/gatsby"
+}, 
+
 
   `gatsby-plugin-netlify`,
   `gatsby-plugin-image`,
@@ -35,7 +51,6 @@ plugins: [
   {
     resolve: `gatsby-transformer-remark`,
     options: {
-      excerpt_separator: `<!-- end -->`,
       plugins: [
           {
         resolve: `gatsby-remark-vscode`,
@@ -57,10 +72,10 @@ plugins: [
             markdownCaptions: true,
           },
         },
-        {
-          resolve: `gatsby-remark-prismjs`,
-          options: {},
-        },
+     //   {
+      //    resolve: `gatsby-remark-prismjs`,
+        //  options: {},
+     //   },
         {
           resolve: 'gatsby-remark-copy-linked-files',
           options: {
@@ -85,12 +100,12 @@ plugins: [
           //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
         }
       },
-      {
-        resolve: `gatsby-remark-responsive-iframe`,
-        options: {
-          wrapperStyle: `margin-bottom: 1.0725rem`,
-        },
-      }
+     // {
+    //    resolve: `gatsby-remark-responsive-iframe`,
+    //    options: {
+    //      wrapperStyle: `margin-bottom: 1.0725rem`,
+    //    },
+     // }
     ]
   }
 },
@@ -133,18 +148,6 @@ plugins: [
       crossOrigin: `use-credentials`,
     },
   },
- {
-  resolve: "@sentry/gatsby",
-  options: {
-    dsn: 'https://3d981740717e4fe8a72e44cce3060d6e@o339238.ingest.sentry.io/1875087',
-    tracesSampleRate: 1,
-    browserTracingOptions: {
-      // disable creating spans for XHR requests
-      traceXHR: false,
-    }, 
-    autoSessionTracking: true,
-  }
-}, 
   {
     resolve: 'gatsby-plugin-web-font-loader',
     options: {
@@ -193,6 +196,13 @@ plugins: [
       path: `${__dirname}/src/files`,
     },
   },    
+   {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `posts`,
+      path: `${__dirname}/src/pages/news`,
+    },
+  },    
   {
     resolve: `gatsby-source-airtable`,
     options: {
@@ -212,26 +222,14 @@ plugins: [
       ]
     }
   },
-    {
-          resolve: `gatsby-plugin-material-ui`,
-          options: {
-            stylesProvider: {
-              injectFirst: true,
-            },
-          },
-        },
   `gatsby-plugin-styled-components`,
+  'babel-plugin-styled-components',
   {
     resolve: 'gatsby-plugin-sitemap',
     options: {
       output: '/sitemap',
     },
   },
-
-  // this (optional) plugin enables Progressive Web App + Offline functionality
-  // To learn more, visit: https://gatsby.dev/offline
-
-//`gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-breadcrumb`,
       options: {
@@ -300,11 +298,79 @@ plugins: [
        // optional: switch to className styling
         // see `useClassNames example with `AutoGen` below
       useClassNames: true,
-      trailingSlashes: true,
-        // optional: if you are using path prefix
-      usePathPrefix: '/',
-     
       },
     },
-],
+    {
+   resolve: `gatsby-plugin-algolia`,
+     options: {
+      appId: process.env.GATSBY_ALGOLIA_APP_ID,
+       apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        queries: require("./src/utils/algolia-queries.js"),
+     },
+   },
+ //   {
+ //     resolve: 'gatsby-plugin-local-search',
+  //    options: {
+        // A unique name for the search index. This should be descriptive of
+        // what the index contains. This is required.
+  //      name: 'pages',
+
+        // Set the search engine to create the index. This is required.
+        // The following engines are supported: flexsearch, lunr
+   //     engine: 'flexsearch',
+
+        // Provide options to the engine. This is optional and only recommended
+        // for advanced users.
+        //
+        // Note: Only the flexsearch engine supports options.
+   //     engineOptions: 'speed',
+
+        // GraphQL query used to fetch all data for the search index. This is
+        // required.
+   //    query: `
+ //   query {
+ // allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
+ //   nodes {
+ //     excerpt
+ //     fields {
+ //       slug
+ //     }
+ //     frontmatter {
+  //      date(formatString: "MMMM DD, YYYY")
+   //     title
+ //     }
+ //   }
+//  }
+// }
+// `,
+
+        // Field used as the reference value for each document.
+        // Default: 'id'.
+  //      ref: 'slug',
+
+        // List of keys to index. The values of the keys are taken from the
+        // normalizer function below.
+        // Default: all fields
+   //     index: ['title','excerpt', 'body'],
+
+        // List of keys to store and make available in your UI. The values of
+        // the keys are taken from the normalizer function below.
+        // Default: all fields
+  //      store: ['title', 'excerpt', 'date', 'slug'],
+
+        // Function used to map the result from the GraphQL query. This should
+        // return an array of items to index in the form of flat objects
+        // containing properties to index. The objects must contain the `ref`
+        // field above (default: 'id'). This is required.
+ ////       normalizer: ({ data }) =>
+  //        data.allMarkdownRemark.nodes.map((node) => ({
+  //          title: node.frontmatter.title,
+  //           excerpt: node.excerpt,
+  //           date: node.frontmatter.date,
+     //           slug: node.fields.slug,
+   //            body: node.rawMarkdownBody,
+   //          })),
+ //     },
+//    },
+]
 }

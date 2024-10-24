@@ -3,7 +3,7 @@ title: "The Center on Youth Voice, Youth Choice Expands its National Community o
 description: ""
 path: "/2023-05-12_cyvyc-expands-its-national-community-of-practice-of-state-teams-advancing-alternatives-to-guardianship.md"
 date: "2023-05-12"
-tags: ['CYVYC','Institute for Community Inclusion', 'Press Release', 'a2g']
+tags: ['CYVYC','Institute for Community Inclusion', 'Press Release', 'A2G']
 posttype: "news"
 thumbnail: "../../images/project_logos/CIVIC_square_web.png"
 ---

@@ -3,7 +3,7 @@ title: "Inclusion Illuminated: The Transition Leadership Program"
 description: ""
 path: "2022-02-02_inclusion-illuminated-the-transition-leadership-program.md"
 date: "2022-02-02"
-tags: ['transition leadership','UMass Boston','University of Massachusetts Boston','School for Global Inclusion and Social Development','Institute for Community Inclusion']
+tags: ['transition leadership','UMass Boston','University of Massachusetts Boston','School for Global Inclusion and Social Development','Institute for Community Inclusion', 'Inclusion Illuminated']
 posttype: "news"
 thumbnail: "../../images/ICI.png"
 ---

@@ -66,7 +66,7 @@ text-underline-offset: 3px;
 }
 
 .posttemplate figcaption.gatsby-resp-image-figcaption {
-  width: 400px;
+  max-width: 600px;
   margin: 0 auto;
   background-color: #eee;
 }

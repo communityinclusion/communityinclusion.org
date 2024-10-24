@@ -4,7 +4,7 @@ description: ""
 path: "/2021-07_20_awards-to-expand-inclusive-apprenticeship-opportunities"
 date: "2021-07-20"
 posttype: "news"
-tags: [‘Apprenticeship’,’Diversity’,’Inclusion’,'Community Inclusion’,’Labor']
+tags: ['Apprenticeship','Diversity','Inclusion','Community Inclusion','Labor']
 thumbnail: "../../images/ICI.png"
 ---
 The Institute for Community Inclusion (ICI) will partner with Jobs for the Future and the Massachusetts Executive Office of Labor and Workforce Development to modernize and diversify registered apprenticeship programs. Both organizations received 4-year [awards from the US Department of Labor](https://www.dol.gov/newsroom/releases/eta/eta20210622), beginning on July 1, 2021.

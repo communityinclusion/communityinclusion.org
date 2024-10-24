@@ -3,7 +3,7 @@ title: "Happy Lesbian, Gay, Bisexual, Transgender, Queer + (LGBTQ+) Pride Month!
 description: ""
 path: "/2023-06-01_happy-lesbian-gay-bisexual-transgender-queer-lgbtq-pride-month"
 date: "2023-06-01"
-tags: ['Pride','Disability','LGBTQ','Community Inclusion']
+tags: ['Pride Month','Disability','LGBTQ','Community Inclusion']
 posttype: "news"
 thumbnail: "../../images/LGBTQ+_rainbow_flag_Quasar-variant.png"
 ---

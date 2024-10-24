@@ -5,7 +5,6 @@ title: Advocacy Advisor Position Open at ICI
 description: The Advocacy Advisor with the Institute for Community Inclusion (ICI) will support projects across the ICI. ICI's projects focus on helping people with disabilities work, participate in their communities, go to college, and practice self-determination. This person will also work with the ICI Citizen Advisory Board. ICI is based in Boston but will consider people for this job who work remotely. This position is part-time, 15 hours per week.
 umb_post_url: 
 close_date: 2023-08-18T21:00:00Z
-
 ---
 
 ## General Summary

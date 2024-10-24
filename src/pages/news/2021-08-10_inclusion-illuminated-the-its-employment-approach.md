@@ -4,7 +4,7 @@ description: ""
 path: "/2021-08-10_inclusion-illuminated-the-its-employment-approach.md"
 date: "2021-08-10"
 posttype: "news"
-tags: [ 'Its Employment', 'Employment', 'Community Inclusion', 'Disability']
+tags: [ 'Its Employment', 'Employment', 'Community Inclusion', 'Disability', 'Inclusion Illuminated']
 thumbnail: "../../images/its-employment-sq.png"
 ---
 

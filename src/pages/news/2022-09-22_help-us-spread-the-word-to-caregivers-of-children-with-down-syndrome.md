@@ -3,7 +3,7 @@ title: "Help us Spread the Word to Caregivers of Children with Down Syndrome!"
 description: ""
 path: "/2022-09-22_help-us-spread-the-word-to-caregivers-of-children-with-down-syndrome"
 date: "2022-09-22"
-tags: ['down syndrome','Institute for Community Inclusion', 'pathways project']
+tags: ['Down Syndrome','Institute for Community Inclusion', 'Pathways Project']
 posttype: "news"
 thumbnail: "../../images/ICI.png"
 ---

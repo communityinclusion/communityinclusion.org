@@ -23,7 +23,8 @@ https://intranet.communityinclusion.org/*   https://liveumb.sharepoint.com/sites
 /projects/cle/ https://cletoolkit.communityinclusion.org/ 301!
 /cle/ https://cletoolkit.communityinclusion.org/ 301!
 
-
+/cle/*  https://cletoolkit.communityinclusion.org/:splat
+/projects/cle/*  https://cletoolkit.communityinclusion.org/:splat
 
 # Publications
 

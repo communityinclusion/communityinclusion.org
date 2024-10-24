@@ -3,7 +3,7 @@ title: "ICI launches new inclusive civic engagement fellowship program for emerg
 description: ""
 path: "2022-02-03_ici-launches-new-inclusive-civic-engagement-fellowship-program-for-emerging-leaders-in-africa.md"
 date: "2022-02-03"
-tags: [ 'inclusive civic engagement','professional fellows program','US Department of State','Africa','Institute for Community Inclusion','Humantiy & Inclusion']
+tags: [ 'Inclusive Civic Engagement','Professional Fellows Program','US Department of State','Africa','Institute for Community Inclusion','Humantiy & Inclusion']
 posttype: "news"
 thumbnail: "../../images/Professional-Fellows-logo-sq.png"
 ---

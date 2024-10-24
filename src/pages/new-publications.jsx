@@ -1,5 +1,5 @@
-import React from "react"
-import { graphql } from 'gatsby'
+import * as React from "react"
+// import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import arizona_thumbnail from '../images/pub-thumbs/Arizona_thumbnail.png'
@@ -53,14 +53,12 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 // breadcrumb: { crumbs },
 // } = pageContext
 
-class PublicationsPage extends React.Component {
+class NewPublicationsPage extends React.Component {
   render() {
     const { pageContext, location} = this.props;
- //   const data = this.props.data.allPubsXlsxSheet1.edges
     const { breadcrumb: { crumbs }, } = pageContext
     return ( 
       <Layout location={location}>
-        <Seo title="ICI Publications" />
         <section className="main-content">
             <div className="breadcrumbs">
     <Breadcrumb
@@ -111,7 +109,7 @@ class PublicationsPage extends React.Component {
          </div>
          <div className="col-md-10 card-body">
    <h2 className="card-title"> <a href="https://thinkcollege.net/sites/default/files/files/resources/Voices_of_Experience_Students_HTTC6.pdf">Voices of Experience: Students Share College Search Advice</a>  </h2>
-   <p className="card-text">We asked 5 former college students what you (and your family) should think about as you start your own college journey. Meet the students here, and keep reading to find out what they wanted you to know!</p>
+   <p className="card-text">We asked 5 former college students what you (and your family) should think about as you start your own college journey. Meet the students here, and keep reading to find out what they wanted you to know! </p>
  </div>
 </div>
 </div>
@@ -459,13 +457,6 @@ that are fully reflective of their own interests and preferences.</p>
                 </AccordionItemPanel>
             </AccordionItem>
         </Accordion>
-
-
-      
-
-  
- 
-
 </div>
 
 
@@ -495,16 +486,19 @@ that are fully reflective of their own interests and preferences.</p>
   }
 }
 
-export default PublicationsPage
+export default NewPublicationsPage
 
-export const IndexQuery = graphql`
-query  {
-  allFile(filter: {extension: {eq: "pdf"}}) {
-    edges {
-      node {
-        publicURL
-      }
-    }
-  }
-}
-`
+export const Head = () => <Seo title="New Publications Page" />
+
+
+// export const IndexQuery = graphql`
+// query  {
+ //  allFile(filter: {extension: {eq: "pdf"}}) {
+  //  edges {
+//      node {
+//        publicURL
+//      }
+//    }
+//  }
+//}
+//`

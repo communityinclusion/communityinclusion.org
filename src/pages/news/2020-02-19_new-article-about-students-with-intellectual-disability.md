@@ -1,7 +1,7 @@
 ---
 title: "New Article about Students with Intellectual Disability"
 description: "Debra Hart, principal investigator for the Institute for Community Inclusion’s Think College project, co-wrote an article for _Diverse Issues in Higher Education_ titled 'Left Out? Can the Completion Movement Reach Students with Intellectual Disabilities'"
-path: "/2020-02-19_new-article-about-students-with-intellectual-disability"
+path: "2020-02-19_new-article-about-students-with-intellectual-disability"
 date: "2020-02-19"
 posttype: "news"
 tags: ['Think College', 'Education', 'Intellectual Disabilities', 'Community Inclusion', 'Debra Hart']

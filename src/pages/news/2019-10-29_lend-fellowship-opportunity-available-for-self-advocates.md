@@ -1,7 +1,7 @@
 ---
 title: "LEND Fellowship Opportunity Available for Self-Advocates"
 description: "Are you a person with an intellectual and/or developmental disability who would like to learn about how services and supports are provided, research cultural issues, policy and more? ..."
-path: "/2019-10-29_lend-fellowship-opportunity-available-for-self-advocates"
+path: "2019-10-29_lend-fellowship-opportunity-available-for-self-advocates"
 date: "2019-10-29"
 posttype: "news"
 thumbnail: "../../images/ICI.png"

@@ -1,6 +1,8 @@
 
 import React from "react"
 import { Link } from "gatsby"
+import Search from "./search"
+const searchIndices = [{ name: `Pages`, title: `Pages` }]
 
 const activeLinkStyle = {
     background: '#20527c',
@@ -9,7 +11,8 @@ const activeLinkStyle = {
   const NavLinks = () => {
     return (
       <>
-<ul className="main-nav container">
+      <div className="container">
+<ul className="main-nav">
 <li className="top-level-link">
   <Link to="/" activeStyle={activeLinkStyle} ><span>Home</span></Link>
 </li>
@@ -133,10 +136,14 @@ const activeLinkStyle = {
 <li className="top-level-link">
 <Link to="/onlinelearning/" activeStyle={activeLinkStyle} partiallyActive={true}><span>Online Learning</span></Link>
 </li>
-<li className="top-level-link d-lg-none">
- <Link to="/search" activeStyle={activeLinkStyle} partiallyActive={true}><span>Search</span></Link> 
-</li> 
+  
 </ul>
+    <div className="h-100 d-lg-none bg-white">
+         
+ <Search indices={searchIndices} />
+
+      </div>
+      </div>
 </>
 )}
 

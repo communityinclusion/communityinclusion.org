@@ -2,8 +2,6 @@ import { Link} from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import logo from '../images/ici-150w.png'
-// import Search from './search.js'
-import SearchForm from "./searchForm"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faTwitter,
@@ -12,7 +10,11 @@ import {
     faFacebookSquare,
     faYoutube
 } from '@fortawesome/free-brands-svg-icons'
-
+import Search from "../components/search"
+const searchIndices = [{ name: `Pages`, title: `Pages` }]
+// import Search from './search.js'
+// import SearchForm from "./searchForm"
+// <SearchForm className="col-lg-12" /> //
 
 const Header = () => (
 
@@ -56,32 +58,36 @@ const Header = () => (
     <ul className = "col-lg-12 social-links d-flex justify-content-around list-inline pl0 m-0 mb-2" >
     <li className = "list-inline-item flex-item " > { " " } <a href = "https://twitter.com/ICInclusion"
     target = "_blank"
-    rel = "noopener noreferrer" >
+    rel = "noopener noreferrer" 
+    aria-label="Twitter">
       <FontAwesomeIcon icon={faTwitter} size="2x" />
     </a> </li> 
     <li className = "list-inline-item flex-item " > { " " }
      <a href = "https://www.instagram.com/communityinclusion/"
     target = "_blank"
-    rel = "noopener noreferrer" >
+    rel = "noopener noreferrer" 
+    aria-label="Instagram">
     <FontAwesomeIcon icon={faInstagram} size="2x" />
     </a> </li> <li className = "list-inline-item flex-item  pl1" > { " " } 
     <a href = "https://communityinclusion.tumblr.com/"
     target = "_blank"
-    rel = "noopener noreferrer" >
+    rel = "noopener noreferrer"
+    aria-label="Tumblr" >
      <FontAwesomeIcon icon={faTumblrSquare} size="2x" />
     </a> </li> <li className = "list-inline-item flex-item  pl1" > { " " } <a href = "https://www.facebook.com/communityinclusion/"
     target = "_blank"
-    rel = "noopener noreferrer" >
+    rel = "noopener noreferrer"
+    aria-label="Facebook" >
      <FontAwesomeIcon icon={faFacebookSquare} size="2x" />
     </a> </li> <li className = "list-inline-item flex-item  pl1" > { " " } 
     <a href = "https://www.youtube.com/user/communityinclusion"
     target = "_blank"
-    rel = "noopener noreferrer" >
+    rel = "noopener noreferrer" 
+    aria-label="YouTube">
    <FontAwesomeIcon icon={faYoutube} size="2x" />
     </a> </li> </ul>
     <div>
-
-<SearchForm className="col-lg-12" />
+ <Search indices={searchIndices} />
 </div>
     </div>
          </div> 

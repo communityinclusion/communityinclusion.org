@@ -3,7 +3,7 @@ title: "Juneteenth: A Brief History of the Freedom Celebration"
 description: ""
 path: "/2023-06-12_juneteenth-a-brief-history-of-the-freedom-celebration"
 date: "2023-06-12"
-tags: ['Juneteenth','Juneteenth Holiday','Community Inclusion']
+tags: ['Juneteenth','Community Inclusion']
 posttype: "news"
 thumbnail: "../../images/juneteenth-thumb.png"
 ---

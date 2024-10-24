@@ -3,7 +3,7 @@ title: "Join us on May 15, 2022 for #IPSEDay2022!"
 description: ""
 path: "/2022-05-02_join-us-on-may-15-2022-for-ipse-day-2022.md"
 date: "2022-05-02"
-tags: ['Think College', 'IPSE', 'IPSEDay', 'inclusive education', 'inclusive postsecondary education', 'Institute for Comunity Inclusion']
+tags: ['Think College', 'IPSE', 'IPSEDay', 'inclusive education', 'inclusive postsecondary education', 'Institute for Community Inclusion']
 posttype: "news"
 thumbnail: "../../images/IPSEday_sq.png"
 ---

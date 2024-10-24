@@ -4,7 +4,7 @@ description: ""
 path: "/2021-10-06_inclusion-illuminated-transformational-rehabilitation-leadership-training.md"
 date: "2021-10-06"
 posttype: "news"
-tags: [ 'Transformational Rehab', 'Training And Ta', 'Community Inclusion', 'Ici','Leadership Training']
+tags: [ 'Transformational Rehab', 'Training And Ta', 'Community Inclusion', 'ICI','Leadership Training', 'Inclusion Illuminated']
 thumbnail: "../../images/ICI.png"
 ---
 

@@ -3,7 +3,7 @@ title: "Happy 90th Birthday to ICI trailblazer and luminary, Dr. Ludwik Stefan S
 description: ""
 path: "/2022-03-21_happy-90th-birthday-to-ici-trailblazer-and-luminary-dr-ludwik-stefan-szymanski.md"
 date: "2022-03-21"
-tags: ['Ludwick Szymanski', 'Boston Childrens Hospital', 'Developmental Evaluation Clinic', 'ICI', 'Institute for Comunity Inclusion']
+tags: ['Ludwick Szymanski', 'Boston Childrens Hospital', 'Developmental Evaluation Clinic', 'ICI', 'Institute for Community Inclusion']
 posttype: "news"
 thumbnail: "../../images/Szymanski4.jpeg"
 ---

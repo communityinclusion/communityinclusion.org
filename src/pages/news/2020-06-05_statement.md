@@ -1,7 +1,7 @@
 ---
 title: "Statement"
 description: ""
-path: "2020-06-05_statement"
+path: "/2020-06-05_statement"
 date: "2020-06-05"
 posttype: "news"
 tags: ['Community Inclusion', 'Inclusion', 'Social Justice', 'Equity', 'Human Rights']

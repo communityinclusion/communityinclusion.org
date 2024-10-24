@@ -1,7 +1,7 @@
 ---
 title: "ICI Awarded Innovative Rehabilitation Training Grant on Employer Engagement"
 description: ""
-path: "2020-05-20_ici-awarded-innovative-rehabilitation-training-grant-on-employer-engagement"
+path: "/2020-05-20_ici-awarded-innovative-rehabilitation-training-grant-on-employer-engagement"
 date: "2020-05-20"
 posttype: "news"
 tags: ['Rehabilitation Training', 'New Grant', 'Employer Engagement', 'Community Inclusion', 'Explore Vr']

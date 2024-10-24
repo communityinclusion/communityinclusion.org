@@ -3,7 +3,7 @@ title: "Minnesota’s Institute on Community Integration features several Think 
 description: ""
 path: "/2022-05-31_minnesotas-institute-on-community-integration-features-several-think-college-achievements"
 date: "2022-05-31"
-tags: ['Impact Magazine','Think College','inclusive education','MAICEI','Institute for Community Inclusion']
+tags: ['Impact Magazine','Think College','Inclusive Education','MAICEI','Institute for Community Inclusion']
 posttype: "news"
 thumbnail: "../../images/students-in-class.png"
 ---

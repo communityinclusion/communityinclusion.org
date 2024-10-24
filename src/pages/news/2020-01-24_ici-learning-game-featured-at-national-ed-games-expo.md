@@ -1,7 +1,7 @@
 ---
 title: "ICI Learning Game Featured at National ED Games Expo"
 description: "The 7th annual ED Games Expo held in Washington, D.C. on January 9, featured a range of educational games and learning technologies for children with and without disabilities. One featured learning tool was Future Quest Island-Explorations(FQI-E), developed and run by staffers on our Education & Transition team here at the ICI."
-path: "/2020-01-24_ici-learning-game-featured-at-national-ed-games-expo"
+path: "2020-01-24_ici-learning-game-featured-at-national-ed-games-expo"
 date: "2020-01-24"
 posttype: "news"
 tags: ['Future Quest Island', 'Education', 'Career Preparation' ,'College Prep', 'Community Inclusion']

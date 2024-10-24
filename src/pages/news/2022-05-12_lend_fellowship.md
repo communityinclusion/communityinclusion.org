@@ -1,9 +1,10 @@
 ---
 title: "LEND Program Seeks Persons With Lived Experience for 9 Month Fellowship "
 description: ""
+path: "/2022-05-12_lend_fellowship.md"
 
 date: "2022-05-12"
-tags: ['lend', 'UMass Boston', 'fellowship', 'Institute for Community Inclusion']
+tags: ['LEND', 'UMass Boston', 'fellowship', 'Institute for Community Inclusion']
 posttype: "news"
 thumbnail: "../../images/bch-lend-logo200.png"
 ---

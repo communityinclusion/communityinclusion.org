@@ -1,5 +1,5 @@
 ---
-title: "ICI's Think College recognized by National Down Syndrome Congress at this year’s Big Game Ball "
+title: "ICI's Think College recognized by National Down Syndrome Congress at this year’s Big Game Ball"
 description: ""
 path: "/2022-08-22-ICIs-Think-College-recognized-by-National-Down-Syndrome-Congress"
 date: "2022-08-22"
@@ -7,6 +7,7 @@ tags: ['Think College','Institute for Community Inclusion']
 posttype: "news"
 thumbnail: "../../images/thinkcollege.png"
 ---
+
 Contact: Quinn Barbour/Institute for Community Inclusion  
 Phone: 617-287-4309 (office) / 857-271-6617 (mobile)  
 Email: Quinn.Barbour@umb.edu  

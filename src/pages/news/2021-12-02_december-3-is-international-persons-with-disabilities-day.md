@@ -3,7 +3,7 @@ title: "December 3 is International Persons with Disabilities Day"
 description: ""
 path: "2021-12-02_december-3-is-international-persons-with-disabilities-day.md"
 date: "2021-12-02"
-tags: ['Idpwd', 'Disability Rights', 'Disability', 'Community Inclusion', 'Ici']
+tags: ['Idpwd', 'Disability Rights', 'Disability', 'Community Inclusion', 'ICI']
 posttype: "news"
 thumbnail: "../../images/international-persons-w-disability-day-sq.png"
 ---

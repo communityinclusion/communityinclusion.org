@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 // The following import prevents a Font Awesome icon server-side rendering bug,
 // where the icons flash from a very large icon down to a properly sized one:
 import '@fortawesome/fontawesome-svg-core/styles.css';
@@ -18,42 +18,35 @@ import Navbar from "./navbar"
 import Header from "./header"
 import Hero from "../components/hero"
 import Footer from "../components/footer"
-import Helmet from "react-helmet"
 import './post.css'
 import './tags.css'
 import "../styles/custom.css"
 
 
 
-const Layout = ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query HomeTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
+const Layout = ({ children }) => {
+  const data = useStaticQuery(graphql`
+    query SiteTitleQuery {
+      site {
+        siteMetadata {
+          title
         }
       }
-    `}
-    render={data => (
-      <>
-      <Helmet>
-          
-
-</Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
+    }
+  `)
+    return (
+    <>
+      <Header siteTitle={data.site.siteMetadata.title} />
 <Navbar />
 <div className="container-lg">
 <Hero />
 </div>
   <main className="main-content container-lg my-4">{children}</main>
              <Footer />
+    </>
+  )
+}
 
-      </>
-    )}
-  />
-)
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
