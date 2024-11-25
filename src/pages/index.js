@@ -167,9 +167,6 @@ const IndexPage = ({data, location }) => {
   </FormControl>
               
           </div>
-          <div className="twitterWrap">
-    <a className="twitter-timeline bg-color-blue" data-height="700" data-dnt="true"  href="https://twitter.com/ICInclusion?ref_src=twsrc%5Etfw">Tweets by ICInclusion</a> <script async defer src="https://platform.twitter.com/widgets.js" crossOrigin="anonymous" charSet="utf-8"></script>
-   </div>
      </div>
      </div>
   </HomeLayout>

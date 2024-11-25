@@ -8,23 +8,23 @@ const activeLinkStyle = {
     background: '#20527c',
      color: 'white',
   }
-  const NavLinks = () => {
+  const NavLinks3 = () => {
     return (
       <>
       <div className="container">
-<ul className="main-nav">
-<li className="top-level-link">
-  <Link to="/" activeStyle={activeLinkStyle} ><span>Home</span></Link>
+<ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+<li className="nav-item">
+  <Link to="/" activeStyle={activeLinkStyle} className="nav-link"><span>Home</span></Link>
 </li>
 
-<li className="top-level-link">
-  <Link to="/news" activeStyle={activeLinkStyle}  partiallyActive={true} ><span>News</span></Link>
+<li className="nav-item">
+  <Link to="/news" activeStyle={activeLinkStyle}  partiallyActive={true} className="nav-link"><span>News</span></Link>
 </li>
-<li className="top-level-link">
-  <Link to="/about" className="mega-menu" activeStyle={activeLinkStyle}  partiallyActive={true}  aria-expanded="false"><span>About</span></Link>
-  <div className="sub-menu-block">
+<li className="nav-item dropdown">
+  <Link to="/about" activeStyle={activeLinkStyle}  partiallyActive={true}   className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"><span>About</span></Link>
+  <div className="dropdown-menu">
     <div className="row">
-      <div className="col-lg-9">
+      <div className="col-lg-9 dt-only">
 
 
        <p>The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society. As practitioners, researchers, and teachers, we form partnerships with individuals, families, and service agencies. Together we advocate for personal choice, self-determination, and social and economic justice.</p>
@@ -55,11 +55,11 @@ const activeLinkStyle = {
 
   </div>
 </li>
-<li className="top-level-link">
-  <Link to="/projects" activeStyle={activeLinkStyle} partiallyActive={true} className="mega-menu"><span>Projects</span></Link>
-  <div className="sub-menu-block">
+<li className="nav-item dropdown">
+  <Link to="/projects" activeStyle={activeLinkStyle} partiallyActive={true}  className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"><span>Projects</span></Link>
+ <div className="dropdown-menu">
   <div className="row">
-      <div className="col-lg-6">
+      <div className="col-lg-6 dt-only">
 <p>Our projects involve conducting state and national employment research, increasing access to higher education, supporting children with disabilities to plan for a fulfilling future, and much more.  </p>
       </div>
 
@@ -102,11 +102,11 @@ const activeLinkStyle = {
   </div>
 </li>
 
- <li className="top-level-link">
-   <Link to="/services" activeStyle={activeLinkStyle} partiallyActive={true} className="mega-menu"><span>Services</span></Link>
-      <div className="sub-menu-block">
+ <li className="nav-item dropdown">
+   <Link to="/services" activeStyle={activeLinkStyle} partiallyActive={true} className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"><span>Services</span></Link>
+      <div className="dropdown-menu">
       <div className="row">
-      <div className="col-lg-9">
+      <div className="col-lg-9 dt-only">
 <p>From expert consultation and technical assistance to online training for employment professionals, our services help agency leaders and disability staff to excel and thrive in their work.  </p>
       </div>
 
@@ -125,16 +125,11 @@ const activeLinkStyle = {
     </div>
     </div>
 </li>
-{/*
- <li className="top-level-link">
-  <Link to="/resources" activeStyle={activeLinkStyle}><span>Resources</span></Link>
+<li className="nav-item">
+  <Link to="/publications" className="nav-link" activeStyle={activeLinkStyle} partiallyActive={true}><span>Publications</span></Link>
 </li>
-*/} 
-<li className="top-level-link">
-  <Link to="/publications" activeStyle={activeLinkStyle} partiallyActive={true}><span>Publications</span></Link>
-</li>
-<li className="top-level-link">
-<Link to="/onlinelearning/" activeStyle={activeLinkStyle} partiallyActive={true}><span>Online Learning</span></Link>
+<li className="nav-item">
+<Link to="/onlinelearning/" className="nav-link" activeStyle={activeLinkStyle} partiallyActive={true}><span>Online Learning</span></Link>
 </li>
   
 </ul>
@@ -147,4 +142,4 @@ const activeLinkStyle = {
 </>
 )}
 
-export default NavLinks
+export default NavLinks3
