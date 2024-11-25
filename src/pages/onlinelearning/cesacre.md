@@ -44,11 +44,9 @@ thumbnail: "../../images/ICI.png"
       <div class="card-body">
         <h2 class="h3">What's in it for my staff?</h2>
     <ul>
-    <li>Comprehensive training on career development, networking, work incentives, engaging employers, and much more</li>
-    <li>3 exclusive recorded webinars led by instructors from the Institute for Community Inclusion (ICI) at UMass Boston</li>
-    <li>Access to office hours with ICI employment experts</li>
-    <li>Training content available 24/7 to allow learners to work at their own pace</li>
-    <li>Opportunities to practice skills learned through knowledge demonstration activities</li>
+    <li>Comprehensive, engaging training on career development, networking, work incentives, engaging employers, and much more</li>
+<li>Access to training content 24/7 so they can work at their own pace</li>
+<li>Opportunities to practice new skills through fieldwork activities</li>
     </ul>
       </div>
     </div>    
@@ -57,7 +55,7 @@ thumbnail: "../../images/ICI.png"
 
 
 <h2 class="h3 card-title">How can I get started? </h2>
-<p>If you manage staff, you can register up to 9 staff at once for the <a href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acreplus">CES ACRE Course</a>. </p>
+<p>If you manage staff, you can register up to 9 staff at once for the <a href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre-bundle">CES ACRE Course</a>. </p>
 
 <p>If you want to register 10 or more employees for the ACRE Course, explore the College of Employment Services for Group Sales offered by <a href="https://directcourseonline.com/employment-services/">Direct Course</a>. </p>
 
