@@ -3,7 +3,7 @@ title: "University of Massachusetts Boston Institute for Community Inclusion Awa
 description: ""
 path: "/2024-02-15_ICI-awarded-4-million-center-on-scaling-up-progressive-employment"
 date: "2024-02-15"
-tags: ['Institute for Community Inclusion', 'Press Release']
+tags: ['Institute for Community Inclusion','Press Release']
 posttype: "news"
 thumbnail: "../../images/EVR-sq-300.png"
 ---

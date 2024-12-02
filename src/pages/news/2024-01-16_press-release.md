@@ -3,7 +3,7 @@ title: "ICI Partners with the International Disability Alliance and the African 
 description: ""
 path: "/2024-01-10_ICI-partners-with-ida-and-african-disability-forum-on-fellowship-program"
 date: "2024-01-10"
-tags: ['PFP','Institute for Community Inclusion', 'Press Release']
+tags: ['PFP','Institute for Community Inclusion','Press Release']
 posttype: "news"
 thumbnail: "../../images/Professional-Fellows-logo-sq.png"
 ---

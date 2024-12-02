@@ -130,6 +130,13 @@
   border-color: #d5d5d5;
 }
 
+
+.iciLogo {
+  background-image: url(/images/ICI.png);
+}
+
+
+
 html {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
