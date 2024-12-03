@@ -3,7 +3,7 @@ title: "Contact"
 path: "/about/contact"
 date: 2019-04-01
 posttype: "page"
-description: "The Institute for Community Inclusion is based at the University of Massachusetts Boston with additional offices at Boston Children's Hospital."
+excerpt: "The Institute for Community Inclusion is based at the University of Massachusetts Boston with additional offices at Boston Children's Hospital."
 thumbnail: '../../images/ICI.png'
 ---
 
