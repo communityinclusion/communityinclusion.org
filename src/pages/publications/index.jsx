@@ -76,7 +76,7 @@ class PublicationsPage extends React.Component {
        <div className="w-100 nl2 nr2 center" id="pubs">
          <p>The ICI publishes briefs, whitepapers, and more extensive reports for a wide range of audiences, such as employment services providers, people with disabilities, and school/college staff providing support for students with disabilities. Selected publications are highlighted here.</p>
 
-         <Accordion>
+              <Accordion allowMultipleExpanded allowZeroExpanded>
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>

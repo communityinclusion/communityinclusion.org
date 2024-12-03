@@ -5,7 +5,7 @@ path: "2024-08-13_vr-agencies-meet-at-ici-for-progressive-employment-learning-co
 date: "2024-08-13"
 tags: ['Progressive Employment','Community Inclusion','Explore Vr']
 posttype: "news"
-thumbnail: "../../images/ICI.png"
+thumbnail: "../../images/PE-Learning-Collab.jpg"
 ---
 
 Earlier this summer, the Progressive Employment Learning Collaborative met at the ICI to discuss lessons learned about Progressive Employment’s impact on job seekers with disabilities and businesses in their communities.
@@ -18,7 +18,7 @@ Kelly Haines, PI of the Center on Scaling Up Progressive Employment project, sha
 
 “The Progressive Employment Learning Collaborative serves as a vehicle for pushing the research and implementation of the Progressive Employment model forward. We are so thankful to have had the opportunity to host all our Progressive Employment partners here in Boston this year for our 9th annual meeting.”
 
-![*Progressive Employment Learning Collaborative, including staff from 9 VR agencies, ICI staff, and DPC partners.*](/images/PE-Learning-Collab.jpg)
+![*Progressive Employment Learning Collaborative, including staff from 9 VR agencies, ICI staff, and DPC partners.*](/images/PE-Learning-Collab.jpg "Progressive Employment Learning Collaborative, including staff from 9 VR agencies, ICI staff, and DPC partners.")
 
 Progressive Employment State VR Agency members include:
 

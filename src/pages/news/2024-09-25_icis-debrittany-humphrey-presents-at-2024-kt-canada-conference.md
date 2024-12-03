@@ -5,7 +5,7 @@ path: "2024-09-25_icis-debrittany-humphrey-presents-at-2024-kt-canada-conference
 date: "2024-09-25"
 tags: ['Knowledge Translation','Rural Youth','Apprenticeship','Community Inclusion','DeBrittany Mitchell']
 posttype: "news"
-thumbnail: "../../images/ICI.png"
+thumbnail: "../../images/debrittany-presenting-kt-model-2024.jpeg"
 ---
 
 This year’s Knowledge Translation Canada Conference selected DeBrittany (Mitchell) Humphrey, a Knowledge Translation Manager from the Institute for Community Inclusion (ICI), to present on using a learning collaborative model as an integrated knowledge translation approach to help create youth apprenticeship programs in rural communities. The conference, which brings together knowledge translation experts from across Canada and beyond, focuses on the dissemination and implementation of research findings.

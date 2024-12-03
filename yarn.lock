@@ -4750,7 +4750,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@webassemblyjs/ast@npm:1.14.1, @webassemblyjs/ast@npm:^1.12.1":
+"@webassemblyjs/ast@npm:1.14.1, @webassemblyjs/ast@npm:^1.14.1":
   version: 1.14.1
   resolution: "@webassemblyjs/ast@npm:1.14.1"
   dependencies:
@@ -4836,7 +4836,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@webassemblyjs/wasm-edit@npm:^1.12.1":
+"@webassemblyjs/wasm-edit@npm:^1.14.1":
   version: 1.14.1
   resolution: "@webassemblyjs/wasm-edit@npm:1.14.1"
   dependencies:
@@ -4877,7 +4877,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@webassemblyjs/wasm-parser@npm:1.14.1, @webassemblyjs/wasm-parser@npm:^1.12.1":
+"@webassemblyjs/wasm-parser@npm:1.14.1, @webassemblyjs/wasm-parser@npm:^1.14.1":
   version: 1.14.1
   resolution: "@webassemblyjs/wasm-parser@npm:1.14.1"
   dependencies:
@@ -7497,9 +7497,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001646, caniuse-lite@npm:^1.0.30001669":
-  version: 1.0.30001685
-  resolution: "caniuse-lite@npm:1.0.30001685"
-  checksum: 10c0/cd0dcc5080dd0f3502d68938fbbe15383ae9176cc9b87016587f4abd1099298df04324818c126cda16cd7082bc3b8f91d15fa1918f8484fb964147f4c69efa28
+  version: 1.0.30001686
+  resolution: "caniuse-lite@npm:1.0.30001686"
+  checksum: 10c0/41748e81c17c1a6a0fd6e515c93c8620004171fe6706027e45f837fde71e97173e85141b0dc11e07d53b4782f3741a6651cb0f7d395cc1c1860892355eabdfa2
   languageName: node
   linkType: hard
 
@@ -9558,9 +9558,9 @@ __metadata:
   linkType: hard
 
 "dotenv@npm:^16.3.1, dotenv@npm:^16.4.5":
-  version: 16.4.5
-  resolution: "dotenv@npm:16.4.5"
-  checksum: 10c0/48d92870076832af0418b13acd6e5a5a3e83bb00df690d9812e94b24aff62b88ade955ac99a05501305b8dc8f1b0ee7638b18493deb6fe93d680e5220936292f
+  version: 16.4.6
+  resolution: "dotenv@npm:16.4.6"
+  checksum: 10c0/6c0c0c82eaa0ca6cc7193b2550920ec6d2eabfe32498bf454c0a1187c0680c79daa199ba873d33692f055755e5068f862689aca03bc8ff57e7d70302f3152012
   languageName: node
   linkType: hard
 
@@ -21702,8 +21702,8 @@ __metadata:
   linkType: hard
 
 "sass@npm:^1.69.5":
-  version: 1.81.0
-  resolution: "sass@npm:1.81.0"
+  version: 1.81.1
+  resolution: "sass@npm:1.81.1"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^4.0.0"
@@ -21714,7 +21714,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: 10c0/9c59b3c9b4231c18fcb4583cc232dbc4de501ddc11101b7a025e44833e3f3ce6031546dc1cd109ee9f04ebcfb1fe30ff870810af33b8feb9aa9e36dfba9ec1ef
+  checksum: 10c0/be30371b1706ae84ca39fc724368deae5fd9cf94f4737fb0120f166e81545d113d1aa9abd3d797cf66f1d48625ab20ec838509f157d23e3e1e57c6a7e5e78cda
   languageName: node
   linkType: hard
 
@@ -22649,8 +22649,8 @@ __metadata:
   linkType: hard
 
 "streamx@npm:^2.15.0, streamx@npm:^2.20.0":
-  version: 2.20.2
-  resolution: "streamx@npm:2.20.2"
+  version: 2.21.0
+  resolution: "streamx@npm:2.21.0"
   dependencies:
     bare-events: "npm:^2.2.0"
     fast-fifo: "npm:^1.3.2"
@@ -22659,7 +22659,7 @@ __metadata:
   dependenciesMeta:
     bare-events:
       optional: true
-  checksum: 10c0/2ad68b9426e0211c1198b5b5dd7280088793c6792e1f8e2a8fbd2487d483f35ee13b0b46edfa247daad2132d6b0abc21af4eaa4a4c099ff4cd11fcff83e6ce3e
+  checksum: 10c0/4583d1585c0b5876bc623e4c31c00358d914277b649928573002577019cb41cb8e62a7b39559aa118ff8424c1d98b03eb163536f838fa21d006f274042498180
   languageName: node
   linkType: hard
 
@@ -25106,14 +25106,14 @@ __metadata:
   linkType: hard
 
 "webpack@npm:^5.88.1, webpack@npm:^5.89.0":
-  version: 5.96.1
-  resolution: "webpack@npm:5.96.1"
+  version: 5.97.0
+  resolution: "webpack@npm:5.97.0"
   dependencies:
     "@types/eslint-scope": "npm:^3.7.7"
     "@types/estree": "npm:^1.0.6"
-    "@webassemblyjs/ast": "npm:^1.12.1"
-    "@webassemblyjs/wasm-edit": "npm:^1.12.1"
-    "@webassemblyjs/wasm-parser": "npm:^1.12.1"
+    "@webassemblyjs/ast": "npm:^1.14.1"
+    "@webassemblyjs/wasm-edit": "npm:^1.14.1"
+    "@webassemblyjs/wasm-parser": "npm:^1.14.1"
     acorn: "npm:^8.14.0"
     browserslist: "npm:^4.24.0"
     chrome-trace-event: "npm:^1.0.2"
@@ -25137,7 +25137,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 10c0/ae6052fde9a546f79f14987b65823ba4024c6642a8489339ecfee7a351dff93325842aad453295bbdc6b65fb1690e4ef07529db63aa84ece55c7869e991a0039
+  checksum: 10c0/a8714d42defbf52382b61c157f68e161a16d0edf228d8d9abaa7a165f3ee0ac7386a08d28d4dcf8d6740ea5bda0c4d4abfeeb838df029e636c1c28bb2454ac56
   languageName: node
   linkType: hard
 
