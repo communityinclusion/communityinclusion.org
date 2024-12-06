@@ -334,6 +334,25 @@ Employment First Missouri</a>
 			</div>
 			</div>
 			</div>
+			<div class="col-md-6 mb-4 d-flex align-self-stretch">
+				<div class="card shadow-sm p-3">
+				<div class="row">
+					<div class="col-md-3">
+				<div class="card-image">
+				<img src="../../images/ici-150w.png" alt = "Massachusetts Center for Inclusive Higher Education and Transition  " />
+				</div>
+				</div>
+				<div class="col-md-9">
+				<div class="card-body">
+				<h2 class="card-title"><a href="/projects/michet">
+				Massachusetts Center for Inclusive Higher Education and Transition  </a>
+				</h2>
+				<p>The Massachusetts Center for Inclusive Higher Education and Transition promotes the advancement of higher education and transition services for people with intellectual and developmental disabilities (IDD) and autism.</p>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
 			</div>
 			
 		
