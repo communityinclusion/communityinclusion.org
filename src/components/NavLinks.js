@@ -36,7 +36,7 @@ const activeLinkStyle = {
       <div className="col-lg-3 border-start-lg">
 
         <ul className="sub-menu-lists ms-1">
-          <li><Link to="/about" role="button" aria-haspopup="true">About the ICI</Link></li>
+          <li className="fw-bold"><Link to="/about" role="button" aria-haspopup="true">About the ICI</Link></li>
           <li><Link to="/about/history">History of ICI</Link></li>
           <li><Link to="/about/mission">Mission and Vision</Link></li>
           <li><Link to="/about/areas-of-emphasis">Areas of Emphasis</Link></li>
@@ -66,6 +66,7 @@ const activeLinkStyle = {
       <div className="col-lg-3 border-start-lg">
 
         <ul className="sub-menu-lists m-0 ms-1 p-0">
+          <li className="fw-bold"><Link to="/projects/">Projects Home</Link></li>
           <li><Link to="/projects/thinkcollege">ThinkCollege</Link></li>
           <li><Link to="/projects/thinkwork">ThinkWork!</Link></li>
           <li><Link to="/projects/explorevr">ExploreVR</Link></li>
@@ -114,6 +115,7 @@ const activeLinkStyle = {
       <div className="col-lg-3 border-start-lg">
 
         <ul className="sub-menu-lists ms-1">
+          <li className="fw-bold"><a href="/services/">Services Home</a></li>
           <li><a href="https://consulting.communityinclusion.org/">ICI Consulting</a></li>
           <li><a href="https://employmentservices.communityinclusion.org/">ICI Employment Services</a></li>
            <li><a href="https://www.directcourseonline.com/employment-services/">College of Employment Services</a></li>
