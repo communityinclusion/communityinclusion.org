@@ -116,6 +116,7 @@ Staff listing and contact details<!-- end -->
 | Madeline       | Webster           |                | <Madeline.Webster@umb.edu>                      | [View Profile](/about/staff-directory/madeline-webster)  |
 | Ryan      | Wedeking           |                | <ryan.wedeking@umb.edu>                      | [View Profile](/about/staff-directory/ryan-wedeking)            |
 | Cate       | Weir              | (603) 848-4901 | <Cathryn.Weir@umb.edu>                     | [View Profile](/about/staff-directory/cate-weir)                  |
+| Alison        |  White        |                |    <Alison.White@umb.edu>               | [View Profile](/about/staff-directory/alison-white)              |
 | Megan        |  Wiggins         |                |    <megan.wiggins@umb.edu>               | [View Profile](/about/staff-directory/megan-wiggins)                  |
 | Beth       | Wike              |                | <elizabeth.wike@umb.edu>                    | [View Profile](/about/staff-directory/beth-wike)                  |
 | Jean       | Winsor            | (716) 406-9780 | <Jean.Winsor@umb.edu>                      | [View Profile](/about/staff-directory/jean-e-winsor)              |
