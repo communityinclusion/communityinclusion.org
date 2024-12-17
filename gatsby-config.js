@@ -12,6 +12,7 @@ module.exports = {
 siteMetadata: {
   siteUrl: 'https://www.communityinclusion.org',
   title: 'Institute for Community Inclusion',
+   name: 'Institute for Community Inclusion',
   description: 'The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society.',
   keywords: 'Community Inclusion, UMB, Disabilities',
   twitterUsername: '@ICInclusion',
@@ -293,13 +294,5 @@ plugins: [
       useClassNames: true,
       },
     },
-    {
-   resolve: `gatsby-plugin-algolia`,
-     options: {
-      appId: process.env.GATSBY_ALGOLIA_APP_ID,
-       apiKey: process.env.ALGOLIA_ADMIN_KEY,
-        queries: require("./src/utils/algolia-queries.js"),
-     },
-   }
   ]
 }

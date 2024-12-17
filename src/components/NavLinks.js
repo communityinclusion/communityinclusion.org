@@ -1,14 +1,13 @@
 
 import React from "react"
 import { Link } from "gatsby"
-import Search from "./search"
-const searchIndices = [{ name: `Pages`, title: `Pages` }]
+import GoogleCustomSearchBox from "./GoogleCustomSearchBox.jsx";
 
 const activeLinkStyle = {
     background: '#20527c',
      color: 'white',
   }
-  const NavLinks3 = () => {
+  const NavLinks = () => {
     return (
       <>
       <div className="container">
@@ -138,11 +137,11 @@ const activeLinkStyle = {
 </ul>
     <div className="h-100 d-lg-none bg-white">
          
- <Search indices={searchIndices} />
+ <GoogleCustomSearchBox />
 
       </div>
       </div>
 </>
 )}
 
-export default NavLinks3
+export default NavLinks

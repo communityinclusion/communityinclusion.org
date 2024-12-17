@@ -1,6 +1,7 @@
 import { Link} from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import GoogleCustomSearchBox from "./GoogleCustomSearchBox.jsx";
 import logo from '../images/ici-150w.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -10,16 +11,17 @@ import {
     faFacebookSquare,
     faYoutube
 } from '@fortawesome/free-brands-svg-icons'
-import Search from "../components/search"
-const searchIndices = [{ name: `Pages`, title: `Pages` }]
+
+
 // import Search from './search.js'
 // import SearchForm from "./searchForm"
 // <SearchForm className="col-lg-12" /> //
 
+
+
 const Header = () => (
 
 	<div>
-  
 
     <div className = "container-xxl header" >
     <div className = "row px-3 py-3" >
@@ -87,7 +89,7 @@ const Header = () => (
    <FontAwesomeIcon icon={faYoutube} size="2x" />
     </a> </li> </ul>
     <div>
- <Search indices={searchIndices} />
+ <GoogleCustomSearchBox />
 </div>
     </div>
          </div> 

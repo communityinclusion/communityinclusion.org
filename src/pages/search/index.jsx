@@ -1,16 +1,16 @@
-// imports
-import React from 'react';
+import React from "react";
 import Layout from "../../components/layout"
-import Search from "../../components/search"
-const searchIndices = [{ name: `Pages`, title: `Pages` }]
+import GoogleCustomSearchResults from "../../components/GoogleCustomSearchResults.jsx";
 
 
-export default function App() {
-  return(
+
+function SearchPage() {
+  return (
     <Layout>
-    <div>
-    <Search indices={searchIndices} />
-    </div>
+      <h1 className="page-title">Search</h1>
+        <GoogleCustomSearchResults />
     </Layout>
   );
 }
+
+export default SearchPage;
