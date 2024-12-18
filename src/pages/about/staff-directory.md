@@ -39,6 +39,7 @@ Staff listing and contact details<!-- end -->
 | Jill       | Eastman           | (617) 287-4325 | <Jill.Eastman@umb.edu>                     | [View Profile](/about/staff-directory/jill-eastman)               |
 | Lara       | Enein    |                | <Lara.Enein@umb.edu>                | [View Profile](/about/staff-directory/lara-enein)         |
 | Heather  | Engholm  | |  <heather.engholm@childrens.harvard.edu>    | [View Profile](/about/staff-directory/heather-engholm)                 |
+| Rachel   | Estremera  | |  <rachel.estremera@umb.edu>    | [View Profile](/about/staff-directory/rachel-estremera)                 |
 | Karen      | Flippo            |  | <Karen.Flippo@umb.edu>                     | [View Profile](/about/staff-directory/karen-flippo)               |
 | Jason  | Fogler  | |   <jason.fogler@childrens.harvard.edu>   | [View Profile](/about/staff-directory/jason-fogler)                  |
 | Susan      | Foley             | | <Susan.Foley@umb.edu>                      | [View Profile](/about/staff-directory/susan-foley)                |
@@ -117,6 +118,7 @@ Staff listing and contact details<!-- end -->
 | Ryan      | Wedeking           |                | <ryan.wedeking@umb.edu>                      | [View Profile](/about/staff-directory/ryan-wedeking)            |
 | Cate       | Weir              | (603) 848-4901 | <Cathryn.Weir@umb.edu>                     | [View Profile](/about/staff-directory/cate-weir)                  |
 | Alison        |  White        |                |    <Alison.White@umb.edu>               | [View Profile](/about/staff-directory/alison-white)              |
+| Neranjala        |  Wickramaratne        |                |    <nb.wickramaratne@umb.edu>               | [View Profile](/about/staff-directory/neranjala-wickramaratne)              |
 | Megan        |  Wiggins         |                |    <megan.wiggins@umb.edu>               | [View Profile](/about/staff-directory/megan-wiggins)                  |
 | Beth       | Wike              |                | <elizabeth.wike@umb.edu>                    | [View Profile](/about/staff-directory/beth-wike)                  |
 | Jean       | Winsor            | (716) 406-9780 | <Jean.Winsor@umb.edu>                      | [View Profile](/about/staff-directory/jean-e-winsor)              |

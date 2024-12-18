@@ -14,24 +14,21 @@ https://intranet.communityinclusion.org/*   https://liveumb.sharepoint.com/sites
 /inspiringindependence https://inspiringindependence.communityinclusion.org/
 /teams https://teams.communityinclusion.org
 /employmentservices https://employmentservices.communityinclusion.org
-/schooldays https://archive.communityinclusion.org/schooldays/index.php?p=1
+/schooldays https://www.communityinclusion.org/search/?q=
 /crocker-2024 /pdf/crocker_flyer_2024_R.pdf
 /gopen-2024 /pdf/gopen_flyer_2024_R.pdf
-/doc.php?doc_id=8&type=cebwfdg&id=35 /about/directions
 /files/cle-toolkit/guideposts_assessment_22.pdf /files/cle-toolkit/guideposts_assessment.pdf
 /areas-of-emphasis/* /about/areas-of-emphasis/:splat
 /projects/cle/ https://cletoolkit.communityinclusion.org/ 301!
 /cle/ https://cletoolkit.communityinclusion.org/ 301!
-
 /cle/*  https://cletoolkit.communityinclusion.org/:splat
 /projects/cle/*  https://cletoolkit.communityinclusion.org/:splat
 
 # Publications
 
-https://communityinclusion.org/article.php?article_id=129 https://archive.communityinclusion.org/article.php?article_id=129
-https://communityinclusion.org/article.php?article_id=213 /about/what-we-mean-when-we-talk-about-inclusion
-https://communityinclusion.org/article.php?article_id=129 https://archive.communityinclusion.org/article.php?article_id=129
-https://communityinclusion.org/article.php?article_id=251 https://archive.communityinclusion.org/pdf/networkingmanual_F.pdf
+
+/article.php?article_id=213 /about/what-we-mean-when-we-talk-about-inclusion
+/article.php?article_id=251 /pdf/networkingmanual_F.pdf
 /pdf/TO31_F.pdf /pdf/TO31_F_R.pdf
 
 # General Redirects
@@ -43,7 +40,7 @@ https://communityinclusion.org/article.php?article_id=251 https://archive.commun
 /staff.php /about/staff-directory 
 /article.php /news
 /project.php /projects
-/onestop/* https://archive.communityinclusion.org/onestop/:splat
+/onestop/* https://communityinclusion.org/
 
 
 
