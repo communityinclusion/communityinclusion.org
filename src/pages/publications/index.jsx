@@ -25,8 +25,29 @@ import literacy_infants_thumbnail from '../../images/pub-thumbs/literacy_infants
 import literacy_youngchild_thumbnail from '../../images/pub-thumbs/literacy_youngchild_F-thumb.png'
 import literacy_schoolage_thumbnail from '../../images/pub-thumbs/literacy_schoolage_F-thumb.png'
 import literacy_teens_thumbnail from '../../images/pub-thumbs/literacy_teens_F-thumb.png'
+import PE_implmentation_risk_mitigation_F_R_thumb from '../../images/pub-thumbs/PE_implementation_Jobsville_F_R2_thumb.jpg'
+import HTTC17_R_thumb from '../../images/pub-thumbs/HTTC17_R_thumb.jpg'
+import ATAP_2024_R_thumb from '../../images/pub-thumbs/ATAP_2024_R_thumb.jpg'
+import PE_implementation_Jobsville_F_R2_thumb from '../../images/pub-thumbs/PE_implementation_Jobsville_F_R2_thumb.jpg'
+import PP_SP_UDAC_staff_shortages_R_thumb from '../../images/pub-thumbs/PP_SP_UDAC_staff_shortages_R_thumb.jpg'
+import DNplus92_R_thumb from '../../images/pub-thumbs/DNplus92_R_thumb.jpg'
+import DN_91_R_thumb from '../../images/pub-thumbs/DN_91_R_thumb.jpg'
+import DN90_R_thumb from '../../images/pub-thumbs/DN90_R_thumb.jpg'
+import EVR_CP_quickguide_R_thumb from '../../images/pub-thumbs/EVR_CP_quickguide_R_thumb.jpg'
+import IN64_R_thumb from '../../images/pub-thumbs/IN64_R_thumb.jpg'
+import DN_89_R_thumb from '../../images/pub-thumbs/DN_89_R_thumb.jpg'
 
-
+import PP_SP_UDAC_staff_shortages_pdf from '../../files/PP_SP_UDAC_staff_shortages_R.pdf'
+import PE_implmentation_risk_mitigation_pdf from '../../files/PE_implmentation_risk_mitigation_F_R.pdf'
+import PE_implementation_Jobsville_pdf from '../../files/PE_implementation_Jobsville_F_R2.pdf'
+import IN64_pdf from '../../files/IN64_R.pdf'
+import HTTC17_pdf from '../../files/HTTC17_R.pdf'
+import EVR_CP_quickguide_pdf from '../../files/EVR_CP_quickguide_R.pdf'
+import DN90_pdf from '../../files/DN90_R.pdf'
+import DNplus92_pdf from '../../files/DNplus92_R.pdf'
+import DN_91_pdf from '../../files/DN_91_R.pdf'
+import DN_89_pdf from '../../files/DN_89_R.pdf'
+import ATAP_2024_pdf from '../../files/ATAP_2024_R.pdf'
 import depression_pdf from '../../files/depression_DS_F2.pdf'
 import adhd_pdf from '../../files/ADHD_F_web.pdf'
 import communications_pdf from '../../files/communications_booklet_2016_update.pdf'
@@ -77,14 +98,36 @@ class PublicationsPage extends React.Component {
          <p>The ICI publishes briefs, whitepapers, and more extensive reports for a wide range of audiences, such as employment services providers, people with disabilities, and school/college staff providing support for students with disabilities. Selected publications are highlighted here.</p>
 
               <Accordion allowMultipleExpanded allowZeroExpanded>
-            <AccordionItem>
+                <AccordionItem uuid="a">
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        Education
+                      Education  <span className="badge bg-primary">New Publications</span>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
              
+                    <div className="card m-3">
+                      <div className="row">
+                        <div className="col-md-2">
+                          <div className="card-image"><img src={HTTC17_R_thumb} className="img-fluid" alt="publication thumbnail" />
+                          </div>
+                        </div>
+                        <div className="col-md-10 card-body"><h2 className="card-title"> <a href={HTTC17_pdf}><span className="badge bg-primary pb-1">New</span> The Importance of Naming Postsecondary Education Programs</a></h2><p className="card-text">
+                          Choosing the right name for a postsecondary education program for students with intellectual disability is critical for shaping perceptions and fostering inclusion. Thoughtful naming can help emphasize the program’s academic mission and support student self-determination. In this brief, research by Papay et al. (2022) highlights common naming practices, such as acronyms or disability-focused terms, that may unintentionally hinder full integration of people with intellectual disability into the academic community.</p></div></div></div>
+
+                    <div className="card m-3">
+                      <div className="row">
+                        <div className="col-md-2">
+                          <div className="card-image">
+                            <img src={IN64_R_thumb} className="img-fluid" alt="publication thumbnail" />
+                          </div>
+                        </div>
+                        <div className="col-md-10 card-body"><h2 className="card-title"><a href={IN64_pdf}> <span className="badge bg-primary pb-1">New</span>  Teaching Campus Navigation for Students with Intellectual Disability</a></h2><p className="card-text">
+                          Research shows that explicit campus navigation training helps students, including those with intellectual disability, adapt to new environments and increase independent access. Peer-reviewed studies highlight effective strategies, such as using handheld technology and task analysis tools like Google Maps, to improve navigation skills. This brief summarizes findings and offers recommendations for implementing evidence-based approaches to teach campus navigation.</p>
+                        </div>
+                      </div>
+                    </div>
+
                 <div className="card m-3">
                 <div className="row">
     <div className="col-md-2">
@@ -168,7 +211,7 @@ class PublicationsPage extends React.Component {
          
                 </AccordionItemPanel>
             </AccordionItem>
-            <AccordionItem>
+                <AccordionItem uuid="b">
                 <AccordionItemHeading>
                     <AccordionItemButton>
                        Health Care
@@ -290,13 +333,118 @@ class PublicationsPage extends React.Component {
          </div>
                 </AccordionItemPanel>
             </AccordionItem>
-            <AccordionItem>
+                <AccordionItem uuid="c">
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                       Employment
+                      Employment  <span className="badge bg-primary">New Publications</span>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
+                    <div className="card m-3">
+                      <div className="row">
+                        <div className="col-md-2">
+                          <div className="card-image">
+                            <img src={DN_89_R_thumb} className="img-fluid" alt="publication thumbnail" />
+                          </div>
+                        </div>
+                        <div className="col-md-10 card-body"><h2 className="card-title">
+                          <a href={DN_89_pdf}><span className="badge bg-primary pb-1">New</span> Vocational Rehabilitation Services and Outcomes for People with Intellectual Disabilities: 2014–2023</a></h2><p className="card-text">
+                            Vocational rehabilitation (VR) outcomes for adults with intellectual disabilities have changed over the past 10 years. The RSA-911 database shows that from 2014 to 2023, fewer people received VR services, wages decreased slightly, and it took longer to get jobs. This report also compares outcomes for people with intellectual disabilities to those with other disabilities, showing differences across states and demographics.</p>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div className="card m-3">
+                      <div className="row">
+                        <div className="col-md-2">
+                          <div className="card-image"><img src={DN_91_R_thumb} className="img-fluid" alt="publication thumbnail" />
+                          </div>
+                        </div>
+                        <div className="col-md-10 card-body"><h2 className="card-title">
+                          <a href={DN_91_pdf}><span className="badge bg-primary pb-1">New</span> Employment Recovery for People with Disabilities Post-COVID-19</a></h2>
+                          <p className="card-text">
+                            Employment for people with disabilities has shown significant recovery since the pandemic. While employment dropped sharply in 2020, by February 2024, it had increased by 29% compared to pre-pandemic levels. This update compares employment changes for people with and without disabilities using data from the Bureau of Labor Statistics.</p>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div className="card m-3">
+                      <div className="row">
+                        <div className="col-md-2">
+                          <div className="card-image"><img src={DNplus92_R_thumb} className="img-fluid" alt="publication thumbnail" />
+                          </div>
+                        </div>
+                        <div className="col-md-10 card-body"><h2 className="card-title"><a href={DNplus92_pdf}><span className="badge bg-primary pb-1">New</span>  Social Security Work Incentives for Individuals with Intellectual Disabilities</a></h2>
+                          <p className="card-text">
+                            There are several work incentive programs that help people go to work without fear of losing their Supplemental Security Income (SSI) benefits. Programs like PASS, IRWE, and Section 1619 exclude certain expenses from income calculations so people can work and keep their benefits at the same time. This Data Note + highlights trends in Social Security programs supporting people with intellectual disabilities from 2000–2022.</p>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div className="card m-3">
+                      <div className="row">
+                        <div className="col-md-2">
+                          <div className="card-image">
+                            <img src={DN90_R_thumb} className="img-fluid" alt="publication thumbnail" />
+                          </div>
+                        </div>
+                        <div className="col-md-10 card-body"><h2 className="card-title"><a href={DN90_pdf}><span className="badge bg-primary pb-1">New</span>  Employment Outcomes for People with Disabilities: Insights from the ACS (2022)</a></h2>
+                          <p className="card-text">
+                            The American Community Survey (ACS) provides a comprehensive overview of employment outcomes for working-age people with disabilities. This Data Note compares the economic situations of people with cognitive disabilities, people with other disabilities, and people without disabilities in 2022.</p></div></div></div>
+
+
+                    <div className="card m-3">
+                      <div className="row">
+                        <div className="col-md-2">
+                          <div className="card-image"><img src={EVR_CP_quickguide_R_thumb} className="img-fluid" alt="publication thumbnail" />
+                          </div>
+                        </div>
+                        <div className="col-md-10 card-body"><h2 className="card-title"><a href={EVR_CP_quickguide_pdf}><span className="badge bg-primary pb-1">New</span>  Career Pathways Advancement: A Guide for VR Staff</a></h2><p className="card-text">
+                          Nebraska Vocational Rehabilitation’s (VR) Career Pathways Advancement Project demonstrates the value of industry partnerships in creating high-quality training and career-focused employment opportunities. This quick guide outlines an 8-step process for VR staff to conduct an environmental scan, helping identify trends and opportunities for advancing career pathways for people with disabilities.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card m-3">
+                      <div className="row">
+                        <div className="col-md-2">
+                          <div className="card-image"><img src={PE_implementation_Jobsville_F_R2_thumb} className="img-fluid" alt="publication thumbnail" />
+                          </div>
+                        </div>
+                        <div className="col-md-10 card-body"><h2 className="card-title"> <a href={PE_implementation_Jobsville_pdf}> <span className="badge bg-primary pb-1">New</span> Progressive Employment Implementation Guide: The Team Approach</a></h2>
+                          <p className="card-text">
+                            Progressive Employment is a service model that connects job seekers with significant barriers to employment to businesses through work-based learning opportunities. A key component of Progressive Employment is the team approach, exemplified by "Jobsville" meetings, where team members collaborate to support job seekers, share labor market insights, and brainstorm solutions. This guide focuses on implementing effective teamwork within the Progressive Employment model.</p>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div className="card m-3">
+                      <div className="row">
+                        <div className="col-md-2">
+                          <div className="card-image"><img src={PE_implmentation_risk_mitigation_F_R_thumb} className="img-fluid" alt="publication thumbnail" />
+                          </div>
+                        </div>
+                        <div className="col-md-10 card-body"><h2 className="card-title"> <a href={PE_implmentation_risk_mitigation_pdf}> <span className="badge bg-primary pb-1">New</span> Progressive Employment: Risk Mitigation Strategies to help Job Seekers?</a></h2><p className="card-text">
+                          The Progressive Employment model includes strategies to mitigate risks for both job seekers and businesses. Risk mitigation strategies reduce employer concerns while supporting job seekers in exploring career opportunities. This guide focuses on risk mitigation strategies for job seekers and their influencers, which involves preparations like workers’ compensation coverage and wage payments during worksite experiences.</p>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div className="card m-3">
+                      <div className="row">
+                        <div className="col-md-2">
+                          <div className="card-image"><img src={PP_SP_UDAC_staff_shortages_R_thumb} className="img-fluid" alt="publication thumbnail" />
+                          </div>
+                        </div>
+                        <div className="col-md-10 card-body"><h2 className="card-title"><a href={PP_SP_UDAC_staff_shortages_pdf}> <span className="badge bg-primary pb-1">New</span> Transforming Culture to Improve Staff Recruitment and Retention</a></h2><p className="card-text">
+                          Udac, a Minnesota provider serving adults with intellectual and developmental disabilities, shifted from facility-based subminimum wage services to community-based programs during the COVID-19 pandemic. To support this transformation, Udac focused on reshaping its organizational culture and implementing strategies to hire and retain skilled staff, even amid a nationwide workforce shortage. This promising practice highlights Udac’s approach.</p>
+                        </div>
+                      </div>
+                    </div>
                 <div className="card m-3">
                 <div className="row">
     <div className="col-md-2">
@@ -414,13 +562,28 @@ that are fully reflective of their own interests and preferences.</p>
 </div>
                 </AccordionItemPanel>
             </AccordionItem>
-            <AccordionItem>
+                <AccordionItem uuid="d">
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                       Community
+                      Community  <span className="badge bg-primary">New Publications</span>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
+
+                    <div className="card m-3">
+                      <div className="row">
+                        <div className="col-md-2">
+                          <div className="card-image">
+                            <img src={ATAP_2024_R_thumb} className="img-fluid" alt="publication thumbnail" />
+                            </div>
+                            </div>
+                        <div className="col-md-10 card-body"><h2 className="card-title">
+                          <a href={ATAP_2024_pdf}>  <span className="badge bg-primary pb-1">New</span>  Assistive Technology (AT) Act Data Brief: Fiscal Year 2023</a></h2><p className="card-text">Statewide Assistive Technology (AT) programs provide AT device loans, demonstrations, and reuse to people with disabilities and older adults. They also offer training and coordinate public awareness campaigns. Each year, these programs report their activities to the Administration on Community Living. The data in this brief highlight AT program activities from FY 2023 and how program efforts improve access to AT across the US.</p>
+                              </div>
+                              </div>
+                              </div>
+
+
                 <div className="card m-3">
                 <div className="row">
     <div className="col-md-2">
