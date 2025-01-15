@@ -11,4 +11,4 @@ const WrapComponent = ({ element }) => {
   return <Provider store={store}>{element}</Provider>
 }
 
-export default WrapComponent;
+export default WrapComponent

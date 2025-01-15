@@ -1,14 +1,12 @@
-// src/components/BgImage.jsx
-
-import React from "react";
-import PropTypes from "prop-types";
-import { GatsbyImage } from "gatsby-plugin-image";
-import styled from "styled-components";
+import React from "react"
+import PropTypes from "prop-types"
+import { GatsbyImage } from "gatsby-plugin-image"
+import styled from "styled-components"
 
 const Parent = styled.div`
   position: relative;
   background-color: ${({ bc }) => bc};
-`;
+`
 
 const FakeBgImage = styled(GatsbyImage)`
   position: absolute;
@@ -27,23 +25,23 @@ const FakeBgImage = styled(GatsbyImage)`
   @media screen and (max-width: 600px) {
     height: ${({ mobileHeight }) => mobileHeight};
   }
-`;
+`
 
 const Content = styled.div`
   position: absolute;
   top: 0;
   height: 100%;
   width: 100%;
-`;
+`
 
 const BgImage = ({
   fluid,
   title,
-  height,
-  mobileHeight,
-  overlayColor,
-  children,
-  className
+  height = null,
+  mobileHeight = null,
+  overlayColor = "transparent",
+  children = null,
+  className = null,
 }) => (
   <Parent bc={overlayColor}>
     <FakeBgImage
@@ -54,7 +52,8 @@ const BgImage = ({
     />
     <Content className={className}>{children}</Content>
   </Parent>
-);
+)
+
 BgImage.propTypes = {
   fluid: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
   title: PropTypes.string.isRequired,
@@ -62,14 +61,7 @@ BgImage.propTypes = {
   mobileHeight: PropTypes.string,
   overlayColor: PropTypes.string,
   children: PropTypes.node,
-  className: PropTypes.string
-};
-BgImage.defaultProps = {
-  height: null,
-  mobileHeight: null,
-  overlayColor: "transparent",
-  children: null,
-  className: null
-};
+  className: PropTypes.string,
+}
 
-export default BgImage;
+export default BgImage

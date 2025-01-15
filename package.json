@@ -19,13 +19,12 @@
     "@mui/material": "^5.14.18",
     "@popperjs/core": "^2.11.8",
     "@reduxjs/toolkit": "^1.9.7",
-    "@sentry/browser": "^7.80.0",
-    "@sentry/gatsby": "^7.80.0",
-    "@sentry/node": "^7.80.0",
-    "@sentry/react": "^7.80.0",
-    "@sentry/tracing": "^7.80.0",
-    "@sentry/webpack-plugin": "^2.10.0",
-    "@sentry/wizard": "^3.16.4",
+    "@sentry/browser": "^8.50.0",
+    "@sentry/gatsby": "^8.50.0",
+    "@sentry/node": "^8.50.0",
+    "@sentry/react": "^8.50.0",
+    "@sentry/webpack-plugin": "^3.0.0",
+    "@sentry/wizard": "^3.38.0",
     "@styled-icons/fa-solid": "^10.47.0",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
@@ -147,5 +146,5 @@
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
-  "packageManager": "yarn@4.1.0"
+  "packageManager": "yarn@4.6.0"
 }
