@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import * as Spotlight from '@spotlightjs/spotlight';
 import ErrorBoundary from "./ErrorBoundary"
 import Navbar from "./navbar"
 import Header from "./header"
@@ -15,12 +16,9 @@ import Footer from "./footer"
 import "./post.css"
 import "./tags.css"
 
-Sentry.init({
-  dsn: "https://3d981740717e4fe8a72e44cce3060d6e@o339238.ingest.us.sentry.io/1875087",
-
-  // uncomment the line below to enable Spotlight (https://spotlightjs.com)
-  spotlight: __DEV__,
-})
+if (process.env.NODE_ENV === 'development') {
+  Spotlight.init();
+}
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`

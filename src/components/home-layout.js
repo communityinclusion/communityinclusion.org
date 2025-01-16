@@ -8,6 +8,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import * as Spotlight from '@spotlightjs/spotlight';
+import ErrorBoundary from "./ErrorBoundary"
 // The following import prevents a Font Awesome icon server-side rendering bug,
 // where the icons flash from a very large icon down to a properly sized one:
 import "@fortawesome/fontawesome-svg-core/styles.css"
@@ -22,6 +24,11 @@ import "./post.css"
 import "./tags.css"
 import "../styles/custom.css"
 
+if (process.env.NODE_ENV === 'development') {
+  Spotlight.init();
+}
+
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -34,6 +41,7 @@ const Layout = ({ children }) => {
   `)
   return (
     <>
+     <ErrorBoundary>
       <Header siteTitle={data.site.siteMetadata.title} />
       <Navbar />
       <div className="container-lg">
@@ -41,6 +49,7 @@ const Layout = ({ children }) => {
       </div>
       <main className="main-content container-lg my-4">{children}</main>
       <Footer />
+      </ErrorBoundary>
     </>
   )
 }

@@ -3,7 +3,7 @@ import * as Sentry from '@sentry/browser';
 Sentry.init({
   enableTracing: true,
   environment: process.env.NODE_ENV,
-  dsn: '__DSN__',
+  dsn: process.env.SENTRY_DNS,
   debug: true,
   integrations: [
     Sentry.browserTracingIntegration(),

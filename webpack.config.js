@@ -7,8 +7,8 @@ module.exports = {
     // Put the Sentry Webpack plugin after all other plugins
     sentryWebpackPlugin({
       authToken: process.env.SENTRY_AUTH_TOKEN,
-      org: "umb",
-      project: "umb",
+      org: process.env.SENTRY_ORG,
+      project: process.env.SENTRY_PROJECT,
     }),
   ],
 }
