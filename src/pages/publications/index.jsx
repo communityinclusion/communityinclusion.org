@@ -1,6 +1,6 @@
 import * as React from "react"
 // import { graphql } from 'gatsby'
-import Seo from '../../components/seo';
+import Seo from '../../components/Seo';
 import Layout from "../../components/layout"
 import arizona_thumbnail from '../../images/pub-thumbs/Arizona_thumbnail.png'
 import evr_thumbnail from '../../images/pub-thumbs/EVR_toolkit.png'
