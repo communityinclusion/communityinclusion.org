@@ -16,7 +16,7 @@ The goal of the research, conducted by Stinnett and her South Carolina colleague
 
 Initial assignments for participants included taking photos of things they enjoy as college students and places where they feel safe, comfortable, and included. Later, participants were asked to take photos of ways in which they’ve felt challenged in being included on campus and representing ways in which they’ve had to self-advocate.
 
-“Often young adults marginalized by society due to their disability are not afforded the same opportunities and responsibilities related to adult roles, community living, ongoing education, and employment as adults without disabilities,” according to the researchers. “The photos taken and shared through this project turned this idea on its head and showed these students accessing opportunities to live and be on campus in ways taken-for-granted by non-disabled people.”
+"Often young adults marginalized by society due to their disability are not afforded the same opportunities and responsibilities related to adult roles, community living, ongoing education, and employment as adults without disabilities," according to the researchers. "The photos taken and shared through this project turned this idea on its head and showed these students accessing opportunities to live and be on campus in ways taken-for-granted by non-disabled people."
 
 A goal of the research, and photovoice in general, was also to inform and educate local stakeholders about participant experiences. To accomplish this, researchers hosted an exhibition of participants’ photos, which gave participants a platform to share experiences and knowledge as members of a marginalized group on campus.
 

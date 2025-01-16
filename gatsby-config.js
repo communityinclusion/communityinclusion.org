@@ -17,7 +17,7 @@ siteMetadata: {
   keywords: 'Community Inclusion, UMB, Disabilities',
   twitterUsername: '@ICInclusion',
   author: 'Institute for Community Inclusion',
-  image: '/images/ICI.png',
+  image: '/static/ici_banner-lg.png',
    social: {
       twitter: `ICInclusion`,
     },
