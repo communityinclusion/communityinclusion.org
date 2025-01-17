@@ -56,7 +56,7 @@ thumbnail: "../../images/ICI.png"
              <p>We accept applications from all local school districts for students who are 18-21, receiving transition services, and meet MAIPSE eligibility requirements. If you are unsure whether your school is already a partner, please contact us. </p>
              <p><strong>Application Deadline for Fall Semester Start:</strong>
              <br>Due February 20th </p>
-          <p><a href="/files/maicei/UMassBostonMAICEINewStudentApplication.pdf" class="btn btn-outline-secondary" type="button">Download Application</a></p>
+          <p><a href="/files/maicei/UMassBostonInclusiveEdInitiativeApplication.pdf" class="btn btn-outline-secondary" type="button">Download Application</a></p>
         </div>
       </div>
     </div>
