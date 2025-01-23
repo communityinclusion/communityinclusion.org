@@ -10,7 +10,7 @@ thumbnail: '../../images/ICI.png'
 
 ## Mission
 
-As practitioners, researchers, teachers and advocates, we support systems change and partner with children and adults with disabilities, their families, and communities to advocate for personal choice, self-determination, and social and economic justice.
+As practitioners, researchers, teachers and advocates, we support systems change and partner with children and adults with disabilities, their families, and communities to advocate for personal choice and self-determination.
 
 ## Vision
 

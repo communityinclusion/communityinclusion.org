@@ -26,7 +26,7 @@ const activeLinkStyle = {
       <div className="col-lg-9 dt-only">
 
 
-       <p>The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society. As practitioners, researchers, and teachers, we form partnerships with individuals, families, and service agencies. Together we advocate for personal choice, self-determination, and social and economic justice.</p>
+       <p>The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society. As practitioners, researchers, and teachers, we form partnerships with individuals, families, and service agencies. Together we advocate for personal choice and self-determination.</p>
        <p>We are dedicated to advancing the full inclusion of people with disabilities in all aspects of life. Our work encompasses research, program evaluation, training, consultation, education, policy analysis, and service delivery across four main areas of emphasis: Employment, Education, Community Life, and Health Care.</p>
        <p>We have three national hubs: <a href="https://www.explorevr.org/">ExploreVR</a> and <a href="https://www.thinkwork.org/">ThinkWork</a>, which focus on inclusive employment, and <a href="https://thinkcollege.net/">ThinkCollege</a>, which focuses on inclusive higher education.</p>
       </div>
