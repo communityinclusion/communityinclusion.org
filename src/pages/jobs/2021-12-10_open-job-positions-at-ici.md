@@ -8,7 +8,7 @@ tags: ["Hiring", "Boston Jobs", "Community Inclusion", "Disability", "Job Listin
 thumbnail: "../../images/jobs-icon.png"
 ---
 
-ICI is hiring for several open positions. Please share these opportunities with anyone who may be interested. Join a great workplace that supports and advances UMass Boston’s values of diversity and equity!
+ICI is hiring for several open positions. Please share these opportunities with anyone who may be interested.
 
  <div class="row">
     <div class="col-md-6">
