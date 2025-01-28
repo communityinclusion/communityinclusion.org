@@ -119,7 +119,7 @@ Staff listing and contact details<!-- end -->
 | Neranjala        |  Wickramaratne        |                |    <nb.wickramaratne@umb.edu>               | [View Profile](/about/staff-directory/neranjala-wickramaratne)              |
 | Megan        |  Wiggins         |                |    <megan.wiggins@umb.edu>               | [View Profile](/about/staff-directory/megan-wiggins)                  |
 | Beth       | Wike              |                | <elizabeth.wike@umb.edu>                    | [View Profile](/about/staff-directory/beth-wike)                  |
-| Jean       | Winsor            | (716) 406-9780 | <Jean.Winsor@umb.edu>                      | [View Profile](/about/staff-directory/jean-e-winsor)              |
+| Jean       | Winsor            |  | <Jean.Winsor@umb.edu>                      | [View Profile](/about/staff-directory/jean-e-winsor)              |
 | Cedric     | Woods             |  (617) 287-5784               | <Cedric.Woods@umb.edu>                     | [View Profile](/about/staff-directory/cedric-woods)  |
 | Will       | Woolery             |                | <William.Woolery@umb.edu>                 | [View Profile](/about/staff-directory/will-woolery)     
 | Agnes      | Zalewska          |  | <Agnes.Zalewska@umb.edu>                  | [View Profile](/about/staff-directory/agnieszka-zalewska)         |
