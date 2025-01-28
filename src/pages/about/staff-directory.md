@@ -67,7 +67,6 @@ Staff listing and contact details<!-- end -->
 | Jonathan   | Keleher           | (617) 287-4292 | <Jonathan.Keleher@umb.edu>                 | [View Profile](/about/staff-directory/jon-keleher)                |
 | Chayaphon  | Klinthong         |                | <Chayaphon.Klinthon@umb.edu>               | [View Profile](/about/staff-directory/chayaphon-klinthong)        |
 | Ngai       | Kwan              | (617) 287-4298 | <Ngai.Kwan@umb.edu>                        | [View Profile](/about/staff-directory/ngai-kwan)                  |
-| Tiffany    | Lam               |                |  <Tiffany.Lam@umb.edu>                        | [View Profile](/about/staff-directory/tiffany-lam)             |
 | Rebecca    | Lazo              | (857) 309-8324 | <Rebecca.Lazo@umb.edu>                     | [View Profile](/about/staff-directory/rebecca-lazo)               |
 | Sherry   |Lehane  | |   <Sherry.Lehane@umb.edu>    | [View Profile](/about/staff-directory/sherry-lehane)                  |
 | Mindy     | Lingo            |  | <Mindy.Lingo@umb.edu>                     | [View Profile](/about/staff-directory/mindy-lingo)               |
@@ -91,7 +90,6 @@ Staff listing and contact details<!-- end -->
 | Clare      | Papay             |  | <Clare.Papay@umb.edu>                     | [View Profile](/about/staff-directory/clare-papay)                |
 | Sarah      | Paterson          |                | <Sarah.Paterson@umb.edu>                   | [View Profile](/about/staff-directory/sarah-paterson)             |
 | Bryn     | Peterson          |                | <Bryn.Peterson@umb.edu>                   | [View Profile](/about/staff-directory/bryn-peterson)             |
-| Sara       | Pound             |                | <Sara.Pound@umb.edu>                        | [View Profile](/about/staff-directory/sara-pound)           |
 | Christa    | Preston           |                | <Christa.Preston@umb.edu>                    | [View Profile](/about/staff-directory/christa-preston)           |
 | Leslie     | Quarles           |                | <Leslie.Quarles@umb.edu>                       | [View Profile](/about/staff-directory/leslie-quarles )           |
 | Julie      | Reposa            |                | <Julie.Reposa@umb.edu>                     | [View Profile](/about/staff-directory/julie-reposa)               |
