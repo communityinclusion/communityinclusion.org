@@ -32,7 +32,6 @@ We will introduce a new course lesson each week. You can work through each lesso
 This course includes lessons on the following topics:
 
 * Competitive Integrated Employment: Establishing Expectations
-* Cultural Humility and Family Engagement
 * Learning About an Individual and Building A Career Plan, Parts 1 & 2
 * Business Engagement Practices and The Dual-Customer Approach
 * Thinking Outside the Box: Creating Opportunities for Individuals with Intellectual and Developmental Disabilities (IDD)

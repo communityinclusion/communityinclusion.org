@@ -35,7 +35,7 @@ _"ADF looks forward to the collaboration with UMass Boston and the invaluable op
 The Professional Fellows Program on Inclusive Civic Engagement reflects the partners’ shared commitment to building sustainable partnerships that promote fully inclusive civic societies for people with disabilities.
 
 ***
-
+<!--
 #### About the Institute for Community Inclusion
 
 The Institute for Community Inclusion (ICI) is a University Center for Excellence in Developmental Disabilities (UCEDD) based at the University of Massachusetts Boston and Boston Children's Hospital. ICI supports the rights of children and adults with disabilities to participate in all aspects of society. As practitioners, researchers, and teachers, we form partnerships with individuals, families, community organizations, and service agencies. Together, we advocate for personal choice, self-determination, and social and economic justice.
@@ -47,7 +47,7 @@ The African Disability Forum (ADF) is the continental membership organization of
 #### About UMass Boston
 
 The University of Massachusetts Boston is deeply rooted in the city's history yet poised to address the challenges of the future. Recognized for innovative research, metropolitan Boston’s public university offers its diverse student population both an intimate learning environment and the rich experience of a great American city. UMass Boston’s colleges and graduate schools serve 16,000 students while engaging local and global constituents through academic programs, research centers, and public service. To learn more, visit [www.umb.edu](http://www.umb.edu/).
-
+-->
 </div>
 <div class="col-md-4">
 <div class="bg-light p-2">

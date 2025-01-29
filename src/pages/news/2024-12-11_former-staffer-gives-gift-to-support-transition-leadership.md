@@ -2,7 +2,7 @@
 title: "‘ICI Gave Me My Career’: Former Staffer Gives Gift to Support Transition Leadership"
 description: ""
 path: "2024-12-11_former-staffer-gives-gift-to-support-transition-leadership.md"
-date: "2024-12-11"
+date: "2025-01-29"
 tags: ['Donations', 'Transition Leadership', 'Stel Gragoudas', 'Umass Boston']
 posttype: "news"
 thumbnail: "../../images/dr-stelios-gragoudas-profile-picture-2024.jpeg"

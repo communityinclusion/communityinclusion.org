@@ -20,8 +20,9 @@ ICI’s **Amy Gessert**, along with Sherry Healey and Brian Begin of the Univers
 ![A white women with a pink shirt is presenting in front of several seated audience memners.](/images/amy-gessert-presenting.jpg 'ICI’s Amy Gessert (seated, in white) presented on a statewide approach for employment professionals to support competitive integrated employment with Sherry Healey and Brian Begin, both from University of Minnesota’s Institute on Community Integration.')
 
 
-
+<!--
 **Sheila Fesko** and **Karen Flippo** presented _Cultural Humility: Training Staff to Work with All Job Seekers_ about strategies for staff to become more self-aware of their personal and cultural biases and to improve awareness and sensitivity to significant cultural identities of other people.
+-->
 
 ![Sheila Fesko (standing) talks to attendees while Karen Flippo (seated, in black) listens.](/images/Sheila-Fesko-speaking.jpg 'Sheila Fesko (standing) talks to attendees while Karen Flippo (seated, in black) listens.')
 

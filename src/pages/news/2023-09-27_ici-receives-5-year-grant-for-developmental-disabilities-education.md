@@ -15,12 +15,12 @@ Each UCEDD is part of a national network of academic centers focused on addressi
 
 With these funds from ACL, the ICI will continue to partner with people with disabilities and their families to conduct research, and provide training, technical assistance, and service related to education, employment, health care, and community life. We will focus on:
 
-* enhancing disability inclusion in our communities
+* enhancing disability rights in our communities
 
 * building the capacity of communities to sustain all their citizens
 
 * supporting systems change
 
-* advocating for personal choice, self-determination, and social and economic justice
+* advocating for personal choice and self-determination
 
 The ICI and the Eunice Kennedy Shriver Center at UMass Medical School are the two UCEDDs in Massachusetts. The ICI was established as a UCEDD in 1968. This year, the ICI celebrates our 55th year as a [University Center for Excellence in Developmental Disabilities](https://www.communityinclusion.org/about/) !

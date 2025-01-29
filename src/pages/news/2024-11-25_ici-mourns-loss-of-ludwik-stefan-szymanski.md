@@ -2,7 +2,7 @@
 title: "The Institute for Community Inclusion Mourns the Loss of One of ICI’s Distinguished Founders, Dr. Ludwik Stefan Szymanski"
 description: ""
 path: "/2024-11-25_ici-mourns-loss-of-ludwik-stefan-szymanski.md"
-date: 
+date: "2024-11-25"
 tags: ['Institute for Community Inclusion']
 posttype: "news"
 thumbnail: "../../images/Dr-Ludwik-Stefan-Szymanski.jpg"

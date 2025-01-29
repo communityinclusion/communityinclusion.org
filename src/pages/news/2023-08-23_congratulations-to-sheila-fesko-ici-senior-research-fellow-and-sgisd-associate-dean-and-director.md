@@ -21,7 +21,7 @@ ICI Director Cindy Thomas noted Sheila’s many accomplishments and the passion 
 
 > **“For me personally and professionally, it has been a privilege to travel this journey with Sheila. From our early days working together in the Developmental Evaluation Clinic, to our time together as she moved into her role as Associate Dean, Sheila is someone who has been focused on mission and values. Her commitment to equity and inclusion was at the core of her work. Sheila has been an impactful leader, a trusted advisor and equally important, a kind and caring friend. As she makes this transition, she leaves behind a strong legacy and an organization well positioned for the future. She will be missed.**”
 
-Dr. Fesko has also conducted impressive research over the years in areas including employment outcomes for individuals with neurodevelopmental disabilities, disclosure of HIV status in the workplace, the aging workforce, and universal strategies to support inclusion of all employees in the workplace. She has also traveled internationally, presenting on issues related to disability.
+Dr. Fesko has also conducted impressive research over the years in areas including employment outcomes for individuals with neurodevelopmental disabilities, the aging workforce, and universal strategies to support inclusion of all employees in the workplace. She has also traveled internationally, presenting on issues related to disability.
 
 Dr. Fesko’s passion and commitment to her work is admirable. Her long-time ICI colleague and friend David Hoff shared:
 

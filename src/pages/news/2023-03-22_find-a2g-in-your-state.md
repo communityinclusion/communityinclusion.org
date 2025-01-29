@@ -2,7 +2,7 @@
 title: "Find Alternatives to Guardianship in your State with CYVYC’s Interactive Map!"
 description: ""
 path: "/2023-03-22_find-a2g-in-your-state.md"
-date: "2023-03-22"
+date: "2024-12-24"
 tags: ['A2G','Guardianship Alternatives','Community Inclusion', 'CYVYC']
 posttype: "news"
 thumbnail: "../../images/project_logos/CIVIC_square_web.png"
