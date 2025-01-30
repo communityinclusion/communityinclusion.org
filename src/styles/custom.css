@@ -816,8 +816,8 @@ details a.btn.btn-primary {
 		animation: fade-in 2s ease-in 0s 1 normal both;*/
 	}
 
-
-  @media (min-width: 768px) and (max-width: 991.98px)
+ 
+ @media (max-width: 576px)  
   {
       
     .heroText p{       
@@ -826,25 +826,7 @@ details a.btn.btn-primary {
     }
   }
 
-
-  @media (max-width: 767px) and (min-width:577px){
-  
-      .heroText p {      
-        font-size:1.1em;
-         width:90%;
-       }
-     }
-
-
-
-  @media screen and (max-width: 575.98px) {
-
-    .heroText p
-    {
-       font-size:1em;
-      width:90%;
-    }
-  }
+ 
 
 	@keyframes fade-in {
 			
