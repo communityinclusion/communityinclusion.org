@@ -34,7 +34,15 @@ export function Hero() {
         }}
       >
         {/* Any content here will be centered in the component */}
-        <p className="mx-4 mt-4">The Institute for Community Inclusion (ICI) at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society. As practitioners, researchers, and teachers, we form partnerships with individuals, families, community organizations, and service agencies. Together, we advocate for personal choice and self-determination. </p>
+        <p className="mx-4 mt-4">
+     Work is a critical part of helping people with disabilities be independent. At the ICI, we believe in employment. People with disabilities who work are more likely to be economically self-sufficient than those who are unemployed.</p>
+
+
+ <p className="mx-4 mt-4">
+Postsecondary education impacts employment for people with disabilities. People with an intellectual disability who continue their education after high school are more likely to be employed, earn more money, and contribute more to the economy.
+          
+          
+       </p>
       </div>
     </div>
   )

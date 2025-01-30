@@ -27,16 +27,70 @@ const IndexPage = ({data, location }) => {
     <HomeLayout location={location} title={siteTitle}>
        
 
-     <section className="center">
-    <h2 className="border-bottom border-2 border-dark pb-3">Areas of Emphasis</h2>
-    
- <div className="row my-4 ">
- <div className="col-md-3 d-flex align-self-stretch bg-white p-1">
+<section className="center AoS">
+<h2 className="border-bottom border-2 border-dark pb-3">Areas of Success</h2> 
+<div className="row my-4 ">
+<div className="col-md-3 d-flex align-self-stretch bg-white p-1">
 <div className="card mb-2">
-    <div className="card-header bg-green">
-    <img src={employment_logo} className="d-inline-block align-middle" alt = "Employment icon" />
-    <h3 className="fs-4 text-white d-inline-block align-middle ps-2"> Employment</h3>
+<h3 className="fs-4  dark-blue text-center d-inline-block align-middle ps-2 fw-bold"> We promote self-sufficiency.</h3>
+<div className="card-body d-flex flex-column px-0 pb-0">
+      <p className="lh-copy">
+We study and publish the latest trends on employment & economic self-sufficiency for people with intellectual disabilities.
+      </p>
+
     </div>
+    </div>
+ </div>
+
+
+ <div className="col-md-3 d-flex align-self-stretch bg-white p-1">
+  <div className="card mb-2">
+  <h3 className="fs-4 dark-blue text-center d-inline-block align-middle ps-2 fw-bold"> We expand economic opportunities.</h3>
+    <div className="card-body d-flex flex-column px-0 pb-0">
+      <p>
+All people want an opportunity to do paid work. Work is one way people with disabilities contribute to their communities and to the economy.
+      </p>
+    </div>
+    </div>
+ </div>
+
+ <div className="col-md-3 d-flex align-self-stretch bg-white p-1">
+ <div className="card mb-2">
+    <h3 className="fs-4 dark-blue text-center d-inline-block align-middle ps-2 fw-bold">  We engage with businesses.</h3>
+    <div className="card-body d-flex flex-column px-0 pb-0">
+      <p>
+Research has shown that people with disabilities are an untapped, qualified resource in the labor market. Business engagement is a key component in improving employment outcomes.
+      </p>
+    </div>
+    </div>
+</div>
+
+
+ <div className="col-md-3 d-flex align-self-stretch bg-white p-1">
+  <div className="card mb-2">
+    <h3 className="fs-4 dark-blue d-inline-block align-middle ps-2 fw-bold"> We are committed to academic excellence.</h3>
+    <div className="card-body d-flex flex-column px-0 pb-0">
+    <p>Our evidence-based research helps inform public policy at the federal, state, and local levels to improve employment and education outcomes.  </p>
+    </div>
+    </div>
+  </div>
+ </div>
+ </section>
+
+
+
+
+
+
+<section className="center">
+<h2 className="border-bottom border-2 border-dark pb-3">Areas of Emphasis</h2> 
+<div className="row my-4 ">
+<div className="col-md-3 d-flex align-self-stretch bg-white p-1">
+<div className="card mb-2">
+<div className="card-header bg-green">
+<img src={employment_logo} className="d-inline-block align-middle" alt = "Employment icon" />
+<h3 className="fs-4 text-white d-inline-block align-middle ps-2"> Employment</h3>
+</div>
     <div className="card-body d-flex flex-column px-0 pb-0">
       <p className="lh-copy">
     Building a rewarding career in the community should be an expectation for all citizens. With support and planning, people with significant disabilities can thrive in the workplace.
@@ -70,7 +124,7 @@ const IndexPage = ({data, location }) => {
    </div>
     <div className="card-body d-flex flex-column px-0 pb-0">
       <p>
-   Outside of work and school, people with disabilities are involved in a wide range of activities that make up a satisfying life. Whether it’s volunteering at a music festival, getting involved with a faith community, or attending a sports event, there’s much more to life than a job.
+   Outside of work and school, people with disabilities are involved in a wide range of activities that make up a satisfying life. Whether it’s getting involved with a faith community, attending a sports event, or volunteering at a local charity, people with disabilities participate in their community.
       </p>
       <p className="mt-auto"><Link to="/areas-of-emphasis/community"> Learn More About Community Life &gt;&gt;</Link></p>
     </div>
@@ -85,7 +139,7 @@ const IndexPage = ({data, location }) => {
     <h3 className="fs-4 text-white d-inline-block align-middle ps-2">  Health Care</h3>
    </div>
     <div className="card-body d-flex flex-column px-0 pb-0">
-    <p>Accessing quality health care enables us to live productively and to receive support when facing mental, behavioral, or physical challenges. For people with disabilities, equitable health care can require additional advocacy and planning.
+    <p>Accessing quality health care enables us to live productively and to receive support when facing mental, behavioral, or physical challenges. For people with disabilities, adequate health care can require additional advocacy and planning.
       </p>
       <p className="mt-auto"><Link to="/areas-of-emphasis/healthcare"> Learn More About Health Care &gt;&gt;</Link></p>
     </div>
@@ -142,10 +196,10 @@ const IndexPage = ({data, location }) => {
           </h3>
           <div className="card shadow-sm p-1">
 				<div className="card-body">
-				<h4 className="card-title"><a href="/projects/michet">
-				Massachusetts Center for Inclusive Higher Education and Transition  </a>
+				<h4 className="card-title"><a href="/projects/thinkwork">
+				ThinkWork!  </a>
 				</h4>
-				<p>The Massachusetts Center for Inclusive Higher Education and Transition promotes the advancement of higher education and transition services for people with intellectual and developmental disabilities (IDD) and autism.</p>
+				<p>ThinkWork serves as the hub for an array of research, training, and technical assistance efforts focused on employment of people with intellectual and developmental disabilities (IDD).</p>
 				</div>
 	 </div>
   </section>
@@ -187,6 +241,12 @@ const IndexPage = ({data, location }) => {
     </div>
  
 
+<div className="row my-4 ">
+  <div className="col-md-12 bg-white p-3">
+
+   <p> <b>Our Mission:</b> The Institute for Community Inclusion (ICI) at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society. As practitioners, researchers, and teachers, we form partnerships with individuals, families, community organizations, and service agencies. Together, we advocate for personal choice and self-determination. </p>
+</div>
+</div>
   
   </HomeLayout>
   );}
