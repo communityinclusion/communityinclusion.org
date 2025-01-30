@@ -7,6 +7,8 @@ import community_logo from '../images/community-logo.png'
 import healthcare_logo from '../images/healthcare-logo.png'
 import employment_logo from '../images/employment-logo.png'
 import education_logo from '../images/education-logo.png'
+import emp_infograph from "../images/graphic1_ICI_emp.png"
+import ed_infograph from "../images/graphic2_ICI_ed.png"
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
@@ -27,8 +29,29 @@ const IndexPage = ({data, location }) => {
     <HomeLayout location={location} title={siteTitle}>
        
 
+<section className="center infograph">
+<div className="row my-4 ">
+<div className="col-md-6 d-flex flex-column justify-content-between bg-white p-4">
+<h2 className="h5 text-center">The number of people with disabilities who work in competitive jobs is growing.</h2>
+<img src={emp_infograph} className="d-inline-block img-fluid align-middle" alt = "Since 1988, Integrated Employment has increased people with disabilities hired for jobs by 325% (33,092 to 140,521)" />
+</div>
+<div className="col-md-6 d-flex flex-column justify-content-between bg-white p-4">
+<h2 className="h5 text-center">Career and technical education can improve post-school outcomes for students with disabilities.</h2>
+  <img src={ed_infograph} className="d-inline-block align-middle img-fluid " alt = "Individuals with intellectual disability who receive postsecondary ed are 2X more employable, make $406 more income, and require $77 less in SSI, per month" />
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
 <section className="center AoS">
 <h2 className="border-bottom border-2 border-dark pb-3">Areas of Success</h2> 
+<p className="fs-5 fw-bold">We offer actionable solutions that increase opportunities for people with disabilities to achieve employment in our competitive and vibrant economy. 
+</p>
 <div className="row my-4 ">
 <div className="col-md-3 d-flex align-self-stretch bg-white p-1">
 <div className="card mb-2">
@@ -84,6 +107,7 @@ Research has shown that people with disabilities are an untapped, qualified reso
 
 <section className="center">
 <h2 className="border-bottom border-2 border-dark pb-3">Areas of Emphasis</h2> 
+<p className="fs-5 fw-bold">We investigate real-world problems and challenges through our vast network of research projects, program evaluation, training, consultation, education, policy analysis, and service delivery. </p>
 <div className="row my-4 ">
 <div className="col-md-3 d-flex align-self-stretch bg-white p-1">
 <div className="card mb-2">

@@ -5,7 +5,7 @@ import * as React from "react"
 
 export function Hero() {
   return (
-    <div style={{ display: "grid" }}>
+    <div className="bg-light my-2" style={{ display: "grid" }}>
       {/* You can use a GatsbyImage component if the image is dynamic */}
       {/* <StaticImage
         className="heroImage"
@@ -38,7 +38,7 @@ export function Hero() {
      Work is a critical part of helping people with disabilities be independent. At the ICI, we believe in employment. People with disabilities who work are more likely to be economically self-sufficient than those who are unemployed.</p>
 
 
- <p className="mx-4 mt-4">
+ <p className="mx-4 ">
 Postsecondary education impacts employment for people with disabilities. People with an intellectual disability who continue their education after high school are more likely to be employed, earn more money, and contribute more to the economy.
           
           

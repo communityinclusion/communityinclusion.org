@@ -796,12 +796,13 @@ details a.btn.btn-primary {
   filter: opacity(30%) blur(3px);
   
 }
+
 .heroText p
   {
     font-family: myriad-pro-condensed, "Open Sans Condensed", sans-serif;
 		color: #565656; 
     font-weight:bold;
-     font-size:2em;
+     font-size:1.5em;
 		width:90%;
 		animation-name: fade-in;
 		animation-duration: 2s;
@@ -820,7 +821,7 @@ details a.btn.btn-primary {
   {
       
     .heroText p{       
-      font-size:1.5em;
+      font-size:1.3em;
       width:90%;
     }
   }
@@ -829,7 +830,7 @@ details a.btn.btn-primary {
   @media (max-width: 767px) and (min-width:577px){
   
       .heroText p {      
-        font-size:1.3em;
+        font-size:1.1em;
          width:90%;
        }
      }
