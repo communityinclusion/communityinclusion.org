@@ -32,11 +32,11 @@ const IndexPage = ({data, location }) => {
 <section className="center infograph">
 <div className="row my-4 ">
 <div className="col-md-6 d-flex flex-column justify-content-between bg-white p-4">
-<h2 className="h5 text-center">The number of people with disabilities who work in competitive jobs is growing.</h2>
+<h2 className="h4">The number of people with disabilities who work in competitive jobs is growing.</h2>
 <img src={emp_infograph} className="d-inline-block img-fluid align-middle" alt = "Since 1988, Integrated Employment has increased people with disabilities hired for jobs by 325% (33,092 to 140,521)" />
 </div>
 <div className="col-md-6 d-flex flex-column justify-content-between bg-white p-4">
-<h2 className="h5 text-center">Career and technical education can improve post-school outcomes for students with disabilities.</h2>
+<h2 className="h4">Career and technical education can improve post-school outcomes for students with disabilities.</h2>
   <img src={ed_infograph} className="d-inline-block align-middle img-fluid " alt = "Individuals with intellectual disability who receive postsecondary ed are 2X more employable, make $406 more income, and require $77 less in SSI, per month" />
 </div>
 
