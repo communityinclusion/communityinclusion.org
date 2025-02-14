@@ -9,7 +9,7 @@ thumbnail: '../../images/ICI.png'
 
 <div class="row">
 <div class="col-lg-9">
-<h2 class="pb-3 text-center">2025-2026 applications will be posted soon!</h2>
+<h3 class="pb-3 text-center">Plans for the 2025-2026 Crocker Fellowship are currently on hold pending further information about funding.  Updated information will be provided at the end of March.</h3>
 </div>
 
 
