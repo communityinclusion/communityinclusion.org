@@ -5,4 +5,4 @@ path: "/about/fellowships/gopen"
 posttype: "page"
 ---
 
-<h2 class="text-center"><strong>2025-2026 applications will be posted soon!</strong></h2>
+<h3 class="text-center">Plans for the 2025-2026 Gopen Fellowship are currently on hold pending further information about funding.  Updated information will be provided at the end of March.</h3>
