@@ -114,7 +114,7 @@ Research has shown that people with disabilities are an untapped, qualified reso
 <p><strong>Searching for employment has been Ms. K.'s priority.</strong> While waiting for the perfect nursing position, Ms. K. has successfully worked with local food delivery services, communicating regularly with customers, restaurant staff, and her employers using her AAC device. When asked how her AAC device has impacted her daily life, smiling, she uses her AAC device to reply, “I can order food in a drive-thru, and be funny too”. Regarding returning to her career, Ms. K. emphatically demands, “I can do everything I used to be able to do, except talk.”</p>
     </div>
     <div className="col-sm-3"><img className="img-fluid border border-2 border-primary" src={ek_photo} alt="Ms E. K. with her  Augmentative Alternative Communication (AAC) device" />
-    <p className="mt-auto"><Link to="/publications/stories/"><strong> More stories about Independence in Action &gt;&gt; </strong></Link></p></div>
+    <p className="mt-auto"><Link to="/publications/stories/"><strong> More stories about Independence in Action &gt;&gt; </strong></Link></p> </div>
   </div>
 
  </div>
