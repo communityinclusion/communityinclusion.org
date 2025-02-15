@@ -103,7 +103,7 @@ Research has shown that people with disabilities are an untapped, qualified reso
 
  <section className="center pb-3">
  <div className="bg-light card">
- <h2 className="border-bottom border-2 border-dark pb-3">Independence In Action
+ <h2 className="border-bottom border-2 border-dark pb-3"><span className="display-5 dark-blue">Independence In Action</span>
  <br /><span className="h3">Speaking with Confidence and Humor</span> </h2>
  <div className="row">
     <div className="col-sm-9">
