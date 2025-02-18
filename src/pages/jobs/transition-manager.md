@@ -1,9 +1,10 @@
 ---
-posttype: jobs
+posttype: "jobs"
+path: "/transition-manager"
 date: 2022-05-10T16:17:35Z
-title: Transition Manager
-description: Seeking a Transition Manager to work on state and federally funded projects
-  based at the University of Massachusetts in Boston.
+title: "Transition Manager"
+description: "Seeking a Transition Manager to work on state and federally funded projects
+  based at the University of Massachusetts in Boston."
 umb_post_url: https://employmentopportunities.umb.edu/boston/en-us/job/513976/transition-manager
 close_date: 2022-06-03T04:00:00Z
 

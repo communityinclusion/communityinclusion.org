@@ -67,10 +67,6 @@ const labelArr = label.split('-');
   );
 };
 
-export default JobsPage;
-
-
-
 
 // Get all markdown files, in descending order by date, and grab the id, excerpt, slug, date, and title
 export const pageQuery = graphql`query ($currentDate: Date!, $limit: Int, $skip: Int) {
@@ -101,3 +97,4 @@ export const pageQuery = graphql`query ($currentDate: Date!, $limit: Int, $skip:
   }
 }
   `;
+export default JobsPage;

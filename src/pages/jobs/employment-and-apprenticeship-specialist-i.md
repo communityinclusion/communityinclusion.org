@@ -1,8 +1,9 @@
 ---
-posttype: jobs
-title: Employment and Apprenticeship Specialist I
-description: Join our Employment Services Team providing services to assist individuals
-  with disabilities in successful employment and registered apprenticeships.
+posttype: "jobs"
+path: "/employment-and-apprenticeship-specialist-i"
+title: "Employment and Apprenticeship Specialist I"
+description: "Join our Employment Services Team providing services to assist individuals
+  with disabilities in successful employment and registered apprenticeships."
 umb_post_url: https://employmentopportunities.umb.edu/boston/en-us/job/513253/employment-apprenticeship-specialist
 close_date: 2022-04-03T04:00:00Z
 ---

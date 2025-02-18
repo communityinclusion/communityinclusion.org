@@ -1,7 +1,7 @@
 ---
 title: "October is Disability Employment Month!"
 description: ""
-path: "/2022-10-30_october-is-disability-employment-month.md"
+path: "/news/2022-10-30_october-is-disability-employment-month"
 date: "2022-10-30"
 tags: ['NDEM','Disability Employment','Employment','Community Inclusion']
 posttype: "news"

@@ -1,7 +1,7 @@
 ---
 title: "Spreading the Word about Alternatives to Guardianship"
 description: ""
-path: "2023-08-09_spreading-the-word-about-alternatives-to-guardianship.md"
+path: "/news/2023-08-09_spreading-the-word-about-alternatives-to-guardianship"
 date: "2023-08-09"
 tags: ['A2G','Alternatives Guardianship',Community Inclusion','CYVYC']
 posttype: "news"

@@ -1,10 +1,11 @@
 ---
-posttype: jobs
-title: Training Associate II
-description: 'The Training Associate II will provide field based and administrative
+posttype: "jobs"
+path: "/training-associate-ii"
+title: "Training Associate II"
+description: "The Training Associate II will provide field based and administrative
   support on a project and initiative focused on building the capacity of organizations
   providing integrated employment and community supports for individuals with disabilities
-  in Missouri.  '
+  in Missouri."
 umb_post_url: https://employmentopportunities.umb.edu/boston/en-us/job/513381/training-associate-ii
 close_date: 2022-04-15T17:34:00Z
 

@@ -1,7 +1,7 @@
 ---
 title: "Do you Provide Employment Services for People with Intellectual Disabilities?"
 description: ""
-path: "2024-12-11_do-you-provide-employment-services-for-people-with-intellectual-disabilities.md"
+path: "/news/2024-12-11_do-you-provide-employment-services-for-people-with-intellectual-disabilities"
 date: "2024-12-11"
 tags: ['Employment Services']
 posttype: "news"

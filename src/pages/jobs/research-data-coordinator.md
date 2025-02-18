@@ -1,11 +1,12 @@
 ---
-posttype: jobs
-title: Research Data Coordinator
-description: 'The Research Data Coordinator (RDC) with the Institute for Community
+posttype: "jobs"
+path: "/research-data-coordinator"
+title: "Research Data Coordinator"
+description: "The Research Data Coordinator (RDC) with the Institute for Community
   Inclusion (ICI) will implement quantitative and qualitative research and evaluation
   projects that support employment, community life engagement, and inclusive postsecondary
   education outcomes for individuals with disabilities under the supervision of senior
-  research staff.  '
+  research staff."
 umb_post_url: https://employmentopportunities.umb.edu/boston/en-us/job/513346/research-data-coordinator
 close_date: 2022-04-11T04:00:00Z
 ---

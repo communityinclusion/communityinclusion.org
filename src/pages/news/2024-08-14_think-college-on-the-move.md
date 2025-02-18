@@ -1,7 +1,7 @@
 ---
 title: "Think College on the Move!"
 description: ""
-path: "2024-08-14_think-college-on-the-move.md"
+path: "/news/2024-08-14_think-college-on-the-move"
 date: "2024-08-14"
 tags: ['Think College']
 posttype: "news"

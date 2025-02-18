@@ -1,7 +1,7 @@
 ---
 title: "ICI Staffers at the American Association on Intellectual and Developmental Disabilities (AAIDD) Conference"
 description: ""
-path: "/2023-06-21_ici-staffers-at-the-aaidd-conference"
+path: "/news/2023-06-21_ici-staffers-at-the-aaidd-conference"
 date: "2023-06-21"
 tags: ['Aaidd Conference','Community Inclusion','Aaidd2023','Integrated Employment']
 posttype: "news"

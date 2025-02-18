@@ -1,9 +1,10 @@
 ---
-posttype: jobs
+posttype: "jobs"
+path: "/program-assistant"
 date: 2022-07-13T12:07:29Z
-title: Program Assistant
-description: The Institute for Community Inclusion is seeking a Boston based Program
-  Assistant to support our human resources and finance functions!
+title: "Program Assistant"
+description: "The Institute for Community Inclusion is seeking a Boston based Program
+  Assistant to support our human resources and finance functions!"
 umb_post_url: https://employmentopportunities.umb.edu/boston/en-us/job/514696/program-assistant
 close_date: 2022-08-27T04:00:00Z
 ---

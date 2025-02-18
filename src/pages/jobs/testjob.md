@@ -1,10 +1,11 @@
 ---
-posttype: jobs
-title: Senior Technical Assistance & Policy Associate
-description: 'The Senior Technical Assistance and Policy Associate will facilitate
+posttype: "jobs"
+path: "/testjob"
+title: "Senior Technical Assistance & Policy Associate"
+description: "The Senior Technical Assistance and Policy Associate will facilitate
   and direct innovations in policy, strategy and practice that lead to improved employment
   and community life engagement outcomes for individuals with intellectual and developmental
-  disabilities (IDD).  '
+  disabilities (IDD)."
 umb_post_url: https://employmentopportunities.umb.edu/boston/en-us/job/513347/senior-technical-assistance-policy-associate
 close_date: 2022-05-25T04:00:00Z
 ---

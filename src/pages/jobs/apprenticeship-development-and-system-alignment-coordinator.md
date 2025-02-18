@@ -1,10 +1,11 @@
 ---
-posttype: jobs
+posttype: "jobs"
+path: "/apprenticeship-development-and-system-alignment-coordinator"
 date: 2022-07-19T12:25:40Z
-title: Apprenticeship Development and System Alignment Coordinator
-description: This Missouri based position will be responsible for implementation of
+title: "Apprenticeship Development and System Alignment Coordinator"
+description: "This Missouri based position will be responsible for implementation of
   the Missouri Talent Pathways (M0-TAP) Registered Apprenticeship initiative, funded
-  by the Missouri Division of Developmental Disabilities.
+  by the Missouri Division of Developmental Disabilities."
 umb_post_url: https://employmentopportunities.umb.edu/boston/en-us/job/515021/apprenticeship-development-and-system-alignment-coordinator
 close_date: 2022-08-19T04:00:00Z
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Dr. John Butterworth to Receive AUCD’s 2024 George S. Jesien Distinguished Achievement Award"
 description: ""
-path: "2024-12-04_john-butterworth-to-receive-aucds-2024-distinguished-achievement-award.md"
+path: "/news/2024-12-04_john-butterworth-to-receive-aucds-2024-distinguished-achievement-award"
 date: "2024-12-04"
 tags: ['AUCD', 'George Jesien Award', 'Community Inclusion', 'John Butterworth', 'ICI']
 posttype: "news"

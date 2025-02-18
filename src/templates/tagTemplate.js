@@ -45,7 +45,7 @@ const Tags = ({ pageContext, data }) => {
   );
 };
 
-export default Tags;
+
 
 export const pageQuery = graphql`
   query($tag: String) {
@@ -71,3 +71,5 @@ export const pageQuery = graphql`
   }
 }
 `;
+
+export default Tags;

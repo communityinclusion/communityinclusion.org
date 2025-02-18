@@ -1,7 +1,7 @@
 ---
 title: "Five ICI ThinkWork staff present at this year’s Reinventing Quality Conference in Baltimore!"
 description: ""
-path: "/2022-10-05_five-ici-think-work-staff-present-at-this-years-reinventing-quality-conference-in-baltimore"
+path: "/news/2022-10-05_five-ici-think-work-staff-present-at-this-years-reinventing-quality-conference-in-baltimore"
 date: "2022-10-05"
 tags: [ 'Reinventing Quality Conference','employment','Institute for Community Inclusion']
 posttype: "news"

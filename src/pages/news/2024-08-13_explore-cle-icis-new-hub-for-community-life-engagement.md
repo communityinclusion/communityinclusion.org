@@ -1,7 +1,7 @@
 ---
 title: "Explore CLE: ICI’s New Hub for Community Life Engagement"
 description: ""
-path: "2024-08-13_explore-cle-icis-new-hub-for-community-life-engagement.md"
+path: "/news/2024-08-13_explore-cle-icis-new-hub-for-community-life-engagement"
 date: "2024-08-13"
 tags: ['CLE']
 posttype: "news"

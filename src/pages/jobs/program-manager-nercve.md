@@ -1,9 +1,10 @@
 ---
-posttype: jobs
+posttype: "jobs"
+path: "/program-manager-nercve"
 date: 2022-12-09T18:42:49Z
-title: Program Manager, NERCVE
-description: The Northeast Resource Center for Vision Education (NERCVE) is seeking
-  a Program Manager!
+title: "Program Manager, NERCVE"
+description: "The Northeast Resource Center for Vision Education (NERCVE) is seeking
+  a Program Manager!"
 umb_post_url: https://employmentopportunities.umb.edu/boston/en-us/job/516993/program-managernercve
 close_date: 2023-01-09T05:00:00Z
 ---

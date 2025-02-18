@@ -1,7 +1,7 @@
 ---
 title: "The Institute for Community Inclusion Mourns the Loss of Valued Staff Member Debra Hart"
 description: ""
-path: "2023-12-14_ici-mourns-the-loss-of-valued-staff-member-debra-hart.md"
+path: "/news/2023-12-14_ici-mourns-the-loss-of-valued-staff-member-debra-hart"
 date: "2023-12-14"
 tags: ['Debra Hart','Community Inclusion']
 posttype: "news"

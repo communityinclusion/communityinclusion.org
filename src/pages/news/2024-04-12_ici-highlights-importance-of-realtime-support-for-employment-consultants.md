@@ -1,7 +1,7 @@
 ---
 title: "ICI Research Highlights Importance of Real-Time Support for Employment Consultants"
 description: ""
-path: "2024-04-12_ici-highlights-importance-of-realtime-support-for-employment-consultants.md"
+path: "/news/2024-04-12_ici-highlights-importance-of-realtime-support-for-employment-consultants"
 date: "2024-12-13"
 tags: ['ES Coach','Thinkwork','Community Inclusion','Research']
 posttype: "news"

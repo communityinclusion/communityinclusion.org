@@ -1,7 +1,7 @@
 ---
 title: "ICI Staff Present at Annual APSE Conference"
 description: ""
-path: "/2023-07-01_j-gibbs-ici-staff-present-at-annual-apse-conference"
+path: "/news/2023-07-01_j-gibbs-ici-staff-present-at-annual-apse-conference"
 date: "2023-07-01"
 tags: ['Apse2023','Apse','Employment First','Community Inclusion']
 posttype: "news"

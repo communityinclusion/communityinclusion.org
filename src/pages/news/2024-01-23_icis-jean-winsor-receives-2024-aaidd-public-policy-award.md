@@ -1,7 +1,7 @@
 ---
 title: "ICI’s Jean Winsor Receives 2024 AAIDD Public Policy Award"
 description: ""
-path: "2024-1-23_icis-jean-winsor-receives-2024-aaidd-public-policy-award.md"
+path: "/news/2024-1-23_icis-jean-winsor-receives-2024-aaidd-public-policy-award"
 date: "2024-01-23"
 tags: ['Aaidd','Community Inclusion','Public Policy Award','Disability']
 posttype: "news"

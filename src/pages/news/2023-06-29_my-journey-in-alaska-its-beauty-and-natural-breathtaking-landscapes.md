@@ -1,7 +1,7 @@
 ---
 title: "My Journey in Alaska: Its Beauty and Natural, Breathtaking Landscapes"
 description: ""
-path: "/2023-06-29_my-journey-in-alaska-its-beauty-and-natural-breathtaking-landscapes"
+path: "/news/2023-06-29_my-journey-in-alaska-its-beauty-and-natural-breathtaking-landscapes"
 date: "2023-06-29"
 tags: ['Profellows','Professional Fellows','Community Inclusion']
 posttype: "news"

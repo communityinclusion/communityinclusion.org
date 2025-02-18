@@ -1,7 +1,7 @@
 ---
 title: "Western Carolina University University Participant Program First Postsecondary Program for Students with Intellectual Disability to be Accredited by New Agency"
 description: "Press Release: The Institute for Community Inclusion’s (ICI) Think College Inclusive Higher Education Accreditation Council (IHEAC), a new accrediting agency for postsecondary programs for students with intellectual disability (ID), announced today that the Western Carolina University (WCU) University Participant (UP) Program is now fully accredited for the next seven years. The WCU UP program is the first program to be accredited by the council."
-path: "/2023-05-09_first-postsecondary-program-for-students-with-intellectual-disability-to-be-accredited.md"
+path: "/news/2023-05-09_first-postsecondary-program-for-students-with-intellectual-disability-to-be-accredited"
 date: "2023-05-10"
 tags: ['Think College','Institute for Community Inclusion', 'Press Release', 'IHEAC']
 posttype: "news"

@@ -1,7 +1,7 @@
 ---
 title: "ICI’s Leslie Quarles Featured on an Episode of Mentor Moments"
 description: ""
-path: "2024-08-13_icis-leslie-quarles-featured-on-an-episode-of-mentor-moments.md"
+path: "/news/2024-08-13_icis-leslie-quarles-featured-on-an-episode-of-mentor-moments"
 date: "2025-01-23"
 tags: ['Mentormoments','Community Inclusion','Employment First']
 posttype: "news"

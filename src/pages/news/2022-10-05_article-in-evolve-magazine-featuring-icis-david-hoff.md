@@ -1,7 +1,7 @@
 ---
 title: "Check Out this World at Work Article in #evolve Magazine Featuring ICI’s David Hoff!"
 description: ""
-path: "/2022-10-05_article-in-evolve-magazine-featuring-icis-david-hoff"
+path: "/news/2022-10-05_article-in-evolve-magazine-featuring-icis-david-hoff"
 date: "2022-10-05"
 tags: ['evolve magazine','stigma','employment','David Hoff','ADA','americans with disabilities act','Institute for Community Inclusion']
 posttype: "news"

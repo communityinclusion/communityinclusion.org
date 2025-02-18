@@ -38,7 +38,7 @@ return (
 
 
 
-export default pageTemplate;
+
 
 
 export const Head = ({ data }) => (
@@ -69,3 +69,5 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export default pageTemplate;

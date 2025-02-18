@@ -1,7 +1,7 @@
 ---
 title: "The Center on Youth Voice, Youth Choice Expands its National Community of Practice of State Teams Advancing Alternatives to Guardianship"
 description: ""
-path: "/2023-05-12_cyvyc-expands-its-national-community-of-practice-of-state-teams-advancing-alternatives-to-guardianship.md"
+path: "/news/2023-05-12_cyvyc-expands-its-national-community-of-practice-of-state-teams-advancing-alternatives-to-guardianship"
 date: "2023-05-12"
 tags: ['CYVYC','Institute for Community Inclusion', 'Press Release', 'A2G']
 posttype: "news"

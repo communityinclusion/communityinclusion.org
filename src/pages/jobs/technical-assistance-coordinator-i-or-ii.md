@@ -1,11 +1,12 @@
 ---
-posttype: jobs
+posttype: "jobs"
+path: "/technical-assistance-coordinator-i-or-ii"
 date: 2022-06-21T19:25:59Z
-title: Technical Assistance Coordinator I or II
-description: Come work with an interdisciplinary team on the development of products
+title: "Technical Assistance Coordinator I or II"
+description: "Come work with an interdisciplinary team on the development of products
   which will be disseminated nationally addressing the issues related to the inclusion
   of people with intellectual disability in postsecondary education. The positions
-  in this series may be held remotely, but regular nation-wide travel will be required.
+  in this series may be held remotely, but regular nation-wide travel will be required."
 umb_post_url: https://employmentopportunities.umb.edu/boston/en-us/job/514215/technical-assistance-coordinator-i-or-ii
 close_date: 2022-07-09T21:00:00Z
 ---

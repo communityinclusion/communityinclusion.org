@@ -1,7 +1,7 @@
 ---
 title: "Long Time LEND Director David Helm Retires"
 description: ""
-path: "/2022-12-18_long-time-lend-director-david-helm-retires.md"
+path: "/news/2022-12-18_long-time-lend-director-david-helm-retires"
 date: "2022-12-18"
 tags: ['David Helm','Lend','Boston Childrens Hospital','Community Inclusion']
 posttype: "news"

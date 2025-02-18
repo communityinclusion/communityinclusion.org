@@ -6,6 +6,15 @@ import Seo from "../components/seo"
 import PostTags from "../components/PostTags";
 
 const postTemplate = ({ pageContext,data, location }) => {
+    console.log("Page Context:", pageContext);
+  console.log("Data:", data);
+
+  if (!data) {
+    return <p>Loading...</p>; // Handle case where data is undefined
+  }
+  if (!data.markdownRemark) {
+    return <p>No data found</p>; // Handle case where markdownRemark is undefined
+  }
   const {
     breadcrumb: { crumbs },
   } = pageContext
@@ -50,7 +59,7 @@ return (
 
 
 
-export default postTemplate;
+
 
 export const Head = ({ data }) => (
      <Seo title={data.markdownRemark.frontmatter.title} description={data.markdownRemark.frontmatter.description || data.markdownRemark.frontmatter.excerpt}>
@@ -74,3 +83,5 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export default postTemplate;

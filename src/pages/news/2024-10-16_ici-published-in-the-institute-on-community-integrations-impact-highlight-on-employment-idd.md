@@ -1,7 +1,7 @@
 ---
 title: "ICI Staff Published Articles in the Institute on Community Integration’s Impact Highlight on Employment & IDD"
 description: ""
-path: "2024-10-16_ici-published-in-the-institute-on-community-integrations-impact-highlight-on-employment-idd.md"
+path: "/news/2024-10-16_ici-published-in-the-institute-on-community-integrations-impact-highlight-on-employment-idd"
 date: "2025-01-25"
 tags: ['Employment and IDD']
 posttype: "news"

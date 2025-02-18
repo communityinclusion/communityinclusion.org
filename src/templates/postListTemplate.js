@@ -88,7 +88,7 @@ const crumbLabelArr = customCrumbLabel.split('/');
   );
 };
 
-export default NewsPage;
+
 
  
 // Get all markdown files, in descending order by date, and grab the id, excerpt, slug, date, and title
@@ -123,3 +123,5 @@ export const pageQuery = graphql`query GetNewsPosts($limit: Int, $skip: Int) {
   }
 }
 `;
+
+export default NewsPage;

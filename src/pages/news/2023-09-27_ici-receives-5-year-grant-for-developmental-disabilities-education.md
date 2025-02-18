@@ -1,7 +1,7 @@
 ---
 title: "ICI Receives 5-Year Grant for Developmental Disabilities Education, Research, and Service"
 description: ""
-path: "2023-09-27_ici-receives-5-year-grant-for-developmental-disabilities-education.md"
+path: "/news/2023-09-27_ici-receives-5-year-grant-for-developmental-disabilities-education"
 date: "2023-09-27"
 tags: ['Community Inclusion','Acl Gov',Boston Childrens Hospital']
 posttype: "news"

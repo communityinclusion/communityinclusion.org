@@ -54,8 +54,6 @@ const jobsTemplate = ({ pageContext, data, location  }) => {
     </Layout>
   );
 };
-
-export default jobsTemplate;
  
 
 export const pageQuery = graphql`
@@ -74,3 +72,5 @@ export const pageQuery = graphql`
    }
   }
 `;
+
+export default jobsTemplate;

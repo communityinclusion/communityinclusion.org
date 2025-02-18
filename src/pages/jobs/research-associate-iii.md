@@ -1,10 +1,11 @@
 ---
-posttype: jobs
+posttype: "jobs"
+path: "/research-associate-iii"
 date: 2022-07-22T12:34:42Z
-title: Research Associate III
-description: 'The Research Associate III (Senior Research Associate) initiates, develops,
+title: "Research Associate III"
+description: "The Research Associate III (Senior Research Associate) initiates, develops,
   participates in the work of, and managing an evaluation project (National Coordinating
-  Center) at the Institute for Community Inclusion (ICI). '
+  Center) at the Institute for Community Inclusion (ICI)."
 umb_post_url: https://employmentopportunities.umb.edu/boston/en-us/job/515018/research-associate-iii
 close_date: 2022-08-05T04:00:00Z
 ---

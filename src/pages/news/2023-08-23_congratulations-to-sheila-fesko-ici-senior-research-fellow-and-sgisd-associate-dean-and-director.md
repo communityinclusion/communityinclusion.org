@@ -1,7 +1,7 @@
 ---
 title: "Congratulations to Sheila Fesko, ICI Senior Research Fellow and SGISD Associate Dean and Director!"
 description: ""
-path: "2023-08-23_congratulations-to-sheila-fesko-ici-senior-research-fellow-and-sgisd-associate-dean-and-director.md"
+path: "/news/2023-08-23_congratulations-to-sheila-fesko-ici-senior-research-fellow-and-sgisd-associate-dean-and-director"
 date: "2023-08-23"
 tags: ['Sheila Fesko','Retirement','Community Inclusion']
 posttype: "news"

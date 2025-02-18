@@ -1,7 +1,7 @@
 ---
 title: "SELN Co-Hosts Webinar with National Center on Advancing Person-Centered Practices and Systems for Disability Employment Awareness Month"
 description: ""
-path: "/2022-10-05_seln-co-hosts-webinar-with-national-center"
+path: "/news/2022-10-05_seln-co-hosts-webinar-with-national-center"
 date: "2022-10-05"
 tags: ['state employment leadership network','SELN','Institute for Community Inclusion']
 posttype: "news"

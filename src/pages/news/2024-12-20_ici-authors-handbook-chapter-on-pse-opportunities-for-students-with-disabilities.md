@@ -1,7 +1,7 @@
 ---
 title: "ICI Staffers Author Handbook Chapter on Postsecondary Education Opportunities for Students with Disabilities"
 description: ""
-path: "2024-12-20_ici-authors-handbook-chapter-on-pse-opportunities-for-students-with-disabilities.md"
+path: "/news/2024-12-20_ici-authors-handbook-chapter-on-pse-opportunities-for-students-with-disabilities"
 date: "2024-12-20"
 tags: ['Think College', 'Community Inclusion']
 posttype: "news"
