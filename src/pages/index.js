@@ -101,27 +101,6 @@ Research has shown that people with disabilities are an untapped, qualified reso
  </div>
  </section>
 
- <section className="center pb-3">
- <div className="bg-light card">
- <h2 className="border-bottom border-2 border-dark pb-3"><span className="display-5 dark-blue">Independence In Action</span>
- <br /><span className="h3">Speaking with Confidence and Humor</span> </h2>
- <div className="row">
-    <div className="col-sm-9">
-    <p>After undergoing a total laryngectomy that left her with no voice, E.K., a 71-year-old ICU nurse, was referred for an Augmentative Alternative Communication (AAC) evaluation by the Division of Vocational Rehabilitation.</p>
-
-<p>Ms. K. found that the Wego 7A by TalkToMe Technologies supported her communication in several different ways. Through training, Ms. K. learned to use the pre-set word buttons to build novel responses in a conversation, ask and answer questions, and support her social interactions.</p>
-
-<p><strong>Searching for employment has been Ms. K.'s priority.</strong> While waiting for the perfect nursing position, Ms. K. has successfully worked with local food delivery services, communicating regularly with customers, restaurant staff, and her employers using her AAC device. When asked how her AAC device has impacted her daily life, smiling, she uses her AAC device to reply, “I can order food in a drive-thru, and be funny too”. Regarding returning to her career, Ms. K. emphatically demands, “I can do everything I used to be able to do, except talk.”</p>
-    </div>
-    <div className="col-sm-3"><img className="img-fluid border border-2 border-primary" src={ek_photo} alt="Ms E. K. with her  Augmentative Alternative Communication (AAC) device" />
-    <p className="mt-auto"><Link to="/publications/stories/"><strong> More stories about Independence in Action &gt;&gt; </strong></Link></p> </div>
-  </div>
-
- </div>
-  </section>
-
-
-
 
 <section className="center">
 <h2 className="border-bottom border-2 border-dark pb-3">Areas of Emphasis</h2> 
