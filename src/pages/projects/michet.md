@@ -1,6 +1,6 @@
 ---
 title: "Massachusetts Center for Inclusive Higher Education and Transition "
-path: "/projects/mcihet"
+path: "/projects/michet"
 posttype: "page"
 date: 2024-12-06
 thumbnail: "../../images/MCT_logo.png"
