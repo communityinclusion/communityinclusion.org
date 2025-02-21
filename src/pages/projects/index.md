@@ -344,7 +344,7 @@ Employment First Missouri</a>
 				</div>
 				<div class="col-md-9">
 				<div class="card-body">
-				<h2 class="card-title"><a href="/projects/michet">
+				<h2 class="card-title"><a href="/projects/macihet">
 				Massachusetts Center for Inclusive Higher Education and Transition  </a>
 				</h2>
 				<p>The Massachusetts Center for Inclusive Higher Education and Transition promotes the advancement of higher education and transition services for people with intellectual and developmental disabilities (IDD) and autism.</p>
