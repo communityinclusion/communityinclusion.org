@@ -119,11 +119,11 @@ thumbnail: "../../images/ICI.png"
   </div>
 </div>
   <div class="card">
-    <a href="https://urls.communityinclusion.org/its-employment">
+    <a href="https://www.explorevr.org/its-employment-training-state-learning-collaborative">
     <img src="its_employment.png" class="card-img-top" style="max-width: 600px;" alt="its employment"></a>
     <div class="card-body">
       <p class="card-text"><strong>ITS Employment</strong> This free training is for VR professionals to improve employment outcomes for job seekers with intellectual disabilities. Learners can complete self-paced, 2-hour course modules for Certified Rehabilitation Counselor (CRC) credit. We offer a new training topic each month with a corresponding facilitator guide to support group learning and discussions.</p>
-      <a  href="https://urls.communityinclusion.org/its-employment">
+      <a  href="https://www.explorevr.org/its-employment-training-state-learning-collaborative">
         Sign up for ITS Employment</a>
       </a>
     </div>
