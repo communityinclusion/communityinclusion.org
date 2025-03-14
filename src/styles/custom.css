@@ -150,14 +150,30 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Make footer sticky */
+html,
+body {
+  height: 100%;
+}
+
+.main-content {
+  flex: 1 0 auto;
+}
+
+
+
+
 article,
 aside,
-footer,
 header,
 nav,
+footer,
 section {
   display: block;
 }
+
+
+
 figure {
   padding: 0;
   margin: 0;
@@ -173,7 +189,7 @@ h6 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2rem;
   margin: 0.67em 0;
 }
 
@@ -207,8 +223,12 @@ a:visited {
   width: 15%;
 }
 
-/** Footer **/
 
+
+
+
+/** Footer **/
+ 
 footer a:link {
   color: #fff;
 }

@@ -9,7 +9,6 @@ import employment_logo from '../images/employment-logo.png'
 import education_logo from '../images/education-logo.png'
 import emp_infograph from "../images/graphic1_ICI_emp.png"
 import ed_infograph from "../images/graphic2_ICI_ed.png"
-import ek_photo from "../images/stories/CO-Demonstration-2021_crop.jpg"
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';

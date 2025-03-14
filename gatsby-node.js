@@ -274,7 +274,7 @@ posts.forEach(({ node }) => {
   }
 
   const newsPosts = newsResult.data.allMarkdownRemark.edges;
-  const newsPostsPerPage = 20;
+  const newsPostsPerPage = 10;
   const numNewsPostPage = Math.ceil(newsPosts.length / newsPostsPerPage);
 
   Array.from({ length: numNewsPostPage }).forEach((_, i) => {

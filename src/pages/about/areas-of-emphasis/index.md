@@ -1,6 +1,6 @@
 ---
 title: "Areas of Emphasis"
-path: "/areas-of-emphasis"
+path: "/about/areas-of-emphasis/"
 date: 2019-04-01
 posttype: "page"
 thumbnail: '../../images/ICI.png'

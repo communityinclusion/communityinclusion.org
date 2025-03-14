@@ -1,27 +1,23 @@
 import * as React from "react";
-import { graphql } from 'gatsby';
+import { graphql } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
-import Layout from '../components/layout'
-import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
-import Seo from '../components/seo';
+import Layout from "../components/layout";
+import { Breadcrumb } from "gatsby-plugin-breadcrumb";
+import Seo from "../components/seo";
 
-const staffTemplate = ({ data, pageContext,location  }) => {
+const staffTemplate = ({ data, pageContext, location }) => {
   const {
     breadcrumb: { crumbs },
   } = pageContext;
-  console.log(crumbs);
+console.log(crumbs);
 
   // Safely extract the staff data
   const staffData = data.airtable?.data || {};
 
-
-
   return (
     <Layout location={location}>
-         <Seo
-      title={staffData.Name}
-    />
-        <div className="breadcrumbs">
+      <Seo title={staffData.Name} />
+     <div className="breadcrumbs">
     <Breadcrumb
            crumbs={crumbs}
            crumbSeparator=" / "
@@ -29,85 +25,81 @@ const staffTemplate = ({ data, pageContext,location  }) => {
           />
           </div>
       <div>
-        {staffData.staff_photo
-        && (
+        {staffData.staff_photo?.localFiles?.[0]?.childImageSharp?.gatsbyImageData && (
           <div className="staffphoto">
-        <GatsbyImage
-          image={staffData.staff_photo.localFiles[0].childImageSharp.gatsbyImageData}
-          alt={`Photo of ${staffData.Name}`} />
-</div>
-)
-}
+            <GatsbyImage
+              image={staffData.staff_photo.localFiles[0].childImageSharp.gatsbyImageData}
+              alt={staffData.alt_text || `Photo of ${staffData.Name || "staff member"}`}
+            />
+          </div>
+        )}
 
-<div className="staff_profile">
-      <h1>{staffData.Name}</h1>
-      <h2 className=" fs-6 black-70 fw-light text-uppercase">{staffData.staff_title}</h2>
-        
-           <div className="staff_ed" dangerouslySetInnerHTML={{
-            __html: staffData.staff_ed?.childMarkdownRemark?.html || 'No content available',
-          }}
-        />
-     <div dangerouslySetInnerHTML={{
-            __html: staffData.staff_bio?.childMarkdownRemark?.html || 'No content available',
-          }}
-        />
+        <div className="staff_profile">
+          <h1>{staffData.Name}</h1>
+          <h2 className="fs-6 black-70 fw-light text-uppercase">{staffData.staff_title}</h2>
 
-      <ul className="clearfix">
-      {staffData.staff_email
-        && (
-        <li><b>Email:</b> <a href={`mailto:${staffData.staff_email}`}>{staffData.staff_email}</a> </li>
-        )
-      }
-        {staffData.staff_phone
-        && (
-          <li><b>Phone:</b> {staffData.staff_phone}</li>
-          )
-        }
+          <div
+            className="staff_ed"
+            dangerouslySetInnerHTML={{
+              __html: staffData.staff_ed?.childMarkdownRemark?.html || "No education details available",
+            }}
+          />
+          <div
+            dangerouslySetInnerHTML={{
+              __html: staffData.staff_bio?.childMarkdownRemark?.html || "No biography available",
+            }}
+          />
 
-  {/*  {staffData.staff_link
-        && (
-          <li><b>Link:</b> <a href={staffData.staff_link}>{staffData.staff_link}</a></li>
-          )
-        } */}
+          <ul className="clearfix">
+            {staffData.staff_email && (
+              <li>
+                <b>Email:</b>{" "}
+                <a href={`mailto:${staffData.staff_email}`}>{staffData.staff_email}</a>
+              </li>
+            )}
+            {staffData.staff_phone && (
+              <li>
+                <b>Phone:</b> {staffData.staff_phone}</li>
+            )}
           </ul>
-      </div>
+        </div>
       </div>
     </Layout>
   );
-}
-
+};
 
 export const pageQuery = graphql`
-query ($id: String!) {
-  airtable(id: { eq: $id }) {
-    data {
-      Name
-      staff_fname
-      staff_lname
-      staff_title
-      staff_bio {
-        childMarkdownRemark {
-          html
-        }
-      }
-      staff_ed {
-        childMarkdownRemark {
-          html
-        }
-      }
-      staff_email
-      staff_phone
-      staff_photo {
-        localFiles {
-          childImageSharp {
-            gatsbyImageData(layout: FULL_WIDTH)
+  query ($id: String!) {
+    airtable(id: { eq: $id }) {
+      data {
+        Name
+        staff_fname
+        staff_lname
+        staff_title
+        staff_bio {
+          childMarkdownRemark {
+            html
           }
         }
+        staff_ed {
+          childMarkdownRemark {
+            html
+          }
+        }
+        staff_email
+        staff_phone
+        staff_photo {
+          localFiles {
+            childImageSharp {
+              gatsbyImageData(layout: FULL_WIDTH)
+            }
+          }
+        }
+        alt_text
       }
+      id
     }
-    id
   }
-}
 `;
 
-export default staffTemplate
+export default staffTemplate;
