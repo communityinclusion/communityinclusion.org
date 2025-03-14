@@ -74,6 +74,7 @@ Staff listing and contact details<!-- end -->
 | Ashley     | Luce              | (617) 297-6797 | <Ashley.Luce@umb.edu>                      | [View Profile](/about/staff-directory/ashley-luce)                |
 | Oliver     | Lyons             | (617) 287-4376 | <Oliver.Lyons@umb.edu>                     | [View Profile](/about/staff-directory/oliver-lyons)               |
 | Iris        | Martinez           | (617) 287-7265 | <Iris.Martinez@umb.edu>                 | [View Profile](/about/staff-directory/iris-martinez)                |
+| Matthew  | McClellan          |  | <matthew.mcclellan001@umb.edu>                  | [View Profile](/about/staff-directory/matthew-mcclellan)               |
 | Robert     | McCulley          | (617) 287-7623 | <Robert.McCulley@umb.edu>                  | [View Profile](/about/staff-directory/bob-mcculley)               |
 |Janice|  McDonald  |(617) 287-7645 |   <Janice.McDonald@umb.edu>   | [View Profile](/about/staff-directory/janice-mcdonald)                  |
 | Pam        | McFarland         | (781) 241-7798 | <Pamela.McFarland@umb.edu>                 | [View Profile](/about/staff-directory/pam-mcfarland)              |
