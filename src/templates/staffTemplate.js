@@ -38,29 +38,31 @@ console.log(crumbs);
           <h1>{staffData.Name}</h1>
           <h2 className="fs-6 black-70 fw-light text-uppercase">{staffData.staff_title}</h2>
 
-          <div
-            className="staff_ed"
-            dangerouslySetInnerHTML={{
-              __html: staffData.staff_ed?.childMarkdownRemark?.html || "No education details available",
-            }}
-          />
-          <div
-            dangerouslySetInnerHTML={{
-              __html: staffData.staff_bio?.childMarkdownRemark?.html || "No biography available",
-            }}
-          />
+		 {staffData.staff_ed?.childMarkdownRemark?.html && (
+		   <div 
+		     className="staff_ed" 
+		     dangerouslySetInnerHTML={{ __html: staffData.staff_ed.childMarkdownRemark.html }}
+		   />
+		 )}
 
-          <ul className="clearfix">
-            {staffData.staff_email && (
-              <li>
-                <b>Email:</b>{" "}
-                <a href={`mailto:${staffData.staff_email}`}>{staffData.staff_email}</a>
-              </li>
-            )}
-            {staffData.staff_phone && (
-              <li>
-                <b>Phone:</b> {staffData.staff_phone}</li>
-            )}
+		 {staffData.staff_bio?.childMarkdownRemark?.html && (
+		   <div 
+		     dangerouslySetInnerHTML={{ __html: staffData.staff_bio.childMarkdownRemark.html }}
+		   />
+		 )}
+
+		 <ul className="clearfix">
+		   {staffData.staff_email && (
+		     <li>
+		       <b>Email:</b> <a href={`mailto:${staffData.staff_email}`}>{staffData.staff_email}</a>
+		     </li>
+		   )}
+
+		   {staffData.staff_phone && (
+		     <li>
+		       <b>Phone:</b> {staffData.staff_phone}
+		     </li>
+		   )}     
           </ul>
         </div>
       </div>

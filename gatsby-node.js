@@ -36,12 +36,16 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 
   // Handle Airtable nodes (Staff Profiles)
-  if (node.internal.type === `Airtable` && node.table === `Staff`) {
-    if (node.data?.Name) {
-      try {
-        const slug = `about/staff-directory/${node.data.Name.replace(/ /g, "-")
-          .replace(/[,&]/g, "")
-          .toLowerCase()}/`;
+if (node.internal.type === `Airtable` && node.table === `Staff`) {
+  if (node.data?.Name) {
+    try {
+      const slug = `about/staff-directory/${node.data.Name
+        .toLowerCase()
+        .replace(/\s+/g, "-") // Replace spaces with hyphens
+        .replace(/[,&]/g, "") // Remove commas & ampersands
+        .replace(/'/g, "") // Remove apostrophes
+        .replace(/-+/g, "-") // Remove double hyphens
+      }/`;
 
         console.log(`Generated slug for Staff: ${slug}`);
 
