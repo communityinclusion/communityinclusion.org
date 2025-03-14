@@ -1,7 +1,7 @@
 ---
 title: "Health Care"
 date: 2018-12-29
-path: "/areas-of-emphasis/healthcare"
+path: "/about/areas-of-emphasis/healthcare"
 posttype: "page"
 thumbnail: '../../images/ICI.png'
 ---

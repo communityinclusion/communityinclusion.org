@@ -1,7 +1,7 @@
 ---
 title: "Employment"
 date: 2018-12-29
-path: "/areas-of-emphasis/employment"
+path: "/about/areas-of-emphasis/employment"
 posttype: "page"
 thumbnail: '../../images/ICI.png'
 ---

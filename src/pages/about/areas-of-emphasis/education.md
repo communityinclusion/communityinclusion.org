@@ -1,7 +1,7 @@
 ---
 title: "Education"
 date: 2018-12-29
-path: "/areas-of-emphasis/education"
+path: "/about/areas-of-emphasis/education"
 posttype: "page"
 thumbnail: '../../images/ICI.png'
 ---
