@@ -39,14 +39,10 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 if (node.internal.type === `Airtable` && node.table === `Staff`) {
   if (node.data?.Name) {
     try {
-      const slug = `about/staff-directory/${node.data.Name
-        .toLowerCase()
-        .replace(/\s+/g, "-") // Replace spaces with hyphens
-        .replace(/[,&]/g, "") // Remove commas & ampersands
-        .replace(/'/g, "") // Remove apostrophes
-        .replace(/-+/g, "-") // Remove double hyphens
-      }/`;
-
+      const slug = `/about/staff-directory/${node.data.Name.replace(/ /g, "-")
+    .replace(/[,&]/g, "")
+    .toLowerCase()}/`;
+    
         console.log(`Generated slug for Staff: ${slug}`);
 
         createNodeField({ node, name: `slug`, value: slug });
@@ -176,9 +172,10 @@ posts.forEach(({ node }) => {
     return;
   }
 
-  // Generate slug from first and last name
-  const staffSlug = `/about/staff-directory/${_.kebabCase(`${node.data.staff_fname}-${node.data.staff_lname}`)}`;
-  console.log("✅ Creating staff profile page with slug:", staffSlug);
+
+const staffSlug = `/about/staff-directory/${node.data.Name.replace(/ /g, "-")
+    .replace(/[,&]/g, "")
+    .toLowerCase()}/`;
 
   createPage({
     path: staffSlug,
