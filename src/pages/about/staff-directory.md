@@ -36,7 +36,7 @@ Staff listing and contact details<!-- end -->
 | Erin        | Dennis          |                | <erin.dennis@umb.edu>                    | [View Profile](/about/staff-directory/erin-dennis)              |
 | Mary       | Di Biase          | (617) 571-6198 | <Mary.DiBiase@umb.edu>                     | [View Profile](/about/staff-directory/mary-di-biase)              |
 | Daria      | Domin             | (617) 287-4277 | <Daria.Domin@umb.edu>                      | [View Profile](/about/staff-directory/daria-domin)                |
-| Jill       | Eastman           | (617) 287-4325 | <Jill.Eastman@umb.edu>                     | [View Profile](/about/staff-directory/jill-eastman)               |
+| Jill       | Eastman           | (617) 922-2123 | <Jill.Eastman@umb.edu>                     | [View Profile](/about/staff-directory/jill-eastman)               |
 | Lara       | Enein    |                | <Lara.Enein@umb.edu>                | [View Profile](/about/staff-directory/lara-enein)         |
 | Heather  | Engholm  | |  <heather.engholm@childrens.harvard.edu>    | [View Profile](/about/staff-directory/heather-engholm)                 |
 | Rachel   | Estremera  | |  <rachel.estremera@umb.edu>    | [View Profile](/about/staff-directory/rachel-estremera)                 |
