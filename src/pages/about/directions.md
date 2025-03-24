@@ -1,6 +1,6 @@
 ---
 title: "Directions"
-path: "/directions"
+path: "/about/directions"
 posttype: "page"
 date: 2018-12-29
 thumbnail: '../../images/ICI.png'
