@@ -65,7 +65,7 @@ The ICI also has publications and resources about employment and disability. Her
 
 2\. **Supporting Self-determination, Informed Choice, and Dignity of Risk:** Self-determination, informed choice, and dignity of risk are integral components of effective and authentic person-centered employment planning with your job seekers with intellectual disabilities. This module will include strategies and resources on how to support the development and inclusion of these components in case management. [Register for _Supporting Self-determination, Informed Choice, and Dignity of Risk_](https://elearning.communityinclusion.org/courses/its-employment-training-series-october-2022--september-2023)
 
-The **State Employment Leadership Network (SELN)** has been supporting state systems to offer new community-based employment options for over 15 years! Each year, the SELN publishes an accomplishments report. This year, SELN’s report covers 2020–2022. Download the full report, [_Initiatives and Activities to Improve Integrated Employment Outcomes_](https://static.prod01.ue1.p.pcomm.net/umass/content/AR%202020-2022/AR_2020-2022mainreport.pdf).
+The **State Employment Leadership Network (SELN)** has been supporting state systems to offer new community-based employment options for over 15 years! Each year, the SELN publishes an accomplishments report. This year, SELN’s report covers 2020–2022. Download the full report, [_Initiatives and Activities to Improve Integrated Employment Outcomes_](https://static.prod01.ue1.p.pcomm.net/umass/content/AR%202020-2022/AR_2022_F_R.pdf).
 
 **Additional Resources:**
 

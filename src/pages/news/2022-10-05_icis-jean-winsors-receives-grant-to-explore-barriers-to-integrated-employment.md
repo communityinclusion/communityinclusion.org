@@ -12,7 +12,7 @@ Congratulations to Dr. Jean Winsor, senior research associate at the Institute f
 
 Which state IDD agency service contracting methods and service payment rates are most likely to lead to people with IDD working in the community? Dr. Winsor’s project will build on the State Employment Leadership Network’s (SELN) work with state IDD agencies to learn more about how financial policies and procedures can expand employment services for people with IDD. Jean plans to test the relationship between IDD agency contracting methods, service payment rates, participation in employment services, and employment outcomes. Through this work, Jean will develop contracting and payment guideposts for state IDD agencies to use to increase employment for people with IDD.
 
-The NIDILRR Field Initiated Research program aims to address the needs, experiences, or outcomes of people with disabilities from underserved communities, including individuals who are impacted by persistent poverty and inequality. Individuals with IDD are significantly more likely to live in poverty and less likely to be employed compared to people without a disability[\[1\]](https://communityinclusion.medium.com/seln-celebrates-17-years-a2f4d2fbe1c2#_ftn1).This project will develop knowledge for state IDD agencies, Medicaid authorities, and individuals with IDD and their families that will ultimately lead to more people with IDD earning living wages in competitive, integrated jobs.
+The NIDILRR Field Initiated Research program aims to address the needs, experiences, or outcomes of people with disabilities from underserved communities, including individuals who are impacted by persistent poverty and inequality. Individuals with IDD are significantly more likely to live in poverty and less likely to be employed compared to people without a disability. This project will develop knowledge for state IDD agencies, Medicaid authorities, and individuals with IDD and their families that will ultimately lead to more people with IDD earning living wages in competitive, integrated jobs.
 
 Jean Winsor’s research at the ICI focuses on state integrated employment systems and providing technical assistance to employment system stakeholders. She has been working as a researcher at the ICI for over 20 years.
 
@@ -22,4 +22,3 @@ Congratulations, Jean!
 
 Jean Winsor
 
-[\[1\]](https://communityinclusion.medium.com/seln-celebrates-17-years-a2f4d2fbe1c2#_ftnref1) (Winsor, et al, 2022).

@@ -696,7 +696,7 @@ thumbnail: '../../images/ICI.png'
 <dt><strong>self-contained classroom</strong></dt>
 <dd>A classroom where all the students have disabilities.</dd>
 <dt><strong>self-determination&nbsp;</strong></dt>
-<dd>The ability of individuals to control their lives, achieve self-defined goals, and participate fully in society (from the <a href="http://www.self-determination.com/">Center for Self-Determination</a>).</dd>
+<dd>The ability of individuals to control their lives, achieve self-defined goals, and participate fully in society (from the <a href="https://www.self-determination.com/">Center for Self-Determination</a>).</dd>
 <dt><strong>sensory integration&nbsp;</strong></dt>
 <dd>A technique to assist people with sensory processing disabilities, such as some individuals on the autism spectrum. Includes techniques such as pressure-touch that help the person from overreacting to certain stimuli.</dd>
 <dt><strong>serious and persistent mental illness (SPMI)&nbsp;</strong></dt>

@@ -10,8 +10,8 @@ thumbnail: "../../images/ICI.png"
 <div class="p-2 mb-2 bg-light rounded-3 col-md-9 row">
   <div class="col-md-2">
   <a href="/projects/maicei">
-    <img src="/images/maicie/MAIPSE_V2.png"  alt="MAIPSE LOGO">
-    <img src="/images/maicie/UMB_blue.png"  alt="UMASS BOSTON">
+    <img src="../../images/maicie/MAIPSE_V2.png"  alt="MAIPSE LOGO">
+    <img src="../../images/maicie/UMB_blue.png"  alt="UMASS BOSTON">
     </a>
   </div>
   <div class="col-md-10 container-fluid py-2">
@@ -203,7 +203,7 @@ thumbnail: "../../images/ICI.png"
            </a></span>
       </div>
       </div>
-      <div class="card" >
+    <!--  <div class="card" >
         <div class="card-header text-uppercase">
           Helpful Introduction
         </div>
@@ -211,7 +211,7 @@ thumbnail: "../../images/ICI.png"
           <span class="lead">
         <a href="https://communityinclusion.medium.com/learn-about-the-massachusetts-inclusive-concurrent-enrollment-initiative-program-at-umass-boston-9bfd1e0c93b8">Learn about the Massachusetts Inclusive Concurrent Enrollment Initiative Program at UMass Boston!</a></span>
       </div>
-    </div>
+    </div> --->
     </div>
     <!--<div class="col-md">
 <div class="card" style="max-width: 450px; min-height: 200px;">
