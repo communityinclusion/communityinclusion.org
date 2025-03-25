@@ -79,8 +79,8 @@ The **State Employment Leadership Network (SELN)** has been supporting state sys
 
 **Other Resources:**
 
-· **The Disability Economic Justice Collaborative** report from April 2022, [_Economic Justice Is Disability Justice_](https://tcf.org/content/report/economic-justice-disability-justice/) addresses barriers to employment and other forms of economic marginalization, particularly for disabled people of color
+-   **The Disability Economic Justice Collaborative** report from April 2022, [_Economic Justice Is Disability Justice_](https://tcf.org/content/report/economic-justice-disability-justice/) addresses barriers to employment and other forms of economic marginalization, particularly for disabled people of color
 
-· **The Center for American Progress: Systemic Inequality in the Workforce:** [Systematic Inequality and Economic Opportunity](https://www.americanprogress.org/issues/race/reports/2019/08/07/472910/systematic-inequality-economic-opportunity/) is about how to address employment inequities on a systems-level
+-   **The Center for American Progress: Systemic Inequality in the Workforce:** [Systematic Inequality and Economic Opportunity](https://www.americanprogress.org/issues/race/reports/2019/08/07/472910/systematic-inequality-economic-opportunity/) is about how to address employment inequities on a systems-level
 
-· **Kaiser Family Foundation** report**,** [_Will Long COVID Exacerbate Existing Disparities in Health and Employment?_](https://www.kff.org/policy-watch/will-long-covid-exacerbate-existing-disparities-in-health-and-employment/) addresses racial and gender disparities in Long COVID and how Long COVID inequitably impacts employment outcomes for multiply marginalized groups
+-   **Kaiser Family Foundation report**, [_Will Long COVID Exacerbate Existing Disparities in Health and Employment?_](https://www.kff.org/policy-watch/will-long-covid-exacerbate-existing-disparities-in-health-and-employment/) addresses racial and gender disparities in Long COVID and how Long COVID inequitably impacts employment outcomes for multiply marginalized groups

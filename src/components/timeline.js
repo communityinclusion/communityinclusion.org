@@ -14,7 +14,7 @@ var timeLine = React.createClass({
     render: function() {
       return (
         <section className="timeline" id="tl">
-          <center><p><img src="http://communityinclusion.org/images/dec_ici_jc.png" alt="DEC to ICI" className="img-fluid" /></p>
+          <center><p><img src="https://communityinclusion.org/images/dec_ici_jc.png" alt="DEC to ICI" className="img-fluid" /></p>
             <p><b>↓ Scroll down to view timeline ↓</b></p></center>
           <ul>
             <li>
