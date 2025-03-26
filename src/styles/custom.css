@@ -172,6 +172,7 @@ section {
   display: block;
 }
 
+section { padding-bottom: 2em; }
 
 
 figure {
@@ -798,9 +799,48 @@ main.main-content .posttemplate .post {
                     font-family: fontAwesome;
                     font-size:1.5em;
                     content: "\f07d";
-              
                                     }
-summary {font-weight: 800;}
+
+ /* the details stuff for the cool little dropdown */
+  details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+    margin-bottom: .5em;
+}
+
+summary {
+  font-size: large;
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    color: #616161;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+
+details .btn {margin-left: 3em; margin-bottom: 1em;}
+
+@keyframes sweep {
+  0%    {opacity: 0; transform: translateX(-10px)}
+  100%  {opacity: 1; transform: translateX(0)}
+}
+
+summary {padding:1em;}
+.lil_summary {font-size: small; color:#0077AF; border-right:#5F9632 1px solid; padding-right: .5em;}
+.lil_summary .fa {color:#5F9632;}
+.no-right-border { border-right: 0px;}
+
 
 details a.btn.btn-primary {
   margin-top: 10px;

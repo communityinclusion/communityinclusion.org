@@ -6,7 +6,8 @@ date: 2025-03-26
 posttype: "page"
 thumbnail: "../../images/ICI.png"
 ---
-<h2 id="courses">Courses</h2>
+<section>
+<h2 class="card-title" id="courses">Courses</h2>
 <details>
 <summary>What are the two courses of study of the UMass Boston Transition Leadership program?</summary>
 <p>The UMass Boston Transition Specialist Training leads to either:</p>
@@ -26,7 +27,9 @@ All the courses have built-in applied learning assignments and students must com
 <p>In the first semester in the certificate track, you will take Transition Topics and Youth Development &amp; Self Determination. In the second semester, you will enroll in Career Development &amp; Competitive Employment and Postsecondary Education for Students with Disabilities. In the summer semester, you will take Transition Leadership. The final course offered in the fall is the Transition Leadership Practicum.</p>
 <p>Students in the master’s track will take the same courses in this sequence. After completing the first semester of the program, you will meet with you academic advisor to select additional interdisciplinary courses from Education, Counseling, and Vocational Rehabilitation.</p>
 </details>
-<h2 id="credentials-competencies-and-careers">Credentials, Competencies, and Careers</h2>
+</section>
+<section>
+<h2 class="card-title" id="credentials-competencies-and-careers">Credentials, Competencies, and Careers</h2>
 <details>
 <summary>What credential(s) am I eligible for when I graduate?</summary>
 <p>Graduates of the program, whether you are in the master’s track or Graduate Certificate track, will be eligible to apply for the Council for Exceptional Children’s Division on Career Development and Transition’s national certification. Candidates in Massachusetts will be eligible for the MA Department of Elementary and Secondary Education’s Transition Specialist endorsement. </p>
@@ -53,7 +56,9 @@ All the courses have built-in applied learning assignments and students must com
 <summary>What kinds of jobs would I be eligible for after completing this program?</summary>
 <p>Graduates of the Transition Leadership program can expect to hone your skills and find employment opportunities in a variety of settings, such as middle and high school public and private school settings, vocational rehabilitation offices, and youth workforce centers. The certificate also provides advanced training for professionals in careers such as special education, social work, guidance counseling, mental health counseling, and occupational therapy.</p>
 </details>
-<h2 id="program-requirements-logistics">Program Requirements &amp; Logistics</h2>
+</section>
+<section>
+<h2 class="card-title" id="program-requirements-logistics">Program Requirements &amp; Logistics</h2>
 <details>
 <summary>Does this class meet in person or online?</summary>
 <p>The Transition Leadership program is a fully online course of study using UMass Boston’s learning management system, Canvas.</p>
@@ -101,7 +106,9 @@ All the courses have built-in applied learning assignments and students must com
 <summary>Will I be able to get some help finding a practicum placement if I am not working as a transition specialist in a school?</summary>
 <p>Yes. Program staff will assist students who are not currently employed in a setting where you have access to transition-age students (ages 14–21). Please advise program staff as early as possible to avoid delays in required activities.</p>
 </details>
-<h2 id="enrollment-support">Enrollment &amp; Support</h2>
+</section>
+<section>
+<h2 class="card-title" id="enrollment-support">Enrollment &amp; Support</h2>
 <details>
 <summary>Can I take courses as a guest student without being admitted to the program?</summary>
 <p>Yes, you may enroll in one or two courses as a guest student before formally applying. If admitted, the credits earned can be applied toward your program requirements. This is a great way to experience the program while earning credits.</p>
@@ -140,3 +147,4 @@ All the courses have built-in applied learning assignments and students must com
 <summary>Is there any tuition assistance available for the Transition Leadership tracks?</summary>
 <p>The Transition Leadership program has some foundation funds to offer matriculated students during their first year when they are enrolled in two courses. In addition, you are encouraged to contact the UMass Boston office on Admission &amp; Financial Aid for information on available options. </p>
 </details>
+</section>
