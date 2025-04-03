@@ -1,6 +1,6 @@
 ---
 title: "Fellowships"
-path: "/fellowships"
+path: "/about/fellowships/"
 date: 2023-03-09
 posttype: "page"
 thumbnail: '../../images/ICI.png'

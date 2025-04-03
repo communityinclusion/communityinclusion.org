@@ -43,6 +43,7 @@ const activeLinkStyle = {
           <li><Link to="/about/staff-directory">Staff Directory</Link></li>
             <li><Link to="/about/directions">Directions</Link></li>
             <li><Link to="/about/glossary">Glossary</Link></li>
+             <li><Link to="/about/fellowships">Fellowships</Link></li>
             <li><Link to="/jobs">Jobs at ICI</Link></li>
               <li><Link to="/about/contact">Contact</Link></li>
         </ul>
