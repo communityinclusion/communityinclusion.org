@@ -6,6 +6,15 @@ date: 2025-03-26
 posttype: "page"
 thumbnail: "../../images/ICI.png"
 ---
+<h2>Are you ready to apply?</h2>
+<p>Here’s our checklist of the 5 things you need to apply for the UMass Boston Transition Leadership Program:
+ <ol>
+<li><strong>A letter of intent</strong> that explains why you want to pursue graduate study in the field of Transition Leadership</li>
+<li><strong>Your college transcripts</strong> with a minimum cumulative undergraduate grade point average (GPA) of 3.0<li>
+<li><strong>Two letters of recommendation</strong> from people who have worked closely with you</li>
+<li><strong>Your license information</strong> certifying that you are a licensed special educator, school guidance counselor, school adjustment counselor, school social worker, or vocational rehabilitation counselor</li>
+<li><strong>A writing sample</strong> that showcases your ability to write professionally</li>
+</ol>
 <section>
 <h2 class="card-title" id="courses">Courses</h2>
 <details>
