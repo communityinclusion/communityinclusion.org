@@ -14,7 +14,7 @@ thumbnail: "../../images/ICI.png"
 <li><strong>Your license information</strong> certifying that you are a licensed special educator, school guidance counselor, school adjustment counselor, school social worker, or vocational rehabilitation counselor</li>
 <li><strong>A writing sample</strong> that showcases your ability to write professionally</li>
 </ol>
-<p><strong><a href="https://go.umb.edu/portal/gr_app">Apply by June 15!</a></strong></p>
+<p class="h3"><strong><a href="https://go.umb.edu/portal/gr_app">Apply by June 15!</a></strong></p>
 <hr>
 <h2>Frequently Asked Questions</h2>
 <section>
