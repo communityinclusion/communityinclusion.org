@@ -1,6 +1,6 @@
 ---
 title: "Inclusive Education Initiative"
-path: "/projects/maicei"
+path: "/projects/maipse"
 posttype: "page"
 date: 2021-11-14
 thumbnail: "../../images/ICI.png"
