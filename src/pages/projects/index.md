@@ -304,7 +304,7 @@ Employment First Missouri</a>
 	</div>
 	<div class="col-md-9">
 	<div class="card-body">
-	<h2 class="card-title"><a href="/projects/maicei">
+	<h2 class="card-title"><a href="/projects/maipse">
 	Massachusetts Inclusive Concurrent Enrollment Initiative</a>
 	</h2>
 	<p>The Massachusetts Inclusive Concurrent Enrollment Initiative (MAICEI) program at the University of Massachusetts Boston offers inclusive higher education opportunities to partnering school districts that support high school students with intellectual disabilities and autism, ages 18-21. </p>
