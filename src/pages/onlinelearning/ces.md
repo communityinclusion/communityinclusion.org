@@ -23,8 +23,8 @@ thumbnail: "../../images/ICI.png"
 <h2 class="h5 card-title">How can I purchase CES courses?</h2>
 <p>You can choose from 6 course bundles, or you can purchase all 17 courses for your staff. Courses are available immediately after purchase.</p>
 <ul>
-<li><strong>You can register up to 9 staff at once for CES Individual Learner course bundles. When registering, select the <em>Bulk Purchase</em> option next the enroll button. </strong>
-<li><strong>Explore your options to register 10 or more staff for CES courses by <a href="https://directcourseonline.com/employment-services/">Direct Course</a>.</strong>
+<li><strong>You can register up to 25 staff at once for CES Individual Learner course bundles. When registering, select the <em>Bulk Purchase</em> option next the enroll button. </strong>
+<li><strong>Explore your options to register 26 or more staff for CES courses by <a href="https://directcourseonline.com/employment-services/">Direct Course</a>.</strong>
 </ul>
 <div class="card border-success mb-3">
   <div class="card-body">

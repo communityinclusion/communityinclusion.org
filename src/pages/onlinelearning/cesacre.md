@@ -55,9 +55,9 @@ thumbnail: "../../images/ICI.png"
 
 
 <h2 class="h3 card-title">How can I get started? </h2>
-<p>If you manage staff, you can register up to 9 staff at once for the <a href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre-bundle">CES ACRE Course</a>. </p>
+<p>If you manage staff, you can register up to 25 staff at once for the <a href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre-bundle">CES ACRE Course</a>. </p>
 
-<p>If you want to register 10 or more employees for the ACRE Course, explore the College of Employment Services for Group Sales offered by <a href="https://directcourseonline.com/employment-services/">Direct Course</a>. </p>
+<p>If you want to register 26 or more employees for the ACRE Course, explore the College of Employment Services for Group Sales offered by <a href="https://directcourseonline.com/employment-services/">Direct Course</a>. </p>
 
 
 <h2 class="h3 card-title">Can I or my staff just do the ACRE activities and field work (without taking the 11 CES courses)? </h2>
