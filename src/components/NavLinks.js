@@ -91,7 +91,7 @@ const activeLinkStyle = {
 <li><Link to="/projects/bchdsp">Down Syndrome Program</Link></li>
 <li><a href="https://cletoolkit.communityinclusion.org/">Community Life Engagement</a></li>
 <li><Link to="/projects/emp1stmo">Employment First Missouri</Link></li>
-<li><Link to="/projects/maicei">MAICEI</Link></li>
+<li><Link to="/projects/maipse">MAIPSE</Link></li>
 <li><Link to="/projects/youthvoice">CYVYC</Link></li>
 
         </ul>
