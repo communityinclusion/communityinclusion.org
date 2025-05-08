@@ -9,7 +9,7 @@ thumbnail: '../../images/ICI.png'
 
 <div class="row">
 <div class="col-lg-9">
-<h3 class="pb-3 text-center">Plans for the 2025-2026 Crocker Fellowship are currently on hold pending further information about funding.</h3>
+<h3 class="pb-3 text-center">Due to funding constraints, we will not be offering the Crocker Fellowship for the upcoming year.</h3>
 </div>
 
 
