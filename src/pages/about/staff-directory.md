@@ -14,6 +14,7 @@ Staff listing and contact details<!-- end -->
 | Melissa    | Alford            | (617) 287-4296 | <Melissa.Alford@umb.edu>                   | [View Profile](/about/staff-directory/melissa-alford)             |
 | Katie      | Ashwill           |  			  | <Katie.Ashwill@umb.edu>                      | [View Profile](/about/staff-directory/katie-ashwill)       |
 | Quinn      | Barbour           | (617) 287-4309 | <Quinn.Barbour@umb.edu>                    | [View Profile](/about/staff-directory/quinn-barbour)              |
+| Caroline      |  Billeaudeau           |  | <Caroline.Billeaudeau@umb.edu>                    | [View Profile](/about/staff-directory/caroline-billeaudeau)              |
 | Ella       | Blackowl             |  | <EllaMae.JakeBlackowl@umb.edu>                        | [View Profile](/about/staff-directory/ella-blackowl)                  |
 | Heike      | Boeltzig-Brown    |                | <Heike.Boeltzig-Brown@umb.edu>             | [View Profile](/about/staff-directory/heike-boeltzig-brown)        |
 | Jennifer   | Bose              | (617) 287-4353 | <Jennifer.Bose@umb.edu>                    | [View Profile](/about/staff-directory/jennifer-bose)              |

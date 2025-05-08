@@ -5,6 +5,9 @@ date: 2023-03-09
 posttype: "page"
 thumbnail: '../../images/ICI.png'
 ---
+<div class="alert alert-primary">
+<strong>Due to funding constraints, we will not be offering the Crocker and Gopen Fellowships for the upcoming year.</strong>
+</div>
 
 <div class="row">
 
