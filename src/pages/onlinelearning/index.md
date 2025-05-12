@@ -133,7 +133,7 @@ thumbnail: "../../images/ICI.png"
     <div class="card-body">
       <p class="card-text"><strong>National Training for Transformational Rehabilitation Leadership</strong> This leadership enhancement training program is for current and aspiring vocational rehabilitation (VR) leaders. The training covers six domains of VR leadership across three semesters that each cullminate in a faciliated peer-to-peer learning collaborative. After the final semester, participants complete an applied experiential learning capstone project to practice their transformational leadership skills.</p>
       <p>Participants can complete all lessons asynchronously, with guidance and mentorship from experienced instructors and though community discussions with other aspiring leaders. After successfully completing the training program and capstone project, leaders can earn a nationally recognized Certified Rehabilitation Leader (CRL) credential from the CRCC.</p>
-      <p><a href="https://www.uwstout.edu/SVRI/NTCTRL">Learn more about the National Training for Transformational Rehabilitation Leadership</a></p>
+      <p><a href="https://ntctrl.org/ntctrl-registration/">Learn more about the National Training for Transformational Rehabilitation Leadership</a></p>
     </div>
   </div>
   <div class="card"><a href="https://online.umb.edu/programs/transition_leadership_certificate">
