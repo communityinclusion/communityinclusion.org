@@ -92,7 +92,7 @@ thumbnail: "../../images/ICI.png"
 
 <h2 class="h3 card-title">How long do my staff have to complete the ACRE Course?</h2>
 <p>Learners have 6 months to complete the CES ACRE Course, which includes all courses, activities, field work, and webinars. After 6 months, the learner will no longer have access to the course materials. Learners must monitor their time and complete the tasks in this time frame.  </p>
-<p>If you have any questions about the ACRE Course, email Lara Enein at <a href="mailto:lara.enein@umb.edu">lara.enein@umb.edu.</a></p>
+<p>If you have any questions about the ACRE Course, email Kelly Wanzer at <a href="mailto:kelly.wanzer@umb.edu">kelly.wanzer@umb.edu.</a></p>
 <hr>
 <div class="row ">
   <div class="text-center align-self-center">
