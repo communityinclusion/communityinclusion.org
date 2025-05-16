@@ -57,6 +57,8 @@ import literacy_youngchild_pdf from '../../files/literacy_youngchild_F.pdf'
 import literacy_schoolage_pdf from '../../files/literacy_schoolage_F.pdf'
 import literacy_teens_pdf from '../../files/literacy_teens_F.pdf'
 import TO31_F_R_thumb from '../../images/pub-thumbs/TO31_F_R_thumb.png'
+import PE_implmentation_risk_mitigation_F_R_th from '../../images/pub-thumbs/PE_implmentation_risk_mitigation_F_R_th.png'
+
 
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import {
@@ -424,10 +426,10 @@ class PublicationsPage extends React.Component {
                     <div className="card m-3">
                       <div className="row">
                         <div className="col-md-2">
-                          <div className="card-image"><img src={PE_implmentation_risk_mitigation_F_R_thumb} className="img-fluid" alt="publication thumbnail" />
+                          <div className="card-image"><img src={PE_implmentation_risk_mitigation_F_R_th} className="img-fluid" alt="publication thumbnail" />
                           </div>
                         </div>
-                        <div className="col-md-10 card-body"><h2 className="card-title"> <a href={PE_implmentation_risk_mitigation_pdf}> <span className="badge bg-primary pb-1">New</span> Progressive Employment: Risk Mitigation Strategies to help Job Seekers?</a></h2><p className="card-text">
+                        <div className="col-md-10 card-body"><h2 className="card-title"> <a href={PE_implmentation_risk_mitigation_pdf}> <span className="badge bg-primary pb-1">New</span> Progressive Employment: Risk Mitigation Strategies to Help Job Seekers & Their Influencers</a></h2><p className="card-text">
                           The Progressive Employment model includes strategies to mitigate risks for both job seekers and businesses. Risk mitigation strategies reduce employer concerns while supporting job seekers in exploring career opportunities. This guide focuses on risk mitigation strategies for job seekers and their influencers, which involves preparations like workers’ compensation coverage and wage payments during worksite experiences.</p>
                         </div>
                       </div>
