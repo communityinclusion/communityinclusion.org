@@ -92,6 +92,7 @@ Staff listing and contact details<!-- end -->
 | Clare      | Papay             |  | <Clare.Papay@umb.edu>                     | [View Profile](/about/staff-directory/clare-papay)                |
 | Sarah      | Paterson          |                | <Sarah.Paterson@umb.edu>                   | [View Profile](/about/staff-directory/sarah-paterson)             |
 | Bryn     | Peterson          |                | <Bryn.Peterson@umb.edu>                   | [View Profile](/about/staff-directory/bryn-peterson)             |
+| Brittany   | Powers          |                | <Brittany.Powers@umb.edu>                   | [View Profile](/about/staff-directory/brittany-powers)             |
 | Christa    | Preston           |                | <Christa.Preston@umb.edu>                    | [View Profile](/about/staff-directory/christa-preston)           |
 | Leslie     | Quarles           |                | <Leslie.Quarles@umb.edu>                       | [View Profile](/about/staff-directory/leslie-quarles )           |
 | Julie      | Reposa            |                | <Julie.Reposa@umb.edu>                     | [View Profile](/about/staff-directory/julie-reposa)               |
