@@ -24,6 +24,7 @@ const Footer = () => (
       <address>Institute for Community Inclusion<br />
 UMass Boston<br />
 100 Morrissey Blvd.<br />
+Wheatley Hall, 4th Floor - Office 173<br />
 Boston, Massachusetts 02125<br />
 Voice: (617) 287-4300<br />
 TTY: (617) 287-4350<br />
