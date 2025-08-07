@@ -25,7 +25,6 @@ import literacy_infants_thumbnail from '../../images/pub-thumbs/literacy_infants
 import literacy_youngchild_thumbnail from '../../images/pub-thumbs/literacy_youngchild_F-thumb.png'
 import literacy_schoolage_thumbnail from '../../images/pub-thumbs/literacy_schoolage_F-thumb.png'
 import literacy_teens_thumbnail from '../../images/pub-thumbs/literacy_teens_F-thumb.png'
-import PE_implmentation_risk_mitigation_F_R_thumb from '../../images/pub-thumbs/PE_implementation_Jobsville_F_R2_thumb.jpg'
 import HTTC17_R_thumb from '../../images/pub-thumbs/HTTC17_R_thumb.jpg'
 import ATAP_2024_R_thumb from '../../images/pub-thumbs/ATAP_2024_R_thumb.jpg'
 import PE_implementation_Jobsville_F_R2_thumb from '../../images/pub-thumbs/PE_implementation_Jobsville_F_R2_thumb.jpg'
