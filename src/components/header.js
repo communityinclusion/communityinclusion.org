@@ -21,7 +21,6 @@ import {
 
 const Header = () => (
 
-	<div>
 
     <div className = "container-xxl header" >
     <div className = "row px-3 py-3" >
@@ -97,8 +96,6 @@ const Header = () => (
   
     </div>
      </div>
-
-    </div>
  )
 
 

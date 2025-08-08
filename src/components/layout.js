@@ -28,13 +28,15 @@ const Layout = ({ children }) => {
     }
   `)
     return (
-    <>
+  <div id="gatsby-focus-wrapper">
+      <div className="site-header">
     <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
 <Navbar />
+  </div>
 <main className="main-content container-lg my-4">{children}</main>
         
              <Footer />
-  </>
+      </div>
   )
 }
 

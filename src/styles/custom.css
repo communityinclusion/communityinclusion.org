@@ -150,17 +150,39 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* Make footer sticky */
-html,
-body {
+
+/* Make footer stick to the bottom of the page */
+
+html, body {
   height: 100%;
+  margin: 0;
 }
 
-.main-content {
-  flex: 1 0 auto;
+#gatsby-focus-wrapper {
+  display: grid;
+  /* one column, three rows: header / content / footer */
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 }
 
+/* The entire .site-header (logo + nav) sits in row 1 */
+#gatsby-focus-wrapper > .site-header {
+  grid-row: 1;
+  grid-column: 1;
+}
 
+/* main stretches in row 2 */
+#gatsby-focus-wrapper > main {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+/* footer in row 3 */
+#gatsby-focus-wrapper > footer {
+  grid-row: 3;
+  grid-column: 1;
+}
 
 
 article,
@@ -917,3 +939,33 @@ details a.btn.btn-primary {
 }
 
   .staff_profile .staff_ed ul {list-style-position: inside;}
+
+
+
+
+.gsc-search-button-v2 {
+    padding: 10px 20px!important;
+        border-radius: 0!important;
+}
+
+table.gsc-search-box td.gsc-input
+{ padding-right:0!important}
+
+.navbar-toggler:focus {
+    box-shadow:none!important;
+}
+
+.gsc-search-button {
+      margin-left: 0!important;  
+}
+
+@media screen and (max-width: 991px) {
+.gsc-search-button-v2 {
+  border:#fff solid 1px!important;
+}
+}
+
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #fff;
+}
