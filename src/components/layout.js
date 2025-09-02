@@ -42,8 +42,6 @@ const Layout = ({ children }) => {
 <main className="main-content container-lg my-4">{children}</main>
         
              <Footer />
-      
- 
   </>
   )
 }
