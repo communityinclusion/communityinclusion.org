@@ -16,8 +16,3 @@ Boston, Massachusetts 02125
 Voice: 617.287.4300  
 Fax: 617.287.4352  
 TTY: 617.287.4350  
-Email: [ici@umb.edu](mailto:ici@umb.edu)
-
- 
-<div class="ctct-inline-form" data-form-id="1418745e-364b-462c-94bf-cbcf11348414"></div>
- 
