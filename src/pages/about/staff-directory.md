@@ -47,7 +47,7 @@ Staff listing and contact details<!-- end -->
 | Paul       | Foos              | (617) 287-4359 | <Paul.Foos@umb.edu>                        | [View Profile](/about/staff-directory/paul-foos)                  |
 | Laurie|  Ford  | |   <laurie.ford@umb.edu>    | [View Profile](/about/staff-directory/laurie-ford )                  |
 | Olivia | Fraioli| | <Olivia.Fraioli@umb.edu> | [View Profile](/about/staff-directory/olivia-fraioli ) |
-| Suzzanne   | Freeze            | (617) 287-4395 | <Suzzanne.Freeze@umb.edu>                  | [View Profile](/about/staff-directory/suzzanne-freeze)            |
+| Suzzanne   | Freeze            |  | <Suzzanne.Freeze@umb.edu>                  | [View Profile](/about/staff-directory/suzzanne-freeze)            |
 | Alexandra   |Futty   | | <alexandra.futty@umb.edu>    | [View Profile](/about/staff-directory/alexandra-futty )                  |
 | Cecilia    | Gandolfo          |  | <Cecilia.Gandolfo@umb.edu>                 | [View Profile](/about/staff-directory/cecilia-gandolfo)           |
 | Juan       | Gaspar            | (617) 287-4326  | <Juan.Gaspar@umb.edu>                      | [View Profile](/about/staff-directory/juan-gaspar)                |
