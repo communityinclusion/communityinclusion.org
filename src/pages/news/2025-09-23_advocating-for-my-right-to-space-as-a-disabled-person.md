@@ -1,7 +1,7 @@
 ---
 title: "Taking Up Space: Advocating for my Right to Space as a Disabled Person with Cerebral Palsy"
 description: ""
-path: "2025-09-23_advocating-for-my-right-to-space-as-a-disabled-person.md"
+path: "/news/2025-09-23_advocating-for-my-right-to-space-as-a-disabled-person.md"
 date: "2025-09-23"
 tags: ['op-ed', 'cerebral palsy']
 posttype: "news"
