@@ -4,7 +4,12 @@ path: "/projects/arrt"
 posttype: "page"
 date: 2025-09-01
 ---
-<div class="p-3 mb-2 bg-body-tertiary rounded-3"> <div class="container-fluid py-2"> <h1 class="display-5 fw-bold">Welcome to ARRT!</h1> <p class="col-md-8 fs-4">Are you a researcher interested in applying for a postdoctoral ARRT Program Fellowship? Explore this page for more information or skip to the application.</p> <button class="btn btn-primary btn-lg" type="button">Example button</button> </div> </div>
+<div class="p-3 mb-2 bg-body-tertiary rounded-3"> <div class="container-fluid py-2"> 
+<div class="row">
+<div class="col-sm-8">
+<h1 class="display-5 fw-bold">Welcome to ARRT!</h1> <p class="col-md-8 fs-4">Are you a researcher interested in applying for a postdoctoral ARRT Program Fellowship? Explore this page for more information or skip to the application.</p> <button class="btn btn-primary btn-lg" type="button">Example button</button> 
+</div>
+</div> </div>
 
 <section id="what-is-the-arrt-program">
 <h3 >What is the ARRT Program?</h3>
