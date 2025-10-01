@@ -4,15 +4,29 @@ path: "/projects/arrt"
 posttype: "page"
 date: 2025-09-01
 ---
-<div class="p-3 mb-2 bg-body-tertiary rounded-3"> <div class="container-fluid py-2"> 
+<div class="p-3 mb-2 bg-body-tertiary rounded-3"> 
+<div class="container-fluid py-2"> 
 <div class="row">
 <div class="col-sm-8">
-<h1 class="display-5 fw-bold">Welcome to ARRT!</h1> <p class="col-md-8 fs-4">Are you a researcher interested in applying for a postdoctoral ARRT Program Fellowship? Explore this page for more information or skip to the application.</p> <button class="btn btn-primary btn-lg" type="button">Example button</button> 
+<h1 class="h1 fw-bold">Welcome to ARRT!</h1> <p class="fs-4">Are you a researcher interested in applying for a postdoctoral ARRT Program Fellowship? <br><br>
+Explore this page for more information or skip to the application.</p> 
+
+<div class="box">
+    This is some text within a card body. <a href="https://employmentopportunities.umb.edu/boston/en-us/job/528566/post-doctoral-research-fellow" class="btn btn-primary " type="button">Apply Now</a> 
+
 </div>
-</div> </div>
+</div>
+<div class="col-sm-4">
+<img src="/images/group.jpg" class="img-fluid" alt="A group of racially and ethnically diverse youth, some with disabilities, are sitting together, talking and laughing.">
+</div>
+</div>
+</div> 
+</div>
+</div>
+
 
 <section id="what-is-the-arrt-program">
-<h3 >What is the ARRT Program?</h3>
+<h2>What is the ARRT Program?</h2>
 <ul>
 <li>3-year postdoctoral training program on employment for people with intellectual and developmental disabilities (IDD)</li>
 <li>Provides advanced, multidisciplinary training in IDD employment research</li>
@@ -21,7 +35,7 @@ date: 2025-09-01
 <p>The ARRT Program is housed at the Institute for Community Inclusion (ICI) at UMass Boston and brings together ICI’s expertise from the School of Global Inclusion and Social Development (SGISD) at UMass Boston and the National Association of State Directors of Developmental Disabilities Services (NASDDDS). ARRT is funded by the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR).</p>
 </section>
 <section id="why-arrt">
-<h3 >Why ARRT?</h3>
+<h2>Why ARRT?</h2>
 <h4 id="we-need-better-representation-and-capacity-in-the-idd-research-workforce-and-field-how-do-we-know-">We need better representation and capacity in the IDD research workforce and field! How do we know?</h4>
 <p><strong>The workforce does not fully reflect or meet the needs of the populations it serves.</strong> </p>
 <ul>
@@ -36,7 +50,7 @@ date: 2025-09-01
 <p><strong>These issues are exacerbated by systemic technological, architectural, and environmental barriers  &amp; weak institutional support.</strong></p>
 </section>
 <section id="calling-all-researchers-do-you-want-to-join-the-arrt">
-<h3 >Calling all Researchers! Do you want to join the ARRT?</h3>
+<h2 >Calling all Researchers! Do you want to join the ARRT?</h2>
 <p>We are seeking  4 postdoctoral fellows who are interested in pursuing impactful research careers in the IDD field.</p>
 <h4 id="who-are-you-">Who are you?</h4>
 <ul>
@@ -45,7 +59,7 @@ date: 2025-09-01
 <li>Committed to participating in all program activities and reporting requirements (30 hours/week)</li>
 </ul>
 <section id="questions-contact-the-co-program-directors">
-<h3>Questions? Contact the Co-Program Directors:</h3>
+<h2>Questions? Contact the Co-Program Directors:</h2>
 <ul>
 <li>Dr. Heike Boeltzig-Brown, Sr. Research Associate and Sr. Manager of International Partnerships</li>
 <li>Dr. Jean Winsor, Sr. Associate &amp; Director, IDD Employment Systems and Policy</li>
