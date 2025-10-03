@@ -3,6 +3,7 @@ title: "Advanced Rehabilitation Research Training (ARRT) Program"
 path: "/projects/arrt"
 posttype: "page"
 date: 2025-09-01
+thumbnail: "../../images/ICI.png"
 ---
 <div class="p-3 mb-2 bg-body-tertiary rounded-3"> 
     <div class="container-fluid py-2"> 

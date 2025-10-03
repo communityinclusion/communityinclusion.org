@@ -35,7 +35,6 @@ import DN90_R_thumb from '../../images/pub-thumbs/DN90_R_thumb.jpg'
 import EVR_CP_quickguide_R_thumb from '../../images/pub-thumbs/EVR_CP_quickguide_R_thumb.jpg'
 import IN64_R_thumb from '../../images/pub-thumbs/IN64_R_thumb.jpg'
 import DN_89_R_thumb from '../../images/pub-thumbs/DN_89_R_thumb.jpg'
-
 import PP_SP_UDAC_staff_shortages_pdf from '../../files/PP_SP_UDAC_staff_shortages_R.pdf'
 import PE_implmentation_risk_mitigation_pdf from '../../files/PE_implmentation_risk_mitigation_F_R.pdf'
 import PE_implementation_Jobsville_pdf from '../../files/PE_implementation_Jobsville_F_R2.pdf'
@@ -57,7 +56,8 @@ import literacy_schoolage_pdf from '../../files/literacy_schoolage_F.pdf'
 import literacy_teens_pdf from '../../files/literacy_teens_F.pdf'
 import TO31_F_R_thumb from '../../images/pub-thumbs/TO31_F_R_thumb.png'
 import PE_implmentation_risk_mitigation_F_R_th from '../../images/pub-thumbs/PE_implmentation_risk_mitigation_F_R_th.png'
-
+import emp_programs_policies_general_WR from '../../files/emp_programs_policies_general_WR.pdf'
+import emp_programs_policies_general_thumb from '../../images/pub-thumbs/emp_programs_policies_general_WR_1_thumb.png'
 
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import {
@@ -341,6 +341,22 @@ class PublicationsPage extends React.Component {
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
+
+                    <div className="card m-3">
+                      <div className="row">
+                        <div className="col-md-2">
+                          <div className="card-image">
+                            <img src={emp_programs_policies_general_thumb} className="img-fluid" alt="publication thumbnail" />
+                          </div>
+                        </div>
+                        <div className="col-md-10 card-body"><h2 className="card-title">
+                          <a href={emp_programs_policies_general_WR}><span className="badge bg-primary pb-1">New</span> Employment Programs for People with Disabilities: Policies for Effective Operations</a></h2><p className="card-text">
+                            This publication outlines policies to consider for organizations that provide employment services and supports to people with disabilities. Strong organization and program policies ensure clarity, consistency, and quality in the employment services a provider delivers.</p>
+                        </div>
+                      </div>
+                    </div>
+
+
                     <div className="card m-3">
                       <div className="row">
                         <div className="col-md-2">
