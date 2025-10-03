@@ -1,0 +1,12 @@
+# netlify.toml
+
+[build]
+  command = "gatsby build"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "22.11.0"
+
+# (optional) Functions dir if you use Netlify Functions
+#[functions]
+#  directory = "netlify/functions"
