@@ -516,6 +516,12 @@ nav.breadcrumb {
 .card-ici {
   margin-bottom: 2em;
 }
+.card_pill {
+  border:#0075ad solid 1px;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: inline-block;
+}
 
 @media screen and (min-width: 992px) {
   #grid article.card {
