@@ -9,6 +9,7 @@ const mergePath = (basePath = '/', path = '')=>{
 }
 
 module.exports = {
+    trailingSlash: "never",
 siteMetadata: {
   siteUrl: 'https://www.communityinclusion.org',
   title: 'Institute for Community Inclusion',
