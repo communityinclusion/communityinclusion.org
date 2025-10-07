@@ -8,19 +8,15 @@ thumbnail: "../../images/ICI.png"
 <div class="p-3 mb-2 bg-body-tertiary rounded-3"> 
     <div class="container-fluid py-2"> 
         <div class="row">
-            <div class="col-sm-8">
-<h1 class="h1 fw-bold">Welcome to ARRT!</h1> <p class="fs-4">Are you a researcher interested in applying for a postdoctoral ARRT Program Fellowship? </p>
-<p>Explore this page for more information or skip to the application.</p> 
-                <div class="card_pill">
-                <p class="h2">Ready to apply? </p>
-    <p>Complete the postdoctoral ARRT Program Fellowship application by November 30, 2025. <a href="https://employmentopportunities.umb.edu/boston/en-us/job/528566/post-doctoral-research-fellow" class="btn btn-primary " type="button">Apply Now</a> </p>
-                </div>
+            <div class="col-sm-6 pt-sm-5">
+            <h1 class="display-3">Welcome to ARRT!</h1>
+<p class="fs-4">Are you a researcher interested in applying for a postdoctoral ARRT Program Fellowship? </p>
+<p>Explore this page for more information or <a href="#apply">skip to the application</a>.</p> 
             </div>
-            <div class="col-sm-4">
-<img src="/images/group.jpg" class="img-fluid rounded" alt="A group of racially and ethnically diverse youth, some with disabilities, are sitting together, talking and laughing.">
+            <div class="col-sm-6"><p><img src="/images/group.jpg" class="img-fluid rounded" alt="A group of racially and ethnically diverse youth, some with disabilities, are sitting together, talking and laughing."></p>
             </div>
         </div>
-    </div> 
+    </div>
 </div>
 
 
@@ -52,10 +48,6 @@ thumbnail: "../../images/ICI.png"
 <h2 class="card-title">Calling all Researchers! Do you want to join the ARRT?</h2>
 
 <p>We are seeking  4 postdoctoral fellows who are interested in pursuing impactful research careers in the IDD field.</p>
-<div class="card_pill">
-                <p class="h2">Ready to apply? </p>
-    <p>Complete the postdoctoral ARRT Program Fellowship application by November 30, 2025. <a href="https://employmentopportunities.umb.edu/boston/en-us/job/528566/post-doctoral-research-fellow" class="btn btn-primary " type="button">Apply Now</a> </p>
-                </div>
 <h4 id="who-are-you-">Who are you?</h4>
 <ul>
 <li>A U.S. citizen or legal permanent resident with a doctoral degree (or equivalent) in a relevant field, such as rehabilitation, education, social sciences, public health, or public policy</li>
@@ -69,9 +61,10 @@ thumbnail: "../../images/ICI.png"
 <li><a href="mailto:jean.winsor@umb.edu">Dr. Jean Winsor</a>, Sr. Associate &amp; Director, IDD Employment Systems and Policy</li>
 </ul>
 </section>
-<section id="ready-to-apply-complete-the-postdoctoral-arrt-program-fellowship-application-by-november-30-2025">
-<div class="card_pill">
+<section id="apply">
+<div class="card_pill mb-4">
                 <p class="h2">Ready to apply? </p>
     <p>Complete the postdoctoral ARRT Program Fellowship application by November 30, 2025. <a href="https://employmentopportunities.umb.edu/boston/en-us/job/528566/post-doctoral-research-fellow" class="btn btn-primary " type="button">Apply Now</a> </p>
                 </div>
 <p><em>The webpage was developed under a grant from the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR grant number 90AREM0009).  NIDILRR is a Center within the Administration for Community Living (ACL), Department of Health and Human Services (HHS).  The contents do not necessarily represent the policy of NIDILRR, ACL, or HHS, and you should not assume endorsement by the Federal Government.</em></p>
+</section>
