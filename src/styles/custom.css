@@ -150,17 +150,39 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* Make footer sticky */
-html,
-body {
+
+/* Make footer stick to the bottom of the page */
+
+html, body {
   height: 100%;
+  margin: 0;
 }
 
-.main-content {
-  flex: 1 0 auto;
+#gatsby-focus-wrapper {
+  display: grid;
+  /* one column, three rows: header / content / footer */
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 }
 
+/* The entire .site-header (logo + nav) sits in row 1 */
+#gatsby-focus-wrapper > .site-header {
+  grid-row: 1;
+  grid-column: 1;
+}
 
+/* main stretches in row 2 */
+#gatsby-focus-wrapper > main {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+/* footer in row 3 */
+#gatsby-focus-wrapper > footer {
+  grid-row: 3;
+  grid-column: 1;
+}
 
 
 article,
@@ -172,6 +194,7 @@ section {
   display: block;
 }
 
+section { padding-bottom: 2em; }
 
 
 figure {
@@ -493,6 +516,12 @@ nav.breadcrumb {
 .card-ici {
   margin-bottom: 2em;
 }
+.card_pill {
+  border:#0075ad solid 1px;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: inline-block;
+}
 
 @media screen and (min-width: 992px) {
   #grid article.card {
@@ -798,9 +827,48 @@ main.main-content .posttemplate .post {
                     font-family: fontAwesome;
                     font-size:1.5em;
                     content: "\f07d";
-              
                                     }
-summary {font-weight: 800;}
+
+ /* the details stuff for the cool little dropdown */
+  details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+    margin-bottom: .5em;
+}
+
+summary {
+  font-size: large;
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    color: #616161;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+
+details .btn {margin-left: 3em; margin-bottom: 1em;}
+
+@keyframes sweep {
+  0%    {opacity: 0; transform: translateX(-10px)}
+  100%  {opacity: 1; transform: translateX(0)}
+}
+
+summary {padding:1em;}
+.lil_summary {font-size: small; color:#0077AF; border-right:#5F9632 1px solid; padding-right: .5em;}
+.lil_summary .fa {color:#5F9632;}
+.no-right-border { border-right: 0px;}
+
 
 details a.btn.btn-primary {
   margin-top: 10px;
@@ -877,3 +945,33 @@ details a.btn.btn-primary {
 }
 
   .staff_profile .staff_ed ul {list-style-position: inside;}
+
+
+
+
+.gsc-search-button-v2 {
+    padding: 10px 20px!important;
+        border-radius: 0!important;
+}
+
+table.gsc-search-box td.gsc-input
+{ padding-right:0!important}
+
+.navbar-toggler:focus {
+    box-shadow:none!important;
+}
+
+.gsc-search-button {
+      margin-left: 0!important;  
+}
+
+@media screen and (max-width: 991px) {
+.gsc-search-button-v2 {
+  border:#fff solid 1px!important;
+}
+}
+
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #fff;
+}

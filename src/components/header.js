@@ -21,7 +21,6 @@ import {
 
 const Header = () => (
 
-	<div>
 
     <div className = "container-xxl header" >
     <div className = "row px-3 py-3" >
@@ -47,7 +46,7 @@ const Header = () => (
     <div className="row">
     <ul className = "col-lg-12 list-inline ps-0 m-0 mb-2 header-links d-flex justify-content-around" >
     <li className = "flex-item list-inline-item pr1" >
-   <a href= "https://lp.constantcontactpages.com/su/jlCEExQ/subscribe" className="link dim dark-gray f6  "
+   <a href= "https://lp.constantcontactpages.com/sl/VAsWN3m/ici" className="link dim dark-gray f6  "
     title = "Subscribe"  target = "_blank" rel = "noopener noreferrer" >Subscribe { " " } </a> </li> <li className = "flex-item list-inline-item   pr1 pl1" > { " " }
    <Link to="/about/contact/" className="link dim dark-gray f6  "
     title = "Contact" >Contact </Link> </li> 
@@ -97,8 +96,6 @@ const Header = () => (
   
     </div>
      </div>
-
-    </div>
  )
 
 

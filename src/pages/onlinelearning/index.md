@@ -29,7 +29,7 @@ thumbnail: "../../images/ICI.png"
   We offer 17 self-guided courses. You can purchase all 17 courses at once or choose from 6 multi-course bundles. CES is based on Association of People Supporting Employment (APSE) Universal Employment Competencies and includes courses endorsed by the Association of Community Rehabilitation Educators (ACRE).
 </p>       
 <p><a href="ces/"><strong>Learn More about CES and our Course Bundles</strong></a>.</p>
-<p><strong>You can purchase course bundles for up to 9 staff at once.</strong></p>
+<p><strong>You can purchase course bundles for up to 25 staff at once.</strong></p>
 <p>
   <a data-bs-toggle="collapse" class="btn btn-primary" href="#collapseCES" role="button" aria-expanded="false" aria-controls="collapseCES">Choose Your Course Bundle</a></strong> </p>
 <div class="collapse" id="collapseCES">
@@ -133,7 +133,7 @@ thumbnail: "../../images/ICI.png"
     <div class="card-body">
       <p class="card-text"><strong>National Training for Transformational Rehabilitation Leadership</strong> This leadership enhancement training program is for current and aspiring vocational rehabilitation (VR) leaders. The training covers six domains of VR leadership across three semesters that each cullminate in a faciliated peer-to-peer learning collaborative. After the final semester, participants complete an applied experiential learning capstone project to practice their transformational leadership skills.</p>
       <p>Participants can complete all lessons asynchronously, with guidance and mentorship from experienced instructors and though community discussions with other aspiring leaders. After successfully completing the training program and capstone project, leaders can earn a nationally recognized Certified Rehabilitation Leader (CRL) credential from the CRCC.</p>
-      <p><a href="https://www.uwstout.edu/SVRI/NTCTRL">Learn more about the National Training for Transformational Rehabilitation Leadership</a></p>
+      <p><a href="https://ntctrl.org/ntctrl-registration/">Learn more about the National Training for Transformational Rehabilitation Leadership</a></p>
     </div>
   </div>
   <div class="card"><a href="https://online.umb.edu/programs/transition_leadership_certificate">
@@ -150,7 +150,7 @@ thumbnail: "../../images/ICI.png"
     <img src="seln_elearning.png" class="card-img-top" style="max-width: 600px;" alt="SELN: Supporting a Vision for Employment"></a>
     <div class="card-body">
       <p class="card-text"><strong>SELN: Supporting a Vision for Employment</strong> This online course is crafted for case managers and those in similar roles responsible for advising, assisting, and advocating for individuals with intellectual and developmental disabilities (IDD) seeking employment. This is a self-paced course including 4 modules with scenarios, case studies and stories that put the learner "in the room" immersing them in what is happening and strengthening learning. Estimated time to complete the course is 5-6 hours, including quizzes and post-survey.</p>
-       <p><a href="https://www.selnhub.org/elearningintro">Learn more about SELN: Supporting a Vision for Employment</a></p>
+       <p><a href="https://www.selnhub.org/resources/elearning">Learn more about SELN: Supporting a Vision for Employment</a></p>
        <p><a href="https://elearning.communityinclusion.org/browse/seln/courses/seln-supporting-a-vision-for-employment-101">Enroll in SELN: Supporting a Vision for Employment</a></p>
     </div>
   </div>

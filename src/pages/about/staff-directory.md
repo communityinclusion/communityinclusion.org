@@ -14,6 +14,7 @@ Staff listing and contact details<!-- end -->
 | Melissa    | Alford            | (617) 287-4296 | <Melissa.Alford@umb.edu>                   | [View Profile](/about/staff-directory/melissa-alford)             |
 | Katie      | Ashwill           |  			  | <Katie.Ashwill@umb.edu>                      | [View Profile](/about/staff-directory/katie-ashwill)       |
 | Quinn      | Barbour           | (617) 287-4309 | <Quinn.Barbour@umb.edu>                    | [View Profile](/about/staff-directory/quinn-barbour)              |
+| Caroline      |  Billeaudeau           |  | <Caroline.Billeaudeau@umb.edu>                    | [View Profile](/about/staff-directory/caroline-billeaudeau)              |
 | Ella       | Blackowl             |  | <EllaMae.JakeBlackowl@umb.edu>                        | [View Profile](/about/staff-directory/ella-blackowl)                  |
 | Heike      | Boeltzig-Brown    |                | <Heike.Boeltzig-Brown@umb.edu>             | [View Profile](/about/staff-directory/heike-boeltzig-brown)        |
 | Jennifer   | Bose              | (617) 287-4353 | <Jennifer.Bose@umb.edu>                    | [View Profile](/about/staff-directory/jennifer-bose)              |
@@ -22,6 +23,7 @@ Staff listing and contact details<!-- end -->
 | Callie     | Brusegaard        |                | <Callie.Brusegaard@umb.edu>                | [View Profile](/about/staff-directory/callie-brusegaard)          |
 | Wendy  | Buckley   | |  <Wendy.Buckley@umb.edu>   | [View Profile](/about/staff-directory/wendy-buckley)                  |
 | Caitlyn    | Bukaty            |                | <Caitlyn.Bukaty@umb.edu>                    | [View Profile](/about/staff-directory/caitlyn-bukaty)           |
+| Medea     | Burdick            |                | <Medea.Burdick@umb.edu>                    | [View Profile](/about/staff-directory/medea-burdick)           |
 | Gyasi	 | Burks-Abbott		 |                | <Gyasi.BurksAbbott@umb.edu>                | [View Profile](/about/staff-directory/gyasi-burks-abbott)          |
 | John       | Butterworth       | | <John.Butterworth@umb.edu>                 | [View Profile](/about/staff-directory/john-butterworth)           |
 | Irina      | Cain              |                | <irina.cain@umb.edu>                | [View Profile](/about/staff-directory/irina-cain)           |
@@ -37,7 +39,6 @@ Staff listing and contact details<!-- end -->
 | Mary       | Di Biase          | (617) 571-6198 | <Mary.DiBiase@umb.edu>                     | [View Profile](/about/staff-directory/mary-di-biase)              |
 | Daria      | Domin             | (617) 287-4277 | <Daria.Domin@umb.edu>                      | [View Profile](/about/staff-directory/daria-domin)                |
 | Jill       | Eastman           | (617) 922-2123 | <Jill.Eastman@umb.edu>                     | [View Profile](/about/staff-directory/jill-eastman)               |
-| Lara       | Enein    |                | <Lara.Enein@umb.edu>                | [View Profile](/about/staff-directory/lara-enein)         |
 | Heather  | Engholm  | |  <heather.engholm@childrens.harvard.edu>    | [View Profile](/about/staff-directory/heather-engholm)                 |
 | Rachel   | Estremera  | |  <rachel.estremera@umb.edu>    | [View Profile](/about/staff-directory/rachel-estremera)                 |
 | Karen      | Flippo            |  | <Karen.Flippo@umb.edu>                     | [View Profile](/about/staff-directory/karen-flippo)               |
@@ -46,7 +47,7 @@ Staff listing and contact details<!-- end -->
 | Paul       | Foos              | (617) 287-4359 | <Paul.Foos@umb.edu>                        | [View Profile](/about/staff-directory/paul-foos)                  |
 | Laurie|  Ford  | |   <laurie.ford@umb.edu>    | [View Profile](/about/staff-directory/laurie-ford )                  |
 | Olivia | Fraioli| | <Olivia.Fraioli@umb.edu> | [View Profile](/about/staff-directory/olivia-fraioli ) |
-| Suzzanne   | Freeze            | (617) 287-4395 | <Suzzanne.Freeze@umb.edu>                  | [View Profile](/about/staff-directory/suzzanne-freeze)            |
+| Suzzanne   | Freeze            |  | <Suzzanne.Freeze@umb.edu>                  | [View Profile](/about/staff-directory/suzzanne-freeze)            |
 | Alexandra   |Futty   | | <alexandra.futty@umb.edu>    | [View Profile](/about/staff-directory/alexandra-futty )                  |
 | Cecilia    | Gandolfo          |  | <Cecilia.Gandolfo@umb.edu>                 | [View Profile](/about/staff-directory/cecilia-gandolfo)           |
 | Juan       | Gaspar            | (617) 287-4326  | <Juan.Gaspar@umb.edu>                      | [View Profile](/about/staff-directory/juan-gaspar)                |
@@ -91,20 +92,19 @@ Staff listing and contact details<!-- end -->
 | Clare      | Papay             |  | <Clare.Papay@umb.edu>                     | [View Profile](/about/staff-directory/clare-papay)                |
 | Sarah      | Paterson          |                | <Sarah.Paterson@umb.edu>                   | [View Profile](/about/staff-directory/sarah-paterson)             |
 | Bryn     | Peterson          |                | <Bryn.Peterson@umb.edu>                   | [View Profile](/about/staff-directory/bryn-peterson)             |
-| Christa    | Preston           |                | <Christa.Preston@umb.edu>                    | [View Profile](/about/staff-directory/christa-preston)           |
+| Brittany   | Powers          |                | <Brittany.Powers@umb.edu>                   | [View Profile](/about/staff-directory/brittany-powers)             |
 | Leslie     | Quarles           |                | <Leslie.Quarles@umb.edu>                       | [View Profile](/about/staff-directory/leslie-quarles )           |
 | Julie      | Reposa            |                | <Julie.Reposa@umb.edu>                     | [View Profile](/about/staff-directory/julie-reposa)               |
 | Berenise   | Reyes-Albino      | (617) 287-4314 | <Berenise.Albino@umb.edu>                  | [View Profile](/about/staff-directory/berenise-reyes-albino)      |
 | Danielle   | Roberts-Dahm      |                | <Danielle.Dahm@umb.edu>                   | [View Profile](/about/staff-directory/danielle-roberts-dahm )             |
 | Paige      | Rose-Merrifield              |   | <paige.rose@umb.edu>                       | [View Profile](/about/staff-directory/paige-rose-merrifield  )             |
-| Shahrzad	|Sajadi  | |    <shahrzad.sajadi001@umb.edu>    | [View Profile](/about/staff-directory/shahrzad-sajadi)                  |
-| Kate	|Sambuco  | |    <kathryn.sambuco@umb.edu>    | [View Profile](/about/staff-directory/kate-sambuco)                  |
+| Shahrzad	| Sajadi  | |    <shahrzad.sajadi001@umb.edu>    | [View Profile](/about/staff-directory/shahrzad-sajadi)                  |
+| Kate	| Sambuco  | |    <kathryn.sambuco@umb.edu>    | [View Profile](/about/staff-directory/kate-sambuco)                  |
 | Kara       | Sexton            |                | <kara.sexton@umb.edu>                          | [View Profile](/about/staff-directory/kara-sexton )             |
 | John       | Shepard           | (480) 819-6299 | <John.Shepherd@umb.edu>                    | [View Profile](/about/staff-directory/john-shepard)               |
 | Carl-Olivier   | Sidney            |  | <CarlOlivier.Sidn001@umb.edu>                    | [View Profile](/about/staff-directory/carl-olivier-sidney)               |
 | Kaitlyn    | Siner-Cappas      | (617) 287-3070 | <Kaitlyn.Siner@umb.edu>                    | [View Profile](/about/staff-directory/kaitlyn-siner-cappas)       |
 | Chelsea    | Stinnett          |                | <chelsea.stinnett@umb.edu>                 | [View Profile](/about/staff-directory/chelsea-stinnett)           |
-| Amy        | Szarkowski        |   | <amy.szarkowski@umb.edu>     | [View Profile](/about/staff-directory/amy-szarkowski)             |
 | Ludwik     | Szymanski         |                | <Ludwik.Szymanski@childrens.harvard.edu>   | [View Profile](/about/staff-directory/ludwik-s-szymanski)         |
 | Allison    | Taylor            |  | <Allison.Taylor@umb.edu>                   | [View Profile](/about/staff-directory/allison-taylor)             |
 | David      | Temelini          | (617) 287-4321 | <David.Temelini@umb.edu>                   | [View Profile](/about/staff-directory/david-temelini)             |

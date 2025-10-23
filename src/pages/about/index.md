@@ -93,7 +93,6 @@ description: "The Institute for Community Inclusion at UMass Boston supports the
 </div>
 </div>
 
-<!--
 <div class="col-md-4 col-sm-12 mb-4 d-flex align-self-stretch">
 <div class="card w-100">
 <div class="card-body">
@@ -103,10 +102,7 @@ description: "The Institute for Community Inclusion at UMass Boston supports the
 </div>
 </div>
 </div>
--->
-
-
-
+ 
 <div class="col-md-4 col-sm-12 mb-4 d-flex align-self-stretch">
 <div class="card w-100">
 <div class="card-body">

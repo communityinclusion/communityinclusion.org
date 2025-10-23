@@ -43,6 +43,7 @@ const activeLinkStyle = {
           <li><Link to="/about/staff-directory">Staff Directory</Link></li>
             <li><Link to="/about/directions">Directions</Link></li>
             <li><Link to="/about/glossary">Glossary</Link></li>
+             <li><Link to="/about/fellowships">Fellowships</Link></li>
             <li><Link to="/jobs">Jobs at ICI</Link></li>
               <li><Link to="/about/contact">Contact</Link></li>
         </ul>
@@ -90,7 +91,7 @@ const activeLinkStyle = {
 <li><Link to="/projects/bchdsp">Down Syndrome Program</Link></li>
 <li><a href="https://cletoolkit.communityinclusion.org/">Community Life Engagement</a></li>
 <li><Link to="/projects/emp1stmo">Employment First Missouri</Link></li>
-<li><Link to="/projects/maicei">MAICEI</Link></li>
+<li><Link to="/projects/maipse">MAIPSE</Link></li>
 <li><Link to="/projects/youthvoice">CYVYC</Link></li>
 
         </ul>
