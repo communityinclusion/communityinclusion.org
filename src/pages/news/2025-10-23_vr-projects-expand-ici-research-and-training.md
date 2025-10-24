@@ -1,7 +1,7 @@
 ---
 title: "Exciting New Vocational Rehabilitation Projects Expand ICI’s Research and Training Efforts"
 description: ""
-path: "/news/2025-10-23_vr-projects-expand-ici-research-and-training.md"
+path: "/news/2025-10-23_vr-projects-expand-ici-research-and-training"
 date: "2025-10-23"
 tags: ['VR', 'NIDILRR','Community Inclusion']
 posttype: "news"

@@ -1,7 +1,7 @@
 ---
 title: "ICI Director Cindy Thomas to Retire this November"
 description: ""
-path: "/news/2025-10-06_cindy-thomas-to-retire-from-ici.md"
+path: "/news/2025-10-06_cindy-thomas-to-retire-from-ici"
 date: "2025-10-06"
 tags: ['Cindy Thomas', 'retirement', 'leadership', 'employment', 'ICI']
 posttype: "news"

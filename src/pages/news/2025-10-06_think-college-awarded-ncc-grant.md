@@ -1,7 +1,7 @@
 ---
 title: "ICI’s Think College Awarded 5-Year $10 Million Grant"
 description: ""
-path: "/news/2025-10-06_think-college-awarded-ncc-grant.md"
+path: "/news/2025-10-06_think-college-awarded-ncc-grant"
 date: "2025-10-06"
 tags: ['Think College', 'grant', 'TPSID', 'NCC', 'postsecondary education']
 posttype: "news"

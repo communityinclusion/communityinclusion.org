@@ -1,7 +1,7 @@
 ---
 title: "Think College at the Institute for Community Inclusion at UMass Boston receives $10 Million Grant on Postsecondary Education for Students with Intellectual Disability"
 description: ""
-path: "/news/2025-10-03_icis-think-college-at-umass-receives-10m-grant.md"
+path: "/news/2025-10-03_icis-think-college-at-umass-receives-10m-grant"
 date: "2025-10-03"
 tags: ['NCC', 'Think College', 'grant', 'Press Release' ]
 posttype: "news"
