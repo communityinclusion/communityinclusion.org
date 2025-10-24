@@ -1,7 +1,7 @@
 ---
 title: "ICI Launches New Collaborative UMass DeafBlind Graduate Certificate Program this Fall"
 description: ""
-path: "/news/2025-08-06_ici-launches-new-collaborative-umass-deafblind-graduate-certificate-program.md"
+path: "/news/2025-08-06_ici-launches-new-collaborative-umass-deafblind-graduate-certificate-program"
 date: "2025-08-06"
 tags: ['ICI', 'Institute for Community Inclusion']
 posttype: "news"

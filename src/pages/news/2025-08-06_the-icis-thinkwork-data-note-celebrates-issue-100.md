@@ -1,7 +1,7 @@
 ---
 title: "The ICI’s ThinkWork Data Note Celebrates Issue 100"
 description: ""
-path: "/news/2025-08-06_the-icis-thinkwork-data-note-celebrates-issue-100.md"
+path: "/news/2025-08-06_the-icis-thinkwork-data-note-celebrates-issue-100"
 date: "2025-08-06"
 tags: ['ICI', 'Institute for Community Inclusion', 'thinkwork']
 posttype: "news"
