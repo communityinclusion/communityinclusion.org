@@ -18,7 +18,7 @@ description: "ICI supports people with disabilities in leadership development, c
 
 <p>CLE is about increasing access to and participation in the life of the community through activities such as volunteer work, adult or continuing education, recreation, and any other ways people engage in community outside of work.</p>
 
-<p>I am interested in learning more [link here to Explore CLE xx]</p>
+<p><a href="https://cletoolkit.communityinclusion.org/" class="btn btn-outline-primary">Learn more about CLE</a></p>
 </div>
 
 <div class="card shadow-sm p-3 m-3">
@@ -26,7 +26,8 @@ description: "ICI supports people with disabilities in leadership development, c
 
 <p>People with disabilities should be the drivers of their own lives. We conduct research and share resources about alternative decision-making options for youth and adults with disabilities, their families, and professionals.</p>
 
-<p>I am interested in learning more [link here to GATOR, CYVYCXX]</p>
+<p><a href="https://gator.communityinclusion.org/" class="btn btn-outline-primary">Learn more about GATOR</a></p>
+<p><a href="https://youth-voice.org/" class="btn btn-outline-primary">Learn more about The Center on Youth Voice, Youth Choice </a></p>
 </div>
 
 <div class="card shadow-sm p-3 m-3">
@@ -34,7 +35,7 @@ description: "ICI supports people with disabilities in leadership development, c
 
 <p>We prepare teachers and other specialists who work with youth and adults with visual impairments through professional development, technology, and research.</p>
 
-<p>I am interested in learning more [link to NERCVE]</p>
+<p><a href="https://www.nercve.org/" class="btn btn-outline-primary">Learn more about NERCVE</a></p>
 </div>
 
 <div class="card shadow-sm p-3 m-3">
@@ -42,7 +43,8 @@ description: "ICI supports people with disabilities in leadership development, c
 
 <p>We help to cultivate the next set of international disability leaders through civic engagement opportunities and fellowship programs.</p>
 
-<p>I am interested in learning more [link to Tomodachi, PFP]</p>
+<p><a href="" class="btn btn-outline-primary">Learn more about Tomodachi</a></p>
+<p><a href="https://pfpinclusion.org/" class="btn btn-outline-primary">Learn more about The Professional Fellows Program on Civic Engagement</a></p>
 </div>
 
 <div class="card shadow-sm p-3 m-3">
@@ -50,4 +52,4 @@ description: "ICI supports people with disabilities in leadership development, c
 
 <p>We are deeply invested in engaging people with all kinds of lived experiences across every dimension of our work.</p>
 
-<p>Interested in learning more [xx need to think about what to link here? CAC?]</p></div>
+<p><a href="" class="btn btn-outline-primary">Learn more about ####</a></p>
