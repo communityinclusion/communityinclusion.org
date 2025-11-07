@@ -946,9 +946,6 @@ details a.btn.btn-primary {
 
   .staff_profile .staff_ed ul {list-style-position: inside;}
 
-
-
-
 .gsc-search-button-v2 {
     padding: 10px 20px!important;
         border-radius: 0!important;
@@ -974,4 +971,84 @@ table.gsc-search-box td.gsc-input
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: #fff;
+}
+
+  /* JC's title overwrite */
+/* Hide page-title when hide-title class exists */
+body:has(.hide-title) .page-title {
+  display: none;
+}
+
+/* Gradient colons for community page */
+@keyframes rotate-ldots-top {
+  0%, 100% { background-color: #5D9632; } /* Green */
+  25% { background-color: #D4652D; } /* Orange */
+  50% { background-color: #99312A; } /* Red */
+  75% { background-color: #522E75; } /* Purple */
+}
+
+@keyframes rotate-ldots-bottom {
+  0%, 100% { background-color: #D4652D; } /* Orange */
+  25% { background-color: #99312A; } /* Red */
+  50% { background-color: #522E75; } /* Purple */
+  75% { background-color: #5D9632; } /* Green */
+}
+
+@keyframes rotate-rdots-top {
+  0%, 100% { background-color: #522E75; } /* Purple */
+  25% { background-color: #5D9632; } /* Green */
+  50% { background-color: #D4652D; } /* Orange */
+  75% { background-color: #99312A; } /* Red */
+}
+
+@keyframes rotate-rdots-bottom {
+  0%, 100% { background-color: #99312A; } /* Red */
+  25% { background-color: #522E75; } /* Purple */
+  50% { background-color: #5D9632; } /* Green */
+  75% { background-color: #D4652D; } /* Orange */
+}
+
+.ldots, .rdots {
+  font-size: 0;
+  display: inline-block;
+  width: 12px;
+  height: 40px;
+  position: relative;
+  vertical-align: middle;
+  margin: 0 4px;
+}
+
+.ldots::before, .ldots::after,
+.rdots::before, .rdots::after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ldots::before {
+  top: 0;
+  background-color: #5D9632;
+  animation: rotate-ldots-top 2s ease-in-out 1;
+}
+
+.ldots::after {
+  bottom: 0;
+  background-color: #D4652D;
+  animation: rotate-ldots-bottom 2s ease-in-out 1;
+}
+
+.rdots::before {
+  top: 0;
+  background-color: #522E75;
+  animation: rotate-rdots-top 2s ease-in-out 1;
+}
+
+.rdots::after {
+  bottom: 0;
+  background-color: #99312A;
+  animation: rotate-rdots-bottom 2s ease-in-out 1;
 }
