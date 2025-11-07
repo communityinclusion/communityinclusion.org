@@ -1011,13 +1011,13 @@ body:has(.hide-title) .page-title {
   }
   35% {
     background-color: #0075AD;
-    transform: translate(calc(-50% - 16px), -40px); /* Move to left top */
+    transform: translate(calc(-50% - 16px), -28px); /* Move to left top */
     opacity: 1;
     z-index: 10;
   }
   50% {
     background-color: #0075AD;
-    transform: translate(-50%, -40px); /* Move to right top */
+    transform: translate(-50%, -28px); /* Move to right top */
     opacity: 1;
     z-index: 10;
   }
