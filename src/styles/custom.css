@@ -992,7 +992,7 @@ body:has(.hide-title) .page-title {
 }
 
 .community {
-  animation: community-color-change 0.5s ease-in-out 4s 1 forwards;
+  animation: community-color-change 0.5s ease-in-out 3.2s 1 forwards;
 }
 
 /* Blue dot traveling animation - moves clockwise through all 4 positions */
