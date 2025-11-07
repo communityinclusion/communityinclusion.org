@@ -7,7 +7,7 @@ thumbnail: '../../images/ICI.png'
 description: "ICI supports people with disabilities in leadership development, capacity-building, and self-advocacy to create more welcoming and accessible communities worldwide."
 ---
 
-<h1 class="display-2 community hide-title text-center"><span class="blue">ICI</span> <strong class="ldots">:</strong><strong class="rdots">:</strong> <span class="red">Community</span></h1>
+<h1 class="display-2  hide-title text-center"><span class="blue">ICI</span> <strong class="ldots">:</strong><strong class="rdots">:</strong> <span class="community">Community</span></h1>
 <p>All people should have the opportunity to be fully included in their communities. Community inclusion is about participating in one’s community through leadership development, personal and professional capacity- building, and self-advocacy. We engage people with lived experience in our work to create more welcoming and accessible communities around the world for people with disabilities.</p>
 
 <p>Our community work covers a range of topical areas and complements ICI’s ongoing work on employment, education, and health care. Our projects encompass a combination of research, development, and training.</p>
