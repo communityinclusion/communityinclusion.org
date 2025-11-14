@@ -41,10 +41,11 @@ description: "ICI supports people with disabilities in leadership development, c
 <div class="card shadow-sm p-3 m-3">
 <h2 class="card-title">International leadership</h2>
 
-<p>We help to cultivate the next set of international disability leaders through civic engagement opportunities and fellowship programs.</p>
+<p>We help to cultivate the next set of international disability leaders through civic engagement opportunities and fellowship programs.<br>
+<a href="https://pfpinclusion.org/" class="btn btn-outline-primary">Learn more about The Professional Fellows Program on Civic Engagement</a></p>
+<p>Learn more about the TOMODACHI Story Jam, a  9-week digital storytelling and youth leadership program. 
+<br><a href="https://www.youtube.com/playlist?list=PL6OzbTjFN-HX0rtqK4XnUSK426KeGW7XI" class="btn btn-outline-primary">Learn more about Tomodachi</a></p>
 
-<p><a href="" class="btn btn-outline-primary">Learn more about Tomodachi</a></p>
-<p><a href="https://pfpinclusion.org/" class="btn btn-outline-primary">Learn more about The Professional Fellows Program on Civic Engagement</a></p>
 </div>
 
 <div class="card shadow-sm p-3 m-3">
@@ -52,4 +53,6 @@ description: "ICI supports people with disabilities in leadership development, c
 
 <p>We are deeply invested in engaging people with all kinds of lived experiences across every dimension of our work.</p>
 
-<p><a href="" class="btn btn-outline-primary">Learn more about ####</a></p>
+<p><a href="https://gator.communityinclusion.org/" class="btn btn-outline-primary">Learn more about GATOR</a></p>
+<p><a href="https://youth-voice.org/" class="btn btn-outline-primary">Learn more about The Center on Youth Voice, Youth Choice </a></p>
+</div>
