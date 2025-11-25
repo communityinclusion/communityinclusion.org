@@ -17,8 +17,8 @@ description: "ICI supports people with disabilities in leadership development, c
 <div class="card shadow-sm p-3 m-3">
 <h2 class="card-title">Community Life Engagement </h2>
 <div class="row">
-    <div class="col-sm-2"><div class="card-image"><img src="../../images/cle-toolkit.png" alt = "Community Life Engagement"/></div></div>
-    <div class="col-sm-10"><p>Community Life Engagement is about increasing access to and participation in the life of the community through activities such as volunteer work, adult or continuing education, recreation, and any other ways people engage in community outside of work.</p>
+    <div class="col-sm-1"><div class="card-image"><img src="../../images/cle-toolkit.png" alt = "Community Life Engagement"/></div></div>
+    <div class="col-sm-11"><p>Community Life Engagement is about increasing access to and participation in the life of the community through activities such as volunteer work, adult or continuing education, recreation, and any other ways people engage in community outside of work.</p>
 <p><a href="https://cletoolkit.communityinclusion.org/" class="btn btn-outline-primary">Learn more about Community Life Engagement</a></p>
 </div>
 </div>
@@ -27,13 +27,13 @@ description: "ICI supports people with disabilities in leadership development, c
 
 
 <div class="card shadow-sm p-3 m-3">
-<h2 class="card-title">Alternatives to guardianship, transfer-of-rights, and supported decision making</h2>
+<h2 class="card-title">Alternatives to Guardianship, Transfer-of-Rights, and Supported Decision Making</h2>
 <div class="row">
-    <div class="col-sm-2">    
+    <div class="col-sm-1">    
         <img src="../../images/gator_thumbnail.png" alt = "Gator" />
                     <img src="../../images/project_logos/CIVIC_square_web.png" alt = "Youth Voice Youth Choice site" />
                     </div>
-    <div class="col-sm-10"><p>People with disabilities should be the drivers of their own lives. We conduct research and share resources about alternative decision-making options for youth and adults with disabilities, their families, and professionals.</p>
+    <div class="col-sm-11"><p>People with disabilities should be the drivers of their own lives. We conduct research and share resources about alternative decision-making options for youth and adults with disabilities, their families, and professionals.</p>
 <p><a href="https://gator.communityinclusion.org/" class="btn btn-outline-primary">Learn more about the Guardianship Alternatives and Transfer of Rights Project</a></p>
 <p><a href="https://youth-voice.org/" class="btn btn-outline-primary">Learn more about The Center on Youth Voice, Youth Choice </a></p></div>
   </div>
@@ -41,20 +41,20 @@ description: "ICI supports people with disabilities in leadership development, c
 </div>
 
 <div class="card shadow-sm p-3 m-3">
-<h2 class="card-title">Improving education for people with visual impairments</h2>
+<h2 class="card-title">Improving Outcomes for Children and Adults With Visual Impairments and Deafblindness</h2>
 <div class="row">
-    <div class="col-sm-2"><img src="../../images/nercve.png" alt = "NERCVE" />
+    <div class="col-sm-1"><img src="../../images/nercve.png" alt = "NERCVE" />
 </div>
-    <div class="col-sm-10"><p>We prepare teachers and other specialists who work with youth and adults with visual impairments through professional development, technology, and research.</p>
+    <div class="col-sm-11"><p>We prepare teachers and other specialists who work with youth and adults with visual impairments through professional development, technology, and research.</p>
 <p><a href="https://www.nercve.org/" class="btn btn-outline-primary">Learn more about the Northeast Resource Center for Vision Education</a></p></div>
   </div>
 </div>
 
 <div class="card shadow-sm p-3 m-3">
-<h2 class="card-title">International leadership</h2>
+<h2 class="card-title">Inclusive Civic Engagement</h2>
 <div class="row">
-    <div class="col-sm-2"><img src="../../images/ct-100.png" alt = "Professional Fellows Program" /></div>
-    <div class="col-sm-10"><p>We help to cultivate the next set of international disability leaders through civic engagement opportunities and fellowship programs.<br>
+    <div class="col-sm-1"><img src="../../images/ct-100.png" alt = "Professional Fellows Program" /></div>
+    <div class="col-sm-11"><p>We help to cultivate the next set of international disability leaders through civic engagement opportunities and fellowship programs.<br>
 <a href="https://pfpinclusion.org/" class="btn btn-outline-primary">Learn more about The Professional Fellows Program on Civic Engagement</a></p>
 <p>Learn more about the TOMODACHI Story Jam, a  9-week digital storytelling and youth leadership program. 
 <br><a href="https://www.youtube.com/playlist?list=PL6OzbTjFN-HX0rtqK4XnUSK426KeGW7XI" class="btn btn-outline-primary">Learn more about Tomodachi</a></p></div>
@@ -62,12 +62,12 @@ description: "ICI supports people with disabilities in leadership development, c
 </div>
 
 <div class="card shadow-sm p-3 m-3">
-<h2 class="card-title">Engaging people with lived experience</h2>
+<h2 class="card-title">Engaging People With Lived Experience</h2>
 <div class="row">
-    <div class="col-sm-2"><img src="../../images/gator_thumbnail.png" alt = "Gator" />
+    <div class="col-sm-1"><img src="../../images/gator_thumbnail.png" alt = "Gator" />
                     <img src="../../images/project_logos/CIVIC_square_web.png" alt = "Youth Voice Youth Choice site" /></div>
-    <div class="col-sm-10"><p>We are deeply invested in engaging people with all kinds of lived experiences across every dimension of our work.</p>
-<p><a href="https://gator.communityinclusion.org/" class="btn btn-outline-primary">Learn more about GATOR</a></p>
+    <div class="col-sm-11"><p>We are deeply invested in engaging people with all kinds of lived experiences across every dimension of our work.</p>
+<p><a href="https://gator.communityinclusion.org/" class="btn btn-outline-primary">Learn more about the Guardianship Alternatives and Transfer of Rights Project</a></p>
 <p><a href="https://youth-voice.org/" class="btn btn-outline-primary">Learn more about The Center on Youth Voice, Youth Choice </a></p></div>
   </div>
 

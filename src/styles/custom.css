@@ -1051,7 +1051,17 @@ body:has(.hide-title) .page-title {
   60%, 100% { opacity: 1; }
 }
 
-.ldots, .rdots {
+.ldots {
+  font-size: 0;
+  display: inline-block;
+  width: 12px;
+  height: 40px;
+  position: relative;
+  vertical-align: middle;
+  margin: 0 4px;
+}
+
+.rdots {
   font-size: 0;
   display: inline-block;
   width: 12px;
