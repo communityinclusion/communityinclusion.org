@@ -46,7 +46,7 @@ Education
 </div>
 <div class="col-md-9">
 <h2 class="card-title"><a href="/about/areas-of-emphasis/community">
-Community Life
+Community
 </a></h2>
 <p>Outside of work and school, people with disabilities are involved in a wide range of activities that make up a satisfying life. Whether it’s volunteering at a music festival, getting involved with a faith community, or attending a sports event, there’s much more to life than a job.
 </p>
