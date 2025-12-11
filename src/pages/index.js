@@ -140,13 +140,13 @@ Research has shown that people with disabilities are an untapped, qualified reso
  <div className="card mb-2">
   <div className="card-header bg-red">
   <img src={community_logo} className="d-inline-block align-middle" alt = "Community icon" /> 
-    <h3 className="fs-4 text-white d-inline-block align-middle ps-2"> Community Life</h3>
+    <h3 className="fs-4 text-white d-inline-block align-middle ps-2"> Community </h3>
    </div>
     <div className="card-body d-flex flex-column px-0 pb-0">
       <p>
    Outside of work and school, people with disabilities are involved in a wide range of activities that make up a satisfying life. Whether it's getting involved with a faith community, attending a sports event, or volunteering at a local charity, people with disabilities participate in their community.
       </p>
-      <p className="mt-auto"><Link to="/areas-of-emphasis/community"> Learn More About Community Life &gt;&gt;</Link></p>
+      <p className="mt-auto"><Link to="/areas-of-emphasis/community"> Learn More About Community &gt;&gt;</Link></p>
     </div>
     </div>
 </div>
