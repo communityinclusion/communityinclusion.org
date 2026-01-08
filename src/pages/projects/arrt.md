@@ -11,7 +11,7 @@ thumbnail: "../../images/ICI.png"
             <div class="col-sm-6 pt-sm-5">
             <h1 class="display-3">Welcome to ARRT!</h1>
 <p class="fs-4">Are you a researcher interested in applying for a postdoctoral ARRT Program Fellowship? </p>
-<p>Explore this page for more information or <a href="#apply">skip to the application</a>.</p> 
+<p>Explore this page for more information</p> 
             </div>
             <div class="col-sm-6"><p><img src="/images/group.jpg" class="img-fluid rounded" alt="A group of racially and ethnically diverse youth, some with disabilities, are sitting together, talking and laughing."></p>
             </div>
@@ -64,7 +64,7 @@ thumbnail: "../../images/ICI.png"
 <section id="apply">
 <div class="card_pill mb-4">
                 <p class="h2">Ready to apply? </p>
-    <p>Complete the postdoctoral ARRT Program Fellowship application by November 30, 2025. <a href="https://employmentopportunities.umb.edu/boston/en-us/job/528566/post-doctoral-research-fellow" class="btn btn-primary " type="button">Apply Now</a> </p>
+    <p>Applications for the fall 2026 postdoctoral ARRT Program Fellowship positions will open in late spring/early summer. </p>
                 </div>
 <p><em>The webpage was developed under a grant from the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR grant number 90AREM0009).  NIDILRR is a Center within the Administration for Community Living (ACL), Department of Health and Human Services (HHS).  The contents do not necessarily represent the policy of NIDILRR, ACL, or HHS, and you should not assume endorsement by the Federal Government.</em></p>
 </section>
