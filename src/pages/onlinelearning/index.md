@@ -11,7 +11,7 @@ thumbnail: "../../images/ICI.png"
 <div class="d-grid gap-3">
   <div class="card">
     <a href="/onlinelearning/cesacre/">
-    <img src="CES_i_acre_long.png" class="card-img-top" style="max-width: 850px;" alt="CES ACRE"></a>
+    <img src="/images/onlinelearning/CES_i_acre_long.png" class="card-img-top" style="max-width: 850px;" alt="CES ACRE"></a>
     <div class="card-body">
       <p class="card-text"><p class=""><strong>College of Employment Services (CES)</strong>. The CES ACRE Course is a self-guided training that includes 11 CES courses plus activities and fieldwork. Learners who complete the CES ACRE training and fieldwork will receive the ACRE certificate and be listed on the <a href="https://www.acreducators.org/certificate-registry.html">Certificate Registry on the ACRE website.</a></p>
       <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre-bundle">Enroll in CES + ACRE Course</a> </p>
@@ -22,7 +22,7 @@ thumbnail: "../../images/ICI.png"
     </div>
   </div>
 <div class="card">
-    <img src="CES_i_long.png" class="card-img-top" style="max-width: 850px;" alt="College of Employment Services">
+    <img src="/images/onlinelearning/CES_i_long.png" class="card-img-top" style="max-width: 850px;" alt="College of Employment Services">
     <div class="card-body">
       <p ><strong>College of Employment Services</strong> (CES) is for employment service providers who support people with disabilities to find fulfilling work.</p>
 <p>
@@ -110,7 +110,7 @@ thumbnail: "../../images/ICI.png"
 </div>
 <div class="card">
   <a href="https://elearning.communityinclusion.org/browse/cle/courses/explore-community-life-engagement">
-  <img src="EXPLORE_CLE_th.png" class="card-img-top" style="max-width: 600px;" alt="Introduction to Community Life Engagement"></a>
+  <img src="/images/onlinelearning/EXPLORE_CLE_th.png" class="card-img-top" style="max-width: 600px;" alt="Introduction to Community Life Engagement"></a>
   <div class="card-body">
     <p class="card-text"> The Institute for Community Inclusion's <strong>Introduction to Community Life Engagement</strong> course can help you build your skills and feel more confident in your role as a direct support professional working in the community. These self-paced online learning lessons will help you learn how to engage in effective person-centered planning, support community life engagement outcomes, map available resources, and build natural supports in the community for people with disabilities. </p>
     <a  href="https://elearning.communityinclusion.org/browse/cle/courses/explore-community-life-engagement">
@@ -120,7 +120,7 @@ thumbnail: "../../images/ICI.png"
 </div>
   <div class="card">
     <a href="https://www.explorevr.org/its-employment-training-state-learning-collaborative">
-    <img src="its_employment.png" class="card-img-top" style="max-width: 600px;" alt="its employment"></a>
+    <img src="/images/onlinelearning/its_employment.png" class="card-img-top" style="max-width: 600px;" alt="its employment"></a>
     <div class="card-body">
       <p class="card-text"><strong>ITS Employment</strong> This free training is for VR professionals to improve employment outcomes for job seekers with intellectual disabilities. Learners can complete self-paced, 2-hour course modules for Certified Rehabilitation Counselor (CRC) credit. We offer a new training topic each month with a corresponding facilitator guide to support group learning and discussions.</p>
       <a  href="https://www.explorevr.org/its-employment-training-state-learning-collaborative">
@@ -129,7 +129,7 @@ thumbnail: "../../images/ICI.png"
     </div>
   </div>
   <div class="card"><a href="https://www.uwstout.edu/SVRI/NTCTRL">
-    <img src="ntct.png" class="card-img-top" style="max-width: 600px;" alt="National Training for Transformational Rehabilitation Leadership"></a>
+    <img src="/images/onlinelearning/ntct.png" class="card-img-top" style="max-width: 600px;" alt="National Training for Transformational Rehabilitation Leadership"></a>
     <div class="card-body">
       <p class="card-text"><strong>National Training for Transformational Rehabilitation Leadership</strong> This leadership enhancement training program is for current and aspiring vocational rehabilitation (VR) leaders. The training covers six domains of VR leadership across three semesters that each cullminate in a faciliated peer-to-peer learning collaborative. After the final semester, participants complete an applied experiential learning capstone project to practice their transformational leadership skills.</p>
       <p>Participants can complete all lessons asynchronously, with guidance and mentorship from experienced instructors and though community discussions with other aspiring leaders. After successfully completing the training program and capstone project, leaders can earn a nationally recognized Certified Rehabilitation Leader (CRL) credential from the CRCC.</p>
@@ -137,7 +137,7 @@ thumbnail: "../../images/ICI.png"
     </div>
   </div>
   <div class="card"><a href="https://online.umb.edu/programs/transition_leadership_certificate">
-    <img src="transition_leadership.png" class="card-img-top" style="max-width: 600px;" alt="Transition  Program at UMass Boston"></a>
+    <img src="/images/onlinelearning/transition_leadership.png" class="card-img-top" style="max-width: 600px;" alt="Transition  Program at UMass Boston"></a>
     <div class="card-body">
       <p class="card-text"><strong>The Transition Leadership Program</strong> prepares current and prospective educators and professionals to help students with disabilities focus on employment, college preparation, and independent living skills during the critical transition from high school to adult life. Over the course of 18 months, our highly qualified instructors lead 5 evidence-based courses, and learners engage in a hands-on practicum experience. Graduates of our program are eligible to apply for a national certification from the Council for Exceptional Children's Division on Career Development and Transition.</p>
        <p>UMass Boston's accredited transition specialist training is the #1 transition specialist training program in the Eastern US!</p>
@@ -147,7 +147,7 @@ thumbnail: "../../images/ICI.png"
 
   
   <div class="card"><a href="https://elearning.communityinclusion.org/browse/seln/courses/seln-supporting-a-vision-for-employment-101">
-    <img src="seln_elearning.png" class="card-img-top" style="max-width: 600px;" alt="SELN: Supporting a Vision for Employment"></a>
+    <img src="/images/onlinelearning/seln_elearning.png" class="card-img-top" style="max-width: 600px;" alt="SELN: Supporting a Vision for Employment"></a>
     <div class="card-body">
       <p class="card-text"><strong>SELN: Supporting a Vision for Employment</strong> This online course is crafted for case managers and those in similar roles responsible for advising, assisting, and advocating for individuals with intellectual and developmental disabilities (IDD) seeking employment. This is a self-paced course including 4 modules with scenarios, case studies and stories that put the learner "in the room" immersing them in what is happening and strengthening learning. Estimated time to complete the course is 5-6 hours, including quizzes and post-survey.</p>
        <p><a href="https://www.selnhub.org/resources/elearning">Learn more about SELN: Supporting a Vision for Employment</a></p>

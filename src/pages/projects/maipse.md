@@ -9,7 +9,7 @@ thumbnail: "../../images/ICI.png"
 <div class="row">
 <div class="p-2 mb-2 bg-light rounded-3 col-md-9 row">
   <div class="col-md-2">
-  <a href="/projects/maicei">
+  <a href="/projects/maipse">
     <img src="../../images/maicie/MAIPSE_V2.png"  alt="MAIPSE LOGO">
     <img src="../../images/maicie/UMB_blue.png"  alt="UMASS BOSTON">
     </a>
