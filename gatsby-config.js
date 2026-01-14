@@ -39,11 +39,8 @@ plugins: [
         policy: [{ userAgent: '*', allow: '/' }]
       }
     }
-  }
-}, 
-{
-  resolve: "@sentry/gatsby"
-}, 
+  },
+},
   `gatsby-plugin-netlify`,
   `gatsby-plugin-image`,
   `gatsby-plugin-sharp`,
@@ -261,10 +258,6 @@ plugins: [
 },
 {
   pathname: '/news',
-  crumbLabel: 'News',
-},
-{
-  pathname: 'news/',
   crumbLabel: 'News',
 },
 {
