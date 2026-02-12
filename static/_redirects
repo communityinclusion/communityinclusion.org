@@ -43,8 +43,6 @@ https://intranet.communityinclusion.org/*   https://liveumb.sharepoint.com/sites
 /ces/   /onlinelearning/ces/
 /cesil/ /onlinelearning/ces/
 /cesacre/   /onlinelearning/cesacre/
-/pdf/* /:splat
-/word/* /:splat
 /staff.php /about/staff-directory 
 /article.php /news
 /project.php /projects
