@@ -20,4 +20,4 @@ Through Explore CLE, we offer:
 
 Community engagement can give meaning to people’s lives. People with IDD deserve opportunities to make their own personal choices, with support if they need it, about how they want to live their lives.
 
-[Sign up for our Explore CLE e-newsletter to get updates and resources about community life engagement at the ICI!](https://lp.constantcontactpages.com/sl/AP6bdqa/cle)
+[Sign up for our Explore CLE e-newsletter to get updates and resources about community life engagement at the ICI!](https://lp.constantcontactpages.com/sl/O3u23Pu/cle)
