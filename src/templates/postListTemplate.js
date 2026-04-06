@@ -57,7 +57,7 @@ const crumbLabelArr = customCrumbLabel.split('/');
                 </h2>
               <p className="post-list__date navy">{post.node.frontmatter.date}</p>
               <div className="post-list__excerpt">
-                <p>{post.node.excerpt}</p>
+                <p>{post.node.frontmatter.description || post.node.excerpt}</p>
               </div>
             </div>
           </div>
@@ -104,6 +104,7 @@ export const pageQuery = graphql`query GetNewsPosts($limit: Int, $skip: Int) {
         frontmatter {
           title
           date(formatString: "MMMM Do, YYYY")
+          description
           tags
           posttype
           thumbnail {

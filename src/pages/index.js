@@ -197,7 +197,7 @@ Research has shown that people with disabilities are an untapped, qualified reso
               </Link>
              </h3>
            <div className="post-list__excerpt">
-             <p>{post.node.excerpt}</p>
+             <p>{post.node.frontmatter.description || post.node.excerpt}</p>
            </div>
          </div>
        </div>
@@ -295,6 +295,7 @@ export const pageQuery = graphql`{
         }
         frontmatter {
           title
+          description
           tags
           thumbnail {
             childImageSharp {
