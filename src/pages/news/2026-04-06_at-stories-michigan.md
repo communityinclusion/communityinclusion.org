@@ -1,7 +1,7 @@
 ---
 title: "AT Stories: Michigan"
 description: "April 22 is Assistive Technology Awareness Day! Assistive Technology (AT) plays a very important role in supporting independence for people with disabilities."
-path: "/news/2026-04-06_at-stories-michigan.md"
+path: "/news/2026-04-06_at-stories-michigan"
 date: "2026-04-06"
 tags: ['michigan', 'assistive technology', 'institute for community inclusion', 'UMass Boston']
 posttype: "news"
