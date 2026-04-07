@@ -5,6 +5,8 @@ http://dev.communityinclusion.org/*   https://dev--icibeta.netlify.app/:splat 30
 http://intranet.communityinclusion.org/*   https://liveumb.sharepoint.com/sites/SGISDIntranet/:splat 301!
 https://intranet.communityinclusion.org/*   https://liveumb.sharepoint.com/sites/SGISDIntranet/:splat 301!
 
+
+/clehol-cp2 https://elearning.communityinclusion.org/browse/cle/courses/clehol-cp2
 /fellowships/crocker /about/fellowships/crocker
 /fellowships/gopen /about/fellowships/gopen
 /champps https://champs.communityinclusion.org
