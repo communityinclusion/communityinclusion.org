@@ -5,7 +5,7 @@ path: "/news/2026-04-06_at-stories-michigan"
 date: "2026-04-06"
 tags: ['michigan', 'assistive technology', 'institute for community inclusion', 'UMass Boston']
 posttype: "news"
-thumbnail: "../../images/ICI.png"
+thumbnail: "../../images/IMG_1076.png"
 ---
 
 ## Small Adaptations, Big Independence
@@ -13,6 +13,7 @@ thumbnail: "../../images/ICI.png"
 _April 22 is Assistive Technology Awareness Day! Assistive Technology (AT) plays a very important role in supporting independence for people with disabilities. AT includes any device, equipment, or system that is used to enhance functional abilities of people with disabilities._
 
 _Across 56 US states and territories, AT programs transform access to life-changing technology. These statewide, comprehensive, consumer-driven programs help people of all ages and abilities test and get access to the AT tools they need to live, learn, work, and thrive—wherever life takes them._
+
 
 Check out Natalie’s story from the [**Michigan Assistive Technology Program (MATP)**](https://mi-at.org/)
 

@@ -957,6 +957,18 @@ table.gsc-search-box td.gsc-input
 .navbar-toggler:focus {
     box-shadow:none!important;
 }
+   ul.navbar-nav>li>a {
+                font-size: 18px!important;
+            }
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #fff;
+        padding: 10px 15px;
+    }
+}
+
 
 .gsc-search-button {
       margin-left: 0!important;  
