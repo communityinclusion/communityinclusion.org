@@ -1,14 +1,14 @@
 ---
-title: "AT Stories: Michigan"
+title: "Michigan: Small Adaptations, Big Independence"
 description: "April 22 is Assistive Technology Awareness Day! Assistive Technology (AT) plays a very important role in supporting independence for people with disabilities."
 path: "/news/2026-04-06_at-stories-michigan"
 date: "2026-04-06"
-tags: ['michigan', 'assistive technology', 'institute for community inclusion', 'UMass Boston']
+tags: ['michigan', 'assistive technology', 'institute for community inclusion', 'UMass Boston', 'AT stories']
 posttype: "news"
 thumbnail: "../../images/IMG_1076.png"
 ---
 
-## Small Adaptations, Big Independence
+![A young blonde girl with curly hair holds an assistive device that helps stabilize and guide hand movements. She is sitting in a chair with a tray. ](/images/IMG_1061-1080x800.png)
 
 _April 22 is Assistive Technology Awareness Day! Assistive Technology (AT) plays a very important role in supporting independence for people with disabilities. AT includes any device, equipment, or system that is used to enhance functional abilities of people with disabilities._
 
