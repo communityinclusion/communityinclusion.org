@@ -23,4 +23,8 @@ Natalie also received a demonstration and short-term loan of Guided Hands, an as
 
 Natalie, her mom, and her OT were thrilled when Natalie was able to reach much more of a coloring page with her markers using this combination of AT. The moment showed how small adaptations can open the door to greater independence and participation. 
 
+<div class="bg-light p-3">
+
 _Want to learn more about what_ _State and Territory Assistive Technology programs do to improve access, expand the availability, and raise awareness of AT for people with disabilities and older adults?_ [_Visit_ _CATADA_](https://catada.info/)_, the Institute for Community Inclusion’s central hub for data, best practices, consumer stories, and resources focused on improving access to AT as reported by State and Territory Assistive Technology Programs._
+
+</div>
