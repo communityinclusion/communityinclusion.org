@@ -1,7 +1,7 @@
 ---
 title: "Connecticut: Exploring New Possibilities with Apple Vision Pro"
 description: "A technology representative was interested in trialing the Apple Vision Pro to learn more about its features, including built-in accessibility tools and its potential to enhance workplace productivity."
-path: "/news/2026-04-14_at-stories-michigan"
+path: "/news/2026-04-14_at-story-connecticut"
 date: "2026-04-14"
 tags: ['connecticut', 'assistive technology', 'institute for community inclusion', 'UMass Boston', 'AT stories']
 posttype: "news"

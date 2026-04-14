@@ -1,7 +1,7 @@
 ---
 title: "Illinois: Technology Helps Gianna Keep Up in Class"
 description: "Gianna, a first grader, has vision difficulties along with coordination and attention challenges resulting from a brain injury. These challenges made it difficult for her to fully participate in classroom activities. Fortunately, she has a strong school team—including her teacher, occupational therapist, and vision therapist— who have implemented several assistive technology (AT) supports."
-path: "/news/2026-04-14_at-stories-illinois"
+path: "/news/2026-04-14_at-story-illinois"
 date: "2026-04-14"
 tags: ['illinois', 'assistive technology', 'institute for community inclusion', 'UMass Boston', 'AT stories']
 posttype: "news"

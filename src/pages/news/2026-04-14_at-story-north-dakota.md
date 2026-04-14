@@ -1,7 +1,7 @@
 ---
 title: "North Dakota: Assistive Technology Supports Safer Aging at Home"
 description: "M and her daughter-in-law were experiencing growing stress related to M’s physical and cognitive changes. With early signs of dementia, they decided to get ahead of the challenges and begin planning for ways to support M’s independence and safety."
-path: "/news/2026-04-14_at-stories-north-dakota"
+path: "/news/2026-04-14_at-story-north-dakota"
 date: "2026-04-14"
 tags: ['north dakota', 'assistive technology', 'institute for community inclusion', 'UMass Boston', 'AT stories']
 posttype: "news"

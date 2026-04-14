@@ -1,7 +1,7 @@
 ---
 title: "Texas: One Hand, New Opportunity"
 description: "BridgingApps met with an adult client with a physical disability that affects the use of his right hand. He was working with the transition program at Easter Seals Greater Houston to find employment and wanted to learn about his assistive technology (AT) options for the workplace."
-path: "/news/2026-04-14_at-stories-texas"
+path: "/news/2026-04-14_at-story-texas"
 date: "2026-04-14"
 tags: ['texas', 'assistive technology', 'institute for community inclusion', 'UMass Boston', 'AT stories']
 posttype: "news"
