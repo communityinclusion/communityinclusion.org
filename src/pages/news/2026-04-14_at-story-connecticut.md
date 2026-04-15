@@ -8,7 +8,7 @@ posttype: "news"
 thumbnail: "../../images/Connecticut-Demo-25.png"
 ---
 
-![Two women at a booth; one is wearing a headset and the other is assisting her while standing next to a table with informational materials and a NEAT Center banner.](/images/Connecticut-Demo-25.png)
+![Two women at a booth; one is wearing a headset and the other is assisting her while standing next to a table with informational materials and a NEAT Center banner.](/images/Connecticut-Demo-25.png 'An assistive technology specialist from the Connecticut Tech Act Project shows a technology representative the Apple Vision Pro device.')
 
 
 _April 22 is Assistive Technology Awareness Day! Assistive Technology (AT) plays a very important role in supporting independence for people with disabilities. AT includes any device, equipment, or system that is used to enhance functional abilities of people with disabilities._

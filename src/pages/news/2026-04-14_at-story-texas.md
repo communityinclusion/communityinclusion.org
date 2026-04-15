@@ -8,7 +8,7 @@ posttype: "news"
 thumbnail: "../../images/Texas-Demo.png"
 ---
 
-![A man wearing glasses and a red striped shirt sits in an office, smiling and holding a split ergonomic keyboard.](/images/Texas-Demo.png)
+![A man wearing glasses and a red striped shirt sits in an office, smiling and holding a split ergonomic keyboard.](/images/Texas-Demo.png 'A client of the Texas Technology Access Program demonstrates a one-handed keyboard he acquired to help perform tasks required for a potential job.')
 
 
 

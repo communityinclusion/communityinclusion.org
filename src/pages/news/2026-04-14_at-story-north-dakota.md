@@ -8,14 +8,14 @@ posttype: "news"
 thumbnail: "../../images/North-Dakota-Demo-25.png"
 ---
 
-![A younger woman demonstrates a device to an older woman while standing beside shelves filled with assistive technology items in an office setting.](/images/North-Dakota-Demo-25.png)
+![A younger woman demonstrates a device to an older woman while standing beside shelves filled with assistive technology items in an office setting.](/images/North-Dakota-Demo-25.png 'An assistive technology consultant, Shannon Bozovsky, demonstrates a range of tools designed to help with daily living.')
 
 
 _April 22 is Assistive Technology Awareness Day! Assistive Technology (AT) plays a very important role in supporting independence for people with disabilities. AT includes any device, equipment, or system that is used to enhance functional abilities of people with disabilities._
 
 _Across 56 US states and territories, AT programs transform access to life-changing technology. These statewide, comprehensive, consumer-driven programs help people of all ages and abilities test and get access to the AT tools they need to live, learn, work, and thrive—wherever life takes them._
 
-Check out Marlys’ story from the [**North Dakota Assistive Demonstration Center**](https://ndassistive.org/):
+Check out M’s story from the [**North Dakota Assistive Demonstration Center**](https://ndassistive.org/):
 
 ## Planning Ahead: Assistive Technology Supports Safer Aging at Home
 

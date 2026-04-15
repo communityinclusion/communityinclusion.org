@@ -9,7 +9,7 @@ thumbnail: "../../images/Illinois_Device-Loan-25.png"
 ---
 
 
-![A young girl uses a colorful adaptive keyboard connected to a laptop, with an adult sitting beside her, in a classroom or therapy setting.](/images/Illinois_Device-Loan-25.png)
+![A young girl uses a colorful adaptive keyboard connected to a laptop, with an adult sitting beside her, in a classroom or therapy setting.](/images/Illinois_Device-Loan-25.png 'Gianna using an adaptive keyboard connected to a laptop.')
 
 
 
