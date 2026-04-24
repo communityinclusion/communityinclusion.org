@@ -61,7 +61,7 @@ posttype: "page"
 </div>
 
 <div class="card shadow-sm p-3 m-3">
-<h2 class="card-title">Engaging People With Lived Experience</h2>
+<h2 class="card-title">Engaging People with Disabilities</h2>
 <div class="row">
     <div class="col-sm-1"><img src="../../images/gator_thumbnail.png" alt = "Gator" />
                     <img src="../../images/project_logos/CIVIC_square_web.png" alt = "Youth Voice Youth Choice site" /></div>
