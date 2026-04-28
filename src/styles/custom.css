@@ -1003,9 +1003,60 @@ body:has(.hide-title) .page-title {
   }
 }
 
+
+/* Animate education text color after red dot appears */
+@keyframes education-color-change {
+  0% {
+    color: inherit;
+  }
+  100% {
+    color: #522E75;
+  }
+}
+
+
+
+/* Animate employment text color after red dot appears */
+@keyframes employment-color-change {
+  0% {
+    color: inherit;
+  }
+  100% {
+    color: #5D9632;
+  }
+}
+
+
+
+/* Animate healthcare text color after red dot appears */
+@keyframes healthcare-color-change {
+  0% {
+    color: inherit;
+  }
+  100% {
+    color: #D4652D;
+  }
+}
+
+
+
 .community {
   animation: community-color-change 0.5s ease-in-out 3.2s 1 forwards;
 }
+
+
+.education {
+  animation: education-color-change 0.5s ease-in-out 3.2s 1 forwards;
+}
+
+.employment {
+  animation: employment-color-change 0.5s ease-in-out 3.2s 1 forwards;
+}
+
+.healthcare {
+  animation: healthcare-color-change 0.5s ease-in-out 3.2s 1 forwards;
+}
+
 
 /* Blue dot traveling animation - moves clockwise through all 4 positions */
 @keyframes blue-traveler {

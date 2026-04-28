@@ -4,6 +4,7 @@ date: 2018-12-29
 path: "/about/areas-of-emphasis/community"
 thumbnail: '../../images/ICI.png'
 posttype: "page"
+hide_title: true
 ---
 
 <h1 class="display-2  hide-title text-center"><span class="blue">ICI</span> <strong class="ldots">:</strong><strong class="rdots">:</strong> <span class="community">Community</span></h1>
@@ -12,7 +13,7 @@ posttype: "page"
 
 <p>Our community work covers a range of topical areas and complements ICI’s ongoing work on employment, education, and health care. Our projects encompass a combination of research, development, and training.</p>
 
-<h1>Explore ICI Community Projects</h1>
+<h2>Explore ICI Community Projects</h2>
 <div class="card shadow-sm p-3 m-3">
 <h2 class="card-title">Community Life Engagement </h2>
 <div class="row">

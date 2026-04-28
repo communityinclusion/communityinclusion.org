@@ -4,7 +4,9 @@ date: 2018-12-29
 path: "/about/areas-of-emphasis/employment"
 posttype: "page"
 thumbnail: '../../images/ICI.png'
+hide_title: true
 ---
+<h1 class="display-2  hide-title text-center"><span class="blue">ICI</span> <strong class="ldots">:</strong><strong class="rdots">:</strong> <span class="employment">Employment</span></h1>
 
 ICI focuses on employment through a wide variety of initiatives, all with a singular focus: full inclusion of people with disabilities into the mainstream workforce.
 
