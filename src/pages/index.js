@@ -115,7 +115,7 @@ Research has shown that people with disabilities are an untapped, qualified reso
       <p className="lh-copy">
     Building a rewarding career in the community should be an expectation for all citizens. With support and planning, people with significant disabilities can thrive in the workplace.
       </p>
-     <p className="mt-auto"><Link to="/areas-of-emphasis/employment"> Learn More About Employment &gt;&gt;</Link></p>
+     <p className="mt-auto"><Link to="/about/areas-of-emphasis/employment"> Learn More About Employment &gt;&gt;</Link></p>
     </div>
     </div>
  </div>
@@ -131,7 +131,7 @@ Research has shown that people with disabilities are an untapped, qualified reso
       <p>
    From pre-K through university, schools are engaging and involving students with a range of disabilities. By building skills early, young people can exit high school prepared to pursue higher education and find jobs that match their interests.
       </p>
-      <p className="mt-auto"><Link to="/areas-of-emphasis/education"> Learn More About Education &gt;&gt;</Link></p>
+      <p className="mt-auto"><Link to="/about/areas-of-emphasis/education"> Learn More About Education &gt;&gt;</Link></p>
     </div>
     </div>
  </div>
@@ -146,7 +146,7 @@ Research has shown that people with disabilities are an untapped, qualified reso
       <p>
    Outside of work and school, people with disabilities are involved in a wide range of activities that make up a satisfying life. Whether it's getting involved with a faith community, attending a sports event, or volunteering at a local charity, people with disabilities participate in their community.
       </p>
-      <p className="mt-auto"><Link to="/areas-of-emphasis/community"> Learn More About Community &gt;&gt;</Link></p>
+      <p className="mt-auto"><Link to="/about/areas-of-emphasis/community"> Learn More About Community &gt;&gt;</Link></p>
     </div>
     </div>
 </div>
@@ -161,7 +161,7 @@ Research has shown that people with disabilities are an untapped, qualified reso
     <div className="card-body d-flex flex-column px-0 pb-0">
     <p>Accessing quality health care enables us to live productively and to receive support when facing mental, behavioral, or physical challenges. For people with disabilities, adequate health care can require additional advocacy and planning.
       </p>
-      <p className="mt-auto"><Link to="/areas-of-emphasis/healthcare"> Learn More About Health Care &gt;&gt;</Link></p>
+      <p className="mt-auto"><Link to="/about/areas-of-emphasis/healthcare"> Learn More About Health Care &gt;&gt;</Link></p>
     </div>
     </div>
   </div>
