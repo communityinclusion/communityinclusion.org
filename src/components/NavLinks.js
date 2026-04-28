@@ -93,6 +93,7 @@ const activeLinkStyle = {
 <li><Link to="/projects/emp1stmo">Employment First Missouri</Link></li>
 <li><Link to="/projects/maipse">MAIPSE</Link></li>
 <li><Link to="/projects/youthvoice">CYVYC</Link></li>
+<li><Link to ="/projects/arrt">ARRT</Link></li>
 
         </ul>
       </div>

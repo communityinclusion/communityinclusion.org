@@ -11,7 +11,7 @@ thumbnail: "../../images/ICI.png"
             <div class="col-sm-6 pt-sm-5">
             <h1 class="display-3">Welcome to ARRT!</h1>
 <p class="fs-4">Are you a researcher interested in applying for a postdoctoral ARRT Program Fellowship? </p>
-<p>Explore this page for more information</p> 
+<p>Explore this page for more information.</p> 
             </div>
             <div class="col-sm-6"><p><img src="/images/group.jpg" class="img-fluid rounded" alt="A group of racially and ethnically diverse youth, some with disabilities, are sitting together, talking and laughing."></p>
             </div>
@@ -29,6 +29,28 @@ thumbnail: "../../images/ICI.png"
 </ul>
 <p>The ARRT Program is housed at the Institute for Community Inclusion (ICI) at UMass Boston and brings together ICI’s expertise from the School of Global Inclusion and Social Development (SGISD) at UMass Boston and the National Association of State Directors of Developmental Disabilities Services (NASDDDS). ARRT is funded by the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR).</p>
 </section>
+
+
+<section id="fellows">
+<h2 class="card-title">Meet our 2026 Spring ARRT Fellows!</h2>
+<p>Please join us in welcoming our first cohort of ARRT Postdoctoral Fellows, <b>Dr. Melanie Lopez</b> and <b>Dr. Ashley Lazarre</b>. They officially began their 12-month fellowship on March 2.
+
+<div class="row justify-content-center">
+  <div class="col-8">
+<p><img src="/images/arrt-fellows-group-picture.png" class="img-fluid rounded" title="ARRT fellows, mentors, and program administrators, left to right: Kaitlyn Siner-Cappas (SGISD academic program director ), Dr. Jean Winsor (ARRT program director), Dr. Heike Boeltzig-Brown (ARRT program director), Dr. Clare Papay (mentor), Dr. Melanie Lopez (fellow), Dr. Ashley Lazarre (fellow), Dr. Esther Kamau (mentor), and Dr. Tiffany Donaldson (Dean of SGISD)." alt="A group of ARRT fellows, mentors, and program administrators sitting outside in front of the UMass Boston sign"></p>
+  </div>
+</div>
+ 
+<p><strong><em>About Dr. Melanie Lopez</em></strong></p>
+<p>Dr. Lopez earned her PhD in Education from the University of Central Florida. She is also a proud alumna of Bethune-Cookman University, where she completed both her bachelor&rsquo;s and master&rsquo;s degrees in special education. Her research focuses on inclusive postsecondary education, transition outcomes, and predictors of earned wages from competitive integrated employment for individuals with intellectual and developmental disabilities. Her work emphasizes program evaluation, systems-level collaboration, and the translation of research into policy and practice.</p>
+<p>Dr. Lopez brings experience across K&ndash;12 education, higher education instruction, and statewide program leadership. She currently serves as president of the Florida Council for Exceptional Children (FCEC), supporting statewide initiatives that advance outcomes for individuals with disabilities. In addition, she leads and contributes to community-based initiatives and provides mentorship and tutoring to aspiring special education practitioners.</p>
+<p>She is passionate about designing inclusive pathways that prepare neurodivergent students for meaningful employment and independent lives. Through her research and teaching, she aims to advance sustainability efforts that extend beyond postsecondary opportunities and promote long-term workforce outcomes for individuals with disabilities.</p>
+<p><em><strong>About Dr. Ashley Lazarre</strong></em></p>
+<p>Dr. Lazarre is a Haitian American scholar, filmmaker, and digital content creator whose work explores the representation of Black women in digital spaces. She holds a PhD from UMass Boston&rsquo;s School of Global Inclusion and Social Development, where her dissertation focused on digital media and storytelling. Her research examines stereotypes of Black women, embodied trauma, and holistic healing practices, with a focus on how Black women creators use platforms like Instagram to shape new narratives of identity and womanhood.</p>
+<p>Her pedagogy centers visual storytelling as a site of knowledge production, by creating short films, documentaries, and social media content that foreground imagery, voice, and lived experience. Inspired by the 2010 Haiti earthquake in her personal life, she began her career in disability inclusion at Bay Cove Human Services, advocating for people with intellectual and developmental disabilities in workplace settings.</p>
+<p>Beyond academia, Dr. Lazarre is known on social media for her digital activism and decolonizing beauty through Afrocentric braids and fashion.</p>
+</section>
+
 <section id="why-arrt">
 <h2 class="card-title">Why ARRT?</h2>
 <h4 id="we-need-better-representation-and-capacity-in-the-idd-research-workforce-and-field-how-do-we-know-">We need better representation and capacity in the IDD research workforce and field! How do we know?</h4>
@@ -47,7 +69,7 @@ thumbnail: "../../images/ICI.png"
 <section id="calling-all-researchers-do-you-want-to-join-the-arrt">
 <h2 class="card-title">Calling all Researchers! Do you want to join the ARRT?</h2>
 
-<p>We are seeking  4 postdoctoral fellows who are interested in pursuing impactful research careers in the IDD field.</p>
+<p>We are seeking two postdoctoral fellows who are interested in pursuing impactful research careers in the IDD field. Applications will open in summer 2026, and fellows will begin in September 2026.</p>
 <h4 id="who-are-you-">Who are you?</h4>
 <ul>
 <li>A U.S. citizen or legal permanent resident with a doctoral degree (or equivalent) in a relevant field, such as rehabilitation, education, social sciences, public health, or public policy</li>
@@ -64,7 +86,7 @@ thumbnail: "../../images/ICI.png"
 <section id="apply">
 <div class="card_pill mb-4">
                 <p class="h2">Ready to apply? </p>
-    <p>Applications for the fall 2026 postdoctoral ARRT Program Fellowship positions will open in late spring/early summer. </p>
-                </div>
+    <p>Applications for the fall 2026 postdoctoral ARRT Program Fellowship positions will open in summer 2026. </p>
+</div>
 <p><em>The webpage was developed under a grant from the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR grant number 90AREM0009).  NIDILRR is a Center within the Administration for Community Living (ACL), Department of Health and Human Services (HHS).  The contents do not necessarily represent the policy of NIDILRR, ACL, or HHS, and you should not assume endorsement by the Federal Government.</em></p>
 </section>

@@ -27,8 +27,7 @@ return (
           />
           </div>
         <div className="page">
-          <h1 className="page-title">{frontmatter.title}</h1>
-         {/*  <span>{frontmatter.date}</span> */}
+          {!frontmatter.hide_title && <h1 className="page-title">{frontmatter.title}</h1>}
         </div>
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </section>
@@ -63,6 +62,7 @@ export const pageQuery = graphql`
         title
         tags
         posttype
+        hide_title
         date(formatString: "MMMM DD, YYYY")
         description
       }
