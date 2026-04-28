@@ -8,7 +8,7 @@ posttype: "page"
 
 <h1 class="display-2  hide-title text-center"><span class="blue">ICI</span> <strong class="ldots">:</strong><strong class="rdots">:</strong> <span class="community">Community</span></h1>
 
-<p>All people should have the opportunity to be fully included in their communities. Community inclusion is about participating in one’s community through leadership development, personal and professional capacity- building, and self-advocacy. We engage people with lived experience in our work to create more welcoming and accessible communities around the world for people with disabilities.</p>
+<p>All people should have the opportunity to be fully included in their communities. Community inclusion is about participating in one’s community through leadership development, personal and professional capacity- building, and self-advocacy. We engage people with disabilities in our work to create more welcoming and accessible communities around the world for people with disabilities.</p>
 
 <p>Our community work covers a range of topical areas and complements ICI’s ongoing work on employment, education, and health care. Our projects encompass a combination of research, development, and training.</p>
 
@@ -19,6 +19,8 @@ posttype: "page"
     <div class="col-sm-1"><div class="card-image"><img src="../../images/cle-toolkit.png" alt = "Community Life Engagement"/></div></div>
     <div class="col-sm-11"><p>Community Life Engagement is about increasing access to and participation in the life of the community through activities such as volunteer work, adult or continuing education, recreation, and any other ways people engage in community outside of work.</p>
 <p><a href="https://cletoolkit.communityinclusion.org/" class="btn btn-outline-primary">Learn more about Community Life Engagement</a></p>
+<h3 class="h4">Product Spotlight</h3>
+
 </div>
 </div>
 </div>
@@ -65,9 +67,40 @@ posttype: "page"
 <div class="row">
     <div class="col-sm-1"><img src="../../images/gator_thumbnail.png" alt = "Gator" />
                     <img src="../../images/project_logos/CIVIC_square_web.png" alt = "Youth Voice Youth Choice site" /></div>
-    <div class="col-sm-11"><p>We are deeply invested in engaging people with all kinds of lived experiences across every dimension of our work.</p>
+    <div class="col-sm-11"><p>We are deeply invested in engaging people people with disabilities across every dimension of our work.</p>
 <p><a href="https://gator.communityinclusion.org/" class="btn btn-outline-primary">Learn more about the Guardianship Alternatives and Transfer of Rights Project</a></p>
 <p><a href="https://youth-voice.org/" class="btn btn-outline-primary">Learn more about The Center on Youth Voice, Youth Choice </a></p></div>
   </div>
 
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="https://placehold.co/150" class="card-img-top img-fluid" alt="Placeholder">
+      <div class="card-body">
+        <h3 class="card-title h5">Card title</h3>
+        <p class="card-text">Card content goes here.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="https://placehold.co/150" class="card-img-top img-fluid" alt="Placeholder">
+      <div class="card-body">
+        <h3 class="card-title h5">Card title</h3>
+        <p class="card-text">Card content goes here.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="https://placehold.co/150" class="card-img-top img-fluid" alt="Placeholder">
+      <div class="card-body">
+        <h3 class="card-title h5">Card title</h3>
+        <p class="card-text">Card content goes here.</p>
+      </div>
+    </div>
+  </div>
+  
 </div>
