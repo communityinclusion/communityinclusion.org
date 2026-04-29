@@ -21,6 +21,35 @@ hide_title: true
     <div class="col-sm-11"><p>Community Life Engagement is about increasing access to and participation in the life of the community through activities such as volunteer work, adult or continuing education, recreation, and any other ways people engage in community outside of work.</p>
 <p><a href="https://cletoolkit.communityinclusion.org/" class="btn btn-outline-primary">Learn more about Community Life Engagement</a></p>
 <h3 class="h4">Product Spotlight</h3>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="../../images/pub-thumbs/call-to-action_r_th.png" class="card-img-top img-fluid" alt="Placeholder">
+      <div class="card-body">
+        <h3 class="card-title h5">Card title</h3>
+        <p class="card-text">Card content goes here.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="https://placehold.co/150" class="card-img-top img-fluid" alt="Placeholder">
+      <div class="card-body">
+        <h3 class="card-title h5">Card title</h3>
+        <p class="card-text">Card content goes here.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="https://placehold.co/150" class="card-img-top img-fluid" alt="Placeholder">
+      <div class="card-body">
+        <h3 class="card-title h5">Card title</h3>
+        <p class="card-text">Card content goes here.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 </div>
 </div>
@@ -75,33 +104,3 @@ hide_title: true
 
 </div>
 
-<div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card h-100 shadow-sm">
-      <img src="https://placehold.co/150" class="card-img-top img-fluid" alt="Placeholder">
-      <div class="card-body">
-        <h3 class="card-title h5">Card title</h3>
-        <p class="card-text">Card content goes here.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100 shadow-sm">
-      <img src="https://placehold.co/150" class="card-img-top img-fluid" alt="Placeholder">
-      <div class="card-body">
-        <h3 class="card-title h5">Card title</h3>
-        <p class="card-text">Card content goes here.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100 shadow-sm">
-      <img src="https://placehold.co/150" class="card-img-top img-fluid" alt="Placeholder">
-      <div class="card-body">
-        <h3 class="card-title h5">Card title</h3>
-        <p class="card-text">Card content goes here.</p>
-      </div>
-    </div>
-  </div>
-  
-</div>
