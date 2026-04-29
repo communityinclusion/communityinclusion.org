@@ -33,11 +33,11 @@ thumbnail: "../../images/ICI.png"
 
 <section id="fellows">
 <h2 class="card-title">Meet our 2026 Spring ARRT Fellows!</h2>
-<p>Please join us in welcoming our first cohort of ARRT Postdoctoral Fellows, <b>Dr. Melanie Lopez</b> and <b>Dr. Ashley Lazarre</b>. They officially began their 12-month fellowship on March 2.
+<p>Please join us in welcoming our first cohort of ARRT Postdoctoral Fellows, <b>Dr. Melanie Lopez</b> and <b>Dr. Ashley E. Lazarre</b>. They officially began their 12-month fellowship on March 2.
 
 <div class="row justify-content-center">
   <div class="col-8">
-<p><img src="/images/arrt-fellows-group-picture.png" class="img-fluid rounded" title="ARRT fellows, mentors, and program administrators, left to right: Kaitlyn Siner-Cappas (SGISD academic program director ), Dr. Jean Winsor (ARRT program director), Dr. Heike Boeltzig-Brown (ARRT program director), Dr. Clare Papay (mentor), Dr. Melanie Lopez (fellow), Dr. Ashley Lazarre (fellow), Dr. Esther Kamau (mentor), and Dr. Tiffany Donaldson (Dean of SGISD)." alt="A group of ARRT fellows, mentors, and program administrators sitting outside in front of the UMass Boston sign"></p>
+<p><img src="/images/arrt-fellows-group-picture.png" class="img-fluid rounded" title="ARRT fellows, mentors, and program administrators, left to right: Kaitlyn Siner-Cappas (SGISD academic program director ), Dr. Jean Winsor (ARRT program director), Dr. Heike Boeltzig-Brown (ARRT program director), Dr. Clare Papay (mentor), Dr. Melanie Lopez (fellow), Dr. Ashley E. Lazarre (fellow), Dr. Esther Kamau (mentor), and Dr. Tiffany Donaldson (Dean of SGISD)." alt="A group of ARRT fellows, mentors, and program administrators sitting outside in front of the UMass Boston sign"></p>
   </div>
 </div>
  
@@ -45,7 +45,7 @@ thumbnail: "../../images/ICI.png"
 <p>Dr. Lopez earned her PhD in Education from the University of Central Florida. She is also a proud alumna of Bethune-Cookman University, where she completed both her bachelor&rsquo;s and master&rsquo;s degrees in special education. Her research focuses on inclusive postsecondary education, transition outcomes, and predictors of earned wages from competitive integrated employment for individuals with intellectual and developmental disabilities. Her work emphasizes program evaluation, systems-level collaboration, and the translation of research into policy and practice.</p>
 <p>Dr. Lopez brings experience across K&ndash;12 education, higher education instruction, and statewide program leadership. She currently serves as president of the Florida Council for Exceptional Children (FCEC), supporting statewide initiatives that advance outcomes for individuals with disabilities. In addition, she leads and contributes to community-based initiatives and provides mentorship and tutoring to aspiring special education practitioners.</p>
 <p>She is passionate about designing inclusive pathways that prepare neurodivergent students for meaningful employment and independent lives. Through her research and teaching, she aims to advance sustainability efforts that extend beyond postsecondary opportunities and promote long-term workforce outcomes for individuals with disabilities.</p>
-<p><em><strong>About Dr. Ashley Lazarre</strong></em></p>
+<p><em><strong>About Dr. Ashley E. Lazarre</strong></em></p>
 <p>Dr. Lazarre is a Haitian American scholar, filmmaker, and digital content creator whose work explores the representation of Black women in digital spaces. She holds a PhD from UMass Boston&rsquo;s School of Global Inclusion and Social Development, where her dissertation focused on digital media and storytelling. Her research examines stereotypes of Black women, embodied trauma, and holistic healing practices, with a focus on how Black women creators use platforms like Instagram to shape new narratives of identity and womanhood.</p>
 <p>Her pedagogy centers visual storytelling as a site of knowledge production, by creating short films, documentaries, and social media content that foreground imagery, voice, and lived experience. Inspired by the 2010 Haiti earthquake in her personal life, she began her career in disability inclusion at Bay Cove Human Services, advocating for people with intellectual and developmental disabilities in workplace settings.</p>
 <p>Beyond academia, Dr. Lazarre is known on social media for her digital activism and decolonizing beauty through Afrocentric braids and fashion.</p>
