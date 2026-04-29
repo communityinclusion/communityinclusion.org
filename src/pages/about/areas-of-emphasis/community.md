@@ -93,7 +93,7 @@ Prepare for this Exciting Opportunity</h3>
   </div>
   <div class="col">
     <div class="card h-100 shadow-sm" >
-    <script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/dltgy68yys.js" async type="module"></script><style>wistia-player[media-id='dltgy68yys']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/dltgy68yys/swatch'); display: block; filter: blur(5px); padding-top:56.25%; }</style> <wistia-player media-id="dltgy68yys" seo="false" aspect="1.7777777777777777"></wistia-player>
+  <script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/dltgy68yys.js" async type="module"></script><style>wistia-player[media-id='dltgy68yys']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/dltgy68yys/swatch'); display: block; filter: blur(5px); padding-top:56.25%; }</style> <wistia-player media-id="dltgy68yys" wistia-popover="true" aspect="1.7777777777777777"></wistia-player>
       <div class="card-body">
         <h3 class="card-title h5">Thinking for Me</h3>
         <p class="card-text">A comic about turning 18 and talking to parents about alternatives to guardianship, created by New Jersey Youth Ambassador Giancarlo Vicari.</p>
