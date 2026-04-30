@@ -17,7 +17,7 @@ hide_title: true
 <div class="card shadow-sm p-3 m-3">
 <h2 class="card-title">Community Life Engagement </h2>
 <div class="row">
-    <div class="col-sm-1"><div class="card-image"><img src="/images/thumbs/cle-toolkit.png" alt = "Community Life Engagement"/></div></div>
+    <div class="col-sm-1"><div class="card-image"><img src="/images/thumbs/cle-toolkit.png" alt="Community Life Engagement"/></div></div>
     <div class="col-sm-11"><p>Community Life Engagement is about increasing access to and participation in the life of the community through activities such as volunteer work, adult or continuing education, recreation, and any other ways people engage in community outside of work.</p>
 <p><a href="https://cletoolkit.communityinclusion.org/" class="btn btn-outline-primary">Learn more about Community Life Engagement</a></p>
 <h3 class="h4">Product Spotlight</h3>
@@ -59,7 +59,7 @@ hide_title: true
 <h2 class="card-title">Alternatives to Guardianship, Transfer-of-Rights, and Supported Decision Making</h2>
 <div class="row">
     <div class="col-sm-1">    
-        <img src="/images/thumbs/gator_thumbnail.png" alt = "Gator" />
+        <img src="/images/thumbs/gator_thumbnail.png" alt="Gator" />
                     <img src="/images/thumbs/project_logos/CIVIC_square_web.png" alt = "Youth Voice Youth Choice site" />
                     </div>
     <div class="col-sm-11"><p>People with disabilities should be the drivers of their own lives. We conduct research and share resources about alternative decision-making options for youth and adults with disabilities, their families, and professionals.</p>
