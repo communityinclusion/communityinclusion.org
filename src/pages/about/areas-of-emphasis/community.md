@@ -166,7 +166,7 @@ Prepare for this Exciting Opportunity</h3>
   <div class="col">
     <div class="card h-100 shadow-sm" >
     <a href="https://pfpinclusion.org/blog/">
-      <img src="/images/thumbs/prof-Fellows.gif" class=" img-fluid mx-auto d-block" style="max-width:75px" alt="Fellows' Blog">
+      <img src="/images/thumbs/prof-Fellows.gif" class=" img-fluid mx-auto d-block" style="max-width:150px" alt="Fellows' Blog">
     </a>
       <div class="card-body">
         <h3 class="card-title h6">Fellows' Blog</h3>
@@ -177,7 +177,7 @@ Prepare for this Exciting Opportunity</h3>
   <div class="col">
     <div class="card h-100 shadow-sm" >
      <a href="https://disabilityrightsaz.org/">
-      <img src="/images/thumbs/Disability-Rights-Arizona-Logo-2024-01.svg" class=" img-fluid mx-auto d-block" style="max-width:75px" alt="Disability Rights Arizona">
+      <img src="/images/thumbs/Disability-Rights-Arizona-Logo-2024-01.svg" class=" img-fluid mx-auto d-block" style="max-width:150px" alt="Disability Rights Arizona">
     </a>
       <div class="card-body">
         <h3 class="card-title h6">Disability Rights Arizona</h3>
