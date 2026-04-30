@@ -8,10 +8,10 @@ hide_title: true
 ---
 
 <h1 class="display-2  hide-title text-center"><span class="blue">ICI</span> <strong class="ldots">:</strong><strong class="rdots">:</strong> <span class="community">Community</span></h1>
-
+<span class="lead">
 <p>All people should have the opportunity to be fully included in their communities. Community inclusion is about participating in one’s community through leadership development, personal and professional capacity- building, and self-advocacy. We engage people with disabilities in our work to create more welcoming and accessible communities around the world for people with disabilities.</p>
 
-<p>Our community work covers a range of topical areas and complements ICI’s ongoing work on employment, education, and health care. Our projects encompass a combination of research, development, and training.</p>
+<p>Our community work covers a range of topical areas and complements ICI’s ongoing work on employment, education, and health care. Our projects encompass a combination of research, development, and training.</p></span>
 
 <h2>Explore ICI Community Projects</h2>
 <div class="card shadow-sm p-3 m-3">
@@ -20,7 +20,7 @@ hide_title: true
     <div class="col-sm-2 d-flex flex-column  align-items-center ">
     <img src="/images/thumbs/CLE-square-logo_x.png" alt="Community Life Engagement" class="img-fluid" style="max-width:100px">
     <img src="/images/thumbs/cle-toolkit_x.png" alt="Community Life Engagement Toolkit" class="img-fluid" style="max-width:100px"/></div>
-    <div class="col-sm-10"><p>Community Life Engagement is about increasing access to and participation in the life of the community through activities such as volunteer work, adult or continuing education, recreation, and any other ways people engage in community outside of work.</p>
+    <div class="col-sm-10"><p class="p-3">Community Life Engagement is about increasing access to and participation in the life of the community through activities such as volunteer work, adult or continuing education, recreation, and any other ways people engage in community outside of work.</p>
 <p><a href="https://cletoolkit.communityinclusion.org/" class="btn btn-outline-primary">Learn more about Community Life Engagement</a></p>
 <h3 class="h4">Product Spotlight</h3>
 <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -64,7 +64,7 @@ hide_title: true
         <img src="/images/thumbs/gator_thumbnail_x.png" class="img-fluid" style="max-width:100px" alt="Gator" />
                     <img src="/images/thumbs/CIVIC_square_web_x.png" class="img-fluid" style="max-width:100px" alt = "Youth Voice Youth Choice site" />
                     </div>
-    <div class="col-sm-10"><p>People with disabilities should be the drivers of their own lives. We conduct research and share resources about alternative decision-making options for youth and adults with disabilities, their families, and professionals.</p>
+    <div class="col-sm-10"><p class="p-3">People with disabilities should be the drivers of their own lives. We conduct research and share resources about alternative decision-making options for youth and adults with disabilities, their families, and professionals.</p>
 <p><a href="https://gator.communityinclusion.org/" class="btn btn-outline-primary">Learn more about the Guardianship Alternatives and Transfer of Rights Project</a></p>
 <p><a href="https://youth-voice.org/" class="btn btn-outline-primary">Learn more about The Center on Youth Voice, Youth Choice </a></p>
 <h3 class="h4">Product Spotlight</h3>
@@ -114,7 +114,7 @@ Prepare for this Exciting Opportunity</h3>
 <div class="row">
     <div class="col-sm-2 d-flex flex-column  align-items-center "><img src="/images/thumbs/nercve_x.png" class="img-fluid" style="max-width:100px" alt = "NERCVE" />
 </div>
-    <div class="col-sm-10"><p>We prepare teachers and other specialists who work with youth and adults with visual impairments through professional development, technology, and research.</p>
+    <div class="col-sm-10"><p class="p-3">We prepare teachers and other specialists who work with youth and adults with visual impairments through professional development, technology, and research.</p>
 <p><a href="https://www.nercve.org/" class="btn btn-outline-primary">Learn more about the Northeast Resource Center for Vision Education</a></p>
 <h3 class="h4">Product Spotlight</h3>
 <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -153,9 +153,9 @@ Prepare for this Exciting Opportunity</h3>
 <h2 class="card-title">Inclusive Civic Engagement</h2>
 <div class="row">
     <div class="col-sm-2 d-flex flex-column  align-items-center "><img src="/images/thumbs/ct-100_x.png" class="img-fluid" style="max-width:100px" alt = "Professional Fellows Program" /></div>
-    <div class="col-sm-10"><p>We help to cultivate the next set of international disability leaders through civic engagement opportunities and fellowship programs.<br>
+    <div class="col-sm-10"><p class="p-3">We help to cultivate the next set of international disability leaders through civic engagement opportunities and fellowship programs.<br>
 <a href="https://pfpinclusion.org/" class="btn btn-outline-primary">Learn more about The Professional Fellows Program on Civic Engagement</a></p>
-<p>Learn more about the TOMODACHI Story Jam, a  9-week digital storytelling and youth leadership program. 
+<p class="p-3">Learn more about the TOMODACHI Story Jam, a  9-week digital storytelling and youth leadership program. 
 <br><a href="https://www.youtube.com/playlist?list=PL6OzbTjFN-HX0rtqK4XnUSK426KeGW7XI" class="btn btn-outline-primary">Learn more about Tomodachi</a></p>
 <h3 class="h4">Product Spotlight</h3>
 <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -193,7 +193,7 @@ Prepare for this Exciting Opportunity</h3>
 <div class="row">
     <div class="col-sm-2 d-flex flex-column  align-items-center "><img src="/images/thumbs/gator_thumbnail_x.png" class="img-fluid" style="max-width:100px" alt = "Gator" />
                     <img src="/images/thumbs/CIVIC_square_web_x.png" class="img-fluid" style="max-width:100px" alt = "Youth Voice Youth Choice site" /></div>
-    <div class="col-sm-10"><p>We are deeply invested in engaging people people with disabilities across every dimension of our work.</p>
+    <div class="col-sm-10"><p class="p-3">We are deeply invested in engaging people people with disabilities across every dimension of our work.</p>
 <p><a href="https://gator.communityinclusion.org/" class="btn btn-outline-primary">Learn more about the Guardianship Alternatives and Transfer of Rights Project</a></p>
 <p><a href="https://youth-voice.org/" class="btn btn-outline-primary">Learn more about The Center on Youth Voice, Youth Choice </a></p>
 <h3 class="h4">Product Spotlight</h3>
@@ -225,5 +225,5 @@ Design and Implement Research</h3>
 <div class="row">
     <div class="col-sm-2 d-flex flex-column  align-items-center ">
     <img src="/images/thumbs/moddc.png" class="img-fluid" style="max-width:100px" alt = "coming soon" /></div>
-    <div class="col-sm-10">The ICI has received a 3-year grant from the Missouri Developmental Disabilities Council to launch the Power of Choice project beginning in summer 2026. In partnership with Self-Advocates Becoming Empowered (SABE) and using the <a href="https://youth-voice.org/youth-ambassador-curriculum/">CYVYC youth ambassador curriculum</a>, the project will support youth with IDD through leadership training, mentorship, and youth-led projects that promote systems change throughout Missouri. </p>
+    <div class="col-sm-10"><p class="p-3">The ICI has received a 3-year grant from the Missouri Developmental Disabilities Council to launch the Power of Choice project beginning in summer 2026. In partnership with Self-Advocates Becoming Empowered (SABE) and using the <a href="https://youth-voice.org/youth-ambassador-curriculum/">CYVYC youth ambassador curriculum</a>, the project will support youth with IDD through leadership training, mentorship, and youth-led projects that promote systems change throughout Missouri. </p>
 </div>
