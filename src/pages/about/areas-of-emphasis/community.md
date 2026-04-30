@@ -17,10 +17,10 @@ hide_title: true
 <div class="card shadow-sm p-3 m-3">
 <h2 class="card-title">Community Life Engagement </h2>
 <div class="row">
-    <div class="col-sm-1"><div class="card-image">
-    <img src="/images/thumbs/CLE-square-logo_x.png" alt="Community Life Engagement" class="img-fluid">
-    <img src="/images/thumbs/cle-toolkit_x.png" alt="Community Life Engagement Toolkit" class="img-fluid" /></div></div>
-    <div class="col-sm-11"><p>Community Life Engagement is about increasing access to and participation in the life of the community through activities such as volunteer work, adult or continuing education, recreation, and any other ways people engage in community outside of work.</p>
+    <div class="col-sm-2 d-flex flex-column  align-items-center ">
+    <img src="/images/thumbs/CLE-square-logo_x.png" alt="Community Life Engagement" class="img-fluid" style="max-width:100px">
+    <img src="/images/thumbs/cle-toolkit_x.png" alt="Community Life Engagement Toolkit" class="img-fluid" style="max-width:100px"/></div>
+    <div class="col-sm-10"><p>Community Life Engagement is about increasing access to and participation in the life of the community through activities such as volunteer work, adult or continuing education, recreation, and any other ways people engage in community outside of work.</p>
 <p><a href="https://cletoolkit.communityinclusion.org/" class="btn btn-outline-primary">Learn more about Community Life Engagement</a></p>
 <h3 class="h4">Product Spotlight</h3>
 <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -60,11 +60,11 @@ hide_title: true
 <div class="card shadow-sm p-3 m-3">
 <h2 class="card-title">Alternatives to Guardianship, Transfer-of-Rights, and Supported Decision Making</h2>
 <div class="row">
-    <div class="col-sm-1">    
-        <img src="/images/thumbs/gator_thumbnail_x.png" class="img-fluid" alt="Gator" />
-                    <img src="/images/thumbs/CIVIC_square_web_x.png" class="img-fluid" alt = "Youth Voice Youth Choice site" />
+    <div class="col-sm-2 d-flex flex-column  align-items-center ">    
+        <img src="/images/thumbs/gator_thumbnail_x.png" class="img-fluid" style="max-width:100px" alt="Gator" />
+                    <img src="/images/thumbs/CIVIC_square_web_x.png" class="img-fluid" style="max-width:100px" alt = "Youth Voice Youth Choice site" />
                     </div>
-    <div class="col-sm-11"><p>People with disabilities should be the drivers of their own lives. We conduct research and share resources about alternative decision-making options for youth and adults with disabilities, their families, and professionals.</p>
+    <div class="col-sm-10"><p>People with disabilities should be the drivers of their own lives. We conduct research and share resources about alternative decision-making options for youth and adults with disabilities, their families, and professionals.</p>
 <p><a href="https://gator.communityinclusion.org/" class="btn btn-outline-primary">Learn more about the Guardianship Alternatives and Transfer of Rights Project</a></p>
 <p><a href="https://youth-voice.org/" class="btn btn-outline-primary">Learn more about The Center on Youth Voice, Youth Choice </a></p>
 <h3 class="h4">Product Spotlight</h3>
@@ -112,9 +112,9 @@ Prepare for this Exciting Opportunity</h3>
 <div class="card shadow-sm p-3 m-3">
 <h2 class="card-title">Improving Outcomes for Children and Adults With Visual Impairments and Deafblindness</h2>
 <div class="row">
-    <div class="col-sm-1"><img src="/images/thumbs/nercve_x.png" class="img-fluid" alt = "NERCVE" />
+    <div class="col-sm-2 d-flex flex-column  align-items-center "><img src="/images/thumbs/nercve_x.png" class="img-fluid" style="max-width:100px" alt = "NERCVE" />
 </div>
-    <div class="col-sm-11"><p>We prepare teachers and other specialists who work with youth and adults with visual impairments through professional development, technology, and research.</p>
+    <div class="col-sm-10"><p>We prepare teachers and other specialists who work with youth and adults with visual impairments through professional development, technology, and research.</p>
 <p><a href="https://www.nercve.org/" class="btn btn-outline-primary">Learn more about the Northeast Resource Center for Vision Education</a></p>
 <h3 class="h4">Product Spotlight</h3>
 <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -152,8 +152,8 @@ Prepare for this Exciting Opportunity</h3>
 <div class="card shadow-sm p-3 m-3">
 <h2 class="card-title">Inclusive Civic Engagement</h2>
 <div class="row">
-    <div class="col-sm-1"><img src="/images/thumbs/ct-100_x.png" class="img-fluid" alt = "Professional Fellows Program" /></div>
-    <div class="col-sm-11"><p>We help to cultivate the next set of international disability leaders through civic engagement opportunities and fellowship programs.<br>
+    <div class="col-sm-2 d-flex flex-column  align-items-center "><img src="/images/thumbs/ct-100_x.png" class="img-fluid" style="max-width:100px" alt = "Professional Fellows Program" /></div>
+    <div class="col-sm-10"><p>We help to cultivate the next set of international disability leaders through civic engagement opportunities and fellowship programs.<br>
 <a href="https://pfpinclusion.org/" class="btn btn-outline-primary">Learn more about The Professional Fellows Program on Civic Engagement</a></p>
 <p>Learn more about the TOMODACHI Story Jam, a  9-week digital storytelling and youth leadership program. 
 <br><a href="https://www.youtube.com/playlist?list=PL6OzbTjFN-HX0rtqK4XnUSK426KeGW7XI" class="btn btn-outline-primary">Learn more about Tomodachi</a></p>
@@ -191,9 +191,9 @@ Prepare for this Exciting Opportunity</h3>
 <div class="card shadow-sm p-3 m-3">
 <h2 class="card-title">Engaging People with Disabilities</h2>
 <div class="row">
-    <div class="col-sm-1"><img src="/images/thumbs/gator_thumbnail_x.png" class="img-fluid" alt = "Gator" />
-                    <img src="/images/thumbs/CIVIC_square_web_x.png" class="img-fluid" alt = "Youth Voice Youth Choice site" /></div>
-    <div class="col-sm-11"><p>We are deeply invested in engaging people people with disabilities across every dimension of our work.</p>
+    <div class="col-sm-2 d-flex flex-column  align-items-center "><img src="/images/thumbs/gator_thumbnail_x.png" class="img-fluid" style="max-width:100px" alt = "Gator" />
+                    <img src="/images/thumbs/CIVIC_square_web_x.png" class="img-fluid" style="max-width:100px" alt = "Youth Voice Youth Choice site" /></div>
+    <div class="col-sm-10"><p>We are deeply invested in engaging people people with disabilities across every dimension of our work.</p>
 <p><a href="https://gator.communityinclusion.org/" class="btn btn-outline-primary">Learn more about the Guardianship Alternatives and Transfer of Rights Project</a></p>
 <p><a href="https://youth-voice.org/" class="btn btn-outline-primary">Learn more about The Center on Youth Voice, Youth Choice </a></p>
 <h3 class="h4">Product Spotlight</h3>
@@ -220,8 +220,10 @@ Design and Implement Research</h3>
 </div>
 
 <div class="card shadow-sm p-3 m-3">
+<img src="/images/thumbs/coming-soon-th.png" class="img-fluid" style="max-width:75px;" alt = "coming soon" />
 <h2 class="card-title">New Missouri Initiative Puts Youth with IDD at the Center of Systems Change</h2>
 <div class="row">
-    <div class="col-sm-1"><img src="/images/thumbs/coming-soon-th.png" class="img-fluid" alt = "Gator" /></div>
-    <div class="col-sm-11">The ICI has received a 3-year grant from the Missouri Developmental Disabilities Council to launch the Power of Choice project beginning in summer 2026. In partnership with Self-Advocates Becoming Empowered (SABE) and using the <a href="https://youth-voice.org/youth-ambassador-curriculum/">CYVYC youth ambassador curriculum</a>, the project will support youth with IDD through leadership training, mentorship, and youth-led projects that promote systems change throughout Missouri. </p>
+    <div class="col-sm-2 d-flex flex-column  align-items-center ">
+    <img src="/images/thumbs/moddc.png" class="img-fluid" style="max-width:100px" alt = "coming soon" /></div>
+    <div class="col-sm-10">The ICI has received a 3-year grant from the Missouri Developmental Disabilities Council to launch the Power of Choice project beginning in summer 2026. In partnership with Self-Advocates Becoming Empowered (SABE) and using the <a href="https://youth-voice.org/youth-ambassador-curriculum/">CYVYC youth ambassador curriculum</a>, the project will support youth with IDD through leadership training, mentorship, and youth-led projects that promote systems change throughout Missouri. </p>
 </div>
