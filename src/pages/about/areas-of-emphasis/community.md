@@ -17,7 +17,7 @@ hide_title: true
 <div class="card shadow-sm p-3 m-3">
 <h2 class="card-title">Community Life Engagement </h2>
 <div class="row">
-    <div class="col-sm-1"><div class="card-image"><img src="/images/thumbs/cle-toolkit.png" alt="Community Life Engagement"/></div></div>
+    <div class="col-sm-1"><div class="card-image"><img src="/images/thumbs/cle-toolkit_x.png" alt="Community Life Engagement" class="img-fluid" /></div></div>
     <div class="col-sm-11"><p>Community Life Engagement is about increasing access to and participation in the life of the community through activities such as volunteer work, adult or continuing education, recreation, and any other ways people engage in community outside of work.</p>
 <p><a href="https://cletoolkit.communityinclusion.org/" class="btn btn-outline-primary">Learn more about Community Life Engagement</a></p>
 <h3 class="h4">Product Spotlight</h3>
@@ -59,8 +59,8 @@ hide_title: true
 <h2 class="card-title">Alternatives to Guardianship, Transfer-of-Rights, and Supported Decision Making</h2>
 <div class="row">
     <div class="col-sm-1">    
-        <img src="/images/thumbs/gator_thumbnail.png" alt="Gator" />
-                    <img src="/images/thumbs/project_logos/CIVIC_square_web.png" alt = "Youth Voice Youth Choice site" />
+        <img src="/images/thumbs/gator_thumbnail_x.png" class="img-fluid" alt="Gator" />
+                    <img src="/images/thumbs/CIVIC_square_web_x.png" class="img-fluid" alt = "Youth Voice Youth Choice site" />
                     </div>
     <div class="col-sm-11"><p>People with disabilities should be the drivers of their own lives. We conduct research and share resources about alternative decision-making options for youth and adults with disabilities, their families, and professionals.</p>
 <p><a href="https://gator.communityinclusion.org/" class="btn btn-outline-primary">Learn more about the Guardianship Alternatives and Transfer of Rights Project</a></p>
@@ -110,7 +110,7 @@ Prepare for this Exciting Opportunity</h3>
 <div class="card shadow-sm p-3 m-3">
 <h2 class="card-title">Improving Outcomes for Children and Adults With Visual Impairments and Deafblindness</h2>
 <div class="row">
-    <div class="col-sm-1"><img src="/images/thumbs/nercve.png" alt = "NERCVE" />
+    <div class="col-sm-1"><img src="/images/thumbs/nercve_x.png" class="img-fluid" alt = "NERCVE" />
 </div>
     <div class="col-sm-11"><p>We prepare teachers and other specialists who work with youth and adults with visual impairments through professional development, technology, and research.</p>
 <p><a href="https://www.nercve.org/" class="btn btn-outline-primary">Learn more about the Northeast Resource Center for Vision Education</a></p>
@@ -150,7 +150,7 @@ Prepare for this Exciting Opportunity</h3>
 <div class="card shadow-sm p-3 m-3">
 <h2 class="card-title">Inclusive Civic Engagement</h2>
 <div class="row">
-    <div class="col-sm-1"><img src="/images/thumbs/ct-100.png" alt = "Professional Fellows Program" /></div>
+    <div class="col-sm-1"><img src="/images/thumbs/ct-100_x.png" class="img-fluid" alt = "Professional Fellows Program" /></div>
     <div class="col-sm-11"><p>We help to cultivate the next set of international disability leaders through civic engagement opportunities and fellowship programs.<br>
 <a href="https://pfpinclusion.org/" class="btn btn-outline-primary">Learn more about The Professional Fellows Program on Civic Engagement</a></p>
 <p>Learn more about the TOMODACHI Story Jam, a  9-week digital storytelling and youth leadership program. 
@@ -189,8 +189,8 @@ Prepare for this Exciting Opportunity</h3>
 <div class="card shadow-sm p-3 m-3">
 <h2 class="card-title">Engaging People with Disabilities</h2>
 <div class="row">
-    <div class="col-sm-1"><img src="/images/thumbs/gator_thumbnail.png" alt = "Gator" />
-                    <img src="/images/thumbs/project_logos/CIVIC_square_web.png" alt = "Youth Voice Youth Choice site" /></div>
+    <div class="col-sm-1"><img src="/images/thumbs/gator_thumbnail_x.png" class="img-fluid" alt = "Gator" />
+                    <img src="/images/thumbs/CIVIC_square_web_x.png" class="img-fluid" alt = "Youth Voice Youth Choice site" /></div>
     <div class="col-sm-11"><p>We are deeply invested in engaging people people with disabilities across every dimension of our work.</p>
 <p><a href="https://gator.communityinclusion.org/" class="btn btn-outline-primary">Learn more about the Guardianship Alternatives and Transfer of Rights Project</a></p>
 <p><a href="https://youth-voice.org/" class="btn btn-outline-primary">Learn more about The Center on Youth Voice, Youth Choice </a></p>
