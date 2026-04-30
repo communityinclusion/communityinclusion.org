@@ -22,6 +22,7 @@ hide_title: true
     <img src="/images/thumbs/cle-toolkit_x.png" alt="Community Life Engagement Toolkit" class="img-fluid" style="max-width:100px"/></div>
     <div class="col-sm-10"><p class="p-3">Community Life Engagement is about increasing access to and participation in the life of the community through activities such as volunteer work, adult or continuing education, recreation, and any other ways people engage in community outside of work.</p>
 <p><a href="https://cletoolkit.communityinclusion.org/" class="btn btn-outline-primary">Learn more about Community Life Engagement</a></p>
+<hr>
 <h3 class="h4">Product Spotlight</h3>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
@@ -67,6 +68,7 @@ hide_title: true
     <div class="col-sm-10"><p class="p-3">People with disabilities should be the drivers of their own lives. We conduct research and share resources about alternative decision-making options for youth and adults with disabilities, their families, and professionals.</p>
 <p><a href="https://gator.communityinclusion.org/" class="btn btn-outline-primary">Learn more about the Guardianship Alternatives and Transfer of Rights Project</a></p>
 <p><a href="https://youth-voice.org/" class="btn btn-outline-primary">Learn more about The Center on Youth Voice, Youth Choice </a></p>
+<hr>
 <h3 class="h4">Product Spotlight</h3>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
@@ -116,6 +118,7 @@ Prepare for this Exciting Opportunity</h3>
 </div>
     <div class="col-sm-10"><p class="p-3">We prepare teachers and other specialists who work with youth and adults with visual impairments through professional development, technology, and research.</p>
 <p><a href="https://www.nercve.org/" class="btn btn-outline-primary">Learn more about the Northeast Resource Center for Vision Education</a></p>
+<hr>
 <h3 class="h4">Product Spotlight</h3>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
@@ -157,6 +160,7 @@ Prepare for this Exciting Opportunity</h3>
 <a href="https://pfpinclusion.org/" class="btn btn-outline-primary">Learn more about The Professional Fellows Program on Civic Engagement</a></p>
 <p class="p-3">Learn more about the TOMODACHI Story Jam, a  9-week digital storytelling and youth leadership program. 
 <br><a href="https://www.youtube.com/playlist?list=PL6OzbTjFN-HX0rtqK4XnUSK426KeGW7XI" class="btn btn-outline-primary">Learn more about Tomodachi</a></p>
+<hr>
 <h3 class="h4">Product Spotlight</h3>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
@@ -196,6 +200,7 @@ Prepare for this Exciting Opportunity</h3>
     <div class="col-sm-10"><p class="p-3">We are deeply invested in engaging people people with disabilities across every dimension of our work.</p>
 <p><a href="https://gator.communityinclusion.org/" class="btn btn-outline-primary">Learn more about the Guardianship Alternatives and Transfer of Rights Project</a></p>
 <p><a href="https://youth-voice.org/" class="btn btn-outline-primary">Learn more about The Center on Youth Voice, Youth Choice </a></p>
+<hr>
 <h3 class="h4">Product Spotlight</h3>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
