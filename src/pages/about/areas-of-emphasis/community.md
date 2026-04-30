@@ -17,7 +17,9 @@ hide_title: true
 <div class="card shadow-sm p-3 m-3">
 <h2 class="card-title">Community Life Engagement </h2>
 <div class="row">
-    <div class="col-sm-1"><div class="card-image"><img src="/images/thumbs/cle-toolkit_x.png" alt="Community Life Engagement" class="img-fluid" /></div></div>
+    <div class="col-sm-1"><div class="card-image">
+    <img src="/images/thumbs/CLE-square-logo_x.png" alt="Community Life Engagement" class="img-fluid">
+    <img src="/images/thumbs/cle-toolkit_x.png" alt="Community Life Engagement Toolkit" class="img-fluid" /></div></div>
     <div class="col-sm-11"><p>Community Life Engagement is about increasing access to and participation in the life of the community through activities such as volunteer work, adult or continuing education, recreation, and any other ways people engage in community outside of work.</p>
 <p><a href="https://cletoolkit.communityinclusion.org/" class="btn btn-outline-primary">Learn more about Community Life Engagement</a></p>
 <h3 class="h4">Product Spotlight</h3>
@@ -33,7 +35,7 @@ hide_title: true
   </div>
   <div class="col">
     <div class="card h-100 shadow-sm">
-     <script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/6bdhc4f1uu.js" async type="module"></script><style>wistia-player[media-id='6bdhc4f1uu']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/6bdhc4f1uu/swatch'); display: block; filter: blur(5px); }</style> <wistia-player class="mx-auto d-block" media-id="6bdhc4f1uu" seo="false" aspect="1.867704280155642" style="width: 150px;height: 80px;"></wistia-player>
+     <script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/6bdhc4f1uu.js" async type="module"></script><style>wistia-player[media-id='6bdhc4f1uu']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/6bdhc4f1uu/swatch'); display: block; filter: blur(5px); }</style> <wistia-player class="mx-auto d-block" class="mx-auto d-block" media-id="6bdhc4f1uu" wistia-popover="true" aspect="1.867704280155642" style="width: 150px;height: 80px;"></wistia-player>
       <div class="card-body">
         <h3 class="card-title h6"> CLE in Action Webinar</h3>
         <p class="card-text">Jan 21, 2026</p>
@@ -92,8 +94,8 @@ Prepare for this Exciting Opportunity</h3>
     </div>
   </div>
   <div class="col">
-    <div class="card h-100 shadow-sm" >
-<script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/dltgy68yys.js" async type="module"></script><style>wistia-player[media-id='dltgy68yys']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/dltgy68yys/swatch'); display: block; filter: blur(5px); }</style> <wistia-player class="mx-auto d-block" media-id="dltgy68yys" wistia-popover="true" aspect="1.7777777777777777" style="width: 150px;height: 84px;"></wistia-player>
+  <div class="card h-100 shadow-sm" >
+    <script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/dltgy68yys.js" async type="module"></script><style>wistia-player[media-id='dltgy68yys']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/dltgy68yys/swatch'); display: block; filter: blur(5px); }</style> <wistia-player class="mx-auto d-block" class="mx-auto d-block" media-id="dltgy68yys" wistia-popover="true" aspect="1.7777777777777777" style="width: 150px;height: 84px;"></wistia-player>
       <div class="card-body">
         <h3 class="card-title h6">Thinking for Me</h3>
         <p class="card-text">A comic about turning 18 and talking to parents about alternatives to guardianship, created by New Jersey Youth Ambassador Giancarlo Vicari.</p>
@@ -118,7 +120,7 @@ Prepare for this Exciting Opportunity</h3>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card h-100 shadow-sm" >
-    <script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/190yvuz4w8.js" async type="module"></script><style>wistia-player[media-id='190yvuz4w8']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/190yvuz4w8/swatch'); display: block; filter: blur(5px); }</style> <wistia-player class="mx-auto d-block" media-id="190yvuz4w8" seo="false" aspect="1.0" style="width: 150px;height: 80px;"></wistia-player>
+    <script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/190yvuz4w8.js" async type="module"></script><style>wistia-player[media-id='190yvuz4w8']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/190yvuz4w8/swatch'); display: block; filter: blur(5px); }</style> <wistia-player class="mx-auto d-block" class="mx-auto d-block" media-id="190yvuz4w8" wistia-popover="true" aspect="1.0" style="width: 150px;height: 150px;"></wistia-player>    
     </a>
       <div class="card-body">
         <h3 class="card-title h6">Vision Rehabilitation Therapist</h3>
@@ -127,7 +129,7 @@ Prepare for this Exciting Opportunity</h3>
   </div>
   <div class="col">
     <div class="card h-100 shadow-sm" >
-   <script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/lk2y93dscm.js" async type="module"></script><style>wistia-player[media-id='lk2y93dscm']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/lk2y93dscm/swatch'); display: block; filter: blur(5px); }</style> <wistia-player class="mx-auto d-block" media-id="lk2y93dscm" seo="false" aspect="1.0" style="width: 150px;height: 80px;"></wistia-player>
+   <script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/lk2y93dscm.js" async type="module"></script><style>wistia-player[media-id='lk2y93dscm']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/lk2y93dscm/swatch'); display: block; filter: blur(5px); }</style> <wistia-player class="mx-auto d-block" class="mx-auto d-block" media-id="lk2y93dscm" wistia-popover="true" aspect="1.0" style="width: 150px;height: 150px;"></wistia-player>
       <div class="card-body">
         <h3 class="card-title h6">Assistive Technology Therapist</h3>
       </div>
@@ -135,7 +137,7 @@ Prepare for this Exciting Opportunity</h3>
   </div>
   <div class="col">
     <div class="card h-100 shadow-sm" >
-    <script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/bxnh99wyud.js" async type="module"></script><style>wistia-player[media-id='bxnh99wyud']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/bxnh99wyud/swatch'); display: block; filter: blur(5px); }</style> <wistia-player class="mx-auto d-block" media-id="bxnh99wyud" seo="false" aspect="1.0" style="width: 150px;height: 80px;"></wistia-player>
+    <script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/bxnh99wyud.js" async type="module"></script><style>wistia-player[media-id='bxnh99wyud']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/bxnh99wyud/swatch'); display: block; filter: blur(5px); }</style> <wistia-player class="mx-auto d-block" class="mx-auto d-block" media-id="bxnh99wyud" wistia-popover="true" aspect="1.0" style="width: 150px;height: 150px;"></wistia-player>
       <div class="card-body">
         <h3 class="card-title h6">Orientation and Mobility Therapist</h3>
       </div>
