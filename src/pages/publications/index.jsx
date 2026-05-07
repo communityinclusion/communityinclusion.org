@@ -38,25 +38,30 @@ import DN_89_R_thumb from '../../images/pub-thumbs/DN_89_R_thumb.jpg'
 import PP_SP_UDAC_staff_shortages_pdf from '../../files/PP_SP_UDAC_staff_shortages_R.pdf'
 import PE_implmentation_risk_mitigation_pdf from '../../files/PE_implmentation_risk_mitigation_F_R.pdf'
 import PE_implementation_Jobsville_pdf from '../../files/PE_implementation_Jobsville_F_R2.pdf'
-import IN64_pdf from '../../files/IN64_R.pdf'
+import IN64_pdf from '../../files/IN_64_R.pdf'
 import HTTC17_pdf from '../../files/HTTC17_R.pdf'
 import EVR_CP_quickguide_pdf from '../../files/EVR_CP_quickguide_R.pdf'
 import DN90_pdf from '../../files/DN90_R.pdf'
-import DNplus92_pdf from '../../files/DNplus92_R.pdf'
+import DNplus92_pdf from '../../files/DN_92+_R.pdf'
 import DN_91_pdf from '../../files/DN_91_R.pdf'
 import DN_89_pdf from '../../files/DN_89_R.pdf'
 import ATAP_2024_pdf from '../../files/ATAP_2024_R.pdf'
+import HowTo1_UPDATE_2023_R from '../../files/HowTo1_UPDATE_2023_R.pdf'
 import depression_pdf from '../../files/depression_DS_F2.pdf'
 import adhd_pdf from '../../files/ADHD_F_web.pdf'
 import communications_pdf from '../../files/communications_booklet_2016_update.pdf'
 import ds_brochure_pdf from '../../files/DS_brochure_2014_web_F.pdf'
 import literacy_infants_pdf from '../../files/literacy_infants_F.pdf'
+import annual_report_2020_Y4_R from '../../files/annual_report_2020_Y4_R.pdf'
 import literacy_youngchild_pdf from '../../files/literacy_youngchild_F.pdf'
 import literacy_schoolage_pdf from '../../files/literacy_schoolage_F.pdf'
 import literacy_teens_pdf from '../../files/literacy_teens_F.pdf'
 import TO31_F_R_thumb from '../../images/pub-thumbs/TO31_F_R_thumb.png'
+import HowTo6_R from '../../files/HowTo6_R.pdf'
 import PE_implmentation_risk_mitigation_F_R_th from '../../images/pub-thumbs/PE_implmentation_risk_mitigation_F_R_th.png'
 import emp_programs_policies_general_WR from '../../files/emp_programs_policies_general_WR.pdf'
+import AT_innovative_1_R from '../../files/AT_innovative_1_R.pdf'
+import GG1_R from '../../files/GG1_R.pdf'
 import emp_programs_policies_general_thumb from '../../images/pub-thumbs/emp_programs_policies_general_WR_1_thumb.png'
 
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
@@ -137,7 +142,7 @@ class PublicationsPage extends React.Component {
     </div>
     </div>  
     <div className="col-md-10 card-body">
-   <h2 className="card-title"><a href="https://thinkcollege.net/sites/default/files/files/resources/Conducting_College_Search_HTTC1v2.pdf">Conducting a College Search: Questions to Ask College Programs</a></h2>
+                          <h2 className="card-title"><a href={HowTo1_UPDATE_2023_R}>Conducting a College Search: Questions to Ask College Programs</a></h2>
    <p className="card-text">Conducting a college search is a daunting task for every family and every potential college student. For students with intellectual disability (ID), there are some additional aspects to consider beyond the details you can learn in Think College Search. This resource provides questions, suggested by parents and students who have been through the college search process.</p>
 </div>
  </div>
@@ -151,7 +156,7 @@ class PublicationsPage extends React.Component {
          </div>
          </div>
          <div className="col-md-10 card-body">
-   <h2 className="card-title"> <a href="https://thinkcollege.net/sites/default/files/files/resources/Voices_of_Experience_Students_HTTC6.pdf">Voices of Experience: Students Share College Search Advice</a>  </h2>
+                          <h2 className="card-title"> <a href={HowTo6_R}>Voices of Experience: Students Share College Search Advice</a>  </h2>
    <p className="card-text">We asked 5 former college students what you (and your family) should think about as you start your own college journey. Meet the students here, and keep reading to find out what they wanted you to know!</p>
  </div>
 </div>
@@ -190,7 +195,7 @@ class PublicationsPage extends React.Component {
          </div>
          </div>
          <div className="col-md-10 card-body">
-   <h2 className="card-title"><a href="https://thinkcollege.net/sites/default/files/files/resources/1%20Supporting%20Life%20Skills%20Development%20During%20a%20Typical%20College%20Day.pdf">Supporting Life Skills Development</a>  </h2>
+                          <h2 className="card-title"><a href={GG1_R}>Supporting Life Skills Development</a>  </h2>
    <p className="card-text">Students who receive transition services and attend college have many opportunities throughout the day to develop and use life skills. In fact, the more students stay on campus, the more opportunities they have to use these skills in natural contexts and with natural cues.</p>
 
  </div>
@@ -203,7 +208,7 @@ class PublicationsPage extends React.Component {
                </div>
                </div>
                <div className="col-md-10 card-body">
-    <h2 className="card-title"><a href="https://thinkcollege.net/sites/default/files/files/resources/TC%20reports_%20YEAR4_2019_F2.pdf">Think College TPSID annual report</a></h2>
+                          <h2 className="card-title"><a href={annual_report_2020_Y4_R}>Think College TPSID annual report</a></h2>
     <p className="card-text">This report provides an overview of descriptive program and student-level data provided by TPSIDs during the 2018–2019 academic year. Program data includes program characteristics, academic access, supports for students, and integration of the program within the IHE during the fourth year of the 2015–2020 funding. Student data includes student demographics, course enrollments, employment activities, and engagement in student life. This report also provides information on the strategic partnerships and financial sustainability of TPSID programs. Additionally, the report provides trends over time as well as descriptive data on the outcomes of students who exited TPSID programs in previous years.</p>
 
  </div>
@@ -470,7 +475,7 @@ class PublicationsPage extends React.Component {
     </div>
     </div>
     <div className="col-md-10 card-body">
-    <h2 className="card-title"><a href="/pdf/TO31_F_R.pdf">Employment and Employment Supports: A Guide to Ensuring Informed Choice for Individuals with Disabilities</a></h2>
+    <h2 className="card-title"><a href="/pdf/TO31_R.pdf">Employment and Employment Supports: A Guide to Ensuring Informed Choice for Individuals with Disabilities</a></h2>
     <h3>Tools for Inclusion No.31</h3>
     <p className="card-text">What is “informed choice”? And how we do ensure that a choice is truly “informed” and fully reflective of the individual’s preferences?
 </p>
@@ -609,7 +614,7 @@ that are fully reflective of their own interests and preferences.</p>
     </div>
     </div>
     <div className="col-md-10 card-body">
-   <h2 className="card-title"><a href="https://catada.info/assets/files/innovativeAT_issue1_Final%20Accessible.pdf">Innovative AT Practices, ISSUE NO. 1 • OCTOBER 2019</a></h2>
+                          <h2 className="card-title"><a href={AT_innovative_1_R}>Innovative AT Practices, ISSUE NO. 1 • OCTOBER 2019</a></h2>
 <p className="card-text"><strong>Mobile Unit Brings Assistive Tech to Underserved Areas.</strong> The mobile unit has been described as a “warehouse on wheels” by iCAN’s program manager, Rick Anderson. Two program coordinators rotate monthly to drive the van to a predetermined area and set up shop for the day. Once there, they provide device loans, demonstrations of high-end AT devices (such as communication tools), and giveaways of limited reused AT devices. </p>
 </div>
 </div>
