@@ -1,5 +1,5 @@
 ---
-title: "Meet the Employment Policy & Systems Team "
+title: "Meet the Employment Policy & Systems Team"
 description: ""
 path: "/news/2026-05-07_meet-the-employment-policy-and-systems-team"
 date: "2026-05-07"
