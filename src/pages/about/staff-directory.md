@@ -63,16 +63,18 @@ Staff listing and contact details<!-- end -->
 | Sheila     | Johnson           |                | <Sheila.Johnson@umb.edu>                   | [View Profile](/about/staff-directory/sheila-johnson)             |
 | Yourlanda  | Johnson           |       (857) 218-4328         | <Yourlanda.Johnson@childrens.harvard.edu>  | [View Profile](/about/staff-directory/yourlanda-johnson) |
 | Staci      | Jones             | | <Staci.Jones@umb.edu>                 | [View Profile](/about/staff-directory/staci-jones)                          |
-| Esther|   Kamau   | |  <Esther.Kamau001@umb.edu>    | [View Profile](/about/staff-directory/esther-kamau)                  |
+| Esther |   Kamau   | |  <Esther.Kamau001@umb.edu>    | [View Profile](/about/staff-directory/esther-kamau)                  |
 | Jessica    | Keenoy            | (573) 303-8770 | <Jessica.Keenoy@umb.edu>                   | [View Profile](/about/staff-directory/jessica-keenoy)             |
 | Jonathan   | Keleher           | (617) 287-4292 | <Jonathan.Keleher@umb.edu>                 | [View Profile](/about/staff-directory/jon-keleher)                |
 | Chayaphon  | Klinthong         |                | <Chayaphon.Klinthon@umb.edu>               | [View Profile](/about/staff-directory/chayaphon-klinthong)        |
 | Ngai       | Kwan              | (617) 287-4298 | <Ngai.Kwan@umb.edu>                        | [View Profile](/about/staff-directory/ngai-kwan)                  |
 | Tina       | Laffer              |  | <Christina.Laffer@umb.edu>                        | [View Profile](/about/staff-directory/tina-laffer)                  |
+| Ashley E.   |  Lazarre              |   | <Ashley.Lazarre@umb.edu>                     | [View Profile](/about/staff-directory/ashley-e-lazarre)               |
 | Rebecca    | Lazo              | (857) 309-8324 | <Rebecca.Lazo@umb.edu>                     | [View Profile](/about/staff-directory/rebecca-lazo)               |
-| Sherry   |Lehane  | |   <Sherry.Lehane@umb.edu>    | [View Profile](/about/staff-directory/sherry-lehane)                  |
+| Sherry     |    Lehane  |       |   <Sherry.Lehane@umb.edu>    | [View Profile](/about/staff-directory/sherry-lehane)                  |
 | Mindy     | Lingo            |  | <Mindy.Lingo@umb.edu>                     | [View Profile](/about/staff-directory/mindy-lingo)               |
 | Angela     | Lombardo          | (857) 218-4329 | <Angela.Lombardo@childrens.harvard.edu>    | [View Profile](/about/staff-directory/angela-lombardo)            |
+| Melanie      | Lopez          |                  | <Melanie.Lopez@umb.edu>    | [View Profile](/about/staff-directory/melanie-lopez)            |
 | Ashley     | Luce              | (617) 297-6797 | <Ashley.Luce@umb.edu>                      | [View Profile](/about/staff-directory/ashley-luce)                |
 | Oliver     | Lyons             | (617) 287-4376 | <Oliver.Lyons@umb.edu>                     | [View Profile](/about/staff-directory/oliver-lyons)               |
 | Iris        | Martinez           | (617) 287-7265 | <Iris.Martinez@umb.edu>                 | [View Profile](/about/staff-directory/iris-martinez)                |
