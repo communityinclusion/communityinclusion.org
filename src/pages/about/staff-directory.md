@@ -108,6 +108,7 @@ Staff listing and contact details<!-- end -->
 | Carl-Olivier   | Sidney            |  | <CarlOlivier.Sidn001@umb.edu>                    | [View Profile](/about/staff-directory/carl-olivier-sidney)               |
 | Kaitlyn    | Siner-Cappas      | (617) 287-3070 | <Kaitlyn.Siner@umb.edu>                    | [View Profile](/about/staff-directory/kaitlyn-siner-cappas)       |
 | Chelsea    | Stinnett          |                | <chelsea.stinnett@umb.edu>                 | [View Profile](/about/staff-directory/chelsea-stinnett)           |
+| Jessica    | Sullivan          |                | <jessica.sullivan@umb.edu>                 | [View Profile](/about/staff-directory/jessica-sullivan)           |
 | Ludwik     | Szymanski         |                | <Ludwik.Szymanski@childrens.harvard.edu>   | [View Profile](/about/staff-directory/ludwik-s-szymanski)         |
 | Allison    | Taylor            |  | <Allison.Taylor@umb.edu>                   | [View Profile](/about/staff-directory/allison-taylor)             |
 | David      | Temelini          | (617) 287-4321 | <David.Temelini@umb.edu>                   | [View Profile](/about/staff-directory/david-temelini)             |
