@@ -5,6 +5,12 @@ posttype: "page"
 date: 2025-09-01
 thumbnail: "../../images/ICI.png"
 ---
+<div class="alert alert-info" role="alert">
+    <div class="float-start me-3 h2">&#128681</div>
+    <span class="h5">	 Applications Now Open: ARRT Postdoctoral Fellowship beginning September 2026</span>
+    <p>We are recruiting <strong>two postdoctoral fellows</strong> for the Advanced Rehabilitation Research Training (ARRT) Program.</p>
+    <p class="ms-5"><strong>Application deadline: July 18, 2026</strong></p>
+</div>
 <div class="p-3 mb-2 bg-body-tertiary rounded-3"> 
     <div class="container-fluid py-2"> 
         <div class="row">
@@ -27,7 +33,7 @@ thumbnail: "../../images/ICI.png"
 <li>Provides advanced, multidisciplinary training in IDD employment research</li>
 <li>Addresses the critical need for better representation and capacity in the IDD research workforce and field</li>
 </ul>
-<p>The ARRT Program is housed at the Institute for Community Inclusion (ICI) at UMass Boston and brings together ICI’s expertise from the School of Global Inclusion and Social Development (SGISD) at UMass Boston and the National Association of State Directors of Developmental Disabilities Services (NASDDDS). ARRT is funded by the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR).</p>
+<p>The ARRT program is housed at the Institute for Community Inclusion (ICI) at UMass Boston and brings together ICI’s expertise from the School of Global Inclusion and Social Development (SGISD) at UMass Boston and the National Association of State Directors of Developmental Disabilities Services (NASDDDS). ARRT is funded by the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR).</p>
 </section>
 
 
@@ -69,7 +75,10 @@ thumbnail: "../../images/ICI.png"
 <section id="calling-all-researchers-do-you-want-to-join-the-arrt">
 <h2 class="card-title">Calling all Researchers! Do you want to join the ARRT?</h2>
 
-<p>We are seeking two postdoctoral fellows who are interested in pursuing impactful research careers in the IDD field. Applications will open in summer 2026, and fellows will begin in September 2026.</p>
+<p>We are seeking two postdoctoral fellows who are interested in pursuing impactful research careers in the IDD field.</p>
+<p class="h5">Applications are now open for the 2026–2027 ARRT Fellowship cohort. <strong>Apply by Saturday, July 18, 2026.</strong></p>
+<p>Selected fellows will begin their appointments in <strong>September 2026</strong>. </p>
+
 <h4 id="who-are-you-">Who are you?</h4>
 <ul>
 <li>A U.S. citizen or legal permanent resident with a doctoral degree (or equivalent) in a relevant field, such as rehabilitation, education, social sciences, public health, or public policy</li>
@@ -86,7 +95,7 @@ thumbnail: "../../images/ICI.png"
 <section id="apply">
 <div class="card_pill mb-4">
                 <p class="h2">Ready to apply? </p>
-    <p>Applications for the fall 2026 postdoctoral ARRT Program Fellowship positions will open in summer 2026. </p>
+    <p class="h5"><a href="https://employmentopportunities.umb.edu/boston/en-us/job/529934/post-doctoral-research-fellow" >Applications are now open for the Fall 2026 ARRT Program Fellowship positions</a>. Apply by Saturday, July 18, 2026.</p>
 </div>
 <p><em>The webpage was developed under a grant from the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR grant number 90AREM0009).  NIDILRR is a Center within the Administration for Community Living (ACL), Department of Health and Human Services (HHS).  The contents do not necessarily represent the policy of NIDILRR, ACL, or HHS, and you should not assume endorsement by the Federal Government.</em></p>
 </section>
