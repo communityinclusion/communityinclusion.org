@@ -9,7 +9,8 @@ thumbnail: "../../images/ICI.png"
     <div class="float-start me-3 h2">&#128681</div>
     <span class="h5">	 Applications Now Open: ARRT Postdoctoral Fellowship beginning September 2026</span>
     <p>We are recruiting <strong>two postdoctoral fellows</strong> for the Advanced Rehabilitation Research Training (ARRT) Program.</p>
-    <p class="ms-5"><strong>Application deadline: July 18, 2026</strong></p>
+    <div style="max-width:500px;"><a class="btn btn-primary float-end ms-3 mb-3" href="https://employmentopportunities.umb.edu/boston/en-us/job/529934/post-doctoral-research-fellow" role="button">Apply Now</a>
+    <p class="ms-5"><strong>Application deadline: July 18, 2026</strong></p></div>
 </div>
 <div class="p-3 mb-2 bg-body-tertiary rounded-3"> 
     <div class="container-fluid py-2"> 
