@@ -19,7 +19,7 @@ import {
 const Header = () => (
   <header>
     <div className="container-xxl header">
-      <div className="row px-3 py-3">
+      <div className="row">
         <div className="col-lg-9 col-sm-12 col-12 mt-2">
           <Link
             to="/"
