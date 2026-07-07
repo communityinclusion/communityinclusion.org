@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import GoogleCustomSearchBox from "./GoogleCustomSearchBox.jsx"
-import logo from "../images/ici-150w.png"
+import logo from "../images/ICI_long_update.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faTwitter,
@@ -19,7 +19,7 @@ import {
 const Header = () => (
   <div className="container-xxl header">
     <div className="row px-3 py-3">
-      <div className="col-lg-2 col-sm-3 col-3 mt-2">
+      <div className="col-lg-9 col-sm-12 col-12 mt-2">
         <Link
           to="/"
           className="d-table-cell align-middle mid-gray link "
@@ -27,18 +27,6 @@ const Header = () => (
         >
           <img className="img-fluid" alt="ICI At UMass boston" src={logo} />
         </Link>
-      </div>
-
-      <div className="col-lg-7 col-sm-9 col-9  ps-2 my-auto">
-        <p id="banner-text" className="dark-blue mb-2">
-          University of Massachusetts Boston{" "}
-        </p>
-        <span
-          id="banner-tagline"
-          className="h6 h5-md h4-lg d-none d-lg-block f-subheadline dark-blue tracked-mega-l "
-        >
-          {" "}
-        </span>{" "}
       </div>
 
       <div className="col-lg-3  d-none d-lg-block  p-2">
