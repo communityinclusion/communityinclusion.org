@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import GoogleCustomSearchBox from "./GoogleCustomSearchBox.jsx"
-import logo from "../images/ICI_long_update.png"
+import logo from "../images/ICI_long_update_V2.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faTwitter,
