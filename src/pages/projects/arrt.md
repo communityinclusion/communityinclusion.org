@@ -10,7 +10,7 @@ thumbnail: "../../images/ICI.png"
     <span class="h5">	 Applications Now Open: ARRT Postdoctoral Fellowship beginning September 2026</span>
     <p>We are recruiting <strong>two postdoctoral fellows</strong> for the Advanced Rehabilitation Research Training (ARRT) Program.</p>
     <div style="max-width:500px;"><a class="btn btn-primary float-end ms-3 mb-3" href="https://employmentopportunities.umb.edu/boston/en-us/job/529934/post-doctoral-research-fellow" role="button">Apply Now</a>
-    <p class="ms-5"><strong>Application deadline: July 18, 2026</strong></p></div>
+    <p class="ms-5"><strong>Application deadline: July 27, 2026</strong></p></div>
 </div>
 <div class="p-3 mb-2 bg-body-tertiary rounded-3"> 
     <div class="container-fluid py-2"> 
@@ -77,7 +77,7 @@ thumbnail: "../../images/ICI.png"
 <h2 class="card-title">Calling all Researchers! Do you want to join the ARRT?</h2>
 
 <p>We are seeking two postdoctoral fellows who are interested in pursuing impactful research careers in the IDD field.</p>
-<p class="h5">Applications are now open for the 2026–2027 ARRT Fellowship cohort. <strong>Apply by Saturday, July 18, 2026.</strong></p>
+<p class="h5">Applications are now open for the 2026–2027 ARRT Fellowship cohort. <strong>Apply by Saturday, July 27, 2026.</strong></p>
 <p>Selected fellows will begin their appointments in <strong>September 2026</strong>. </p>
 
 <h4 id="who-are-you-">Who are you?</h4>
@@ -96,7 +96,7 @@ thumbnail: "../../images/ICI.png"
 <section id="apply">
 <div class="card_pill mb-4">
                 <p class="h2">Ready to apply? </p>
-    <p class="h5"><a href="https://employmentopportunities.umb.edu/boston/en-us/job/529934/post-doctoral-research-fellow" >Applications are now open for the Fall 2026 ARRT Program Fellowship positions</a>. Apply by Saturday, July 18, 2026.</p>
+    <p class="h5"><a href="https://employmentopportunities.umb.edu/boston/en-us/job/529934/post-doctoral-research-fellow" >Applications are now open for the Fall 2026 ARRT Program Fellowship positions</a>. Apply by Saturday, July 27, 2026.</p>
 </div>
 <p><em>The webpage was developed under a grant from the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR grant number 90AREM0009).  NIDILRR is a Center within the Administration for Community Living (ACL), Department of Health and Human Services (HHS).  The contents do not necessarily represent the policy of NIDILRR, ACL, or HHS, and you should not assume endorsement by the Federal Government.</em></p>
 </section>
