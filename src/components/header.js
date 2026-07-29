@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import GoogleCustomSearchBox from "./GoogleCustomSearchBox.jsx"
-import logo from "../images/ICI_long_update_V2.png"
+import logo from "../images/ICI_square.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faTwitter,
@@ -20,17 +20,16 @@ const Header = () => (
   <header>
     <div className="container-xxl header">
       <div className="row">
-        <div className="col-lg-9 col-sm-12 col-12 mt-2">
+        <div className="col-lg-9 col-sm-12 col-12 mt-2 d-flex site-logo-col">
           <Link
             to="/"
-            className="d-table-cell align-middle mid-gray link "
+            className = "d-flex align-items-center mid-gray text-decoration-none link site-logo-link"
             title="Home"
           >
-            <img
-              className="img-fluid"
-              alt="ICI At UMass Boston - Home"
-              src={logo}
-            />
+            <img className="site-logo-img" alt="ICI" src={logo} />
+            <span className = "blue fw-bold ms-3  site-logo-text" > 
+             University of Massachusetts Boston
+            </span>
           </Link>
         </div>
 

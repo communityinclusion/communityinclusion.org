@@ -693,6 +693,36 @@ li.MuiButtonBase-root a {
   margin-top: 10px;
 }
 
+.site-logo-col {
+  align-items: center;
+}
+
+.site-logo-link {
+  height: 100%;
+}
+
+.site-logo-img {
+  height: 56px;
+  width: auto;
+}
+
+.site-logo-text {
+  font-size: 1.15rem;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+@media (min-width: 992px) {
+  .site-logo-img {
+    height: 100%;
+    max-height: 130px;
+  }
+
+  .site-logo-text {
+    font-size: 2.5rem;
+  }
+}
+
 ul.header-links {
   flex-direction: row;
 }

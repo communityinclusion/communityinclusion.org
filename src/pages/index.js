@@ -27,6 +27,7 @@ const IndexPage = ({ data, location }) => {
     }
     return (
       <HomeLayout location={location} title={siteTitle}>
+        <h1 className="visually-hidden">ICI at the University of Massachusetts Boston</h1>
         <section className="center infograph">
           <div className="row my-4 ">
             <div className="col-md-6 d-flex flex-column justify-content-between bg-white p-4">
