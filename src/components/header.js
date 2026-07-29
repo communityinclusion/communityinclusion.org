@@ -23,13 +23,15 @@ const Header = () => (
         <div className="col-lg-9 col-sm-12 col-12 mt-2 d-flex site-logo-col">
           <Link
             to="/"
-            className = "d-flex align-items-center mid-gray text-decoration-none link site-logo-link"
+            className = "d-flex align-items-center w-100 mid-gray text-decoration-none link site-logo-link"
             title="Home"
           >
             <img className="site-logo-img" alt="ICI" src={logo} />
-            <span className = "blue fw-bold ms-3  site-logo-text" > 
-             University of Massachusetts Boston
-            </span>
+            <h1 className = "blue fw-bold flex-grow-1 text-center site-logo-text" >
+             ICI at the University of
+              <br />
+              Massachusetts Boston
+            </h1>
           </Link>
         </div>
 
