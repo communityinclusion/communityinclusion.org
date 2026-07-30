@@ -27,11 +27,11 @@ const Header = () => (
             title="Home"
           >
             <img className="site-logo-img" alt="ICI" src={logo} />
-            <h1 className = "blue fw-bold flex-grow-1 text-center site-logo-text" >
+            <span className = "blue fw-bold flex-grow-1 text-center site-logo-text" >
              ICI at the University of
               <br />
               Massachusetts Boston
-            </h1>
+            </span>
           </Link>
         </div>
 
