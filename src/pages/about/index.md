@@ -115,13 +115,13 @@ description: "The Institute for Community Inclusion at UMass Boston supports the
 
 
 <div class="col-md-4 col-sm-12 mb-4 d-flex align-self-stretch">
-<div class="card w-100">
+<!--<div class="card w-100">
 <div class="card-body">
 
 <h2 class="card-title"><a class="link dt w-100 mt-2 dark-blue" href="/about/what-we-mean-when-we-talk-about-inclusion">What We Mean When We Talk About Inclusion</a></h2>
 
 <p class="card-text">A resource guide.</p>   
 </div>
-</div>
+</div>-->
 </div>
 </div>
