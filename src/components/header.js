@@ -71,7 +71,7 @@ const Header = () => (
               </li>
             </ul>
 
-            <ul className="col-lg-12 social-links d-flex justify-content-around list-inline pl0 m-0 mb-2">
+           {/* <ul className="col-lg-12 social-links d-flex justify-content-around list-inline pl0 m-0 mb-2">
               <li className="list-inline-item flex-item ">
                 {" "}
                 <a
@@ -127,7 +127,7 @@ const Header = () => (
                   <FontAwesomeIcon icon={faYoutube} size="2x" />
                 </a>{" "}
               </li>{" "}
-            </ul>
+            </ul> */}
             <div>
               <GoogleCustomSearchBox />
             </div>
