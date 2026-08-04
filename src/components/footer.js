@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import umbcombo from "../images/ICI_UMB_bch-combo.png"
+import umbcombo from "../images/ICI_UMB_bch-combo_v2.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faTwitter,
@@ -199,7 +199,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
-    <div className="footer-copyright  bg-dark border-top border-white border-2">
+    <div className = "footer-copyright umb_blue border-top border-info border-2">
       <div className="container-xxl	text-white w-100 bt align-middle  py-2">
         <div className="row pt-3 gy-4">
           <div className="col-md-4  align-middle ">
