@@ -4,12 +4,12 @@ path: "/about"
 date: 2019-04-01
 posttype: "page"
 thumbnail: '../../images/ICI.png'
-description: "The Institute for Community Inclusion at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society. As practitioners, researchers, and teachers, we form partnerships with individuals, families, and service agencies. Together we advocate for personal choice, self-determination, and social and economic justice."
+description: "The ICI at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society. As practitioners, researchers, and teachers, we form partnerships with individuals, families, and service agencies. Together we advocate for personal choice, self-determination, and social and economic justice."
 ---
 
 
 
-<p> The Institute for Community Inclusion (ICI) is a <a href="https://www.aucd.org/template/index.cfm">University Center for Excellence in Developmental Disabilities (UCEDD)</a> housed within the School for Global Inclusion and Social Development (SGISD) at the University of Massachusetts Boston. As one of 67 UCEDDs, we collaborate with people with disabilities, members of their families, state and local government agencies, and service providers. Our goal is to advance the full inclusion of people with disabilities in all aspects of life. </p>
+<p> The ICI at UMass Boston is a <a href="https://www.aucd.org/template/index.cfm">University Center for Excellence in Developmental Disabilities (UCEDD)</a> housed within  SGISD at the University of Massachusetts Boston. As one of 67 UCEDDs, we collaborate with people with disabilities, members of their families, state and local government agencies, and service providers. Our goal is to advance opportunities for people with disabilities in all aspects of life. </p>
 
 <p>Our work encompasses research, program evaluation, training, consultation, education, policy analysis, information sharing, and service delivery across four main areas of emphasis:
 </p>
@@ -20,11 +20,11 @@ description: "The Institute for Community Inclusion at UMass Boston supports the
 <li><b><a href="/about/areas-of-emphasis/healthcare">Health Care </a></b></li>
 </ul>
 
-<p>We have three national hubs, focused on inclusive employment and education:</p>
+<p>We have three national hubs, focused on employment and education:</p>
 <ul>
 <li><a href="https://www.explorevr.org/">ExploreVR</a> is for vocational rehabilitation agencies and researchers. It features ICI projects related to vocational rehabilitation research, data, and tools for planning, evaluation, and decision-making.  </li>
 <li><a href="https://www.thinkwork.org/">ThinkWork</a> is for people with intellectual and/or developmental disabilities (IDD), their families, employment practitioners, and policymakers. It features ICI projects related to employment for people with IDD.</li>
-<li><a href="https://thinkcollege.net/">ThinkCollege</a> is for students with intellectual disability, their families, educators, policymakers, and institutes of higher education. It features ICI projects related to inclusive higher education for students with intellectual disability.  </li>
+<li><a href="https://thinkcollege.net/">ThinkCollege</a> is for students with intellectual disability, their families, educators, policymakers, and institutes of higher education. It features ICI projects related to postsecondary education for students with intellectual disability.</li>
 </ul>
 
 
@@ -108,7 +108,7 @@ description: "The Institute for Community Inclusion at UMass Boston supports the
 <div class="card-body">
         
    <h2 class="card-title"><a class="link dt w-100 mt-2 dark-blue" href="/jobs">Jobs at ICI</a></h2>
-       <p class="card-text"> Join a great workplace that supports and advances UMass Boston’s values of diversity and equity!</p> 
+       <p class="card-text"> Join a great workplace that supports and advances UMass Boston’s values of excellence and serivce to our communities.</p> 
 </div>
 </div>
 </div>

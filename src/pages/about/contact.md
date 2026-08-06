@@ -7,9 +7,9 @@ excerpt: "The Institute for Community Inclusion is based at the University of Ma
 thumbnail: '../../images/ICI.png'
 ---
 
-The Institute for Community Inclusion is based at the University of Massachusetts Boston with additional offices at Boston Children's Hospital.
+The ICI is based at the University of Massachusetts Boston with additional offices at Boston Children's Hospital.
 
-Institute for Community Inclusion/UCEDD  
+ICI/UCEDD  
 UMass Boston  
 100 Morrissey Blvd.  
 Boston, Massachusetts 02125  

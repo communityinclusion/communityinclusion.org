@@ -20,12 +20,12 @@ ICI envisions a world that is socially just, where children and adults with disa
 
 To help realize this vision and mission, we value:
 
-_Being a CHAMPION_ of children and adults with disabilities through advocacy and education.
+_Being a champion_ of children and adults with disabilities through advocacy and education.
 
-_Fostering COMPETENCIES_ that promote the full potential for all.  
+_Fostering compentencies_ that promote the full potential for all.  
 
-_Engaging in COMMUNICATION_ to advance knowledge across domains — education, employment, health care, community involvement, and quality of life — with and for children and adults with disabilities.
+_Engaging in communication_ to advance knowledge across domains — education, employment, health care, community involvement, and quality of life — with and for children and adults with disabilities.
 
-_Building CONFIDENCE_ in children and adults with disabilities so they can realize self-driven goals.
+_Building confidence_ in children and adults with disabilities so they can realize self-driven goals.
 
-_Affording CHOICES_ for self-directed and well-informed decision-making, so that people of all abilities can shape their lives.
+_Affording choicess_ for self-directed and well-informed decision-making, so that people of all abilities can shape their lives.
