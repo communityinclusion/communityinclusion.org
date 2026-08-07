@@ -8,9 +8,9 @@ posttype: "news"
 thumbnail: "../../images/thinkwork.png"
 ---
 
-![Institute for Community Inclusion Think Work logo](../images/thinkwork-long.png)
+![ICI Think Work logo](../images/thinkwork-long.png)
 
-*The Institute for Community Inclusion’s (ICI) Employment Policy and Systems team plays a key role in understanding and improving employment outcomes for people with intellectual and developmental disabilities. We spoke with the team to learn more about their work, impact, and what drives their approach.*
+*The ICI Employment Policy and Systems team plays a key role in understanding and improving employment outcomes for people with intellectual and developmental disabilities. We spoke with the team to learn more about their work, impact, and what drives their approach.*
 
 **For those who may not be familiar, what does the Employment Policy and Systems team do?**
 
