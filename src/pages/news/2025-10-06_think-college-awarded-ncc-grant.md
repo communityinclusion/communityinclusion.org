@@ -8,7 +8,7 @@ posttype: "news"
 thumbnail: "../../images/thinkcollege.png"
 ---
 
-The Institute for Community Inclusion (ICI) at UMass Boston is proud to announce that [Think College](https://thinkcollege.net/about/what-is-think-college) will continue to lead as the long-standing National Coordinating Center (NCC) for the Transition and Postsecondary Programs for Students with Intellectual Disabilities (TPSID). Think College was awarded a 5-year $10 million grant from the US Department of Education for the NCC.
+The ICI at UMass Boston is proud to announce that [Think College](https://thinkcollege.net/about/what-is-think-college) will continue to lead as the long-standing National Coordinating Center (NCC) for the Transition and Postsecondary Programs for Students with Intellectual Disabilities (TPSID). Think College was awarded a 5-year $10 million grant from the US Department of Education for the NCC.
 
 Think College has proudly served as the NCC since the TPSID initiative began in 2010. This continuation award will allow Think College and the ICI to support and advance higher education opportunities for students with intellectual disability through ongoing program development, evaluation, and continuous improvement.
 

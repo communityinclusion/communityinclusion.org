@@ -8,7 +8,7 @@ posttype: "news"
 thumbnail: "../../images/ICI.png"
 ---
 
-A new collaboration between the Institute for Community Inclusion (ICI), UMass Boston Vision Studies program, New England Consortium on DeafBlindness (NEC), and Northeast Resource Center for Vision Education at UMASS Boston (NERCVE) has culminated in a DeafBlind Graduate Certificate program, available this fall for education professionals interested in expanding their skills.
+A new collaboration between the ICI, UMass Boston Vision Studies program, New England Consortium on DeafBlindness (NEC), and Northeast Resource Center for Vision Education at UMass Boston (NERCVE) has culminated in a DeafBlind Graduate Certificate program, available this fall for education professionals interested in expanding their skills.
 
 Students who are DeafBlind face unique challenges in school that require the attention of specialized instructors and staff. UMass Boston’s new DeafBlind Graduate Certificate program will prepare education personnel to work with students who are DeafBlind. The program is specifically for professionals who are trained as:
 

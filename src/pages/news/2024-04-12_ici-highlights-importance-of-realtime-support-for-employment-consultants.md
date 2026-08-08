@@ -8,7 +8,7 @@ posttype: "news"
 thumbnail: "../../images/ICI.png"
 ---
 
-New research from the [Institute for Community Inclusion](https://www.communityinclusion.org/) analyzed how data-enabled feedback and micro-lessons embedded in the workflow can be an important part of organizational management and quality improvement for employment consultants.
+New research from the [ICI](https://www.communityinclusion.org/) analyzed how data-enabled feedback and micro-lessons embedded in the workflow can be an important part of organizational management and quality improvement for employment consultants.
 
 In [an article](https://doi.org/10.1352/1934-9556-61.6.468) published in the academic journal *Intellectual and Developmental Disabilities*, researchers detailed how they made a tool called [ES-Coach](https://www.es-coach.org/) (Employment Support Coach) available to employment consultants so they could visualize their implementation of supported and customized employment, reflect, set goals, and take action. The ICI staffers worked with 11 managers and 56 employment consultants from nine organizations over six months, asking them daily questions about their work activities and providing micro-lessons on best practices through videos, tips, data, and articles.
 

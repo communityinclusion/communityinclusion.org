@@ -8,7 +8,7 @@ posttype: "news"
 thumbnail: "../../images/ICI.png"
 ---
 
-A group of Institute for Community Inclusion and Think College researchers recently co-authored a chapter about postsecondary education for the second edition of the [*Handbook of Research-Based Practices for Educating Students with Intellectual Disability*](https://doi.org/10.4324/9781003363422), detailing how higher education can improve the lives, financial security, and postschool outcomes of people with intellectual disability in the United States.
+A group of ICI and Think College researchers recently co-authored a chapter about postsecondary education for the second edition of the [*Handbook of Research-Based Practices for Educating Students with Intellectual Disability*](https://doi.org/10.4324/9781003363422), detailing how higher education can improve the lives, financial security, and postschool outcomes of people with intellectual disability in the United States.
 
 In the chapter, Meg Grigal, Maria Paiewonsky, Caitlyn Bukaty, and Irina Cain described recent developments in higher education options for people with intellectual disability and detailed new findings from grantees in the federally funded Transition and Postsecondary Education Programs for Students with Intellectual Disability (TPSID) model demonstration program. The chapter also explains the historical background of postsecondary education for students with intellectual disability in the U.S., including the impact of the Higher Education Opportunity Act of 2008 (HEOA), as well as legislative and policy changes at the state and regional level.
 

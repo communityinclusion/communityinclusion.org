@@ -8,7 +8,7 @@ posttype: "news"
 thumbnail: "../../images/david-helm.png"
 ---
 
-Congratulations to David Helm! David has served as the Director of Leadership Education in Neurodevelopmental and related Disabilities (LEND) Program at the Institute for Community Inclusion (ICI) at Boston Children’s Hospital and the University of Massachusetts for nearly 15 years. Before that, he was the LEND Training Director for 20 years. This summer, David retired from his position as LEND Director.
+Congratulations to David Helm! David has served as the Director of Leadership Education in Neurodevelopmental and related Disabilities (LEND) Program at the ICI at Boston Children’s Hospital and the University of Massachusetts for nearly 15 years. Before that, he was the LEND Training Director for 20 years. This summer, David retired from his position as LEND Director.
 
 ![David Helm](/images/david-helm.png "David Helm")
 

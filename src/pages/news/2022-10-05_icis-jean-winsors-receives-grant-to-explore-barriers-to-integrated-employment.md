@@ -8,7 +8,7 @@ posttype: "news"
 thumbnail: "../../images/ICI.png"
 ---
 
-Congratulations to Dr. Jean Winsor, senior research associate at the Institute for Community Inclusion (ICI)! Dr. Winsor received a 3-year, $600,000 field-initiated research grant from the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR) to address the impact of state agency financial practices on employment outcomes for people with intellectual and developmental disabilities (IDD).
+Congratulations to Dr. Jean Winsor, senior research associate at the ICI! Dr. Winsor received a 3-year, $600,000 field-initiated research grant from the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR) to address the impact of state agency financial practices on employment outcomes for people with intellectual and developmental disabilities (IDD).
 
 Which state IDD agency service contracting methods and service payment rates are most likely to lead to people with IDD working in the community? Dr. Winsor’s project will build on the State Employment Leadership Network’s (SELN) work with state IDD agencies to learn more about how financial policies and procedures can expand employment services for people with IDD. Jean plans to test the relationship between IDD agency contracting methods, service payment rates, participation in employment services, and employment outcomes. Through this work, Jean will develop contracting and payment guideposts for state IDD agencies to use to increase employment for people with IDD.
 

@@ -1,5 +1,5 @@
 ---
-title: "We’re Hiring! The Institute for Community Inclusion is Hiring a New Director"
+title: "We’re Hiring! The ICI is Hiring a New Director"
 description: ""
 path: "/news/2025-11-06_hiring-new-ici-director"
 date: "2025-11-06"
@@ -8,11 +8,11 @@ posttype: "news"
 thumbnail: "../../images/ICI.png"
 ---
 
-The Institute for Community Inclusion (ICI) at the University of Massachusetts Boston (UMass Boston) is hiring a new director to lead us into 2026.
+The ICI at the University of Massachusetts Boston (UMass Boston) is hiring a new director to lead us into 2026.
 
 The ICI supports the rights of people with disabilities to participate in all aspects of society. We promote systems change and partner with people with disabilities, their families, and communities to advocate for personal choice and self-determination.
 
-Our new director will be responsible for implementing the ICI’s mission and upholding our values. They will lead an expert staff who represent a wide range of knowledge in the disability field and build the leadership and global presence of the ICI. This equity-minded leader will shape future directions and drive growth by cultivating new funding opportunities and forging strategic partnerships—both within and beyond the University. Key collaborators will include the College of Education and Human Development (CEHD), the School for Global Inclusion and Social Development (SGISD), and Boston Children’s Hospital. 
+Our new director will be responsible for implementing the ICI’s mission and upholding our values. They will lead an expert staff who represent a wide range of knowledge in the disability field and build the leadership and global presence of the ICI. This equity-minded leader will shape future directions and drive growth by cultivating new funding opportunities and forging strategic partnerships—both within and beyond the University. Key collaborators will include the College of Education and Human Development (CEHD), SGISD, and Boston Children’s Hospital. 
 
 **Does this sound like you?**
 

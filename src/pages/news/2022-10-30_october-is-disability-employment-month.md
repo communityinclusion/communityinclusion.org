@@ -8,9 +8,9 @@ posttype: "news"
 thumbnail: "../../images/ICI.png"
 ---
 
-Employment is more than just work. For many people with and without disabilities, employment is about dignity, respect, independence, and inclusion.
+Employment is more than just work. For many people with and without disabilities, employment is about dignity, respect, and independence.
 
-The ICI advocates for the full inclusion of people with disabilities into the mainstream workforce. We conduct research and track state and national data trends in employment services and outcomes to inform our advocacy, services, training, and mentorship work.
+The ICI promotes opportunities for people with disabilities into the mainstream workforce. We conduct research and track state and national data trends in employment services and outcomes to inform our advocacy, services, training, and mentorship work.
 
 -   People with disabilities should be able to make **informed choices** about employment
 -   Achieving **inclusive employment** involves systems-level and organizational change efforts that address the intersections of disability and race, gender, sexual orientation, nationality, and other cultural identities
@@ -69,7 +69,7 @@ The **State Employment Leadership Network (SELN)** has been supporting state sys
 
 **Additional Resources:**
 
-**Institute for Community Inclusion:**
+**ICI:**
 
 -   [StateData: The National Report on Employment Services and Outcomes Through 2018](https://www.thinkwork.org/sites/default/files/files/state_data_2021_F%5B3%5D.pdf), by Jean Winsor, Jaimie Timmons, John Butterworth, Alberto Migliore, Daria Domin, Agnes Zalewska, & John Shepard
 -   [Data Note: State Intellectual and Developmental Disability Agencies’ Service Trends](https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1089&context=thinkwork), by Agnieszka Zalewska & Jean Winsor

@@ -1,5 +1,5 @@
 ---
-title: "Think College at the Institute for Community Inclusion at UMass Boston receives $10 Million Grant on Postsecondary Education for Students with Intellectual Disability"
+title: "Think College at the ICI/UMass Boston receives $10 Million Grant on Postsecondary Education for Students with Intellectual Disability"
 description: ""
 path: "/news/2025-10-03_icis-think-college-at-umass-receives-10m-grant"
 date: "2025-10-03"
@@ -16,10 +16,10 @@ thumbnail: "../../images/thinkcollege.png"
 
 For immediate release: October 3, 2025
 
-**Think College at the Institute for Community Inclusion at UMass Boston receives $10 Million Grant on Postsecondary Education for Students with Intellectual Disability**
+**Think College at the ICI at UMass Boston receives $10 Million Grant on Postsecondary Education for Students with Intellectual Disability**
 
 
-**Boston, MA** — October 3, 2025 — The US Department of Education, Office of Postsecondary Education, has awarded Think College at the Institute for Community Inclusion, University of Massachusetts Boston, a 5-year, $10 million cooperative agreement to serve as the National Coordinating Center for the Transition and Postsecondary Programs for Students with Intellectual Disabilities (TPSID) model demonstration grantees offering postsecondary education programs for college students with intellectual disability.
+**Boston, MA** — October 3, 2025 — The US Department of Education, Office of Postsecondary Education, has awarded Think College at the ICI, University of Massachusetts Boston, a 5-year, $10 million cooperative agreement to serve as the National Coordinating Center for the Transition and Postsecondary Programs for Students with Intellectual Disabilities (TPSID) model demonstration grantees offering postsecondary education programs for college students with intellectual disability.
  
 The National Coordinating Center (NCC) will provide support for TPSID and non-TPSID programs on program development, evaluation, and continuous improvement. The NCC will also:
 
@@ -38,7 +38,7 @@ For more information about this new project and other activities of Think Colleg
 <b>Contact:</b>
 
 
-<p>Quinn Barbour/Institute for Community Inclusion </p>
+<p>Quinn Barbour/ICI </p>
 
 <ul>
 <li> <b>Phone</b>: 617-287-4309 (office) / 857-271-6617 (mobile)</li>

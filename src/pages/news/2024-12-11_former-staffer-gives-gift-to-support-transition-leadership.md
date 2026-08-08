@@ -8,7 +8,7 @@ posttype: "news"
 thumbnail: "../../images/dr-stelios-gragoudas-profile-picture-2024.jpeg"
 ---
 
-The [Institute for Community Inclusion](https://www.communityinclusion.org/) has received a $100,000 gift from Dr. Stelios Gragoudas, a youth leadership advocate and former staffer who said he hopes the funds can support transition specialist training and student self-determination initiatives.
+The [ICI](https://www.communityinclusion.org/) has received a $100,000 gift from Dr. Stelios Gragoudas, a youth leadership advocate and former staffer who said he hopes the funds can support transition specialist training and student self-determination initiatives.
 
 ![Dr. Stelios Gragoudas](/images/dr-stelios-gragoudas-profile-picture-2024.jpeg "Dr. Stelios Gragoudas")
 
@@ -16,7 +16,7 @@ Over the next five years, the Stelios Evan Gragoudas Discretionary Fund for Comm
 
 "At ICI, I realized there were others who had the same mission, which was to include all students in school and in every aspect of life," Gragoudas said.
 
-When Gragoudas was an undergraduate, he knew he wanted to be a teacher, but he said he didn’t know if anyone would hire him. Then, an advisor at Boston University recommended he check out the Institute for Community Inclusion.
+When Gragoudas was an undergraduate, he knew he wanted to be a teacher, but he said he didn’t know if anyone would hire him. Then, an advisor at Boston University recommended he check out the ICI.
 
 "When I got to ICI, I met people who believed the same thing I did, who believed that youth and students with disabilities should be included in every aspect of school and that they should be encouraged to think about what they want to do after high school," Gragoudas said.
 
