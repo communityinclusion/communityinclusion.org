@@ -2,6 +2,7 @@ import * as React from "react";
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+import Seo from '../components/seo';
 
 
 const JobsPage = ({ data, pageContext,location,title }) => {
@@ -67,6 +68,12 @@ const labelArr = label.split('-');
   );
 };
 
+
+export const Head = ({ pageContext }) => {
+  const { currentPage } = pageContext;
+  const title = currentPage > 1 ? `Job Openings at ICI - Page ${currentPage}` : 'Job Openings at ICI';
+  return <Seo title={title} />;
+};
 
 // Get all markdown files, in descending order by date, and grab the id, excerpt, slug, date, and title
 export const pageQuery = graphql`query ($currentDate: Date!, $limit: Int, $skip: Int) {

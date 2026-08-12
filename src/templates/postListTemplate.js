@@ -3,6 +3,7 @@ import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 import { GatsbyImage } from "gatsby-plugin-image";
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+import Seo from '../components/seo';
 
 
 const NewsPage = ({ data, pageContext,location,title }) => {
@@ -91,6 +92,12 @@ const crumbLabelArr = customCrumbLabel.split('/');
 
 
  
+export const Head = ({ pageContext }) => {
+  const { currentPage } = pageContext;
+  const title = currentPage > 1 ? `New at ICI - Page ${currentPage}` : 'New at ICI';
+  return <Seo title={title} />;
+};
+
 // Get all markdown files, in descending order by date, and grab the id, excerpt, slug, date, and title
 export const pageQuery = graphql`query GetNewsPosts($limit: Int, $skip: Int) {
   allMarkdownRemark(

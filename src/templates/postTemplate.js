@@ -61,13 +61,19 @@ return (
 
 
 
-export const Head = ({ data }) => (
-  <Seo
-    title={data.markdownRemark.frontmatter.title}
-    description={data.markdownRemark.frontmatter.description || data.markdownRemark.excerpt}
-    type="article"
-  />
-)
+export const Head = ({ data }) => {
+  const { frontmatter, excerpt } = data.markdownRemark
+  return (
+    <Seo
+      title={frontmatter.title}
+      description={frontmatter.description || excerpt}
+      type="article"
+      image={frontmatter.thumbnail?.publicURL}
+      publishedTime={frontmatter.isoDate}
+      tags={frontmatter.tags}
+    />
+  )
+}
 
 export const pageQuery = graphql`
    query($slug: String!) {
@@ -79,7 +85,11 @@ export const pageQuery = graphql`
         tags
         posttype
         date(formatString: "MMMM DD, YYYY")
+        isoDate: date(formatString: "YYYY-MM-DD")
         description
+        thumbnail {
+          publicURL
+        }
       }
     }
   }

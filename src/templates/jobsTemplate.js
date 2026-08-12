@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 // import Img from 'gatsby-image';
 import PostTags from "../components/PostTags";
+import Seo from "../components/seo";
 
 
 const jobsTemplate = ({ pageContext, data, location  }) => {
@@ -56,6 +57,11 @@ const jobsTemplate = ({ pageContext, data, location  }) => {
 };
  
 
+export const Head = ({ data }) => {
+  const { frontmatter, excerpt } = data.markdownRemark;
+  return <Seo title={frontmatter.title} description={frontmatter.description || excerpt} />;
+};
+
 export const pageQuery = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -66,6 +72,7 @@ export const pageQuery = graphql`
         title
         tags
         posttype
+        description
         umb_post_url
         close_date(formatString: "MMMM Do, YYYY")
     }
