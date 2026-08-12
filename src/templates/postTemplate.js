@@ -62,10 +62,11 @@ return (
 
 
 export const Head = ({ data }) => (
-     <Seo title={data.markdownRemark.frontmatter.title} description={data.markdownRemark.frontmatter.description || data.markdownRemark.frontmatter.excerpt}>
-    {/* Additonal values here */}
-    <meta id="oty" property="og:type" content="article" />
-  </Seo>
+  <Seo
+    title={data.markdownRemark.frontmatter.title}
+    description={data.markdownRemark.frontmatter.description || data.markdownRemark.excerpt}
+    type="article"
+  />
 )
 
 export const pageQuery = graphql`

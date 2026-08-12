@@ -3,14 +3,6 @@ import PropTypes from "prop-types"
 import React from "react"
 import GoogleCustomSearchBox from "./GoogleCustomSearchBox.jsx"
 import logo from "../images/ici-150w.png"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {
-  faTwitter,
-  faInstagram,
-  faTumblrSquare,
-  faFacebookSquare,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons"
 
 // import Search from './search.js'
 // import SearchForm from "./searchForm"

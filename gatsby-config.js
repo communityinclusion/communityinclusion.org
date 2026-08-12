@@ -230,9 +230,6 @@ module.exports = {
     "babel-plugin-styled-components",
     {
       resolve: "gatsby-plugin-sitemap",
-      options: {
-        output: "/sitemap",
-      },
     },
     {
       resolve: `gatsby-plugin-breadcrumb`,

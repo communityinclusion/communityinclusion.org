@@ -41,10 +41,10 @@ return (
 
 
 export const Head = ({ data }) => (
-     <Seo title={data.markdownRemark.frontmatter.title} description={data.markdownRemark.frontmatter.description || data.markdownRemark.frontmatter.excerpt}>
-    {/* Additonal values here */}
-  
-  </Seo>
+  <Seo
+    title={data.markdownRemark.frontmatter.title}
+    description={data.markdownRemark.frontmatter.description || data.markdownRemark.excerpt}
+  />
 )
 
 export const pageQuery = graphql`
