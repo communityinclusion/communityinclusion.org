@@ -36,7 +36,7 @@ hide_title: true
   </div>
   <div class="col">
     <div class="card h-100 shadow-sm">
-     <script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/6bdhc4f1uu.js" async type="module"></script><style>wistia-player[media-id='6bdhc4f1uu']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/6bdhc4f1uu/swatch'); display: block; filter: blur(5px); }</style> <wistia-player class="mx-auto d-block" class="mx-auto d-block" media-id="6bdhc4f1uu" wistia-popover="true" aspect="1.867704280155642" style="width: 150px;height: 80px;"></wistia-player>
+        <center><script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/6bdhc4f1uu.js" async type="module"></script><style>wistia-player[media-id='6bdhc4f1uu']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/6bdhc4f1uu/swatch'); display: block; filter: blur(5px); }</style> <wistia-player media-id="6bdhc4f1uu" wistia-popover="true" aspect="1.867704280155642" style="width: 150px;height: 80px;"></wistia-player></center>
       <div class="card-body">
         <h3 class="card-title h6"> CLE in Action Webinar</h3>
         <p class="card-text">Jan 21, 2026</p>
@@ -124,7 +124,6 @@ Prepare for this Exciting Opportunity</h3>
   <div class="col">
     <div class="card h-100 shadow-sm" >
     <script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/190yvuz4w8.js" async type="module"></script><style>wistia-player[media-id='190yvuz4w8']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/190yvuz4w8/swatch'); display: block; filter: blur(5px); }</style> <wistia-player class="mx-auto d-block" class="mx-auto d-block" media-id="190yvuz4w8" wistia-popover="true" aspect="1.0" style="width: 150px;height: 150px;"></wistia-player>    
-    </a>
       <div class="card-body">
         <h3 class="card-title h6">Vision Rehabilitation Therapist</h3>
       </div>

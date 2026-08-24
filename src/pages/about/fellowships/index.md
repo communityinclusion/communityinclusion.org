@@ -19,7 +19,7 @@ Postdoctoral Fellowship Opportunity with the ICI's Advanced Rehabilitation Rese
 <p class="card-text">
 We are seeking two postdoctoral fellows for the <a href="/projects/arrt">ICI's Advanced Rehabilitation Research Training Program</a>, launching in Spring 2026. </p>
 <p class="card-text">There is a critical need for better representation and capacity in the intellectual and developmental disability (IDD) research workforce and field. The ARRT program offers advanced, multidisciplinary training in IDD employment research.  </p>
-<p class="card-text">The ARRT is a partnership between the ICI, the School for Global Inclusion and Social Development, and the National Association of State Directors of Developmental Disabilities Services.</p>
+<p class="card-text">The ARRT is a partnership between the ICI, SGISD, and the National Association of State Directors of Developmental Disabilities Services.</p>
 </p>
 	</div>
 </div>
@@ -72,4 +72,3 @@ The Massachusetts Developmental Disabilities Network created the Allen C. Crocke
  
  
 </div>
-
