@@ -299,7 +299,7 @@ Employment First Missouri</a>
 	<div class="row">
 	<div class="col-md-3">
 	<div class="card-image">
-	<img src="/images/maicie/MAICEI-Logo.jpg" alt = "MAICEI" />
+	<img src="/images/project_logos/MAIPSE_square_abbreviation_F-sm.png" alt = "MAICEI" />
 	</div>
 	</div>
 	<div class="col-md-9">

@@ -4,7 +4,9 @@ date: 2018-12-29
 path: "/about/areas-of-emphasis/employment"
 posttype: "page"
 thumbnail: '../../images/ICI.png'
+hide_title: true
 ---
+<h1 class="display-2  hide-title text-center"><span class="blue">ICI</span> <strong class="ldots">:</strong><strong class="rdots">:</strong> <span class="employment">Employment</span></h1>
 
 ICI focuses on employment through a wide variety of initiatives, all with a singular focus: full inclusion of people with disabilities into the mainstream workforce.
 
@@ -39,8 +41,6 @@ Explore VR is engaged in multiple initiatives on work-based learning and progres
 
 *   **Program on Innovative Rehabilitation Training on Employer Engagement (PIRTEE)**. PIRTEE helps improve the VR system’s capacity to engage employers by creating and delivering innovative training for the VR system, rehabilitation professionals and paraprofessionals, and faculty for use in academic rehabilitation counseling programs.
 *   **Innovative Training: Supporting Employment for People with Intellectual Disabilities**. This initiative uses a variety of training modes and mechanisms to enhance knowledge and capacity of VR personnel to meet the employment needs of individuals with IDD.
-
-[ICI Employment Services](https://www.communityinclusion.org/employmentservices/) assists individuals with disabilities in the greater Boston area in seeking, securing, and maintaining employment. Using a person-centered approach, ICI Employment Services provides support to job seekers throughout the discovery, career exploration, and job development processes to find meaningful jobs that match well with their vocational goals, skills, and interests.
 
 The [DirectCourse College of Employment Services](https://www.directcourseonline.com/employment-services/) (CES) offers online courses available on demand, built around a nationally recognized set of competencies from the Association of People Supporting Employment First (APSE). CES is part of the DirectCourse suite of training offerings produced by Elsevier. ICI offers a supplement to CES that qualifies learners for a certificate from the Association of Community Rehabilitation Educators (ACRE), a nationally recognized certification. ICI partners on this project with the University of Minnesota’s [Institute on Community Integration](https://ici.umn.edu/).
 

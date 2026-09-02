@@ -6,8 +6,7 @@ date: 2018-12-29
 thumbnail: '../../images/ICI.png'
 ---
 
-**Institute for Community Inclusion  
-UMass Boston  
+**ICI at UMass Boston    
 100 Morrissey Blvd.  
 Wheatley Hall, 4th Floor - Office 173  
 Boston, Massachusetts 02125**  

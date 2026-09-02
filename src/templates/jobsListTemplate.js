@@ -2,6 +2,7 @@ import * as React from "react";
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+import Seo from '../components/seo';
 
 
 const JobsPage = ({ data, pageContext,location,title }) => {
@@ -29,7 +30,7 @@ const labelArr = label.split('-');
          />
        </div>
      <h1 className="page-title">Job Openings at ICI</h1>
-      <p className="lead">ICI's job opportunities are listed on <Link className="blue dim" to="https://employmentopportunities.umb.edu/boston/en-us/search/?job-mail-subscribe-privacy=agree&search-keyword=ici">our parent organization's (University of Massachusetts Boston) Careers Page</Link>. Or, <Link className="blue dim" to="https://lp.constantcontactpages.com/su/jlCEExQ/subscribe">subscribe to our newsletter</Link> where we also publicize job openings.</p>
+      < p className = "lead" > ICI 's job opportunities are listed on <Link className="blue dim" to="https://employmentopportunities.umb.edu/boston/en-us/search/?job-mail-subscribe-privacy=agree&search-keyword=ici">our parent organization's (University of Massachusetts Boston) Careers Page </Link>. Or, <Link className="blue dim" to="https://lp.constantcontactpages.com/sl/VAsWN3m/ici">subscribe to our newsletter</Link> where we also publicize job openings.</p>
       </section>
     </Layout>
   )
@@ -67,6 +68,12 @@ const labelArr = label.split('-');
   );
 };
 
+
+export const Head = ({ pageContext }) => {
+  const { currentPage } = pageContext;
+  const title = currentPage > 1 ? `Job Openings at ICI - Page ${currentPage}` : 'Job Openings at ICI';
+  return <Seo title={title} />;
+};
 
 // Get all markdown files, in descending order by date, and grab the id, excerpt, slug, date, and title
 export const pageQuery = graphql`query ($currentDate: Date!, $limit: Int, $skip: Int) {

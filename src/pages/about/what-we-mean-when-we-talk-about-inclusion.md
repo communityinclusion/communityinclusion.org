@@ -1,7 +1,5 @@
 ---
 title: "What We Mean When We Talk About Inclusion"
-path: "/about/what-we-mean-when-we-talk-about-inclusion"
-posttype: "page"
 date: 2018-12-29
 thumbnail: '../../images/ICI.png'
 ---

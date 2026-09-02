@@ -40,14 +40,14 @@ thumbnail: "../../images/ICI.png"
 </div>
 <h2 class="h5 card-title">How long do learners have to complete the courses? </h2>
 <p>All courses are available for up to 12 months after purchase. Learners complete lessons at their own pace.</p>
-
-  </div>
+ </div>
+ 
   <div class="col-lg-4">
   <h2 class="card-title">Course Bundles</h2>
   <p> (click each for more details and to enroll)</p>
   <ul class="list-group pb-4">
     <li class="list-group-item border border-success"><details id="acre">
-      <summary><span class="green"> CES + ACRE Course</span> <img src="thumbnail_acre_icon.png" alt="small ACRE logo" style="max-width: 15px;"><br>11-Courses + Field Work: $550</summary>
+      <summary><span class="green"> CES + ACRE Course</span> <img src="/images/onlinelearning/ces/thumbnail_acre_icon.png" alt="small ACRE logo" style="max-width: 15px;"><br>11-Courses + Field Work: $550</summary>
       <p>CES's ACRE Course includes 11 ACRE-approved courses plus required activities and field work. The Association of Community Rehabilitation Educators (ACRE) is a national organization that develops competencies for employment providers. ACRE reviews and certifies training programs that cover these competencies. <a href="/onlinelearning/cesacre/">Learn more about ACRE</a></p>
       <ol>
       <li>Foundations of Employment Services</li>
@@ -65,7 +65,6 @@ thumbnail: "../../images/ICI.png"
       <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre-bundle">Enroll</a> </p>
     </details></li>
   </ul>
-
   <ul class="list-group pb-2">
     <li class="list-group-item"><details>
       <summary id="jdb"><span class="green">Job Development Bundle</span><br> (6-course bundle): $250  </summary>
@@ -125,5 +124,6 @@ thumbnail: "../../images/ICI.png"
       </details</li>
   </ul>
   <p class="text-center"><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces">Explore All CES Bundles</a> </p>
-  </div></div>
+  </div>
+  </div>
  

@@ -9,7 +9,7 @@ thumbnail: "../../images/clara-muchunguzi-wood-polishing.jpg"
 ---
 
 
-_Clara S. Muchunguzi is a 2023 Fellow in the Professional Fellows Program on Inclusive Civic Engagement. This program is sponsored by the U.S. Department of State’s Bureau of Educational and Cultural Affairs and is administered by the Institute for Community Inclusion (ICI) at the University of Massachusetts Boston in partnership with Humanity and Inclusion (HI). The following blog post was written by guest author Clara S. Muchunguzi._
+_Clara S. Muchunguzi is a 2023 Fellow in the Professional Fellows Program on Civic Engagement. This program is sponsored by the U.S. Department of State’s Bureau of ECA and is administered by the ICI at the University of Massachusetts Boston in partnership with Humanity and Inclusion (HI). The following blog post was written by guest author Clara S. Muchunguzi._
 
 This long-awaited journey started on May 3, 2023 when I landed in Boston and received a warm welcome from Heike and Christa, our very own PFP team leads who have been very supportive and made sure this was a dream-come-true trip. May 4 was a brand-new day, and, despite the jetlag, I got an opportunity to wander around Boston. I visited the very old, legendary, and iconic university of ancient times — Harvard University, which is still rocking and a dreamed university of many, including myself. It was mesmerizing to learn the fairytale of John Harvard’s monument: that when you touch his foot, it brings good luck. I had to try mine. Who knows? I may get my PhD there, or my son, Jayden, may go to school there, so fingers crossed. It was so enticing, and I wish I had more days in Boston.
 

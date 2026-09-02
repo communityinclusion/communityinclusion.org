@@ -5,14 +5,12 @@ date: 2022-02-01
 posttype: "page"
 thumbnail: "../../images/ICI.png"
 description: "Acceptable Use and Privacy Policy
-Institute for Community Inclusion at UMass Boston"
+ICI at UMass Boston"
 ---
 
-**Institute for Community Inclusion at UMass Boston**
-    
-Refunds are issued up to 7 days from the day of purchase.  
-
-All materials included in this course(s) are the property of the Institute for Community Inclusion (ICI) at the University of Massachusetts Boston. Copying, scanning, distributing, or downloading course content or materials without prior authorization from ICI is prohibited.
+**ICI at UMass Boston**
+  
+All materials included in this course(s) are the property of the ICI at the University of Massachusetts Boston. Copying, scanning, distributing, or downloading course content or materials without prior authorization from ICI is prohibited.
 
 ## Your responsibilities
 
@@ -43,7 +41,7 @@ You may not use the services to publish content or engage in activity that is il
 
 <h1 class="page-title"> ICI Online Learning Privacy Policy - FAQ<h1>
 
-### The Institute for Community Inclusion (ICI) at the University of Massachusetts Boston does not sell or share your personal information without your permission.
+### The ICI at the University of Massachusetts Boston does not sell or share your personal information without your permission.
  
 Do you track my performance and activities online?
 Yes. We may collect information about your actions and activities within a course for two reasons:
@@ -68,5 +66,3 @@ No.
  
 ### Do you access any financial information related to me as part of a transaction if I purchase a course?  
 No. That is between you and the financial institution that handles the commercial transaction.
-
-

@@ -16,7 +16,6 @@ console.log(crumbs);
 
   return (
     <Layout location={location}>
-      <Seo title={staffData.Name} />
      <div className="breadcrumbs">
     <Breadcrumb
            crumbs={crumbs}
@@ -103,5 +102,10 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export const Head = ({ data }) => {
+  const staffData = data.airtable?.data || {};
+  return <Seo title={staffData.Name} />;
+};
 
 export default staffTemplate;

@@ -8,7 +8,7 @@ posttype: "news"
 thumbnail: "../../images/ICI.png"
 ---
 
-The Institute for Community Inclusion (ICI) has been a leader in vocational rehabilitation (VR) research, training, and technical assistance for decades. In recent years, our VR- related work has largely focused on leadership development, Progressive Employment, apprenticeships, career pathways, and employer engagement. This year, ICI’s VR research team has received several new awards from the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR) and the Rehabilitation Services Administration to expand our work. 
+The ICI has been a leader in vocational rehabilitation (VR) research, training, and technical assistance for decades. In recent years, our VR-related work has largely focused on leadership development, Progressive Employment, apprenticeships, career pathways, and employer engagement. This year, ICI’s VR research team has received several new awards from the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR) and the Rehabilitation Services Administration to expand our work. 
 
 **The American Indian Rural Youth Apprenticeship Development Project**
 

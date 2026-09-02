@@ -1,5 +1,5 @@
 ---
-title: "The Institute for Community Inclusion Mourns the Loss of One of ICI’s Distinguished Founders, Dr. Ludwik Stefan Szymanski"
+title: "The ICI Mourns the Loss of One of its Distinguished Founders, Dr. Ludwik Stefan Szymanski"
 description: ""
 path: "/news/2024-11-25_ici-mourns-loss-of-ludwik-stefan-szymanski"
 date: "2024-11-25"
@@ -14,7 +14,7 @@ With great sorrow, we share with you the news that Psychiatrist Emeritus Dr. Lud
 ![Photo of Dr. Ludwik Stefan Szymanski](/images/Dr-Ludwik-Stefan-Szymanski.jpg)
 
 
-Dr. Szymanski was a cofounder of the Developmental Evaluation Clinic (DEC) with Dr. Allen C. Crocker, which we know today as the Institute for Community Inclusion (ICI) at UMass Boston and Boston Children’s Hospital (BCH). He advocated for families and children, exploring and improving health and social outcomes for children with developmental disabilities at BCH.
+Dr. Szymanski was a cofounder of the Developmental Evaluation Clinic (DEC) with Dr. Allen C. Crocker, which we know today as the ICI at UMass Boston and Boston Children’s Hospital (BCH). He advocated for families and children, exploring and improving health and social outcomes for children with developmental disabilities at BCH.
 
 In these earliest days at the DEC, Dr. Szymanski and his team took an interdisciplinary, family-centered, hands-on approach to child developmental evaluation, building the foundation of values the ICI and BCH advocate today. This approach was revolutionary for its time during the 1960s and 1970s. Going forward, Ludwik was always at the vanguard in the field of mental health for people with intellectual and developmental disabilities, and he became an international leader in developmental neuropsychiatry.
 

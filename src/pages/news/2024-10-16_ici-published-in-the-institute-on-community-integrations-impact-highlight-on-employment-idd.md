@@ -8,7 +8,7 @@ posttype: "news"
 thumbnail: "../../images/ICI.png"
 ---
 
-Five Institute for Community Inclusion (ICI) staff have published articles in the latest [*Impact, Feature Issue on Employment and IDD*](https://publications.ici.umn.edu/impact/37-2/cover?j=12998415&sfmc_sub=669881332&l=79433_HTML&u=267485501&mid=6379454&jb=1) by the Institute on Community Integration at the University of Minnesota.
+Five ICI/UMass Boston staff have published articles in the latest [*Impact, Feature Issue on Employment and IDD*](https://publications.ici.umn.edu/impact/37-2/cover?j=12998415&sfmc_sub=669881332&l=79433_HTML&u=267485501&mid=6379454&jb=1) by the Institute on Community Integration at the University of Minnesota.
 
 The Institute on Community Integration publishes [*Impact*](https://ici.umn.edu/series/14) three times a year. This free newsletter publication features research, strategies, and success stories for and by people with disabilities, their families, educators, community service providers, policymakers, and advocates.
 

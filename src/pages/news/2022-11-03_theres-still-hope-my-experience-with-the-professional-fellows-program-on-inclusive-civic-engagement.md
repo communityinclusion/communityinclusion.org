@@ -8,7 +8,7 @@ posttype: "news"
 thumbnail: "../../images/Harunah-Damba.jpeg"
 ---
 
-_Harunah Damba is a 2022 Fellow in the_ [_Professional Fellows Program on Inclusive Civic Engagement._](https://pfpinclusion.org/) _This program is sponsored by the U.S Department of State’s Bureau of Educational and Cultural Affairs, and is administered by the Institute for Community Inclusion (ICI) at the University of Massachusetts Boston in partnership with Humanity and Inclusion (HI). The following blog post was written by guest author Harunah Damba._
+_Harunah Damba is a 2022 Fellow in the_ [_Professional Fellows Program on Civic Engagement._](https://pfpinclusion.org/) _This program is sponsored by the U.S Department of State’s Bureau of ECA, and is administered by the ICI at the University of Massachusetts Boston in partnership with Humanity and Inclusion (HI). The following blog post was written by guest author Harunah Damba._
 
 My name is Harunah Damba. I was born and raised in Kampala in Uganda. I am deaf and physically challenged. Growing up with multiple disabilities was very challenging. For years, I felt the need to conquer the persistent, daily hardship. As I learned to embrace my disability, I saw its value. Now, I appreciate the invaluable perspective that living with a disability has given me.
 

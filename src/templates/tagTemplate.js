@@ -16,9 +16,6 @@ const Tags = ({ pageContext, data }) => {
   } = pageContext
   return (
     <Layout>
-        <Seo 
-      title={'Tag: '+ tag}
-    />
      <div className="breadcrumbs">
       <Breadcrumb
               crumbs={crumbs}
@@ -45,7 +42,10 @@ const Tags = ({ pageContext, data }) => {
   );
 };
 
-
+export const Head = ({ pageContext }) => {
+  const { tag } = pageContext;
+  return <Seo title={'Tag: ' + tag} />;
+};
 
 export const pageQuery = graphql`
   query($tag: String) {

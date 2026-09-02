@@ -4,7 +4,9 @@ date: 2018-12-29
 path: "/about/areas-of-emphasis/healthcare"
 posttype: "page"
 thumbnail: '../../images/ICI.png'
+hide_title: true
 ---
+<h1 class="display-2  hide-title text-center"><span class="blue">ICI</span> <strong class="ldots">:</strong><strong class="rdots">:</strong> <span class="healthcare">Healthcare</span></h1>
 
 The ICI’s Health Care focus stems from the original mission of the University Centers for Excellence in Developmental Disabilities, or UCEDDs, the national network we are part of. UCEDDs grew from groundbreaking legislation signed in 1963 by President Kennedy that supported the creation of university-based facilities to conduct interdisciplinary training, research, and dissemination. UCEDDs were also tasked with providing technical assistance to enhance the lives of children with intellectual and developmental disabilities (IDD) and their families. That was the beginning of the ICI’s work at Boston Children’s Hospital.
 

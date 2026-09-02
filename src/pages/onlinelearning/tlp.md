@@ -126,7 +126,7 @@ All the courses have built-in applied learning assignments and students must com
 </details>
 <details>
 <summary>Is the course cost the same for guest students?</summary>
-<p>Yes, guest students pay the same tuition rate as enrolled students, which is a special rate of $1,725 per course.</p>
+<p>Yes, guest students pay the same tuition rate as enrolled students.</p>
 </details>
 <details>
 <summary>How do I enroll in the courses?</summary>

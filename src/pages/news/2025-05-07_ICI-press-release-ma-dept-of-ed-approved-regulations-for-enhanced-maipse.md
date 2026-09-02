@@ -1,5 +1,5 @@
 ---
-title: "MA Dept. of Higher Education approved the regulations for the enhanced MAIPSE"
+title: "MA Dept. of Higher Education Approved the Regulations for the Enhanced MAIPSE"
 description: ""
 path: "/news/2025-05-07_ICI-press-release-ma-dept-of-ed-approved-regulations-for-enhanced-maipse"
 date: "2025-05-07"
@@ -25,7 +25,7 @@ For immediate release: May 7, 2025
 
 MAIPSE is designed for students with intellectual and developmental disabilities to take postsecondary education courses alongside fellow college students and participate in college life, including social events, clubs, and recreation activities. Students enrolled in MAIPSE are either high school students in a secondary transition program or those who have exited the school system and receive support from state service agencies.
 
-UMass Boston and the Institute for Community Inclusion (ICI) are longstanding MAIPSE partners. For 25 years, ICI has worked to support the development of inclusive higher education programs for students with intellectual disability in Massachusetts and across the US.
+UMass Boston and the ICI are longstanding MAIPSE partners. For 25 years, ICI has worked to support the development of inclusive higher education programs for students with intellectual disability in Massachusetts and across the US.
 
 The ICI’s Massachusetts Center for Inclusive Higher Education and Transition offers support and training to education coaches, peer mentors, college program coordinators, special education administrators, and transition coordinators who work on MAIPSE across the state. The [Inclusive Education Initiative](https://www.communityinclusion.org/projects/maipse/), which is the UMass Boston MAIPSE partnership, also offers postsecondary experiences to eligible students with intellectual and developmental disabilities.
 
@@ -50,7 +50,7 @@ The regulations will continue to strengthen MAIPSE’s partnerships with UMass B
 <b>Contact:</b>
 
 
-<p>Quinn Barbour/Institute for Community Inclusion </p>
+<p>Quinn Barbour/ICI </p>
 
 <ul>
 <li> <b>Phone</b>: 617-287-4309 (office) / 857-271-6617 (mobile)</li>

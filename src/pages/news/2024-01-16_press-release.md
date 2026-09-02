@@ -18,7 +18,7 @@ For immediate release: January 10, 2024
 
 * * *
 
-BOSTON, MA – The Institute for Community Inclusion (ICI) at the University of Massachusetts (UMass) Boston, in collaboration with the International Disability Alliance (IDA) and the African Disability Forum (ADF), has been awarded a grant from the US Department of State to launch the third round (FY 2023) of the [Professional Fellows Program on Inclusive Civic Engagement](http://www.pfpinclusion.org/). This program, designed for emerging leaders in East Africa, aims to facilitate exchange and implementation of best practices for disability-inclusive civic engagement.
+BOSTON, MA – The ICI at the University of Massachusetts (UMass) Boston, in collaboration with the International Disability Alliance (IDA) and the African Disability Forum (ADF), has been awarded a grant from the US Department of State to launch the third round (FY 2023) of the [Professional Fellows Program on Civic Engagement](http://www.pfpinclusion.org/). This program, designed for emerging leaders in East Africa, aims to facilitate exchange and implementation of best practices for disability-inclusive civic engagement.
 
 The program will support approximately 12 mid-career disability rights professionals (Fellows) from **Kenya, Tanzania, Uganda, and Ethiopia** to participate in a 5-week intensive Fellowship Program in Spring 2025. The program includes a placement with US host organizations to enhance leadership and professional skills.
 
@@ -32,13 +32,13 @@ ADF Executive Director Shuaib Chalklen emphasized:
 
 _"ADF looks forward to the collaboration with UMass Boston and the invaluable opportunities that this program offers to the Fellows. It is also an opportunity for ADF to work with a new partner in UMass Boston, and we are optimistic about exploring additional avenues for collaboration in the future."_
 
-The Professional Fellows Program on Inclusive Civic Engagement reflects the partners’ shared commitment to building sustainable partnerships that promote fully inclusive civic societies for people with disabilities.
+The Professional Fellows Program on Civic Engagement reflects the partners’ shared commitment to building sustainable partnerships that promote fully inclusive civic societies for people with disabilities.
 
 ***
 <!--
-#### About the Institute for Community Inclusion
+#### About the ICI
 
-The Institute for Community Inclusion (ICI) is a University Center for Excellence in Developmental Disabilities (UCEDD) based at the University of Massachusetts Boston and Boston Children's Hospital. ICI supports the rights of children and adults with disabilities to participate in all aspects of society. As practitioners, researchers, and teachers, we form partnerships with individuals, families, community organizations, and service agencies. Together, we advocate for personal choice, self-determination, and social and economic justice.
+The ICI is a University Center for Excellence in Developmental Disabilities (UCEDD) based at the University of Massachusetts Boston and Boston Children's Hospital. ICI supports the rights of children and adults with disabilities to participate in all aspects of society. As practitioners, researchers, and teachers, we form partnerships with individuals, families, community organizations, and service agencies. Together, we advocate for personal choice, self-determination, and social and economic justice.
 
 #### About the African Disability Forum
 
@@ -53,14 +53,14 @@ The University of Massachusetts Boston is deeply rooted in the city's history ye
 <div class="bg-light p-2">
 <b>Contacts:</b>
 
-<p>Dr. Heike Boeltzig-Brown, Program Director, Institute for Community Inclusion (ICI)</p>
+<p>Dr. Heike Boeltzig-Brown, Program Director, ICI</p>
 
 <ul>
 <li><b>Phone</b>: 781-525-2420 (mobile)</li>
 <li> <b>Email</b>: <a class="text-break" href="mailto:Heike.Boeltzig@umb.edu">Heike.Boeltzig@umb.edu</a></li>
    </ul> 
 <hr>
-<p>Quinn Barbour, Senior Marketing and Communications Specialist Manager, Institute for Community Inclusion</p>
+<p>Quinn Barbour, Senior Marketing and Communications Specialist Manager, ICI</p>
 
 <ul>
 <li> <b>Phone</b>: 857-271-6617 (mobile)</li>

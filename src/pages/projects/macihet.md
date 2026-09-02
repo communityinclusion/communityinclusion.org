@@ -5,7 +5,8 @@ posttype: "page"
 date: 2024-12-06
 thumbnail: "../../images/MCT_logo.png"
 ---
-![Massachusetts Center for Inclusive Higher Education and Transition](../../images/MCT_logo.png)
+
+[![Go to Massachusetts Center for Inclusive Higher Education and Transition](../../images/MCT_logo.png)](https://massinclusiveeducation.org/)
 
 Our team at the Massachusetts Center for Inclusive Higher Education and Transition is dedicated to advancing higher education and transition opportunities for youth and young adults with intellectual disabilities (IDD) and autism. Our Center has three important goals:  
 
@@ -15,4 +16,4 @@ Our team at the Massachusetts Center for Inclusive Higher Education and Transiti
 
  
 
-**Join us as we work together to create new opportunities for youth and young adults with IDD and autism!**
+**[Join us as we work together to create new opportunities for youth and young adults with IDD and autism!](https://massinclusiveeducation.org/)**

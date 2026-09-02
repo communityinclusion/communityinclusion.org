@@ -10,7 +10,7 @@ thumbnail: "../../images/john-butterworth-profile-picture-2024.jpeg"
 
 ![John Butterworth profile picture](/images/john-butterworth-profile-picture-2024.jpeg 'Dr. John Butterworth')
 
-Dr. John Butterworth, Institute for Community Inclusion’s (ICI) recently retired Senior Research Fellow and Director of Employment Systems Change and Evaluation, has received the prestigious George S. Jesien Distinguished Achievement Award from the Association of University Centers on Disabilities (AUCD) at their annual conference on November 4, 2024.
+Dr. John Butterworth, ICI’s recently retired senior research fellow and director of employment systems change and evaluation, has received the prestigious George S. Jesien Distinguished Achievement Award from the Association of University Centers on Disabilities (AUCD) at their annual conference on November 4, 2024.
 
 The AUCD George S. Jesien Award is presented to a staff member from a University Center for Excellence in Developmental Disabilities (UCEDD) who “has demonstrated a distinguished career of excellence and leadership in support of AUCD’s mission to advance policy and practice for and with people living with developmental and other disabilities, their families, and communities.”
 
