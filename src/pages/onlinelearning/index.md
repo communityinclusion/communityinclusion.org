@@ -11,7 +11,7 @@ thumbnail: "../../images/ICI.png"
 <div class="d-grid gap-3">
   <div class="card">
     <a href="/onlinelearning/cesacre/">
-    <img src="/images/onlinelearning/CES_i_acre_long.png" class="card-img-top" style="max-width: 850px;" alt="CES ACRE"></a>
+    <img src="/images/onlinelearning/ICI_learning_ACRE-02.png" class="card-img-top" style="max-width: 850px;" alt="CES ACRE"></a>
     <div class="card-body">
       <p class="card-text"><p class=""><strong>College of Employment Services (CES)</strong>. The CES ACRE Course is a self-guided training that includes 11 CES courses plus activities and fieldwork. Learners who complete the CES ACRE training and fieldwork will receive the ACRE certificate and be listed on the <a href="https://www.acreducators.org/certificate-registry.html">Certificate Registry on the ACRE website.</a></p>
       <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre-bundle">Enroll in CES + ACRE Course</a> </p>
@@ -110,7 +110,7 @@ thumbnail: "../../images/ICI.png"
 </div>
 <div class="card">
   <a href="https://elearning.communityinclusion.org/browse/cle/courses/explore-community-life-engagement">
-  <img src="/images/onlinelearning/EXPLORE_CLE_th.png" class="card-img-top" style="max-width: 600px;" alt="Introduction to Community Life Engagement"></a>
+  <img src="/images/onlinelearning/ECLE_update.png" class="card-img-top" style="max-width: 600px;" alt="Introduction to Community Life Engagement"></a>
   <div class="card-body">
     <p class="card-text"> The Institute for Community Inclusion's <strong>Introduction to Community Life Engagement</strong> course can help you build your skills and feel more confident in your role as a direct support professional working in the community. These self-paced online learning lessons will help you learn how to engage in effective person-centered planning, support community life engagement outcomes, map available resources, and build natural supports in the community for people with disabilities. </p>
     <a  href="https://elearning.communityinclusion.org/browse/cle/courses/explore-community-life-engagement">
@@ -120,7 +120,7 @@ thumbnail: "../../images/ICI.png"
 </div>
   <div class="card">
     <a href="https://www.explorevr.org/its-employment-training-state-learning-collaborative">
-    <img src="/images/onlinelearning/its_employment.png" class="card-img-top" style="max-width: 600px;" alt="its employment"></a>
+    <img src="/images/onlinelearning/ITSemployment_update.png" class="card-img-top" style="max-width: 600px;" alt="its employment"></a>
     <div class="card-body">
       <p class="card-text"><strong>ITS Employment</strong> This free training is for VR professionals to improve employment outcomes for job seekers with intellectual disabilities. Learners can complete self-paced, 2-hour course modules for Certified Rehabilitation Counselor (CRC) credit. We offer a new training topic each month with a corresponding facilitator guide to support group learning and discussions.</p>
       <a  href="https://www.explorevr.org/its-employment-training-state-learning-collaborative">
