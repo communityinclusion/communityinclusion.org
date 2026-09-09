@@ -1221,8 +1221,24 @@ body:has(.hide-title) .page-title {
 }
 
 /* ECLE page and Diagram Styles */
+
+/* The page title stays a real h1 for a11y/SEO, but the banner image
+   already shows it visually, so hide it from sighted users on this
+   page only (pageTemplate.js always renders .page-title as an h1). */
+.pagetemplate:has(.ecle-page) .page-title {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
 .ecle-page {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
