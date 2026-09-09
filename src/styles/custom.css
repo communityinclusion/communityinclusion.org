@@ -318,66 +318,140 @@ footer a:hover {
 }
 
 #banner-text {
-  font-family: myriad-pro-condensed, "Open Sans Condensed", sans-serif;
+  font-family: "myriad-pro-cond", "Open Sans Condensed", sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-variant-caps: small-caps;
   text-align: center;
   display: block;
   border-bottom-width: 0;
+  color: #0277b0;
+  margin: 0;
 }
 
-@media screen and (max-width: 380px) {
-  #banner-text {
-    font-size: 1.6rem;
-    text-align: left;
-    line-height: 1.8rem;
-  }
-}
-
-@media screen and (min-width: 381px) and (max-width: 480px) {
-  #banner-text {
-    font-size: 2.1rem;
-    text-align: left;
-    line-height: 2.3rem;
-  }
-}
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  #banner-text {
-    font-size: 2.6rem;
-    text-align: left;
-    line-height: 2.8rem;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1028px) {
-  #banner-text {
-    font-size: 3rem;
-    text-align: left;
-    line-height: 3.2rem;
-  }
-}
-
-@media screen and (min-width: 1029px) {
-  #banner-text {
-    font-size: 3.5rem;
-    /* text-align: left;*/
-    line-height: 3.7rem;
-  }
-}
 #banner-tagline {
-  font-family: myriad-pro-condensed, "Open Sans Condensed", sans-serif;
+  font-family: "myriad-pro-cond", "Open Sans Condensed", sans-serif;
   font-weight: 400;
   letter-spacing: 4px;
   font-style: normal;
   text-align: center;
+  color: #0277b0;
 }
 
 @media screen and (max-width: 35em) {
   #banner-tagline {
-    font-family: myriad-pro-condensed, "Open Sans Condensed", sans-serif;
     letter-spacing: 1.4px;
+  }
+}
+
+/* ICI Banner (interactive focus-area tiles) */
+
+.ici-top-header {
+  background-color: #f4f7f9;
+  border-bottom: 1px solid #dee2e6;
+  padding: 0.4rem 0;
+  font-size: 0.85rem;
+}
+
+.ici-top-header .header-links {
+  list-style: none;
+  gap: 0;
+}
+
+.ici-top-header .header-links li:not(:last-child)::after {
+  content: "|";
+  margin: 0 0.6rem;
+  color: #6c757d;
+  font-weight: 700;
+}
+
+.ici-top-header .header-links a {
+  color: #1178ad;
+  text-decoration: underline;
+}
+
+.ici-top-header .header-links a:hover {
+  color: #0d5f8a;
+}
+
+.ici-top-header-search {
+  max-width: 220px;
+}
+
+.ici-banner-wrap {
+  padding: 1rem 0 0.5rem;
+}
+
+.banner {
+  /* the featured tile, scaled down on narrow screens */
+  --tile-large: min(170px, 28vw);
+  /* standard tiles, i.e. the featured tile is twice the size */
+  --tile-small: calc(var(--tile-large) / 2);
+  /* breathing room between tiles, matching the proportions in ex.png */
+  --tile-gap: calc(var(--tile-large) * 0.05);
+
+  display: flex;
+  justify-content: center;
+  /* no flex `gap` -- the spacing lives inside the links, see below */
+  /* reserve room for the largest tile so nothing on the page shifts */
+  height: var(--tile-large);
+  margin: 0.5rem 0;
+}
+
+/* The spacing is padding *inside* each link rather than a gap between
+   them, and each link stretches to the full row height. That leaves no
+   dead space anywhere in the banner: the pointer passes straight from one
+   link into the next, so the swap never flickers back to ICI in transit. */
+.banner__tile {
+  flex: none;
+  box-sizing: content-box;
+  width: var(--tile-small);
+  padding-inline: calc(var(--tile-gap) / 2);
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  transition: width 320ms cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+.banner__tile img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ring the image, not the (taller, padded) link box */
+.banner__tile:focus-visible {
+  outline: none;
+}
+
+.banner__tile:focus-visible img {
+  box-shadow:
+    0 0 0 3px #fff,
+    0 0 0 6px #212529;
+}
+
+/* ICI is the resting featured tile */
+.banner__tile--ici {
+  width: var(--tile-large);
+}
+
+/* the hovered/focused tile grows */
+.banner__tile:hover,
+.banner__tile:focus-visible {
+  width: var(--tile-large);
+}
+
+/* some OTHER tile is hovered or focused, so ICI returns to standard size.
+   The :not() matters -- without it this also fires while ICI itself is
+   hovered, and :has() carries enough specificity to beat the rule above. */
+.banner:has(.banner__tile:not(.banner__tile--ici):hover) .banner__tile--ici,
+.banner:has(.banner__tile:not(.banner__tile--ici):focus-visible)
+  .banner__tile--ici {
+  width: var(--tile-small);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .banner__tile {
+    transition: none;
   }
 }
 
@@ -714,6 +788,7 @@ li.MuiButtonBase-root a {
   font-size: 1.15rem;
   line-height: 1.2;
   letter-spacing: 0.5px;
+  font-family: "myriad-pro-cond", "Open Sans", sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -1433,3 +1508,38 @@ body:has(.hide-title) .page-title {
   max-width: 260px;
   margin: 1rem auto 0;
 }
+
+
+/* 1. Main outer container */
+.gsc-control-cse {
+  padding: 0 !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+/* 2. The input wrapper box */
+.gsc-input-box {
+ 
+  height: 40px !important;
+  background: #ffffff !important;
+}
+
+/* 3. The actual text field */
+input.gsc-input, #gsc-i-id1 {
+  font-family: 'Arial', sans-serif !important;
+  font-size: 16px !important;
+  color: #333333 !important;
+  background: none !important;
+}
+
+/* 4. The search submit button */
+button.gsc-search-button-v2 {
+  background-color: #387deb !important;
+ 
+  border: none !important;
+ 
+}
+
+/* 5. Change placeholder text color */
+#gsc-i-id1::-webkit-input-placeholder { color: #999 !important; }
+#gsc-i-id1::-moz-placeholder { color: #999 !important; }
