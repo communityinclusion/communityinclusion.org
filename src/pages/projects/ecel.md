@@ -18,7 +18,7 @@ description: "A holistic approach to aligning employment and community life enga
     <li><a href="https://cletoolkit.communityinclusion.org/" class="btn btn-outline-primary">CLE Toolkit</a></li>
     <li><a href="https://act.thinkwork.org/" class="btn btn-outline-primary">Agency Change Toolkit</a></li>
     <li><a href="https://elearning.communityinclusion.org/browse/cle" class="btn btn-outline-primary">CLE Courses</a></li>
-    <li><a href="#todo-publications" class="btn btn-outline-primary">Publications</a></li>
+    <li><a href="https://cletoolkit.iciboston.org/resources/engage-briefs" class="btn btn-outline-primary">Publications</a></li>
   </ul>
 </nav>
 
