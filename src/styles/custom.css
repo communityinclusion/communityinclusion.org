@@ -135,7 +135,7 @@
 }
 
 .umb_blue {
-  background-color: #005A8B;
+  background-color: #005a8b;
 }
 
 html {
@@ -1218,4 +1218,202 @@ body:has(.hide-title) .page-title {
   background-color: #99312a;
   opacity: 0;
   animation: blue-traveler 4s ease-in-out 1 forwards;
+}
+
+/* ECLE page and Diagram Styles */
+.ecle-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.ecle-banner {
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.ecle-toplinks {
+  margin-bottom: 2.5rem;
+}
+
+.ecle-toplinks ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 0.75rem 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ecle-toplinks li {
+  display: flex;
+}
+
+.ecle-toplinks .btn {
+  width: 200px;
+}
+
+@media (max-width: 576px) {
+  .ecle-toplinks ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ecle-toplinks li,
+  .ecle-toplinks .btn {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+.ecle-diagram {
+  border: 1px solid #1178ad;
+  margin-bottom: 2rem;
+}
+
+.ecle-diagram-title {
+  background: #1178ad;
+  color: #fff;
+  margin: 0;
+  padding: 0.75rem 1rem;
+  text-align: center;
+}
+
+.ecle-diagram-body {
+  padding: 1.5rem;
+}
+
+.ecle-diagram-toprow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.ecle-box-focus,
+.ecle-box-infra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ecle-arrow-h {
+  align-self: center;
+}
+
+.ecle-box {
+  background: #eaf2df;
+  border: 1px solid #5d9632;
+  border-radius: 4px;
+  padding: 1rem;
+  flex: 1 1 260px;
+}
+
+.ecle-box h3 {
+  color: #1178ad;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0;
+}
+
+.ecle-box ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.ecle-box-practices {
+  flex-basis: 100%;
+  margin-top: 0.5rem;
+}
+
+.ecle-arrow {
+  color: #5d9632;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.ecle-diagram-arrowsrow {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 1rem;
+}
+
+@media (max-width: 650px) {
+  .ecle-diagram-toprow {
+    flex-direction: column;
+  }
+
+  .ecle-arrow-h {
+    transform: rotate(90deg);
+  }
+  .ecle-arrow {
+    color: #5d9632;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1;
+  }
+}
+
+.ecle-diagram-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  border-top: 1px solid #1178ad;
+  margin: 1rem 1.5rem 0;
+  padding-top: 1rem;
+}
+
+.ecle-footer-logo {
+  max-width: 220px;
+  width: 100%;
+  height: auto;
+}
+
+.ecle-text h2 {
+  color: #1178ad;
+  font-weight: 700;
+}
+
+.ecle-cards {
+  margin-top: 1rem;
+}
+
+.ecle-card {
+  background-color: #eaf3fa;
+  border: 1px solid #1178ad;
+  justify-content: center;
+  color: inherit;
+  text-decoration: none;
+  transition:
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.ecle-card:hover,
+.ecle-card:focus {
+  background-color: #dcebf7;
+  color: inherit;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(17, 120, 173, 0.3);
+}
+
+.ecle-card-cta {
+  color: #1178ad;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.ecle-card-logo {
+  max-width: 260px;
+  margin: 1rem auto 0;
 }
