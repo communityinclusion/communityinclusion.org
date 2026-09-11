@@ -1,7 +1,6 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import GoogleCustomSearchBox from "./GoogleCustomSearchBox.jsx"
 import iciLogo from "../images/ici-150w.png"
 import employmentTile from "../images/ici-employment.png"
 import educationTile from "../images/ici-education.png"
@@ -10,46 +9,6 @@ import healthcareTile from "../images/ici-healthcare.png"
 
 const Header = () => (
   <header>
-    <div className="ici-top-header d-none d-lg-block">
-      <div className="container-xxl d-flex justify-content-between align-items-center">
-        <ul className="list-inline ps-0 m-0 header-links d-flex">
-          <li className="list-inline-item">
-            <a
-              href="https://lp.constantcontactpages.com/sl/VAsWN3m/ici"
-              className="link dim dark-gray f6"
-              title="Subscribe"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Subscribe
-            </a>
-          </li>
-          <li className="list-inline-item">
-            <Link
-              to="/about/contact/"
-              className="link dim dark-gray f6"
-              title="Contact"
-            >
-              Contact
-            </Link>
-          </li>
-          <li className="list-inline-item">
-            <Link
-              to="/donate/"
-              className="link dim dark-gray f6"
-              title="Donate"
-            >
-              Donate
-            </Link>
-          </li>
-        </ul>
-
-        <div className="ici-top-header-search">
-          <GoogleCustomSearchBox />
-        </div>
-      </div>
-    </div>
-
     <div className="container-xxl">
       <div className="ici-banner-wrap text-center">
         <h1 id="banner-text" className="title">

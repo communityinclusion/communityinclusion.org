@@ -1,5 +1,5 @@
 ---
-title: "Explore Community Life Engagement"
+title: "Building an Agency That Supports Employment and Community Life Engagement Outcomes"
 path: "/projects/ecle"
 date: 2026-09-04
 posttype: "page"
@@ -9,9 +9,6 @@ description: "A holistic approach to aligning employment and community life enga
 
 <div class="ecle-page">
 
-<p class="text-center">
-  <img src="../../images/ecle-logo.png" alt="Explore Community Life Engagement, UMass Boston ICI" class="img-fluid ecle-banner" />
-</p>
 
 <nav class="ecle-toplinks" aria-label="Explore Community Life Engagement quick links">
   <ul>
@@ -76,7 +73,8 @@ description: "A holistic approach to aligning employment and community life enga
 
 ## What is a holistic approach?
 
-A holistic approach looks at **the whole person**, not just one outcome.
+A holistic approach looks at **the whole person**, not just one outcome, or one service.
+
 
 ## Align your agency's work
 

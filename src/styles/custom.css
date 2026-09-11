@@ -161,8 +161,14 @@ body {
 
 #gatsby-focus-wrapper {
   display: grid;
-  /* one column, three rows: header / content / footer */
-  grid-template-columns: 1fr;
+  /* one column, three rows: header / content / footer. minmax(0, 1fr) --
+     not bare 1fr -- because a 1fr track's implicit minimum is auto (its
+     content's min-content size); any descendant with a large min-content
+     width (e.g. white-space:nowrap nav-link text) would otherwise stretch
+     this single column, and with it every element on the page including
+     <nav> itself, past the viewport regardless of that element's own
+     width/flex-shrink rules. */
+  grid-template-columns: minmax(0, 1fr);
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
 }
@@ -345,36 +351,37 @@ footer a:hover {
 
 /* ICI Banner (interactive focus-area tiles) */
 
-.ici-top-header {
-  background-color: #f4f7f9;
-  border-bottom: 1px solid #dee2e6;
-  padding: 0.4rem 0;
-  font-size: 0.85rem;
+/* Flex items default to a minimum size based on their content, not 0 --
+   normally invisible, but nav-link text is white-space:nowrap (so it
+   can't shrink by wrapping), which gives ul.navbar-nav a large content
+   minimum. Without min-width:0 to override that default at every level
+   of the chain, that minimum forces each flex ancestor to balloon past
+   the viewport instead of actually shrinking, which is what was causing
+   the row to overflow regardless of how narrow the search box got. */
+.navbar > .container-xxl,
+.navbar-collapse,
+ul.navbar-nav {
+  min-width: 0;
 }
 
-.ici-top-header .header-links {
-  list-style: none;
-  gap: 0;
-}
-
-.ici-top-header .header-links li:not(:last-child)::after {
-  content: "|";
-  margin: 0 0.6rem;
-  color: #6c757d;
-  font-weight: 700;
-}
-
-.ici-top-header .header-links a {
-  color: #1178ad;
-  text-decoration: underline;
-}
-
-.ici-top-header .header-links a:hover {
-  color: #0d5f8a;
-}
-
-.ici-top-header-search {
-  max-width: 220px;
+/* Search bar, inline with the nav links on desktop (Navbar.js). NavLinks.js
+   has its own separate GoogleCustomSearchBox for the collapsed mobile menu
+   -- this one is d-none below lg so the two never show at once.
+   Google's CSE measures this wrapper's own rendered width via JS at load
+   and sizes its internal input/table to fit it, so the width belongs here
+   on the wrapper -- not on the CSE's own internal table/input, which fights
+   that measurement and can overflow or collapse the input to 0 width.
+   A fluid width (rather than a fixed max-width) lets it shrink smoothly as
+   the window narrows instead of just eating the row's leftover space as a
+   blank ms-auto margin (removed from navbar.js -- .navbar-nav's own
+   me-auto already pushes this flush right). 180px is the practical floor:
+   below that CSE's own layout starts collapsing the actual input to 0
+   width even though the wrapper itself still has room. */
+.ici-navbar-search {
+  align-items: center;
+  width: clamp(180px, 20vw, 240px);
+  margin-left: 0.5rem;
+  flex-shrink: 0;
 }
 
 .ici-banner-wrap {
@@ -1075,7 +1082,20 @@ ul.navbar-nav > li > a {
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     color: #fff;
-    padding: 10px 15px;
+    padding: 10px 17px;
+    white-space: nowrap;
+  }
+}
+
+/* Between ~992px (nav expands out of the hamburger) and ~1200px, 7
+   nav links plus the search box don't fit at the default padding above --
+   nav.css has an identical-selector rule that loads after this file and
+   wins that tie, so !important here is what actually makes this apply.
+   Tighter padding, not a wrapping/hidden search box, absorbs the squeeze
+   in this band; from 1200px on there's enough room for the padding above. */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 8px !important;
   }
 }
 
@@ -1297,21 +1317,6 @@ body:has(.hide-title) .page-title {
 
 /* ECLE page and Diagram Styles */
 
-/* The page title stays a real h1 for a11y/SEO, but the banner image
-   already shows it visually, so hide it from sighted users on this
-   page only (pageTemplate.js always renders .page-title as an h1). */
-.pagetemplate:has(.ecle-page) .page-title {
-  position: absolute !important;
-  width: 1px !important;
-  height: 1px !important;
-  padding: 0 !important;
-  margin: -1px !important;
-  overflow: hidden !important;
-  clip: rect(0, 0, 0, 0) !important;
-  white-space: nowrap !important;
-  border: 0 !important;
-}
-
 .ecle-page {
   max-width: 1000px;
   margin: 0 auto;
@@ -1509,7 +1514,6 @@ body:has(.hide-title) .page-title {
   margin: 1rem auto 0;
 }
 
-
 /* 1. Main outer container */
 .gsc-control-cse {
   padding: 0 !important;
@@ -1519,14 +1523,14 @@ body:has(.hide-title) .page-title {
 
 /* 2. The input wrapper box */
 .gsc-input-box {
- 
   height: 40px !important;
   background: #ffffff !important;
 }
 
 /* 3. The actual text field */
-input.gsc-input, #gsc-i-id1 {
-  font-family: 'Arial', sans-serif !important;
+input.gsc-input,
+#gsc-i-id1 {
+  font-family: "Arial", sans-serif !important;
   font-size: 16px !important;
   color: #333333 !important;
   background: none !important;
@@ -1535,11 +1539,14 @@ input.gsc-input, #gsc-i-id1 {
 /* 4. The search submit button */
 button.gsc-search-button-v2 {
   background-color: #387deb !important;
- 
+
   border: none !important;
- 
 }
 
 /* 5. Change placeholder text color */
-#gsc-i-id1::-webkit-input-placeholder { color: #999 !important; }
-#gsc-i-id1::-moz-placeholder { color: #999 !important; }
+#gsc-i-id1::-webkit-input-placeholder {
+  color: #999 !important;
+}
+#gsc-i-id1::-moz-placeholder {
+  color: #999 !important;
+}
