@@ -1,5 +1,5 @@
 ---
-title: "Community Life"
+title: "Community"
 date: 2018-12-29
 path: "/about/areas-of-emphasis/community"
 thumbnail: '../../images/ICI.png'
