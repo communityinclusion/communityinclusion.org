@@ -1,5 +1,5 @@
 ---
-title: "Building an Agency That Supports Employment and Community Life Engagement Outcomes"
+title: "Supporting Employment & Community Life Engagement"
 path: "/projects/ecle"
 date: 2026-09-04
 posttype: "page"

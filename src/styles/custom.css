@@ -324,7 +324,7 @@ footer a:hover {
 }
 
 #banner-text {
-  font-family: "myriad-pro-cond", "Open Sans Condensed", sans-serif;
+  font-family: montserrat, "Open Sans Condensed", sans-serif;
   font-weight: 600;
   font-style: normal;
   text-align: center;
@@ -335,9 +335,9 @@ footer a:hover {
 }
 
 #banner-tagline {
-  font-family: "myriad-pro-cond", "Open Sans Condensed", sans-serif;
+  font-family: montserrat, "Open Sans Condensed", sans-serif;
   font-weight: 400;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   font-style: normal;
   text-align: center;
   color: #0277b0;

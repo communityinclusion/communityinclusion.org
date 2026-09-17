@@ -206,7 +206,7 @@ const NavLinks = () => {
                     </li>
                     <li>
                       {" "}
-                      <Link to="/projects/ecle"> ExploreCLE </Link>
+                      <Link to="/projects/ecle"> Supporting Employment & Community Life Engagement </Link>
                     </li>
                   </ul>
                 </div>
