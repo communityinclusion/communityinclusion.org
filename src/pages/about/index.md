@@ -14,7 +14,7 @@ description: "The ICI at UMass Boston supports the rights of children and adults
 <ul>
 <li><b><a href="/about/areas-of-emphasis/employment">Employment</a></b>  </li>
 <li><b><a href="/about/areas-of-emphasis/education">Education</a></b>  </li>
-<li><b><a href="/about/areas-of-emphasis/community">Community Life</a></b> </li>
+<li><b><a href="/about/areas-of-emphasis/community">Community</a></b> </li>
 <li><b><a href="/about/areas-of-emphasis/healthcare">Health Care </a></b></li>
 </ul>
 

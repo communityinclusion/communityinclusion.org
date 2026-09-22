@@ -223,12 +223,3 @@ Design and Implement Research</h3>
   </div>
 
 </div>
-
-<div class="card shadow-sm p-3 m-3">
-<img src="/images/thumbs/coming-soon-th.png" class="img-fluid" style="max-width:75px;" alt = "coming soon" />
-<h2 class="card-title">New Missouri Initiative Puts Youth with IDD at the Center of Systems Change</h2>
-<div class="row">
-    <div class="col-sm-2 d-flex flex-column  align-items-center ">
-    <img src="/images/thumbs/moddc.png" class="img-fluid" style="max-width:100px" alt = "coming soon" /></div>
-    <div class="col-sm-10"><p class="p-3">The ICI has received a 3-year grant from the Missouri Developmental Disabilities Council to launch the Power of Choice project beginning in summer 2026. In partnership with Self-Advocates Becoming Empowered (SABE) and using the <a href="https://youth-voice.org/youth-ambassador-curriculum/">CYVYC youth ambassador curriculum</a>, the project will support youth with IDD through leadership training, mentorship, and youth-led projects that promote systems change throughout Missouri. </p>
-</div>
