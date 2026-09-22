@@ -347,12 +347,13 @@ const IndexPage = ({ data, location }) => {
               <div className="tc">
                 <div className="staffDropdown">
                   <FormControl variant="filled" className="formControl ">
-                    <InputLabel id="demo-simple-select-label tc">
+                    <InputLabel InputLabel id = "staff-directory-label"
+                    className = "tc" >
                       Staff Directory
                     </InputLabel>
                     <Select
-                      labelId="demo-simple-select-label"
-                      id="demo-simple-select"
+                      labelId="staff-directory-label"
+                      id = "staff-directory-select"
                       value={staff}
                       onChange={handleChange}
                     >

@@ -10,11 +10,8 @@ const Navbar = ({ siteTitle }) => {
   return (
     <nav className="navbar navbar-expand-lg bg-primary">
       <div className="container-xxl">
-        <Link to="/" className="navbar-brand" href="#">
-          {siteTitle}
-        </Link>
         <button
-          className="navbar-toggler"
+          className = "navbar-toggler ms-auto"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#main-navbar"
