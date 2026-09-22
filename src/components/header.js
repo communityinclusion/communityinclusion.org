@@ -2,10 +2,10 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import iciLogo from "../images/ici-150w.png"
-import employmentTile from "../images/ici-employment-mont.png"
-import educationTile from "../images/ici-education-mont.png"
-import communityTile from "../images/ici-community-mont.png"
-import healthcareTile from "../images/ici-health-care-mont.png"
+import employmentTile from "../images/ici-emp-new.png"
+import educationTile from "../images/ici-education-new.png"
+import communityTile from "../images/ici-community-new.png"
+import healthcareTile from "../images/ici-health-new.png"
 
 const Header = () => (
   <header>
