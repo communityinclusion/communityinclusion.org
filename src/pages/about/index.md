@@ -3,11 +3,9 @@ title: "About"
 path: "/about"
 date: 2019-04-01
 posttype: "page"
-thumbnail: '../../images/ICI.png'
+thumbnail: "../../images/ICI.png"
 description: "The ICI at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society. As practitioners, researchers, and teachers, we form partnerships with individuals, families, and service agencies. Together we advocate for personal choice, self-determination, and social and economic justice."
 ---
-
-
 
 <p> The ICI at UMass Boston is a <a href="https://www.aucd.org/template/index.cfm">University Center for Excellence in Developmental Disabilities (UCEDD)</a> housed within  SGISD at the University of Massachusetts Boston. As one of 67 UCEDDs, we collaborate with people with disabilities, members of their families, state and local government agencies, and service providers. Our goal is to advance opportunities for people with disabilities in all aspects of life. </p>
 
@@ -26,7 +24,6 @@ description: "The ICI at UMass Boston supports the rights of children and adults
 <li><a href="https://www.thinkwork.org/">ThinkWork</a> is for people with intellectual and/or developmental disabilities (IDD), their families, employment practitioners, and policymakers. It features ICI projects related to employment for people with IDD.</li>
 <li><a href="https://thinkcollege.net/">ThinkCollege</a> is for students with intellectual disability, their families, educators, policymakers, and institutes of higher education. It features ICI projects related to postsecondary education for students with intellectual disability.</li>
 </ul>
-
 
 <div class="row pt-4 mb-4">
 <div class="col-md-4 col-sm-12 mb-4 d-flex align-self-stretch">
@@ -62,7 +59,6 @@ description: "The ICI at UMass Boston supports the rights of children and adults
 </div>
 </div>
 
-
 <div class="col-md-4 col-sm-12 mb-4 d-flex align-self-stretch">
 <div class="card w-100">
 <div class="card-body">
@@ -81,7 +77,6 @@ description: "The ICI at UMass Boston supports the rights of children and adults
   </div>
 </div>
 </div>
-
 
 <div class="col-md-4 col-sm-12 mb-4 d-flex align-self-stretch">
 <div class="card w-100">
@@ -113,15 +108,22 @@ description: "The ICI at UMass Boston supports the rights of children and adults
 </div>
 </div>
 
-
 <div class="col-md-4 col-sm-12 mb-4 d-flex align-self-stretch">
-<!--<div class="card w-100">
+<div class="card w-100">
 <div class="card-body">
+        
+   <h2 class="card-title"><a class="link dt w-100 mt-2 dark-blue" href="/about/cac/">Community Advisory Committee</a></h2>
+       <p class="card-text"> The ICI Community Advisory Committee (CAC) is a Massachusetts-based advisory group that provides guidance to the ICI.</p> 
+</div>
+</div>
+</div>
 
+<!--<div class="col-md-4 col-sm-12 mb-4 d-flex align-self-stretch">
+<div class="card w-100">
+<div class="card-body">
 <h2 class="card-title"><a class="link dt w-100 mt-2 dark-blue" href="/about/what-we-mean-when-we-talk-about-inclusion">What We Mean When We Talk About Inclusion</a></h2>
-
-<p class="card-text">A resource guide.</p>   
-</div>
-</div>-->
+<p class="card-text">A resource guide.</p>
 </div>
 </div>
+</div>
+</div> -->

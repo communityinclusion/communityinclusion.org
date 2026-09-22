@@ -45,6 +45,7 @@ const activeLinkStyle = {
              <li><Link to="/about/fellowships">Fellowships</Link></li>
             <li><Link to="/jobs">Jobs at ICI</Link></li>
               <li><Link to="/about/contact">Contact</Link></li>
+              <li><Link to="/about/cac">Community Advisory Committee </Link></li>
         </ul>
       </div>
     </div>
