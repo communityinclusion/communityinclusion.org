@@ -14,9 +14,9 @@ thumbnail: "../../images/ICI.png"
     <img src="/images/onlinelearning/ICI_learning_ACRE-02.png" class="card-img-top" style="max-width: 850px;" alt="CES ACRE"></a>
     <div class="card-body">
       <p class="card-text"><p class=""><strong>College of Employment Services (CES)</strong>. The CES ACRE Course is a self-guided training that includes 11 CES courses plus activities and fieldwork. Learners who complete the CES ACRE training and fieldwork will receive the ACRE certificate and be listed on the <a href="https://www.acreducators.org/certificate-registry.html">Certificate Registry on the ACRE website.</a></p>
-      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acre-bundle">Enroll in CES + ACRE Course</a> </p>
-      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre-2024---fieldwork-only-course">Enroll in ACRE - Fieldwork ONLY</a></p>
-      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-acre-2024-fieldwork-only-course-for-pennsylvania-learners">Enroll in ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
+      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/programs/ces-acre-bundle-2026">Enroll in CES + ACRE Course</a> </p>
+      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/courses/acre-2026-part-2-fieldwork-only">Enroll in ACRE - Fieldwork ONLY</a></p>
+      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/courses/acre-2026-part-2-pennsylvania">Enroll in ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
       </p>
       <p><a href="/onlinelearning/cesacre/">Learn more about the CES ACRE</a></p>
     </div>
