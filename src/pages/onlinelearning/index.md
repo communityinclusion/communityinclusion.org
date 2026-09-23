@@ -5,6 +5,7 @@ date: 2022-02-01
 posttype: "page"
 thumbnail: "../../images/ICI.png"
 ---
+
 <p>Welcome to ICI Online Learning! Our online trainings include a variety of interactive and customizable self-guided courses for employment service providers, vocational rehabilitation leadership, transition specialists, school administrators, and other disability services professionals across the US. Our courses use engaging video case studies to illustrate best practices in providing disability services, supports, and leadership.</p>
 
 <p>ICI Online Learning has everything you need to feel confident, knowledgeable, and ready to work in the disability field. Click each box below to explore our course offerings.</p>
@@ -28,7 +29,7 @@ thumbnail: "../../images/ICI.png"
 <p>
   We offer 17 self-guided courses. You can purchase all 17 courses at once or choose from 6 multi-course bundles. CES is based on Association of People Supporting Employment (APSE) Universal Employment Competencies and includes courses endorsed by the Association of Community Rehabilitation Educators (ACRE).
 </p>       
-<p><a href="ces/"><strong>Learn More about CES and our Course Bundles</strong></a>.</p>
+<p><a href="onlinelearning/ces/"><strong>Learn More about CES and our Course Bundles</strong></a>.</p>
 <p><strong>You can purchase course bundles for up to 25 staff at once.</strong></p>
 <p>
   <a data-bs-toggle="collapse" class="btn btn-primary" href="#collapseCES" role="button" aria-expanded="false" aria-controls="collapseCES">Choose Your Course Bundle</a></strong> </p>
@@ -37,8 +38,8 @@ thumbnail: "../../images/ICI.png"
         <div class="col-md"><div class="card">
           <div class="card-body">
             <h5 class="card-title">ACRE Supplement Bundle</h5>
-            <p> 11-course bundle + Field Work: $550
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/programs/ces-acreplus" class="btn btn-primary">Learn More and Enroll</a> 
+            <p> 12-course bundle + Field Work: $550
+            <p><a href="https://elearning.communityinclusion.org/programs/ces-acre-bundle-2026" class="btn btn-primary">Learn More and Enroll</a> 
            </p>
           </div>
         </div></div>
@@ -56,8 +57,8 @@ thumbnail: "../../images/ICI.png"
         <div class="col-md"><div class="card" >
           <div class="card-body">
             <h5 class="card-title">Job Coaching Bundle </h5>
-            <p>4-course bundle: $175</p>
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-job-coaching" class="btn btn-primary">Learn More and Enroll</a>
+            <p>5-course bundle: $175</p>
+            <p><a href="https://elearning.communityinclusion.org/courses/ici-learning-job-coaching-5-courses-19-crc-credits-2026" class="btn btn-primary">Learn More and Enroll</a>
            </p>
           </div>
         </div></div>
@@ -83,7 +84,7 @@ thumbnail: "../../images/ICI.png"
           <div class="card-body">
             <h5 class="card-title">Job Development Bundle</h5>
             <p>6-course bundle: $250 </p>
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-job-development-bundle" class="btn btn-primary">Learn More and Enroll</a>
+            <p><a href="https://elearning.communityinclusion.org/courses/cesil-job-development-bundle-2026-7-courses" class="btn btn-primary">Learn More and Enroll</a>
               </p>
           </div>
         </div></div>
@@ -92,10 +93,10 @@ thumbnail: "../../images/ICI.png"
       <div class="row">
         <div class="col-md"><div class="card" >
           <div class="card-body">
-            <h5 class="card-title">All-course Bundle: 17-course bundle of all CES courses </h5>
-            <p>Purchase all 17 courses CES in one bundle: $345</p>
+            <h5 class="card-title">All-course Bundle: 18-course bundle of all CES courses </h5>
+            <p>Purchase all 18 courses CES in one bundle: $345</p>
             <p></p>
-            <p><a href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template" class="btn btn-primary">Learn More and Enroll</a></p>
+            <p><a href="https://elearning.communityinclusion.org/courses/cesil-all-in-one-18-course-bundle-2026" class="btn btn-primary">Learn More and Enroll</a></p>
           </div>
         </div></div>
     </div>
@@ -145,7 +146,6 @@ thumbnail: "../../images/ICI.png"
     </div>
   </div>
 
-  
   <div class="card"><a href="https://elearning.communityinclusion.org/browse/seln/courses/seln-supporting-a-vision-for-employment-101">
     <img src="/images/onlinelearning/seln_elearning.png" class="card-img-top" style="max-width: 600px;" alt="SELN: Supporting a Vision for Employment"></a>
     <div class="card-body">

@@ -5,6 +5,7 @@ date: 2022-02-01
 posttype: "page"
 thumbnail: "../../images/ICI.png"
 ---
+
 <div class="row">
   <div class="col-lg-8">
     <h2 class="h5 card-title">Is College of Employment Services right for my organization?</h2>
@@ -14,11 +15,10 @@ thumbnail: "../../images/ICI.png"
       <p>- CES Learner</p>
     </blockquote>
     <h2 class="h5 card-title">What courses does CES offer?</h2>
-    <p>We offer 17 courses with over 60 lessons related to employment services. Explore our course bundle options!</p> 
+    <p>We offer 17 courses with over 60 lessons related to employment services. Explore our course bundle options!</p>
 
 <h2  class="h5 card-title">Does CES offer ACRE credentialing?</h2>
 <p>We offer <em>Association of Community Rehabilitation Educators (ACRE)</em> certified courses as well as the required accompanying fieldwork. The CES ACRE Course is a self-guided training that includes 11 CES courses plus fieldwork. Learners who complete the <a href="https://elearning.communityinclusion.org/programs/ces-acre-bundle-2026">CES +ACRE Course</a>  training will receive the ACRE certificate and be listed on the <a href="https://www.acreducators.org/certificate-registry.html">Certificate Registry on the ACRE website</a>.</p>
-
 
 <h2 class="h5 card-title">How can I purchase CES courses?</h2>
 <p>You can choose from 6 course bundles, or you can purchase all 17 courses for your staff. Courses are available immediately after purchase.</p>
@@ -77,7 +77,7 @@ thumbnail: "../../images/ICI.png"
       <li>Networking</li>
       <li>Job Creation</li>
       </ol>
-      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-job-development-bundle">Enroll</a></p>
+      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/cesil-job-development-bundle-2026-7-courses">Enroll</a></p>
       </details></li>
     <li class="list-group-item"><details id="bpb">
       <summary><span class="green">Benefits Planning Bundle</span><br> (3-course bundle): $125</summary>
@@ -99,7 +99,7 @@ thumbnail: "../../images/ICI.png"
       <li>Using Work Incentives Toward Self-Sufficiency</li>
       <li>Remote employment support</li>
       </ol>
-      <p><a href="http://elearning.communityinclusion.org/browse/ces/courses/ces-job-coaching" class="btn btn-primary">Enroll</a></p>
+      <p><a href="https://elearning.communityinclusion.org/courses/ici-learning-job-coaching-5-courses-19-crc-credits-2026" class="btn btn-primary">Enroll</a></p>
       </details></li>
     <li class="list-group-item"><details id="wspb">
       <summary><span class="green">Working with Specific Populations Bundle</span> <br>(4-course bundle): $175</summary>
@@ -117,13 +117,12 @@ thumbnail: "../../images/ICI.png"
         (2-course bundle): $125 Coming Soon! </summary>
       </details></li>
     <li class="list-group-item"> <details id="CCB">
-      <summary><span class="green"> All-in-One CES Courses</span><br>(17-course bundle): $345</summary> 
-      <p>Purchase all 17 courses CES in one bundle. </p>
+      <summary><span class="green"> All-in-One CES Courses</span><br>(18-course bundle): $345</summary> 
+      <p>Purchase all 18 courses CES in one bundle. </p>
       <p>See full course descriptions and enroll.</p>
-      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces/courses/ces-new-template">Enroll</a> </p>
+      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/courses/cesil-all-in-one-18-course-bundle-2026">Enroll</a> </p>
       </details</li>
   </ul>
   <p class="text-center"><a class="btn btn-primary" href="https://elearning.communityinclusion.org/browse/ces">Explore All CES Bundles</a> </p>
   </div>
   </div>
- 
