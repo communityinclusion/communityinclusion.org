@@ -76,6 +76,7 @@ const activeLinkStyle = {
              <li><Link to="/projects/emp1stfl">Employment First Florida</Link></li>
              <li><Link to="/projects/gator">GATOR</Link></li>
              <li><Link to="/projects/macihet">MACIHET</Link></li>
+             <li> <Link to="/projects/employmentfirstma">Employment First Massachusetts</Link></li >
         </ul>
       </div>
 
@@ -85,7 +86,7 @@ const activeLinkStyle = {
 
 
 
-<li><Link to="/projects/employmentfirstma">Employment First Massachusetts</Link></li>
+
 <li><Link to="/projects/fqi">Future Quest Island</Link></li>
 <li><Link to="/projects/lend">LEND Program</Link></li>
 <li><Link to="/projects/bchdsp">Down Syndrome Program</Link></li>
