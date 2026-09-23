@@ -135,7 +135,7 @@
 }
 
 .umb_blue {
-  background-color: #005A8B;
+  background-color: #005a8b;
 }
 
 html {
@@ -161,8 +161,14 @@ body {
 
 #gatsby-focus-wrapper {
   display: grid;
-  /* one column, three rows: header / content / footer */
-  grid-template-columns: 1fr;
+  /* one column, three rows: header / content / footer. minmax(0, 1fr) --
+     not bare 1fr -- because a 1fr track's implicit minimum is auto (its
+     content's min-content size); any descendant with a large min-content
+     width (e.g. white-space:nowrap nav-link text) would otherwise stretch
+     this single column, and with it every element on the page including
+     <nav> itself, past the viewport regardless of that element's own
+     width/flex-shrink rules. */
+  grid-template-columns: minmax(0, 1fr);
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
 }
@@ -318,66 +324,141 @@ footer a:hover {
 }
 
 #banner-text {
-  font-family: myriad-pro-condensed, "Open Sans Condensed", sans-serif;
+  font-family: montserrat, "Open Sans Condensed", sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-variant-caps: small-caps;
   text-align: center;
   display: block;
   border-bottom-width: 0;
+  color: #0277b0;
+  margin: 0;
 }
 
-@media screen and (max-width: 380px) {
-  #banner-text {
-    font-size: 1.6rem;
-    text-align: left;
-    line-height: 1.8rem;
-  }
-}
-
-@media screen and (min-width: 381px) and (max-width: 480px) {
-  #banner-text {
-    font-size: 2.1rem;
-    text-align: left;
-    line-height: 2.3rem;
-  }
-}
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  #banner-text {
-    font-size: 2.6rem;
-    text-align: left;
-    line-height: 2.8rem;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1028px) {
-  #banner-text {
-    font-size: 3rem;
-    text-align: left;
-    line-height: 3.2rem;
-  }
-}
-
-@media screen and (min-width: 1029px) {
-  #banner-text {
-    font-size: 3.5rem;
-    /* text-align: left;*/
-    line-height: 3.7rem;
-  }
-}
 #banner-tagline {
-  font-family: myriad-pro-condensed, "Open Sans Condensed", sans-serif;
+  font-family: montserrat, "Open Sans Condensed", sans-serif;
   font-weight: 400;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   font-style: normal;
   text-align: center;
+  color: #0277b0;
 }
 
 @media screen and (max-width: 35em) {
   #banner-tagline {
-    font-family: myriad-pro-condensed, "Open Sans Condensed", sans-serif;
     letter-spacing: 1.4px;
+  }
+}
+
+/* ICI Banner (interactive focus-area tiles) */
+
+/* Flex items default to a minimum size based on their content, not 0 --
+   normally invisible, but nav-link text is white-space:nowrap (so it
+   can't shrink by wrapping), which gives ul.navbar-nav a large content
+   minimum. Without min-width:0 to override that default at every level
+   of the chain, that minimum forces each flex ancestor to balloon past
+   the viewport instead of actually shrinking, which is what was causing
+   the row to overflow regardless of how narrow the search box got. */
+.navbar > .container-xxl,
+.navbar-collapse,
+ul.navbar-nav {
+  min-width: 0;
+}
+
+/* Search bar, inline with the nav links on desktop (Navbar.js). NavLinks.js
+   has its own separate GoogleCustomSearchBox for the collapsed mobile menu
+   -- this one is d-none below lg so the two never show at once.
+   Google's CSE measures this wrapper's own rendered width via JS at load
+   and sizes its internal input/table to fit it, so the width belongs here
+   on the wrapper -- not on the CSE's own internal table/input, which fights
+   that measurement and can overflow or collapse the input to 0 width.
+   A fluid width (rather than a fixed max-width) lets it shrink smoothly as
+   the window narrows instead of just eating the row's leftover space as a
+   blank ms-auto margin (removed from navbar.js -- .navbar-nav's own
+   me-auto already pushes this flush right). 180px is the practical floor:
+   below that CSE's own layout starts collapsing the actual input to 0
+   width even though the wrapper itself still has room. */
+.ici-navbar-search {
+  align-items: center;
+  width: clamp(180px, 20vw, 240px);
+  margin-left: 0.5rem;
+  flex-shrink: 0;
+}
+
+.ici-banner-wrap {
+  padding: 1rem 0 0.5rem;
+}
+
+.banner {
+  /* the featured tile, scaled down on narrow screens */
+  --tile-large: min(170px, 28vw);
+  /* standard tiles, i.e. the featured tile is twice the size */
+  --tile-small: calc(var(--tile-large) / 2);
+  /* breathing room between tiles, matching the proportions in ex.png */
+  --tile-gap: calc(var(--tile-large) * 0.05);
+
+  display: flex;
+  justify-content: center;
+  /* no flex `gap` -- the spacing lives inside the links, see below */
+  /* reserve room for the largest tile so nothing on the page shifts */
+  height: var(--tile-large);
+  margin: 0.5rem 0;
+}
+
+/* The spacing is padding *inside* each link rather than a gap between
+   them, and each link stretches to the full row height. That leaves no
+   dead space anywhere in the banner: the pointer passes straight from one
+   link into the next, so the swap never flickers back to ICI in transit. */
+.banner__tile {
+  flex: none;
+  box-sizing: content-box;
+  width: var(--tile-small);
+  padding-inline: calc(var(--tile-gap) / 2);
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  transition: width 320ms cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+.banner__tile img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ring the image, not the (taller, padded) link box */
+.banner__tile:focus-visible {
+  outline: none;
+}
+
+.banner__tile:focus-visible img {
+  box-shadow:
+    0 0 0 3px #fff,
+    0 0 0 6px #212529;
+}
+
+/* ICI is the resting featured tile */
+.banner__tile--ici {
+  width: var(--tile-large);
+}
+
+/* the hovered/focused tile grows */
+.banner__tile:hover,
+.banner__tile:focus-visible {
+  width: var(--tile-large);
+}
+
+/* some OTHER tile is hovered or focused, so ICI returns to standard size.
+   The :not() matters -- without it this also fires while ICI itself is
+   hovered, and :has() carries enough specificity to beat the rule above. */
+.banner:has(.banner__tile:not(.banner__tile--ici):hover) .banner__tile--ici,
+.banner:has(.banner__tile:not(.banner__tile--ici):focus-visible)
+  .banner__tile--ici {
+  width: var(--tile-small);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .banner__tile {
+    transition: none;
   }
 }
 
@@ -714,6 +795,7 @@ li.MuiButtonBase-root a {
   font-size: 1.15rem;
   line-height: 1.2;
   letter-spacing: 0.5px;
+  font-family: "myriad-pro-cond", "Open Sans", sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -1000,7 +1082,20 @@ ul.navbar-nav > li > a {
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     color: #fff;
-    padding: 10px 15px;
+    padding: 10px 17px;
+    white-space: nowrap;
+  }
+}
+
+/* Between ~992px (nav expands out of the hamburger) and ~1200px, 7
+   nav links plus the search box don't fit at the default padding above --
+   nav.css has an identical-selector rule that loads after this file and
+   wins that tie, so !important here is what actually makes this apply.
+   Tighter padding, not a wrapping/hidden search box, absorbs the squeeze
+   in this band; from 1200px on there's enough room for the padding above. */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 8px !important;
   }
 }
 
@@ -1218,4 +1313,240 @@ body:has(.hide-title) .page-title {
   background-color: #99312a;
   opacity: 0;
   animation: blue-traveler 4s ease-in-out 1 forwards;
+}
+
+/* ECLE page and Diagram Styles */
+
+.ecle-page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.ecle-banner {
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.ecle-toplinks {
+  margin-bottom: 2.5rem;
+}
+
+.ecle-toplinks ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 0.75rem 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ecle-toplinks li {
+  display: flex;
+}
+
+.ecle-toplinks .btn {
+  width: 200px;
+}
+
+@media (max-width: 576px) {
+  .ecle-toplinks ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ecle-toplinks li,
+  .ecle-toplinks .btn {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+.ecle-diagram {
+  border: 1px solid #1178ad;
+  margin-bottom: 2rem;
+}
+
+.ecle-diagram-title {
+  background: #1178ad;
+  color: #fff;
+  margin: 0;
+  padding: 0.75rem 1rem;
+  text-align: center;
+}
+
+.ecle-diagram-body {
+  padding: 1.5rem;
+}
+
+.ecle-diagram-toprow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.ecle-box-focus,
+.ecle-box-infra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ecle-arrow-h {
+  align-self: center;
+}
+
+.ecle-box {
+  background: #eaf2df;
+  border: 1px solid #5d9632;
+  border-radius: 4px;
+  padding: 1rem;
+  flex: 1 1 260px;
+}
+
+.ecle-box h3 {
+  color: #1178ad;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0;
+}
+
+.ecle-box ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.ecle-box-practices {
+  flex-basis: 100%;
+  margin-top: 0.5rem;
+}
+
+.ecle-arrow {
+  color: #5d9632;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.ecle-diagram-arrowsrow {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 1rem;
+}
+
+@media (max-width: 650px) {
+  .ecle-diagram-toprow {
+    flex-direction: column;
+  }
+
+  .ecle-arrow-h {
+    transform: rotate(90deg);
+  }
+  .ecle-arrow {
+    color: #5d9632;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1;
+  }
+}
+
+.ecle-diagram-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  border-top: 1px solid #1178ad;
+  margin: 1rem 1.5rem 0;
+  padding-top: 1rem;
+}
+
+.ecle-footer-logo {
+  max-width: 220px;
+  width: 100%;
+  height: auto;
+}
+
+.ecle-text h2 {
+  color: #1178ad;
+  font-weight: 700;
+}
+
+.ecle-cards {
+  margin-top: 1rem;
+}
+
+.ecle-card {
+  background-color: #eaf3fa;
+  border: 1px solid #1178ad;
+  justify-content: center;
+  color: inherit;
+  text-decoration: none;
+  transition:
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.ecle-card:hover,
+.ecle-card:focus {
+  background-color: #dcebf7;
+  color: inherit;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(17, 120, 173, 0.3);
+}
+
+.ecle-card-cta {
+  color: #1178ad;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.ecle-card-logo {
+  max-width: 260px;
+  margin: 1rem auto 0;
+}
+
+/* 1. Main outer container */
+.gsc-control-cse {
+  padding: 0 !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+/* 2. The input wrapper box */
+.gsc-input-box {
+  height: 40px !important;
+  background: #ffffff !important;
+}
+
+/* 3. The actual text field */
+input.gsc-input,
+#gsc-i-id1 {
+  font-family: "Arial", sans-serif !important;
+  font-size: 16px !important;
+  color: #333333 !important;
+  background: none !important;
+}
+
+/* 4. The search submit button */
+button.gsc-search-button-v2 {
+  background-color: #387deb !important;
+
+  border: none !important;
+}
+
+/* 5. Change placeholder text color */
+#gsc-i-id1::-webkit-input-placeholder {
+  color: #999 !important;
+}
+#gsc-i-id1::-moz-placeholder {
+  color: #999 !important;
 }

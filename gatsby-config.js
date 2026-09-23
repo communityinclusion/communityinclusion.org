@@ -144,20 +144,22 @@ module.exports = {
         crossOrigin: `use-credentials`,
       },
     },
-    {
-      resolve: "gatsby-plugin-web-font-loader",
-      options: {
-        typekit: {
-          id: "hss6qfr",
-        },
-        google: {
-          families: [
-            "Open Sans:300,400,500,700",
-            "Open Sans Condensed:300,700",
-          ],
-        },
-      },
-    },
+   {
+     resolve: `gatsby-omni-font-loader`,
+     options: {
+       mode: `async`,
+       scope: `html`,
+       enableListener: true,
+       preconnect: [
+         `https://use.typekit.net`,
+         `https://p.typekit.net`,
+       ],
+       web: [{
+         name: [`myriad-pro-cond`, `open-sans`, `open-sans-condensed`], // use the exact family names from your kit's CSS
+         file: `https://use.typekit.net/fia6jrn.css`, // your kit ID
+       }, ],
+     },
+   },
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
