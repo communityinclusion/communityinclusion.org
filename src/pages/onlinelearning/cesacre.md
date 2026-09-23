@@ -6,9 +6,10 @@ date: 2022-02-01
 posttype: "page"
 thumbnail: "../../images/ICI.png"
 ---
+
 <div class="row ">
   <div class="col-sm-4 text-center"><p>
-    <img src="ici_acre.jpg" alt="ACRE Logo"></a></p>
+    <img src="icilearning-acre.png" alt="ACRE Logo"></a></p>
 </div>
   <div class="col-sm-8  align-self-center"><p class="lead blue"><strong>College of Employment Services (CES) courses have all the information learners need to feel confident, knowledgeable, and ready to work in employment services for people with disabilities.</strong> </p>
   <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/programs/ces-acre-bundle-2026">Enroll in CES + ACRE Course</a> </p>
@@ -53,18 +54,15 @@ thumbnail: "../../images/ICI.png"
     </div>
 </div>
 
-
 <h2 class="h3 card-title">How can I get started? </h2>
 <p>If you manage staff, you can register up to 25 staff at once for the <a href="https://elearning.communityinclusion.org/programs/ces-acre-bundle-2026">CES ACRE Course</a>. </p>
 
 <p>If you want to register 26 or more employees for the ACRE Course, explore the College of Employment Services for Group Sales offered by <a href="https://directcourseonline.com/employment-services/">Direct Course</a>. </p>
 
-
 <h2 class="h3 card-title">Can I or my staff just do the ACRE activities and field work (without taking the 11 CES courses)? </h2>
 <p>No. Learners must complete Part 1 (11 ACRE-approved CES courses) before enrolling in Part 2 (ACRE activities and fieldwork). You must complete both Part 1 & Part 2 to earn an ACRE Certificate. </p>
 
 <p>If your staff has already completed Part 1, they can enroll and take Part 2. </p>
-
 
 <h2 class="h3 card-title">What is included in the ACRE Course?</h2>
 <p>11-course ACRE Course + Field Work: $550 </p>
@@ -101,6 +99,6 @@ thumbnail: "../../images/ICI.png"
   <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/courses/acre-2026-part-2-pennsylvania">Enroll in CES ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
   </p>
     <p>
-      <img src="ici_acre.jpg" alt="ACRE Logo"></a></p>
+      <img src="icilearning-acre.png" alt="ACRE Logo"></a></p>
     </div>
 </div>
