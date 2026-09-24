@@ -2,9 +2,12 @@
 import React, { useState } from 'react';
 import useSortableData from "./Sort";
 
+const searchFields = ['title', 'subtitle', 'author', 'audience', 'topics', 'projects', 'pdflink', 'doclink'];
+
 const PublicationArchive = (props) => {
     const [value, setValue] = useState('');
     const { pubs, sort } = useSortableData(props.pubs);
+    const query = value.trim().toLowerCase();
 
     return (
         <>
@@ -83,19 +86,11 @@ const PublicationArchive = (props) => {
                 {
                         pubs
                             .filter(item => {
-                                if (!value) return true;
-                                if ( item.title.toLowerCase().includes(value.toLowerCase())
-                                    || item.subtitle.toLowerCase().includes(value.toLowerCase())
-                                    || item.author.toLowerCase().includes(value.toLowerCase())
-                                    || item.audience.toLowerCase().includes(value.toLowerCase())
-                                    || item.topics.toLowerCase().includes(value.toLowerCase())
-                                    || item.projects.toLowerCase().includes(value.toLowerCase())
-                                    || item.pdflink.toLowerCase().includes(value.toLowerCase())
-                                    || item.doclink.toLowerCase().includes(value.toLowerCase())
-                                ) {
-                                    return true;
-                                }
-                                return false;
+                                if (!query) return true;
+                                // Missing fields are treated as empty so one bad record can't crash the page
+                                return searchFields.some(field =>
+                                    String(item[field] ?? '').toLowerCase().includes(query)
+                                );
                             })
                         .map((pub) =>  (
                                 <tr key={pub.id}>
