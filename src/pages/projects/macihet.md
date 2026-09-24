@@ -1,5 +1,5 @@
 ---
-title: "Massachusetts Center for Inclusive Higher Education and Transition "
+title: "MA Center"
 path: "/projects/macihet"
 posttype: "page"
 date: 2024-12-06

@@ -12,6 +12,11 @@ thumbnail: "../../images/ICI.png"
     <div style="max-width:500px;"><a class="btn btn-primary float-end ms-3 mb-3" href="https://employmentopportunities.umb.edu/boston/en-us/job/529934/post-doctoral-research-fellow" role="button">Apply Now</a>
     <p class="ms-5"><strong>Application deadline: July 27, 2026</strong></p></div>
     </div>-->
+
+<p>
+<img class="pb-4" src="../../images/project_logos/arrt-logo.png" alt text="logo">
+</p>
+
 <div class="p-3 mb-2 bg-body-tertiary rounded-3"> 
     <div class="container-fluid py-2"> 
         <div class="row">

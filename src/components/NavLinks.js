@@ -73,9 +73,8 @@ const activeLinkStyle = {
             <li><Link to="/projects/statedata">StateData</Link></li>
              <li><Link to="/projects/catada">CATADA</Link></li>
              <li><Link to="/projects/nercve">NERCVE</Link></li>
-             <li><Link to="/projects/emp1stfl">Employment First Florida</Link></li>
              <li><Link to="/projects/gator">GATOR</Link></li>
-             <li><Link to="/projects/macihet">MACIHET</Link></li>
+             <li><Link to="/projects/macihet">MA Center</Link></li>
              <li> <Link to="/projects/employmentfirstma">Employment First Massachusetts</Link></li >
         </ul>
       </div>
@@ -90,7 +89,7 @@ const activeLinkStyle = {
 <li><Link to="/projects/fqi">Future Quest Island</Link></li>
 <li><Link to="/projects/lend">LEND Program</Link></li>
 <li><Link to="/projects/bchdsp">Down Syndrome Program</Link></li>
-<li><a href="https://cletoolkit.communityinclusion.org/">Community Life Engagement</a></li>
+<li><a href="https://cletoolkit.communityinclusion.org/">Explore Community Life Engagement</a></li>
 <li><Link to="/projects/emp1stmo">Employment First Missouri</Link></li>
 <li><Link to="/projects/maipse">MAIPSE</Link></li>
 <li><Link to="/projects/youthvoice">CYVYC</Link></li>
