@@ -2,6 +2,11 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
+const siteUrl = "https://www.communityinclusion.org"
+// Netlify sets CONTEXT to "production" only for the main site deploy;
+// deploy previews and branch deploys get robots.txt that blocks crawlers.
+const isProduction = process.env.CONTEXT === "production"
+
 const mergePath = (basePath = "/", path = "") => {
   let result = "/" + basePath + "/" + path
   result = result.replace(/\/+/g, "/")
@@ -11,7 +16,7 @@ const mergePath = (basePath = "/", path = "") => {
 module.exports = {
   trailingSlash: "never",
   siteMetadata: {
-    siteUrl: "https://www.communityinclusion.org",
+    siteUrl,
     title: "ICI at UMass Boston",
     name: "ICI at UMass Boston",
     description:
@@ -31,13 +36,17 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://www.communityinclusion.org",
+        host: siteUrl,
+        sitemap: `${siteUrl}/sitemap-index.xml`,
+        resolveEnv: () => (isProduction ? "production" : "blocked"),
         env: {
-          development: {
-            policy: [{ userAgent: "*", disallow: ["/"] }],
-          },
           production: {
             policy: [{ userAgent: "*", allow: "/" }],
+          },
+          blocked: {
+            policy: [{ userAgent: "*", disallow: ["/"] }],
+            sitemap: null,
+            host: null,
           },
         },
       },
