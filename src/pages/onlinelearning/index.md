@@ -15,9 +15,9 @@ thumbnail: "../../images/ICI.png"
     <img src="/images/onlinelearning/ICI_learning_ACRE-02.png" class="card-img-top" style="max-width: 850px;" alt="CES ACRE"></a>
     <div class="card-body">
       <p class="card-text"><p class=""><strong>College of Employment Services (CES)</strong>. The CES ACRE Course is a self-guided training that includes 11 CES courses plus activities and fieldwork. Learners who complete the CES ACRE training and fieldwork will receive the ACRE certificate and be listed on the <a href="https://www.acreducators.org/certificate-registry.html">Certificate Registry on the ACRE website.</a></p>
-      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/programs/ces-acre-bundle-2026">Enroll in CES + ACRE Course</a> </p>
-      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/courses/acre-2026-part-2-fieldwork-only">Enroll in ACRE - Fieldwork ONLY</a></p>
-      <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/courses/acre-2026-part-2-pennsylvania">Enroll in ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
+      <p><a class="btn btn-primary" href="https://www.icilearning.org/programs/ces-acre-bundle-2026">Enroll in CES + ACRE Course</a> </p>
+      <p><a class="btn btn-primary" href="https://www.icilearning.org/courses/acre-2026-part-2-fieldwork-only">Enroll in ACRE - Fieldwork ONLY</a></p>
+      <p><a class="btn btn-primary" href="https://www.icilearning.org/courses/acre-2026-part-2-pennsylvania">Enroll in ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
       </p>
       <p><a href="/onlinelearning/cesacre/">Learn more about the CES ACRE</a></p>
     </div>
@@ -39,7 +39,7 @@ thumbnail: "../../images/ICI.png"
           <div class="card-body">
             <h5 class="card-title">ACRE Supplement Bundle</h5>
             <p> 12-course bundle + Field Work: $550
-            <p><a href="https://elearning.communityinclusion.org/programs/ces-acre-bundle-2026" class="btn btn-primary">Learn More and Enroll</a> 
+            <p><a href="https://www.icilearning.org/programs/ces-acre-bundle-2026" class="btn btn-primary">Learn More and Enroll</a> 
            </p>
           </div>
         </div></div>
@@ -47,7 +47,7 @@ thumbnail: "../../images/ICI.png"
           <div class="card-body">
             <h5 class="card-title">Benefits Planning Bundle </h5>
             <p>3-course bundle: $125 </p>
-            <p><a href="http://elearning.communityinclusion.org/browse/ces/courses/ces-benefits-planning-bundle" class="btn btn-primary">Learn More and Enroll</a>
+            <p><a href="https://www.icilearning.org/browse/ces/courses/cesil-working-with-specific-populations-bundle-4-courses" class="btn btn-primary">Learn More and Enroll</a>
              </p>
           </div>
         </div></div>
@@ -58,7 +58,7 @@ thumbnail: "../../images/ICI.png"
           <div class="card-body">
             <h5 class="card-title">Job Coaching Bundle </h5>
             <p>5-course bundle: $175</p>
-            <p><a href="https://elearning.communityinclusion.org/courses/ici-learning-job-coaching-5-courses-19-crc-credits-2026" class="btn btn-primary">Learn More and Enroll</a>
+            <p><a href="https://www.icilearning.org/courses/ici-learning-job-coaching-5-courses-19-crc-credits-2026" class="btn btn-primary">Learn More and Enroll</a>
            </p>
           </div>
         </div></div>
@@ -66,7 +66,7 @@ thumbnail: "../../images/ICI.png"
           <div class="card-body">
             <h5 class="card-title">Working with Specific Populations Bundle</h5>
             <p>4-course bundle: $175 </p>
-            <p><a href="http://elearning.communityinclusion.org/browse/ces/courses/ces-working-with-specific-populations" class="btn btn-primary">Learn More and Enroll</a>
+            <p><a href="https://www.icilearning.org/browse/ces/courses/cesil-working-with-specific-populations-bundle-4-courses" class="btn btn-primary">Learn More and Enroll</a>
             </p>
           </div>
         </div></div>
@@ -84,7 +84,7 @@ thumbnail: "../../images/ICI.png"
           <div class="card-body">
             <h5 class="card-title">Job Development Bundle</h5>
             <p>6-course bundle: $250 </p>
-            <p><a href="https://elearning.communityinclusion.org/courses/cesil-job-development-bundle-2026-7-courses" class="btn btn-primary">Learn More and Enroll</a>
+            <p><a href="https://www.icilearning.org/courses/cesil-job-development-bundle-2026-7-courses" class="btn btn-primary">Learn More and Enroll</a>
               </p>
           </div>
         </div></div>
@@ -96,7 +96,7 @@ thumbnail: "../../images/ICI.png"
             <h5 class="card-title">All-course Bundle: 18-course bundle of all CES courses </h5>
             <p>Purchase all 18 courses CES in one bundle: $345</p>
             <p></p>
-            <p><a href="https://elearning.communityinclusion.org/courses/cesil-all-in-one-18-course-bundle-2026" class="btn btn-primary">Learn More and Enroll</a></p>
+            <p><a href="https://www.icilearning.org/courses/cesil-all-in-one-18-course-bundle-2026" class="btn btn-primary">Learn More and Enroll</a></p>
           </div>
         </div></div>
     </div>
@@ -110,11 +110,11 @@ thumbnail: "../../images/ICI.png"
   </div>
 </div>
 <div class="card">
-  <a href="https://elearning.communityinclusion.org/browse/cle/courses/explore-community-life-engagement">
+  <a href="https://www.icilearning.org/browse/cle/courses/explore-community-life-engagement">
   <img src="/images/onlinelearning/ECLE_update.png" class="card-img-top" style="max-width: 600px;" alt="Introduction to Community Life Engagement"></a>
   <div class="card-body">
     <p class="card-text"> The Institute for Community Inclusion's <strong>Introduction to Community Life Engagement</strong> course can help you build your skills and feel more confident in your role as a direct support professional working in the community. These self-paced online learning lessons will help you learn how to engage in effective person-centered planning, support community life engagement outcomes, map available resources, and build natural supports in the community for people with disabilities. </p>
-    <a  href="https://elearning.communityinclusion.org/browse/cle/courses/explore-community-life-engagement">
+    <a  href="https://www.icilearning.org/browse/cle/courses/explore-community-life-engagement">
       Sign up for Introduction to Community Life Engagement</a>
     </a>
   </div>
@@ -146,11 +146,11 @@ thumbnail: "../../images/ICI.png"
     </div>
   </div>
 
-  <div class="card"><a href="https://elearning.communityinclusion.org/browse/seln/courses/seln-supporting-a-vision-for-employment-101">
+  <div class="card"><a href="https://www.icilearning.org/browse/seln/courses/seln-supporting-a-vision-for-employment-101">
     <img src="/images/onlinelearning/seln_elearning.png" class="card-img-top" style="max-width: 600px;" alt="SELN: Supporting a Vision for Employment"></a>
     <div class="card-body">
       <p class="card-text"><strong>SELN: Supporting a Vision for Employment</strong> This online course is crafted for case managers and those in similar roles responsible for advising, assisting, and advocating for individuals with intellectual and developmental disabilities (IDD) seeking employment. This is a self-paced course including 4 modules with scenarios, case studies and stories that put the learner "in the room" immersing them in what is happening and strengthening learning. Estimated time to complete the course is 5-6 hours, including quizzes and post-survey.</p>
        <p><a href="https://www.selnhub.org/resources/elearning">Learn more about SELN: Supporting a Vision for Employment</a></p>
-       <p><a href="https://elearning.communityinclusion.org/browse/seln/courses/seln-supporting-a-vision-for-employment-101">Enroll in SELN: Supporting a Vision for Employment</a></p>
+       <p><a href="https://www.icilearning.org/browse/seln/courses/seln-supporting-a-vision-for-employment-101">Enroll in SELN: Supporting a Vision for Employment</a></p>
     </div>
   </div>

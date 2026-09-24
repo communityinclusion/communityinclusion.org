@@ -12,9 +12,9 @@ thumbnail: "../../images/ICI.png"
     <img src="icilearning-acre.png" alt="ACRE Logo"></a></p>
 </div>
   <div class="col-sm-8  align-self-center"><p class="lead blue"><strong>College of Employment Services (CES) courses have all the information learners need to feel confident, knowledgeable, and ready to work in employment services for people with disabilities.</strong> </p>
-  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/programs/ces-acre-bundle-2026">Enroll in CES + ACRE Course</a> </p>
-  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/courses/acre-2026-part-2-fieldwork-only">Enroll in ACRE - Fieldwork ONLY</a></p>
-  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/courses/acre-2026-part-2-pennsylvania">Enroll in ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
+  <p><a class="btn btn-primary" href="https://www.icilearning.org/programs/ces-acre-bundle-2026">Enroll in CES + ACRE Course</a> </p>
+  <p><a class="btn btn-primary" href="https://www.icilearning.org/courses/acre-2026-part-2-fieldwork-only">Enroll in ACRE - Fieldwork ONLY</a></p>
+  <p><a class="btn btn-primary" href="https://www.icilearning.org/courses/acre-2026-part-2-pennsylvania">Enroll in ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
   </p>
     </div>
 </div>
@@ -55,7 +55,7 @@ thumbnail: "../../images/ICI.png"
 </div>
 
 <h2 class="h3 card-title">How can I get started? </h2>
-<p>If you manage staff, you can register up to 25 staff at once for the <a href="https://elearning.communityinclusion.org/programs/ces-acre-bundle-2026">CES ACRE Course</a>. </p>
+<p>If you manage staff, you can register up to 25 staff at once for the <a href="https://www.icilearning.org/programs/ces-acre-bundle-2026">CES ACRE Course</a>. </p>
 
 <p>If you want to register 26 or more employees for the ACRE Course, explore the College of Employment Services for Group Sales offered by <a href="https://directcourseonline.com/employment-services/">Direct Course</a>. </p>
 
@@ -94,9 +94,9 @@ thumbnail: "../../images/ICI.png"
 <hr>
 <div class="row ">
   <div class="text-center align-self-center">
-    <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/programs/ces-acre-bundle-2026">Enroll in CES + ACRE Course</a> </p>
-  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/courses/acre-2026-part-2-fieldwork-only">Enroll in CES ACRE - Fieldwork ONLY</a></p>
-  <p><a class="btn btn-primary" href="https://elearning.communityinclusion.org/courses/acre-2026-part-2-pennsylvania">Enroll in CES ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
+    <p><a class="btn btn-primary" href="https://www.icilearning.org/programs/ces-acre-bundle-2026">Enroll in CES + ACRE Course</a> </p>
+  <p><a class="btn btn-primary" href="https://www.icilearning.org/courses/acre-2026-part-2-fieldwork-only">Enroll in CES ACRE - Fieldwork ONLY</a></p>
+  <p><a class="btn btn-primary" href="https://www.icilearning.org/courses/acre-2026-part-2-pennsylvania">Enroll in CES ACRE - Fieldwork ONLY (For Pennsylvania learners)</a>
   </p>
     <p>
       <img src="icilearning-acre.png" alt="ACRE Logo"></a></p>
