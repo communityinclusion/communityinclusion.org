@@ -19,7 +19,7 @@ description: "List of ICI Projects"
         <div class="col-md-9">
           <div class="card-body">
             <h2 class="card-title"><a href="/projects/thinkcollege">Think College</a></h2>
-            <p>Think College develops, expands, and improves inclusive higher education options for people with intellectual and developmental disabilities.</p>
+            <p>Think College develops, expands, and improves higher education options for people with intellectual and developmental disabilities.</p>
           </div>
         </div>
       </div>
@@ -256,8 +256,8 @@ description: "List of ICI Projects"
         </div>
         <div class="col-md-9">
           <div class="card-body">
-            <h2 class="card-title"><a href="/projects/maipse">Massachusetts Inclusive Concurrent Enrollment Initiative</a></h2>
-            <p>The Massachusetts Inclusive Concurrent Enrollment Initiative (MAICEI) program at the University of Massachusetts Boston offers inclusive higher education opportunities to partnering school districts that support high school students with intellectual disabilities and autism, ages 18-21.</p>
+            <h2 class="card-title"><a href="/projects/maipse">Massachusetts Concurrent Enrollment Initiative</a></h2>
+            <p>The Massachusetts Concurrent Enrollment Initiative (MAICEI) program at the University of Massachusetts Boston offers higher education opportunities to partnering school districts that support high school students with intellectual disabilities and autism, ages 18–21.</p>
           </div>
         </div>
       </div>

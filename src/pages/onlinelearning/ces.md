@@ -17,7 +17,7 @@ thumbnail: "../../images/ICI.png"
     <h2 class="h5 card-title">What courses does CES offer?</h2>
     <p>We offer 17 courses with over 60 lessons related to employment services. Explore our course bundle options!</p>
 
-<h2  class="h5 card-title">Does CES offer ACRE credentialing?</h2>
+<h2 class="h5 card-title">Does CES offer ACRE credentialing?</h2>
 <p>We offer <em>Association of Community Rehabilitation Educators (ACRE)</em> certified courses as well as the required accompanying fieldwork. The CES ACRE Course is a self-guided training that includes 11 CES courses plus fieldwork. Learners who complete the <a href="https://www.icilearning.org/programs/ces-acre-bundle-2026">CES +ACRE Course</a>  training will receive the ACRE certificate and be listed on the <a href="https://www.acreducators.org/certificate-registry.html">Certificate Registry on the ACRE website</a>.</p>
 
 <h2 class="h5 card-title">How can I purchase CES courses?</h2>
@@ -32,7 +32,7 @@ thumbnail: "../../images/ICI.png"
 <ul>
 <li>Competency based: ACRE certified, based on APSE competencies, and eligible for CRC credits</li>
 <li>Designed to meet the needs of busy professionals: online platform is available 24/7</li>
-<li>Designed by Institute for Community Inclusion training personnel and based on best practices in the field</li>
+<li>Designed by ICI's training personnel and based on best practices in the field</li>
 <li>Engaging learners through video case studies and a problem-based approach</li>
 <li>Edited by national subject matter experts</li>
 </ul>

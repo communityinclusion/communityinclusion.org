@@ -113,7 +113,7 @@ thumbnail: "../../images/ICI.png"
   <a href="https://www.icilearning.org/browse/cle/courses/explore-community-life-engagement">
   <img src="/images/onlinelearning/ECLE_update.png" class="card-img-top" style="max-width: 600px;" alt="Introduction to Community Life Engagement"></a>
   <div class="card-body">
-    <p class="card-text"> The Institute for Community Inclusion's <strong>Introduction to Community Life Engagement</strong> course can help you build your skills and feel more confident in your role as a direct support professional working in the community. These self-paced online learning lessons will help you learn how to engage in effective person-centered planning, support community life engagement outcomes, map available resources, and build natural supports in the community for people with disabilities. </p>
+    <p class="card-text"> The ICI's <strong>Introduction to Community Life Engagement</strong> course can help you build your skills and feel more confident in your role as a direct support professional working in the community. These self-paced online learning lessons will help you learn how to engage in effective person-centered planning, support community life engagement outcomes, map available resources, and build natural supports in the community for people with disabilities. </p>
     <a  href="https://www.icilearning.org/browse/cle/courses/explore-community-life-engagement">
       Sign up for Introduction to Community Life Engagement</a>
     </a>
@@ -132,7 +132,7 @@ thumbnail: "../../images/ICI.png"
   <div class="card"><a href="https://www.uwstout.edu/SVRI/NTCTRL">
     <img src="/images/onlinelearning/ntct.png" class="card-img-top" style="max-width: 600px;" alt="National Training for Transformational Rehabilitation Leadership"></a>
     <div class="card-body">
-      <p class="card-text"><strong>National Training for Transformational Rehabilitation Leadership</strong> This leadership enhancement training program is for current and aspiring vocational rehabilitation (VR) leaders. The training covers six domains of VR leadership across three semesters that each cullminate in a faciliated peer-to-peer learning collaborative. After the final semester, participants complete an applied experiential learning capstone project to practice their transformational leadership skills.</p>
+      <p class="card-text"><strong>National Training for Transformational Rehabilitation Leadership</strong> This leadership enhancement training program is for current and aspiring vocational rehabilitation (VR) leaders. The training covers six domains of VR leadership across three semesters that each culminate in a facilitated peer-to-peer learning collaborative. After the final semester, participants complete an applied experiential learning capstone project to practice their transformational leadership skills.</p>
       <p>Participants can complete all lessons asynchronously, with guidance and mentorship from experienced instructors and though community discussions with other aspiring leaders. After successfully completing the training program and capstone project, leaders can earn a nationally recognized Certified Rehabilitation Leader (CRL) credential from the CRCC.</p>
       <p><a href="https://ntctrl.org/ntctrl-registration/">Learn more about the National Training for Transformational Rehabilitation Leadership</a></p>
     </div>
