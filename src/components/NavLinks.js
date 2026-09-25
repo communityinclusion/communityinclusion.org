@@ -74,7 +74,7 @@ const activeLinkStyle = {
              <li><Link to="/projects/catada">CATADA</Link></li>
              <li><Link to="/projects/nercve">NERCVE</Link></li>
              <li><Link to="/projects/gator">GATOR</Link></li>
-             <li><Link to="/projects/macihet">MA Center</Link></li>
+             <li><Link to="/projects/macihet">MACIHET</Link></li>
              <li> <Link to="/projects/employmentfirstma">Employment First Massachusetts</Link></li >
         </ul>
       </div>
