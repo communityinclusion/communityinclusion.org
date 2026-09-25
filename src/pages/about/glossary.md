@@ -72,7 +72,7 @@ thumbnail: '../../images/ICI.png'
 <h2 data-alpha="0-9">0-9</h2>
 <dl>
 <dt> 504 Plan </dt>
-<dd>A educational support plan under the Rehabilitation Act of 1973 for students who may not qualify for special education services.</dd>
+<dd>An educational support plan under the Rehabilitation Act of 1973 for students who may not qualify for special education services.</dd>
 </dl>
 
 </div>
@@ -191,10 +191,8 @@ thumbnail: '../../images/ICI.png'
 <dd><strong>&nbsp;</strong>A public or private nonprofit that is representative of a community or a significant segment of a community, and is engaged in meeting human, educational, environmental, or public safety needs in the community.</dd>
 <dt><strong>community-based service</strong></dt>
 <dd>&nbsp;Any service that gives support to people with disabilities who live in their communities, not in a nursing home or&nbsp;<em>institution.</em></dd>
-<dt><strong>community inclusion</strong></dt>
-<dd>See <em>inclusion</em>&nbsp;and&nbsp;<em>community integration.</em></dd>
 <dt><strong>community integration</strong></dt>
-<dd>The full participation of people with disabilities in their communities, as active members in the workplace, religious groups, schools, neighborhoods, etc. (synonymous with&nbsp;<em>inclusion)</em>. See&nbsp;<em>Community Life Engagement</em>.</dd>
+<dd>The full participation of people with disabilities in their communities, as active members in the workplace, religious groups, schools, neighborhoods, etc. See&nbsp;<em>Community Life Engagement</em>.</dd>
 <dt><strong>Community Life Engagement</strong></dt>
 <dd>People with intellectual and developmental disabilities accessing and participating in their communities outside of employment as part of a meaningful day. Community Life Engagement&nbsp;<em>activities</em>&nbsp;include things that anyone in the community might do, such as going to the gym, volunteering at a homeless shelter, taking an adult education class, or participating in a religious organization.&nbsp;Community Life Engagement&nbsp;<em>supports,</em>&nbsp;which&nbsp;may be referred to as Community-Based Non-Work, wraparound supports, holistic supports, or&nbsp;<em>community integration</em>&nbsp;services, support participation in such activities.&nbsp;</dd>
 <dt><strong>community rehabilitation provider (CRP)</strong></dt>
@@ -209,10 +207,6 @@ thumbnail: '../../images/ICI.png'
 <dd>A person with a disability who receives services from an agency. More generally, any person with a disability. Used instead of &ldquo;patient,&rdquo; &ldquo;client,&rdquo; or &ldquo;recipient&rdquo; to suggest that the person has an active role in determining the services they use.</dd>
 <dt><strong>conversion</strong></dt>
 <dd>In the disability field, an agency changing its services from a <em>sheltered employment</em>&nbsp;or&nbsp;<em>non-work program</em>&nbsp;to helping people find jobs in the community.</dd>
-<dt><strong>cultural competence, culturally competent</strong></dt>
-<dd>Services or attitudes are culturally competent if they take into account the unique needs of people from different backgrounds (for example, people from a particular ethnic identity, gender identity, or socioeconomic status).</dd>
-<dt><strong>cultural sensitivity, culturally sensitive</strong></dt>
-<dd>See <em>cultural competence.</em></dd>
 </dl>
 
 </div>
@@ -235,7 +229,7 @@ thumbnail: '../../images/ICI.png'
 <dt><strong>demonstration project</strong>&nbsp;</dt>
 <dd>Small project that tests a new approach or theory, with the hope that, if successful, it will then be replicated by people or agencies in other, similar situations.</dd>
 <dt><strong>Department of Labor</strong><em>&nbsp;</em></dt>
-<dd>Both federal and state agencies that supervise, provide, and fund services to serve businesses&rsquo; needs and help people find jobs. In some states, the Dept. of Labor houses the&nbsp;<em>vocational rehabilitation&nbsp;agency</em>, which focuses on employment for eligible people with disabilities.</dd>
+<dd>Both federal and state agencies that supervise, provide, and fund services to serve businesses&rsquo; needs and help people find jobs. In some states, the Department of Labor houses the&nbsp;<em>vocational rehabilitation&nbsp;agency</em>, which focuses on employment for eligible people with disabilities.</dd>
 <dt><strong>Department of Mental Health (DMH)</strong>&nbsp;</dt>
 <dd>General name for the state agency that provides services to people with mental health disabilities and sometimes substance abuse problems. This department usually focuses on treatment, support, and recovery, but most have other programs as well, such as housing support, skill training, and employment.</dd>
 <dt><strong>Department of Developmental Disabilities (DDD)</strong>&nbsp;</dt>
@@ -251,11 +245,11 @@ thumbnail: '../../images/ICI.png'
 <dt><strong>developmental screening&nbsp;</strong></dt>
 <dd>A procedure to identify children who should receive more intensive assessment or diagnosis for potential developmental delays. It can allow for earlier detection of delays and improve child health and well-being for identified children.</dd>
 <dt><strong>direct service</strong>&nbsp;</dt>
-<dd>Support services that are provided directly to an individual, e.g., on a job in the community or in a living situation.&nbsp;<strong>Direct service staff</strong>&nbsp;are counselors, caseworkers, therapists, or anyone else who provides these services. The term usually does not include teachers or medical professionals.</dd>
+<dd>Support services that are provided directly to an individual (e.g., on a job in the community or in a living situation).<strong>Direct service staff</strong>&nbsp;are counselors, caseworkers, therapists, or anyone else who provides these services. The term usually does not include teachers or medical professionals.</dd>
 <dt><strong>disability&nbsp;</strong></dt>
 <dd>Limitation of typical physical, mental, or social activity. Legally defined in the&nbsp;<em>Rehabilitation Act of 1973</em>&nbsp;(as amended) and the&nbsp;<em>Americans with Disabilities Act of 1990</em> as: (1) A person with a physical or mental impairment that substantially limits one or more <em>major life activities</em>; (2) A person with a record of such a physical or mental impairment; or (3) A person who is regarded as having such an impairment.</dd>
 <dt><strong>Disability Rights Movement</strong>&nbsp;</dt>
-<dd>The collective efforts of advocates to secure equal rights, equal opportunities, and an environment free of barriers for people with disabilities.</dd>
+<dd>The collective efforts of advocates to secure rights, opportunities, and an environment free of barriers for people with disabilities.</dd>
 <dt><strong>disclosure</strong>&nbsp;</dt>
 <dd>The act of informing people that one has a disability.</dd>
 <dt><strong>durable medical equipment (DME)&nbsp;</strong></dt>
@@ -272,21 +266,17 @@ thumbnail: '../../images/ICI.png'
 <dt><strong>Early Intervention (EI)</strong>&nbsp;</dt>
 <dd>Services for children aged birth to 3 who have a disability. Covered in Part C of the&nbsp;<em>Individuals with Disabilities Education Act</em>.</dd>
 <dt><strong>Electronic and Information Technology Access Advisory Committee (EITAAC)</strong>&nbsp;</dt>
-<dd>A subcommittee of the federal&nbsp;<em>Access Board</em>&nbsp;that sets standards for ensuring that electronic and information technology devices are usable&nbsp;<em>(accessible)&nbsp;</em>by people with disabilities. EITAAC also provides training and technical assistance on these standards to both federal agencies and consumers. EITAAC is comprised of 26 organizations representing federal agencies, technology industries, and nonprofit agencies serving individuals with disabilities.</dd>
+<dd>A subcommittee of the federal&nbsp;<em>Access Board</em>&nbsp;that sets standards for ensuring that electronic and information technology devices are usable&nbsp;<em>(accessible)&nbsp;</em>by people with disabilities. EITAAC also provides training and technical assistance on these standards to both federal agencies and consumers. EITAAC is composed of 26 organizations representing federal agencies, technology industries, and nonprofit agencies serving individuals with disabilities.</dd>
 <dt><strong>employment specialist, employment training specialist (ETS)</strong>&nbsp;</dt>
 <dd>A staff member who helps people with disabilities find jobs. Sometimes used interchangeably with&nbsp;<em>job coach</em>,&nbsp;<em>rehabilitation counselor, vocational counselor, rehabilitation counselor,&nbsp;</em>or&nbsp;<em>job developer.</em></dd>
 <dt><strong>enclave</strong>&nbsp;</dt>
 <dd>A model of&nbsp;<em>supported employment</em>&nbsp;where individuals with disabilities work in a group at a community business with ongoing support and possibly supervision provided by rehabilitation agency staff. These individuals might not be integrated with other employees of the company who do not have disabilities.</dd>
 <dt><strong>entitlement</strong>&nbsp;</dt>
 <dd>A legal right to services. Entitlement programs cannot restrict services based on funding constraints.</dd>
-<dt><strong>equal opportunity/Equal Employment Opportunity (EEO)</strong>&nbsp;</dt>
-<dd>Legal term and federal requirement that employers not discriminate (in hiring, firing, salary, promotion, and other terms and conditions of employment) based on factors unrelated to a person's ability to do the job, including race, color, religion, sex, national origin, and disability.</dd>
-<dt><strong>Equal Employment Opportunity Commission (EEOC)</strong><em>&nbsp;</em></dt>
-<dd>Federal agency that has oversight to ensure that people are not discriminated against based on factors unrelated to their qualifications for a job.</dd>
 <dt><strong>essential job functions</strong>&nbsp;</dt>
 <dd>The fundamental duties necessary to perform a particular job. Term used in the&nbsp;<em>Americans with Disabilities Act.</em></dd>
 <dt><strong>evaluation</strong>&nbsp;</dt>
-<dd>A test or assessment that gathers information about an individual&rsquo;s strengths, needs, and interests in order to determine the services they need to succeed. Evaluations are used to determine eligibility for&nbsp;<em>special education</em>,&nbsp;<em>vocational rehabilitation</em>, and other publicly-funded programs. See also&nbsp;<em>situational assessment</em>&nbsp;and&nbsp;<em>vocational evaluation.</em></dd>
+<dd>A test or assessment that gathers information about an individual&rsquo;s strengths, needs, and interests to determine the services they need to succeed. Evaluations are used to determine eligibility for&nbsp;<em>special education</em>,&nbsp;<em>vocational rehabilitation</em>, and other publicly-funded programs. See also&nbsp;<em>situational assessment</em>&nbsp;and&nbsp;<em>vocational evaluation.</em></dd>
 </dl>
 
 
@@ -308,7 +298,7 @@ thumbnail: '../../images/ICI.png'
 <dt><strong>Free Appropriate Public Education (FAPE)</strong>&nbsp;</dt>
 <dd>The standard for educational services set by the federal&nbsp;<em>Individuals with Disabilities Education Act.&nbsp;</em>FAPE guarantees that for students who are found eligible for special education, school districts must be prepared to provide services according to an&nbsp;<em>Individualized Education Program</em>&nbsp;beginning no later than their third birthday. Services continue until the student graduates from high school with a standard diploma or turns 22, whichever comes first.&nbsp;FAPE also means that students receiving special education services have access to and make meaningful progress in the&nbsp;<em>general curriculum</em>&nbsp;(i.e., the same curriculum as students without disabilities), and have the right to be full participants in the life of the school.</dd>
 <dt><strong>future planning, futures planning</strong>&nbsp;</dt>
-<dd>In the broadest sense, planning for the future. May be used to refer more specifically to&nbsp;<em>person-centered planning.</em>&nbsp;(There is also a particular method of person-centered planning named Personal Futures Planning.)</dd>
+<dd>May be used to refer more specifically to&nbsp;<em>person-centered planning.</em>&nbsp;(There is also a particular method of person-centered planning named Personal Futures Planning.)</dd>
 </dl>
 
 </div>
@@ -327,7 +317,7 @@ thumbnail: '../../images/ICI.png'
 <dt><strong>generic</strong>&nbsp;</dt>
 <dd>In a disability context, usually refers to an agency or office that provides services to a wide population, including but not limited to people with disabilities. This is in contrast to &ldquo;disability-specific&rdquo; (a service or program that is only for people with disabilities). For example, a&nbsp;<em>vocational rehabilitation agency</em>&nbsp;is disability-specific, but a&nbsp;<em>One-Stop Career Center</em>&nbsp;is generic.</dd>
 <dt><strong>group home&nbsp;</strong></dt>
-<dd>(board and care home, adult care home, group residence) A residence that offers housing and personal care services for residents with disabilities. Services such as meals, supervision, and transportation are usually provided by the owner or manager.</dd>
+<dd>(Also board and care home, adult care home, group residence) A residence that offers housing and personal care services for residents with disabilities. Services such as meals, supervision, and transportation are usually provided by the owner or manager.</dd>
 </dl>
 
 
@@ -341,7 +331,7 @@ thumbnail: '../../images/ICI.png'
                 <h2 data-alpha="H">H</h2>
 <dl>
 <dt><strong>handicap, handicapped&nbsp;</strong></dt>
-<dd>The term &ldquo;handicapped&rdquo; has fallen out of favor, replaced by &ldquo;person with a disability.&rdquo; (Handicapped parking is called &ldquo;accessible parking.&rdquo;)</dd>
+<dd>An outdated term that has replaced by "person with a disability." (Handicapped parking is called "accessible parking.")</dd>
 <dt><strong>hard of hearing (HH, HoH)</strong></dt>
 <dd>People who have some hearing, are able to use it to communicate, and feel reasonably comfortable doing so.</dd>
 <dt><strong>hard to serve, harder to serve</strong></dt>
@@ -372,15 +362,13 @@ thumbnail: '../../images/ICI.png'
 
 <dl>
 <dt><strong>IEP team</strong></dt>
-<dd>The group that develops an&nbsp;<em>IEP (Individualized Education Program)</em>&nbsp;for a student. The team must include the student&rsquo;s parents, at least one special education teacher, a representative of the district, and a person who can interpret test results and determine how the student&rsquo;s needs will impact them in the classroom. When the student may be or is attending general education classes, the team must include a general education teacher.</dd>
+<dd>The group that develops an&nbsp;<em>IEP (Individualized Education Program)</em>&nbsp;for a student. The team must include the student&rsquo;s parents or caregivers, at least one special education teacher, a representative of the district, and a person who can interpret test results and determine how the student&rsquo;s needs will impact them in the classroom. When the student may be or is attending general education classes, the team must include a general education teacher.</dd>
 <dt><strong>impairment&nbsp;</strong></dt>
 <dd>Any loss or abnormality of psychological or physical function.</dd>
-<dt><strong>inclusion</strong></dt>
-<dd>The active engagement of people with disabilities in all levels of society, where they are valued contributing members who have a sense of belonging. Sometimes used specifically to refer to participation in school &ndash; the full integration of students with special needs into the regular classroom with typical students.</dd>
 <dt><strong>independent living (IL)&nbsp;</strong></dt>
-<dd>An advocacy movement and philosophy that holds that individuals with disabilities have the right to live with dignity and with appropriate support in their own homes, fully participate in their communities, and control and make decisions about their lives. People with disabilities are active&nbsp;<em>consumers</em>&nbsp;of services and advocates for personal independence, equal rights and opportunities, consumer choice and control, and the removal of barriers to full participation.</dd>
+<dd>An advocacy movement and philosophy that holds that individuals with disabilities have the right to live with dignity and with appropriate support in their own homes, fully participate in their communities, and control and make decisions about their lives. People with disabilities are active&nbsp;<em>consumers</em>&nbsp;of services and advocates for personal independence, rights and opportunities, consumer choice and control, and the removal of barriers to full participation.</dd>
 <dt><strong>Independent Living Center (ILC)</strong></dt>
-<dd>Community-based, consumer-controlled, not-for-profit centers governed by a board of directors of whom at least 51% are people with disabilities. Services provided include peer counseling, information and referral, independent living skills training, and advocacy. May also be called a&nbsp;<em>Center for Independent Living (CIL).</em></dd>
+<dd>Community-based, consumer-controlled, non-profit centers governed by a board of directors of whom at least 51% are people with disabilities. Services provided include peer counseling, information and referral, independent living skills training, and advocacy. May also be called a&nbsp;<em>Center for Independent Living (CIL).</em></dd>
 <dt><strong>independent living services</strong></dt>
 <dd>Services that maximize the independence and productivity of people with disabilities and promote integration into the community, such as peer counseling, disability education, and&nbsp;<em>personal care attendants (PCAs).</em></dd>
 <dt><strong>Individual Program Plan (IPP)&nbsp;</strong></dt>
@@ -402,7 +390,7 @@ thumbnail: '../../images/ICI.png'
 <dt><strong>integrated employment</strong></dt>
 <dd>A job in a community workplace where most people do not have disabilities. Generally includes&nbsp;<em>supported employment</em>. The phrase is usually interchangeable with&nbsp;<em>competitive employment</em>.</dd>
 <dt><strong>intellectual disability&nbsp;</strong></dt>
-<dd>See&nbsp;<em>cognitive disability.</em>&nbsp;Previously known as&nbsp;<em>mental retardation</em>, a term which has now fallen out of favor.</dd>
+<dd>See&nbsp;<em>cognitive disability.</em></dd>
 </dl>
 
 
@@ -429,7 +417,7 @@ thumbnail: '../../images/ICI.png'
 <dt><strong>&ldquo;a job in the community&rdquo;</strong></dt>
 <dd>A &ldquo;typical&rdquo; job in a workplace where most employees do not have disabilities, as opposed to a job in a&nbsp;<em>sheltered workshop</em>&nbsp;or other non-integrated setting.</dd>
 <dt><strong>job matching</strong></dt>
-<dd>Job-finding technique that focuses on finding the right job for a person (and vice versa). It involves matching the job seeker&rsquo;s individual interests and skills to the requirements of a specific job. This philosophy often stands in contrast to the old way of finding employment for people with disabilities, where the person was expected to change in order to fit job requirements.</dd>
+<dd>Job-finding technique that focuses on finding the right job for a person (and vice versa). It involves matching the job seeker&rsquo;s individual interests and skills to the requirements of a specific job. This philosophy often stands in contrast to the old way of finding employment for people with disabilities, where the person was expected to change to fit job requirements.</dd>
 <dt><strong>job placement</strong></dt>
 <dd>The process of finding or creating a specific job opportunity in the community for a person with a disability. Employment counselors (<em>rehabilitation counselors, job developers)</em>&nbsp;may speak of &ldquo;placing&rdquo; a person &ldquo;into a job.&rdquo;</dd>
 <dt><strong>job-ready</strong></dt>
@@ -449,7 +437,7 @@ thumbnail: '../../images/ICI.png'
 
 <dl>
 <dt><strong>learning disability (LD)</strong></dt>
-<dd>A disorder that impacts the way a person processes information, or the way they understand or use language (spoken or written). Can also refer to an inability (specific difficulty) to listen, think, speak, read, write, spell, or do mathematics. People of all levels of intelligence can have an LD. The term &ldquo;learning disability&rdquo; does not refer to problems that are primarily the result of visual, hearing, or physical disabilities; intellectual disabilities; emotional disturbance; or environmental, cultural, or economic disadvantage. Specific learning disabilities include dyslexia, dyscalculia, and dysgraphia, or the term may refer to more general difficulties such as auditory processing problems.</dd>
+<dd>A disorder that impacts the way a person processes information, or the way they understand or use language (spoken or written). Can also refer to an inability (specific difficulty) to listen, think, speak, read, write, spell, or do mathematics. People of all levels of intelligence can have an LD. The term &ldquo;learning disability&rdquo; does not refer to problems that are primarily the result of visual, hearing, or physical disabilities; intellectual disabilities; emotional disturbance; or environmental, or economic disadvantage. Specific learning disabilities include dyslexia, dyscalculia, and dysgraphia, or the term may refer to more general difficulties such as auditory processing problems.</dd>
 <dt><strong>Least Restrictive Environment (LRE)</strong></dt>
 <dd>Legal/legislative term for an education program to ensure that a student is educated with general education students as much as is possible for the student, and that special or separate classes are used only when the student cannot be educated in regular classes even with extra supports and services.&nbsp;<strong>OR</strong>&nbsp;Means that students with disabilities must be educated to the maximum extent possible/appropriate with students without disabilities.</dd>
 <dt><strong>Local Workforce Investment Board (LWIB)</strong></dt>
@@ -514,7 +502,7 @@ thumbnail: '../../images/ICI.png'
 
 <dl>
 <dt><strong><a href="https://ncd.gov/">National Council on Disability (NCD)</a></strong></dt>
-<dd>An independent federal agency that makes recommendations to the President and Congress on disability issues. NCD has 15 members appointed by the President and confirmed by the U.S. Senate. NCD promotes policies and procedures that guarantee equal opportunity for all individuals with disabilities and empower individuals to achieve economic self-sufficiency,&nbsp;<em>independent living</em>, and&nbsp;<em>inclusion</em>&nbsp;and integration into all aspects of society. NCD is particularly focused on the implementation and enforcement of the&nbsp;<em>Americans with Disabilities Act</em>&nbsp;and other civil rights laws.</dd>
+<dd>An independent federal agency that makes recommendations to the President and Congress on disability issues. NCD has 15 members appointed by the President and confirmed by the US Senate. NCD promotes policies and procedures that guarantee opportunity for all individuals with disabilities and empower individuals to achieve economic self-sufficiency, <em>independent living</em>, and integration into all aspects of society. NCD is particularly focused on the implementation and enforcement of the <em>Americans with Disabilities Act</em> and other civil rights laws.</dd>
 <dt><strong>National Council on Independent Living (NCIL,&nbsp;</strong><em>pronounced &ldquo;nickel&rdquo;)&nbsp;</em></dt>
 <dd>A cross-disability, grassroots organization run by and for people with disabilities that advocates for the expansion of a nationwide network of&nbsp;<em>Centers for Independent Living (CILs)</em>.</dd>
 <dt><strong>National Institute of Mental Health (NIMH)&nbsp;</strong></dt>
@@ -577,7 +565,7 @@ thumbnail: '../../images/ICI.png'
 <dt><strong>People First</strong></dt>
 <dd>The name of a number of local&nbsp;<em>self-advocacy</em>&nbsp;groups run by and for people with disabilities. Sometimes used as a name for the&nbsp;<em>self-advocacy</em>&nbsp;movement as a whole.</dd>
 <dt><strong>Perkins Act (Carl D. Perkins Vocational and Applied Technology Education Act, P.L. 101-392)&nbsp;</strong></dt>
-<dd>This federal law requires that individuals with disabilities be provided with equal access to recruitment, enrollment, and placement in vocational activities. It also requires that students with disabilities have equal access to the full range of vocational education in the least restrictive environment, and that they be provided equal access to vocational services including recruitment, enrollment, and placement.</dd>
+<dd>This federal law requires that individuals with disabilities be provided with general access to recruitment, enrollment, and placement in vocational activities. It also requires that students with disabilities have general access to the full range of vocational education in the least restrictive environment, and that they be provided general access to vocational services, including recruitment, enrollment, and placement.</dd>
 <dt><strong>person with a disability&nbsp;</strong></dt>
 <dd>A variety of definitions are used, and it is important to understand which one applies when reviewing legal or medical information. Legally defined in the Rehabilitation Act of 1973 (as amended) and the Americans with Disabilities Act of 1990 as &ldquo;a person who has a physical or mental impairment that substantially limits one or more major life activities of such individual; has a record of such an impairment; or is regarded as having such an impairment.&rdquo; See also&nbsp;<em>disability, individual with a disability.</em></dd>
 <dt><strong>person-centered model</strong></dt>
@@ -642,9 +630,9 @@ thumbnail: '../../images/ICI.png'
 <dd>A legal term from the&nbsp;<em>Americans with Disabilities Act</em>&nbsp;for an action that can be accomplished without much difficulty or expense. Employers must remove barriers to participation when such changes are &ldquo;readily achievable.&rdquo; Factors considered include the company's overall financial resources, safety requirements, and the effect of changes on the company's activities.</dd>
 <dt><strong>reasonable accommodation</strong></dt>
 <dd>Under the&nbsp;<em>Americans with Disabilities Act,</em>&nbsp;any change an employer makes that allows a&nbsp;<em>qualified person with a disability</em>&nbsp;to</dd>
-<dd>(1) have equal opportunity in the hiring process;</dd>
+<dd>(1) have the same opportunity in the hiring process as people without disabilities;</dd>
 <dd>(2) perform the&nbsp;<em>essential functions</em>&nbsp;of a job;</dd>
-<dd>(3) enjoy equal benefits and privileges of employment.</dd>
+<dd>(3) enjoy the same benefits and privileges of employment as people without disabilities.</dd>
 <dd>More generally, a change in the way something is done to allow a person with a disability to participate in a place, job, or program.</dd>
 <dt><strong>record of impairment</strong></dt>
 <dd>Term used in the&nbsp;<em>Americans with Disabilities Act (ADA).</em>&nbsp;A history of having a mental or physical impairment that substantially limits one or more major life activities. A person who used to have a disability, or was misclassified as having a disability, may be covered by the ADA, because employers may discriminate on the basis of the person's past experience.</dd>
@@ -767,7 +755,7 @@ thumbnail: '../../images/ICI.png'
 
 <dl>
 <dt><strong>TASH&nbsp;</strong></dt>
-<dd>A national organization that advocates for the full inclusion of persons with severe disabilities.</dd>
+<dd>A national organization that advocates for expanding opportunities for persons with severe disabilities.</dd>
 <dt><strong>TDD</strong></dt>
 <dd>See&nbsp;<em>Telecommunication Device for the Deaf.</em></dd>
 <dt><strong>team meetings</strong></dt>
@@ -817,8 +805,6 @@ thumbnail: '../../images/ICI.png'
                 <h2 data-alpha="U">U</h2>
 
 <dl>
-<dt><strong>underserved</strong></dt>
-<dd>People who have generally not benefited from or participated in disability services to the extent that they could. These may include people of color, immigrants, non-English speakers, and people with low incomes.</dd>
 <dt><strong>undue hardship</strong></dt>
 <dd>Term used in the&nbsp;<em>Americans with Disabilities Act (ADA).&nbsp;</em>Major difficulty or expense in trying to accommodate an employee with a disability, considered in light of the employer's financial resources, facilities, workforce, and business operations. For example, it would not be difficult for a large corporation to install an elevator, but this might be an undue hardship for a very small, family-run company.</dd>
 <dt><strong>universal design</strong></dt>

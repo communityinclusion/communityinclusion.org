@@ -28,4 +28,4 @@ _Engaging in communication_ to advance knowledge across domains — education, e
 
 _Building confidence_ in children and adults with disabilities so they can realize self-driven goals.
 
-_Affording choicess_ for self-directed and well-informed decision-making, so that people of all abilities can shape their lives.
+_Affording choices_ for self-directed and well-informed decision-making, so that people of all abilities can shape their lives.

@@ -7,7 +7,7 @@ thumbnail: "../../images/ICI.png"
 description: "The ICI at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society. As practitioners, researchers, and teachers, we form partnerships with individuals, families, and service agencies. Together we advocate for personal choice, self-determination, and social and economic justice."
 ---
 
-<p> The ICI at UMass Boston is a <a href="https://www.aucd.org/template/index.cfm">University Center for Excellence in Developmental Disabilities (UCEDD)</a> housed within  SGISD at the University of Massachusetts Boston. As one of 67 UCEDDs, we collaborate with people with disabilities, members of their families, state and local government agencies, and service providers. Our goal is to advance opportunities for people with disabilities in all aspects of life. </p>
+<p> The ICI at UMass Boston is a <a href="https://www.aucd.org/template/index.cfm">University Center for Excellence in Developmental Disabilities (UCEDD)</a> housed within SGISD at the University of Massachusetts Boston. As one of 67 UCEDDs, we collaborate with people with disabilities, members of their families, state and local government agencies, and service providers. Our goal is to advance opportunities for people with disabilities in all aspects of life. </p>
 
 <p>Our work encompasses research, program evaluation, training, consultation, education, policy analysis, information sharing, and service delivery across four main areas of emphasis:
 </p>

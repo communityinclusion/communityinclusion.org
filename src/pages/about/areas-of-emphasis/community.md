@@ -9,7 +9,7 @@ hide_title: true
 
 <h1 class="display-2  hide-title text-center"><span class="blue">ICI</span> <strong class="ldots">:</strong><strong class="rdots">:</strong> <span class="community">Community</span></h1>
 <span class="lead">
-<p>All people should have the opportunity to be fully included in their communities. Community inclusion is about participating in one’s community through leadership development, personal and professional capacity- building, and self-advocacy. We engage people with disabilities in our work to create more welcoming and accessible communities around the world for people with disabilities.</p>
+<p>All people should have the opportunity to be fully included in their communities. Community participation is about engaging in one’s community through leadership development, personal and professional capacity- building, and self-advocacy. We engage people with disabilities in our work to create more welcoming and accessible communities around the world for people with disabilities.</p>
 
 <p>Our community work covers a range of topical areas and complements ICI’s ongoing work on employment, education, and health care. Our projects encompass a combination of research, development, and training.</p></span>
 
