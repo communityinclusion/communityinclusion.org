@@ -39,7 +39,7 @@ thumbnail: "../../images/ICI.png"
 <li>Provides advanced, multidisciplinary training in IDD employment research</li>
 <li>Addresses the critical need for better representation and capacity in the IDD research workforce and field</li>
 </ul>
-<p>The ARRT program is housed at the Institute for Community Inclusion (ICI) at UMass Boston and brings together ICI’s expertise from the School of Global Inclusion and Social Development (SGISD) at UMass Boston and the National Association of State Directors of Developmental Disabilities Services (NASDDDS). ARRT is funded by the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR).</p>
+<p>The ARRT program is housed at the ICI at UMass Boston and brings together ICI’s expertise from SGISD at UMass Boston and the National Association of State Directors of Developmental Disabilities Services (NASDDDS). ARRT is funded by the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR).</p>
 </section>
 
 
@@ -54,12 +54,12 @@ thumbnail: "../../images/ICI.png"
 </div>
  
 <p><strong><em>About Dr. Melanie Lopez</em></strong></p>
-<p>Dr. Lopez earned her PhD in Education from the University of Central Florida. She is also a proud alumna of Bethune-Cookman University, where she completed both her bachelor&rsquo;s and master&rsquo;s degrees in special education. Her research focuses on inclusive postsecondary education, transition outcomes, and predictors of earned wages from competitive integrated employment for individuals with intellectual and developmental disabilities. Her work emphasizes program evaluation, systems-level collaboration, and the translation of research into policy and practice.</p>
+<p>Dr. Lopez earned her PhD in Education from the University of Central Florida. She is also a proud alumna of Bethune-Cookman University, where she completed both her bachelor&rsquo;s and master&rsquo;s degrees in special education. Her research focuses on postsecondary education, transition outcomes, and predictors of earned wages from competitive integrated employment for individuals with intellectual and developmental disabilities. Her work emphasizes program evaluation, systems-level collaboration, and the translation of research into policy and practice.</p>
 <p>Dr. Lopez brings experience across K&ndash;12 education, higher education instruction, and statewide program leadership. She currently serves as president of the Florida Council for Exceptional Children (FCEC), supporting statewide initiatives that advance outcomes for individuals with disabilities. In addition, she leads and contributes to community-based initiatives and provides mentorship and tutoring to aspiring special education practitioners.</p>
-<p>She is passionate about designing inclusive pathways that prepare neurodivergent students for meaningful employment and independent lives. Through her research and teaching, she aims to advance sustainability efforts that extend beyond postsecondary opportunities and promote long-term workforce outcomes for individuals with disabilities.</p>
+<p>She is passionate about designing accessible pathways that prepare neurodivergent students for meaningful employment and independent lives. Through her research and teaching, she aims to advance sustainability efforts that extend beyond postsecondary opportunities and promote long-term workforce outcomes for individuals with disabilities.</p>
 <p><em><strong>About Dr. Ashley E. Lazarre</strong></em></p>
-<p>Dr. Lazarre is a Haitian American scholar, filmmaker, and digital content creator whose work explores the representation of Black women in digital spaces. She holds a PhD from UMass Boston&rsquo;s School of Global Inclusion and Social Development, where her dissertation focused on digital media and storytelling. Her research examines stereotypes of Black women, embodied trauma, and holistic healing practices, with a focus on how Black women creators use platforms like Instagram to shape new narratives of identity and womanhood.</p>
-<p>Her pedagogy centers visual storytelling as a site of knowledge production, by creating short films, documentaries, and social media content that foreground imagery, voice, and lived experience. Inspired by the 2010 Haiti earthquake in her personal life, she began her career in disability inclusion at Bay Cove Human Services, advocating for people with intellectual and developmental disabilities in workplace settings.</p>
+<p>Dr. Lazarre is a Haitian American scholar, filmmaker, and digital content creator whose work explores the representation of Black women in digital spaces. She holds a PhD from UMass Boston&rsquo;s SGISD, where her dissertation focused on digital media and storytelling. Her research examines stereotypes of Black women, embodied trauma, and holistic healing practices, with a focus on how Black women creators use platforms like Instagram to shape new narratives of identity and womanhood.</p>
+<p>Her pedagogy centers visual storytelling as a site of knowledge production, by creating short films, documentaries, and social media content that foreground imagery, voice, and lived experience. Inspired by the 2010 Haiti earthquake in her personal life, she began her career in disability  accessibility at Bay Cove Human Services, advocating for people with intellectual and developmental disabilities in workplace settings.</p>
 <p>Beyond academia, Dr. Lazarre is known on social media for her digital activism and decolonizing beauty through Afrocentric braids and fashion.</p>
 </section>
 
@@ -71,7 +71,7 @@ thumbnail: "../../images/ICI.png"
 <li>People from a wide variety of communities  and people with disabilities are underrepresented in the employment services workforce</li>
 <li>Qualified people from different  backgrounds don’t enter or stay in the field because they lack role models</li>
 </ul>
-<p><strong>IDD research is not inclusive, and outcomes reflect that.</strong></p>
+<p><strong>IDD research is not accessible, and outcomes reflect that.</strong></p>
 <ul>
 <li>There are differences in disability &amp; IDD employment outcomes</li>
 <li>Current research interventions lack the broad range of perspectives, which limits the research effectiveness</li>
