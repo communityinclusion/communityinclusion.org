@@ -84,7 +84,7 @@ export const pageQuery = graphql`
         title
         tags
         posttype
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "MMMM D, YYYY")
         isoDate: date(formatString: "YYYY-MM-DD")
         description
         thumbnail {

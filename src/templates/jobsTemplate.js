@@ -68,13 +68,13 @@ export const pageQuery = graphql`
       html
       excerpt
       frontmatter {
-        date(formatString: "MMMM Do, YYYY")
+        date(formatString: "MMMM D, YYYY")
         title
         tags
         posttype
         description
         umb_post_url
-        close_date(formatString: "MMMM Do, YYYY")
+        close_date(formatString: "MMMM D, YYYY")
     }
    }
   }

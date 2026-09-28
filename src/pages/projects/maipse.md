@@ -1,5 +1,5 @@
 ---
-title: "Inclusive Education Initiative"
+title: "IEI"
 path: "/projects/maipse"
 posttype: "page"
 date: 2021-11-14
@@ -16,8 +16,8 @@ thumbnail: "../../images/ICI.png"
   </div>
   <div class="col-md-10 container-fluid py-2">
     <p class=" fs-4">
-      The Inclusive Education Initiative at the University of Massachusetts Boston offers higher education opportunities for students through partnerships with local school districts and state agencies. The Inclusive Education Initiative is a fully inclusive, non-degree seeking, enrollment opportunity designed to support students with intellectual disabilities, autism, or other developmental disabilities to go to college. Students can increase their academic, social, and career outcomes by sharing the same experiences as their college peers.  </p>
-<p class="fs-4">The state-funded [Massachusetts Inclusive Postsecondary Education] (MAIPSE) supports partnerships between local school districts, the Department of Developmental Services (DDS), the Massachusetts Rehabilitation Commision (MRC), other state agencies, and two- and four-year public colleges and universities in Massachusetts.
+      The IEI offers higher education opportunities for students through partnerships with local school districts and state agencies. The IEI is a non-degree seeking, enrollment opportunity designed to support students with intellectual disabilities, autism, or other developmental disabilities to go to college. Students can increase their academic, social, and career outcomes by sharing the same experiences as their college peers.  </p>
+<p class="fs-4">The state-funded MAIPSE supports partnerships between local school districts, the Department of Developmental Services (DDS), the Massachusetts Rehabilitation Commision (MRC), other state agencies, and 2- and 4-year public colleges and universities in Massachusetts.
 </p>
       </div>
     </div>
@@ -65,7 +65,7 @@ thumbnail: "../../images/ICI.png"
       <div class="col-md-6">
         <div class="h-100 p-5 bg-light rounded-3">
           <h4>Virtual Information Sessions </h4>
-          <p>We encourage all interested applicants and partners to attend a virtual information session, to learn more about the Inclusive Education Initiative at UMass Boston. </p>
+          <p>We encourage all interested applicants and partners to attend a virtual information session, to learn more about the IEI at UMass Boston. </p>
           <p>
             <strong>Sign up for a virtual session:</strong>
           </p>
@@ -80,7 +80,7 @@ thumbnail: "../../images/ICI.png"
 <p>Rachel Estremera  <br /> 
   Program Coordinator <br />
   Email: <a href="mailto:Rachel.Estremera@umb.edu" class="text-white">Rachel.Estremera@umb.edu</a> <br />
-  Phone: (617) 297-6797
+  Phone: (857) 437-4028
   </p>
         </div>
       </div>
@@ -98,8 +98,8 @@ thumbnail: "../../images/ICI.png"
           </h2>
           <div id="mentor-collapseOne" class="accordion-collapse collapse" aria-labelledby="mentor-headingOne" data-bs-parent="#accordion-mentor">
             <div class="accordion-body">
-              <p>Peer coaches are current UMass Boston undergraduate and graduate students. Peer coaches support students enrolled in the Inclusive Education Initiative by promoting friendship development, exploring campus resources, encouraging involvement in clubs and activities, and providing academic support.</p>
-              <p>UMass Boston students can contact the Program Coordinator for more information.</p>
+              <p>Peer coaches are current UMass Boston undergraduate and graduate students. Peer coaches support students enrolled in the IEI by promoting friendship development, exploring campus resources, encouraging involvement in clubs and activities, and providing academic support.</p>
+              <p>UMass Boston students can contact the program coordinator for more information.</p>
               </div>
           </div>
         </div>
@@ -112,23 +112,23 @@ thumbnail: "../../images/ICI.png"
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingOne">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Who is eligible for MA Inclusive Postsecondary Education?      </button>
+        Who is eligible for MAIPSE?      </button>
     </h2>
     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion-faq">
-      <div class="accordion-body"><p>MA Inclusive Postsecondary Education (MAIPSE) is open to students with severe intellectual disability, autism, or other developmental disability who want to go to college. </p>
-      <p>For students attending through school district partnerships→ participation is open to students who:
+      <div class="accordion-body"><p>MAIPSE is open to students with severe intellectual disability, autism, or other developmental disability who want to go to college. </p>
+      <p>For students attending through school district partnerships→ participation is open to students who have a documented severe intellectual disability, autism, or other developmental disability, and
         <ul>
-        <li>Have a documented severe intellectual disability, autism, or other developmental disability 
-        <li>are 18 to 21 years of age, have not passed the Massachusetts Comprehensive Assessment System (MCAS) exam, and are eligible for special education services documented through an Individualized Education Program (IEP); or 
-        <li>are 20 to 21 years of age, have passed MCAS, but are still eligible for special education services through an IEP because of significant functional disabilities and/or transition needs.
+        <li>are 18 to 21 years of age, have not passed the Massachusetts Comprehensive Assessment System (MCAS) exam, and are eligible for special education services documented through an Individualized Education Program (IEP); or</li>
+        <li>are 20 to 21 years of age, have passed MCAS, but are still eligible for special education services through an IEP because of significant functional disabilities and/or transition needs.</li>
         </ul>
         </p>
         <p>
-        For students attending through community partnerships→ participation is open to students who:
-        <ul>Have a documented intellectual or developmental disability 
-        <li>Are the age of 22 or older</li>
-        <li>Did not receive a high school diploma</li>
-        <li>Are receiving services from DDS, MassAbility, or other state agencies, and are eligible for state funding to support enrollment.</li>
+       For students attending through community partnerships→ participation is open to students who have a documented intellectual or developmental disability, and:
+        <ul>
+        <li>are 22 years old or older</li>
+        <li>did not receive a high school diploma</li>
+        <li>did not receive a high school diploma</li>
+        <li>are receiving services from DDS, MassAbility, or other state agencies, and are eligible for state funding to support enrollment</li>
         </ul>
         </p>
         </div>
@@ -137,13 +137,13 @@ thumbnail: "../../images/ICI.png"
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        How can students participate in inclusive postsecondary education?
+        How can students with intellectual and developmental disabilities participate in postsecondary education?
       </button>
     </h2>
     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordion-faq">
       <div class="accordion-body"><p>
-        Students who are eligible for special education services and fit the disability/age requirements above, should contact their school district's transition coordinator to begin the conversation about college-based transition services. </p>
-<p>Students who are over the age of 22, and fit the requirements above should contact their adult agency case manager to begin a conversation about attending college.</p>
+        Students who are eligible for special education services and fit the aforementioned disability/age requirements, should contact their school district's transition coordinator to begin the conversation about college-based transition services. </p>
+<p>Students who are over the age of 22, and fit the aforementioned requirements should contact their adult agency case manager to begin a conversation about attending college.</p>
 <p>Prospective students, families, school district staff and adult agency providers may contact us for more information regarding the application process and eligibility requirements. </p>
 </div>
     </div>
@@ -151,18 +151,18 @@ thumbnail: "../../images/ICI.png"
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingSix">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-        What is the difference between the terms dual enrollment and inclusive postsecondary education?
+        What is the difference between the terms "dual enrollment" and "IPSE"?
       </button>
     </h2>
     <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordion-faq">
       <div class="accordion-body">
         <dl>
           <dt>Dual enrollment</dt>
-          <dd><p>Dual enrollment allows high school students to take college classes, either for credit or noncredit, while they are still enrolled in high school. Students use dual enrollment to engage in classes, to prepare for applying to college, with the goal to enroll as a degree-seeking student. </p>
-            <p>Students who are receiving special education or transition services may utilize a dual enrollment option and receive support.</p></dd>
-          <dt>Inclusive postsecondary education</dt>
-          <dd><p>Inclusive postsecondary education provides access to college for students who would not otherwise qualify for enrollment as a degree-seeking student. Inclusive postsecondary education supports students who may be receiving high school transition services, or services from adult state disability agencies. </p>
-            <p>Students who are still receiving high school transition services may or may not be working toward their high school diploma. Students who are over the age of 22 and receiving services from state agency providers have not received a high school diploma.</p></dd>
+          <dd><p>Dual enrollment allows high school students to take college classes, either for credit or noncredit, while they are still enrolled in high school. Students use dual enrollment to engage in classes and prepare for applying to college, with the goal to enroll as a degree-seeking student. </p>
+            <p>Students who are receiving special education or transition services may use a dual enrollment option and receive support.</p></dd>
+          <dt>IPSE</dt>
+          <dd><p>IPSE provides access to college for students who would not otherwise qualify for enrollment as a degree-seeking student. Postsecondary education  for students with intellectual and developmental disabilities supports students who may be receiving high school transition services or services from adult state disability agencies. </p>
+            <p>Students who are still receiving high school transition services may or may not be working toward their high school diploma. Students who are over the age of 22 and receiving services from state agency providers and have not received a high school diploma may use these services. </p></dd>
         </dl>        
 </div>
     </div>
@@ -170,19 +170,19 @@ thumbnail: "../../images/ICI.png"
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingFive">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-        How does Inclusive Postsecondary Education benefit students?
+        How does IPSE benefit students with intellectual and developmental disabilities?
       </button>
     </h2>
     <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordion-faq">
       <div class="accordion-body"><p>Evidence shows that students benefit academically and transition to young adulthood more independently when they can engage in the array of academic, social, and career development activities alongside their peers on a college campus. </p>
         <p>Students benefit by participation in:
         <ul>
-        <li>College courses that support their personal, academic, and career goals</li>
-        <li>Social activities on campus, including student organizations and other extracurricular activities</li>
-        <li>Campus resources, i.e. career services, disability resources, tutoring, etc..</li>
-        <li>Person-centered planning </li>
-        <li>On-campus internships/ paid work opportunities </li>
-        <li>Independent travel and travel training</li>
+        <li>college courses that support their personal, academic, and career goals</li>
+        <li>social activities on campus, including student organizations and other extracurricular activities</li>
+        <li>campus resources such as career services, disability resources, and tutoring</li>
+        <li>person-centered planning </li>
+        <li>on-campus internships/paid work opportunities </li>
+        <li>independent travel and travel training</li>
         </ul></p>
         </div>
     </div>
@@ -227,14 +227,14 @@ thumbnail: "../../images/ICI.png"
 </section>
 <hr>
 <section id="leadership">
-<h2>Boston Consortium for Inclusive Postsecondary Education </h2>
-<p>The Boston Inclusive Postsecondary Education Consortium planning team  includes representatives from the University of Massachusetts Boston, Massachusetts College of Art and Design, Roxbury Community College, Bunker Hill Community College, local partnering school districts, representatives from the Department of Developmental Services, Massachusetts Rehabilitation Commission, parent advisors, and community advocates. The team meets four times a year and plays a key role in the implementation and oversight of inclusive post secondary education partnerships in the greater Boston area.
+<h2>Boston IPSE Consortium </h2>
+<p>The Boston IPSE planning team  includes representatives from the University of Massachusetts Boston, Massachusetts College of Art and Design, Roxbury Community College, Bunker Hill Community College, local partnering school districts, representatives from the Department of Developmental Services, Massachusetts Rehabilitation Commission, parent advisors, and community advocates. The team meets four times a year and plays a key role in the implementation and oversight of post secondary education partnerships in the greater Boston area.
 </p>
 </section>
 <hr>
 
 
-<p>Institute for Community Inclusion<br>
+<p>ICI<br>
   University of Massachusetts Boston<br>
   100 Morrissey Blvd.<br>
   Boston, MA 02125<br>

@@ -87,8 +87,8 @@ export const pageQuery = graphql`query ($currentDate: Date!, $limit: Int, $skip:
       node {
         frontmatter {
           title
-          date(formatString: "MMMM Do, YYYY")
-          close_date(formatString: "MMMM Do, YYYY")
+          date(formatString: "MMMM D, YYYY")
+          close_date(formatString: "MMMM D, YYYY")
           tags
           posttype
           description

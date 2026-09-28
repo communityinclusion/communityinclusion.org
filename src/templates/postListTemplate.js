@@ -110,7 +110,7 @@ export const pageQuery = graphql`query GetNewsPosts($limit: Int, $skip: Int) {
       node {
         frontmatter {
           title
-          date(formatString: "MMMM Do, YYYY")
+          date(formatString: "MMMM D, YYYY")
           description
           tags
           posttype

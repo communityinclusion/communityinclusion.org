@@ -14,7 +14,7 @@ thumbnail: "../../images/project_logos/IHEA-council-logo-sq.png"
 For immediate release: May 10, 2023 </p>
 
 
-Boston, MA — May 10, 2023 — The ICI’s Think College and the *Inclusive Higher Education Accreditation Council (IHEAC)*, a new accrediting agency for postsecondary programs for students with intellectual disability (ID), jointly announced today that the [Western Carolina University (WCU) University Participant (UP) Program](https://www.wcu.edu/learn/departments-schools-colleges/ceap/stl/special-education-programs/university-participant-up-program/index.aspx) is now fully accredited for the next seven years. The WCU UP program is the first program to be accredited by the council.
+Boston, MA — May 10, 2023 — The ICI’s Think College and the *Higher Education Accreditation Council (IHEAC)*, a new accrediting agency for postsecondary programs for students with intellectual disability (ID), jointly announced today that the [Western Carolina University (WCU) University Participant (UP) Program](https://www.wcu.edu/learn/departments-schools-colleges/ceap/stl/special-education-programs/university-participant-up-program/index.aspx) is now fully accredited for the next seven years. The WCU UP program is the first program to be accredited by the council.
 
 > “The Council is delighted to award accreditation to the outstanding WCU UP program and appreciate their willingness to be the first to undergo accreditation. The documentation provided, site visit, peer reviewer report, and strong support from the university clearly demonstrate that the UP program merits accreditation,” said Stephanie Smith Lee, IHEAC Board President.
 

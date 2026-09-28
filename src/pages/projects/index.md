@@ -308,7 +308,7 @@ description: "List of ICI Projects"
         <div class="col-md-9">
           <div class="card-body">
             <h2 class="card-title"><a href="/projects/arrt">Advanced Rehabilitation Research Training (ARRT) Program</a></h2>
-            <p>Need Blurb</p>
+            <p>The ARRT Program is a 3-year postdoctoral training program that  provides multidisciplinary training in research on employment for people with intellectual and developmental disabilities (IDD). Our goal is to strengthen representation and build research capacity in the IDD employment field by preparing postdoctoral <b>Fellows</b> to address challenges affecting employment outcomes for people with IDD.</p>
           </div>
         </div>
       </div>
@@ -325,7 +325,7 @@ description: "List of ICI Projects"
         <div class="col-md-9">
           <div class="card-body">
             <h2 class="card-title"><a href="/projects/ecle">Supporting Employment & Community Life Engagement</a></h2>
-            <p>need blurb</p>
+            <p>Supporting Employment and Community Life Engagement focuses on holistic agency alignment: By taking a holistic approach to this work, your agency can make the most of limited resources, avoid doing the same work twice, and help people with disabilities to get what they need.</p>
           </div>
         </div>
       </div>
