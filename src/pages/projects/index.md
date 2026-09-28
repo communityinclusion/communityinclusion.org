@@ -308,7 +308,7 @@ description: "List of ICI Projects"
         <div class="col-md-9">
           <div class="card-body">
             <h2 class="card-title"><a href="/projects/arrt">Advanced Rehabilitation Research Training (ARRT) Program</a></h2>
-            <p>The ARRT Program is a 3-year postdoctoral training program that  provides multidisciplinary training in research on employment for people with intellectual and developmental disabilities (IDD). Our goal is to strengthen representation and build research capacity in the IDD employment field by preparing postdoctoral <b>Fellows</b> to address challenges affecting employment outcomes for people with IDD.</p>
+            <p>The ARRT Program is a 3-year postdoctoral training program that  provides multidisciplinary training in research on employment for people with intellectual and developmental disabilities (IDD). Our goal is to strengthen representation and build research capacity in the IDD employment field by preparing postdoctoral Fellows to address challenges affecting employment outcomes for people with IDD.</p>
           </div>
         </div>
       </div>
