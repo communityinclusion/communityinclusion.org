@@ -119,7 +119,7 @@ class PublicationsPage extends React.Component {
                           </div>
                         </div>
                         <div className="col-md-10 card-body"><h2 className="card-title"> <a href={HTTC17_pdf}><span className="badge bg-primary pb-1">New</span> The Importance of Naming Postsecondary Education Programs</a></h2><p className="card-text">
-                          Choosing the right name for a postsecondary education program for students with intellectual disability is critical for shaping perceptions and fostering inclusion. Thoughtful naming can help emphasize the program’s academic mission and support student self-determination. In this brief, research by Papay et al. (2022) highlights common naming practices, such as acronyms or disability-focused terms, that may unintentionally hinder full integration of people with intellectual disability into the academic community.</p></div></div></div>
+                          Choosing the right name for a postsecondary education program for students with intellectual disability is critical for shaping perceptions and advancing opportunity. Thoughtful naming can help emphasize the program’s academic mission and support student self-determination. In this brief, research by Papay et al. (2022) highlights common naming practices, such as acronyms or disability-focused terms, that may unintentionally hinder full integration of people with intellectual disability into the academic community.</p></div></div></div>
 
                     <div className="card m-3">
                       <div className="row">
@@ -462,8 +462,8 @@ class PublicationsPage extends React.Component {
                           <div className="card-image"><img src={PP_SP_UDAC_staff_shortages_R_thumb} className="img-fluid" alt="publication thumbnail" />
                           </div>
                         </div>
-                        <div className="col-md-10 card-body"><h2 className="card-title"><a href={PP_SP_UDAC_staff_shortages_pdf}> <span className="badge bg-primary pb-1">New</span> Transforming Culture to Improve Staff Recruitment and Retention</a></h2><p className="card-text">
-                          Udac, a Minnesota provider serving adults with intellectual and developmental disabilities, shifted from facility-based subminimum wage services to community-based programs during the COVID-19 pandemic. To support this transformation, Udac focused on reshaping its organizational culture and implementing strategies to hire and retain skilled staff, even amid a nationwide workforce shortage. This promising practice highlights Udac’s approach.</p>
+                        <div className="col-md-10 card-body"><h2 className="card-title"><a href={PP_SP_UDAC_staff_shortages_pdf}> <span className="badge bg-primary pb-1">New</span> Transforming an Organization to Improve Staff Recruitment and Retention</a></h2><p className="card-text">
+                          Udac, a Minnesota provider serving adults with intellectual and developmental disabilities, shifted from facility-based subminimum wage services to community-based programs during the COVID-19 pandemic. To support this transformation, Udac focused on reshaping its workplace environment and implementing strategies to hire and retain skilled staff, even amid a nationwide workforce shortage. This promising practice highlights Udac’s approach.</p>
                         </div>
                       </div>
                     </div>
@@ -476,7 +476,6 @@ class PublicationsPage extends React.Component {
     </div>
     <div className="col-md-10 card-body">
     <h2 className="card-title"><a href="/pdf/TO31_R.pdf">Employment and Employment Supports: A Guide to Ensuring Informed Choice for Individuals with Disabilities</a></h2>
-    <h3>Tools for Inclusion No.31</h3>
     <p className="card-text">What is “informed choice”? And how we do ensure that a choice is truly “informed” and fully reflective of the individual’s preferences?
 </p>
 <p className="card-title">This publication answers these questions. In it, we provide a guide
@@ -495,7 +494,7 @@ that are fully reflective of their own interests and preferences.</p>
     </div>
     <div className="col-md-10 card-body">
     <h2 className="card-title"><a href="https://www.thinkwork.org/power-disability-employment-impact-arizonas-economy">The Power of Disability Employment: The Impact to Arizona’s Economy</a></h2>
-    <p className="card-text">The Arizona Developmental Disabilities Planning Council (ADDPC) contracted with the Institute for Community Inclusion (ICI) at the University of Massachusetts Boston to explore the economic impacts for Arizona of increasing the employment of individuals with disabilities and to analyze how the state can improve its efforts.</p>
+    <p className="card-text">The Arizona Developmental Disabilities Planning Council (ADDPC) contracted with the ICI at the University of Massachusetts Boston to explore the economic impacts for Arizona of increasing the employment of individuals with disabilities and to analyze how the state can improve its efforts.</p>
 </div>
 </div>
 
@@ -615,7 +614,7 @@ that are fully reflective of their own interests and preferences.</p>
     </div>
     <div className="col-md-10 card-body">
                           <h2 className="card-title"><a href={AT_innovative_1_R}>Innovative AT Practices, ISSUE NO. 1 • OCTOBER 2019</a></h2>
-<p className="card-text"><strong>Mobile Unit Brings Assistive Tech to Underserved Areas.</strong> The mobile unit has been described as a “warehouse on wheels” by iCAN’s program manager, Rick Anderson. Two program coordinators rotate monthly to drive the van to a predetermined area and set up shop for the day. Once there, they provide device loans, demonstrations of high-end AT devices (such as communication tools), and giveaways of limited reused AT devices. </p>
+<p className="card-text"><strong>Mobile Unit Brings Assistive Tech to Areas of Need.</strong> The mobile unit has been described as a “warehouse on wheels” by iCAN’s program manager, Rick Anderson. Two program coordinators rotate monthly to drive the van to a predetermined area and set up shop for the day. Once there, they provide device loans, demonstrations of high-end AT devices (such as communication tools), and giveaways of limited reused AT devices. </p>
 </div>
 </div>
          </div>
