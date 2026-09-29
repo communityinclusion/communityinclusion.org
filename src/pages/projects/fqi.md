@@ -21,15 +21,3 @@ To learn more about the project, please visit [Future Quest Island-Explorations 
 
 **If you are a student trying to login to Future Quest Island - Explorations, please visit [www.fqie.me](https://fqie.me/login).**
 
----
-<img src="../../images/FQI_Logo.png" alt="Future Quest Island" style="float:left;">
-
-**[Future Quest Island (FQI)](https://thinkcollege.net/about/what-is-think-college/future-quest-island),** is an accessible, game-based college and career readiness tool for middle schoolers with and without disabilities. Through an engaging online platform, FQI aligns 21st-century technology skills with educational and employment goals.
-
-Future Quest Island was designed for middle school general and special education teachers, as well as technology professionals, counselors, administrators, and transition professionals. Its goal is to advance the engagement and transition plans of youth with and without disabilities so that they can build a robust path to lifelong success, in middle school and beyond.  
-  
-FQI was funded by the U.S. Department of Education, Stepping Up to Technology Grant at [OSEP](https://sites.ed.gov/osers/tag/stepping-up-technology-implementation/) from 2012-2018.
-
-Learn more about how [Future Quest Island engages middle schoolers](https://thinkcollege.net/about/what-is-think-college/future-quest-island).
-
-<br style="clear:both;">
