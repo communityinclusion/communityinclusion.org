@@ -153,7 +153,7 @@ Prepare for this Exciting Opportunity</h3>
 </div>
 
 <div class="card shadow-sm p-3 m-3">
-<h2 class="card-title">Inclusive Civic Engagement</h2>
+<h2 class="card-title">Civic Engagement</h2>
 <div class="row">
     <div class="col-sm-2 d-flex flex-column  align-items-center "><img src="/images/thumbs/ct-100_x.png" class="img-fluid" style="max-width:100px" alt = "Professional Fellows Program" /></div>
     <div class="col-sm-10"><p class="p-3">We help to cultivate the next set of international disability leaders through civic engagement opportunities and fellowship programs.<br>
@@ -170,7 +170,7 @@ Prepare for this Exciting Opportunity</h3>
     </a>
       <div class="">
         <h3 class="card-title h6">Fellows' Blog</h3>
-        <p class="card-text">The Professional Fellows Program on Inclusive Civic Engagement</p>
+        <p class="card-text">The Professional Fellows Program on Civic Engagement</p>
       </div>
     </div>
   </div>
@@ -197,7 +197,7 @@ Prepare for this Exciting Opportunity</h3>
 <div class="row">
     <div class="col-sm-2 d-flex flex-column  align-items-center "><img src="/images/thumbs/gator_thumbnail_x.png" class="img-fluid" style="max-width:100px" alt = "Gator" />
                     <img src="/images/thumbs/CIVIC_square_web_x.png" class="img-fluid" style="max-width:100px" alt = "Youth Voice Youth Choice site" /></div>
-    <div class="col-sm-10"><p class="p-3">We are deeply invested in engaging people people with disabilities across every dimension of our work. One way we do this is through ICI's Community Advisory Committee (CAC). <a href="/about/cac/">Learn more about the CAC</a>.</p>
+    <div class="col-sm-10"><p class="p-3">We are deeply invested in engaging people with disabilities across every dimension of our work. One way we do this is through ICI's Community Advisory Committee (CAC). <a href="/about/cac/">Learn more about the CAC</a>.</p>
 <p><a href="https://gator.communityinclusion.org/" class="btn btn-outline-primary">Learn more about the Guardianship Alternatives and Transfer of Rights Project</a></p>
 <p><a href="https://youth-voice.org/" class="btn btn-outline-primary">Learn more about The Center on Youth Voice, Youth Choice </a></p>
 <hr>

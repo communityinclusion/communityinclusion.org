@@ -16,7 +16,7 @@ thumbnail: "../../images/ICI.png"
   </div>
   <div class="col-md-10 container-fluid py-2">
     <p class=" fs-4">
-      The IEI offers higher education opportunities for students through partnerships with local school districts and state agencies. The IEI is a non-degree seeking, enrollment opportunity designed to support students with intellectual disabilities, autism, or other developmental disabilities to go to college. Students can increase their academic, social, and career outcomes by sharing the same experiences as their college peers.  </p>
+      The IEI offers higher education opportunities for students through partnerships with local school districts and state agencies. The IEI is a non-degree seeking enrollment opportunity designed to support students with intellectual disabilities, autism, or other developmental disabilities to go to college. Students can increase their academic, social, and career outcomes by sharing the same experiences as their college peers.  </p>
 <p class="fs-4">The state-funded MAIPSE supports partnerships between local school districts, the Department of Developmental Services (DDS), the Massachusetts Rehabilitation Commision (MRC), other state agencies, and 2- and 4-year public colleges and universities in Massachusetts.
 </p>
       </div>
@@ -55,7 +55,7 @@ thumbnail: "../../images/ICI.png"
              </h4>
              <p>We accept applications from all local school districts for students who are 18-21, receiving transition services, and meet MAIPSE eligibility requirements. If you are unsure whether your school is already a partner, please contact us. </p>
              <p><strong>Application Deadline for Fall Semester Start:</strong>
-             <br>Due February 20th </p>
+             <br>Due February 20 </p>
           <p><a href="/files/maicei/UMassBostonInclusiveEdInitiativeApplication.pdf" class="btn btn-outline-secondary" type="button">Download Application</a></p>
         </div>
       </div>
@@ -116,7 +116,7 @@ thumbnail: "../../images/ICI.png"
     </h2>
     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion-faq">
       <div class="accordion-body"><p>MAIPSE is open to students with severe intellectual disability, autism, or other developmental disability who want to go to college. </p>
-      <p>For students attending through school district partnerships→ participation is open to students who have a documented severe intellectual disability, autism, or other developmental disability, and
+      <p>For students attending through school district partnerships→ participation is open to students who have a documented severe intellectual disability, autism, or other developmental disability, and:
         <ul>
         <li>are 18 to 21 years of age, have not passed the Massachusetts Comprehensive Assessment System (MCAS) exam, and are eligible for special education services documented through an Individualized Education Program (IEP); or</li>
         <li>are 20 to 21 years of age, have passed MCAS, but are still eligible for special education services through an IEP because of significant functional disabilities and/or transition needs.</li>

@@ -64,7 +64,7 @@ Community
 <h2 class="card-title"><a href="/about/areas-of-emphasis/healthcare">
 	Health Care
 </a></h2>
-<p>Accessing quality health care enables us to live productively and to receive support when facing mental, behavioral, or physical challenges. For people with disabilities, equitable health care can require additional advocacy and planning. </p>
+<p>Accessing quality health care enables us to live productively and to receive support when facing mental, behavioral, or physical challenges. For people with disabilities, accessible health care can require additional advocacy and planning. </p>
 </div>
 </div>
 </div>
