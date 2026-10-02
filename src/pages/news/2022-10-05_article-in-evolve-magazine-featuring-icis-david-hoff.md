@@ -1,5 +1,5 @@
 ---
-title: "Check Out this World at Work Article in #evolve Magazine Featuring ICI’s David Hoff!"
+title: "Check Out This World at Work Article in #evolve Magazine Featuring ICI’s David Hoff!"
 description: ""
 path: "/news/2022-10-05_article-in-evolve-magazine-featuring-icis-david-hoff"
 date: "2022-10-05"

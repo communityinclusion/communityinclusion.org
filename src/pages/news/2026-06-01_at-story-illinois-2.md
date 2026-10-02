@@ -1,5 +1,5 @@
 ---
-title: "Illinois: Cooking with Confidence"
+title: "Illinois: Cooking With Confidence"
 description: "Howard has always loved cooking, but after losing his vision in 2015 due to end-stage glaucoma, he faced new challenges in the kitchen. Determined to continue preparing meals and sharing them with others, he was referred to the Illinois Assistive Technology Program (IATP) Tech Kitchen Program to explore how assistive technology (AT) could support his independence."
 path: "/news/2026-06-01_at-story-illinois-2"
 date: "2026-06-01"

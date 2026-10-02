@@ -1,5 +1,5 @@
 ---
-title: "ICI staff Briefed President’s Committee for People with Intellectual Disabilities on Employment"
+title: "ICI Staff Briefed President’s Committee for People With Intellectual Disabilities on Employment"
 description: ""
 path: "/news/2022-10-05_ici-staff-briefed-presidents-committee-for-people-with-intellectual-disabilities-on-employment"
 date: "2022-10-05"

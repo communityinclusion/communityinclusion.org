@@ -1,5 +1,5 @@
 ---
-title: "Connecticut: Exploring New Possibilities with Apple Vision Pro"
+title: "Connecticut: Exploring New Possibilities With Apple Vision Pro"
 description: "A technology representative was interested in trialing the Apple Vision Pro to learn more about its features, including built-in accessibility tools and its potential to enhance workplace productivity."
 path: "/news/2026-04-14_at-story-connecticut"
 date: "2026-04-14"

@@ -1,5 +1,5 @@
 ---
-title: "The ICI Mourns the Loss of One of its Distinguished Founders, Dr. Ludwik Stefan Szymanski"
+title: "The ICI Mourns the Loss of One of Its Distinguished Founders, Dr. Ludwik Stefan Szymanski"
 description: ""
 path: "/news/2024-11-25_ici-mourns-loss-of-ludwik-stefan-szymanski"
 date: "2024-11-25"

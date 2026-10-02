@@ -1,5 +1,5 @@
 ---
-title: "Spreading the Word about Alternatives to Guardianship"
+title: "Spreading the Word About Alternatives to Guardianship"
 description: ""
 path: "/news/2023-08-09_spreading-the-word-about-alternatives-to-guardianship"
 date: "2023-08-09"

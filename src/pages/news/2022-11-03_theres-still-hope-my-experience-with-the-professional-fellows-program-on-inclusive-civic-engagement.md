@@ -1,5 +1,5 @@
 ---
-title: "There’s Still Hope: My Experience with the Professional Fellows Program on Inclusive Civic Engagement"
+title: "There’s Still Hope: My Experience With the Professional Fellows Program on Inclusive Civic Engagement"
 description: ""
 path: "/news/2022-11-03_theres-still-hope-my-experience-with-the-professional-fellows-program-on-inclusive-civic-engagement"
 date: "2022-11-03"

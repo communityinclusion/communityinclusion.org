@@ -1,5 +1,5 @@
 ---
-title: "Think College at the ICI/UMass Boston receives $10 Million Grant on Postsecondary Education for Students with Intellectual Disability"
+title: "Think College at the ICI/Umass Boston Receives $10 Million Grant on Postsecondary Education for Students With Intellectual Disability"
 description: ""
 path: "/news/2025-10-03_icis-think-college-at-umass-receives-10m-grant"
 date: "2025-10-03"

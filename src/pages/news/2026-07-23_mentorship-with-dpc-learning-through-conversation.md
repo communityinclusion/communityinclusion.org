@@ -1,5 +1,5 @@
 ---
-title: "Mentorship with DPC: Learning Through Conversation"
+title: "Mentorship With DPC: Learning Through Conversation"
 description: ""
 path: "/news/2026-07-23_mentorship-with-dpc-learning-through-conversation"
 date: "2026-07-23"

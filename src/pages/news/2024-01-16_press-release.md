@@ -1,5 +1,5 @@
 ---
-title: "ICI Partners with the International Disability Alliance and the African Disability Forum on International Fellowship Program"
+title: "ICI Partners With the International Disability Alliance and the African Disability Forum on International Fellowship Program"
 description: ""
 path: "/news/2024-01-10_ICI-partners-with-ida-and-african-disability-forum-on-fellowship-program"
 date: "2024-01-10"
