@@ -110,7 +110,7 @@ thumbnail: '../../images/ICI.png'
 <dt><strong>The Arc </strong></dt>
 <dd>A family-based, national advocacy and service-providing organization for people with intellectual and developmental disabilities.</dd>
 <dt><strong>Architectural and Transportation Barriers Compliance Board</strong></dt>
-<dd><strong> </strong>See <em>Access Board</em></dd>
+<dd><strong> </strong>See <em>Access Board</em>.</dd>
 <dt><strong>assistive technology (AT)</strong></dt>
 <dd>Any device or service that facilitates function for a person with a disability. Assistive technology services include evaluating a person&rsquo;s needs; choosing, designing, and/or customizing the equipment; and training the person on how to use it. May also be called &ldquo;adaptive technology.&rdquo;</dd>
 <dt><strong>attendant care</strong></dt>
@@ -164,7 +164,7 @@ thumbnail: '../../images/ICI.png'
 <dt><strong>Center for Medicare &amp; Medicaid Services (CMS)&nbsp;</strong></dt>
 <dd>The federal agency that oversees&nbsp;<em>Medicare</em>&nbsp;and&nbsp;<em>Medicaid</em>. Formerly named the&nbsp;<em>Health Care Financing Administration</em>.</dd>
 <dt><strong>Chapter 688</strong>&nbsp;</dt>
-<dd>Massachusetts's &ldquo;Turning 22 Law.&rdquo; This law directs&nbsp;<em>IEP teams</em>&nbsp;to send information to the state disability agency whose services they think a student with significant disabilities will need after they exit high school. The team is expected to make this referral at least 2 years before the student turns 22 years old or exits school.  The educational services students are entitled to under the <em>Individuals with Disabilities Education Act</em> end when they leave school, so it is important that IEP teams make these referrals.</dd>
+<dd>Massachusetts's &ldquo;Turning 22 Law.&rdquo; This law directs&nbsp;<em>IEP teams</em>&nbsp;to send information to the state disability agency whose services they think a student with significant disabilities will need after they exit high school. The team is expected to make this referral at least two years before the student turns 22 years old or exits school.  The educational services students are entitled to under the <em>Individuals with Disabilities Education Act</em> end when they leave school, so it is important that IEP teams make these referrals.</dd>
 <dt><strong>Chapter 766&nbsp;</strong></dt>
 <dd>The Massachusetts state special education law. It is similar to the federal&nbsp;<em>Individuals with Disabilities Education Act (IDEA),</em>&nbsp;but establishes guiding principles for special education specifically for the state. Chapter 766 applies to eligible students with disabilities, ages 3 through 21.</dd>
 <dt><strong>children with special health care needs (CSHCN)</strong>&nbsp;</dt>
@@ -176,7 +176,7 @@ thumbnail: '../../images/ICI.png'
 <dt><strong>Client Assistance Program (CAP)</strong>&nbsp;</dt>
 <dd>An agency that provides information and assistance to people who are seeking or receiving state&nbsp;<em>vocational rehabilitation</em>&nbsp;agency services, including help with legal complaints or problems. Many CAPs are housed within&nbsp;<em>Protection and Advocacy</em>&nbsp;programs<em>.</em></dd>
 <dt><strong>clubhouse</strong></dt>
-<dd>&nbsp;A&nbsp;<em>psychosocial rehabilitation</em>&nbsp;program for individuals who have psychiatric disabilities working in conjunction with paid staff. Clubhouses emphasize social connections and individual control, and often provide help with employment.</dd>
+<dd>&nbsp;A&nbsp;<em>psychosocial rehabilitation</em>&nbsp;program for individuals who have psychiatric disabilities working in conjunction with paid staff. Clubhouses emphasize social connections and individual control and often provide help with employment.</dd>
 <dt><strong>cochlear implant</strong></dt>
 <dd>&nbsp;A prosthetic device that may help a person who has severe hearing loss experience useful hearing. Cochlear implants are controversial in the Deaf community, because some people do not see deafness as something that needs to be &ldquo;fixed.&rdquo;</dd>
 <dt><strong>cognitive disability&nbsp;</strong></dt>
@@ -241,11 +241,11 @@ thumbnail: '../../images/ICI.png'
 <dt><strong>Developmental Disabilities Council (DD Council)</strong>&nbsp;</dt>
 <dd>An independent agency (one for each state) that promotes policies and legislation for the disability community. Part of the&nbsp;<em>Developmental Disabilities Network</em>.</dd>
 <dt><strong>Developmental Disabilities Network (DD Network)</strong>&nbsp;</dt>
-<dd>A system of specific agencies in each state (<em>University Centers of Excellence in Developmental Disabilities, Developmental Disabilities Councils,&nbsp;</em>and<em>&nbsp;Protection and Advocacy agencies</em>) that together provide research, support, advocacy, and legal defense for people with developmental disabilities. These agencies are designated by federal law.</dd>
+<dd>A system of specific agencies in each state (<em>University Centers for Excellence in Developmental Disabilities, Developmental Disabilities Councils,&nbsp;</em>and<em>&nbsp;Protection and Advocacy agencies</em>) that together provide research, support, advocacy, and legal defense for people with developmental disabilities. These agencies are designated by federal law.</dd>
 <dt><strong>developmental screening&nbsp;</strong></dt>
 <dd>A procedure to identify children who should receive more intensive assessment or diagnosis for potential developmental delays. It can allow for earlier detection of delays and improve child health and well-being for identified children.</dd>
 <dt><strong>direct service</strong>&nbsp;</dt>
-<dd>Support services that are provided directly to an individual (e.g., on a job in the community or in a living situation).<strong>Direct service staff</strong>&nbsp;are counselors, caseworkers, therapists, or anyone else who provides these services. The term usually does not include teachers or medical professionals.</dd>
+<dd>Support services that are provided directly to an individual (e.g., on a job in the community or in a living situation). <strong>Direct service staff</strong>&nbsp;are counselors, caseworkers, therapists, or anyone else who provides these services. The term usually does not include teachers or medical professionals.</dd>
 <dt><strong>disability&nbsp;</strong></dt>
 <dd>Limitation of typical physical, mental, or social activity. Legally defined in the&nbsp;<em>Rehabilitation Act of 1973</em>&nbsp;(as amended) and the&nbsp;<em>Americans with Disabilities Act of 1990</em> as: (1) A person with a physical or mental impairment that substantially limits one or more <em>major life activities</em>; (2) A person with a record of such a physical or mental impairment; or (3) A person who is regarded as having such an impairment.</dd>
 <dt><strong>Disability Rights Movement</strong>&nbsp;</dt>
@@ -266,7 +266,7 @@ thumbnail: '../../images/ICI.png'
 <dt><strong>Early Intervention (EI)</strong>&nbsp;</dt>
 <dd>Services for children aged birth to 3 who have a disability. Covered in Part C of the&nbsp;<em>Individuals with Disabilities Education Act</em>.</dd>
 <dt><strong>Electronic and Information Technology Access Advisory Committee (EITAAC)</strong>&nbsp;</dt>
-<dd>A subcommittee of the federal&nbsp;<em>Access Board</em>&nbsp;that sets standards for ensuring that electronic and information technology devices are usable&nbsp;<em>(accessible)&nbsp;</em>by people with disabilities. EITAAC also provides training and technical assistance on these standards to both federal agencies and consumers. EITAAC is composed of 26 organizations representing federal agencies, technology industries, and nonprofit agencies serving individuals with disabilities.</dd>
+<dd>A subcommittee of the federal&nbsp;<em>Access Board</em>&nbsp;that sets standards for ensuring that electronic and information technology devices are usable&nbsp;<em>(accessible)&nbsp;</em>by people with disabilities. EITAAC also provides training and technical assistance on these standards to both federal agencies and consumers. EITAAC is composed of 26 organizations representing federal agencies, technology industries, and non-profit agencies serving individuals with disabilities.</dd>
 <dt><strong>employment specialist, employment training specialist (ETS)</strong>&nbsp;</dt>
 <dd>A staff member who helps people with disabilities find jobs. Sometimes used interchangeably with&nbsp;<em>job coach</em>,&nbsp;<em>rehabilitation counselor, vocational counselor, rehabilitation counselor,&nbsp;</em>or&nbsp;<em>job developer.</em></dd>
 <dt><strong>enclave</strong>&nbsp;</dt>
@@ -331,7 +331,7 @@ thumbnail: '../../images/ICI.png'
                 <h2 data-alpha="H">H</h2>
 <dl>
 <dt><strong>handicap, handicapped&nbsp;</strong></dt>
-<dd>An outdated term that has replaced by "person with a disability." (Handicapped parking is called "accessible parking.")</dd>
+<dd>An outdated term that has been replaced by "person with a disability." (Handicapped parking is called "accessible parking.")</dd>
 <dt><strong>hard of hearing (HH, HoH)</strong></dt>
 <dd>People who have some hearing, are able to use it to communicate, and feel reasonably comfortable doing so.</dd>
 <dt><strong>hard to serve, harder to serve</strong></dt>
@@ -582,7 +582,7 @@ thumbnail: '../../images/ICI.png'
 <dd>Attendance in a program, school, or residential situation (as in&nbsp;<em>outplacement)</em>&nbsp;or a job (see&nbsp;<em>job placement)</em>.</dd>
 <dt><strong>Plan to Achieve Self-Support (PASS)</strong></dt>
 <dd>A Social Security&nbsp;<em>Work Incentive</em>&nbsp;that allows someone on&nbsp;<em>SSI&nbsp;</em>to &ldquo;set aside&rdquo; a portion of their earnings towards a specific work-related goal, such as training to become a receptionist. The income set aside is not counted when determining eligibility for SSI or the amount of the individual&rsquo;s SSI check. PASS plans also allow individuals to save money toward a larger goal without that money being counted for SSI asset limits.</dd>
-<dt><strong>post-secondary education</strong></dt>
+<dt><strong>Postsecondary education</strong></dt>
 <dd>Education above the high school level, including community college and university courses.<strong>&nbsp;</strong>Sometimes refers to any kind of education in adult settings, including vocational and lifelong learning classes.</dd>
 <dt><strong>promising practices</strong></dt>
 <dd>Methods and procedures that have the potential to improve the way a system currently works. See also&nbsp;<em>best practices.</em></dd>
@@ -809,7 +809,7 @@ thumbnail: '../../images/ICI.png'
 <dd>Term used in the&nbsp;<em>Americans with Disabilities Act (ADA).&nbsp;</em>Major difficulty or expense in trying to accommodate an employee with a disability, considered in light of the employer's financial resources, facilities, workforce, and business operations. For example, it would not be difficult for a large corporation to install an elevator, but this might be an undue hardship for a very small, family-run company.</dd>
 <dt><strong>universal design</strong></dt>
 <dd>The design of products and environments to be usable by all people, to the greatest extent possible, without the need for adaptation or specialized design. A common example is sidewalk curb cuts. These not only make it possible for wheelchair users to cross the street, but also make crossing the street easier for people pushing baby strollers, pulling suitcases, using crutches, etc.</dd>
-<dt><strong>University Centers of Excellence in Developmental Disabilities (UCEDDs)&nbsp;</strong></dt>
+<dt><strong>University Centers for Excellence in Developmental Disabilities (UCEDDs)&nbsp;</strong></dt>
 <dd>A network of university-based, interdisciplinary centers that conduct research and train professionals in the developmental disabilities field. Part of the&nbsp;<em>Developmental Disabilities Network</em>; formerly known as University-Affiliated Programs (UAPs).</dd>
 </dl>
 
