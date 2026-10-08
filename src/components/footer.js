@@ -211,8 +211,9 @@ const Footer = () => (
           </div>
           <div className="col-md-5 align-middle px-3">
             <p className="white small">
-              {" "}
-              &copy; {new Date().getFullYear()} The ICI was founded in 1967, and
+              &copy;{" "}
+              <span suppressHydrationWarning>{new Date().getFullYear()}</span>{" "}
+              The ICI was founded in 1967, and
               is a program at the University of Massachusetts Boston and Boston
               Children’s Hospital. The ICI is a University Center for Excellence
               in Developmental Disabilities, part of the national network
