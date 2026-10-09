@@ -17,7 +17,7 @@ From expert consultation and technical assistance to online training for employm
 </div>
 <div class="col-md-9">
 <h2 class="card-title">
-<a href="https://consulting.communityinclusion.org/"> 
+<a href="https://consulting.iciboston.org/"> 
 ICI Consulting</a></h2>
 <p>Our experts can help your agency or organization improve your outcomes, track your progress, and reach your goals.</p>
 	</div>
@@ -54,4 +54,3 @@ College of Employment Services</a></h2>
 </div>
 </div>
 </div>
-
