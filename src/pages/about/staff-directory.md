@@ -30,7 +30,6 @@ Staff listing and contact details<!-- end -->
 | Belkis     | Choiseul-Praslin  |                | <B.Choiseul-Praslin@umb.edu>                | [View Profile](/about/staff-directory/belkis-choiseul-praslin)           |
 | Jeff       | Coburn            | | <Jeff.Coburn@umb.edu>                      | [View Profile](/about/staff-directory/jeff-coburn)                |
 | Allison    | Cohen Hall        | (480) 677-9677 | <Allison.Hall@umb.edu>                     | [View Profile](/about/staff-directory/allison-cohen-hall)         |
-| Lori       | Cooney            | (617) 287-4307 | <Lori.Cooney@umb.edu>                      | [View Profile](/about/staff-directory/lori-cooney)                |
 | Andrea     | Cooper            | | <Andrea.Cooper@umb.edu>                    | [View Profile](/about/staff-directory/andrea-cooper)              |
 | Julisa     | Cully             | (617) 287-4386 | <Julisa.Cully@umb.edu>                     | [View Profile](/about/staff-directory/julisa-cully)               |
 | Krista	| Dann		| | <Krista.Dann@umb.edu>    | [View Profile](/about/staff-directory/krista-dann)                   |
@@ -50,7 +49,6 @@ Staff listing and contact details<!-- end -->
 | Suzzanne   | Freeze            |  | <Suzzanne.Freeze@umb.edu>                  | [View Profile](/about/staff-directory/suzzanne-freeze)            |
 | Alexandra   |Futty   | | <alexandra.futty@umb.edu>    | [View Profile](/about/staff-directory/alexandra-futty )                  |
 | Cecilia    | Gandolfo          |  | <Cecilia.Gandolfo@umb.edu>                 | [View Profile](/about/staff-directory/cecilia-gandolfo)           |
-| Juan       | Gaspar            | (617) 287-4326  | <Juan.Gaspar@umb.edu>                      | [View Profile](/about/staff-directory/juan-gaspar)                |
 | Amy   |Gessert		| | <amy.gessert@umb.edu>    | [View Profile](/about/staff-directory/amy-gessert)                  |
 | J      | Gibbs           | (617) 297-4786 | <j.gibbs@umb.edu>                      | [View Profile](/about/staff-directory/j-gibbs)                |
 | Beverley    | Gilligan         |                | <Beverley.Gilligan@childrens.harvard.edu>   | [View Profile](/about/staff-directory/beverley-gilligan)           |
@@ -109,7 +107,6 @@ Staff listing and contact details<!-- end -->
 | Kaitlyn    | Siner-Cappas      | (617) 287-3070 | <Kaitlyn.Siner@umb.edu>                    | [View Profile](/about/staff-directory/kaitlyn-siner-cappas)       |
 | Chelsea    | Stinnett          |                | <chelsea.stinnett@umb.edu>                 | [View Profile](/about/staff-directory/chelsea-stinnett)           |
 | Jessica    | Sullivan          |                | <jessica.sullivan@umb.edu>                 | [View Profile](/about/staff-directory/jessica-sullivan)           |
-| Ludwik     | Szymanski         |                | <Ludwik.Szymanski@childrens.harvard.edu>   | [View Profile](/about/staff-directory/ludwik-s-szymanski)         |
 | Allison    | Taylor            |  | <Allison.Taylor@umb.edu>                   | [View Profile](/about/staff-directory/allison-taylor)             |
 | David      | Temelini          | (617) 287-4321 | <David.Temelini@umb.edu>                   | [View Profile](/about/staff-directory/david-temelini)             |
 | Russ       | Thelin            | (617) 297-6412 | <Russell.Thelin@umb.edu>                   | [View Profile](/about/staff-directory/russ-thelin)                |

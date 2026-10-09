@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
     return (
    <div id="gatsby-focus-wrapper">
       <div className="site-header">
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header siteTitle={data.site.siteMetadata.title} isHome />
 <Navbar />
 <div className="container-lg">
 <Hero />
