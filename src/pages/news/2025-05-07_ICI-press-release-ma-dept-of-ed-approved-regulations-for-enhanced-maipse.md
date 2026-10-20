@@ -27,7 +27,7 @@ MAIPSE is designed for students with intellectual and developmental disabilities
 
 UMass Boston and the ICI are longstanding MAIPSE partners. For 25 years, ICI has worked to support the development of inclusive higher education programs for students with intellectual disability in Massachusetts and across the US.
 
-The ICI’s Massachusetts Center for Inclusive Higher Education and Transition offers support and training to education coaches, peer mentors, college program coordinators, special education administrators, and transition coordinators who work on MAIPSE across the state. The [Inclusive Education Initiative](https://www.communityinclusion.org/projects/maipse/), which is the UMass Boston MAIPSE partnership, also offers postsecondary experiences to eligible students with intellectual and developmental disabilities.
+The ICI’s Massachusetts Center for Inclusive Higher Education and Transition offers support and training to education coaches, peer mentors, college program coordinators, special education administrators, and transition coordinators who work on MAIPSE across the state. The [Inclusive Education Initiative](https://www.iciboston.org/projects/maipse/), which is the UMass Boston MAIPSE partnership, also offers postsecondary experiences to eligible students with intellectual and developmental disabilities.
 
 The Director of the Massachusetts Center for Inclusive Higher Education and Transition, Maria Paiewonsky, shares about the impact of these new state regulations:
 
@@ -55,7 +55,7 @@ The regulations will continue to strengthen MAIPSE’s partnerships with UMass B
 <ul>
 <li> <b>Phone</b>: 617-287-4309 (office) / 857-271-6617 (mobile)</li>
 <li> <b>Email</b>:  <a class="text-break" href="mailto:Quinn.Barbour@umb.edu">Quinn.Barbour@umb.edu</a></li>
-<li> <b>Website</b>: <a class="text-break" href="http://www.communityinclusion.org/">www.communityinclusion.org</a></li>
+<li> <b>Website</b>: <a class="text-break" href="http://www.iciboston.org/">www.iciboston.org</a></li>
 </ul>
 
 

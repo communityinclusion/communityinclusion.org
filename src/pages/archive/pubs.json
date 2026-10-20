@@ -558,7 +558,7 @@
      "topics":"Organizational change",
      "projects":"",
      "pdflink":"/pdf/Mentor_Guide.pdf",
-     "doclink":"/word/Mentor_Guide.word"
+     "doclink":""
   },
   {
      "id":52,
@@ -591,7 +591,7 @@
      "topics":"",
      "projects":"",
      "pdflink":"/pdf/RP47_F.pdf",
-     "doclink":"/word/RP47_text_F.doc"
+     "doclink":""
   },
   {
      "id":55,
@@ -789,7 +789,7 @@
      "topics":"",
      "projects":"",
      "pdflink":"/pdf/TO23.pdf",
-     "doclink":"/word/TO23.rtf"
+     "doclink":""
   },
   {
      "id":73,
@@ -965,7 +965,7 @@
      "topics":"Employment data, State systems & employment",
      "projects":"StateData.info",
      "pdflink":"/pdf/dn10.pdf",
-     "doclink":"/word/dn10.doc"
+     "doclink":""
   },
   {
      "id":89,
@@ -976,7 +976,7 @@
      "topics":"",
      "projects":"StateData.info, Access to Integrated Employment (AIE) Project",
      "pdflink":"/pdf/DN18_F.pdf",
-     "doclink":"/word/DN18_TEXT_F.doc"
+     "doclink":""
   },
   {
      "id":90,
@@ -1174,7 +1174,7 @@
      "topics":"",
      "projects":"",
      "pdflink":"/pdf/Silverstein_ACA_VR.pdf",
-     "doclink":"/word/Silverstein_ACA_VR.doc"
+     "doclink":""
   },
   {
      "id":108,
@@ -1416,7 +1416,7 @@
      "topics":"One-Stop Centers/workforce",
      "projects":"StateData.info",
      "pdflink":"/pdf/DN25.pdf",
-     "doclink":"/word/DN25.doc"
+     "doclink":""
   },
   {
      "id":130,
@@ -1438,7 +1438,7 @@
      "topics":"Job search/career advancement",
      "projects":"StateData.info",
      "pdflink":"/pdf/DN15.pdf",
-     "doclink":"/word/DN15_text_F.doc"
+     "doclink":""
   },
   {
      "id":132,
@@ -1570,7 +1570,7 @@
      "topics":"Social Security/benefits",
      "projects":"",
      "pdflink":"/pdf/TO17.pdf",
-     "doclink":"/word/TO17.rtf"
+     "doclink":""
   },
   {
      "id":144,
@@ -1702,7 +1702,7 @@
      "topics":"",
      "projects":"StateData.info",
      "pdflink":"/pdf/DN28_F.pdf",
-     "doclink":"/word/DN28_text.doc"
+     "doclink":""
   },
   {
      "id":156,
@@ -1746,7 +1746,7 @@
      "topics":"State systems & employment, Disability policy",
      "projects":"",
      "pdflink":"/pdf/IB22.pdf",
-     "doclink":"/word/IB22.doc"
+     "doclink":""
   },
   {
      "id":160,
@@ -1757,7 +1757,7 @@
      "topics":"State systems & employment, Disability policy",
      "projects":"",
      "pdflink":"/pdf/TO21.pdf",
-     "doclink":"/word/TO21.doc"
+     "doclink":""
   },
   {
      "id":161,
@@ -1845,7 +1845,7 @@
      "topics":"Employment data, State systems & employment",
      "projects":"StateData.info",
      "pdflink":"/pdf/dn11b.pdf",
-     "doclink":"/word/dn11b.doc"
+     "doclink":""
   },
   {
      "id":169,
@@ -2032,7 +2032,7 @@
      "topics":"One-Stop Centers/workforce, Job search/career advancement, Education & transition",
      "projects":"",
      "pdflink":"/pdf/mw6_f.pdf",
-     "doclink":"/word/mw6_text_f.doc"
+     "doclink":""
   },
   {
      "id":186,
@@ -2076,7 +2076,7 @@
      "topics":"Employment data",
      "projects":"StateData.info",
      "pdflink":"/pdf/DN24.pdf",
-     "doclink":"/word/DN24.doc"
+     "doclink":""
   },
   {
      "id":190,
@@ -2593,7 +2593,7 @@
      "topics":"Education & transition",
      "projects":"",
      "pdflink":"/pdf/mw5_f.pdf",
-     "doclink":"/word/mw5_text_f.doc"
+     "doclink":""
   },
   {
      "id":237,
@@ -2780,7 +2780,7 @@
      "topics":"",
      "projects":"StateData.info",
      "pdflink":"/pdf/DN34_F.pdf",
-     "doclink":"/word/DN34_F.doc"
+     "doclink":""
   },
   {
      "id":254,
@@ -2857,7 +2857,7 @@
      "topics":"State systems & employment, Employment data",
      "projects":"StateData.info",
      "pdflink":"/pdf/dn12.pdf",
-     "doclink":"/word/dn12.doc"
+     "doclink":""
   },
   {
      "id":261,
@@ -2989,7 +2989,7 @@
      "topics":"",
      "projects":"StateData.info",
      "pdflink":"/pdf/DN31_F.pdf",
-     "doclink":"/word/DN31_F.doc"
+     "doclink":""
   },
   {
      "id":273,
@@ -3286,7 +3286,7 @@
      "topics":"Job search/career advancement, Diversity & disability",
      "projects":"",
      "pdflink":"/pdf/RP46_F.pdf",
-     "doclink":"/word/RP46_text_F.doc"
+     "doclink":""
   },
   {
      "id":300,
@@ -3297,7 +3297,7 @@
      "topics":"",
      "projects":"",
      "pdflink":"/pdf/RP46_F.pdf",
-     "doclink":"/word/RP46_text_F.doc"
+     "doclink":""
   },
   {
      "id":301,
@@ -3406,8 +3406,8 @@
      "audience":"",
      "topics":"Employment data",
      "projects":"StateData.info",
-     "pdflink":"",
-     "doclink":"/word/DN20.doc"
+     "pdflink":"/pdf/DN20.pdf",
+     "doclink":""
   },
   {
      "id":311,
@@ -3561,7 +3561,7 @@
      "topics":"",
      "projects":"StateData.info",
      "pdflink":"/pdf/DN48_F.pdf",
-     "doclink":"/word/DN48.doc"
+     "doclink":""
   },
   {
      "id":325,
@@ -3825,7 +3825,7 @@
      "topics":"Employment data",
      "projects":"StateData.info",
      "pdflink":"/pdf/DN23_F.pdf",
-     "doclink":"/word/DN23_F.doc"
+     "doclink":""
   },
   {
      "id":349,

@@ -35,6 +35,13 @@ nav.navbar.navbar-expand-lg {
   /*
   ul.navbar-nav > li:focus, ul.navbar-nav > li:hover, ul.navbar-nav > li:active { background-color: #20527c; color: #fff!important;}*/
   ul.navbar-nav > li > a:focus, ul.navbar-nav > li > a:hover ,ul.navbar-nav > li > a:active  { color: #fff!important;background-color: #20527c;  text-decoration: none; }
+
+  /* Solid white focus ring instead of Bootstrap's 25%-opacity shadow, which is invisible on the blue bar */
+  .navbar .nav-link:focus-visible {
+    outline: 3px solid #fff;
+    outline-offset: -3px;
+    box-shadow: none;
+  }
   
  /* Sub Menu */
  

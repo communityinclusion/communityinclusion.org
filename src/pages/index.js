@@ -281,14 +281,19 @@ const IndexPage = ({ data, location }) => {
                     className="post-list__item border-bottom border-dark "
                   >
                     <div className="post-list__thumbnail">
-                      <Link to={post.node.fields.slug} title="link to article">
+                      {/* duplicate of the title link below, so hidden from keyboard and screen readers */}
+                      <Link
+                        to={post.node.fields.slug}
+                        tabIndex={-1}
+                        aria-hidden="true"
+                      >
                         {post.node.frontmatter.thumbnail && (
                           <GatsbyImage
                             image={
                               post.node.frontmatter.thumbnail.childImageSharp
                                 .gatsbyImageData
                             }
-                            alt={post.node.frontmatter.title}
+                            alt=""
                           />
                         )}
                       </Link>

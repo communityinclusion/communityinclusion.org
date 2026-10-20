@@ -12,7 +12,7 @@ description: "A holistic approach to aligning employment and community life enga
 
 <nav class="ecle-toplinks" aria-label="Explore Community Life Engagement quick links">
   <ul>
-    <li><a href="https://cletoolkit.communityinclusion.org/" class="btn btn-outline-primary">CLE Toolkit</a></li>
+    <li><a href="https://cletoolkit.iciboston.org/" class="btn btn-outline-primary">CLE Toolkit</a></li>
     <li><a href="https://act.thinkwork.org/" class="btn btn-outline-primary">Agency Change Toolkit</a></li>
     <li><a href="https://elearning.communityinclusion.org/browse/cle" class="btn btn-outline-primary">Courses</a></li>
     <li><a href="https://cletoolkit.iciboston.org/resources/engage-briefs" class="btn btn-outline-primary">Publications</a></li>
@@ -103,7 +103,7 @@ By intentionally working together, you can:
     </a>
   </div>
   <div class="col-md-6 mb-4 d-flex align-self-stretch">
-    <a href="https://cletoolkit.communityinclusion.org/" class="card shadow-sm p-3 text-center ecle-card">
+    <a href="https://cletoolkit.iciboston.org/" class="card shadow-sm p-3 text-center ecle-card">
       <p>Are you ready to improve meaningful community life engagement for the people you support?<br />
       <span class="ecle-card-cta">Explore the CLE Toolkit!</span></p>
       <img src="/images/cle-toolkit-logo.png" alt="" class="img-fluid ecle-card-logo" />

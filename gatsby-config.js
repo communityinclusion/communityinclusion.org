@@ -2,7 +2,7 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
-const siteUrl = "https://www.communityinclusion.org"
+const siteUrl = "https://www.iciboston.org"
 // Netlify sets CONTEXT to "production" only for the main site deploy;
 // deploy previews and branch deploys get robots.txt that blocks crawlers.
 const isProduction = process.env.CONTEXT === "production"
@@ -172,7 +172,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://www.communityinclusion.org`,
+        siteUrl: `https://www.iciboston.org`,
       },
     },
     "gatsby-plugin-htaccess",

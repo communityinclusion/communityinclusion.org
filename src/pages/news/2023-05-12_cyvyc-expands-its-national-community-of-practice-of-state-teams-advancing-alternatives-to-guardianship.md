@@ -54,7 +54,7 @@ The Institute for Community Inclusion (ICI) promotes the inclusion of people wit
 <p><b>Contact</b>: Quinn Barbour/Institute for Community Inclusion <br>
 <b>Phone</b>: 617-287-4309 (office) / 857-271-6617 (mobile)<br>
 <b>Email</b>:  <a href="mailto:Quinn.Barbour@umb.edu">Quinn.Barbour@umb.edu</a><br>
-<b>Website</b>: <a href="https://www.communityinclusion.org/">www.communityinclusion.org</a>
+<b>Website</b>: <a href="https://www.iciboston.org/">www.iciboston.org</a>
 </p>
 </div>
 </div>

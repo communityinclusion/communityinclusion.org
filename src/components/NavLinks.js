@@ -20,7 +20,7 @@ const activeLinkStyle = {
   <Link to="/news" activeStyle={activeLinkStyle}  partiallyActive={true} className="nav-link"><span>News</span></Link>
 </li>
 <li className="nav-item dropdown">
-  <Link to="/about" activeStyle={activeLinkStyle}  partiallyActive={true}   className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"><span>About</span></Link>
+  <Link to="/about" activeStyle={activeLinkStyle}  partiallyActive={true}   className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>About</span></Link>
   <div className="dropdown-menu">
     <div className="row">
       <div className="col-lg-9 dt-only">
@@ -28,14 +28,14 @@ const activeLinkStyle = {
 
        <p>The ICI at UMass Boston supports the rights of children and adults with disabilities to participate in all aspects of society. As practitioners, researchers, and teachers, we form partnerships with individuals, families, and service agencies. Together we advocate for personal choice and self-determination.</p>
        <p>We are dedicated to advancing opportunities for people with disabilities in all aspects of life. Our work encompasses research, program evaluation, training, consultation, education, policy analysis, and service delivery across four main areas of emphasis: Employment, Education, Community Life, and Health Care.</p>
-       <p>We have three national hubs: <a href="https://www.explorevr.org/">ExploreVR</a> and <a href="https://www.thinkwork.org/">ThinkWork</a>, which focus on employment, and <a href="https://thinkcollege.net/">ThinkCollege</a>, which focuses on postsecondary education.</p>
+       <p>We have three national hubs: <a href="https://www.explorevr.org">ExploreVR</a> and <a href="https://www.thinkwork.org">ThinkWork</a>, which focus on employment, and <a href="https://thinkcollege.net">ThinkCollege</a>, which focuses on postsecondary education.</p>
       </div>
 
 
       <div className="col-lg-3 border-start-lg">
 
         <ul className="sub-menu-lists ms-1">
-          <li className="fw-bold"><Link to="/about" role="button" aria-haspopup="true">About the ICI</Link></li>
+          <li className="fw-bold"><Link to="/about">About the ICI</Link></li>
           <li><Link to="/about/history">History of ICI</Link></li>
           <li><Link to="/about/mission">Mission and Vision</Link></li>
           <li><Link to="/about/areas-of-emphasis">Areas of Emphasis</Link></li>
@@ -55,7 +55,7 @@ const activeLinkStyle = {
   </div>
 </li>
 <li className="nav-item dropdown">
-  <Link to="/projects" activeStyle={activeLinkStyle} partiallyActive={true}  className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"><span>Projects</span></Link>
+  <Link to="/projects" activeStyle={activeLinkStyle} partiallyActive={true}  className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>Projects</span></Link>
  <div className="dropdown-menu">
   <div className="row">
       <div className="col-lg-6 dt-only">
@@ -65,7 +65,7 @@ const activeLinkStyle = {
       <div className="col-lg-3 border-start-lg">
 
         <ul className="sub-menu-lists m-0 ms-1 p-0">
-          <li className="fw-bold"><Link to="/projects/">Projects Home</Link></li>
+          <li className="fw-bold"><Link to="/projects">Projects Home</Link></li>
           <li><Link to="/projects/thinkcollege">ThinkCollege</Link></li>
           <li><Link to="/projects/thinkwork">ThinkWork!</Link></li>
           <li><Link to="/projects/explorevr">ExploreVR</Link></li>
@@ -89,7 +89,7 @@ const activeLinkStyle = {
 <li><Link to="/projects/fqi">Future Quest Island</Link></li>
 <li><Link to="/projects/lend">LEND Program</Link></li>
 <li><Link to="/projects/bchdsp">Down Syndrome Program</Link></li>
-<li><a href="https://cletoolkit.communityinclusion.org/">Explore Community Life Engagement</a></li>
+<li><a href="https://cletoolkit.iciboston.org">Explore Community Life Engagement</a></li>
 <li><Link to="/projects/emp1stmo">Employment First Missouri</Link></li>
 <li><Link to="/projects/maipse">IEI</Link></li>
 <li><Link to="/projects/youthvoice">CYVYC</Link></li>
@@ -106,7 +106,7 @@ const activeLinkStyle = {
 </li>
 
  <li className="nav-item dropdown">
-   <Link to="/services" activeStyle={activeLinkStyle} partiallyActive={true} className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"><span>Services</span></Link>
+   <Link to="/services" activeStyle={activeLinkStyle} partiallyActive={true} className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>Services</span></Link>
       <div className="dropdown-menu">
       <div className="row">
       <div className="col-lg-9 dt-only">
@@ -117,9 +117,9 @@ const activeLinkStyle = {
 
         <ul className="sub-menu-lists ms-1">
           <li className="fw-bold"><a href="/services/">Services Home</a></li>
-          <li><a href="https://consulting.iciboston.org/">ICI Consulting</a></li>
-           <li><a href="https://www.directcourseonline.com/employment-services/">College of Employment Services</a></li>
-            <li><a href="/onlinelearning/cesacre/">CES/ACRE</a></li>
+          <li><a href="https://consulting.iciboston.org">ICI Consulting</a></li>
+           <li><a href="https://www.directcourseonline.com/employment-services">College of Employment Services</a></li>
+            <li><a href="/onlinelearning/cesacre">CES/ACRE</a></li>
 
 
         </ul>
@@ -132,7 +132,7 @@ const activeLinkStyle = {
   <Link to="/publications" className="nav-link" activeStyle={activeLinkStyle} partiallyActive={true}><span>Publications</span></Link>
 </li>
 <li className="nav-item">
-<Link to="/onlinelearning/" className="nav-link" activeStyle={activeLinkStyle} partiallyActive={true}><span>Online Learning</span></Link>
+<Link to="/onlinelearning" className="nav-link" activeStyle={activeLinkStyle} partiallyActive={true}><span>Online Learning</span></Link>
 </li>
 
 </ul>

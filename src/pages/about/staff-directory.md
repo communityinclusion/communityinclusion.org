@@ -8,7 +8,9 @@ thumbnail: '../../images/ICI.png'
 ---
 Staff listing and contact details<!-- end -->
 
-| NAME       |                   | PHONE          | EMAIL                                   | PROFILE                                     |
+<div class="table-responsive" role="region" aria-label="ICI staff" tabindex="0">
+
+| NAME       | <span class="visually-hidden">Last name</span> | PHONE          | EMAIL                                   | PROFILE                                     |
 |------------|-------------------|----------------|-----------------------------------------|---------------------------------------------|
 | Rachel    | Adams-Duffy            | (201) 463-1348 | <Rachel.AdamsDuffy@umb.edu>                   | [View Profile](/about/staff-directory/rachel-adams-duffy)             |
 | Melissa    | Alford            | (617) 287-4296 | <Melissa.Alford@umb.edu>                   | [View Profile](/about/staff-directory/melissa-alford)             |
@@ -125,3 +127,6 @@ Staff listing and contact details<!-- end -->
 | Cedric     | Woods             |  (617) 287-5784               | <Cedric.Woods@umb.edu>                     | [View Profile](/about/staff-directory/cedric-woods)  |
 | Will       | Woolery             |                | <William.Woolery@umb.edu>                 | [View Profile](/about/staff-directory/will-woolery)     
 | Agnes      | Zalewska          |  | <Agnes.Zalewska@umb.edu>                  | [View Profile](/about/staff-directory/agnieszka-zalewska)         |
+
+
+</div>

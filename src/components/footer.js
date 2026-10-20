@@ -10,15 +10,22 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons"
 
+// Static HTML carries the build year; update to the visitor's year after hydration
+const CopyrightYear = () => {
+  const [year, setYear] = React.useState(new Date().getFullYear())
+  React.useEffect(() => setYear(new Date().getFullYear()), [])
+  return year
+}
+
 const Footer = () => (
   <footer aria-label="Footer">
     <div className="mt-5 pt-3 bg-dark-blue">
       <div className="footer-top container-xxl	 px-3 text-white">
         <div className="row px-2-ns">
           <div className="col-md-4 col-sm-12 p-2 ">
-            <h3 className="fs-4 border-bottom border-light py-0 lh-lg text-uppercase ">
+            <h2 className="fs-4 border-bottom border-light py-0 lh-lg text-uppercase ">
               Contact
-            </h3>
+            </h2>
             <div className="d-inline-block-ns">
               <address>
                 ICI at UMass Boston
@@ -42,9 +49,9 @@ const Footer = () => (
             </div>
           </div>
           <div className="col-md-4 col-sm-12 p-2 ">
-            <h3 className="fs-4 border-bottom border-light pv-0 lh-lg text-uppercase">
+            <h2 className="fs-4 border-bottom border-light pv-0 lh-lg text-uppercase">
               Links
-            </h3>
+            </h2>
             <ul className="align-middle w-100 w-75-l list pl0 list-unstyled">
               <li>
                 {" "}
@@ -94,7 +101,7 @@ const Footer = () => (
                   rel="noopener noreferrer"
                   title="Subscribe"
                 >
-                  Subscribe
+                  Subscribe<span className="visually-hidden"> (opens in new tab)</span>
                 </a>
               </li>
               <li>
@@ -130,9 +137,9 @@ const Footer = () => (
             </ul>
           </div>
           <div className="col-md-4 col-sm-12 p-2 ">
-            <h3 className="fs-4 border-bottom border-light w-100 py-0  lh-lg text-uppercase">
+            <h2 className="fs-4 border-bottom border-light w-100 py-0  lh-lg text-uppercase">
               Social
-            </h3>
+            </h2>
 
             <ul className="social-links text-white list-inline ps-0">
               <li className="list-inline-item pe-2">
@@ -142,7 +149,7 @@ const Footer = () => (
                   title="Community Inclusion Twitter"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Twitter"
+                  aria-label="Twitter (opens in new tab)"
                 >
                   <FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>{" "}
@@ -154,7 +161,7 @@ const Footer = () => (
                   title="Community Inclusion Instagram"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Instagram"
+                  aria-label="Instagram (opens in new tab)"
                 >
                   <FontAwesomeIcon icon={faInstagram} size="2x" />
                 </a>{" "}
@@ -166,7 +173,7 @@ const Footer = () => (
                   title="Community Inclusion Facebook"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Facebook"
+                  aria-label="Facebook (opens in new tab)"
                 >
                   <FontAwesomeIcon icon={faFacebookSquare} size="2x" />
                 </a>{" "}
@@ -178,7 +185,7 @@ const Footer = () => (
                   target="_blank"
                   title="Community Inclusion Tumblr"
                   rel="noopener noreferrer"
-                  aria-label="Tumblr"
+                  aria-label="Tumblr (opens in new tab)"
                 >
                   <FontAwesomeIcon icon={faTumblrSquare} size="2x" />
                 </a>{" "}
@@ -189,7 +196,7 @@ const Footer = () => (
                   href="https://www.youtube.com/user/communityinclusion"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="YouTube"
+                  aria-label="YouTube (opens in new tab)"
                 >
                   <FontAwesomeIcon icon={faYoutube} size="2x" />
                 </a>{" "}
@@ -212,7 +219,7 @@ const Footer = () => (
           <div className="col-md-5 align-middle px-3">
             <p className="white small">
               &copy;{" "}
-              <span suppressHydrationWarning>{new Date().getFullYear()}</span>{" "}
+              <CopyrightYear />{" "}
               The ICI was founded in 1967, and
               is a program at the University of Massachusetts Boston and Boston
               Children’s Hospital. The ICI is a University Center for Excellence

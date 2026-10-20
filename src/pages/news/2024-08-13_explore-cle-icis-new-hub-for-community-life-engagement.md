@@ -12,9 +12,9 @@ Community life engagement (CLE) refers to people accessing and participating in 
 
 Through Explore CLE, we offer:
 
-* The [**CLE Toolkit**](https://cletoolkit.communityinclusion.org/), a comprehensive collection of briefs and promising practices, an interactive [Fidelity Scale](https://cletoolkit.communityinclusion.org/fidelity-scale), and other resources for service providers who support people with IDD in the community.
+* The [**CLE Toolkit**](https://cletoolkit.iciboston.org/), a comprehensive collection of briefs and promising practices, an interactive [Fidelity Scale](https://cletoolkit.iciboston.org/fidelity-scale), and other resources for service providers who support people with IDD in the community.
 
-* [**Explore CLE Learning**](https://cletoolkit.communityinclusion.org/resources/online-cle-training-course), self-paced, online courses that can help direct support professionals build their skills and feel more confident in their role working in the community.
+* [**Explore CLE Learning**](https://cletoolkit.iciboston.org/resources/online-cle-training-course), self-paced, online courses that can help direct support professionals build their skills and feel more confident in their role working in the community.
 
 * **Expert technical assistance and consultation from ICI staff.** Email us at [ExploreCLE@umb.edu](mailto:ExploreCLE@umb.edu) for more information!
 

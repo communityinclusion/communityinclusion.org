@@ -36,6 +36,9 @@ const Layout = ({ children }) => {
   `)
     return (
    <div id="gatsby-focus-wrapper">
+      <a className="skip-link visually-hidden-focusable" href="#main">
+        Skip to main content
+      </a>
       <div className="site-header">
       <Header siteTitle={data.site.siteMetadata.title} isHome />
 <Navbar />
@@ -43,7 +46,7 @@ const Layout = ({ children }) => {
 <Hero />
 </div>
 </div>
-  <main className="main-content container-lg my-4">{children}</main>
+  <main id="main" tabIndex="-1" className="main-content container-lg my-4">{children}</main>
              <Footer />
       </div>
   )

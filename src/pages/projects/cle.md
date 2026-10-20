@@ -6,7 +6,7 @@ posttype: "page"
 thumbnail: '../../images/CLE-square-logo.png'
 ---
 
-[![Go to the Community Life Engagement toolkit](../../images/cle.png)](https://cletoolkit.communityinclusion.org/)
+[![Go to the Community Life Engagement toolkit](../../images/cle.png)](https://cletoolkit.iciboston.org/)
 
 Community life engagement refers to all the ways that people with intellectual and developmental disabilities access and participate in their communities outside of employment. Activities can include volunteer work; postsecondary, adult, or continuing education; accessing community facilities such as the library, gym, or recreation center; any activities that people with and without disabilities do in their spare time. CLE activities may support  career exploration  , wrap around work time, or serve as a retirement option. ICI is conducting research on CLE to develop guidance for states and service providers on how to improve CLE supports while maintaining a focus on Employment First.
 
@@ -16,7 +16,7 @@ This [one-page, accessible flyer](https://www.thinkwork.org//sites/default/files
 
 ## Community Life Engagement Toolkit is here
 
-The toolkit was developed to help service providers develop and improve high quality supports for community life engagement (CLE). It contains guideposts for success, a self-assessment tool, real-world examples of service providers making CLE happen, and other helpful resources and tools.  You can access the CLE toolkit here:  [https://cletoolkit.communityinclusion.org/](https://cletoolkit.communityinclusion.org/)
+The toolkit was developed to help service providers develop and improve high quality supports for community life engagement (CLE). It contains guideposts for success, a self-assessment tool, real-world examples of service providers making CLE happen, and other helpful resources and tools.  You can access the CLE toolkit here:  [https://cletoolkit.iciboston.org/](https://cletoolkit.iciboston.org/)
 
 For more information on these efforts, see our two publications series (Engage and Promising Practices) and past presentations:
 

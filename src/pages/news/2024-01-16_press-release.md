@@ -65,7 +65,7 @@ The University of Massachusetts Boston is deeply rooted in the city's history ye
 <ul>
 <li> <b>Phone</b>: 857-271-6617 (mobile)</li>
 <li> <b>Email</b>:  <a class="text-break" href="mailto:Quinn.Barbour@umb.edu">Quinn.Barbour@umb.edu</a></li>
-<li> <b>Website</b>: <a class="text-break" href="http://www.communityinclusion.org/">www.communityinclusion.org</a></li>
+<li> <b>Website</b>: <a class="text-break" href="http://www.iciboston.org/">www.iciboston.org</a></li>
 </ul>
     
 <hr>

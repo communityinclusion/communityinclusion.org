@@ -227,13 +227,30 @@ a {
   text-decoration: underline;
 }
 
-a:focus {
-  outline: 1px dotted currentColor;
+a:focus-visible {
+  outline: 2px solid currentColor;
   outline-offset: 0.125rem;
 }
 
 a:active {
   outline-width: 0;
+}
+
+/* Skip link: hidden until focused (Bootstrap .visually-hidden-focusable) */
+.skip-link:focus {
+  position: absolute !important;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 1100;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: #0f6a99;
+  outline: 3px solid #0f6a99;
+  outline-offset: 0;
+}
+
+#main:focus {
+  outline: none;
 }
 
 a:hover {
@@ -441,6 +458,14 @@ ul.navbar-nav {
     0 0 0 6px #212529;
 }
 
+/* forced-colors mode drops box-shadow, so fall back to an outline */
+@media (forced-colors: active) {
+  .banner__tile:focus-visible img {
+    outline: 3px solid CanvasText;
+    outline-offset: 3px;
+  }
+}
+
 /* ICI is the resting featured tile */
 .banner__tile--ici {
   width: var(--tile-large);
@@ -641,7 +666,7 @@ article.card .card-body {
   margin-bottom: 10px;
 }
 
-h2.card-title {
+h2.card-title{
   font-size: 1.5rem;
   margin-top: 0;
   line-height: 1.5;
@@ -650,7 +675,19 @@ h2.card-title {
   margin-bottom: 10px;
 }
 
-h2.card-title a {
+#pubs h3.card-title {
+   font-size: 1.2rem;
+    font-size: 1.5rem;
+  margin-top: 0;
+  line-height: 1.5;
+  border-bottom: 4px solid #1178ad;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 10px;
+}
+
+
+h2.card-title a,
+#pubs h3.card-title a {
   font-weight: 700;
   color: #0075ad;
   margin-top: 0.5rem;
@@ -658,7 +695,8 @@ h2.card-title a {
   text-decoration: none;
 }
 
-h2.card-title a:hover {
+h2.card-title a:hover,
+#pubs h3.card-title a:hover {
   color: #0e608a;
 }
 

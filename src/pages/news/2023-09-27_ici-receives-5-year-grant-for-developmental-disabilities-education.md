@@ -23,4 +23,4 @@ With these funds from ACL, the ICI will continue to partner with people with dis
 
 * advocating for personal choice and self-determination
 
-The ICI and the Eunice Kennedy Shriver Center at UMass Medical School are the two UCEDDs in Massachusetts. The ICI was established as a UCEDD in 1968. This year, the ICI celebrates our 55th year as a [University Center for Excellence in Developmental Disabilities](https://www.communityinclusion.org/about/) !
+The ICI and the Eunice Kennedy Shriver Center at UMass Medical School are the two UCEDDs in Massachusetts. The ICI was established as a UCEDD in 1968. This year, the ICI celebrates our 55th year as a [University Center for Excellence in Developmental Disabilities](https://www.iciboston.org/about/) !

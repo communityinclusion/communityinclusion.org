@@ -5,7 +5,12 @@ import * as React from "react"
 
 export function Hero() {
   return (
-    <div className="bg-light my-2" style={{ display: "grid" }}>
+    <div
+      className="bg-light my-2"
+      style={{ display: "grid" }}
+      role="region"
+      aria-label="About the ICI"
+    >
       {/* You can use a GatsbyImage component if the image is dynamic */}
       {/* <StaticImage
         className="heroImage"
