@@ -58,12 +58,53 @@ const jobsTemplate = ({ pageContext, data, location  }) => {
  
 
 export const Head = ({ data }) => {
-  const { frontmatter, excerpt } = data.markdownRemark;
-  return <Seo title={frontmatter.title} description={frontmatter.description || excerpt} />;
+  const { frontmatter, excerpt, html } = data.markdownRemark;
+  const { siteUrl } = data.site.siteMetadata;
+
+  // https://developers.google.com/search/docs/appearance/structured-data/job-posting
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    title: frontmatter.title,
+    description: html || frontmatter.description || excerpt,
+    datePosted: frontmatter.datePosted || undefined,
+    validThrough: frontmatter.validThrough || undefined,
+    hiringOrganization: {
+      "@type": "Organization",
+      name: "Institute for Community Inclusion, UMass Boston",
+      sameAs: siteUrl,
+      logo: `${siteUrl}/ici_banner-lg.png`,
+    },
+    jobLocation: {
+      "@type": "Place",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "100 Morrissey Blvd.",
+        addressLocality: "Boston",
+        addressRegion: "MA",
+        postalCode: "02125",
+        addressCountry: "US",
+      },
+    },
+    url: frontmatter.umb_post_url || undefined,
+  };
+
+  return (
+    <Seo
+      title={frontmatter.title}
+      description={frontmatter.description || excerpt}
+      schema={schema}
+    />
+  );
 };
 
 export const pageQuery = graphql`
   query($slug: String!) {
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       excerpt
@@ -75,6 +116,9 @@ export const pageQuery = graphql`
         description
         umb_post_url
         close_date(formatString: "MMMM D, YYYY")
+        # raw ISO dates for the JobPosting structured data
+        datePosted: date
+        validThrough: close_date
     }
    }
   }

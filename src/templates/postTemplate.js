@@ -63,6 +63,32 @@ return (
 
 export const Head = ({ data }) => {
   const { frontmatter, excerpt } = data.markdownRemark
+  const { siteUrl } = data.site.siteMetadata
+
+  // https://developers.google.com/search/docs/appearance/structured-data/article
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline: frontmatter.title,
+    description: frontmatter.description || excerpt,
+    image: frontmatter.thumbnail?.publicURL
+      ? [`${siteUrl}${frontmatter.thumbnail.publicURL}`]
+      : undefined,
+    datePublished: frontmatter.isoDate || undefined,
+    keywords: frontmatter.tags?.join(", ") || undefined,
+    author: {
+      "@type": "Organization",
+      name: "Institute for Community Inclusion, UMass Boston",
+      url: siteUrl,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Institute for Community Inclusion, UMass Boston",
+      url: siteUrl,
+      logo: { "@type": "ImageObject", url: `${siteUrl}/ici_banner-lg.png` },
+    },
+  }
+
   return (
     <Seo
       title={frontmatter.title}
@@ -71,12 +97,18 @@ export const Head = ({ data }) => {
       image={frontmatter.thumbnail?.publicURL}
       publishedTime={frontmatter.isoDate}
       tags={frontmatter.tags}
+      schema={schema}
     />
   )
 }
 
 export const pageQuery = graphql`
    query($slug: String!) {
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       excerpt
       html

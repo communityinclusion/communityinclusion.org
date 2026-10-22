@@ -1,6 +1,5 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
 import NavLinks from "./NavLinks"
 import GoogleCustomSearchBox from "./GoogleCustomSearchBox.jsx"
 import "../styles/custom.css"

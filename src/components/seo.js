@@ -13,7 +13,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 // another page's static HTML. Returning plain elements here lets Gatsby
 // scope the output correctly per page.
 
-const Head = ({ title, description, image, type, publishedTime, modifiedTime, tags }) => {
+const Head = ({ title, description, image, type, publishedTime, modifiedTime, tags, schema }) => {
   const { pathname } = useLocation();
 
   const { site } = useStaticQuery(
@@ -85,6 +85,17 @@ const Head = ({ title, description, image, type, publishedTime, modifiedTime, ta
       <meta name="twitter:image" content={seo.image} />
 
       <meta name="google-site-verification" content="DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk" />
+
+      {/* schema.org structured data (JSON-LD), built by each template */}
+      {/* escape "<" so HTML inside the data (e.g. a job description) can't close the script tag */}
+      {schema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schema).replace(/</g, "\\u003c"),
+          }}
+        />
+      )}
     </>
   );
 };
@@ -99,6 +110,7 @@ Head.propTypes = {
   publishedTime: PropTypes.string,
   modifiedTime: PropTypes.string,
   tags: PropTypes.arrayOf(PropTypes.string),
+  schema: PropTypes.object,
 };
 
 Head.defaultProps = {

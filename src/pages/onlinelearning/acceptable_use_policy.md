@@ -39,11 +39,11 @@ You may not use the services to publish content or engage in activity that is il
 
 <hr>
 
-<h2 class="page-title"> ICI Online Learning Privacy Policy - FAQ<h2>
+<h2 class="page-title">ICI Online Learning Privacy Policy - FAQ</h2>
 
-### The ICI at the University of Massachusetts Boston does not sell or share your personal information without your permission.
+The ICI at the University of Massachusetts Boston does not sell or share your personal information without your permission.
  
-Do you track my performance and activities online?
+### Do you track my performance and activities online?
 Yes. We may collect information about your actions and activities within a course for two reasons:
 
 1. to award you a certificate when you complete a course
