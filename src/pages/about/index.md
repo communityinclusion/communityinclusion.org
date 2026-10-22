@@ -20,9 +20,9 @@ description: "The ICI at UMass Boston supports the rights of children and adults
 
 <p>We have three national hubs, focused on employment and education:</p>
 <ul>
-<li><a href="https://www.explorevr.org/">ExploreVR</a> is for vocational rehabilitation agencies and researchers. It features ICI projects related to vocational rehabilitation research, data, and tools for planning, evaluation, and decision-making.  </li>
-<li><a href="https://www.thinkwork.org/">ThinkWork</a> is for people with intellectual and/or developmental disabilities (IDD), their families, employment practitioners, and policymakers. It features ICI projects related to employment for people with IDD.</li>
-<li><a href="https://thinkcollege.net/">ThinkCollege</a> is for students with intellectual disability, their families, educators, policymakers, and institutes of higher education. It features ICI projects related to postsecondary education for students with intellectual disability.</li>
+<li><a href="https://www.explorevr.org">ExploreVR</a> is for vocational rehabilitation agencies and researchers. It features ICI projects related to vocational rehabilitation research, data, and tools for planning, evaluation, and decision-making.  </li>
+<li><a href="https://www.thinkwork.org">ThinkWork</a> is for people with intellectual and/or developmental disabilities (IDD), their families, employment practitioners, and policymakers. It features ICI projects related to employment for people with IDD.</li>
+<li><a href="https://thinkcollege.net">ThinkCollege</a> is for students with intellectual disability, their families, educators, policymakers, and institutes of higher education. It features ICI projects related to postsecondary education for students with intellectual disability.</li>
 </ul>
 
 <div class="row pt-4 mb-4">
@@ -112,7 +112,7 @@ description: "The ICI at UMass Boston supports the rights of children and adults
 <div class="card w-100">
 <div class="card-body">
         
-   <h2 class="card-title"><a class="link dt w-100 mt-2 dark-blue" href="/about/cac/">Community Advisory Committee</a></h2>
+   <h2 class="card-title"><a class="link dt w-100 mt-2 dark-blue" href="/about/cac">Community Advisory Committee</a></h2>
        <p class="card-text"> The ICI Community Advisory Committee (CAC) is a Massachusetts-based advisory group that provides guidance to the ICI.</p> 
 </div>
 </div>

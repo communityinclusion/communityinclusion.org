@@ -182,8 +182,6 @@ The Service Providers We use may have access to Your Personal Data. These third-
     
 *   [Constant Contact](https://www.constantcontact.com/legal/privacy-center)
     
-*   [AddThis](http://www.addthis.com/privacy/privacy-policy/)
-    
 *   [Facebook](https://www.facebook.com/privacy/explanation)
     
 *   [Twitter](https://twitter.com/en/privacy)

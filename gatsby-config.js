@@ -41,7 +41,7 @@ module.exports = {
         resolveEnv: () => (isProduction ? "production" : "blocked"),
         env: {
           production: {
-            policy: [{ userAgent: "*", allow: "/" }],
+            policy: [{ userAgent: "*", allow: "/", disallow: ["/styleguide/"] }],
           },
           blocked: {
             policy: [{ userAgent: "*", disallow: ["/"] }],
@@ -241,6 +241,9 @@ module.exports = {
     "babel-plugin-styled-components",
     {
       resolve: "gatsby-plugin-sitemap",
+      options: {
+        excludes: ["/styleguide", "/styleguide/"],
+      },
     },
     {
       resolve: `gatsby-plugin-breadcrumb`,

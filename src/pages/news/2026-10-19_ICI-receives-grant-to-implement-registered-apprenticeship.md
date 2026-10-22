@@ -1,7 +1,7 @@
 ---
 title: "ICI at UMass Boston receives $175,500 Grant to Implement Registered Apprenticeship for Direct Support Professionals"
 description: ""
-path: "/news/2026-10-19_ICI-receives-grant-to-implement-registered-apprenticeship"
+path: "/news/2026-10-19_ici-receives-grant-to-implement-registered-apprenticeship"
 date: "2026-10-19"
 tags: ['grant','Institute for Community Inclusion','Press Release']
 posttype: "news"
