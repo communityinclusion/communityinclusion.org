@@ -86,6 +86,10 @@
   color: #522e75;
 }
 
+/* use for green text on white background */
+.darkgreen {
+ color: #4a7a27
+}
 .bg-purple {
   background-color: #522e75 !important;
 }
@@ -874,8 +878,8 @@ header ul.social-links a {
   color: #1178ad;
 }
 
-h1.page-title,
-h1.post-title {
+.page-title,
+.post-title {
   padding: 30px 0px 10px;
   border-bottom: 2px solid #5d9632;
 }

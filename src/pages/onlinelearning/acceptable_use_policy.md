@@ -39,7 +39,7 @@ You may not use the services to publish content or engage in activity that is il
 
 <hr>
 
-<h1 class="page-title"> ICI Online Learning Privacy Policy - FAQ<h1>
+<h2 class="page-title"> ICI Online Learning Privacy Policy - FAQ<h2>
 
 ### The ICI at the University of Massachusetts Boston does not sell or share your personal information without your permission.
  

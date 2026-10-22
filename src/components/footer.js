@@ -58,7 +58,6 @@ const Footer = () => (
                 <Link
                   to="/about/"
                   className="link  whited-inline-block"
-                  title="About"
                 >
                   About ICI
                 </Link>
@@ -67,7 +66,6 @@ const Footer = () => (
                 <Link
                   to="/about/areas-of-emphasis"
                   className="link white d-inline-block"
-                  title="Areas of Emphasis"
                 >
                   Areas of Emphasis
                 </Link>
@@ -77,7 +75,6 @@ const Footer = () => (
                 <Link
                   to="/projects"
                   className="link white d-inline-block"
-                  title="Projects"
                 >
                   Projects
                 </Link>
@@ -87,7 +84,6 @@ const Footer = () => (
                 <Link
                   to="/services"
                   className="link white d-inline-block"
-                  title="Services"
                 >
                   Services
                 </Link>
@@ -109,7 +105,6 @@ const Footer = () => (
                 <Link
                   to="/about/contact"
                   className="link white d-inline-block"
-                  title="contact"
                 >
                   Contact
                 </Link>
@@ -119,7 +114,6 @@ const Footer = () => (
                 <Link
                   to="/jobs"
                   className="link white d-inline-block"
-                  title="Jobs at ICI"
                 >
                   Jobs at ICI
                 </Link>
@@ -129,7 +123,6 @@ const Footer = () => (
                 <Link
                   to="/donate"
                   className="link white d-inline-block"
-                  title="Donate"
                 >
                   Donate
                 </Link>
@@ -146,7 +139,7 @@ const Footer = () => (
                 {" "}
                 <a
                   href="https://twitter.com/ICInclusion"
-                  title="Community Inclusion Twitter"
+                  title="ICI Twitter"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Twitter (opens in new tab)"
@@ -183,7 +176,7 @@ const Footer = () => (
                 <a
                   href="https://communityinclusion.tumblr.com/"
                   target="_blank"
-                  title="Community Inclusion Tumblr"
+                  title="ICI Tumblr"
                   rel="noopener noreferrer"
                   aria-label="Tumblr (opens in new tab)"
                 >
@@ -231,19 +224,19 @@ const Footer = () => (
           <div className="col-md-3 v-mid px-3">
             <ul className="list-inline ">
               <li className="list-inline-item flex-fill pe-2 border-end border-light">
-                <Link to="/about/privacy/" title="Privacy">
+                <Link to="/about/privacy/">
                   Privacy{" "}
                 </Link>{" "}
               </li>
               <li className="list-inline-item flex-fill border-end border-light pe-2 ps-2">
                 {" "}
-                <Link to="/about/accessibility/" title="Accessibility">
+                <Link to="/about/accessibility/">
                   Accessibility{" "}
                 </Link>{" "}
               </li>
               <li className="list-inline-item flex-fill ps-1">
                 {" "}
-                <Link to="/donate/" title="Donate">
+                <Link to="/donate/">
                   Donate{" "}
                 </Link>{" "}
               </li>

@@ -27,7 +27,7 @@ thumbnail: "../../images/ICI.png"
   </div>
     <div class="col-md-3 order-first order-md-last">
       <div class="card card-body">
-        <nav><strong class="d-block h6 my-2 pb-2 border-bottom grey">On This Page</strong>
+        <nav aria-label="On this page"><strong class="d-block h6 my-2 pb-2 border-bottom grey">On This Page</strong>
             <ul style="list-style-type: none;">
         <li><a href="#apply">Apply</a></li>
         <li><a href="#coaches">For Coaches</a></li>

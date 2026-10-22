@@ -21,7 +21,7 @@ thumbnail: "../../images/ICI.png"
     <div class="container-fluid py-2"> 
         <div class="row">
             <div class="col-sm-6 pt-sm-5">
-            <h1 class="display-3">Welcome to ARRT!</h1>
+            <h2 class="display-3">Welcome to ARRT!</h2>
 <p class="fs-4">Are you a researcher interested in applying for a postdoctoral ARRT Program Fellowship? </p>
 <p>Explore this page for more information.</p> 
             </div>
@@ -65,7 +65,7 @@ thumbnail: "../../images/ICI.png"
 
 <section id="why-arrt">
 <h2 class="card-title">Why ARRT?</h2>
-<h4 id="we-need-better-representation-and-capacity-in-the-idd-research-workforce-and-field-how-do-we-know-">We need better representation and capacity in the IDD research workforce and field! How do we know?</h4>
+<h3 class="h4" id="we-need-better-representation-and-capacity-in-the-idd-research-workforce-and-field-how-do-we-know-">We need better representation and capacity in the IDD research workforce and field! How do we know?</h3>
 <p><strong>The workforce does not fully reflect or meet the needs of the populations it serves.</strong> </p>
 <ul>
 <li>People from a wide variety of communities  and people with disabilities are underrepresented in the employment services workforce</li>
@@ -84,7 +84,7 @@ thumbnail: "../../images/ICI.png"
 <p>Applications for the Fall 2026 fellowship positions are now closed.</p>
 <p>We encourage individuals interested in future opportunities to reach out directly to the program contacts for more information.</p>
 
-<h4 id="who-are-you-">Who are you?</h4>
+<h3 class="h4" id="who-are-you-">Who are you?</h3>
 <ul>
     <li>A U.S. citizen or legal permanent resident with a doctoral degree (or equivalent) in a relevant field, such as rehabilitation, education, social sciences, public health, or public policy</li>
     <li>Interested and experienced in disability research (especially IDD) with professional or volunteer experience in the field</li>

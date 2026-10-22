@@ -5,4 +5,4 @@ path: "/about/fellowships/gopen"
 posttype: "page"
 ---
 
-<h3 class="text-center">Due to funding constraints, we will not be offering the Gopen Fellowship for the upcoming year.</h3>
+<h2 class="h3 text-center">Due to funding constraints, we will not be offering the Gopen Fellowship for the upcoming year.</h2>

@@ -8,7 +8,7 @@ import "../components/nav.css"
 
 const Navbar = ({ siteTitle }) => {
   return (
-    <nav className="navbar navbar-expand-lg bg-primary">
+    <nav className="navbar navbar-expand-lg bg-primary" aria-label="Main">
       <div className="container-xxl">
         <button
           className = "navbar-toggler ms-auto"
