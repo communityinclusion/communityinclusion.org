@@ -6,22 +6,26 @@ date: 2021-11-14
 thumbnail: "../../images/ICI.png"
 ---
 
-<div class="row">
-<div class="p-2 mb-2 bg-light rounded-3 col-md-9 row">
-  <div class="col-md-2">
-  <a href="/projects/maipse">
-    <img src="../../images/maicie/MAIPSE_V2.png"  alt="MAIPSE LOGO">
-    <img src="../../images/maicie/UMB_blue.png"  alt="UMASS BOSTON">
-    </a>
-  </div>
-  <div class="col-md-10 container-fluid py-2">
-    <p class=" fs-4">
-      The IEI offers higher education opportunities for students through partnerships with local school districts and state agencies. The IEI is a non-degree seeking enrollment opportunity designed to support students with intellectual disabilities, autism, or other developmental disabilities to go to college. Students can increase their academic, social, and career outcomes by sharing the same experiences as their college peers.  </p>
-<p class="fs-4">The state-funded MAIPSE supports partnerships between local school districts, the Department of Developmental Services (DDS), the Massachusetts Rehabilitation Commision (MRC), other state agencies, and 2- and 4-year public colleges and universities in Massachusetts.
-</p>
+<div class="row g-4 mb-4">
+  <div class="col-md-9">
+    <div class="p-2 bg-light rounded-3">
+      <div class="row p-2">
+        <div class="col-md-2">
+          <a href="/projects/maipse">
+            <img src="../../images/maicie/MAIPSE_V2.png"  alt="MAIPSE LOGO">
+            <img src="../../images/maicie/UMB_blue_534x260.png"  alt="UMASS BOSTON">
+          </a>
+        </div>
+        <div class="col-md-10 py-2">
+          <p class=" fs-4">
+            The IEI offers higher education opportunities for students through partnerships with local school districts and state agencies. The IEI is a non-degree seeking enrollment opportunity designed to support students with intellectual disabilities, autism, or other developmental disabilities to go to college. Students can increase their academic, social, and career outcomes by sharing the same experiences as their college peers.  </p>
+          <p class="fs-4">The state-funded MAIPSE supports partnerships between local school districts, the Department of Developmental Services (DDS), the Massachusetts Rehabilitation Commision (MRC), other state agencies, and 2- and 4-year public colleges and universities in Massachusetts.
+          </p>
+        </div>
       </div>
     </div>
-    <div class="col-md-3 container">
+  </div>
+    <div class="col-md-3 order-first order-md-last">
       <div class="card card-body">
         <nav><strong class="d-block h6 my-2 pb-2 border-bottom grey">On This Page</strong>
             <ul style="list-style-type: none;">
@@ -36,35 +40,35 @@ thumbnail: "../../images/ICI.png"
     </div>  
     </div>
     <section id="apply">
-    <div class="row align-items-md-stretch">
+    <div class="row g-4 align-items-md-stretch">
       <div class="col-md-6">
         <div class="h-100 p-5 text-white bg-purple rounded-3">
-          <h4>Community Partnerships 
+            <h2 class="h4">Community Partnerships 
             Application Process
-            </h4>
+            </h2>
             <p>We accept applications from families, DDS, MassAbility, or other agencies for students who are over the age of 22, have not received a high school diploma, and meet MAIPSE eligibility requirements. </p>
             <p><strong>We are currently in the planning stages of developing our community partnerships enrollment pathway.</strong></p>
             <p>Sign up to learn more:</p> 
-            <p><a href="https://forms.gle/fhJ25FXBa4JEn3dg9" class="btn btn-outline-secondary" type="button">Sign Up</a></p>
+            <p><a href="https://forms.gle/fhJ25FXBa4JEn3dg9" class="btn btn btn-outline-light" type="button">Sign Up</a></p>
         </div>
       </div>
       <div class="col-md-6">
         <div class="h-100 p-5 bg-light border rounded-3">
-          <h4>School District Partnerships<br> 
+          <h2 class="h4">School District Partnerships<br> 
             Application Process 
-             </h4>
+             </h2>
              <p>We accept applications from all local school districts for students who are 18-21, receiving transition services, and meet MAIPSE eligibility requirements. If you are unsure whether your school is already a partner, please contact us. </p>
              <p><strong>Application Deadline for Fall Semester Start:</strong>
              <br>Due February 20 </p>
-          <p><a href="/files/maicei/UMassBostonInclusiveEdInitiativeApplication.pdf" class="btn btn-outline-secondary" type="button">Download Application</a></p>
+          <p><a href="/files/maicei/UMassBostonInclusiveEdInitiativeApplication.pdf" class="btn btn-outline-dark" type="button">Download Application</a></p>
         </div>
       </div>
     </div>
     <hr>
-    <div class="row align-items-md-stretch">
+    <div class="row g-4 align-items-md-stretch">
       <div class="col-md-6">
         <div class="h-100 p-5 bg-light rounded-3">
-          <h4>Virtual Information Sessions </h4>
+          <h2 class="h4">Virtual Information Sessions </h2>
           <p>We encourage all interested applicants and partners to attend a virtual information session, to learn more about the IEI at UMass Boston. </p>
           <p>
             <strong>Sign up for a virtual session:</strong>
@@ -75,7 +79,7 @@ thumbnail: "../../images/ICI.png"
       </div>
       <div class="col-md-6">
         <div class="h-100 p-5 text-white bg-purple border rounded-3">
-          <h4>Contact Information </h4>
+           <h2 class="h4">Contact Information </h2>
 <p>For questions, contact:</p>
 <p>Rachel Estremera  <br /> 
   Program Coordinator <br />
@@ -88,14 +92,14 @@ thumbnail: "../../images/ICI.png"
   </section>
     <hr>
     <section id="coaches">
-      <h2>For Peer Coaches</h2>
+      <h3>For Peer Coaches</h3>
       <div class="accordion accordion-flush" id="accordion-mentor">
         <div class="accordion-item">
-          <h2 class="accordion-header" id="mentor-headingOne">
+          <h4 class="accordion-header" id="mentor-headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mentor-collapseOne" aria-expanded="false" aria-controls="mentor-collapseOne">
               Are you interested in becoming a peer coach?
             </button>
-          </h2>
+          </h4>
           <div id="mentor-collapseOne" class="accordion-collapse collapse" aria-labelledby="mentor-headingOne" data-bs-parent="#accordion-mentor">
             <div class="accordion-body">
               <p>Peer coaches are current UMass Boston undergraduate and graduate students. Peer coaches support students enrolled in the IEI by promoting friendship development, exploring campus resources, encouraging involvement in clubs and activities, and providing academic support.</p>
@@ -107,13 +111,13 @@ thumbnail: "../../images/ICI.png"
     </section>
     <hr>
 <section id="faqs">
-<h2>FAQs</h2>
+<h3>FAQs</h3>
 <div class="accordion accordion-flush" id="accordion-faq">
   <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingOne">
+    <h4 class="accordion-header" id="flush-headingOne">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
         Who is eligible for MAIPSE?      </button>
-    </h2>
+    </h4>
     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion-faq">
       <div class="accordion-body"><p>MAIPSE is open to students with severe intellectual disability, autism, or other developmental disability who want to go to college. </p>
       <p>For students attending through school district partnerships→ participation is open to students who have a documented severe intellectual disability, autism, or other developmental disability, and:
@@ -135,11 +139,11 @@ thumbnail: "../../images/ICI.png"
     </div>
   </div>
   <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingTwo">
+    <h4 class="accordion-header" id="flush-headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
         How can students with intellectual and developmental disabilities participate in postsecondary education?
       </button>
-    </h2>
+    </h4>
     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordion-faq">
       <div class="accordion-body"><p>
         Students who are eligible for special education services and fit the aforementioned disability/age requirements, should contact their school district's transition coordinator to begin the conversation about college-based transition services. </p>
@@ -149,11 +153,11 @@ thumbnail: "../../images/ICI.png"
     </div>
   </div>
   <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingSix">
+    <h4 class="accordion-header" id="flush-headingSix">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
         What is the difference between the terms "dual enrollment" and "IPSE"?
       </button>
-    </h2>
+    </h4>
     <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordion-faq">
       <div class="accordion-body">
         <dl>
@@ -168,11 +172,11 @@ thumbnail: "../../images/ICI.png"
     </div>
   </div>
   <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingFive">
+    <h4 class="accordion-header" id="flush-headingFive">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
         How does IPSE benefit students with intellectual and developmental disabilities?
       </button>
-    </h2>
+    </h4>
     <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordion-faq">
       <div class="accordion-body"><p>Evidence shows that students benefit academically and transition to young adulthood more independently when they can engage in the array of academic, social, and career development activities alongside their peers on a college campus. </p>
         <p>Students benefit by participation in:
@@ -191,7 +195,7 @@ thumbnail: "../../images/ICI.png"
 </section>
 <hr>
 <section id="news">
-  <h2>UMass Boston MAICEI In the News!</h2>
+  <h3>UMass Boston MAICEI In the News!</h3>
   <div class="grid-30">
       <div class="card" >
         <div class="card-header text-uppercase">
@@ -227,7 +231,7 @@ thumbnail: "../../images/ICI.png"
 </section>
 <hr>
 <section id="leadership">
-<h2>Boston IPSE Consortium </h2>
+<h3>Boston IPSE Consortium </h3>
 <p>The Boston IPSE planning team  includes representatives from the University of Massachusetts Boston, Massachusetts College of Art and Design, Roxbury Community College, Bunker Hill Community College, local partnering school districts, representatives from the Department of Developmental Services, Massachusetts Rehabilitation Commission, parent advisors, and community advocates. The team meets four times a year and plays a key role in the implementation and oversight of post secondary education partnerships in the greater Boston area.
 </p>
 </section>

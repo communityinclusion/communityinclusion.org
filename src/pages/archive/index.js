@@ -3,6 +3,7 @@ import React from 'react';
 import PublicationArchive from '../../components/PublicationArchive';
 import pubs from './pubs.json';
 import Layout from "../../components/layout"
+import Seo from "../../components/seo"
 
 
 export default function App() {
@@ -14,3 +15,4 @@ export default function App() {
     </Layout>
   );
 }
+export const Head = () => <Seo title="Publications Archive" />

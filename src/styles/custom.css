@@ -916,6 +916,13 @@ main.main-content .posttemplate .post {
   width: 100%;
 }
 
+/* .table-responsive's overflow-x: auto also turns on vertical scrolling, and the
+   collapsed table border sticks out 1px below the table. Make room for it so the
+   bottom border shows and no vertical scrollbar appears. */
+.pagetemplate .table-responsive {
+  padding-bottom: 1px;
+}
+
 .pagetemplate table td,
 .pagetemplate table th {
   border: 1px solid #ddd;

@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link, graphql} from 'gatsby'
 import { kebabCase } from 'lodash'
 import Layout from '../../components/layout'
+import Seo from '../../components/seo'
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 
 
@@ -55,3 +56,4 @@ export const tagPageQuery = graphql`
     }
   }
 `
+export const Head = () => <Seo title="Tags" />
