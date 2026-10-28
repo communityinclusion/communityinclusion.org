@@ -5,6 +5,13 @@ date: 2025-03-26
 posttype: "page"
 thumbnail: "../../images/ICI.png"
 ---
+
+<h2>Federal scholarships are available for Fall 2027!</h2>
+
+<p>UMass Boston's Transition Leadership Program (TLP) will offer federal scholarship opportunities to eligible students beginning in Fall 2027 through a grant from the U.S. Department of Education's Office of Special Education Programs (OSEP).</p>
+
+<p>Scholarships are limited, and eligibility requirements apply. Scholarship recipients must meet applicable federal grant requirements.</p>
+
 <h2>Are you ready to apply?</h2>
 <p>Here’s our checklist of the 5 things you need to apply for the UMass Boston Transition Leadership Program:
  <ol>
