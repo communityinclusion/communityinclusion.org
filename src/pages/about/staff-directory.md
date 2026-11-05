@@ -141,13 +141,6 @@ Staff listing and contact details<!-- end -->
       <td><a href="/about/staff-directory/irina-cain" aria-label="View profile: Irina Cain">View Profile</a></td>
     </tr>
     <tr>
-      <td>Belkis</td>
-      <td>Choiseul-Praslin</td>
-      <td></td>
-      <td><a href="mailto:B.Choiseul-Praslin@umb.edu">B.Choiseul-Praslin@umb.edu</a></td>
-      <td><a href="/about/staff-directory/belkis-choiseul-praslin" aria-label="View profile: Belkis Choiseul-Praslin">View Profile</a></td>
-    </tr>
-    <tr>
       <td>Jeff</td>
       <td>Coburn</td>
       <td></td>
@@ -232,13 +225,6 @@ Staff listing and contact details<!-- end -->
       <td><a href="/about/staff-directory/rachel-estremera" aria-label="View profile: Rachel Estremera">View Profile</a></td>
     </tr>
     <tr>
-      <td>Karen</td>
-      <td>Flippo</td>
-      <td></td>
-      <td><a href="mailto:Karen.Flippo@umb.edu">Karen.Flippo@umb.edu</a></td>
-      <td><a href="/about/staff-directory/karen-flippo" aria-label="View profile: Karen Flippo">View Profile</a></td>
-    </tr>
-    <tr>
       <td>Jason</td>
       <td>Fogler</td>
       <td></td>
@@ -258,13 +244,6 @@ Staff listing and contact details<!-- end -->
       <td>(617) 287-4359</td>
       <td><a href="mailto:Paul.Foos@umb.edu">Paul.Foos@umb.edu</a></td>
       <td><a href="/about/staff-directory/paul-foos" aria-label="View profile: Paul Foos">View Profile</a></td>
-    </tr>
-    <tr>
-      <td>Laurie</td>
-      <td>Ford</td>
-      <td></td>
-      <td><a href="mailto:laurie.ford@umb.edu">laurie.ford@umb.edu</a></td>
-      <td><a href="/about/staff-directory/laurie-ford" aria-label="View profile: Laurie Ford">View Profile</a></td>
     </tr>
     <tr>
       <td>Olivia</td>
@@ -505,20 +484,6 @@ Staff listing and contact details<!-- end -->
       <td><a href="/about/staff-directory/janice-mcdonald" aria-label="View profile: Janice McDonald">View Profile</a></td>
     </tr>
     <tr>
-      <td>Pam</td>
-      <td>McFarland</td>
-      <td>(781) 241-7798</td>
-      <td><a href="mailto:Pamela.McFarland@umb.edu">Pamela.McFarland@umb.edu</a></td>
-      <td><a href="/about/staff-directory/pam-mcfarland" aria-label="View profile: Pam McFarland">View Profile</a></td>
-    </tr>
-    <tr>
-      <td>Neil</td>
-      <td>McNeil</td>
-      <td>(617) 287-4294</td>
-      <td><a href="mailto:Neil.McNeil@umb.edu">Neil.McNeil@umb.edu</a></td>
-      <td><a href="/about/staff-directory/neil-mcneil" aria-label="View profile: Neil McNeil">View Profile</a></td>
-    </tr>
-    <tr>
       <td>Alberto</td>
       <td>Migliore</td>
       <td>(617) 287-4306</td>
@@ -531,13 +496,6 @@ Staff listing and contact details<!-- end -->
       <td></td>
       <td><a href="mailto:Britni.Miles@umb.edu">Britni.Miles@umb.edu</a></td>
       <td><a href="/about/staff-directory/brit-miles" aria-label="View profile: Brit Miles">View Profile</a></td>
-    </tr>
-    <tr>
-      <td>Jeanne</td>
-      <td>Miller</td>
-      <td></td>
-      <td><a href="mailto:jeanne.miller@umb.edu">jeanne.miller@umb.edu</a></td>
-      <td><a href="/about/staff-directory/jeanne-miller" aria-label="View profile: Jeanne Miller">View Profile</a></td>
     </tr>
     <tr>
       <td>Susanna</td>
@@ -762,13 +720,6 @@ Staff listing and contact details<!-- end -->
       <td></td>
       <td><a href="mailto:ryan.wedeking@umb.edu">ryan.wedeking@umb.edu</a></td>
       <td><a href="/about/staff-directory/ryan-wedeking" aria-label="View profile: Ryan Wedeking">View Profile</a></td>
-    </tr>
-    <tr>
-      <td>Cate</td>
-      <td>Weir</td>
-      <td>(603) 848-4901</td>
-      <td><a href="mailto:Cathryn.Weir@umb.edu">Cathryn.Weir@umb.edu</a></td>
-      <td><a href="/about/staff-directory/cate-weir" aria-label="View profile: Cate Weir">View Profile</a></td>
     </tr>
     <tr>
       <td>Alison</td>
