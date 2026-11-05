@@ -40,8 +40,6 @@ const Footer = () => (
                 <br />
                 Voice: (617) 287-4300
                 <br />
-                TTY: (617) 287-4350
-                <br />
                 Email: <a href="mailto:ici@umb.edu">ici@umb.edu</a>
                 <br />
                 &nbsp;
