@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>ICI Organizational Chart</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
+  <style>
+/* =========================================================
+   ICI Org Chart — custom CSS only
+   Requires Bootstrap 5.3 CSS + JS loaded separately
+   (CodePen: Settings → CSS → Add External Stylesheets).
+   Bootstrap JS is NOT required.
+   ========================================================= */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Source+Sans+3:wght@400;600&display=swap");
+
+/* ---------- Tokens ---------- */
+:root {
+  --oc-bg: #f6f8fa;
+  --oc-surface: #ffffff;
+  --oc-fg: #16202c;
+  --oc-muted: #4b5866;
+  --oc-line: #6b7a89;
+  --oc-focus: #0a58ca;
+  --oc-tip-bg: #16202c;
+  --oc-tip-fg: #ffffff;
+  --oc-tip-muted: #c6d0da;
+
+  /* Team fills: ICI brand hues, darkened where needed for 4.5:1 contrast with white text */
+  --oc-employment: #3e7a22;
+  --oc-education: #5b2d82;
+  --oc-community: #a8242a;
+  --oc-health: #b0470c;
+  --oc-core: #2b6a99;
+  --oc-comms: #005f91;
+  --oc-admin: #13213f;
+
+  --oc-display: "Montserrat", "Gotham", "Helvetica Neue", Arial, sans-serif;
+  --oc-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+}
+
+/* Optional dark mode — delete this block if your site is light-only */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --oc-bg: #0f151c;
+    --oc-surface: #18212b;
+    --oc-fg: #e8edf2;
+    --oc-muted: #a9b6c3;
+    --oc-line: #4f5d6b;
+    --oc-focus: #7fb2ff;
+    --oc-tip-bg: #f3f6f9;
+    --oc-tip-fg: #101820;
+    --oc-tip-muted: #43505d;
+    --oc-admin: #2a3c66;
+  }
+}
+
+/* ---------- Wrapper ---------- */
+html,
+body {
+  min-height: 100%;
+  background: var(--oc-bg);
+  color: var(--oc-fg);
+}
+.oc {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+  color: var(--oc-fg);
+  font-family: var(--oc-body);
+}
+.oc .container-fluid { padding-left: 0; padding-right: 0; }
+
+/* ---------- Header & type ---------- */
+.oc-eyebrow {
+  font-family: var(--oc-display);
+  font-weight: 700;
+  font-size: .78rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--oc-muted);
+}
+.oc h1 {
+  font-family: var(--oc-display);
+  font-weight: 800;
+  font-size: clamp(1.6rem, 3.5vw, 2.25rem);
+  text-wrap: balance;
+}
+.oc-intro { color: var(--oc-muted); max-width: 68ch; }
+.oc kbd {
+  background: var(--oc-surface);
+  color: var(--oc-fg);
+  border: 1px solid var(--oc-line);
+  font-family: var(--oc-body);
+  font-size: .85em;
+  padding: 0 5px;
+}
+.oc h2 {
+  font-family: var(--oc-display);
+  font-weight: 700;
+  font-size: .85rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--oc-muted);
+}
+.oc .oc-muted { color: var(--oc-muted); }
+
+/* ---------- Legend ---------- */
+.oc-legend { color: var(--oc-muted); }
+.oc-legend i {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 2px;
+  background: var(--oc-fill);
+}
+/* Outlined swatch for leadership and committees, matching their boxes */
+.oc-legend .oc-legend-plain i {
+  background: var(--oc-surface);
+  border: 2px solid var(--oc-fg);
+}
+/* "Content teams:" group, set off with a thin outline */
+.oc-legend .oc-legend-group {
+  padding: .25rem .75rem;
+  border: 1px solid var(--oc-line);
+  border-radius: 6px;
+}
+.oc-legend .oc-legend-label {
+  font-weight: 600;
+  color: var(--oc-fg);
+}
+
+/* ---------- Skip link ---------- */
+.oc-skip:focus {
+  background: var(--oc-surface);
+  color: var(--oc-fg);
+  border: 2px solid var(--oc-focus);
+}
+
+/* ---------- Team colors ---------- */
+.fill-employment { --oc-fill: var(--oc-employment); }
+.fill-education  { --oc-fill: var(--oc-education); }
+.fill-community  { --oc-fill: var(--oc-community); }
+.fill-health     { --oc-fill: var(--oc-health); }
+.fill-core       { --oc-fill: var(--oc-core); }
+.fill-comms      { --oc-fill: var(--oc-comms); }
+.fill-admin      { --oc-fill: var(--oc-admin); }
+
+/* ---------- Node buttons (extends Bootstrap .btn) ----------
+   Selectors are prefixed with .oc so these win over Bootstrap's .btn
+   no matter which stylesheet loads first. */
+.oc .oc-node,
+.oc .oc-node:hover,
+.oc .oc-node:active,
+.oc .oc-node:focus,
+.oc .oc-node:focus-visible {
+  background-color: var(--oc-fill);
+  color: #fff;
+  border: 2px solid transparent;
+}
+.oc .oc-node {
+  width: 100%;
+  min-height: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: .75rem .875rem;
+  border-radius: 2px;
+  box-shadow: none;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.oc .oc-node:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgb(0 0 0 / .18);
+}
+.oc .oc-node:focus-visible {
+  outline: 3px solid var(--oc-focus);
+  outline-offset: 3px;
+  box-shadow: none;
+}
+.oc .oc-node[data-oc-open] {
+  box-shadow: 0 0 0 3px var(--oc-bg), 0 0 0 5px var(--oc-fill);
+}
+.oc .oc-node .oc-t {
+  font-family: var(--oc-display);
+  font-weight: 700;
+  font-size: .95rem;
+  line-height: 1.25;
+  text-wrap: balance;
+}
+.oc .oc-node .oc-l {
+  font-size: .875rem;
+  opacity: .92;
+  margin-top: 2px;
+}
+
+/* Outlined boxes for leadership and committees */
+.oc .oc-node.oc-plain,
+.oc .oc-node.oc-plain:hover,
+.oc .oc-node.oc-plain:active,
+.oc .oc-node.oc-plain:focus,
+.oc .oc-node.oc-plain:focus-visible {
+  --oc-fill: var(--oc-fg);
+  background-color: var(--oc-surface);
+  color: var(--oc-fg);
+  border-color: var(--oc-fg);
+}
+.oc .oc-node.oc-plain .oc-l { color: var(--oc-muted); opacity: 1; }
+
+/* ---------- Tooltips ---------- */
+.oc .oc-item { position: relative; }
+.oc .oc-tip {
+  position: absolute;
+  z-index: 30;
+  top: calc(100% + 10px);
+  left: 50%;
+  width: min(300px, calc(100vw - 32px));
+  transform: translateX(calc(-50% + var(--oc-shift, 0px)));
+  padding: .875rem 1rem;
+  border-radius: 6px;
+  background: var(--oc-tip-bg);
+  color: var(--oc-tip-fg);
+  font-family: var(--oc-body);
+  font-size: .95rem;
+  line-height: 1.45;
+  text-align: left;
+  box-shadow: 0 10px 30px rgb(0 0 0 / .25);
+}
+.oc .oc-tip[hidden] { display: none; }
+/* invisible bridge so the pointer can travel from the box onto the tooltip */
+.oc .oc-tip::before {
+  content: ""; position: absolute; left: 0; right: 0; top: -12px; height: 12px;
+}
+/* arrow */
+.oc .oc-tip::after {
+  content: ""; position: absolute; top: -6px;
+  left: calc(50% - var(--oc-shift, 0px) - 6px);
+  width: 12px; height: 12px;
+  background: var(--oc-tip-bg);
+  transform: rotate(45deg);
+}
+.oc .oc-tip.oc-tip-top { top: auto; bottom: calc(100% + 10px); }
+.oc .oc-tip.oc-tip-top::before { top: auto; bottom: -12px; }
+.oc .oc-tip.oc-tip-top::after { top: auto; bottom: -6px; }
+.oc .oc-tip p { margin: 0; }
+.oc .oc-tip .oc-tt { font-family: var(--oc-display); font-weight: 700; margin-bottom: 2px; }
+.oc .oc-tip .oc-meta { color: var(--oc-tip-muted); font-size: .85rem; margin-bottom: 8px; }
+.oc .oc-tip a {
+  color: var(--oc-tip-fg);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.oc .oc-tip a:hover { text-decoration-thickness: 2px; }
+.oc .oc-tip a:focus-visible { outline: 2px solid var(--oc-tip-fg); outline-offset: 2px; border-radius: 2px; }
+
+/* ---------- Collaboration arrows ---------- */
+.oc-collab { color: var(--oc-fg); }
+.oc-collab svg { width: 64px; height: 32px; }
+.oc-collab-label {
+  font-family: var(--oc-display);
+  font-weight: 700;
+  font-size: .7rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--oc-muted);
+}
+
+/* ---------- Connector lines ----------
+   Drawn by org-chart.js into an SVG layer from the boxes' real positions.
+   Only shown at the large breakpoint, where the chart layout applies. */
+.oc { position: relative; isolation: isolate; }
+.oc-lines {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  pointer-events: none; z-index: -1; overflow: visible;
+}
+.oc-lines path {
+  fill: none;
+  stroke: var(--oc-line);
+  stroke-width: 2;
+  stroke-linejoin: miter;
+}
+
+@media (min-width: 992px) {
+  /* Chart layout on large screens: Director and Associate Director stacked in the
+     middle, Operations and Leadership to the left, committees to the right.
+     Source order stays logical for screen readers. */
+  .oc .oc-lead {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.7fr 1.3fr;
+    grid-template-areas:
+      "ops    lead dir   adv"
+      "ops    lead assoc care"
+      "morale .    .     .";
+    column-gap: 2rem;
+    row-gap: 1.25rem;
+    margin: 0;
+  }
+  .oc .oc-lead > * { width: auto; max-width: none; margin: 0; padding: 0; }
+  .oc-c-dir    { grid-area: dir; }
+  .oc-c-assoc  { grid-area: assoc; }
+  .oc-c-adv    { grid-area: adv; }
+  .oc-c-care   { grid-area: care; }
+  .oc-c-ops    { grid-area: ops;  align-self: center; }
+  .oc-c-leadteam { grid-area: lead; align-self: center; }
+  .oc-c-morale { grid-area: morale; }
+  .oc .oc-c-dir .oc-node, .oc .oc-c-assoc .oc-node { min-height: 72px; }
+  .oc .oc-c-dir .oc-t, .oc .oc-c-assoc .oc-t { font-size: 1.1rem; }
+}
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .oc .oc-node { transition: none; }
+  .oc .oc-node:hover { transform: none; }
+}
+</style>
+</head>
+<body>
+
+  
+
+  <a class="oc-skip visually-hidden-focusable position-absolute top-0 start-0 m-2 p-2 z-3" href="#oc-teams">Skip to teams</a>
+
+<main class="oc">
+  <header class="mb-5">
+   <!-- <p class="oc-eyebrow mb-2">ICI at UMass Boston &amp; Boston Children's Hospital</p> -->
+    <h1 class="mb-2">ICI Organizational Chart</h1>
+     <p class="oc-intro mb-3">Teams and committees at the ICI, with each group's lead and role. Content teams and core function teams report to the Associate Director and work together across every project.</p>
+    <p class="oc-intro mb-3">Hover over or tab to any box to see what that team does. Click or tap a box to keep its details open, and press <kbd>Esc</kbd> to close them.</p>
+    <ul class="oc-legend list-unstyled d-flex flex-wrap align-items-center gap-3 small mb-0" aria-label="Color key">
+      <li class="d-inline-flex align-items-center gap-2 oc-legend-plain"><i aria-hidden="true"></i>Leadership and committees</li>
+      <li class="oc-legend-group d-inline-flex flex-wrap align-items-center gap-2">
+        <span class="oc-legend-label" id="oc-legend-content">Content teams:</span>
+        <ul class="list-unstyled d-inline-flex flex-wrap gap-3 mb-0" aria-labelledby="oc-legend-content">
+          <li class="d-inline-flex align-items-center gap-2 fill-employment"><i aria-hidden="true"></i>Employment</li>
+          <li class="d-inline-flex align-items-center gap-2 fill-education"><i aria-hidden="true"></i>Education</li>
+          <li class="d-inline-flex align-items-center gap-2 fill-community"><i aria-hidden="true"></i>Community</li>
+          <li class="d-inline-flex align-items-center gap-2 fill-health"><i aria-hidden="true"></i>Health care</li>
+        </ul>
+      </li>
+      <li class="d-inline-flex align-items-center gap-2 fill-core"><i aria-hidden="true"></i>Core function</li>
+      <li class="d-inline-flex align-items-center gap-2 fill-admin"><i aria-hidden="true"></i>Administration</li>
+    </ul>
+  </header>
+
+  <section aria-labelledby="oc-h-lead" class="mb-5">
+    <h2 id="oc-h-lead" class="mb-3">Leadership and committees</h2>
+    <div class="container-fluid">
+      <!-- Source order = reading order; a CSS grid restores the chart's visual arrangement -->
+      <ul class="oc-lead row row-cols-1 row-cols-sm-2 gx-4 gy-3 list-unstyled mb-0" id="oc-leadership"></ul>
+    </div>
+  </section>
+
+  <section id="oc-teams" aria-labelledby="oc-h-teams">
+    <div class="container-fluid">
+      <div class="oc-teams row gx-0 gy-4 gy-lg-0">
+        <div class="oc-content-col col-12 col-lg-5 pe-lg-4 pt-lg-4">
+          <h2 id="oc-h-content" class="mb-3">Content teams</h2>
+          <ul id="oc-content" class="list-unstyled d-grid gap-2 mb-0" aria-labelledby="oc-h-content"></ul>
+        </div>
+
+        <div class="oc-collab col-lg-2 d-none d-lg-flex flex-column justify-content-around align-items-center py-5" aria-hidden="true">
+          <svg viewBox="0 0 64 32"><path d="M2 16 L18 2 V10 H46 V2 L62 16 L46 30 V22 H18 V30 Z" fill="currentColor"/></svg>
+          <span class="oc-collab-label text-center">Work together</span>
+          <svg viewBox="0 0 64 32"><path d="M2 16 L18 2 V10 H46 V2 L62 16 L46 30 V22 H18 V30 Z" fill="currentColor"/></svg>
+          <svg viewBox="0 0 64 32"><path d="M2 16 L18 2 V10 H46 V2 L62 16 L46 30 V22 H18 V30 Z" fill="currentColor"/></svg>
+        </div>
+
+        <div class="oc-core-col col-12 col-lg-5 ps-lg-4 pt-lg-4 d-grid gap-4 align-content-start">
+          <div>
+            <h2 id="oc-h-core" class="mb-3">Core function</h2>
+            <ul id="oc-core" class="list-unstyled d-grid gap-2 mb-0" aria-labelledby="oc-h-core"></ul>
+          </div>
+          <div>
+            <h2 id="oc-h-admin" class="mb-3">Administration</h2>
+            <ul id="oc-admin" class="list-unstyled d-grid gap-2 mb-0" aria-labelledby="oc-h-admin"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <!-- Org chart script (must load after the markup above) -->
+  <script>
+(() => {
+  /* Each entry's `desc` is the text shown in that box's tooltip.
+     Edit it to fill in the description; each one is independent of the others.
+     Leave it empty ("") to show only the title and lead.
+
+     `lead` can be plain text, or a list of people with links (links appear in the tooltip):
+       lead: "Winsor"
+       lead: [{ name: "Winsor", url: "https://www.communityinclusion.org/..." }]
+       lead: [{ name: "Ashwill", url: "https://..." }, { name: "Donaldson", url: "https://..." }]
+     A person without a url shows as plain text. */
+
+  // Visual position on large screens is set by the CSS grid (.oc-c-* grid areas)
+  const data = {
+    leadership: [
+      { id: "dir",      cell: "dir",      title: "Director", lead: [{ name:"Kelly Nye-Lengerman", url: "https://iciboston.org/about/staff-directory/kelly-nye-lengerman" }], plain: true, rel: "Leads the Institute",
+        desc: "" },
+      { id: "assoc",    cell: "assoc",    title: "Associate Director", lead:  [{ name: "Julisa Cully", url: "https://iciboston.org/about/staff-directory/julisa-cully" }], plain: true, rel: "Reports to the Director",
+        desc: "" },
+      { id: "leadteam", cell: "leadteam", title: "Leadership Team", lead: [{ name:"Kelly Nye-Lengerman", url: "https://iciboston.org/about/staff-directory/kelly-nye-lengerman" }], plain: true, rel: "Advises the Director",
+        desc: "" },
+      { id: "ops",      cell: "ops",      title: "Operations Team", lead: [{ name: "Julisa Cully", url: "https://iciboston.org/about/staff-directory/julisa-cully" }], plain: true, rel: "Works with the Leadership Team",
+        desc: "" },
+      { id: "morale",   cell: "morale",   title: "Morale Committee", lead:[
+  { name: "Quinn Barbour", url: "https://iciboston.org/about/staff-directory/quinn-barbour" },
+  { name: "Jill Eastman", url: "https://iciboston.org/about/staff-directory/jill-eastman" }
+],
+plain: true, rel: "Part of the Operations Team",
+        desc: "The Morale Committee (MC) aims to help SGISD/ICI’s leadership foster an inclusive and engaged workforce, and to assist in building cohesion and collaboration. It strives to create conditions that allow staffers to feel motivated, valued, and connected. The MC wants to work with leadership to develop initiatives and opportunities to make employees feel more comfortable and connected to their work, increase job satisfaction, and enhance the overall work experience." },
+      { id: "adv",      cell: "adv",      title: "Community Advisory Committee", lead: [{ name: "Allison Cohen Hall", url: "https://iciboston.org/about/staff-directory/allison-cohen-hall" }], plain: true, rel: "Advises the Director",
+        desc: "" },
+      { id: "care",     cell: "care",     title: "CARE-I Committee", lead:[
+  { name: "Katie Ashwill", url: "https://iciboston.org/about/staff-directory/katie-ashwill" },
+  { name: "Tiffany Donaldson", url: "https://www.umb.edu/directory/tiffanydonaldson/" }
+], plain: true, rel: "Advises the Director",
+        desc: "CARE-I works with the leadership team to lead and guide ICI’s commitment to building new and dismantling existing practices that perpetuate racial inequities at the ICI and in our communities." }
+    ],
+    content: [
+      { id: "emp-sys",  fill: "employment", title: "Employment IDD Systems and Policy",
+        lead: [{ name: "Jean Winsor", url: "https://iciboston.org/about/staff-directory/jean-e-winsor" }],
+        desc: "The Employment Policy and Systems team focuses on describing the outcomes of employment and day services for people with intellectual and developmental disabilities (IDD) and related disabilities. We work across multiple projects to contribute to a comprehensive understanding of the factors that influence integrated employment. Our research agenda is grounded in the Access to Integrated Employment project, a longitudinal data project deemed a Developmental Disabilities Project of National Significance by the Administration on Community Living. For more than 30 years, we have been translating research to practice through research-based models for change, such as the High Performing States Model and the 10 Elements of Provider Transformation. The State Employment Leadership Network is an integral part of our team’s research-to-practice and practice-to-research strategies." },
+      { id: "emp-impl", fill: "employment", title: "Employment IDD Implementation & Capacity Building", lead: [{ name: "Staci Jones", url: "https://iciboston.org/about/staff-directory/staci-jones" }],
+        desc: "" },
+      { id: "emp-xd",   fill: "employment", title: "Cross-Disability Employment Implementation and Research", lead: [{ name: "Susan Foley", url: "https://iciboston.org/about/staff-directory/susan-foley" }],
+        desc: 'The Cross-Disability Employment Implementation and Research (CDEIR) team is a 19-member team that includes researchers, subject matter experts, training and technical assistants, and implementation and knowledge translation specialists doing a broad scope of work across disability types, systems, and core functions. The CDEIR Team has a national reputation for innovation in vocational rehabilitation, partners with State and Tribal VR Agencies across the country, and has longstanding partnerships with Langston University (an HBCU) and five other Minority Serving Institutes (MSIs). CDEIR employment innovations include Progressive Employment, the Rapid Engagement Team Approach, Career Pathways Advancement Models, American Indian Rural Youth Apprenticeship Models, Business Engagement Strategies, Research Capacity Building, Transformational Leadership, and Clinical Supervision. For more details, including toolkits, reports, training materials, please visit <a href="https://www.explorevr.org">ExploreVR.org</a>.' },
+      { id: "ipse",     fill: "education",  title: "Inclusive Postsecondary Education", lead: [{ name: "Meg Grigal", url: "https://iciboston.org/about/staff-directory/meg-grigal" }],
+        desc: 'The Inclusive Postsecondary Education (IPSE) team operates Think College, a national center that expands and improves meaningful inclusive college experiences for students with intellectual disability through research, evaluation, training, technical assistance, and consultation. The IPSE team supports colleges and universities in developing and sustaining high-quality IPSE programs and helps students, families, professionals, and policymakers navigate the opportunities and challenges of developing and sustaining inclusive postsecondary education. The team provides online and in-person support nationally and internationally and maintains the nation&rsquo;s only directory of college programs for students with intellectual disability. While the IPSE team is involved in a variety of grant-funded projects, its largest initiative is the National Coordinating Center for Transition and Postsecondary Programs for Students with Intellectual Disabilities, funded through the Department of Education. To learn more about the IPSE team&rsquo;s work at Think College, please visit <a href="https://www.thinkcollege.net">www.thinkcollege.net</a> or visit <a href="https://www.thinkhighered.net">www.thinkhighered.net</a> to learn more about inclusive postsecondary education.' },
+      { id: "iet",      fill: "education",  title: "Inclusive Education and Transition", lead: [{ name: "Maria Paiewonsky", url: "https://iciboston.org/about/staff-directory/maria-paiewonsky" }],
+        desc: 'The Inclusive Education and Transition Team brings together expertise in inclusive special education practices, secondary transition to adult life, college-based transition services, and inclusive postsecondary education for individuals with intellectual and developmental disabilities. We serve as the primary training, technical assistance, and professional development provider for the Massachusetts Inclusive Postsecondary Education (MAIPSE) initiative and offer the UMass Boston Transition Leadership Program, which prepares scholars for state endorsement and national certification as transition specialists. We also provide professional development, training, technical assistance, and consultation to schools, colleges, universities, and community partners. Our work focuses on expanding access to college and careers and strengthening transition services for students with intellectual and developmental disabilities. For more information, visit <a href="https://massinclusiveeducation.org">massinclusiveeducation.org</a>.' },
+      { id: "comm",     fill: "community",  title: "Community", lead: [{ name: "Jaimie Timmons", url: "https://iciboston.org/about/staff-directory/jaimie-ciulla-timmons" }],
+        desc: "" },
+      { id: "health",   fill: "health",     title: "Health and Human Development", lead: [{ name: "Jason Folger", url: "https://iciboston.org/about/staff-directory/jason-fogler" }],
+        desc: "" }
+    ],
+    core: [
+      { id: "ta",    fill: "core",  title: "TA, Community Service, & Training",
+        desc: "" },
+      { id: "re",    fill: "core",  title: "Research and Evaluation",
+        desc: "" },
+      { id: "lived", fill: "core",  title: "Engagement of People with Lived Experience – Access", lead: [{ name: "Allison Cohen Hall", url: "https://iciboston.org/about/staff-directory/allison-cohen-hall" }],
+        desc: "" },
+      { id: "mc",    fill: "comms", title: "Marketing and Communications Team", lead: [{ name: "David Temelini", url: "https://iciboston.org/about/staff-directory/david-temelini" }],
+desc: [
+  "The MAC Team works across the ICI, SGISD, and CEHD to help write, edit, format, and design products, publications, social media, instructional media, and websites accessibly and in a timely manner. Our role is to help get your work out to the appropriate audiences through a variety of channels. We can meet with you to help brainstorm what makes sense to promote from your team, how to frame your work for different audiences and funders.",
+  'We are here to help you but are also always open to suggestions from staff on how to further our efforts. If you have marketing ideas, media contacts, legislative contacts, or questions, feel free to email, call, text, Zoom, or stop by our offices if we are on site. See our <a href="https://liveumb.sharepoint.com/sites/iciZilla/Shared%20Documents/MACFAQ2024_R.pdf">MAC FAQ for more information</a>.'
+] }
+    ],
+    admin: [
+      { id: "ap",  fill: "admin", title: "Administration and Personnel Team", lead: [{ name: "Sarah Paterson", url: "https://iciboston.org/about/staff-directory/sarah-paterson" }],
+        desc: "The Administration and Personnel Team is responsible for all personnel and administrative operations, including human resources and the operational, events, and travel related needs of SGISD academic programs, centers, and institutes. We work closely with the Finance Team on invoicing, planning, and budget development." },
+      { id: "fin", fill: "admin", title: "Finance Team", lead:[{ name: "Jessica Sullivan", url: "https://iciboston.org/about/staff-directory/jessica-sullivan" }],
+        desc: "The Finance Team is responsible for sponsored program proposal development and award management, including the development and submission of proposals, account set-up, personnel and non-personnel transactions, and procurement. Award management activities include budget forecasting and expenditure monitoring, processing of procurement, consultant and subaward transactions, financial reporting, and management of personnel effort allocation. The Finance Team works closely with ORSP to ensure ICI's compliance with university policies, award terms and conditions, and sponsor regulations. The Finance Team also manages ICI's non-sponsored program revenue and expenditures and works in collaboration with the Controller's Office and other university departments to manage and administer those accounts. We also provide support to SGISD faculty and administration on sponsored and non-sponsored programs." }
+    ]
+  };
+  const defaultRel = {
+    content: "Content team",
+    core: "Core function",
+    admin: "Administration"
+  };
+  const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  // Turn `lead` (text or list of people) into [{ name, url }]
+  function people(lead) {
+    if (!lead) return [];
+    if (typeof lead === "string") return lead.split("/").map(name => ({ name: name.trim() }));
+    return lead.map(p => (typeof p === "string" ? { name: p } : p));
+  }
+
+  function makeNode(n, group) {
+    const li = document.createElement("li");
+    li.className = "oc-item" + (group === "leadership" ? ` col oc-cell oc-c-${n.cell}` : "");
+    const rel = n.rel || defaultRel[group];
+    const who = people(n.lead);
+    const names = who.map(p => p.name).join("/");
+    const linked = who.some(p => p.url);
+    const whoHtml = who.map(p => p.url
+      ? `<a href="${esc(p.url)}">${esc(p.name)}</a>`
+      : esc(p.name)).join("/");
+    const tipId = "oc-tip-" + n.id;
+    li.innerHTML = `
+      <button type="button" class="btn oc-node ${n.plain ? "oc-plain" : "fill-" + n.fill}"
+              aria-describedby="${tipId}">
+        <span class="oc-t">${esc(n.title)}</span>
+        ${names ? `<span class="oc-l"><span class="visually-hidden">Led by </span>${esc(names)}</span>` : ""}
+      </button>
+      <div class="oc-tip" id="${tipId}" ${linked ? "" : 'role="tooltip"'} hidden>
+        <p class="oc-tt">${esc(n.title)}</p>
+        <p class="oc-meta">${names ? "Lead: " + whoHtml + " · " : ""}${esc(rel)}</p>
+        ${n.desc ? [].concat(n.desc).map(p => `<p>${p}</p>`).join("") : ""}
+      </div>`;
+    return li;
+  }
+
+  for (const group of ["leadership", "content", "core", "admin"]) {
+    const ul = document.getElementById("oc-" + group);
+    data[group].forEach(n => ul.appendChild(makeNode(n, group)));
+  }
+
+  /* ---------- Tooltips (no Bootstrap JS or Popper needed) ----------
+     Meets WCAG 1.4.13: hoverable (pointer can move onto the tooltip), dismissible (Esc),
+     persistent (stays until pointer/focus leaves, or until closed when pinned by click/tap).
+     The button's aria-describedby always points at its tooltip, so screen readers
+     read the description on focus. Links in a tooltip come next in Tab order. */
+  let current = null, pinned = false, hideTimer = null;
+
+  function place(li) {
+    const tip = li.querySelector(".oc-tip");
+    tip.classList.remove("oc-tip-top");
+    tip.style.setProperty("--oc-shift", "0px");
+    let r = tip.getBoundingClientRect();
+    const vw = document.documentElement.clientWidth, gutter = 12;
+    let shift = 0;
+    if (r.left < gutter) shift = gutter - r.left;
+    else if (r.right > vw - gutter) shift = vw - gutter - r.right;
+    tip.style.setProperty("--oc-shift", shift + "px");
+    // Flip above the box when there's no room below but there is room above
+    const btnTop = li.querySelector(".oc-node").getBoundingClientRect().top;
+    if (r.bottom > window.innerHeight && btnTop > r.height + 16) tip.classList.add("oc-tip-top");
+  }
+  function open(li, pin = false) {
+    clearTimeout(hideTimer);
+    if (current && current !== li) close(true);
+    li.querySelector(".oc-tip").hidden = false;
+    li.querySelector(".oc-node").setAttribute("data-oc-open", "");
+    if (pin) pinned = true;
+    if (current !== li) { current = li; place(li); }
+  }
+  function close(force = false) {
+    if (!current || (pinned && !force)) return;
+    current.querySelector(".oc-tip").hidden = true;
+    current.querySelector(".oc-node").removeAttribute("data-oc-open");
+    current = null; pinned = false;
+  }
+  function scheduleClose() {
+    clearTimeout(hideTimer);
+    hideTimer = setTimeout(() => close(), 200);
+  }
+
+  document.querySelectorAll(".oc .oc-item").forEach(li => {
+    const btn = li.querySelector(".oc-node");
+    li.addEventListener("mouseenter", () => open(li));   // includes the tooltip itself
+    li.addEventListener("mouseleave", scheduleClose);
+    btn.addEventListener("focus", () => open(li));
+    // Stay open while focus moves from the box into its tooltip (e.g. Tab to a name link)
+    li.addEventListener("focusout", e => {
+      if (!li.contains(e.relatedTarget) && !pinned && current === li) close();
+    });
+    btn.addEventListener("click", () => {
+      if (current === li && pinned) close(true);
+      else open(li, true);
+    });
+  });
+
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape" && current) {
+      const li = current;
+      if (li.querySelector(".oc-tip").contains(document.activeElement)) li.querySelector(".oc-node").focus();
+      close(true);
+    }
+  });
+  document.addEventListener("pointerdown", e => {
+    if (current && !current.contains(e.target)) close(true);
+  });
+  window.addEventListener("resize", () => { if (current) place(current); });
+
+  /* ---------- Connector lines ----------
+     Measures the real boxes and draws elbow lines into one decorative SVG.
+     Redraws whenever the layout changes size (wrapping text, fonts loading, resizing). */
+  const root = document.querySelector(".oc");
+  const NS = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(NS, "svg");
+  svg.setAttribute("class", "oc-lines");
+  svg.setAttribute("aria-hidden", "true");
+  svg.setAttribute("focusable", "false");
+  root.prepend(svg);
+
+  const wide = window.matchMedia("(min-width: 992px)");
+  const GAP = 12; // distance from box edge to a bracket line
+
+  function draw() {
+    svg.replaceChildren();
+    if (!wide.matches) return;
+
+    const origin = root.getBoundingClientRect();
+    const box = el => {
+      const r = el.getBoundingClientRect();
+      const x = r.left - origin.left, y = r.top - origin.top;
+      return { l: x, r: x + r.width, t: y, b: y + r.height, cx: x + r.width / 2, cy: y + r.height / 2 };
+    };
+    const cell = name => box(root.querySelector(`.oc-c-${name} .oc-node`));
+    const R = n => Math.round(n); // whole pixels keep 2px lines crisp
+    const path = d => {
+      const p = document.createElementNS(NS, "path");
+      p.setAttribute("d", d);
+      svg.appendChild(p);
+    };
+        
+    const dir = cell("dir"), assoc = cell("assoc"), lead = cell("leadteam"),
+          ops = cell("ops"), morale = cell("morale"), adv = cell("adv"), care = cell("care");
+
+    // Leadership row (matches the PDF): one horizontal spine runs from Operations,
+    // through Leadership Team, across the Director/Associate Director junction,
+    // to a bracket feeding both committees.
+    const spineY = (dir.b + assoc.t) / 2;
+    const bx = (Math.max(dir.r, assoc.r) + Math.min(adv.l, care.l)) / 2;
+    path(`M${R(ops.r)} ${R(ops.cy)} H${R(lead.l)}`);             // Operations — Leadership Team
+    path(`M${R(lead.r)} ${R(spineY)} H${R(bx)}`);                // Leadership Team → spine → bracket
+    path(`M${R(dir.cx)} ${R(dir.b)} V${R(assoc.t)}`);            // Director → Associate Director
+    path(`M${R(ops.cx)} ${R(ops.b)} V${R(morale.t)}`);           // Operations → Morale
+    path(`M${R(bx)} ${R(adv.cy)} V${R(care.cy)}`);               // committee bracket
+    path(`M${R(bx)} ${R(adv.cy)} H${R(adv.l)}`);
+    path(`M${R(bx)} ${R(care.cy)} H${R(care.l)}`);
+
+    // Teams: Associate Director → bus → two brackets
+    const content = [...root.querySelectorAll("#oc-content .oc-node")].map(box);
+    const core = [...root.querySelectorAll("#oc-core .oc-node, #oc-admin .oc-node")].map(box);
+    if (!content.length || !core.length) return;
+
+    const teamsTop = box(root.querySelector(".oc-teams")).t;
+    const busY = (assoc.b + teamsTop) / 2;
+    const leftX = Math.max(...content.map(b => b.r)) + GAP;
+    const rightX = Math.min(...core.map(b => b.l)) - GAP;
+
+    path(`M${R(assoc.cx)} ${R(assoc.b)} V${R(busY)}`);
+    path(`M${R(Math.min(leftX, assoc.cx))} ${R(busY)} H${R(Math.max(rightX, assoc.cx))}`);
+    path(`M${R(leftX)} ${R(busY)} V${R(content.at(-1).cy)}`);
+    path(`M${R(rightX)} ${R(busY)} V${R(core.at(-1).cy)}`);
+    content.forEach(b => path(`M${R(b.r)} ${R(b.cy)} H${R(leftX)}`));
+    core.forEach(b => path(`M${R(rightX)} ${R(b.cy)} H${R(b.l)}`));
+  }
+
+  let frame = 0;
+  const schedule = () => { cancelAnimationFrame(frame); frame = requestAnimationFrame(draw); };
+  const ro = new ResizeObserver(schedule);
+  [root, ...root.querySelectorAll(".oc-lead, .oc-teams")].forEach(el => ro.observe(el));
+  wide.addEventListener("change", schedule);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(schedule);
+  window.addEventListener("load", schedule);
+  schedule();
+})();
+</script>
+</body>
+</html>
