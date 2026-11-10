@@ -51,7 +51,23 @@ module.exports = {
         },
       },
     },
-    `gatsby-plugin-netlify`,
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        // The plugin's default security headers include X-Frame-Options: DENY,
+        // which would block SharePoint from embedding pages. Turn the defaults
+        // off and restate the rest, with frame-ancestors controlling framing.
+        mergeSecurityHeaders: false,
+        headers: {
+          "/*": [
+            "Content-Security-Policy: frame-ancestors 'self' https://liveumb.sharepoint.com",
+            "X-XSS-Protection: 1; mode=block",
+            "X-Content-Type-Options: nosniff",
+            "Referrer-Policy: same-origin",
+          ],
+        },
+      },
+    },
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
