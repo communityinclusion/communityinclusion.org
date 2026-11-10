@@ -32,6 +32,23 @@ module.exports = {
   flags: {
     PARALLEL_SOURCING: false,
   },
+  // On Netlify, Gatsby uses gatsby-adapter-netlify, which ignores
+  // gatsby-plugin-netlify's header options and adds x-frame-options: DENY
+  // by default. Headers set here override the adapter's defaults by key, so
+  // keys must be lowercase to match. frame-ancestors lets SharePoint embed
+  // pages; browsers that support it ignore x-frame-options.
+  headers: [
+    {
+      source: "/*",
+      headers: [
+        {
+          key: "content-security-policy",
+          value: "frame-ancestors 'self' https://liveumb.sharepoint.com",
+        },
+        { key: "x-frame-options", value: "SAMEORIGIN" },
+      ],
+    },
+  ],
   plugins: [
     {
       resolve: "gatsby-plugin-robots-txt",
@@ -51,23 +68,7 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: `gatsby-plugin-netlify`,
-      options: {
-        // The plugin's default security headers include X-Frame-Options: DENY,
-        // which would block SharePoint from embedding pages. Turn the defaults
-        // off and restate the rest, with frame-ancestors controlling framing.
-        mergeSecurityHeaders: false,
-        headers: {
-          "/*": [
-            "Content-Security-Policy: frame-ancestors 'self' https://liveumb.sharepoint.com",
-            "X-XSS-Protection: 1; mode=block",
-            "X-Content-Type-Options: nosniff",
-            "Referrer-Policy: same-origin",
-          ],
-        },
-      },
-    },
+    `gatsby-plugin-netlify`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
