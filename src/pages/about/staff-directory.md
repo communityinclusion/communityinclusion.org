@@ -140,6 +140,13 @@ Staff listing and contact details<!-- end -->
       <td><a href="mailto:irina.cain@umb.edu">irina.cain@umb.edu</a></td>
       <td><a href="/about/staff-directory/irina-cain" aria-label="View profile: Irina Cain">View Profile</a></td>
     </tr>
+      <tr>
+      <td>Alexandra</td>
+      <td>Candelaria</td>
+      <td></td>
+      <td><a href="mailto:alexandra.candelaria@umb.edu">Alexandra.Candelaria@umb.edu</a></td>
+      <td><a href="/about/staff-directory/alex-candelaria" aria-label="View profile: Alexandra Candelaria">View Profile</a></td>
+    </tr>
     <tr>
       <td>Jeff</td>
       <td>Coburn</td>
@@ -526,6 +533,13 @@ Staff listing and contact details<!-- end -->
       <td><a href="/about/staff-directory/jamie-morrison" aria-label="View profile: Jamie Morrison">View Profile</a></td>
     </tr>
     <tr>
+      <td>Aisha J </td>
+      <td>Omar</td>
+      <td></td>
+      <td><a href="mailto:aisha.omar@umb.edu">Aisha.Omar@umb.edu</a></td>
+      <td><a href="/about/staff-directory/aisha-omar" aria-label="View profile: Aisha J Omar">View Profile</a></td>
+    </tr>
+      <tr>
       <td>Kerim</td>
       <td>Munir</td>
       <td>(617) 355-7166</td>
