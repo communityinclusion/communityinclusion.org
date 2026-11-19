@@ -211,6 +211,13 @@ Staff listing and contact details<!-- end -->
       <td><a href="/about/staff-directory/daria-domin" aria-label="View profile: Daria Domin">View Profile</a></td>
     </tr>
     <tr>
+      <td>Katherine</td>
+      <td>Dos Santos</td>
+      <td>(617) 287-4313</td>
+      <td><a href="mailto:Katherine.DosSantos@umb.edu">Katherine.DosSantos@umb.edu</a></td>
+      <td><a href="/about/staff-directory/katherine-dos-santos" aria-label="View profile: Katherine Dos Santos">View Profile</a></td>
+    </tr>
+    <tr>
       <td>Jill</td>
       <td>Eastman</td>
       <td>(617) 922-2123</td>
@@ -545,6 +552,13 @@ Staff listing and contact details<!-- end -->
       <td>(617) 355-7166</td>
       <td><a href="mailto:Kerim.Munir@childrens.harvard.edu">Kerim.Munir@childrens.harvard.edu</a></td>
       <td><a href="/about/staff-directory/kerim-munir" aria-label="View profile: Kerim Munir">View Profile</a></td>
+    </tr>
+     <tr>
+      <td>Kelly</td>
+      <td>Nye-Lengerman</td>
+      <td></td>
+      <td><a href="mailto:Kelly.NyeLengerman@umb.edu">Kelly.NyeLengerman@umb.edu</a></td>
+      <td><a href="/about/staff-directory/kelly-nye-lengerman" aria-label="View profile: Kelly Nye-Lengerman">View Profile</a></td>
     </tr>
     <tr>
       <td>Maria</td>
